@@ -1,6 +1,11 @@
 ---
-uid: Global.WeaponModel
-canonical_path: /api/Global/Model/WeaponModel
+title: WeaponModel
+description: 
+published: true
+date: 2026-02-18T23:13:14.196Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T04:42:17.236Z
 ---
 
 # Class WeaponModel
@@ -113,7 +118,7 @@ public UnitDirection GetDir(UnitModel attacker, UnitModel target)
 ```csharp
 public static WeaponModel GetDummyWeapon()
 ```
-#INC
+Creates and returns the baton that agents without an E.G.O. weapon equipped wield.
 
 
 #### Returns
@@ -125,7 +130,7 @@ public static WeaponModel GetDummyWeapon()
 ```csharp
 public static WeaponModel GetOfficerWeapon()
 ```
-#INC
+Creates and returns the pistol that clerks use.
 
 
 #### Returns
