@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:28:37.989Z
+date: 2026-02-18T22:41:46.011Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -459,14 +459,14 @@ public virtual float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```csharp
 public virtual float GetDamageMultiplierInWork(UseSkill skill)
 ```
-#INC
+Called every time an agent gets an NE box during work and takes work damage. The work damage is multiplied by the return value.
 
 
 #### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `skill` | `Global.UseSkill` |  |
+| `skill` | `Global.UseSkill` | The work being done on the abnormality. |
 
 #### Returns
 
