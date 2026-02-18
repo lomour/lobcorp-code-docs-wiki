@@ -1,6 +1,11 @@
 ---
-uid: Global.BarrierBuf
-canonical_path: /api/Global/UnitBuf/BarrierBuf
+title: BarrierBuf
+description: 
+published: true
+date: 2026-02-18T22:07:22.501Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:09:22.658Z
 ---
 
 # Class BarrierBuf
@@ -11,8 +16,7 @@ canonical_path: /api/Global/UnitBuf/BarrierBuf
 ```csharp
 public class BarrierBuf : UnitBuf
 ```
-Buff for having a shield applied?
-#INC 
+Shield buff given by shield bullets and certain E.G.O. effects. When the unit with this buff takes damage, it will reduce the barrierValue of the BarrierBuff with the matching RWBPType by the damage. If the barrierValue is greater than 0 after this reduction, the unit doesn't take the damage. Otherwise, the shield breaks without reducing the damage. The shield breaks on its own when the time expires.
 
 
 ## Inheritance
