@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:26:05.488Z
+date: 2026-02-18T22:28:37.989Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -386,6 +386,7 @@ public bool ExistSaveData()
 public virtual bool ForcelyFail(UseSkill skill)
 ```
 Called every time a cube is generated during the work. If true, an NE box will be produced regardless of any other effects.
+This is ignored if UseSkill.SetForceSuccess() was run, but this never happens in the base game.
 
 
 #### Parameters
