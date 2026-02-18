@@ -2,7 +2,7 @@
 title: WolfDefenseBuf
 description: 
 published: true
-date: 2026-02-18T22:02:57.951Z
+date: 2026-02-18T22:03:15.821Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-15T05:12:36.043Z
@@ -17,7 +17,7 @@ dateCreated: 2026-01-15T05:12:36.043Z
 public class WolfDefenseBuf : UnitBuf
 ```
 
-Buff that multiplies incoming damage by defenseFactor. [Big and Will Be Bad Wolf](/api/Global/IOBserver/BigBadWolf) applies this to all agents with a `defenseFactor` of 0.9 when it is suppressed by [Little Red Riding Hooded Mercenary](/api/Global/IOBserver/RedHood). Does not stack. Removed at day end.
+Buff that multiplies incoming damage by `defenseFactor`. [Big and Will Be Bad Wolf](/api/Global/IOBserver/BigBadWolf) applies this to all agents with a `defenseFactor` of 0.9 when it is suppressed by [Little Red Riding Hooded Mercenary](/api/Global/IOBserver/RedHood). Does not stack. Removed at day end.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → WolfDefenseBuf
