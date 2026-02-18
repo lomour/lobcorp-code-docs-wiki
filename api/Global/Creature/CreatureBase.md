@@ -1,6 +1,11 @@
 ---
-uid: Global.CreatureBase
-canonical_path: /api/Global/Creature/CreatureBase
+title: CreatureBase
+description: 
+published: true
+date: 2026-02-18T22:20:37.673Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T03:45:21.997Z
 ---
 
 # Class CreatureBase
@@ -327,15 +332,15 @@ public virtual bool CanObservedByAgent(AgentModel agent)
 ```csharp
 public virtual bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
-#INC
+Called when the abnormality would take damage. If false, the damage is canceled.
 
 
 #### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `attacker` | `Global.UnitModel` |  |
-| `dmg` | `Global.DamageInfo` |  |
+| `attacker` | `Global.UnitModel` | The source of the damage. |
+| `dmg` | `Global.DamageInfo` | Incoming damage. |
 
 #### Returns
 
