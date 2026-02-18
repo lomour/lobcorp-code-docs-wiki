@@ -1,6 +1,11 @@
 ---
-uid: Global.WolfDefenseBuf
-canonical_path: /api/Global/UnitBuf/WolfDefenseBuf
+title: WolfDefenseBuf
+description: 
+published: true
+date: 2026-02-18T21:59:54.297Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:12:36.043Z
 ---
 
 # Class WolfDefenseBuf
@@ -12,7 +17,7 @@ canonical_path: /api/Global/UnitBuf/WolfDefenseBuf
 public class WolfDefenseBuf : UnitBuf
 ```
 
-#INC #unused #maybe_unused 
+Buff that multiplies incoming damage by defenseFactor. BigBadWolf applies this to all agents with a 0.9 defenseFactor when it is suppressed by RedHood. Does not stack. Removed at day end.
 
 
 ## Inheritance
