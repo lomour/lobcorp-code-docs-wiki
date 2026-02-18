@@ -1,6 +1,11 @@
 ---
-uid: Global.Add_On
-canonical_path: /api/Global/Misc/AddOn
+title: AddOn
+description: 
+published: true
+date: 2026-02-18T22:11:23.187Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:55:37.434Z
 ---
 
 # Class Add_On
@@ -11,6 +16,8 @@ canonical_path: /api/Global/Misc/AddOn
 ```csharp
 public class Add_On
 ```
+
+Class that is added by LMM/BaseMod that loads mods.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Add_On
