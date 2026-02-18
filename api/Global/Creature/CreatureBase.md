@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:47:33.230Z
+date: 2026-02-18T22:55:35.964Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -249,7 +249,8 @@ public virtual void ActivateQliphothCounter()
 ```csharp
 public virtual void AddedQliphothCounter()
 ```
-#INC
+
+Called when the qliphoth counter is increased or reset. 
 
 
 ### AgentAnimCalled(int, WorkerModel)
@@ -1899,7 +1900,7 @@ public void ReplaceCommand(CreatureModel replaced)
 ```csharp
 public virtual void ResetQliphothCounter()
 ```
-#INC
+Increases qliphoth counter to its maximum by adding 1 to it until it is at its maximum.
 
 
 ### RoomCounterInit()
