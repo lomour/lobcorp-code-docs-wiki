@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:20:37.673Z
+date: 2026-02-18T22:26:05.488Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -385,14 +385,14 @@ public bool ExistSaveData()
 ```csharp
 public virtual bool ForcelyFail(UseSkill skill)
 ```
-#INC
+Called every time a cube is generated during the work. If true, an NE box will be produced regardless of any other effects.
 
 
 #### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `skill` | `Global.UseSkill` |  |
+| `skill` | `Global.UseSkill` | The work being done on the abnormality. |
 
 #### Returns
 
@@ -403,14 +403,14 @@ public virtual bool ForcelyFail(UseSkill skill)
 ```csharp
 public virtual bool ForcelySuccess(UseSkill skill)
 ```
-#INC
+Called every time a cube is generated during the work. If true, a PE box will be produced unless ForcelyFail is also true. This is not subject to the 95% work success cap.
 
 
 #### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `skill` | `Global.UseSkill` |  |
+| `skill` | `Global.UseSkill` | The work being done on the abnormality. |
 
 #### Returns
 
