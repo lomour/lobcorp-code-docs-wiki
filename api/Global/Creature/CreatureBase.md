@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:41:46.011Z
+date: 2026-02-18T22:47:33.230Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -440,15 +440,15 @@ public virtual bool GenPursueCommandAlter(WorkerModel target)
 ```csharp
 public virtual float GetDamageFactor(UnitModel target, DamageInfo damage)
 ```
-#INC
+Called when the abnormality takes damage. The incoming damage is multiplied by the return value.
 
 
 #### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `target` | `Global.UnitModel` |  |
-| `damage` | `Global.DamageInfo` |  |
+| `target` | `Global.UnitModel` | The source of the damage, in spite of the name. |
+| `damage` | `Global.DamageInfo` | Incoming damage.  |
 
 #### Returns
 
