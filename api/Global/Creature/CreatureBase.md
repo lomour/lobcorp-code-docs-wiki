@@ -2,7 +2,7 @@
 title: CreatureBase
 description: 
 published: true
-date: 2026-02-18T22:55:35.964Z
+date: 2026-02-18T23:04:19.026Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
@@ -857,7 +857,7 @@ public virtual bool IsIndirectSuppressable()
 ```csharp
 public virtual bool IsSensoredInPassage()
 ```
-#INC
+Abnormalities will cause graphical effects indicating that they are in a passage when this is true. If false, these effects will not be displayed (unless another abnormality is causing them).
 
 
 #### Returns
