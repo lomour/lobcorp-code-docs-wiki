@@ -1,3 +1,5 @@
+ 
+
 # Namespace BinahBoss
 
 ## Classes
@@ -60,7 +62,6 @@
 
 ### [WaveOverload](/api/BinahBoss/WaveOverload)
 
-
 ## Enums
 
 ### [BinahActionState](/api/BinahBoss/BinahActionState)
@@ -75,9 +76,9 @@
 
 ### [BinahProjectileType](/api/BinahBoss/BinahProjectileType)
 
-
 ## Delegates
 
 ### [BinahIntegerAction](/api/BinahBoss/BinahIntegerAction)
 
 ### [BinahVoidAction](/api/BinahBoss/BinahVoidAction)
+

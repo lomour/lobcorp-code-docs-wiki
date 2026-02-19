@@ -1,3 +1,5 @@
+ 
+
 # Namespace nightowl.DistortionShaderPack
 
 ## Classes
@@ -48,7 +50,7 @@
 
 ### [ScreenShotTool](/api/nightowl/DistortionShaderPack/ScreenShotTool)
 
-
 ## Enums
 
 ### [Explosion.State](/api/nightowl/DistortionShaderPack/Explosion/State)
+

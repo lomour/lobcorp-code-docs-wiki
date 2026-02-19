@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IMouseOnPointListener
 canonical_path: /api/Global/Misc/IMouseOnPointListener
 ---
 
 # Interface IMouseOnPointListener
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -27,7 +27,6 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
 ## Methods
 
 ### HasPointListener()
-
 ```csharp
 bool HasPointListener()
 ```
@@ -36,11 +35,9 @@ bool HasPointListener()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### OnPointEnter()
-
 ```csharp
 void OnPointEnter()
 ```
@@ -48,9 +45,9 @@ void OnPointEnter()
 
 
 ### OnPointExit()
-
 ```csharp
 void OnPointExit()
 ```
 #INC
+
 

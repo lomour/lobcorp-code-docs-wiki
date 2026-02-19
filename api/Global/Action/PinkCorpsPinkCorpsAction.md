@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.PinkCorps.PinkCorpsAction
 canonical_path: /api/Global/Action/PinkCorpsPinkCorpsAction
 ---
 
 # Delegate PinkCorps.PinkCorpsAction
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +15,11 @@ public delegate void PinkCorps.PinkCorpsAction()
 ## Constructors
 
 ### PinkCorpsAction(object, IntPtr)
-
 ```csharp
 public PinkCorpsAction(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,36 +28,31 @@ public PinkCorpsAction(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `callback` | `System.AsyncCallback` |  |
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke()
-
 ```csharp
 public virtual void Invoke()
 ```
+

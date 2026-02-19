@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.RedShoesSkill
 canonical_path: /api/Global/Creature/RedShoesSkill
 ---
 
 # Class RedShoesSkill
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -22,13 +22,9 @@ public class RedShoesSkill : CreatureSpecialSkill, IObserver
 ## Implements
 [IObserver](/api/Global/Misc/IObserver)
 
-## Inherited Members
-[model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate(WorkerModel)](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate-workermodel), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [DeActivate()](/api/Global/IOBserver/CreatureSpecialSkill#deactivate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [OnObserveLevelChanged()](/api/Global/IOBserver/CreatureSpecialSkill#onobservelevelchanged), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### RedShoesSkill(CreatureModel)
-
 ```csharp
 public RedShoesSkill(CreatureModel model)
 ```
@@ -36,7 +32,6 @@ public RedShoesSkill(CreatureModel model)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `model` | `Global.CreatureModel` |  |
@@ -44,7 +39,6 @@ public RedShoesSkill(CreatureModel model)
 ## Fields
 
 ### attracted
-
 ```csharp
 public bool attracted
 ```
@@ -52,11 +46,9 @@ public bool attracted
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### attractTargetAgent
-
 ```csharp
 public WorkerModel attractTargetAgent
 ```
@@ -64,11 +56,9 @@ public WorkerModel attractTargetAgent
 
 
 #### Field Value
-
 **Type:** Global.WorkerModel
 
 ### elapsed
-
 ```csharp
 private float elapsed
 ```
@@ -76,11 +66,9 @@ private float elapsed
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### frequencey
-
 ```csharp
 private const float frequencey = 30
 ```
@@ -88,11 +76,9 @@ private const float frequencey = 30
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### isAcquired
-
 ```csharp
 public bool isAcquired
 ```
@@ -100,11 +86,9 @@ public bool isAcquired
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### targetList
-
 ```csharp
 private List<WorkerModel> targetList
 ```
@@ -112,13 +96,11 @@ private List<WorkerModel> targetList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{WorkerModel}
 
 ## Methods
 
 ### Attract(WorkerModel)
-
 ```csharp
 public void Attract(WorkerModel target)
 ```
@@ -126,13 +108,11 @@ public void Attract(WorkerModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
 
 ### AttractInIsolate(AgentModel)
-
 ```csharp
 public void AttractInIsolate(AgentModel target)
 ```
@@ -140,13 +120,11 @@ public void AttractInIsolate(AgentModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.AgentModel` |  |
 
 ### DropShoes()
-
 ```csharp
 public void DropShoes()
 ```
@@ -154,7 +132,6 @@ public void DropShoes()
 
 
 ### FixedUpdate()
-
 ```csharp
 public override void FixedUpdate()
 ```
@@ -162,7 +139,6 @@ public override void FixedUpdate()
 
 
 ### FreeAttractedAgent(WorkerModel)
-
 ```csharp
 public void FreeAttractedAgent(WorkerModel target)
 ```
@@ -170,13 +146,11 @@ public void FreeAttractedAgent(WorkerModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
 
 ### GetRedShoes(int)
-
 ```csharp
 public void GetRedShoes(int startType)
 ```
@@ -184,13 +158,11 @@ public void GetRedShoes(int startType)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `startType` | `System.Int32` |  |
 
 ### GetTargetList()
-
 ```csharp
 private List<WorkerModel> GetTargetList()
 ```
@@ -198,11 +170,9 @@ private List<WorkerModel> GetTargetList()
 
 
 #### Returns
-
 **Type:** System.Collections.Generic.List{WorkerModel}
 
 ### IObserver.OnNotice(string, params object[])
-
 ```csharp
 void IObserver.OnNotice(string notice, params object[] param)
 ```
@@ -210,14 +180,12 @@ void IObserver.OnNotice(string notice, params object[] param)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `notice` | `System.String` |  |
 | `param` | `System.Object[]` |  |
 
 ### IsAtivatedForcely()
-
 ```csharp
 public bool IsAtivatedForcely()
 ```
@@ -225,11 +193,9 @@ public bool IsAtivatedForcely()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### OnInfectedTargetTerminated()
-
 ```csharp
 public void OnInfectedTargetTerminated()
 ```
@@ -237,7 +203,6 @@ public void OnInfectedTargetTerminated()
 
 
 ### OnKill()
-
 ```csharp
 public void OnKill()
 ```
@@ -245,7 +210,6 @@ public void OnKill()
 
 
 ### OnStageRelease()
-
 ```csharp
 public override void OnStageRelease()
 ```
@@ -254,7 +218,6 @@ public override void OnStageRelease()
 
 
 ### OnStageStart()
-
 ```csharp
 public override void OnStageStart()
 ```
@@ -262,7 +225,6 @@ public override void OnStageStart()
 
 
 ### SetSuppressed(List<AgentModel>)
-
 ```csharp
 public void SetSuppressed(List<AgentModel> suppressors)
 ```
@@ -270,13 +232,11 @@ public void SetSuppressed(List<AgentModel> suppressors)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `suppressors` | `System.Collections.Generic.List{AgentModel}` |  |
 
 ### SkillActivate()
-
 ```csharp
 public override void SkillActivate()
 ```
@@ -284,9 +244,12 @@ public override void SkillActivate()
 
 
 ### TryAttract()
-
 ```csharp
 public void TryAttract()
 ```
 #INC
+
+
+## Inherited Members
+[model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate(WorkerModel)](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate-workermodel), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [DeActivate()](/api/Global/IOBserver/CreatureSpecialSkill#deactivate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [OnObserveLevelChanged()](/api/Global/IOBserver/CreatureSpecialSkill#onobservelevelchanged), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

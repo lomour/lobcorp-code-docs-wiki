@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.EffectInvokedUnit
 canonical_path: /api/Global/Unit/EffectInvokedUnit
 ---
 
 # Enum EffectInvokedUnit
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,21 +15,18 @@ public enum EffectInvokedUnit
 ## Fields
 
 ### OWNER
-
 ```csharp
 OWNER = 0
 ```
 
 #### Field Value
-
 **Type:** Global.EffectInvokedUnit
 
 ### VICTIM
-
 ```csharp
 VICTIM = 1
 ```
 
 #### Field Value
-
 **Type:** Global.EffectInvokedUnit
+

@@ -1,10 +1,10 @@
+ 
 ---
 uid: Spine.Skin
 canonical_path: /api/Spine/Skin
 ---
 
 # Class Skin
-
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
 
@@ -14,9 +14,6 @@ public class Skin
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Skin
-
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 
 ## Extension Methods
 - [FindAttachmentsForSlot(Skin, string, SkeletonData, List<Attachment>)](Spine.SkeletonExtensions.html#Spine_SkeletonExtensions_FindAttachmentsForSlot_Spine_Skin_System_String_Spine_SkeletonData_System_Collections_Generic_List_Spine_Attachment__)
@@ -36,13 +33,11 @@ public class Skin
 ## Constructors
 
 ### Skin(string)
-
 ```csharp
 public Skin(string name)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `name` | `System.String` |  |
@@ -50,57 +45,47 @@ public Skin(string name)
 ## Fields
 
 ### attachments
-
 ```csharp
 private Dictionary<Skin.AttachmentKeyTuple, Attachment> attachments
 ```
 
 #### Field Value
-
 **Type:** System.Collections.Generic.Dictionary{Spine.Skin.AttachmentKeyTuple,Spine.Attachment}
 
 ### name
-
 ```csharp
 internal string name
 ```
 
 #### Field Value
-
 **Type:** System.String
 
 ## Properties
 
 ### Attachments
-
 ```csharp
 public Dictionary<Skin.AttachmentKeyTuple, Attachment> Attachments { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Collections.Generic.Dictionary{Spine.Skin.AttachmentKeyTuple,Spine.Attachment}
 
 ### Name
-
 ```csharp
 public string Name { get; }
 ```
 
 #### Property Value
-
 **Type:** System.String
 
 ## Methods
 
 ### AddAttachment(int, string, Attachment)
-
 ```csharp
 public void AddAttachment(int slotIndex, string name, Attachment attachment)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `slotIndex` | `System.Int32` |  |
@@ -108,67 +93,60 @@ public void AddAttachment(int slotIndex, string name, Attachment attachment)
 | `attachment` | `Spine.Attachment` |  |
 
 ### AttachAll(Skeleton, Skin)
-
 ```csharp
 internal void AttachAll(Skeleton skeleton, Skin oldSkin)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeleton` | `Spine.Skeleton` |  |
 | `oldSkin` | `Spine.Skin` |  |
 
 ### FindAttachmentsForSlot(int, List<Attachment>)
-
 ```csharp
 public void FindAttachmentsForSlot(int slotIndex, List<Attachment> attachments)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `slotIndex` | `System.Int32` |  |
 | `attachments` | `System.Collections.Generic.List{Spine.Attachment}` |  |
 
 ### FindNamesForSlot(int, List<string>)
-
 ```csharp
 public void FindNamesForSlot(int slotIndex, List<string> names)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `slotIndex` | `System.Int32` |  |
 | `names` | `System.Collections.Generic.List{System.String}` |  |
 
 ### GetAttachment(int, string)
-
 ```csharp
 public Attachment GetAttachment(int slotIndex, string name)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `slotIndex` | `System.Int32` |  |
 | `name` | `System.String` |  |
 
 #### Returns
-
 **Type:** Spine.Attachment
 
 ### ToString()
-
 ```csharp
 public override string ToString()
 ```
 
 #### Returns
-
 **Type:** System.String
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

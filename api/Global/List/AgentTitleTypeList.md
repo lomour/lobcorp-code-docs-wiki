@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.AgentTitleTypeList
 canonical_path: /api/Global/List/AgentTitleTypeList
 ---
 
 # Class AgentTitleTypeList
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -17,13 +17,9 @@ Maintains titles for [agents](/api/Global/Worker/AgentModel).
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentTitleTypeList
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### AgentTitleTypeList()
-
 ```csharp
 public AgentTitleTypeList()
 ```
@@ -31,7 +27,6 @@ public AgentTitleTypeList()
 ## Fields
 
 ### _instance
-
 ```csharp
 private static AgentTitleTypeList _instance
 ```
@@ -39,11 +34,9 @@ private static AgentTitleTypeList _instance
 
 
 #### Field Value
-
 **Type:** Global.AgentTitleTypeList
 
 ### _list
-
 ```csharp
 private List<AgentTitleTypeInfo> _list
 ```
@@ -51,25 +44,21 @@ private List<AgentTitleTypeInfo> _list
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{AgentTitleTypeInfo}
 
 ## Properties
 
 ### instance
-
 ```csharp
 public static AgentTitleTypeList instance { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.AgentTitleTypeList
 
 ## Methods
 
 ### GetData(AgentModel, int, string, bool)
-
 ```csharp
 private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool randomly = true)
 ```
@@ -77,7 +66,6 @@ private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `agent` | `Global.AgentModel` |  |
@@ -86,11 +74,9 @@ private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool
 | `randomly` | `System.Boolean` |  |
 
 #### Returns
-
 **Type:** Global.AgentTitleTypeInfo
 
 ### GetData(int)
-
 ```csharp
 public AgentTitleTypeInfo GetData(int id)
 ```
@@ -98,17 +84,14 @@ public AgentTitleTypeInfo GetData(int id)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `id` | `System.Int32` |  |
 
 #### Returns
-
 **Type:** Global.AgentTitleTypeInfo
 
 ### GetDataPrefix(AgentModel, int, bool)
-
 ```csharp
 public AgentTitleTypeInfo GetDataPrefix(AgentModel agent, int level, bool randomly = true)
 ```
@@ -116,7 +99,6 @@ public AgentTitleTypeInfo GetDataPrefix(AgentModel agent, int level, bool random
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `agent` | `Global.AgentModel` |  |
@@ -124,11 +106,9 @@ public AgentTitleTypeInfo GetDataPrefix(AgentModel agent, int level, bool random
 | `randomly` | `System.Boolean` |  |
 
 #### Returns
-
 **Type:** Global.AgentTitleTypeInfo
 
 ### GetDataSuffix(AgentModel, int, bool)
-
 ```csharp
 public AgentTitleTypeInfo GetDataSuffix(AgentModel agent, int level, bool randomly = true)
 ```
@@ -136,7 +116,6 @@ public AgentTitleTypeInfo GetDataSuffix(AgentModel agent, int level, bool random
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `agent` | `Global.AgentModel` |  |
@@ -144,11 +123,9 @@ public AgentTitleTypeInfo GetDataSuffix(AgentModel agent, int level, bool random
 | `randomly` | `System.Boolean` |  |
 
 #### Returns
-
 **Type:** Global.AgentTitleTypeInfo
 
 ### Init(List<AgentTitleTypeInfo>)
-
 ```csharp
 public void Init(List<AgentTitleTypeInfo> list)
 ```
@@ -157,7 +134,10 @@ public void Init(List<AgentTitleTypeInfo> list)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `list` | `System.Collections.Generic.List{AgentTitleTypeInfo}` |  |
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

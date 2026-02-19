@@ -1,3 +1,5 @@
+ 
+
 # Namespace Rabbit
 
 ## Classes
@@ -18,7 +20,6 @@
 
 ### [SpineChangeData](/api/Rabbit/SpineChangeData)
 
-
 ## Enums
 
 ### [RabbitCaptainConversationType](/api/Rabbit/RabbitCaptainConversationType)
@@ -26,3 +27,4 @@
 ### [RabbitConversationType](/api/Rabbit/RabbitConversationType)
 
 ### [SlotState](/api/Rabbit/SlotState)
+

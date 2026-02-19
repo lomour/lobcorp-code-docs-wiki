@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.PanicReady
 canonical_path: /api/Global/Misc/PanicReady
 ---
 
 # Class PanicReady
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -24,13 +24,9 @@ Ends by telling the agent to choose a panic behaviour. (AgentModel.PanicReadyCom
 ## Derived
 [BlackLovePanicReady](/api/Global/Misc/BlackLovePanicReady)
 
-## Inherited Members
-[OnDie()](/api/Global/Action/PanicAction#ondie), [GetAttackSpeedMultiplier()](/api/Global/Action/PanicAction#getattackspeedmultiplier), [GetMovementMultiplier()](/api/Global/Action/PanicAction#getmovementmultiplier), [GetDefenseMultiplier()](/api/Global/Action/PanicAction#getdefensemultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### PanicReady(WorkerModel)
-
 ```csharp
 public PanicReady(WorkerModel target)
 ```
@@ -38,7 +34,6 @@ public PanicReady(WorkerModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
@@ -46,7 +41,6 @@ public PanicReady(WorkerModel target)
 ## Fields
 
 ### actor
-
 ```csharp
 protected WorkerModel actor
 ```
@@ -54,11 +48,9 @@ protected WorkerModel actor
 
 
 #### Field Value
-
 **Type:** Global.WorkerModel
 
 ### elapsedTime
-
 ```csharp
 protected float elapsedTime
 ```
@@ -66,11 +58,9 @@ protected float elapsedTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### waitTime
-
 ```csharp
 protected float waitTime
 ```
@@ -78,13 +68,11 @@ protected float waitTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### Execute()
-
 ```csharp
 public override void Execute()
 ```
@@ -92,7 +80,6 @@ public override void Execute()
 
 
 ### Init()
-
 ```csharp
 public override void Init()
 ```
@@ -101,7 +88,6 @@ public override void Init()
 
 
 ### PanicEnd()
-
 ```csharp
 public override void PanicEnd()
 ```
@@ -109,9 +95,12 @@ public override void PanicEnd()
 
 
 ### StartPanicAction()
-
 ```csharp
 public void StartPanicAction()
 ```
 #INC
+
+
+## Inherited Members
+[OnDie()](/api/Global/Action/PanicAction#ondie), [GetAttackSpeedMultiplier()](/api/Global/Action/PanicAction#getattackspeedmultiplier), [GetMovementMultiplier()](/api/Global/Action/PanicAction#getmovementmultiplier), [GetDefenseMultiplier()](/api/Global/Action/PanicAction#getdefensemultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

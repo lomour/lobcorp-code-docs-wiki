@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IEventReceiver
 canonical_path: /api/Global/Misc/IEventReceiver
 ---
 
 # Interface IEventReceiver
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -23,7 +23,6 @@ OnEvent(object param)
 ## Methods
 
 ### OnEvent(object)
-
 ```csharp
 void OnEvent(object param)
 ```
@@ -32,7 +31,7 @@ void OnEvent(object param)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object` |  |
+

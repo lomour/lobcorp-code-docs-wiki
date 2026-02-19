@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.NoticeName
 canonical_path: /api/Global/Misc/NoticeName
 ---
 
 # Class NoticeName
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -19,13 +19,9 @@ Essentially, a list of all events.
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → NoticeName
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### NoticeName()
-
 ```csharp
 public NoticeName()
 ```
@@ -33,7 +29,6 @@ public NoticeName()
 ## Fields
 
 ### AddBloodMapObject
-
 ```csharp
 public static string AddBloodMapObject
 ```
@@ -41,11 +36,9 @@ public static string AddBloodMapObject
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddCreature
-
 ```csharp
 public static string AddCreature
 ```
@@ -53,11 +46,9 @@ public static string AddCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddEtcUnit
-
 ```csharp
 public static string AddEtcUnit
 ```
@@ -65,11 +56,9 @@ public static string AddEtcUnit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddEventCreature
-
 ```csharp
 public static string AddEventCreature
 ```
@@ -77,11 +66,9 @@ public static string AddEventCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddExternalWorker
-
 ```csharp
 public static string AddExternalWorker
 ```
@@ -89,11 +76,9 @@ public static string AddExternalWorker
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddNarrationLog
-
 ```csharp
 public static string AddNarrationLog
 ```
@@ -101,11 +86,9 @@ public static string AddNarrationLog
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddNewAgent
-
 ```csharp
 public static string AddNewAgent
 ```
@@ -113,11 +96,9 @@ public static string AddNewAgent
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddOfficer
-
 ```csharp
 public static string AddOfficer
 ```
@@ -125,11 +106,9 @@ public static string AddOfficer
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddOrdealCreature
-
 ```csharp
 public static string AddOrdealCreature
 ```
@@ -137,11 +116,9 @@ public static string AddOrdealCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddPassageObject
-
 ```csharp
 public static string AddPassageObject
 ```
@@ -149,11 +126,9 @@ public static string AddPassageObject
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddPlayerLog
-
 ```csharp
 public static string AddPlayerLog
 ```
@@ -161,11 +136,9 @@ public static string AddPlayerLog
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddRabbit
-
 ```csharp
 public static string AddRabbit
 ```
@@ -173,11 +146,9 @@ public static string AddRabbit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddSefiraBossCreature
-
 ```csharp
 public static string AddSefiraBossCreature
 ```
@@ -185,11 +156,9 @@ public static string AddSefiraBossCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AddSystemLog
-
 ```csharp
 public static string AddSystemLog
 ```
@@ -197,11 +166,9 @@ public static string AddSystemLog
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AreaOpenUpdate
-
 ```csharp
 public static string AreaOpenUpdate
 ```
@@ -209,11 +176,9 @@ public static string AreaOpenUpdate
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### AutoSaveTimer
-
 ```csharp
 public static string AutoSaveTimer
 ```
@@ -221,11 +186,9 @@ public static string AutoSaveTimer
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ChangeAgentSefira
-
 ```csharp
 public static string ChangeAgentSefira
 ```
@@ -233,11 +196,9 @@ public static string ChangeAgentSefira
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ChangeAgentState
-
 ```csharp
 public static string ChangeAgentState
 ```
@@ -245,11 +206,9 @@ public static string ChangeAgentState
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ChangeKetherImage
-
 ```csharp
 public static string ChangeKetherImage
 ```
@@ -257,11 +216,9 @@ public static string ChangeKetherImage
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearAgent
-
 ```csharp
 public static string ClearAgent
 ```
@@ -269,11 +226,9 @@ public static string ClearAgent
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearCreature
-
 ```csharp
 public static string ClearCreature
 ```
@@ -281,11 +236,9 @@ public static string ClearCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearEtcUnit
-
 ```csharp
 public static string ClearEtcUnit
 ```
@@ -293,11 +246,9 @@ public static string ClearEtcUnit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearEventCreature
-
 ```csharp
 public static string ClearEventCreature
 ```
@@ -305,11 +256,9 @@ public static string ClearEventCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearOfficer
-
 ```csharp
 public static string ClearOfficer
 ```
@@ -317,11 +266,9 @@ public static string ClearOfficer
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearOrdealCreature
-
 ```csharp
 public static string ClearOrdealCreature
 ```
@@ -329,11 +276,9 @@ public static string ClearOrdealCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ClearRabbit
-
 ```csharp
 public static string ClearRabbit
 ```
@@ -341,11 +286,9 @@ public static string ClearRabbit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### CreatureObserveLevelAdded
-
 ```csharp
 public static string CreatureObserveLevelAdded
 ```
@@ -353,11 +296,9 @@ public static string CreatureObserveLevelAdded
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### CreatureSuppressCancel
-
 ```csharp
 public static string CreatureSuppressCancel
 ```
@@ -365,11 +306,9 @@ public static string CreatureSuppressCancel
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### DeployAgent
-
 ```csharp
 public static string DeployAgent
 ```
@@ -377,11 +316,9 @@ public static string DeployAgent
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### EnergyTimer
-
 ```csharp
 public static string EnergyTimer
 ```
@@ -389,11 +326,9 @@ public static string EnergyTimer
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### EscapeCreature
-
 ```csharp
 public static string EscapeCreature
 ```
@@ -401,11 +336,9 @@ public static string EscapeCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### FixedUpdate
-
 ```csharp
 public static string FixedUpdate
 ```
@@ -413,11 +346,9 @@ public static string FixedUpdate
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### HorrorDamage
-
 ```csharp
 public static string HorrorDamage
 ```
@@ -425,11 +356,9 @@ public static string HorrorDamage
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### InitAgent
-
 ```csharp
 public static string InitAgent
 ```
@@ -437,11 +366,9 @@ public static string InitAgent
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### InitResearchItem
-
 ```csharp
 public static string InitResearchItem
 ```
@@ -449,11 +376,9 @@ public static string InitResearchItem
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### KetherConversation
-
 ```csharp
 public static string KetherConversation
 ```
@@ -461,11 +386,9 @@ public static string KetherConversation
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### LanaguageChange
-
 ```csharp
 public static string LanaguageChange
 ```
@@ -473,11 +396,9 @@ public static string LanaguageChange
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### LoadMapGraphComplete
-
 ```csharp
 public static string LoadMapGraphComplete
 ```
@@ -485,11 +406,9 @@ public static string LoadMapGraphComplete
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### MakeEquipment
-
 ```csharp
 public static string MakeEquipment
 ```
@@ -497,11 +416,9 @@ public static string MakeEquipment
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ManageCancel
-
 ```csharp
 public static string ManageCancel
 ```
@@ -509,11 +426,9 @@ public static string ManageCancel
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### MoveUpdate
-
 ```csharp
 public static string MoveUpdate
 ```
@@ -521,11 +436,9 @@ public static string MoveUpdate
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentDead
-
 ```csharp
 public static string OnAgentDead
 ```
@@ -533,11 +446,9 @@ public static string OnAgentDead
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentHairChanged
-
 ```csharp
 public static string OnAgentHairChanged
 ```
@@ -545,11 +456,9 @@ public static string OnAgentHairChanged
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentMoveCommand
-
 ```csharp
 public static string OnAgentMoveCommand
 ```
@@ -557,11 +466,9 @@ public static string OnAgentMoveCommand
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentPanic
-
 ```csharp
 public static string OnAgentPanic
 ```
@@ -569,11 +476,9 @@ public static string OnAgentPanic
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentPanicReturn
-
 ```csharp
 public static string OnAgentPanicReturn
 ```
@@ -581,11 +486,9 @@ public static string OnAgentPanicReturn
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnAgentPromote
-
 ```csharp
 public static string OnAgentPromote
 ```
@@ -593,11 +496,9 @@ public static string OnAgentPromote
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnChangeCameraSize
-
 ```csharp
 public static string OnChangeCameraSize
 ```
@@ -605,11 +506,9 @@ public static string OnChangeCameraSize
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnChangeGift
-
 ```csharp
 public static string OnChangeGift
 ```
@@ -617,11 +516,9 @@ public static string OnChangeGift
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnChangeInventoryTap
-
 ```csharp
 public static string OnChangeInventoryTap
 ```
@@ -629,11 +526,9 @@ public static string OnChangeInventoryTap
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnClickNextDayAcceptInResult
-
 ```csharp
 public static string OnClickNextDayAcceptInResult
 ```
@@ -641,11 +536,9 @@ public static string OnClickNextDayAcceptInResult
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnClickRecallButton
-
 ```csharp
 public static string OnClickRecallButton
 ```
@@ -653,11 +546,9 @@ public static string OnClickRecallButton
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnClickStartGame
-
 ```csharp
 public static string OnClickStartGame
 ```
@@ -665,11 +556,9 @@ public static string OnClickStartGame
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCommandSuppress
-
 ```csharp
 public static string OnCommandSuppress
 ```
@@ -677,11 +566,9 @@ public static string OnCommandSuppress
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCreatureComplexAttack
-
 ```csharp
 public static string OnCreatureComplexAttack
 ```
@@ -689,11 +576,9 @@ public static string OnCreatureComplexAttack
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCreatureFeverStart
-
 ```csharp
 public static string OnCreatureFeverStart
 ```
@@ -701,11 +586,9 @@ public static string OnCreatureFeverStart
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCreatureMentalAttack
-
 ```csharp
 public static string OnCreatureMentalAttack
 ```
@@ -713,11 +596,9 @@ public static string OnCreatureMentalAttack
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCreaturePhysicsAttack
-
 ```csharp
 public static string OnCreaturePhysicsAttack
 ```
@@ -725,11 +606,9 @@ public static string OnCreaturePhysicsAttack
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnCreatureSuppressed
-
 ```csharp
 public static string OnCreatureSuppressed
 ```
@@ -737,11 +616,9 @@ public static string OnCreatureSuppressed
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnDestroyBossCore
-
 ```csharp
 public static string OnDestroyBossCore
 ```
@@ -749,11 +626,9 @@ public static string OnDestroyBossCore
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnDestroyBufEffect
-
 ```csharp
 public static string OnDestroyBufEffect
 ```
@@ -761,11 +636,9 @@ public static string OnDestroyBufEffect
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnDragStart
-
 ```csharp
 public static string OnDragStart
 ```
@@ -773,11 +646,9 @@ public static string OnDragStart
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnEmergencyLevelChanged
-
 ```csharp
 public static string OnEmergencyLevelChanged
 ```
@@ -785,11 +656,9 @@ public static string OnEmergencyLevelChanged
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnEscape
-
 ```csharp
 public static string OnEscape
 ```
@@ -797,11 +666,9 @@ public static string OnEscape
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnEventTimeReached
-
 ```csharp
 public static string OnEventTimeReached
 ```
@@ -809,11 +676,9 @@ public static string OnEventTimeReached
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnFailStage
-
 ```csharp
 public static string OnFailStage
 ```
@@ -821,21 +686,17 @@ public static string OnFailStage
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnGetEGOgift
-
 ```csharp
 public static string OnGetEGOgift
 ```
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnInitBufEffect
-
 ```csharp
 public static string OnInitBufEffect
 ```
@@ -843,11 +704,9 @@ public static string OnInitBufEffect
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnInitGameManager
-
 ```csharp
 public static string OnInitGameManager
 ```
@@ -855,11 +714,9 @@ public static string OnInitGameManager
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnInventoryAgentChanged
-
 ```csharp
 public static string OnInventoryAgentChanged
 ```
@@ -867,11 +724,9 @@ public static string OnInventoryAgentChanged
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnIsolateOverloadCanceled
-
 ```csharp
 public static string OnIsolateOverloadCanceled
 ```
@@ -879,11 +734,9 @@ public static string OnIsolateOverloadCanceled
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnIsolateOverloaded
-
 ```csharp
 public static string OnIsolateOverloaded
 ```
@@ -891,11 +744,9 @@ public static string OnIsolateOverloaded
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnLateUpdateCamera
-
 ```csharp
 public static string OnLateUpdateCamera
 ```
@@ -903,11 +754,9 @@ public static string OnLateUpdateCamera
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnLoadingEnd
-
 ```csharp
 public static string OnLoadingEnd
 ```
@@ -915,11 +764,9 @@ public static string OnLoadingEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnMaxObserveSuccess
-
 ```csharp
 public static string OnMaxObserveSuccess
 ```
@@ -927,11 +774,9 @@ public static string OnMaxObserveSuccess
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnMissionProgressed
-
 ```csharp
 public static string OnMissionProgressed
 ```
@@ -939,11 +784,9 @@ public static string OnMissionProgressed
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnNextDay
-
 ```csharp
 public static string OnNextDay
 ```
@@ -951,11 +794,9 @@ public static string OnNextDay
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnOfficerDie
-
 ```csharp
 public static string OnOfficerDie
 ```
@@ -963,11 +804,9 @@ public static string OnOfficerDie
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnOfficerPanic
-
 ```csharp
 public static string OnOfficerPanic
 ```
@@ -975,11 +814,9 @@ public static string OnOfficerPanic
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnOrdealActivated
-
 ```csharp
 public static string OnOrdealActivated
 ```
@@ -987,11 +824,9 @@ public static string OnOrdealActivated
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnOrdealStarted
-
 ```csharp
 public static string OnOrdealStarted
 ```
@@ -999,11 +834,9 @@ public static string OnOrdealStarted
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnProcessWorkTick
-
 ```csharp
 public static string OnProcessWorkTick
 ```
@@ -1011,11 +844,9 @@ public static string OnProcessWorkTick
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnQliphothOverloadLevelChanged
-
 ```csharp
 public static string OnQliphothOverloadLevelChanged
 ```
@@ -1023,11 +854,9 @@ public static string OnQliphothOverloadLevelChanged
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnReleaseGameManager
-
 ```csharp
 public static string OnReleaseGameManager
 ```
@@ -1035,11 +864,9 @@ public static string OnReleaseGameManager
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnReleaseWork
-
 ```csharp
 public static string OnReleaseWork
 ```
@@ -1047,11 +874,9 @@ public static string OnReleaseWork
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnResearchEnd
-
 ```csharp
 public static string OnResearchEnd
 ```
@@ -1059,11 +884,9 @@ public static string OnResearchEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnResearchPanelDropped
-
 ```csharp
 public static string OnResearchPanelDropped
 ```
@@ -1071,11 +894,9 @@ public static string OnResearchPanelDropped
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnStageEnd
-
 ```csharp
 public static string OnStageEnd
 ```
@@ -1083,11 +904,9 @@ public static string OnStageEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnStageStart
-
 ```csharp
 public static string OnStageStart
 ```
@@ -1095,11 +914,9 @@ public static string OnStageStart
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnTutorialCreatureArrived
-
 ```csharp
 public static string OnTutorialCreatureArrived
 ```
@@ -1107,11 +924,9 @@ public static string OnTutorialCreatureArrived
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnWorkCoolTimeEnd
-
 ```csharp
 public static string OnWorkCoolTimeEnd
 ```
@@ -1119,11 +934,9 @@ public static string OnWorkCoolTimeEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnWorkerReinforcementAccepted
-
 ```csharp
 public static string OnWorkerReinforcementAccepted
 ```
@@ -1131,11 +944,9 @@ public static string OnWorkerReinforcementAccepted
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OnWorkStart
-
 ```csharp
 public static string OnWorkStart
 ```
@@ -1143,11 +954,9 @@ public static string OnWorkStart
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OpenArea
-
 ```csharp
 public static string OpenArea
 ```
@@ -1155,11 +964,9 @@ public static string OpenArea
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### OrdealEnd
-
 ```csharp
 public static string OrdealEnd
 ```
@@ -1167,11 +974,9 @@ public static string OrdealEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### PassageAlpha
-
 ```csharp
 public static string PassageAlpha
 ```
@@ -1179,11 +984,9 @@ public static string PassageAlpha
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### PassageBlackOut
-
 ```csharp
 public static string PassageBlackOut
 ```
@@ -1191,11 +994,9 @@ public static string PassageBlackOut
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### PassageWhitle
-
 ```csharp
 public static string PassageWhitle
 ```
@@ -1203,11 +1004,9 @@ public static string PassageWhitle
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RabbitCaptainConversation
-
 ```csharp
 public static string RabbitCaptainConversation
 ```
@@ -1215,11 +1014,9 @@ public static string RabbitCaptainConversation
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RabbitProtocolActivated
-
 ```csharp
 public static string RabbitProtocolActivated
 ```
@@ -1227,11 +1024,9 @@ public static string RabbitProtocolActivated
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveAgent
-
 ```csharp
 public static string RemoveAgent
 ```
@@ -1239,11 +1034,9 @@ public static string RemoveAgent
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveCreature
-
 ```csharp
 public static string RemoveCreature
 ```
@@ -1251,11 +1044,9 @@ public static string RemoveCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveEquipment
-
 ```csharp
 public static string RemoveEquipment
 ```
@@ -1263,11 +1054,9 @@ public static string RemoveEquipment
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveEtcUnit
-
 ```csharp
 public static string RemoveEtcUnit
 ```
@@ -1275,11 +1064,9 @@ public static string RemoveEtcUnit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveEventCreature
-
 ```csharp
 public static string RemoveEventCreature
 ```
@@ -1287,11 +1074,9 @@ public static string RemoveEventCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveExternalWorker
-
 ```csharp
 public static string RemoveExternalWorker
 ```
@@ -1299,11 +1084,9 @@ public static string RemoveExternalWorker
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveOfficer
-
 ```csharp
 public static string RemoveOfficer
 ```
@@ -1311,11 +1094,9 @@ public static string RemoveOfficer
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveOrdealCreature
-
 ```csharp
 public static string RemoveOrdealCreature
 ```
@@ -1323,11 +1104,9 @@ public static string RemoveOrdealCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveRabbit
-
 ```csharp
 public static string RemoveRabbit
 ```
@@ -1335,11 +1114,9 @@ public static string RemoveRabbit
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveSefiraBossCreature
-
 ```csharp
 public static string RemoveSefiraBossCreature
 ```
@@ -1347,11 +1124,9 @@ public static string RemoveSefiraBossCreature
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### RemoveTeleportNode
-
 ```csharp
 public static string RemoveTeleportNode
 ```
@@ -1359,11 +1134,9 @@ public static string RemoveTeleportNode
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ReportAgentSuccess
-
 ```csharp
 public static string ReportAgentSuccess
 ```
@@ -1371,11 +1144,9 @@ public static string ReportAgentSuccess
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### ResetMapGraph
-
 ```csharp
 public static string ResetMapGraph
 ```
@@ -1383,11 +1154,9 @@ public static string ResetMapGraph
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### SefiraDisabled
-
 ```csharp
 public static string SefiraDisabled
 ```
@@ -1395,11 +1164,9 @@ public static string SefiraDisabled
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### SefiraEnabled
-
 ```csharp
 public static string SefiraEnabled
 ```
@@ -1407,11 +1174,9 @@ public static string SefiraEnabled
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### SetTeleportNode
-
 ```csharp
 public static string SetTeleportNode
 ```
@@ -1419,11 +1184,9 @@ public static string SetTeleportNode
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### TurnOffUI
-
 ```csharp
 public static string TurnOffUI
 ```
@@ -1431,11 +1194,9 @@ public static string TurnOffUI
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### TurnOnUI
-
 ```csharp
 public static string TurnOnUI
 ```
@@ -1443,11 +1204,9 @@ public static string TurnOnUI
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### TutorialElementDisable
-
 ```csharp
 public static string TutorialElementDisable
 ```
@@ -1455,11 +1214,9 @@ public static string TutorialElementDisable
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### TutorialElementEnable
-
 ```csharp
 public static string TutorialElementEnable
 ```
@@ -1467,11 +1224,9 @@ public static string TutorialElementEnable
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UnconWorkerDead
-
 ```csharp
 public static string UnconWorkerDead
 ```
@@ -1479,11 +1234,9 @@ public static string UnconWorkerDead
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UnmuteSefiraConversation
-
 ```csharp
 public static string UnmuteSefiraConversation
 ```
@@ -1491,11 +1244,9 @@ public static string UnmuteSefiraConversation
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Update
-
 ```csharp
 public static string Update
 ```
@@ -1503,11 +1254,9 @@ public static string Update
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UpdateAgentState
-
 ```csharp
 public static string UpdateAgentState
 ```
@@ -1515,11 +1264,9 @@ public static string UpdateAgentState
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UpdateDay
-
 ```csharp
 public static string UpdateDay
 ```
@@ -1527,11 +1274,9 @@ public static string UpdateDay
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UpdateEnergy
-
 ```csharp
 public static string UpdateEnergy
 ```
@@ -1539,11 +1284,9 @@ public static string UpdateEnergy
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### UpdateResearchItem
-
 ```csharp
 public static string UpdateResearchItem
 ```
@@ -1551,11 +1294,9 @@ public static string UpdateResearchItem
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### WorkEndReport
-
 ```csharp
 public static string WorkEndReport
 ```
@@ -1563,11 +1304,9 @@ public static string WorkEndReport
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### WorkerAttackEnd
-
 ```csharp
 public static string WorkerAttackEnd
 ```
@@ -1575,11 +1314,9 @@ public static string WorkerAttackEnd
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### WorkToOverloaded
-
 ```csharp
 public static string WorkToOverloaded
 ```
@@ -1587,13 +1324,11 @@ public static string WorkToOverloaded
 
 
 #### Field Value
-
 **Type:** System.String
 
 ## Methods
 
 ### MakeName(string, params string[])
-
 ```csharp
 public static string MakeName(string noticeName, params string[] param)
 ```
@@ -1602,12 +1337,14 @@ public static string MakeName(string noticeName, params string[] param)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `noticeName` | `System.String` |  |
 | `param` | `System.String[]` |  |
 
 #### Returns
-
 **Type:** System.String
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

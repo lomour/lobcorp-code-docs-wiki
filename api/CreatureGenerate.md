@@ -1,3 +1,5 @@
+ 
+
 # Namespace CreatureGenerate
 
 ## Classes
@@ -22,12 +24,11 @@
 
 ### [CreatureSelectData](/api/CreatureGenerate/CreatureSelectData)
 
-
 ## Enums
 
 ### [GenerateCommonAction](/api/CreatureGenerate/GenerateCommonAction)
 
-
 ## Delegates
 
 ### [CreatureGenerateData.Action](/api/CreatureGenerate/CreatureGenerateData/Action)
+

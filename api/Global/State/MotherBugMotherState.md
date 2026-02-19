@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.MotherBug.MotherState
 canonical_path: /api/Global/State/MotherBugMotherState
 ---
 
 # Enum MotherBug.MotherState
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,21 +15,18 @@ public enum MotherBug.MotherState
 ## Fields
 
 ### ACTIVED
-
 ```csharp
 ACTIVED = 0
 ```
 
 #### Field Value
-
 **Type:** Global.MotherBug.MotherState
 
 ### DEACTIVATED
-
 ```csharp
 DEACTIVATED = 1
 ```
 
 #### Field Value
-
 **Type:** Global.MotherBug.MotherState
+

@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.CameraMover
 canonical_path: /api/Global/Camera/Mover/CameraMover
 ---
 
 # Class CameraMover
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,13 +18,9 @@ Thing which controls camera movement; seems to include both automatic movement a
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CameraMover
 
-## Inherited Members
-[Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### CameraMover()
-
 ```csharp
 public CameraMover()
 ```
@@ -32,7 +28,6 @@ public CameraMover()
 ## Fields
 
 ### _currentRangeLevel
-
 ```csharp
 private int _currentRangeLevel
 ```
@@ -40,11 +35,9 @@ private int _currentRangeLevel
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### _instance
-
 ```csharp
 private static CameraMover _instance
 ```
@@ -52,11 +45,9 @@ private static CameraMover _instance
 
 
 #### Field Value
-
 **Type:** Global.CameraMover
 
 ### _kether_ortho_inv
-
 ```csharp
 private float _kether_ortho_inv
 ```
@@ -64,11 +55,9 @@ private float _kether_ortho_inv
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### _kether_ortho_min
-
 ```csharp
 private float _kether_ortho_min
 ```
@@ -76,11 +65,9 @@ private float _kether_ortho_min
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### _kether_x
-
 ```csharp
 private MinMax _kether_x
 ```
@@ -88,11 +75,9 @@ private MinMax _kether_x
 
 
 #### Field Value
-
 **Type:** Global.MinMax
 
 ### _kether_y_max
-
 ```csharp
 private MinMax _kether_y_max
 ```
@@ -100,11 +85,9 @@ private MinMax _kether_y_max
 
 
 #### Field Value
-
 **Type:** Global.MinMax
 
 ### _kether_y_min
-
 ```csharp
 private MinMax _kether_y_min
 ```
@@ -112,11 +95,9 @@ private MinMax _kether_y_min
 
 
 #### Field Value
-
 **Type:** Global.MinMax
 
 ### _movable
-
 ```csharp
 private bool _movable
 ```
@@ -124,11 +105,9 @@ private bool _movable
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _target
-
 ```csharp
 private IScrollTarget _target
 ```
@@ -136,11 +115,9 @@ private IScrollTarget _target
 
 
 #### Field Value
-
 **Type:** Global.IScrollTarget
 
 ### agentTarget
-
 ```csharp
 public long agentTarget
 ```
@@ -148,11 +125,9 @@ public long agentTarget
 
 
 #### Field Value
-
 **Type:** System.Int64
 
 ### attached
-
 ```csharp
 private bool attached
 ```
@@ -160,11 +135,9 @@ private bool attached
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### attachTarget
-
 ```csharp
 private MovableObjectNode attachTarget
 ```
@@ -172,11 +145,9 @@ private MovableObjectNode attachTarget
 
 
 #### Field Value
-
 **Type:** Global.MovableObjectNode
 
 ### CameraMax
-
 ```csharp
 public Vector3 CameraMax
 ```
@@ -184,11 +155,9 @@ public Vector3 CameraMax
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### CameraMin
-
 ```csharp
 public Vector3 CameraMin
 ```
@@ -196,11 +165,9 @@ public Vector3 CameraMin
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### creatureTarget
-
 ```csharp
 public long creatureTarget
 ```
@@ -208,11 +175,9 @@ public long creatureTarget
 
 
 #### Field Value
-
 **Type:** System.Int64
 
 ### DefaultOrtho
-
 ```csharp
 public float DefaultOrtho
 ```
@@ -220,11 +185,9 @@ public float DefaultOrtho
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### DefaultPos
-
 ```csharp
 public Vector3 DefaultPos
 ```
@@ -232,11 +195,9 @@ public Vector3 DefaultPos
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### Diference
-
 ```csharp
 private Vector3 Diference
 ```
@@ -244,11 +205,9 @@ private Vector3 Diference
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### Drag
-
 ```csharp
 private bool Drag
 ```
@@ -256,11 +215,9 @@ private bool Drag
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### dragedPos
-
 ```csharp
 private Vector3 dragedPos
 ```
@@ -268,21 +225,17 @@ private Vector3 dragedPos
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### endCall
-
 ```csharp
 public CameraMover.OnCameraMoveEndEvent endCall
 ```
 
 #### Field Value
-
 **Type:** Global.CameraMover.OnCameraMoveEndEvent
 
 ### escapeButton
-
 ```csharp
 public GameObject escapeButton
 ```
@@ -290,11 +243,9 @@ public GameObject escapeButton
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### isObserving
-
 ```csharp
 private bool isObserving
 ```
@@ -302,21 +253,17 @@ private bool isObserving
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### moveScript
-
 ```csharp
 public CameraMover.CameraForcelyMove moveScript
 ```
 
 #### Field Value
-
 **Type:** Global.CameraMover.CameraForcelyMove
 
 ### ObserveOrthoSize
-
 ```csharp
 private const float ObserveOrthoSize = 4
 ```
@@ -324,11 +271,9 @@ private const float ObserveOrthoSize = 4
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### observeTarget
-
 ```csharp
 private CreatureModel observeTarget
 ```
@@ -336,11 +281,9 @@ private CreatureModel observeTarget
 
 
 #### Field Value
-
 **Type:** Global.CreatureModel
 
 ### Origin
-
 ```csharp
 private Vector3 Origin
 ```
@@ -348,11 +291,9 @@ private Vector3 Origin
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### player
-
 ```csharp
 public GameObject player
 ```
@@ -360,21 +301,17 @@ public GameObject player
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### Range
-
 ```csharp
 public List<CameraMover.CameraMoveRange> Range
 ```
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{CameraMover.CameraMoveRange}
 
 ### recoil
-
 ```csharp
 public RecoilEffect recoil
 ```
@@ -382,11 +319,9 @@ public RecoilEffect recoil
 
 
 #### Field Value
-
 **Type:** Global.RecoilEffect
 
 ### ResetCamera
-
 ```csharp
 private Vector3 ResetCamera
 ```
@@ -394,11 +329,9 @@ private Vector3 ResetCamera
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### roomXCorrection
-
 ```csharp
 private const float roomXCorrection = -1
 ```
@@ -406,11 +339,9 @@ private const float roomXCorrection = -1
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### roomYCorrection
-
 ```csharp
 private const float roomYCorrection = -1.7
 ```
@@ -418,11 +349,9 @@ private const float roomYCorrection = -1.7
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### saveOrtho
-
 ```csharp
 private float saveOrtho
 ```
@@ -430,11 +359,9 @@ private float saveOrtho
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### scrollSpeed
-
 ```csharp
 public float scrollSpeed
 ```
@@ -442,11 +369,9 @@ public float scrollSpeed
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### targetCamera
-
 ```csharp
 public Camera targetCamera
 ```
@@ -454,85 +379,69 @@ public Camera targetCamera
 
 
 #### Field Value
-
 **Type:** UnityEngine.Camera
 
 ## Properties
 
 ### CameraOrthographicSize
-
 ```csharp
 public float CameraOrthographicSize { get; set; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### CameraPos
-
 ```csharp
 private Vector3 CameraPos { get; set; }
 ```
 
 #### Property Value
-
 **Type:** UnityEngine.Vector3
 
 ### currentRange
-
 ```csharp
 private CameraMover.CameraMoveRange currentRange { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.CameraMover.CameraMoveRange
 
 ### currentRangeLevel
-
 ```csharp
 public int currentRangeLevel { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### instance
-
 ```csharp
 public static CameraMover instance { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.CameraMover
 
 ### movable
-
 ```csharp
 private bool movable { get; set; }
 ```
 
 #### Property Value
-
 **Type:** System.Boolean
 
 ### orthoMax
-
 ```csharp
 private float orthoMax { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### AttachToMovable(MovableObjectNode)
-
 ```csharp
 public void AttachToMovable(MovableObjectNode mov)
 ```
@@ -540,13 +449,11 @@ public void AttachToMovable(MovableObjectNode mov)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `mov` | `Global.MovableObjectNode` |  |
 
 ### Awake()
-
 ```csharp
 private void Awake()
 ```
@@ -554,7 +461,6 @@ private void Awake()
 
 
 ### CameraMoveEvent(Vector3, float)
-
 ```csharp
 public void CameraMoveEvent(Vector3 dest, float ortho)
 ```
@@ -562,14 +468,12 @@ public void CameraMoveEvent(Vector3 dest, float ortho)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `dest` | `UnityEngine.Vector3` |  |
 | `ortho` | `System.Single` |  |
 
 ### CameraMoveEvent(Vector3, float, float)
-
 ```csharp
 public void CameraMoveEvent(Vector3 dest, float ortho, float time)
 ```
@@ -577,7 +481,6 @@ public void CameraMoveEvent(Vector3 dest, float ortho, float time)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `dest` | `UnityEngine.Vector3` |  |
@@ -585,7 +488,6 @@ public void CameraMoveEvent(Vector3 dest, float ortho, float time)
 | `time` | `System.Single` |  |
 
 ### DecoupleToMovable()
-
 ```csharp
 public void DecoupleToMovable()
 ```
@@ -593,7 +495,6 @@ public void DecoupleToMovable()
 
 
 ### DeRegistration()
-
 ```csharp
 public void DeRegistration()
 ```
@@ -601,7 +502,6 @@ public void DeRegistration()
 
 
 ### GenObserveMovement(CreatureModel)
-
 ```csharp
 public void GenObserveMovement(CreatureModel target)
 ```
@@ -609,13 +509,11 @@ public void GenObserveMovement(CreatureModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.CreatureModel` |  |
 
 ### GetMovementClamped(Vector3)
-
 ```csharp
 public Vector3 GetMovementClamped(Vector3 input)
 ```
@@ -624,17 +522,14 @@ public Vector3 GetMovementClamped(Vector3 input)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `input` | `UnityEngine.Vector3` |  |
 
 #### Returns
-
 **Type:** UnityEngine.Vector3
 
 ### IsMovable()
-
 ```csharp
 public bool IsMovable()
 ```
@@ -642,11 +537,9 @@ public bool IsMovable()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### LateUpdate()
-
 ```csharp
 private void LateUpdate()
 ```
@@ -654,7 +547,6 @@ private void LateUpdate()
 
 
 ### OnCameraMoveEnd()
-
 ```csharp
 public void OnCameraMoveEnd()
 ```
@@ -662,7 +554,6 @@ public void OnCameraMoveEnd()
 
 
 ### OnObserveCameraMoveEnd()
-
 ```csharp
 private void OnObserveCameraMoveEnd()
 ```
@@ -670,7 +561,6 @@ private void OnObserveCameraMoveEnd()
 
 
 ### OnObserveEnded()
-
 ```csharp
 public void OnObserveEnded()
 ```
@@ -678,7 +568,6 @@ public void OnObserveEnded()
 
 
 ### OnStageStart()
-
 ```csharp
 public void OnStageStart()
 ```
@@ -686,7 +575,6 @@ public void OnStageStart()
 
 
 ### PlayRecoil(Queue<Vector3>, float)
-
 ```csharp
 private IEnumerator PlayRecoil(Queue<Vector3> queue, float maxTime)
 ```
@@ -694,18 +582,15 @@ private IEnumerator PlayRecoil(Queue<Vector3> queue, float maxTime)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `queue` | `System.Collections.Generic.Queue{UnityEngine.Vector3}` |  |
 | `maxTime` | `System.Single` |  |
 
 #### Returns
-
 **Type:** System.Collections.IEnumerator
 
 ### Recoil(int)
-
 ```csharp
 public void Recoil(int level)
 ```
@@ -713,13 +598,11 @@ public void Recoil(int level)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `level` | `System.Int32` |  |
 
 ### Recoil(int, float)
-
 ```csharp
 public void Recoil(int level, float maxTime)
 ```
@@ -727,14 +610,12 @@ public void Recoil(int level, float maxTime)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `level` | `System.Int32` |  |
 | `maxTime` | `System.Single` |  |
 
 ### Recoil(int, float, int, float)
-
 ```csharp
 public void Recoil(int level, float maxTime, int recoilCount, float scale)
 ```
@@ -742,7 +623,6 @@ public void Recoil(int level, float maxTime, int recoilCount, float scale)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `level` | `System.Int32` |  |
@@ -751,7 +631,6 @@ public void Recoil(int level, float maxTime, int recoilCount, float scale)
 | `scale` | `System.Single` |  |
 
 ### Registration(IScrollTarget)
-
 ```csharp
 public void Registration(IScrollTarget target)
 ```
@@ -759,13 +638,11 @@ public void Registration(IScrollTarget target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.IScrollTarget` |  |
 
 ### Registration(IScrollTarget, bool)
-
 ```csharp
 public void Registration(IScrollTarget target, bool cursorSet)
 ```
@@ -773,14 +650,12 @@ public void Registration(IScrollTarget target, bool cursorSet)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.IScrollTarget` |  |
 | `cursorSet` | `System.Boolean` |  |
 
 ### ReleaseMove()
-
 ```csharp
 public void ReleaseMove()
 ```
@@ -788,19 +663,16 @@ public void ReleaseMove()
 
 
 ### SetEndCall(OnCameraMoveEndEvent)
-
 ```csharp
 public void SetEndCall(CameraMover.OnCameraMoveEndEvent call)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `call` | `Global.CameraMover.OnCameraMoveEndEvent` |  |
 
 ### SetSettingToDefault()
-
 ```csharp
 public void SetSettingToDefault()
 ```
@@ -808,7 +680,6 @@ public void SetSettingToDefault()
 
 
 ### SetSettingToStart()
-
 ```csharp
 public void SetSettingToStart()
 ```
@@ -816,7 +687,6 @@ public void SetSettingToStart()
 
 
 ### SetTutorialCam()
-
 ```csharp
 public void SetTutorialCam()
 ```
@@ -824,7 +694,6 @@ public void SetTutorialCam()
 
 
 ### Start()
-
 ```csharp
 private void Start()
 ```
@@ -832,7 +701,6 @@ private void Start()
 
 
 ### StopMove()
-
 ```csharp
 public void StopMove()
 ```
@@ -840,9 +708,12 @@ public void StopMove()
 
 
 ### Update()
-
 ```csharp
 private void Update()
 ```
 #INC
+
+
+## Inherited Members
+[Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IAnimatorEventCalled
 canonical_path: /api/Global/Misc/IAnimatorEventCalled
 ---
 
 # Interface IAnimatorEventCalled
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -32,7 +32,6 @@ Used *mainly* by abnormality animation handlers, but also by [agents](/api/Globa
 ## Methods
 
 ### AgentReset()
-
 ```csharp
 void AgentReset()
 ```
@@ -40,7 +39,6 @@ void AgentReset()
 
 
 ### AnimatorEventInit()
-
 ```csharp
 void AnimatorEventInit()
 ```
@@ -48,7 +46,6 @@ void AnimatorEventInit()
 
 
 ### AttackCalled(int)
-
 ```csharp
 void AttackCalled(int i)
 ```
@@ -56,13 +53,11 @@ void AttackCalled(int i)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 
 ### AttackDamageTimeCalled()
-
 ```csharp
 void AttackDamageTimeCalled()
 ```
@@ -70,7 +65,6 @@ void AttackDamageTimeCalled()
 
 
 ### CreatureAnimCall(int, CreatureBase)
-
 ```csharp
 void CreatureAnimCall(int i, CreatureBase script)
 ```
@@ -78,14 +72,12 @@ void CreatureAnimCall(int i, CreatureBase script)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 | `script` | `Global.CreatureBase` |  |
 
 ### OnCalled()
-
 ```csharp
 void OnCalled()
 ```
@@ -94,7 +86,6 @@ void OnCalled()
 
 
 ### OnCalled(int)
-
 ```csharp
 void OnCalled(int i)
 ```
@@ -102,13 +93,11 @@ void OnCalled(int i)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 
 ### SimpleReset()
-
 ```csharp
 void SimpleReset()
 ```
@@ -116,7 +105,6 @@ void SimpleReset()
 
 
 ### SoundMake(string)
-
 ```csharp
 void SoundMake(string src)
 ```
@@ -124,7 +112,7 @@ void SoundMake(string src)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `src` | `System.String` |  |
+

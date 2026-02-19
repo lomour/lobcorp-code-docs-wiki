@@ -1,10 +1,10 @@
+ 
 ---
 uid: WhiteNightSpace.ApostleData
 canonical_path: /api/WhiteNightSpace/ApostleData
 ---
 
 # Class ApostleData
-
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,13 +18,9 @@ structure for apostle data (including stuff gotten from the old agent)
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleData
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### ApostleData(AgentModel)
-
 ```csharp
 public ApostleData(AgentModel agent)
 ```
@@ -33,13 +29,11 @@ public ApostleData(AgentModel agent)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `agent` | `Global.AgentModel` |  |
 
 ### ApostleData(Dictionary<string, object>)
-
 ```csharp
 public ApostleData(Dictionary<string, object> data)
 ```
@@ -47,7 +41,6 @@ public ApostleData(Dictionary<string, object> data)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `System.Collections.Generic.Dictionary{System.String,System.Object}` |  |
@@ -55,7 +48,6 @@ public ApostleData(Dictionary<string, object> data)
 ## Fields
 
 ### hairColor
-
 ```csharp
 public WorkerSpriteSaveData.ColorData hairColor
 ```
@@ -63,11 +55,9 @@ public WorkerSpriteSaveData.ColorData hairColor
 
 
 #### Field Value
-
 **Type:** WorkerSprite.WorkerSpriteSaveData.ColorData
 
 ### hairData
-
 ```csharp
 public WorkerSpriteSaveData.Pair hairData
 ```
@@ -75,11 +65,9 @@ public WorkerSpriteSaveData.Pair hairData
 
 
 #### Field Value
-
 **Type:** WorkerSprite.WorkerSpriteSaveData.Pair
 
 ### instId
-
 ```csharp
 public long instId
 ```
@@ -87,11 +75,9 @@ public long instId
 
 
 #### Field Value
-
 **Type:** System.Int64
 
 ### Name
-
 ```csharp
 public string Name
 ```
@@ -99,11 +85,9 @@ public string Name
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### NameId
-
 ```csharp
 public int NameId
 ```
@@ -111,13 +95,11 @@ public int NameId
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ## Methods
 
 ### GetSaveData()
-
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
@@ -125,5 +107,8 @@ public Dictionary<string, object> GetSaveData()
 
 
 #### Returns
-
 **Type:** System.Collections.Generic.Dictionary{System.String,System.Object}
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

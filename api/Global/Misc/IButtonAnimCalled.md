@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IButtonAnimCalled
 canonical_path: /api/Global/Misc/IButtonAnimCalled
 ---
 
 # Interface IButtonAnimCalled
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -21,7 +21,6 @@ Used by [ButtonAnimationEvent](/api/Global/Event/ButtonAnimationEvent), which se
 ## Methods
 
 ### OnButtonDisable()
-
 ```csharp
 void OnButtonDisable()
 ```
@@ -29,7 +28,6 @@ void OnButtonDisable()
 
 
 ### OnClick()
-
 ```csharp
 void OnClick()
 ```
@@ -37,7 +35,6 @@ void OnClick()
 
 
 ### OnEnter()
-
 ```csharp
 void OnEnter()
 ```
@@ -46,9 +43,9 @@ void OnEnter()
 
 
 ### OnExit()
-
 ```csharp
 void OnExit()
 ```
 #INC
+
 

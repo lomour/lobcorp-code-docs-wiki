@@ -1,10 +1,10 @@
+ 
 ---
 uid: BinahBoss.WaveOverload
 canonical_path: /api/BinahBoss/WaveOverload
 ---
 
 # Class WaveOverload
-
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
 
@@ -23,13 +23,9 @@ Starts in [Phase 2](/api/BinahBoss/SecondPhase).
 ## Implements
 [IObserver](/api/Global/Misc/IObserver)
 
-## Inherited Members
-[ProbReductionValue](/api/BinahBoss/BinahOverload#probreductionvalue), [TimeLimit](/api/BinahBoss/BinahOverload#timelimit), [BinahAttachedEffect](/api/BinahBoss/BinahOverload#binahattachedeffect), [IsolatePercent](/api/BinahBoss/BinahOverload#isolatepercent), [SuccessAction](/api/BinahBoss/BinahOverload#successaction), [FailureAction](/api/BinahBoss/BinahOverload#failureaction), [overloadType](/api/BinahBoss/BinahOverload#overloadtype), [overloadedCreatures](/api/BinahBoss/BinahOverload#overloadedcreatures), [binah](/api/BinahBoss/BinahOverload#binah), [_defenseInfo](/api/BinahBoss/BinahOverload#defenseinfo), [GetOverloadTargetCount(BinahOverload)](/api/BinahBoss/BinahOverload#getoverloadtargetcount-binahoverload), [LoadBinahAttachedEffect(string)](/api/BinahBoss/BinahOverload#loadbinahattachedeffect-string), [OnDestroy()](/api/BinahBoss/BinahOverload#ondestroy), [GetCreatureCount()](/api/BinahBoss/BinahOverload#getcreaturecount), [Interrupt()](/api/BinahBoss/BinahOverload#interrupt), [OnNotice(string, params object[])](/api/BinahBoss/BinahOverload#onnotice-string-params-object), [OnParticleArrived(CreatureModel)](/api/BinahBoss/BinahOverload#onparticlearrived-creaturemodel), [OnExecute()](/api/BinahBoss/BinahOverload#onexecute), [Movable](/api/BinahBoss/BinahOverload#movable), [Model](/api/BinahBoss/BinahOverload#model), [AnimScript](/api/BinahBoss/BinahOverload#animscript), [Animator](/api/BinahBoss/BinahOverload#animator), [DefenseInfo](/api/BinahBoss/BinahOverload#defenseinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### WaveOverload(BinahCoreScript)
-
 ```csharp
 public WaveOverload(BinahCoreScript binah)
 ```
@@ -37,7 +33,6 @@ public WaveOverload(BinahCoreScript binah)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `binah` | `Global.BinahCoreScript` |  |
@@ -45,7 +40,6 @@ public WaveOverload(BinahCoreScript binah)
 ## Fields
 
 ### dictionary
-
 ```csharp
 private Dictionary<long, ProjectileModel> dictionary
 ```
@@ -53,13 +47,11 @@ private Dictionary<long, ProjectileModel> dictionary
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.Dictionary{System.Int64,ProjectileModel}
 
 ## Methods
 
 ### CastOverload()
-
 ```csharp
 public override void CastOverload()
 ```
@@ -68,7 +60,6 @@ public override void CastOverload()
 
 
 ### OnFail()
-
 ```csharp
 public override void OnFail()
 ```
@@ -76,7 +67,6 @@ public override void OnFail()
 
 
 ### OnReducedCreature(CreatureModel)
-
 ```csharp
 public override void OnReducedCreature(CreatureModel creature)
 ```
@@ -84,15 +74,17 @@ public override void OnReducedCreature(CreatureModel creature)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `creature` | `Global.CreatureModel` |  |
 
 ### OnSuccess()
-
 ```csharp
 public override void OnSuccess()
 ```
 #INC
+
+
+## Inherited Members
+[ProbReductionValue](/api/BinahBoss/BinahOverload#probreductionvalue), [TimeLimit](/api/BinahBoss/BinahOverload#timelimit), [BinahAttachedEffect](/api/BinahBoss/BinahOverload#binahattachedeffect), [IsolatePercent](/api/BinahBoss/BinahOverload#isolatepercent), [SuccessAction](/api/BinahBoss/BinahOverload#successaction), [FailureAction](/api/BinahBoss/BinahOverload#failureaction), [overloadType](/api/BinahBoss/BinahOverload#overloadtype), [overloadedCreatures](/api/BinahBoss/BinahOverload#overloadedcreatures), [binah](/api/BinahBoss/BinahOverload#binah), [_defenseInfo](/api/BinahBoss/BinahOverload#defenseinfo), [GetOverloadTargetCount(BinahOverload)](/api/BinahBoss/BinahOverload#getoverloadtargetcount-binahoverload), [LoadBinahAttachedEffect(string)](/api/BinahBoss/BinahOverload#loadbinahattachedeffect-string), [OnDestroy()](/api/BinahBoss/BinahOverload#ondestroy), [GetCreatureCount()](/api/BinahBoss/BinahOverload#getcreaturecount), [Interrupt()](/api/BinahBoss/BinahOverload#interrupt), [OnNotice(string, params object[])](/api/BinahBoss/BinahOverload#onnotice-string-params-object), [OnParticleArrived(CreatureModel)](/api/BinahBoss/BinahOverload#onparticlearrived-creaturemodel), [OnExecute()](/api/BinahBoss/BinahOverload#onexecute), [Movable](/api/BinahBoss/BinahOverload#movable), [Model](/api/BinahBoss/BinahOverload#model), [AnimScript](/api/BinahBoss/BinahOverload#animscript), [Animator](/api/BinahBoss/BinahOverload#animator), [DefenseInfo](/api/BinahBoss/BinahOverload#defenseinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

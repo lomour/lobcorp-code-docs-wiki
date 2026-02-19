@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IActivatableObject
 canonical_path: /api/Global/Object/IActivatableObject
 ---
 
 # Interface IActivatableObject
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,7 +18,6 @@ Interface representing an object which can be activated. #INC (Verify this is us
 ## Methods
 
 ### Activate()
-
 ```csharp
 void Activate()
 ```
@@ -27,7 +26,6 @@ void Activate()
 
 
 ### Close()
-
 ```csharp
 void Close()
 ```
@@ -35,7 +33,6 @@ void Close()
 
 
 ### Deactivate()
-
 ```csharp
 void Deactivate()
 ```
@@ -43,7 +40,6 @@ void Deactivate()
 
 
 ### OnEnter()
-
 ```csharp
 void OnEnter()
 ```
@@ -51,7 +47,6 @@ void OnEnter()
 
 
 ### OnExit()
-
 ```csharp
 void OnExit()
 ```
@@ -59,7 +54,6 @@ void OnExit()
 
 
 ### OnUIAreaClick(BaseEventData)
-
 ```csharp
 void OnUIAreaClick(BaseEventData eventData)
 ```
@@ -67,15 +61,14 @@ void OnUIAreaClick(BaseEventData eventData)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `eventData` | `UnityEngine.EventSystems.BaseEventData` |  |
 
 ### UIActivateInit()
-
 ```csharp
 void UIActivateInit()
 ```
 #INC
+
 

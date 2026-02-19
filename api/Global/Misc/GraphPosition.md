@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.GraphPosition
 canonical_path: /api/Global/Misc/GraphPosition
 ---
 
 # Class GraphPosition
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,13 +18,9 @@ Represents a position and edge on the [map](/api/Global/IOBserver/MapGraph).
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphPosition
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### GraphPosition(MapEdge, int, float)
-
 ```csharp
 public GraphPosition(MapEdge currentEdge, int direction, float rate)
 ```
@@ -32,7 +28,6 @@ public GraphPosition(MapEdge currentEdge, int direction, float rate)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `currentEdge` | `Global.MapEdge` |  |
@@ -40,7 +35,6 @@ public GraphPosition(MapEdge currentEdge, int direction, float rate)
 | `rate` | `System.Single` |  |
 
 ### GraphPosition(MapNode)
-
 ```csharp
 public GraphPosition(MapNode currentNode)
 ```
@@ -49,7 +43,6 @@ public GraphPosition(MapNode currentNode)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `currentNode` | `Global.MapNode` |  |
@@ -57,7 +50,6 @@ public GraphPosition(MapNode currentNode)
 ## Fields
 
 ### currentEdge
-
 ```csharp
 public MapEdge currentEdge
 ```
@@ -65,11 +57,9 @@ public MapEdge currentEdge
 
 
 #### Field Value
-
 **Type:** Global.MapEdge
 
 ### currentNode
-
 ```csharp
 public MapNode currentNode
 ```
@@ -77,11 +67,9 @@ public MapNode currentNode
 
 
 #### Field Value
-
 **Type:** Global.MapNode
 
 ### edgeDirection
-
 ```csharp
 public int edgeDirection
 ```
@@ -89,11 +77,9 @@ public int edgeDirection
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### edgePosRate
-
 ```csharp
 public float edgePosRate
 ```
@@ -101,13 +87,11 @@ public float edgePosRate
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### GetCurrentViewPosition(out Vector2)
-
 ```csharp
 public bool GetCurrentViewPosition(out Vector2 output)
 ```
@@ -115,11 +99,13 @@ public bool GetCurrentViewPosition(out Vector2 output)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `output` | `UnityEngine.Vector2` |  |
 
 #### Returns
-
 **Type:** System.Boolean
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

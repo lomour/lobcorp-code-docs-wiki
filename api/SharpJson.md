@@ -1,3 +1,5 @@
+ 
+
 # Namespace SharpJson
 
 ## Classes
@@ -6,7 +8,7 @@
 
 ### [Lexer](/api/SharpJson/Lexer)
 
-
 ## Enums
 
 ### [Lexer.Token](/api/SharpJson/Lexer/Token)
+

@@ -1,10 +1,10 @@
+ 
 ---
 uid: GeburahBoss.GeburahSoundInfo
 canonical_path: /api/GeburahBoss/GeburahSoundInfo
 ---
 
 # Class GeburahSoundInfo
-
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
 
@@ -17,13 +17,9 @@ Locations of sounds for [Geburah's core suppression](/api/Global/Misc/GeburahBos
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahSoundInfo
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Fields
 
 ### GeburahSoundFolder
-
 ```csharp
 public static string GeburahSoundFolder
 ```
@@ -32,11 +28,9 @@ public static string GeburahSoundFolder
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P1_Attack_0
-
 ```csharp
 public static string P1_Attack_0
 ```
@@ -44,11 +38,9 @@ public static string P1_Attack_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P1_Attack_1
-
 ```csharp
 public static string P1_Attack_1
 ```
@@ -56,11 +48,9 @@ public static string P1_Attack_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_0
-
 ```csharp
 public static string P2_Attack_0
 ```
@@ -68,11 +58,9 @@ public static string P2_Attack_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_1
-
 ```csharp
 public static string P2_Attack_1
 ```
@@ -80,11 +68,9 @@ public static string P2_Attack_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_2
-
 ```csharp
 public static string P2_Attack_2
 ```
@@ -92,11 +78,9 @@ public static string P2_Attack_2
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_3
-
 ```csharp
 public static string P2_Attack_3
 ```
@@ -104,11 +88,9 @@ public static string P2_Attack_3
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_3_0
-
 ```csharp
 public static string P2_Attack_3_0
 ```
@@ -116,11 +98,9 @@ public static string P2_Attack_3_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_3_1
-
 ```csharp
 public static string P2_Attack_3_1
 ```
@@ -128,11 +108,9 @@ public static string P2_Attack_3_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_Attack_3_2
-
 ```csharp
 public static string P2_Attack_3_2
 ```
@@ -140,11 +118,9 @@ public static string P2_Attack_3_2
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_To_P3_0
-
 ```csharp
 public static string P2_To_P3_0
 ```
@@ -152,11 +128,9 @@ public static string P2_To_P3_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P2_To_P3_1
-
 ```csharp
 public static string P2_To_P3_1
 ```
@@ -164,11 +138,9 @@ public static string P2_To_P3_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P3_Attack_1_0
-
 ```csharp
 public static string P3_Attack_1_0
 ```
@@ -176,11 +148,9 @@ public static string P3_Attack_1_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P3_Attack_1_1
-
 ```csharp
 public static string P3_Attack_1_1
 ```
@@ -188,11 +158,9 @@ public static string P3_Attack_1_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P3_Attack_2
-
 ```csharp
 public static string P3_Attack_2
 ```
@@ -200,11 +168,9 @@ public static string P3_Attack_2
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P3_To_P4_0
-
 ```csharp
 public static string P3_To_P4_0
 ```
@@ -212,11 +178,9 @@ public static string P3_To_P4_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P3_To_P4_1
-
 ```csharp
 public static string P3_To_P4_1
 ```
@@ -224,11 +188,9 @@ public static string P3_To_P4_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P4_Attack_1
-
 ```csharp
 public static string P4_Attack_1
 ```
@@ -236,11 +198,9 @@ public static string P4_Attack_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P4_Attack_End_0
-
 ```csharp
 public static string P4_Attack_End_0
 ```
@@ -248,11 +208,9 @@ public static string P4_Attack_End_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P4_Attack_End_1
-
 ```csharp
 public static string P4_Attack_End_1
 ```
@@ -260,11 +218,9 @@ public static string P4_Attack_End_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### P4_Chase_End
-
 ```csharp
 public static string P4_Chase_End
 ```
@@ -272,11 +228,9 @@ public static string P4_Chase_End
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Rest
-
 ```csharp
 public static string Rest
 ```
@@ -284,11 +238,9 @@ public static string Rest
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### S1_Spear
-
 ```csharp
 public static string S1_Spear
 ```
@@ -296,11 +248,9 @@ public static string S1_Spear
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Teleport_0
-
 ```csharp
 public static string Teleport_0
 ```
@@ -308,11 +258,9 @@ public static string Teleport_0
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Teleport_1
-
 ```csharp
 public static string Teleport_1
 ```
@@ -320,11 +268,9 @@ public static string Teleport_1
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Teleport_Damage
-
 ```csharp
 public static string Teleport_Damage
 ```
@@ -332,11 +278,9 @@ public static string Teleport_Damage
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Teleport_End
-
 ```csharp
 public static string Teleport_End
 ```
@@ -344,11 +288,9 @@ public static string Teleport_End
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### Teleport_Start
-
 ```csharp
 public static string Teleport_Start
 ```
@@ -356,5 +298,8 @@ public static string Teleport_Start
 
 
 #### Field Value
-
 **Type:** System.String
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

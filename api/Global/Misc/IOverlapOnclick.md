@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IOverlapOnclick
 canonical_path: /api/Global/Misc/IOverlapOnclick
 ---
 
 # Interface IOverlapOnclick
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -24,7 +24,6 @@ Interface for overlappable objects. Probably unused...
 ## Methods
 
 ### OnClick()
-
 ```csharp
 void OnClick()
 ```
@@ -33,7 +32,6 @@ void OnClick()
 
 
 ### OnEnter()
-
 ```csharp
 void OnEnter()
 ```
@@ -41,9 +39,9 @@ void OnEnter()
 
 
 ### OnExit()
-
 ```csharp
 void OnExit()
 ```
 #INC
+
 

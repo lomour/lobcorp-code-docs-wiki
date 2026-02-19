@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.WorkerAttackCommand
 canonical_path: /api/Global/Misc/WorkerAttackCommand
 ---
 
 # Interface WorkerAttackCommand
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -20,9 +20,9 @@ Only used by UnconPursueWorkerCommand (and the unused UnconAuthorNoteAttackComma
 ## Methods
 
 ### GiveDamage()
-
 ```csharp
 void GiveDamage()
 ```
 #INC
+
 

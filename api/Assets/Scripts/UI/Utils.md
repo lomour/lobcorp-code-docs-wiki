@@ -1,3 +1,5 @@
+ 
+
 # Namespace Assets.Scripts.UI.Utils
 
 ## Classes
@@ -6,7 +8,7 @@
 
 ### [LocalizeTextLoadScript](/api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript)
 
-
 ## Delegates
 
 ### [LocalizeTextLoadScript.OnSetText](/api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript/OnSetText)
+

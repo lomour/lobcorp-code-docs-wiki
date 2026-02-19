@@ -1,10 +1,10 @@
+ 
 ---
 uid: CommandWindow.AgentEquipmentSlot
 canonical_path: /api/CommandWindow/AgentEquipmentSlot
 ---
 
 # Class AgentEquipmentSlot
-
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll
 
@@ -19,13 +19,9 @@ See [SuppressSlot](/api/CommandWindow/SuppressSlot)
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentEquipmentSlot
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### AgentEquipmentSlot()
-
 ```csharp
 public AgentEquipmentSlot()
 ```
@@ -33,7 +29,6 @@ public AgentEquipmentSlot()
 ## Fields
 
 ### ActiveControl
-
 ```csharp
 public GameObject ActiveControl
 ```
@@ -41,11 +36,9 @@ public GameObject ActiveControl
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### Additional
-
 ```csharp
 public Text Additional
 ```
@@ -53,11 +46,9 @@ public Text Additional
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### ArmorGrade
-
 ```csharp
 public Text ArmorGrade
 ```
@@ -65,22 +56,18 @@ public Text ArmorGrade
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### ArmorName
-
 ```csharp
 [Header("Armor")]
 public Text ArmorName
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### DefenseFactorRenderer
-
 ```csharp
 public Image[] DefenseFactorRenderer
 ```
@@ -88,11 +75,9 @@ public Image[] DefenseFactorRenderer
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Image[]
 
 ### DefenseType
-
 ```csharp
 public Text[] DefenseType
 ```
@@ -100,11 +85,9 @@ public Text[] DefenseType
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text[]
 
 ### DualValue
-
 ```csharp
 public GameObject DualValue
 ```
@@ -112,22 +95,18 @@ public GameObject DualValue
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### SingleValue
-
 ```csharp
 [Space(5)]
 public GameObject SingleValue
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### TypeFill
-
 ```csharp
 public Image TypeFill
 ```
@@ -135,11 +114,9 @@ public Image TypeFill
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Image
 
 ### TypeText
-
 ```csharp
 public Text TypeText
 ```
@@ -147,11 +124,9 @@ public Text TypeText
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### Vanlia
-
 ```csharp
 public List<Text> Vanlia
 ```
@@ -159,11 +134,9 @@ public List<Text> Vanlia
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{UnityEngine.UI.Text}
 
 ### WeaponGrade
-
 ```csharp
 public Text WeaponGrade
 ```
@@ -171,24 +144,20 @@ public Text WeaponGrade
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### WeaponName
-
 ```csharp
 [Header("Weapon")]
 public Text WeaponName
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ## Methods
 
 ### SetData(AgentModel)
-
 ```csharp
 public void SetData(AgentModel agent)
 ```
@@ -197,7 +166,10 @@ public void SetData(AgentModel agent)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `agent` | `Global.AgentModel` |  |
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

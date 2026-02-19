@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.BlackLoveBuf
 canonical_path: /api/Global/UnitBuf/BlackLoveBuf
 ---
 
 # Class BlackLoveBuf
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -21,13 +21,9 @@ Buff which makes a level 3 or lower employee uncontrollable during [Army in Blac
 ## Implements
 [IObserver](/api/Global/Misc/IObserver)
 
-## Inherited Members
-[type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### BlackLoveBuf(WorkerModel)
-
 ```csharp
 public BlackLoveBuf(WorkerModel actor)
 ```
@@ -35,7 +31,6 @@ public BlackLoveBuf(WorkerModel actor)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `actor` | `Global.WorkerModel` |  |
@@ -43,7 +38,6 @@ public BlackLoveBuf(WorkerModel actor)
 ## Fields
 
 ### actor
-
 ```csharp
 private WorkerModel actor
 ```
@@ -51,11 +45,9 @@ private WorkerModel actor
 
 
 #### Field Value
-
 **Type:** Global.WorkerModel
 
 ### renderer
-
 ```csharp
 private SpriteRenderer renderer
 ```
@@ -63,13 +55,11 @@ private SpriteRenderer renderer
 
 
 #### Field Value
-
 **Type:** UnityEngine.SpriteRenderer
 
 ## Methods
 
 ### FixedUpdate()
-
 ```csharp
 public override void FixedUpdate()
 ```
@@ -77,7 +67,6 @@ public override void FixedUpdate()
 
 
 ### GetControl()
-
 ```csharp
 private void GetControl()
 ```
@@ -85,7 +74,6 @@ private void GetControl()
 
 
 ### Init(UnitModel)
-
 ```csharp
 public override void Init(UnitModel model)
 ```
@@ -94,13 +82,11 @@ public override void Init(UnitModel model)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `model` | `Global.UnitModel` |  |
 
 ### MakeHeart()
-
 ```csharp
 public void MakeHeart()
 ```
@@ -108,7 +94,6 @@ public void MakeHeart()
 
 
 ### OnDestroy()
-
 ```csharp
 public override void OnDestroy()
 ```
@@ -116,7 +101,6 @@ public override void OnDestroy()
 
 
 ### OnNotice(string, params object[])
-
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
@@ -124,8 +108,11 @@ public void OnNotice(string notice, params object[] param)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `notice` | `System.String` |  |
 | `param` | `System.Object[]` |  |
+
+## Inherited Members
+[type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+

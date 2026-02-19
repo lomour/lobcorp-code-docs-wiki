@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.EventBase
 canonical_path: /api/Global/Event/EventBase
 ---
 
 # Class EventBase
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -22,13 +22,9 @@ Base for events except there's only [Apocalypse Bird](/api/Global/Misc/BossBird)
 ## Derived
 [BossBirdEvent](/api/Global/Event/BossBirdEvent)
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### EventBase()
-
 ```csharp
 public EventBase()
 ```
@@ -36,17 +32,14 @@ public EventBase()
 ## Fields
 
 ### _type
-
 ```csharp
 protected EventBase.EventType _type
 ```
 
 #### Field Value
-
 **Type:** Global.EventBase.EventType
 
 ### isStarted
-
 ```csharp
 public bool isStarted
 ```
@@ -54,25 +47,21 @@ public bool isStarted
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ## Properties
 
 ### type
-
 ```csharp
 public EventBase.EventType type { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.EventBase.EventType
 
 ## Methods
 
 ### EventEnd()
-
 ```csharp
 public virtual void EventEnd()
 ```
@@ -80,7 +69,6 @@ public virtual void EventEnd()
 
 
 ### FixedUpdate()
-
 ```csharp
 public virtual void FixedUpdate()
 ```
@@ -88,7 +76,6 @@ public virtual void FixedUpdate()
 
 
 ### IsStartable()
-
 ```csharp
 public virtual bool IsStartable()
 ```
@@ -97,11 +84,9 @@ public virtual bool IsStartable()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### OnDestroy()
-
 ```csharp
 public virtual void OnDestroy()
 ```
@@ -109,7 +94,6 @@ public virtual void OnDestroy()
 
 
 ### OnEventStart()
-
 ```csharp
 public virtual void OnEventStart()
 ```
@@ -117,9 +101,12 @@ public virtual void OnEventStart()
 
 
 ### OnGameInit()
-
 ```csharp
 public virtual void OnGameInit()
 ```
 #INC
+
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

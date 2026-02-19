@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.GrandmaBug
 canonical_path: /api/Global/Misc/GrandmaBug
 ---
 
 # Class GrandmaBug
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,13 +18,9 @@ public class GrandmaBug : HordeOfBugsScript
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [StandingItemScriptBase](/api/Global/Standing/StandingItemScriptBase) → [HordeOfBugsScript](/api/Global/Script/HordeOfBugsScript) → GrandmaBug
 
-## Inherited Members
-[randomEvent](/api/Global/Script/HordeOfBugsScript#randomevent), [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [OnBreakDown()](/api/Global/Standing/StandingItemScriptBase#onbreakdown), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [OnTakePhyisclaDamage(float)](/api/Global/Standing/StandingItemScriptBase#ontakephyiscladamage-float), [GetName()](/api/Global/Standing/StandingItemScriptBase#getname), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [HasName()](/api/Global/Standing/StandingItemScriptBase#hasname), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### GrandmaBug()
-
 ```csharp
 public GrandmaBug()
 ```
@@ -32,27 +28,22 @@ public GrandmaBug()
 ## Fields
 
 ### _gState
-
 ```csharp
 private GrandmaBug.GrandmaState _gState
 ```
 
 #### Field Value
-
 **Type:** Global.GrandmaBug.GrandmaState
 
 ### _phase
-
 ```csharp
 private GrandmaBug.GrandmaPhase _phase
 ```
 
 #### Field Value
-
 **Type:** Global.GrandmaBug.GrandmaPhase
 
 ### animScript
-
 ```csharp
 public GrandmaBugAnim animScript
 ```
@@ -60,11 +51,9 @@ public GrandmaBugAnim animScript
 
 
 #### Field Value
-
 **Type:** Global.GrandmaBugAnim
 
 ### AppearDelayMax
-
 ```csharp
 public const float AppearDelayMax = 4
 ```
@@ -72,11 +61,9 @@ public const float AppearDelayMax = 4
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### AppearDelayMin
-
 ```csharp
 public const float AppearDelayMin = 2
 ```
@@ -84,11 +71,9 @@ public const float AppearDelayMin = 2
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### appearSoundMake
-
 ```csharp
 private bool appearSoundMake
 ```
@@ -96,11 +81,9 @@ private bool appearSoundMake
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### currentPassage
-
 ```csharp
 private PassageObjectModel currentPassage
 ```
@@ -108,11 +91,9 @@ private PassageObjectModel currentPassage
 
 
 #### Field Value
-
 **Type:** Global.PassageObjectModel
 
 ### damageInfo
-
 ```csharp
 private DamageInfo damageInfo
 ```
@@ -120,11 +101,9 @@ private DamageInfo damageInfo
 
 
 #### Field Value
-
 **Type:** Global.DamageInfo
 
 ### damageRange
-
 ```csharp
 public const float damageRange = 5
 ```
@@ -132,11 +111,9 @@ public const float damageRange = 5
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### defaultRange
-
 ```csharp
 public const float defaultRange = 2
 ```
@@ -144,11 +121,9 @@ public const float defaultRange = 2
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### defaultSound
-
 ```csharp
 public SoundEffectPlayer defaultSound
 ```
@@ -156,11 +131,9 @@ public SoundEffectPlayer defaultSound
 
 
 #### Field Value
-
 **Type:** Global.SoundEffectPlayer
 
 ### disappearMentalDamage
-
 ```csharp
 public const float disappearMentalDamage = 30
 ```
@@ -168,11 +141,9 @@ public const float disappearMentalDamage = 30
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### dmg
-
 ```csharp
 private const float dmg = 200
 ```
@@ -180,11 +151,9 @@ private const float dmg = 200
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### enableDelay
-
 ```csharp
 public Timer enableDelay
 ```
@@ -192,11 +161,9 @@ public Timer enableDelay
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### makeChildFreq
-
 ```csharp
 public const float makeChildFreq = 10
 ```
@@ -204,11 +171,9 @@ public const float makeChildFreq = 10
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### motherBugDefualt
-
 ```csharp
 public const int motherBugDefualt = 2
 ```
@@ -216,11 +181,9 @@ public const int motherBugDefualt = 2
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### motherBugMax
-
 ```csharp
 public const int motherBugMax = 10
 ```
@@ -228,11 +191,9 @@ public const int motherBugMax = 10
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### nodes
-
 ```csharp
 public List<MapNode> nodes
 ```
@@ -240,11 +201,9 @@ public List<MapNode> nodes
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{MapNode}
 
 ### RemainDelayMax
-
 ```csharp
 public const float RemainDelayMax = 40
 ```
@@ -252,11 +211,9 @@ public const float RemainDelayMax = 40
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### RemainDelayMin
-
 ```csharp
 public const float RemainDelayMin = 20
 ```
@@ -264,11 +221,9 @@ public const float RemainDelayMin = 20
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### sound_default
-
 ```csharp
 public const string sound_default = "RandomEvent/Default"
 ```
@@ -276,11 +231,9 @@ public const string sound_default = "RandomEvent/Default"
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### spawnChildTimer
-
 ```csharp
 public Timer spawnChildTimer
 ```
@@ -288,11 +241,9 @@ public Timer spawnChildTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### SpawnDelayMax
-
 ```csharp
 public const float SpawnDelayMax = 15
 ```
@@ -300,11 +251,9 @@ public const float SpawnDelayMax = 15
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### SpawnDelayMin
-
 ```csharp
 public const float SpawnDelayMin = 5
 ```
@@ -312,11 +261,9 @@ public const float SpawnDelayMin = 5
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### teleportDelayTimer
-
 ```csharp
 public Timer teleportDelayTimer
 ```
@@ -324,11 +271,9 @@ public Timer teleportDelayTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### teleportFreq
-
 ```csharp
 public const float teleportFreq = 2
 ```
@@ -336,11 +281,9 @@ public const float teleportFreq = 2
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### teleportTimer
-
 ```csharp
 public Timer teleportTimer
 ```
@@ -348,11 +291,9 @@ public Timer teleportTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### textUI
-
 ```csharp
 public Text textUI
 ```
@@ -360,45 +301,37 @@ public Text textUI
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ## Properties
 
 ### spawnDelay
-
 ```csharp
 private float spawnDelay { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### teleportCoolTime
-
 ```csharp
 private float teleportCoolTime { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### teleportDelay
-
 ```csharp
 private float teleportDelay { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### AppearEffect()
-
 ```csharp
 private void AppearEffect()
 ```
@@ -406,7 +339,6 @@ private void AppearEffect()
 
 
 ### CanRangeInCamera()
-
 ```csharp
 public bool CanRangeInCamera()
 ```
@@ -414,11 +346,9 @@ public bool CanRangeInCamera()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### CanTakePhsyicalDamage(UnitModel)
-
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
@@ -426,17 +356,14 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### DelayedEnable(float)
-
 ```csharp
 public void DelayedEnable(float delay)
 ```
@@ -444,13 +371,11 @@ public void DelayedEnable(float delay)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `delay` | `System.Single` |  |
 
 ### Disappear()
-
 ```csharp
 public void Disappear()
 ```
@@ -458,7 +383,6 @@ public void Disappear()
 
 
 ### Enable()
-
 ```csharp
 public void Enable()
 ```
@@ -466,7 +390,6 @@ public void Enable()
 
 
 ### GiveDamageInRange(float)
-
 ```csharp
 public void GiveDamageInRange(float range)
 ```
@@ -474,13 +397,11 @@ public void GiveDamageInRange(float range)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `range` | `System.Single` |  |
 
 ### Init()
-
 ```csharp
 public override void Init()
 ```
@@ -488,7 +409,6 @@ public override void Init()
 
 
 ### InvokeAppearDamage()
-
 ```csharp
 public void InvokeAppearDamage()
 ```
@@ -496,7 +416,6 @@ public void InvokeAppearDamage()
 
 
 ### InvokeSpawn()
-
 ```csharp
 public void InvokeSpawn()
 ```
@@ -504,7 +423,6 @@ public void InvokeSpawn()
 
 
 ### IsActive()
-
 ```csharp
 public bool IsActive()
 ```
@@ -512,11 +430,9 @@ public bool IsActive()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### IsAttackable()
-
 ```csharp
 public override bool IsAttackable()
 ```
@@ -524,11 +440,9 @@ public override bool IsAttackable()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### MakeAppearEnvironmentSound()
-
 ```csharp
 private void MakeAppearEnvironmentSound()
 ```
@@ -536,7 +450,6 @@ private void MakeAppearEnvironmentSound()
 
 
 ### MakeCloseMentalDamage()
-
 ```csharp
 public void MakeCloseMentalDamage()
 ```
@@ -544,7 +457,6 @@ public void MakeCloseMentalDamage()
 
 
 ### OnDisappear()
-
 ```csharp
 public void OnDisappear()
 ```
@@ -552,7 +464,6 @@ public void OnDisappear()
 
 
 ### OnEnable()
-
 ```csharp
 public void OnEnable()
 ```
@@ -560,7 +471,6 @@ public void OnEnable()
 
 
 ### OnFixedUpdate(StandingItemModel)
-
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
@@ -568,13 +478,11 @@ public override void OnFixedUpdate(StandingItemModel model)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `model` | `Global.StandingItemModel` |  |
 
 ### OnWorkerDead(List<WorkerModel>)
-
 ```csharp
 public void OnWorkerDead(List<WorkerModel> target)
 ```
@@ -582,13 +490,11 @@ public void OnWorkerDead(List<WorkerModel> target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `System.Collections.Generic.List{WorkerModel}` |  |
 
 ### ReadyForTeleport()
-
 ```csharp
 public void ReadyForTeleport()
 ```
@@ -596,7 +502,6 @@ public void ReadyForTeleport()
 
 
 ### SetActive(bool)
-
 ```csharp
 public void SetActive(bool state)
 ```
@@ -604,13 +509,11 @@ public void SetActive(bool state)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `state` | `System.Boolean` |  |
 
 ### SetCurrent()
-
 ```csharp
 public void SetCurrent()
 ```
@@ -618,7 +521,6 @@ public void SetCurrent()
 
 
 ### SetCurrentPassage(PassageObjectModel)
-
 ```csharp
 public void SetCurrentPassage(PassageObjectModel passage)
 ```
@@ -626,13 +528,11 @@ public void SetCurrentPassage(PassageObjectModel passage)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `passage` | `Global.PassageObjectModel` |  |
 
 ### SetEvent(HordeOfBugs)
-
 ```csharp
 public override void SetEvent(HordeOfBugs hob)
 ```
@@ -641,15 +541,17 @@ public override void SetEvent(HordeOfBugs hob)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `hob` | `Global.HordeOfBugs` |  |
 
 ### SpawnChilds()
-
 ```csharp
 public void SpawnChilds()
 ```
 #INC
+
+
+## Inherited Members
+[randomEvent](/api/Global/Script/HordeOfBugsScript#randomevent), [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [OnBreakDown()](/api/Global/Standing/StandingItemScriptBase#onbreakdown), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [OnTakePhyisclaDamage(float)](/api/Global/Standing/StandingItemScriptBase#ontakephyiscladamage-float), [GetName()](/api/Global/Standing/StandingItemScriptBase#getname), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [HasName()](/api/Global/Standing/StandingItemScriptBase#hasname), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

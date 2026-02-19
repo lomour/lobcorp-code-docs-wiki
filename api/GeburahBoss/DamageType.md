@@ -1,10 +1,10 @@
+ 
 ---
 uid: GeburahBoss.DamageType
 canonical_path: /api/GeburahBoss/DamageType
 ---
 
 # Enum DamageType
-
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,31 +15,26 @@ public enum DamageType
 ## Fields
 
 ### PASSAGE
-
 ```csharp
 PASSAGE = 0
 ```
 
 #### Field Value
-
 **Type:** GeburahBoss.DamageType
 
 ### PROJECTILE
-
 ```csharp
 PROJECTILE = 2
 ```
 
 #### Field Value
-
 **Type:** GeburahBoss.DamageType
 
 ### RANGED
-
 ```csharp
 RANGED = 1
 ```
 
 #### Field Value
-
 **Type:** GeburahBoss.DamageType
+

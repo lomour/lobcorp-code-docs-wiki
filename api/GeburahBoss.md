@@ -1,3 +1,5 @@
+ 
+
 # Namespace GeburahBoss
 
 ## Classes
@@ -46,7 +48,6 @@
 
 ### [ThirdPhase](/api/GeburahBoss/ThirdPhase)
 
-
 ## Enums
 
 ### [DamageType](/api/GeburahBoss/DamageType)
@@ -57,9 +58,9 @@
 
 ### [ProjectileType](/api/GeburahBoss/ProjectileType)
 
-
 ## Delegates
 
 ### [GeburahActionMethod](/api/GeburahBoss/GeburahActionMethod)
 
 ### [GeburahEventCalled](/api/GeburahBoss/GeburahEventCalled)
+

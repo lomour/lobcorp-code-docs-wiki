@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IMouseCommandTarget
 canonical_path: /api/Global/Misc/IMouseCommandTarget
 ---
 
 # Interface IMouseCommandTarget
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -30,7 +30,6 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager) (for sel
 ## Methods
 
 ### GetCommandTargetModel()
-
 ```csharp
 IMouseCommandTargetModel GetCommandTargetModel()
 ```
@@ -39,5 +38,5 @@ IMouseCommandTargetModel GetCommandTargetModel()
 
 
 #### Returns
-
 **Type:** Global.IMouseCommandTargetModel
+

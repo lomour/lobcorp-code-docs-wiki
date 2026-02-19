@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.RouletteWindow
 canonical_path: /api/Global/IANimatorEventCalled/RouletteWindow
 ---
 
 # Class RouletteWindow
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -23,13 +23,9 @@ The roulette that appears during [Censored](/api/Global/Misc/Censored)'s special
 ## Implements
 [IAnimatorEventCalled](/api/Global/Misc/IAnimatorEventCalled)
 
-## Inherited Members
-[Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### RouletteWindow()
-
 ```csharp
 public RouletteWindow()
 ```
@@ -37,7 +33,6 @@ public RouletteWindow()
 ## Fields
 
 ### _currentCaller
-
 ```csharp
 private IRouletteWindowMessage _currentCaller
 ```
@@ -45,11 +40,9 @@ private IRouletteWindowMessage _currentCaller
 
 
 #### Field Value
-
 **Type:** Global.IRouletteWindowMessage
 
 ### _currentWindow
-
 ```csharp
 private static RouletteWindow _currentWindow
 ```
@@ -57,11 +50,9 @@ private static RouletteWindow _currentWindow
 
 
 #### Field Value
-
 **Type:** Global.RouletteWindow
 
 ### _looping
-
 ```csharp
 private float _looping
 ```
@@ -69,11 +60,9 @@ private float _looping
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### anchorMax
-
 ```csharp
 public float anchorMax
 ```
@@ -81,11 +70,9 @@ public float anchorMax
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### anim
-
 ```csharp
 public Animator anim
 ```
@@ -93,11 +80,9 @@ public Animator anim
 
 
 #### Field Value
-
 **Type:** UnityEngine.Animator
 
 ### audioSrc
-
 ```csharp
 public AudioSource audioSrc
 ```
@@ -105,11 +90,9 @@ public AudioSource audioSrc
 
 
 #### Field Value
-
 **Type:** UnityEngine.AudioSource
 
 ### autoClose
-
 ```csharp
 public bool autoClose
 ```
@@ -117,22 +100,18 @@ public bool autoClose
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### CameraPos
-
 ```csharp
 [HideInInspector]
 public Vector3 CameraPos
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.Vector3
 
 ### CancelButton
-
 ```csharp
 public Button CancelButton
 ```
@@ -140,11 +119,9 @@ public Button CancelButton
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Button
 
 ### closeSound
-
 ```csharp
 public AudioClip closeSound
 ```
@@ -152,11 +129,9 @@ public AudioClip closeSound
 
 
 #### Field Value
-
 **Type:** UnityEngine.AudioClip
 
 ### ConfirmButton
-
 ```csharp
 public Button ConfirmButton
 ```
@@ -164,11 +139,9 @@ public Button ConfirmButton
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Button
 
 ### copied
-
 ```csharp
 private GameObject copied
 ```
@@ -176,11 +149,9 @@ private GameObject copied
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### copiedList
-
 ```csharp
 private List<RouletteItem> copiedList
 ```
@@ -188,11 +159,9 @@ private List<RouletteItem> copiedList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{RouletteItem}
 
 ### current
-
 ```csharp
 private RectTransform current
 ```
@@ -200,11 +169,9 @@ private RectTransform current
 
 
 #### Field Value
-
 **Type:** UnityEngine.RectTransform
 
 ### currentIndexDisplay_Debug
-
 ```csharp
 public Text currentIndexDisplay_Debug
 ```
@@ -212,11 +179,9 @@ public Text currentIndexDisplay_Debug
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### currentTarget
-
 ```csharp
 public CreatureModel currentTarget
 ```
@@ -224,11 +189,9 @@ public CreatureModel currentTarget
 
 
 #### Field Value
-
 **Type:** Global.CreatureModel
 
 ### endTime
-
 ```csharp
 public float endTime
 ```
@@ -236,11 +199,9 @@ public float endTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### endTimer
-
 ```csharp
 private UnscaledTimer endTimer
 ```
@@ -248,11 +209,9 @@ private UnscaledTimer endTimer
 
 
 #### Field Value
-
 **Type:** Global.UnscaledTimer
 
 ### filterNormal
-
 ```csharp
 public Sprite filterNormal
 ```
@@ -260,11 +219,9 @@ public Sprite filterNormal
 
 
 #### Field Value
-
 **Type:** UnityEngine.Sprite
 
 ### filterRenderer
-
 ```csharp
 public Image filterRenderer
 ```
@@ -272,11 +229,9 @@ public Image filterRenderer
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Image
 
 ### filterTransTime
-
 ```csharp
 public float filterTransTime
 ```
@@ -284,11 +239,9 @@ public float filterTransTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### filterTransTimer
-
 ```csharp
 private UnscaledTimer filterTransTimer
 ```
@@ -296,11 +249,9 @@ private UnscaledTimer filterTransTimer
 
 
 #### Field Value
-
 **Type:** Global.UnscaledTimer
 
 ### filterWorkerSelected
-
 ```csharp
 public Sprite filterWorkerSelected
 ```
@@ -308,11 +259,9 @@ public Sprite filterWorkerSelected
 
 
 #### Field Value
-
 **Type:** UnityEngine.Sprite
 
 ### findingSpeed
-
 ```csharp
 public Vector2 findingSpeed
 ```
@@ -320,11 +269,9 @@ public Vector2 findingSpeed
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector2
 
 ### findingTime
-
 ```csharp
 public float findingTime
 ```
@@ -332,11 +279,9 @@ public float findingTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### integrate
-
 ```csharp
 public GameObject integrate
 ```
@@ -344,11 +289,9 @@ public GameObject integrate
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### isFinding
-
 ```csharp
 private bool isFinding
 ```
@@ -356,11 +299,9 @@ private bool isFinding
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isOrigin
-
 ```csharp
 private bool isOrigin
 ```
@@ -368,11 +309,9 @@ private bool isOrigin
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isRunning
-
 ```csharp
 private bool isRunning
 ```
@@ -380,11 +319,9 @@ private bool isRunning
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isTransBright
-
 ```csharp
 private bool isTransBright
 ```
@@ -392,11 +329,9 @@ private bool isTransBright
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### list
-
 ```csharp
 private List<RouletteItem> list
 ```
@@ -404,11 +339,9 @@ private List<RouletteItem> list
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{RouletteItem}
 
 ### loopRange
-
 ```csharp
 public Vector2 loopRange
 ```
@@ -416,22 +349,18 @@ public Vector2 loopRange
 
 
 #### Field Value
-
 **Type:** UnityEngine.Vector2
 
 ### loopSpeedRange
-
 ```csharp
 [Space(5)]
 public Vector2 loopSpeedRange
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.Vector2
 
 ### loopTimer
-
 ```csharp
 private UnscaledTimer loopTimer
 ```
@@ -439,11 +368,9 @@ private UnscaledTimer loopTimer
 
 
 #### Field Value
-
 **Type:** Global.UnscaledTimer
 
 ### moveElap
-
 ```csharp
 private float moveElap
 ```
@@ -451,11 +378,9 @@ private float moveElap
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### moveTarget
-
 ```csharp
 private float moveTarget
 ```
@@ -463,11 +388,9 @@ private float moveTarget
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### OnInvalidPanel
-
 ```csharp
 public GameObject OnInvalidPanel
 ```
@@ -475,11 +398,9 @@ public GameObject OnInvalidPanel
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### openSound
-
 ```csharp
 public AudioClip openSound
 ```
@@ -487,11 +408,9 @@ public AudioClip openSound
 
 
 #### Field Value
-
 **Type:** UnityEngine.AudioClip
 
 ### panel
-
 ```csharp
 public RectTransform panel
 ```
@@ -499,11 +418,9 @@ public RectTransform panel
 
 
 #### Field Value
-
 **Type:** UnityEngine.RectTransform
 
 ### posy
-
 ```csharp
 private float posy
 ```
@@ -511,22 +428,18 @@ private float posy
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### prewarm
-
 ```csharp
 [Space(5)]
 public float prewarm
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ### prewarmTimer
-
 ```csharp
 private UnscaledTimer prewarmTimer
 ```
@@ -534,11 +447,9 @@ private UnscaledTimer prewarmTimer
 
 
 #### Field Value
-
 **Type:** Global.UnscaledTimer
 
 ### raycastObject
-
 ```csharp
 public GameObject raycastObject
 ```
@@ -546,11 +457,9 @@ public GameObject raycastObject
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### rouletteMaskHeight
-
 ```csharp
 public float rouletteMaskHeight
 ```
@@ -558,11 +467,9 @@ public float rouletteMaskHeight
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### scrollArea
-
 ```csharp
 public ScrollRect scrollArea
 ```
@@ -570,21 +477,17 @@ public ScrollRect scrollArea
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.ScrollRect
 
 ### selectedEvent
-
 ```csharp
 private RouletteWindow.OnSelectedEvent selectedEvent
 ```
 
 #### Field Value
-
 **Type:** Global.RouletteWindow.OnSelectedEvent
 
 ### selectSound
-
 ```csharp
 public AudioClip selectSound
 ```
@@ -592,11 +495,9 @@ public AudioClip selectSound
 
 
 #### Field Value
-
 **Type:** UnityEngine.AudioClip
 
 ### shooted
-
 ```csharp
 private bool shooted
 ```
@@ -604,11 +505,9 @@ private bool shooted
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### spare
-
 ```csharp
 private RectTransform spare
 ```
@@ -616,11 +515,9 @@ private RectTransform spare
 
 
 #### Field Value
-
 **Type:** UnityEngine.RectTransform
 
 ### speedFactor
-
 ```csharp
 public float speedFactor
 ```
@@ -628,11 +525,9 @@ public float speedFactor
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### startedRun
-
 ```csharp
 private bool startedRun
 ```
@@ -640,22 +535,18 @@ private bool startedRun
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### stopTime
-
 ```csharp
 [Space(10)]
 public Vector2 stopTime
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.Vector2
 
 ### targetIndex
-
 ```csharp
 private int targetIndex
 ```
@@ -663,11 +554,9 @@ private int targetIndex
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### textItem
-
 ```csharp
 public GameObject textItem
 ```
@@ -675,11 +564,9 @@ public GameObject textItem
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### tickFreqDef
-
 ```csharp
 public float tickFreqDef
 ```
@@ -687,11 +574,9 @@ public float tickFreqDef
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### tickFreqMin
-
 ```csharp
 public float tickFreqMin
 ```
@@ -699,11 +584,9 @@ public float tickFreqMin
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### tickSound
-
 ```csharp
 public AudioClip tickSound
 ```
@@ -711,11 +594,9 @@ public AudioClip tickSound
 
 
 #### Field Value
-
 **Type:** UnityEngine.AudioClip
 
 ### tickSoundFreqScaler
-
 ```csharp
 public float tickSoundFreqScaler
 ```
@@ -723,11 +604,9 @@ public float tickSoundFreqScaler
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### tickSoundTimer
-
 ```csharp
 private UnscaledTimer tickSoundTimer
 ```
@@ -735,11 +614,9 @@ private UnscaledTimer tickSoundTimer
 
 
 #### Field Value
-
 **Type:** Global.UnscaledTimer
 
 ### title
-
 ```csharp
 public Text title
 ```
@@ -747,22 +624,18 @@ public Text title
 
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### unitRectHeight
-
 ```csharp
 [Space(5)]
 public float unitRectHeight
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ### workerlist
-
 ```csharp
 private List<WorkerModel> workerlist
 ```
@@ -770,85 +643,69 @@ private List<WorkerModel> workerlist
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{WorkerModel}
 
 ## Properties
 
 ### currentCaller
-
 ```csharp
 private IRouletteWindowMessage currentCaller { get; set; }
 ```
 
 #### Property Value
-
 **Type:** Global.IRouletteWindowMessage
 
 ### currentWindow
-
 ```csharp
 public static RouletteWindow currentWindow { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.RouletteWindow
 
 ### looping
-
 ```csharp
 private float looping { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### loopSpeed
-
 ```csharp
 public float loopSpeed { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### maxIndex
-
 ```csharp
 private int maxIndex { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### speed
-
 ```csharp
 private float speed { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### tickSoundFreq
-
 ```csharp
 private float tickSoundFreq { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### AgentReset()
-
 ```csharp
 public void AgentReset()
 ```
@@ -856,7 +713,6 @@ public void AgentReset()
 
 
 ### AnimatorEventInit()
-
 ```csharp
 public void AnimatorEventInit()
 ```
@@ -864,7 +720,6 @@ public void AnimatorEventInit()
 
 
 ### AttackCalled(int)
-
 ```csharp
 public void AttackCalled(int i)
 ```
@@ -872,13 +727,11 @@ public void AttackCalled(int i)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 
 ### AttackDamageTimeCalled()
-
 ```csharp
 public void AttackDamageTimeCalled()
 ```
@@ -886,7 +739,6 @@ public void AttackDamageTimeCalled()
 
 
 ### Awake()
-
 ```csharp
 private void Awake()
 ```
@@ -895,7 +747,6 @@ private void Awake()
 
 
 ### CallerSet(IRouletteWindowMessage)
-
 ```csharp
 public void CallerSet(IRouletteWindowMessage caller)
 ```
@@ -903,13 +754,11 @@ public void CallerSet(IRouletteWindowMessage caller)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `caller` | `Global.IRouletteWindowMessage` |  |
 
 ### CheckProcess()
-
 ```csharp
 private void CheckProcess()
 ```
@@ -917,7 +766,6 @@ private void CheckProcess()
 
 
 ### CheckRaycast()
-
 ```csharp
 private void CheckRaycast()
 ```
@@ -925,7 +773,6 @@ private void CheckRaycast()
 
 
 ### CheckValidate()
-
 ```csharp
 private bool CheckValidate()
 ```
@@ -933,11 +780,9 @@ private bool CheckValidate()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### CopyForRun()
-
 ```csharp
 private void CopyForRun()
 ```
@@ -945,7 +790,6 @@ private void CopyForRun()
 
 
 ### CreatureAnimCall(int, CreatureBase)
-
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
@@ -953,14 +797,12 @@ public void CreatureAnimCall(int i, CreatureBase script)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 | `script` | `Global.CreatureBase` |  |
 
 ### FindTarget()
-
 ```csharp
 private void FindTarget()
 ```
@@ -968,7 +810,6 @@ private void FindTarget()
 
 
 ### InitList()
-
 ```csharp
 private void InitList()
 ```
@@ -976,7 +817,6 @@ private void InitList()
 
 
 ### MoveToFind()
-
 ```csharp
 private void MoveToFind()
 ```
@@ -984,7 +824,6 @@ private void MoveToFind()
 
 
 ### OnCalled()
-
 ```csharp
 public void OnCalled()
 ```
@@ -992,7 +831,6 @@ public void OnCalled()
 
 
 ### OnCalled(int)
-
 ```csharp
 public void OnCalled(int i)
 ```
@@ -1000,13 +838,11 @@ public void OnCalled(int i)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 
 ### OnClickCancel()
-
 ```csharp
 public void OnClickCancel()
 ```
@@ -1014,7 +850,6 @@ public void OnClickCancel()
 
 
 ### OnClickConfirm()
-
 ```csharp
 public void OnClickConfirm()
 ```
@@ -1022,7 +857,6 @@ public void OnClickConfirm()
 
 
 ### OnClose()
-
 ```csharp
 public void OnClose()
 ```
@@ -1030,7 +864,6 @@ public void OnClose()
 
 
 ### OnFilterDefault()
-
 ```csharp
 public void OnFilterDefault()
 ```
@@ -1038,7 +871,6 @@ public void OnFilterDefault()
 
 
 ### OnFilterSelected()
-
 ```csharp
 public void OnFilterSelected()
 ```
@@ -1046,7 +878,6 @@ public void OnFilterSelected()
 
 
 ### OnInvalid()
-
 ```csharp
 private void OnInvalid()
 ```
@@ -1054,7 +885,6 @@ private void OnInvalid()
 
 
 ### OnOpenWindowPrev()
-
 ```csharp
 private void OnOpenWindowPrev()
 ```
@@ -1062,7 +892,6 @@ private void OnOpenWindowPrev()
 
 
 ### OnRunningEnd()
-
 ```csharp
 private void OnRunningEnd()
 ```
@@ -1070,7 +899,6 @@ private void OnRunningEnd()
 
 
 ### OnSelectedItemEffectEnd(RouletteItem)
-
 ```csharp
 public void OnSelectedItemEffectEnd(RouletteItem item)
 ```
@@ -1078,13 +906,11 @@ public void OnSelectedItemEffectEnd(RouletteItem item)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `item` | `Global.RouletteItem` |  |
 
 ### OnStageStart()
-
 ```csharp
 private void OnStageStart()
 ```
@@ -1092,26 +918,22 @@ private void OnStageStart()
 
 
 ### OpenWindowGlobal(CreatureModel, OnSelectedEvent)
-
 ```csharp
 public void OpenWindowGlobal(CreatureModel creature, RouletteWindow.OnSelectedEvent del)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `creature` | `Global.CreatureModel` |  |
 | `del` | `Global.RouletteWindow.OnSelectedEvent` |  |
 
 ### OpenWindowLocal(CreatureModel, Sefira, OnSelectedEvent)
-
 ```csharp
 public void OpenWindowLocal(CreatureModel creature, Sefira range, RouletteWindow.OnSelectedEvent del)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `creature` | `Global.CreatureModel` |  |
@@ -1119,7 +941,6 @@ public void OpenWindowLocal(CreatureModel creature, Sefira range, RouletteWindow
 | `del` | `Global.RouletteWindow.OnSelectedEvent` |  |
 
 ### PlaySelectSound()
-
 ```csharp
 public void PlaySelectSound()
 ```
@@ -1127,7 +948,6 @@ public void PlaySelectSound()
 
 
 ### RunPanel()
-
 ```csharp
 private void RunPanel()
 ```
@@ -1135,7 +955,6 @@ private void RunPanel()
 
 
 ### SetFilterAlpha(float)
-
 ```csharp
 public void SetFilterAlpha(float alpha)
 ```
@@ -1143,13 +962,11 @@ public void SetFilterAlpha(float alpha)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `alpha` | `System.Single` |  |
 
 ### SetLooping()
-
 ```csharp
 private void SetLooping()
 ```
@@ -1157,7 +974,6 @@ private void SetLooping()
 
 
 ### SetTarget()
-
 ```csharp
 private void SetTarget()
 ```
@@ -1165,7 +981,6 @@ private void SetTarget()
 
 
 ### SimpleReset()
-
 ```csharp
 public void SimpleReset()
 ```
@@ -1173,7 +988,6 @@ public void SimpleReset()
 
 
 ### SoundMake(string)
-
 ```csharp
 public void SoundMake(string src)
 ```
@@ -1181,15 +995,17 @@ public void SoundMake(string src)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `src` | `System.String` |  |
 
 ### Update()
-
 ```csharp
 private void Update()
 ```
 #INC
+
+
+## Inherited Members
+[Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

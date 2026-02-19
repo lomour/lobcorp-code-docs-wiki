@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.IMouseOnSelectListener
 canonical_path: /api/Global/Misc/IMouseOnSelectListener
 ---
 
 # Interface IMouseOnSelectListener
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -31,7 +31,6 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
 ## Methods
 
 ### IsSelectable()
-
 ```csharp
 bool IsSelectable()
 ```
@@ -40,11 +39,9 @@ bool IsSelectable()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### OnSelect()
-
 ```csharp
 void OnSelect()
 ```
@@ -52,9 +49,9 @@ void OnSelect()
 
 
 ### OnUnselect()
-
 ```csharp
 void OnUnselect()
 ```
 #INC
+
 

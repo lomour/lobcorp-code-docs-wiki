@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.ElevatorPassageModel
 canonical_path: /api/Global/Model/ElevatorPassageModel
 ---
 
 # Class ElevatorPassageModel
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -23,13 +23,9 @@ Also, holds the GameObject that actually is the elevator room, which is one of t
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ElevatorPassageModel
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### ElevatorPassageModel(MapNode, PassageObjectModel, string)
-
 ```csharp
 public ElevatorPassageModel(MapNode elevatorNode, PassageObjectModel basePassage, string elevatorPrefabPath)
 ```
@@ -38,7 +34,6 @@ public ElevatorPassageModel(MapNode elevatorNode, PassageObjectModel basePassage
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `elevatorNode` | `Global.MapNode` |  |
@@ -48,7 +43,6 @@ public ElevatorPassageModel(MapNode elevatorNode, PassageObjectModel basePassage
 ## Fields
 
 ### basePassage
-
 ```csharp
 private PassageObjectModel basePassage
 ```
@@ -56,11 +50,9 @@ private PassageObjectModel basePassage
 
 
 #### Field Value
-
 **Type:** Global.PassageObjectModel
 
 ### buttonClicked
-
 ```csharp
 private List<bool> buttonClicked
 ```
@@ -68,21 +60,17 @@ private List<bool> buttonClicked
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{System.Boolean}
 
 ### currentDirection
-
 ```csharp
 private ElevatorPassageModel.ElevatorDirection currentDirection
 ```
 
 #### Field Value
-
 **Type:** Global.ElevatorPassageModel.ElevatorDirection
 
 ### currentPos
-
 ```csharp
 private float currentPos
 ```
@@ -90,11 +78,9 @@ private float currentPos
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### destinationFloor
-
 ```csharp
 private int destinationFloor
 ```
@@ -102,11 +88,9 @@ private int destinationFloor
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### elevatorNode
-
 ```csharp
 private MapNode elevatorNode
 ```
@@ -114,11 +98,9 @@ private MapNode elevatorNode
 
 
 #### Field Value
-
 **Type:** Global.MapNode
 
 ### elevatorPrefab
-
 ```csharp
 private GameObject elevatorPrefab
 ```
@@ -126,11 +108,9 @@ private GameObject elevatorPrefab
 
 
 #### Field Value
-
 **Type:** UnityEngine.GameObject
 
 ### elevatorPrefabPath
-
 ```csharp
 private string elevatorPrefabPath
 ```
@@ -138,31 +118,25 @@ private string elevatorPrefabPath
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### enteredList
-
 ```csharp
 private List<ElevatorPassageModel.EnteredUnit> enteredList
 ```
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{ElevatorPassageModel.EnteredUnit}
 
 ### floorList
-
 ```csharp
 private List<ElevatorPassageModel.FloorInfo> floorList
 ```
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{ElevatorPassageModel.FloorInfo}
 
 ### innerNodes
-
 ```csharp
 private List<MapNode> innerNodes
 ```
@@ -170,11 +144,9 @@ private List<MapNode> innerNodes
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{MapNode}
 
 ### nodeOrigin
-
 ```csharp
 private List<Vector3> nodeOrigin
 ```
@@ -182,11 +154,9 @@ private List<Vector3> nodeOrigin
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{UnityEngine.Vector3}
 
 ### type
-
 ```csharp
 private ElevatorType type
 ```
@@ -194,11 +164,9 @@ private ElevatorType type
 
 
 #### Field Value
-
 **Type:** Global.ElevatorType
 
 ### waitTimer
-
 ```csharp
 private float waitTimer
 ```
@@ -206,13 +174,11 @@ private float waitTimer
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### AddFloorInfo(MapNode[], Vector3)
-
 ```csharp
 public void AddFloorInfo(MapNode[] node, Vector3 position)
 ```
@@ -220,14 +186,12 @@ public void AddFloorInfo(MapNode[] node, Vector3 position)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `node` | `Global.MapNode[]` |  |
 | `position` | `UnityEngine.Vector3` |  |
 
 ### AddNode(MapNode)
-
 ```csharp
 public void AddNode(MapNode node)
 ```
@@ -235,13 +199,11 @@ public void AddNode(MapNode node)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `node` | `Global.MapNode` |  |
 
 ### ClickButton(MapNode)
-
 ```csharp
 public void ClickButton(MapNode callNode)
 ```
@@ -249,13 +211,11 @@ public void ClickButton(MapNode callNode)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `callNode` | `Global.MapNode` |  |
 
 ### FinishMove(int)
-
 ```csharp
 public void FinishMove(int floor)
 ```
@@ -263,13 +223,11 @@ public void FinishMove(int floor)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `floor` | `System.Int32` |  |
 
 ### GetCurrentFloorNodes()
-
 ```csharp
 public MapNode[] GetCurrentFloorNodes()
 ```
@@ -277,11 +235,9 @@ public MapNode[] GetCurrentFloorNodes()
 
 
 #### Returns
-
 **Type:** Global.MapNode[]
 
 ### GetCurrentPos()
-
 ```csharp
 public float GetCurrentPos()
 ```
@@ -289,11 +245,9 @@ public float GetCurrentPos()
 
 
 #### Returns
-
 **Type:** System.Single
 
 ### GetElevatorPosition()
-
 ```csharp
 public Vector3 GetElevatorPosition()
 ```
@@ -301,11 +255,9 @@ public Vector3 GetElevatorPosition()
 
 
 #### Returns
-
 **Type:** UnityEngine.Vector3
 
 ### GetElevatorPrefab()
-
 ```csharp
 public GameObject GetElevatorPrefab()
 ```
@@ -313,11 +265,9 @@ public GameObject GetElevatorPrefab()
 
 
 #### Returns
-
 **Type:** UnityEngine.GameObject
 
 ### GetElevatorType()
-
 ```csharp
 public ElevatorType GetElevatorType()
 ```
@@ -325,11 +275,9 @@ public ElevatorType GetElevatorType()
 
 
 #### Returns
-
 **Type:** Global.ElevatorType
 
 ### GetNode()
-
 ```csharp
 public MapNode GetNode()
 ```
@@ -337,11 +285,9 @@ public MapNode GetNode()
 
 
 #### Returns
-
 **Type:** Global.MapNode
 
 ### OnFixedUpdate()
-
 ```csharp
 public void OnFixedUpdate()
 ```
@@ -349,7 +295,6 @@ public void OnFixedUpdate()
 
 
 ### OnUnitEnter(MovableObjectNode, MapNode)
-
 ```csharp
 public void OnUnitEnter(MovableObjectNode unit, MapNode destination)
 ```
@@ -357,14 +302,12 @@ public void OnUnitEnter(MovableObjectNode unit, MapNode destination)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `unit` | `Global.MovableObjectNode` |  |
 | `destination` | `Global.MapNode` |  |
 
 ### OnUnitExit(MovableObjectNode)
-
 ```csharp
 public void OnUnitExit(MovableObjectNode unit)
 ```
@@ -372,13 +315,11 @@ public void OnUnitExit(MovableObjectNode unit)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `unit` | `Global.MovableObjectNode` |  |
 
 ### StartMove()
-
 ```csharp
 public void StartMove()
 ```
@@ -386,9 +327,12 @@ public void StartMove()
 
 
 ### UpdateMapNodePosition()
-
 ```csharp
 private void UpdateMapNodePosition()
 ```
 #INC
+
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

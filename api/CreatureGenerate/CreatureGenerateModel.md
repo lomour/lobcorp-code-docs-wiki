@@ -1,10 +1,10 @@
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateModel
 canonical_path: /api/CreatureGenerate/CreatureGenerateModel
 ---
 
 # Class CreatureGenerateModel
-
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
 
@@ -20,13 +20,9 @@ See [CreatureGenerateInfoManager](/api/CreatureGenerate/CreatureGenerateInfoMana
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureGenerateData](/api/CreatureGenerate/CreatureGenerateData) → CreatureGenerateModel
 
-## Inherited Members
-[split](/api/CreatureGenerate/CreatureGenerateData#split), [uniqueText](/api/CreatureGenerate/CreatureGenerateData#uniquetext), [commonAction](/api/CreatureGenerate/CreatureGenerateData#commonaction), [IsCommonAction(string, out GenerateCommonAction)](/api/CreatureGenerate/CreatureGenerateData#iscommonaction-string-out-generatecommonaction), [IsUniqueAction(string)](/api/CreatureGenerate/CreatureGenerateData#isuniqueaction-string), [ParseAction(ref string, out ActionData)](/api/CreatureGenerate/CreatureGenerateData#parseaction-ref-string-out-actiondata), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### CreatureGenerateModel()
-
 ```csharp
 public CreatureGenerateModel()
 ```
@@ -34,7 +30,6 @@ public CreatureGenerateModel()
 ## Fields
 
 ### creature
-
 ```csharp
 public List<long> creature
 ```
@@ -42,11 +37,9 @@ public List<long> creature
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{System.Int64}
 
 ### day
-
 ```csharp
 public int day
 ```
@@ -54,11 +47,9 @@ public int day
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### door1
-
 ```csharp
 public CreatureGenerateDoor door1
 ```
@@ -66,11 +57,9 @@ public CreatureGenerateDoor door1
 
 
 #### Field Value
-
 **Type:** CreatureGenerate.CreatureGenerateDoor
 
 ### door2
-
 ```csharp
 public CreatureGenerateDoor door2
 ```
@@ -78,11 +67,9 @@ public CreatureGenerateDoor door2
 
 
 #### Field Value
-
 **Type:** CreatureGenerate.CreatureGenerateDoor
 
 ### door3
-
 ```csharp
 public CreatureGenerateDoor door3
 ```
@@ -90,11 +77,9 @@ public CreatureGenerateDoor door3
 
 
 #### Field Value
-
 **Type:** CreatureGenerate.CreatureGenerateDoor
 
 ### stop
-
 ```csharp
 public bool stop
 ```
@@ -102,13 +87,11 @@ public bool stop
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ## Methods
 
 ### OnlyAction(params object[])
-
 ```csharp
 public override void OnlyAction(params object[] ids)
 ```
@@ -116,29 +99,24 @@ public override void OnlyAction(params object[] ids)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `ids` | `System.Object[]` |  |
 
 ### ParseActionNode(string)
-
 ```csharp
 public CreatureGenerateData.ActionData ParseActionNode(string nodeText)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `nodeText` | `System.String` |  |
 
 #### Returns
-
 **Type:** CreatureGenerate.CreatureGenerateData.ActionData
 
 ### Print()
-
 ```csharp
 public void Print()
 ```
@@ -146,7 +124,6 @@ public void Print()
 
 
 ### RemoveAction(params object[])
-
 ```csharp
 public override void RemoveAction(params object[] ids)
 ```
@@ -155,15 +132,17 @@ public override void RemoveAction(params object[] ids)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `ids` | `System.Object[]` |  |
 
 ### SetCreature()
-
 ```csharp
 public void SetCreature()
 ```
 #INC
+
+
+## Inherited Members
+[split](/api/CreatureGenerate/CreatureGenerateData#split), [uniqueText](/api/CreatureGenerate/CreatureGenerateData#uniquetext), [commonAction](/api/CreatureGenerate/CreatureGenerateData#commonaction), [IsCommonAction(string, out GenerateCommonAction)](/api/CreatureGenerate/CreatureGenerateData#iscommonaction-string-out-generatecommonaction), [IsUniqueAction(string)](/api/CreatureGenerate/CreatureGenerateData#isuniqueaction-string), [ParseAction(ref string, out ActionData)](/api/CreatureGenerate/CreatureGenerateData#parseaction-ref-string-out-actiondata), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

@@ -1,3 +1,5 @@
+ 
+
 # Namespace Inventory
 
 ## Classes
@@ -26,7 +28,6 @@
 
 ### [InventoryWeaponSlot](/api/Inventory/InventoryWeaponSlot)
 
-
 ## Enums
 
 ### [InventoryAgentSlot.EquipState](/api/Inventory/InventoryAgentSlot/EquipState)
@@ -35,9 +36,9 @@
 
 ### [InventoryItemType](/api/Inventory/InventoryItemType)
 
-
 ## Delegates
 
 ### [InventoryAgentSlot.OnClickEvent](/api/Inventory/InventoryAgentSlot/OnClickEvent)
 
 ### [InventoryAgentSlot.OnClickEventByAgent](/api/Inventory/InventoryAgentSlot/OnClickEventByAgent)
+

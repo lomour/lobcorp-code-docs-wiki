@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.Sefira
 canonical_path: /api/Global/Misc/Sefira
 ---
 
 # Class Sefira
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -20,7 +20,9 @@ During management, it also keeps track of the escaped abnormalities in the depar
 Generally, Central 1 does all the functions for Central 2.
 
 ## Methods
+
 ### Core
+
 #### public void OnStageStart_first()
 Initializes the department before the start of the management phase.
 
@@ -57,6 +59,7 @@ Sets the opened level.
 #### public void Activate()
 Sets a flag indicating this department is open.
 ### Rooms and Nodes
+
 #### public void ResetPassageData()
 Resets the lists of rooms.
 #### public void AddPassage(PassageObjectModel passage)
@@ -72,6 +75,7 @@ Adds all of the opened big rooms to the department.
 #### private void InitRecovoerPassages()
 Adds all big rooms to the list of rooms to recover health in. Then, if [Netzach's core suppression](/api/Global/Misc/NetzachBossBase) is completed, adds all hallways and elevators to the list of additional health recovery rooms (these recover at a lower rate). #verify 
 ### Agents
+
 #### public void AddAgent(AgentModel add)
 Adds the agent to this department, if that agent isn't already added.
 #### public void RemoveAgent(AgentModel unit)
@@ -116,6 +120,7 @@ When an agent enters the department, adds them to the list of employees in this 
 #### public void ExitAgent(MovableObjectNode unit)
 When an agent leaves the department, removes them from the list of employees in the department. Central 2 removes it from Central 1.
 ### Clerks
+
 #### public void AddUnit(OfficerModel add)
 Adds a clerk to the department and increments the clerk count.
 #### private void AssignOfficerDept()
@@ -141,6 +146,7 @@ Returns the clerk benefits level of this department.
 Returns true if there are any clerks which aren't dead or panicked.
 
 ### Abnormalities
+
 #### public void ClearCreature()
 Clears the list of abnormalities.
 #### public bool IsAnyCreatureEscaped()
@@ -154,6 +160,7 @@ If the target isn't already in the list of breaching abnormalities, adds them, t
 #### public List\<CreatureModel> GetEscapedCreatures()
 Returns the list of breaching abnormalities.
 ### Mostly Unused
+
 #### public void CheckAgentStateForEmergency()
 Checks the rate of dead agents to send update the emergency level; but does so incorrectly... Called, but none of this code ever does anything except to calculate the death and panic rates, and all it *would* do is call empty code.
 #### private void ActivateAgentEmptyPenalty()
@@ -170,29 +177,33 @@ Called by a clerk action which should never be possible.
 #### public void OnAgentGetPanic(AgentModel panicAgent)
 Empty, but called.
 ### Unused
+
 ###### public void SetSefiraPassage(PassageObjectModel passage)
 Sets the main room to the given room.
 ###### public void AddDepartmentPassage(PassageObjectModel passage)
-###### public MapNode[] GetDepartNodeToArray(int index)
-###### private void UpdateAgentEmptyState()
-###### public AgentModel[] GetAgentInSefira()
-###### public OfficerSpecialAction GetRandomSpecialAction()
-###### public bool IsAgentInEsacpedCreaturePassage(AgentModel checkTarget, out CreatureModel targetCreature)
-###### public bool IsAgentInDeadAgentPassage(AgentModel checkTarget)
-###### public int GetAliveOfficerCnt()
-###### public void InitCreatureArray()
 
+###### public MapNode[] GetDepartNodeToArray(int index)
+
+###### private void UpdateAgentEmptyState()
+
+###### public AgentModel[] GetAgentInSefira()
+
+###### public OfficerSpecialAction GetRandomSpecialAction()
+
+###### public bool IsAgentInEsacpedCreaturePassage(AgentModel checkTarget, out CreatureModel targetCreature)
+
+###### public bool IsAgentInDeadAgentPassage(AgentModel checkTarget)
+
+###### public int GetAliveOfficerCnt()
+
+###### public void InitCreatureArray()
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Sefira
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### Sefira(string, int, string, SefiraEnum)
-
 ```csharp
 public Sefira(string name, int index, string indexString, SefiraEnum sefiraEnum)
 ```
@@ -201,7 +212,6 @@ public Sefira(string name, int index, string indexString, SefiraEnum sefiraEnum)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `name` | `System.String` |  |
@@ -212,7 +222,6 @@ public Sefira(string name, int index, string indexString, SefiraEnum sefiraEnum)
 ## Fields
 
 ### _abilityCheckTimer
-
 ```csharp
 private Timer _abilityCheckTimer
 ```
@@ -220,11 +229,9 @@ private Timer _abilityCheckTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### _activated
-
 ```csharp
 private bool _activated
 ```
@@ -232,11 +239,9 @@ private bool _activated
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _activatedEmptyCounter
-
 ```csharp
 private bool _activatedEmptyCounter
 ```
@@ -244,11 +249,9 @@ private bool _activatedEmptyCounter
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _agentCheckTimer
-
 ```csharp
 private Timer _agentCheckTimer
 ```
@@ -256,11 +259,9 @@ private Timer _agentCheckTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### _agentDeadCheckTimer
-
 ```csharp
 private Timer _agentDeadCheckTimer
 ```
@@ -268,11 +269,9 @@ private Timer _agentDeadCheckTimer
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### _agentDeadPenaltyActivated
-
 ```csharp
 private bool _agentDeadPenaltyActivated
 ```
@@ -280,11 +279,9 @@ private bool _agentDeadPenaltyActivated
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _agentEmptyElapsedTime
-
 ```csharp
 private float _agentEmptyElapsedTime
 ```
@@ -292,11 +289,9 @@ private float _agentEmptyElapsedTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### _allocateMax
-
 ```csharp
 private int _allocateMax
 ```
@@ -304,11 +299,9 @@ private int _allocateMax
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### _checkPassages
-
 ```csharp
 private List<PassageObjectModel> _checkPassages
 ```
@@ -316,11 +309,9 @@ private List<PassageObjectModel> _checkPassages
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### _currentOfficerAliveLevel
-
 ```csharp
 private int _currentOfficerAliveLevel
 ```
@@ -328,11 +319,9 @@ private int _currentOfficerAliveLevel
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### _enteredAgentList
-
 ```csharp
 private List<AgentModel> _enteredAgentList
 ```
@@ -340,11 +329,9 @@ private List<AgentModel> _enteredAgentList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{AgentModel}
 
 ### _maxOfficer
-
 ```csharp
 private int _maxOfficer
 ```
@@ -352,11 +339,9 @@ private int _maxOfficer
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### _openLevel
-
 ```csharp
 private int _openLevel
 ```
@@ -364,11 +349,9 @@ private int _openLevel
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### _recoverAdditionalPassages
-
 ```csharp
 private List<PassageObjectModel> _recoverAdditionalPassages
 ```
@@ -376,11 +359,9 @@ private List<PassageObjectModel> _recoverAdditionalPassages
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### _recoverElapsedTime
-
 ```csharp
 private float _recoverElapsedTime
 ```
@@ -388,11 +369,9 @@ private float _recoverElapsedTime
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### _recoverPassages
-
 ```csharp
 private List<PassageObjectModel> _recoverPassages
 ```
@@ -400,11 +379,9 @@ private List<PassageObjectModel> _recoverPassages
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### _recoverSpeedUp
-
 ```csharp
 private bool _recoverSpeedUp
 ```
@@ -412,11 +389,9 @@ private bool _recoverSpeedUp
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _recoverUpgrade
-
 ```csharp
 private bool _recoverUpgrade
 ```
@@ -424,11 +399,9 @@ private bool _recoverUpgrade
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _sefiraEnum
-
 ```csharp
 private SefiraEnum _sefiraEnum
 ```
@@ -436,11 +409,9 @@ private SefiraEnum _sefiraEnum
 
 
 #### Field Value
-
 **Type:** Global.SefiraEnum
 
 ### agentDeadPenalty
-
 ```csharp
 public const float agentDeadPenalty = 50
 ```
@@ -448,11 +419,9 @@ public const float agentDeadPenalty = 50
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### agentList
-
 ```csharp
 public List<AgentModel> agentList
 ```
@@ -460,11 +429,9 @@ public List<AgentModel> agentList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{AgentModel}
 
 ### connectedPassageList
-
 ```csharp
 public List<PassageObjectModel> connectedPassageList
 ```
@@ -472,11 +439,9 @@ public List<PassageObjectModel> connectedPassageList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### creatureAry
-
 ```csharp
 private CreatureModel[] creatureAry
 ```
@@ -484,11 +449,9 @@ private CreatureModel[] creatureAry
 
 
 #### Field Value
-
 **Type:** Global.CreatureModel[]
 
 ### creatureList
-
 ```csharp
 public List<CreatureModel> creatureList
 ```
@@ -496,11 +459,9 @@ public List<CreatureModel> creatureList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{CreatureModel}
 
 ### deadRate
-
 ```csharp
 private int deadRate
 ```
@@ -508,11 +469,9 @@ private int deadRate
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### departPassageList
-
 ```csharp
 public List<PassageObjectModel> departPassageList
 ```
@@ -520,11 +479,9 @@ public List<PassageObjectModel> departPassageList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### escapedCreatures
-
 ```csharp
 private List<CreatureModel> escapedCreatures
 ```
@@ -532,11 +489,9 @@ private List<CreatureModel> escapedCreatures
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{CreatureModel}
 
 ### idleList
-
 ```csharp
 private List<int> idleList
 ```
@@ -544,11 +499,9 @@ private List<int> idleList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{System.Int32}
 
 ### index
-
 ```csharp
 public int index
 ```
@@ -556,11 +509,9 @@ public int index
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### indexString
-
 ```csharp
 public string indexString
 ```
@@ -568,11 +519,9 @@ public string indexString
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### isolateManagement
-
 ```csharp
 public SefiraIsolateManagement isolateManagement
 ```
@@ -580,11 +529,9 @@ public SefiraIsolateManagement isolateManagement
 
 
 #### Field Value
-
 **Type:** Global.SefiraIsolateManagement
 
 ### isRecoverActivated
-
 ```csharp
 public bool isRecoverActivated
 ```
@@ -592,11 +539,9 @@ public bool isRecoverActivated
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isWorking
-
 ```csharp
 private bool[] isWorking
 ```
@@ -604,11 +549,9 @@ private bool[] isWorking
 
 
 #### Field Value
-
 **Type:** System.Boolean[]
 
 ### name
-
 ```csharp
 public string name
 ```
@@ -616,11 +559,9 @@ public string name
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### officerCnt
-
 ```csharp
 private int officerCnt
 ```
@@ -628,11 +569,9 @@ private int officerCnt
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### officerList
-
 ```csharp
 public List<OfficerModel> officerList
 ```
@@ -640,11 +579,9 @@ public List<OfficerModel> officerList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{OfficerModel}
 
 ### officerSpecialAction
-
 ```csharp
 public OfficerSpecialActionList officerSpecialAction
 ```
@@ -652,11 +589,9 @@ public OfficerSpecialActionList officerSpecialAction
 
 
 #### Field Value
-
 **Type:** Global.OfficerSpecialActionList
 
 ### openedDepartmentList
-
 ```csharp
 public List<PassageObjectModel> openedDepartmentList
 ```
@@ -664,11 +599,9 @@ public List<PassageObjectModel> openedDepartmentList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### OpenMax
-
 ```csharp
 public const int OpenMax = 5
 ```
@@ -676,11 +609,9 @@ public const int OpenMax = 5
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### OpenMin
-
 ```csharp
 public const int OpenMin = 0
 ```
@@ -688,11 +619,9 @@ public const int OpenMin = 0
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### panicRate
-
 ```csharp
 private int panicRate
 ```
@@ -700,11 +629,9 @@ private int panicRate
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### passageList
-
 ```csharp
 public List<PassageObjectModel> passageList
 ```
@@ -712,11 +639,9 @@ public List<PassageObjectModel> passageList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{PassageObjectModel}
 
 ### recoverTime
-
 ```csharp
 public const float recoverTime = 10
 ```
@@ -724,11 +649,9 @@ public const float recoverTime = 10
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### SefiraClosed
-
 ```csharp
 private bool SefiraClosed
 ```
@@ -736,11 +659,9 @@ private bool SefiraClosed
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### sefiraPassage
-
 ```csharp
 public PassageObjectModel sefiraPassage
 ```
@@ -748,11 +669,9 @@ public PassageObjectModel sefiraPassage
 
 
 #### Field Value
-
 **Type:** Global.PassageObjectModel
 
 ### workingList
-
 ```csharp
 private List<int> workingList
 ```
@@ -760,115 +679,93 @@ private List<int> workingList
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{System.Int32}
 
 ## Properties
 
 ### activated
-
 ```csharp
 public bool activated { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Boolean
 
 ### activatedEmptyCounter
-
 ```csharp
 public bool activatedEmptyCounter { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Boolean
 
 ### agentDeadPenaltyActivated
-
 ```csharp
 public bool agentDeadPenaltyActivated { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Boolean
 
 ### agentEmptyElapsedTime
-
 ```csharp
 public float agentEmptyElapsedTime { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### allocateMax
-
 ```csharp
 public int allocateMax { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### openLevel
-
 ```csharp
 public int openLevel { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### recoverElapsedTime
-
 ```csharp
 public float recoverElapsedTime { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### regenerationMentalValue
-
 ```csharp
 private float regenerationMentalValue { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### regenerationValue
-
 ```csharp
 private float regenerationValue { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### sefiraEnum
-
 ```csharp
 public SefiraEnum sefiraEnum { get; }
 ```
 
 #### Property Value
-
 **Type:** Global.SefiraEnum
 
 ## Methods
 
 ### Activate()
-
 ```csharp
 public void Activate()
 ```
@@ -876,7 +773,6 @@ public void Activate()
 
 
 ### ActivateAgentDeadPanelty()
-
 ```csharp
 private void ActivateAgentDeadPanelty()
 ```
@@ -884,7 +780,6 @@ private void ActivateAgentDeadPanelty()
 
 
 ### ActivateAgentEmptyPenalty()
-
 ```csharp
 private void ActivateAgentEmptyPenalty()
 ```
@@ -892,7 +787,6 @@ private void ActivateAgentEmptyPenalty()
 
 
 ### AddAgent(AgentModel)
-
 ```csharp
 public void AddAgent(AgentModel add)
 ```
@@ -900,13 +794,11 @@ public void AddAgent(AgentModel add)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `add` | `Global.AgentModel` |  |
 
 ### AddDepartmentPassage(PassageObjectModel)
-
 ```csharp
 public void AddDepartmentPassage(PassageObjectModel passage)
 ```
@@ -914,13 +806,11 @@ public void AddDepartmentPassage(PassageObjectModel passage)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `passage` | `Global.PassageObjectModel` |  |
 
 ### AddOpenLevel()
-
 ```csharp
 public void AddOpenLevel()
 ```
@@ -928,7 +818,6 @@ public void AddOpenLevel()
 
 
 ### AddPassage(PassageObjectModel)
-
 ```csharp
 public void AddPassage(PassageObjectModel passage)
 ```
@@ -936,13 +825,11 @@ public void AddPassage(PassageObjectModel passage)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `passage` | `Global.PassageObjectModel` |  |
 
 ### AddUnit(OfficerModel)
-
 ```csharp
 public void AddUnit(OfficerModel add)
 ```
@@ -950,13 +837,11 @@ public void AddUnit(OfficerModel add)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `add` | `Global.OfficerModel` |  |
 
 ### AssignOfficerDept()
-
 ```csharp
 private void AssignOfficerDept()
 ```
@@ -964,7 +849,6 @@ private void AssignOfficerDept()
 
 
 ### CheckAgentControll()
-
 ```csharp
 public bool CheckAgentControll()
 ```
@@ -972,11 +856,9 @@ public bool CheckAgentControll()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### CheckAgentStateForEmergency()
-
 ```csharp
 public void CheckAgentStateForEmergency()
 ```
@@ -984,7 +866,6 @@ public void CheckAgentStateForEmergency()
 
 
 ### CheckEscapedCreature()
-
 ```csharp
 public bool CheckEscapedCreature()
 ```
@@ -992,11 +873,9 @@ public bool CheckEscapedCreature()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### CheckOfficerControll()
-
 ```csharp
 public bool CheckOfficerControll()
 ```
@@ -1004,11 +883,9 @@ public bool CheckOfficerControll()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### ClearAgent()
-
 ```csharp
 public void ClearAgent()
 ```
@@ -1016,7 +893,6 @@ public void ClearAgent()
 
 
 ### ClearCreature()
-
 ```csharp
 public void ClearCreature()
 ```
@@ -1024,7 +900,6 @@ public void ClearCreature()
 
 
 ### ClearOfficer()
-
 ```csharp
 public void ClearOfficer()
 ```
@@ -1032,7 +907,6 @@ public void ClearOfficer()
 
 
 ### EndCreatureWork(CreatureModel)
-
 ```csharp
 public void EndCreatureWork(CreatureModel cm)
 ```
@@ -1040,13 +914,11 @@ public void EndCreatureWork(CreatureModel cm)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `cm` | `Global.CreatureModel` |  |
 
 ### EnterAgent(MovableObjectNode)
-
 ```csharp
 public void EnterAgent(MovableObjectNode unit)
 ```
@@ -1054,13 +926,11 @@ public void EnterAgent(MovableObjectNode unit)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `unit` | `Global.MovableObjectNode` |  |
 
 ### ExitAgent(MovableObjectNode)
-
 ```csharp
 public void ExitAgent(MovableObjectNode unit)
 ```
@@ -1068,13 +938,11 @@ public void ExitAgent(MovableObjectNode unit)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `unit` | `Global.MovableObjectNode` |  |
 
 ### GetAgentInSefira()
-
 ```csharp
 public AgentModel[] GetAgentInSefira()
 ```
@@ -1082,11 +950,9 @@ public AgentModel[] GetAgentInSefira()
 
 
 #### Returns
-
 **Type:** Global.AgentModel[]
 
 ### GetAliveAgentCnt()
-
 ```csharp
 public int GetAliveAgentCnt()
 ```
@@ -1094,11 +960,9 @@ public int GetAliveAgentCnt()
 
 
 #### Returns
-
 **Type:** System.Int32
 
 ### GetAliveOfficerCnt()
-
 ```csharp
 public int GetAliveOfficerCnt()
 ```
@@ -1106,11 +970,9 @@ public int GetAliveOfficerCnt()
 
 
 #### Returns
-
 **Type:** System.Int32
 
 ### GetCurrentAbilityLevel()
-
 ```csharp
 public int GetCurrentAbilityLevel()
 ```
@@ -1118,11 +980,9 @@ public int GetCurrentAbilityLevel()
 
 
 #### Returns
-
 **Type:** System.Int32
 
 ### GetDepartNodeByRandom(int)
-
 ```csharp
 public MapNode GetDepartNodeByRandom(int index)
 ```
@@ -1130,17 +990,14 @@ public MapNode GetDepartNodeByRandom(int index)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
 
 #### Returns
-
 **Type:** Global.MapNode
 
 ### GetDepartNodeToArray(int)
-
 ```csharp
 public MapNode[] GetDepartNodeToArray(int index)
 ```
@@ -1148,17 +1005,14 @@ public MapNode[] GetDepartNodeToArray(int index)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
 
 #### Returns
-
 **Type:** Global.MapNode[]
 
 ### GetEscapedCreatures()
-
 ```csharp
 public List<CreatureModel> GetEscapedCreatures()
 ```
@@ -1166,11 +1020,9 @@ public List<CreatureModel> GetEscapedCreatures()
 
 
 #### Returns
-
 **Type:** System.Collections.Generic.List{CreatureModel}
 
 ### GetIdleCreature()
-
 ```csharp
 public CreatureModel GetIdleCreature()
 ```
@@ -1178,11 +1030,9 @@ public CreatureModel GetIdleCreature()
 
 
 #### Returns
-
 **Type:** Global.CreatureModel
 
 ### GetOfficerAliveLevel()
-
 ```csharp
 public int GetOfficerAliveLevel()
 ```
@@ -1190,11 +1040,9 @@ public int GetOfficerAliveLevel()
 
 
 #### Returns
-
 **Type:** System.Int32
 
 ### GetOtherDepartNode(int)
-
 ```csharp
 public MapNode GetOtherDepartNode(int index)
 ```
@@ -1202,17 +1050,14 @@ public MapNode GetOtherDepartNode(int index)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
 
 #### Returns
-
 **Type:** Global.MapNode
 
 ### GetRandomSpecialAction()
-
 ```csharp
 public OfficerSpecialAction GetRandomSpecialAction()
 ```
@@ -1220,11 +1065,9 @@ public OfficerSpecialAction GetRandomSpecialAction()
 
 
 #### Returns
-
 **Type:** Global.OfficerSpecialAction
 
 ### GetRandomWayPoint()
-
 ```csharp
 public MapNode GetRandomWayPoint()
 ```
@@ -1232,11 +1075,9 @@ public MapNode GetRandomWayPoint()
 
 
 #### Returns
-
 **Type:** Global.MapNode
 
 ### GetSaveData()
-
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
@@ -1244,11 +1085,9 @@ public Dictionary<string, object> GetSaveData()
 
 
 #### Returns
-
 **Type:** System.Collections.Generic.Dictionary{System.String,System.Object}
 
 ### InitCreatureArray()
-
 ```csharp
 public void InitCreatureArray()
 ```
@@ -1256,7 +1095,6 @@ public void InitCreatureArray()
 
 
 ### InitDepartList()
-
 ```csharp
 private void InitDepartList()
 ```
@@ -1264,7 +1102,6 @@ private void InitDepartList()
 
 
 ### InitOfficerGroup()
-
 ```csharp
 private void InitOfficerGroup()
 ```
@@ -1272,7 +1109,6 @@ private void InitOfficerGroup()
 
 
 ### InitPassages()
-
 ```csharp
 private void InitPassages()
 ```
@@ -1280,7 +1116,6 @@ private void InitPassages()
 
 
 ### InitRecovoerPassages()
-
 ```csharp
 private void InitRecovoerPassages()
 ```
@@ -1288,7 +1123,6 @@ private void InitRecovoerPassages()
 
 
 ### IsAgentInDeadAgentPassage(AgentModel)
-
 ```csharp
 public bool IsAgentInDeadAgentPassage(AgentModel checkTarget)
 ```
@@ -1296,17 +1130,14 @@ public bool IsAgentInDeadAgentPassage(AgentModel checkTarget)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `checkTarget` | `Global.AgentModel` |  |
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### IsAgentInEsacpedCreaturePassage(AgentModel, out CreatureModel)
-
 ```csharp
 public bool IsAgentInEsacpedCreaturePassage(AgentModel checkTarget, out CreatureModel targetCreature)
 ```
@@ -1314,18 +1145,15 @@ public bool IsAgentInEsacpedCreaturePassage(AgentModel checkTarget, out Creature
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `checkTarget` | `Global.AgentModel` |  |
 | `targetCreature` | `Global.CreatureModel` |  |
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### IsAnyCreatureEscaped()
-
 ```csharp
 public bool IsAnyCreatureEscaped()
 ```
@@ -1333,11 +1161,9 @@ public bool IsAnyCreatureEscaped()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### IsSefiraClosed()
-
 ```csharp
 public bool IsSefiraClosed()
 ```
@@ -1345,11 +1171,9 @@ public bool IsSefiraClosed()
 
 
 #### Returns
-
 **Type:** System.Boolean
 
 ### LoadData(Dictionary<string, object>)
-
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
@@ -1357,13 +1181,11 @@ public void LoadData(Dictionary<string, object> dic)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `dic` | `System.Collections.Generic.Dictionary{System.String,System.Object}` |  |
 
 ### OnAgentCannotControll(AgentModel)
-
 ```csharp
 public void OnAgentCannotControll(AgentModel deadAgent)
 ```
@@ -1371,13 +1193,11 @@ public void OnAgentCannotControll(AgentModel deadAgent)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `deadAgent` | `Global.AgentModel` |  |
 
 ### OnAgentGetPanic(AgentModel)
-
 ```csharp
 public void OnAgentGetPanic(AgentModel panicAgent)
 ```
@@ -1385,13 +1205,11 @@ public void OnAgentGetPanic(AgentModel panicAgent)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `panicAgent` | `Global.AgentModel` |  |
 
 ### OnAgentReturnControll()
-
 ```csharp
 public void OnAgentReturnControll()
 ```
@@ -1399,7 +1217,6 @@ public void OnAgentReturnControll()
 
 
 ### OnEscapeCreature(CreatureModel)
-
 ```csharp
 public void OnEscapeCreature(CreatureModel target)
 ```
@@ -1407,13 +1224,11 @@ public void OnEscapeCreature(CreatureModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.CreatureModel` |  |
 
 ### OnFixedUpdate()
-
 ```csharp
 public void OnFixedUpdate()
 ```
@@ -1421,7 +1236,6 @@ public void OnFixedUpdate()
 
 
 ### OnStageStart()
-
 ```csharp
 public void OnStageStart()
 ```
@@ -1429,7 +1243,6 @@ public void OnStageStart()
 
 
 ### OnStageStart_first()
-
 ```csharp
 public void OnStageStart_first()
 ```
@@ -1437,7 +1250,6 @@ public void OnStageStart_first()
 
 
 ### OnSuppressedCreature(CreatureModel)
-
 ```csharp
 public void OnSuppressedCreature(CreatureModel target)
 ```
@@ -1445,13 +1257,11 @@ public void OnSuppressedCreature(CreatureModel target)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.CreatureModel` |  |
 
 ### RemoveAgent(AgentModel)
-
 ```csharp
 public void RemoveAgent(AgentModel unit)
 ```
@@ -1459,13 +1269,11 @@ public void RemoveAgent(AgentModel unit)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `unit` | `Global.AgentModel` |  |
 
 ### ResetPassageData()
-
 ```csharp
 public void ResetPassageData()
 ```
@@ -1473,7 +1281,6 @@ public void ResetPassageData()
 
 
 ### ResetSpecaialAction(OfficerSpecialAction)
-
 ```csharp
 public void ResetSpecaialAction(OfficerSpecialAction osa)
 ```
@@ -1481,13 +1288,11 @@ public void ResetSpecaialAction(OfficerSpecialAction osa)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `osa` | `Global.OfficerSpecialAction` |  |
 
 ### ReturnAgentsToSefira()
-
 ```csharp
 public void ReturnAgentsToSefira()
 ```
@@ -1495,7 +1300,6 @@ public void ReturnAgentsToSefira()
 
 
 ### SendEmergencyScore(int, bool)
-
 ```csharp
 public void SendEmergencyScore(int val, bool isAdd)
 ```
@@ -1503,14 +1307,12 @@ public void SendEmergencyScore(int val, bool isAdd)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `val` | `System.Int32` |  |
 | `isAdd` | `System.Boolean` |  |
 
 ### SetOpenLevel(int)
-
 ```csharp
 public void SetOpenLevel(int level)
 ```
@@ -1518,13 +1320,11 @@ public void SetOpenLevel(int level)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `level` | `System.Int32` |  |
 
 ### SetSefiraPassage(PassageObjectModel)
-
 ```csharp
 public void SetSefiraPassage(PassageObjectModel passage)
 ```
@@ -1532,13 +1332,11 @@ public void SetSefiraPassage(PassageObjectModel passage)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `passage` | `Global.PassageObjectModel` |  |
 
 ### UpdateAgentDeadState()
-
 ```csharp
 private void UpdateAgentDeadState()
 ```
@@ -1546,7 +1344,6 @@ private void UpdateAgentDeadState()
 
 
 ### UpdateAgentEmptyState()
-
 ```csharp
 private void UpdateAgentEmptyState()
 ```
@@ -1554,7 +1351,6 @@ private void UpdateAgentEmptyState()
 
 
 ### UpdateOfficerAliveLevel()
-
 ```csharp
 private void UpdateOfficerAliveLevel()
 ```
@@ -1562,9 +1358,12 @@ private void UpdateOfficerAliveLevel()
 
 
 ### UpdateSefiraAce()
-
 ```csharp
 private void UpdateSefiraAce()
 ```
 #INC
+
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 

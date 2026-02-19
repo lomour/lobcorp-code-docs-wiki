@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.SefiraBossCloseEffectType
 canonical_path: /api/Global/Type/SefiraBossCloseEffectType
 ---
 
 # Enum SefiraBossCloseEffectType
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,11 +15,10 @@ public enum SefiraBossCloseEffectType
 ## Fields
 
 ### DEFAULT
-
 ```csharp
 DEFAULT = 0
 ```
 
 #### Field Value
-
 **Type:** Global.SefiraBossCloseEffectType
+

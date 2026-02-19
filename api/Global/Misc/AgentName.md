@@ -1,10 +1,10 @@
+ 
 ---
 uid: Global.AgentName
 canonical_path: /api/Global/Misc/AgentName
 ---
 
 # Class AgentName
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -23,13 +23,9 @@ Represents an [agent](/api/Global/Worker/AgentModel)'s name
 ## Implements
 [ISerializablePlayData](/api/Global/Misc/ISerializablePlayData)
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### AgentName(AgentNameTypeInfo, int)
-
 ```csharp
 public AgentName(AgentNameTypeInfo meta, int instId)
 ```
@@ -37,14 +33,12 @@ public AgentName(AgentNameTypeInfo meta, int instId)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `meta` | `Global.AgentNameTypeInfo` |  |
 | `instId` | `System.Int32` |  |
 
 ### AgentName(int)
-
 ```csharp
 public AgentName(int id)
 ```
@@ -52,7 +46,6 @@ public AgentName(int id)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `id` | `System.Int32` |  |
@@ -60,7 +53,6 @@ public AgentName(int id)
 ## Fields
 
 ### canUse
-
 ```csharp
 public bool canUse
 ```
@@ -68,11 +60,9 @@ public bool canUse
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### id
-
 ```csharp
 public int id
 ```
@@ -80,11 +70,9 @@ public int id
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### instanceId
-
 ```csharp
 public int instanceId
 ```
@@ -92,11 +80,9 @@ public int instanceId
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### isCredit
-
 ```csharp
 public bool isCredit
 ```
@@ -104,11 +90,9 @@ public bool isCredit
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isCustom
-
 ```csharp
 public bool isCustom
 ```
@@ -116,11 +100,9 @@ public bool isCustom
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### isUsed
-
 ```csharp
 public bool isUsed
 ```
@@ -128,11 +110,9 @@ public bool isUsed
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### metaInfo
-
 ```csharp
 public AgentNameTypeInfo metaInfo
 ```
@@ -140,11 +120,9 @@ public AgentNameTypeInfo metaInfo
 
 
 #### Field Value
-
 **Type:** Global.AgentNameTypeInfo
 
 ### nameDic
-
 ```csharp
 public Dictionary<string, string> nameDic
 ```
@@ -152,13 +130,11 @@ public Dictionary<string, string> nameDic
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.Dictionary{System.String,System.String}
 
 ## Methods
 
 ### GetName()
-
 ```csharp
 public string GetName()
 ```
@@ -166,11 +142,9 @@ public string GetName()
 
 
 #### Returns
-
 **Type:** System.String
 
 ### GetSaveData()
-
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
@@ -178,11 +152,9 @@ public Dictionary<string, object> GetSaveData()
 
 
 #### Returns
-
 **Type:** System.Collections.Generic.Dictionary{System.String,System.Object}
 
 ### LoadData(Dictionary<string, object>)
-
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
@@ -190,13 +162,11 @@ public void LoadData(Dictionary<string, object> dic)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `dic` | `System.Collections.Generic.Dictionary{System.String,System.Object}` |  |
 
 ### SetUseState(bool)
-
 ```csharp
 public void SetUseState(bool state)
 ```
@@ -204,13 +174,11 @@ public void SetUseState(bool state)
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `state` | `System.Boolean` |  |
 
 ### ToString()
-
 ```csharp
 public override string ToString()
 ```
@@ -219,5 +187,8 @@ public override string ToString()
 
 
 #### Returns
-
 **Type:** System.String
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
