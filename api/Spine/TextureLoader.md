@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.TextureLoader
 canonical_path: /api/Spine/TextureLoader
 ---
-
 # Interface TextureLoader
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface TextureLoader
 ```
 
 ## Methods
-
 ### Load(AtlasPage, string)
 ```csharp
 void Load(AtlasPage page, string path)
@@ -35,5 +31,6 @@ void Unload(object texture)
 | Name | Type | Description |
 | --- | --- | --- |
 | `texture` | `System.Object` |  |
+
 
 

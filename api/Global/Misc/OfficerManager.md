@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OfficerManager
 canonical_path: /api/Global/Misc/OfficerManager
 ---
-
 # Class OfficerManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ Manages the list of clerks.
 Holds an ID which is incremented by one each time a new clerk is added. Also holds the first part of clerks' names.
 
 ## Methods
-
 #### OfficerModel CreateOfficerModel(string sefira)
 Creates a new clerk in the specified department (*sefira*) with the next ID.
 #### private static string GetRandomName(string sefira)
@@ -55,7 +51,6 @@ Calls OnFixedUpdate() for each clerk.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OfficerManager
 
 ## Constructors
-
 ### OfficerManager()
 ```csharp
 public OfficerManager()
@@ -63,7 +58,6 @@ public OfficerManager()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static OfficerManager _instance
@@ -119,7 +113,6 @@ private List<OfficerModel> officerList
 **Type:** System.Collections.Generic.List{OfficerModel}
 
 ## Properties
-
 ### instance
 ```csharp
 public static OfficerManager instance { get; }
@@ -129,7 +122,6 @@ public static OfficerManager instance { get; }
 **Type:** Global.OfficerManager
 
 ## Methods
-
 ### Clear()
 ```csharp
 public void Clear()
@@ -242,5 +234,6 @@ public void OnStageRelease()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

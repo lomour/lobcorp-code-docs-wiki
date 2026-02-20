@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentLyrics
 canonical_path: /api/Global/Misc/AgentLyrics
 ---
-
 # Class AgentLyrics
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See [AgentSpeech](/api/Global/Misc/AgentSpeech)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentLyrics
 
 ## Constructors
-
 ### AgentLyrics()
 ```csharp
 public AgentLyrics()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static AgentLyrics _instance
@@ -115,7 +110,6 @@ public AgentLyrics.LyricCategory panicLyrics
 **Type:** Global.AgentLyrics.LyricCategory
 
 ## Properties
-
 ### instance
 ```csharp
 public static AgentLyrics instance { get; }
@@ -125,7 +119,6 @@ public static AgentLyrics instance { get; }
 **Type:** Global.AgentLyrics
 
 ## Methods
-
 ### GetCreatureReaction(long)
 ```csharp
 public AgentLyrics.CreatureReactionList GetCreatureReaction(long id)
@@ -219,5 +212,6 @@ public bool IsLoaded()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

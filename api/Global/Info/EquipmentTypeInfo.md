@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EquipmentTypeInfo
 canonical_path: /api/Global/Info/EquipmentTypeInfo
 ---
-
 # Class EquipmentTypeInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ Holds defense information, weapon class type, weapon damage information, gift st
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentTypeInfo
 
 ## Constructors
-
 ### EquipmentTypeInfo()
 ```csharp
 public EquipmentTypeInfo()
 ```
 
 ## Fields
-
 ### animationNames
 ```csharp
 public string[] animationNames
@@ -241,7 +236,6 @@ public int weaponId
 **Type:** System.Int32
 
 ## Properties
-
 ### AttachRegion
 ```csharp
 public EGOgiftAttachRegion AttachRegion { get; }
@@ -307,7 +301,6 @@ public string SpecialDesc { get; }
 **Type:** System.String
 
 ## Methods
-
 ### GetDummyArmorInfo()
 ```csharp
 public static EquipmentTypeInfo GetDummyArmorInfo()
@@ -366,5 +359,6 @@ public static EquipmentTypeInfo MakeWeaponInfoByDamageInfo(DamageInfo dmg)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

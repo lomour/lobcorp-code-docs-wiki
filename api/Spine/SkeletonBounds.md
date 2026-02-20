@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.SkeletonBounds
 canonical_path: /api/Spine/SkeletonBounds
 ---
-
 # Class SkeletonBounds
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SkeletonBounds
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonBounds
 
 ## Constructors
-
 ### SkeletonBounds()
 ```csharp
 public SkeletonBounds()
 ```
 
 ## Fields
-
 ### maxX
 ```csharp
 private float maxX
@@ -66,7 +61,6 @@ private ExposedList<Polygon> polygonPool
 **Type:** Spine.ExposedList{Spine.Polygon}
 
 ## Properties
-
 ### BoundingBoxes
 ```csharp
 public ExposedList<BoundingBoxAttachment> BoundingBoxes { get; private set; }
@@ -132,7 +126,6 @@ public float Width { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### AabbCompute()
 ```csharp
 private void AabbCompute()
@@ -269,5 +262,6 @@ public void Update(Skeleton skeleton, bool updateAabb)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

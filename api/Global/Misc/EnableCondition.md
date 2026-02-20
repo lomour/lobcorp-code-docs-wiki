@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EnableCondition
 canonical_path: /api/Global/Misc/EnableCondition
 ---
-
 # Enum EnableCondition
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EnableCondition
 ```
 
 ## Fields
-
 ### AFTERTIMER
 ```csharp
 AFTERTIMER = 4
@@ -54,5 +50,6 @@ TIMER = 1
 
 #### Field Value
 **Type:** Global.EnableCondition
+
 
 

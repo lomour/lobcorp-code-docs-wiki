@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PAUSECALL
 canonical_path: /api/Global/Misc/PAUSECALL
 ---
-
 # Enum PAUSECALL
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PAUSECALL
 ```
 
 ## Fields
-
 ### ESCAPE
 ```csharp
 ESCAPE = 3
@@ -78,5 +74,6 @@ TUTORIAL = 7
 
 #### Field Value
 **Type:** Global.PAUSECALL
+
 
 

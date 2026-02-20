@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Rabbit.RabbitConversationType
 canonical_path: /api/Rabbit/RabbitConversationType
 ---
-
 # Enum RabbitConversationType
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RabbitConversationType
 ```
 
 ## Fields
-
 ### ENCOUNTER_AGENT
 ```csharp
 ENCOUNTER_AGENT = 7
@@ -94,5 +90,6 @@ START = 0
 
 #### Field Value
 **Type:** Rabbit.RabbitConversationType
+
 
 

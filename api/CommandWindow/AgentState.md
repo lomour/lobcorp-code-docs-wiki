@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CommandWindow.AgentState
 canonical_path: /api/CommandWindow/AgentState
 ---
-
 # Enum AgentState
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentState
 ```
 
 ## Fields
-
 ### DEAD
 ```csharp
 DEAD = 0
@@ -70,5 +66,6 @@ WORKING = 3
 
 #### Field Value
 **Type:** CommandWindow.AgentState
+
 
 

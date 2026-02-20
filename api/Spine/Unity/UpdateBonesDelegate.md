@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.UpdateBonesDelegate
 canonical_path: /api/Spine/Unity/UpdateBonesDelegate
 ---
-
 # Delegate UpdateBonesDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void UpdateBonesDelegate(ISkeletonAnimation animated)
 ```
 
 ## Constructors
-
 ### UpdateBonesDelegate(object, IntPtr)
 ```csharp
 public UpdateBonesDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public UpdateBonesDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(ISkeletonAnimation, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(ISkeletonAnimation animated, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(ISkeletonAnimation animated)
 | Name | Type | Description |
 | --- | --- | --- |
 | `animated` | `Spine.Unity.ISkeletonAnimation` |  |
+
 
 

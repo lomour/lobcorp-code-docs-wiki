@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahProjectileType
 canonical_path: /api/BinahBoss/BinahProjectileType
 ---
-
 # Enum BinahProjectileType
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahProjectileType
 ```
 
 ## Fields
-
 ### BLACKTHORN
 ```csharp
 BLACKTHORN = 0
@@ -38,5 +34,6 @@ WAVE = 1
 
 #### Field Value
 **Type:** BinahBoss.BinahProjectileType
+
 
 

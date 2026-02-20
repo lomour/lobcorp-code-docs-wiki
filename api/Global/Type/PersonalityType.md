@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PersonalityType
 canonical_path: /api/Global/Type/PersonalityType
 ---
-
 # Enum PersonalityType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PersonalityType
 ```
 
 ## Fields
-
 ### C
 ```csharp
 C = 3
@@ -46,5 +42,6 @@ S = 2
 
 #### Field Value
 **Type:** Global.PersonalityType
+
 
 

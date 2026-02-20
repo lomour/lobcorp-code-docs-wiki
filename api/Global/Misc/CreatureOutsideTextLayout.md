@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureOutsideTextLayout
 canonical_path: /api/Global/Misc/CreatureOutsideTextLayout
 ---
-
 # Enum CreatureOutsideTextLayout
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureOutsideTextLayout
 ```
 
 ## Fields
-
 ### CENTER_BOTTOM
 ```csharp
 CENTER_BOTTOM = 5
@@ -86,5 +82,6 @@ RIGHT_TOP = 6
 
 #### Field Value
 **Type:** Global.CreatureOutsideTextLayout
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.DTSweepDebugContext
 canonical_path: /api/Poly2Tri/DTSweepDebugContext
 ---
-
 # Class DTSweepDebugContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class DTSweepDebugContext : TriangulationDebugContext
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [TriangulationDebugContext](/api/Poly2Tri/TriangulationDebugContext) → DTSweepDebugContext
 
 ## Constructors
-
 ### DTSweepDebugContext(DTSweepContext)
 ```csharp
 public DTSweepDebugContext(DTSweepContext tcx)
@@ -29,7 +25,6 @@ public DTSweepDebugContext(DTSweepContext tcx)
 | `tcx` | `Poly2Tri.DTSweepContext` |  |
 
 ## Fields
-
 ### _activeConstraint
 ```csharp
 private DTSweepConstraint _activeConstraint
@@ -71,7 +66,6 @@ private DelaunayTriangle _secondaryTriangle
 **Type:** Poly2Tri.DelaunayTriangle
 
 ## Properties
-
 ### ActiveConstraint
 ```csharp
 public DTSweepConstraint ActiveConstraint { get; set; }
@@ -121,7 +115,6 @@ public DelaunayTriangle SecondaryTriangle { get; set; }
 **Type:** Poly2Tri.DelaunayTriangle
 
 ## Methods
-
 ### Clear()
 ```csharp
 public override void Clear()
@@ -129,5 +122,6 @@ public override void Clear()
 
 ## Inherited Members
 [_tcx](/api/Poly2Tri/TriangulationDebugContext#tcx), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

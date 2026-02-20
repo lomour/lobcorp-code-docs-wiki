@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IScrollTarget
 canonical_path: /api/Global/Misc/IScrollTarget
 ---
-
 # Interface IScrollTarget
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,7 +26,6 @@ Example: [CommandWindow](/api/CommandWindow) registers itself to listen to mouse
 
 
 ## Methods
-
 ### AddTrigger()
 ```csharp
 void AddTrigger()
@@ -46,6 +42,7 @@ void DeRegist()
 ```csharp
 void Regist()
 ```
+
 
 
 

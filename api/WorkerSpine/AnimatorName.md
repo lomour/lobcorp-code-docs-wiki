@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSpine.AnimatorName
 canonical_path: /api/WorkerSpine/AnimatorName
 ---
-
 # Class AnimatorName
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ List of strings and IDs associated to each 'Animator' (i.e., animation)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorName
 
 ## Constructors
-
 ### AnimatorName()
 ```csharp
 public AnimatorName()
 ```
 
 ## Fields
-
 ### AgentPanic
 ```csharp
 public static string AgentPanic
@@ -455,5 +450,6 @@ public static string YoungPrinceAgentDead
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

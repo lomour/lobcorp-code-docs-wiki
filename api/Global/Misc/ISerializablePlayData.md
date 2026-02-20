@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ISerializablePlayData
 canonical_path: /api/Global/Misc/ISerializablePlayData
 ---
-
 # Interface ISerializablePlayData
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ Interface for classes which have data that needs to be saved and loaded.
 
 
 ## Methods
-
 ### GetSaveData()
 ```csharp
 Dictionary<string, object> GetSaveData()
@@ -43,5 +39,6 @@ void LoadData(Dictionary<string, object> dic)
 | Name | Type | Description |
 | --- | --- | --- |
 | `dic` | `System.Collections.Generic.Dictionary{System.String,System.Object}` |  |
+
 
 

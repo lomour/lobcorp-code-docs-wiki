@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureState
 canonical_path: /api/Global/State/CreatureState
 ---
-
 # Enum CreatureState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureState
 ```
 
 ## Fields
-
 ### ESCAPE
 ```csharp
 ESCAPE = 2
@@ -86,5 +82,6 @@ WORKING_SCENE = 4
 
 #### Field Value
 **Type:** Global.CreatureState
+
 
 

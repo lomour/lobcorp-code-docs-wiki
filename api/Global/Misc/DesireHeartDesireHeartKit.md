@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DesireHeart.DesireHeartKit
 canonical_path: /api/Global/Misc/DesireHeartDesireHeartKit
 ---
-
 # Class DesireHeart.DesireHeartKit
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class DesireHeart.DesireHeartKit : CreatureBase.KitEquipEventListener
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase.KitEquipEventListener](/api/Global/Misc/CreatureBaseKitEquipEventListener) → DesireHeart.DesireHeartKit
 
 ## Constructors
-
 ### DesireHeartKit(DesireHeart)
 ```csharp
 public DesireHeartKit(DesireHeart m)
@@ -29,7 +25,6 @@ public DesireHeartKit(DesireHeart m)
 | `m` | `Global.DesireHeart` |  |
 
 ## Fields
-
 ### _attacked
 ```csharp
 private bool _attacked
@@ -63,7 +58,6 @@ private DesireHeart model
 **Type:** Global.DesireHeart
 
 ## Methods
-
 ### OnAttack(AgentModel, UnitModel)
 ```csharp
 public override void OnAttack(AgentModel actor, UnitModel target)
@@ -128,5 +122,6 @@ public override void OnViewInit(CreatureUnit unit)
 
 ## Inherited Members
 [OnEnterRoom(AgentModel, UseSkill)](/api/Global/Misc/CreatureBaseKitEquipEventListener#onenterroom-agentmodel-useskill), [OnTakeDamagePhysical(WorkerModel, float)](/api/Global/Misc/CreatureBaseKitEquipEventListener#ontakedamagephysical-workermodel-float), [OnTakeDamageMental(WorkerModel, float)](/api/Global/Misc/CreatureBaseKitEquipEventListener#ontakedamagemental-workermodel-float), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

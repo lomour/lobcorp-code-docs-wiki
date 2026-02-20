@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitBufType
 canonical_path: /api/Global/Type/UnitBufType
 ---
-
 # Enum UnitBufType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum UnitBufType
 ```
 
 ## Fields
-
 ### ADD_SUPERARMOR
 ```csharp
 ADD_SUPERARMOR = 1
@@ -750,5 +746,6 @@ YOUNGPRINCE_WEAPON = 74
 
 #### Field Value
 **Type:** Global.UnitBufType
+
 
 

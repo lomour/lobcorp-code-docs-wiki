@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryUI.CommandFunc
 canonical_path: /api/Global/Misc/StoryUICommandFunc
 ---
-
 # Delegate StoryUI.CommandFunc
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate bool StoryUI.CommandFunc(StoryUI.StoryScriptCommandEventEnum e)
 ```
 
 ## Constructors
-
 ### CommandFunc(object, IntPtr)
 ```csharp
 public CommandFunc(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public CommandFunc(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(StoryScriptCommandEventEnum, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(StoryUI.StoryScriptCommandEventEnum e, AsyncCallback callback, object @object)
@@ -68,5 +63,6 @@ public virtual bool Invoke(StoryUI.StoryScriptCommandEventEnum e)
 
 #### Returns
 **Type:** System.Boolean
+
 
 

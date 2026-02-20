@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GameState
 canonical_path: /api/Global/State/GameState
 ---
-
 # Enum GameState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum GameState
 ```
 
 ## Fields
-
 ### PAUSE
 ```csharp
 PAUSE = 2
@@ -38,5 +34,6 @@ STOP = 1
 
 #### Field Value
 **Type:** Global.GameState
+
 
 

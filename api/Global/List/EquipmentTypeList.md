@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EquipmentTypeList
 canonical_path: /api/Global/List/EquipmentTypeList
 ---
-
 # Class EquipmentTypeList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ List of all [EGO](/api/Global/List/EquipmentTypeList). Loaded by [EquipmentDataL
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EquipmentTypeList
 
 ## Constructors
-
 ### EquipmentTypeList()
 ```csharp
 private EquipmentTypeList()
@@ -31,7 +27,6 @@ private EquipmentTypeList()
 
 
 ## Fields
-
 ### _dic
 ```csharp
 private Dictionary<int, EquipmentTypeInfo> _dic
@@ -60,7 +55,6 @@ private bool _loaded
 **Type:** System.Boolean
 
 ## Properties
-
 ### instance
 ```csharp
 public static EquipmentTypeList instance { get; }
@@ -78,7 +72,6 @@ public bool loaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetAllData()
 ```csharp
 public List<EquipmentTypeInfo> GetAllData()
@@ -115,5 +108,6 @@ public void Init(Dictionary<int, EquipmentTypeInfo> info)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

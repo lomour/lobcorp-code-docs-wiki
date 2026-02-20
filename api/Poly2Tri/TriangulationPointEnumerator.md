@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.TriangulationPointEnumerator
 canonical_path: /api/Poly2Tri/TriangulationPointEnumerator
 ---
-
 # Class TriangulationPointEnumerator
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class TriangulationPointEnumerator : IEnumerator<TriangulationPoint>, IEn
 [IEnumerator<TriangulationPoint>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1), [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Constructors
-
 ### TriangulationPointEnumerator(IList<Point2D>)
 ```csharp
 public TriangulationPointEnumerator(IList<Point2D> points)
@@ -32,7 +28,6 @@ public TriangulationPointEnumerator(IList<Point2D> points)
 | `points` | `System.Collections.Generic.IList{Poly2Tri.Point2D}` |  |
 
 ## Fields
-
 ### mPoints
 ```csharp
 protected IList<Point2D> mPoints
@@ -50,7 +45,6 @@ protected int position
 **Type:** System.Int32
 
 ## Properties
-
 ### Current
 ```csharp
 public TriangulationPoint Current { get; }
@@ -68,7 +62,6 @@ object IEnumerator.Current { get; }
 **Type:** System.Object
 
 ## Methods
-
 ### IDisposable.Dispose()
 ```csharp
 void IDisposable.Dispose()
@@ -89,5 +82,6 @@ public void Reset()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

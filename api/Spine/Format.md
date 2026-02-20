@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Format
 canonical_path: /api/Spine/Format
 ---
-
 # Enum Format
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum Format
 ```
 
 ## Fields
-
 ### Alpha
 ```csharp
 Alpha = 0
@@ -70,5 +66,6 @@ RGBA8888 = 6
 
 #### Field Value
 **Type:** Spine.Format
+
 
 

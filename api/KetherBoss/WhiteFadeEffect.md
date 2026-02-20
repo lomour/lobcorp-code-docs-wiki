@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.WhiteFadeEffect
 canonical_path: /api/KetherBoss/WhiteFadeEffect
 ---
-
 # Class WhiteFadeEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ public class WhiteFadeEffect : KetherLastEffectBase
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → WhiteFadeEffect
 
 ## Constructors
-
 ### WhiteFadeEffect(KetherLastBossBase)
 ```csharp
 public WhiteFadeEffect(KetherLastBossBase bossBase)
@@ -35,7 +31,6 @@ public WhiteFadeEffect(KetherLastBossBase bossBase)
 | `bossBase` | `KetherBoss.KetherLastBossBase` |  |
 
 ## Fields
-
 ### _arrived
 ```csharp
 private bool _arrived
@@ -91,7 +86,6 @@ private bool terminateMovement
 **Type:** System.Boolean
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
@@ -112,5 +106,6 @@ public void StartEffect()
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

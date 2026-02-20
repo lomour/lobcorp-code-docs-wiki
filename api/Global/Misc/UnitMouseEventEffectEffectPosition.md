@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitMouseEventEffect.EffectPosition
 canonical_path: /api/Global/Misc/UnitMouseEventEffectEffectPosition
 ---
-
 # Enum UnitMouseEventEffect.EffectPosition
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum UnitMouseEventEffect.EffectPosition
 ```
 
 ## Fields
-
 ### CENTER_UP
 ```csharp
 CENTER_UP = 4
@@ -54,5 +50,6 @@ RIGHT_UP = 2
 
 #### Field Value
 **Type:** Global.UnitMouseEventEffect.EffectPosition
+
 
 

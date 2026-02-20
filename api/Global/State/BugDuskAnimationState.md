@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugDusk.AnimationState
 canonical_path: /api/Global/State/BugDuskAnimationState
 ---
-
 # Enum BugDusk.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BugDusk.AnimationState
 ```
 
 ## Fields
-
 ### APPEAR
 ```csharp
 APPEAR = 1
@@ -70,5 +66,6 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.BugDusk.AnimationState
+
 
 

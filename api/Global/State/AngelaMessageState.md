@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AngelaMessageState
 canonical_path: /api/Global/State/AngelaMessageState
 ---
-
 # Enum AngelaMessageState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AngelaMessageState
 ```
 
 ## Fields
-
 ### AGENT_BAD
 ```csharp
 AGENT_BAD = 14
@@ -214,5 +210,6 @@ WORK_SUCCESS = 5
 
 #### Field Value
 **Type:** Global.AngelaMessageState
+
 
 

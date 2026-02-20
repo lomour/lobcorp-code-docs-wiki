@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.TriangulationMode
 canonical_path: /api/Poly2Tri/TriangulationMode
 ---
-
 # Enum TriangulationMode
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum TriangulationMode
 ```
 
 ## Fields
-
 ### Constrained
 ```csharp
 Constrained = 1
@@ -38,5 +34,6 @@ Unconstrained = 0
 
 #### Field Value
 **Type:** Poly2Tri.TriangulationMode
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.WorkerSpriteSaveData.ColorData
 canonical_path: /api/WorkerSprite/WorkerSpriteSaveData/ColorData
 ---
-
 # Class WorkerSpriteSaveData.ColorData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class WorkerSpriteSaveData.ColorData
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpriteSaveData.ColorData
 
 ## Constructors
-
 ### ColorData()
 ```csharp
 public ColorData()
@@ -34,7 +30,6 @@ public ColorData(Color c)
 | `c` | `UnityEngine.Color` |  |
 
 ## Fields
-
 ### a
 ```csharp
 public float a
@@ -68,7 +63,6 @@ public float r
 **Type:** System.Single
 
 ## Methods
-
 ### GetColor()
 ```csharp
 public Color GetColor()
@@ -79,5 +73,6 @@ public Color GetColor()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

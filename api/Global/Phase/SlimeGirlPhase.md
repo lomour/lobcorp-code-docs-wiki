@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SlimeGirl.Phase
 canonical_path: /api/Global/Phase/SlimeGirlPhase
 ---
-
 # Enum SlimeGirl.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SlimeGirl.Phase
 ```
 
 ## Fields
-
 ### ATTACKING
 ```csharp
 ATTACKING = 2
@@ -62,5 +58,6 @@ SKILL = 4
 
 #### Field Value
 **Type:** Global.SlimeGirl.Phase
+
 
 

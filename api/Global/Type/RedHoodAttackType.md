@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RedHood.AttackType
 canonical_path: /api/Global/Type/RedHoodAttackType
 ---
-
 # Enum RedHood.AttackType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RedHood.AttackType
 ```
 
 ## Fields
-
 ### DASH_ATTACK
 ```csharp
 DASH_ATTACK = 2
@@ -62,5 +58,6 @@ THROWING = 12
 
 #### Field Value
 **Type:** Global.RedHood.AttackType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahMovementModule
 canonical_path: /api/BinahBoss/BinahMovementModule
 ---
-
 # Class BinahMovementModule
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ See also: [BinahMovement](/api/BinahBoss/BinahMovement)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahMovementModule
 
 ## Constructors
-
 ### BinahMovementModule(BinahCoreScript)
 ```csharp
 public BinahMovementModule(BinahCoreScript coreScript)
@@ -37,7 +33,6 @@ public BinahMovementModule(BinahCoreScript coreScript)
 | `coreScript` | `Global.BinahCoreScript` |  |
 
 ## Fields
-
 ### _actionBlocked
 ```csharp
 private bool _actionBlocked
@@ -111,7 +106,6 @@ private Queue<SefiraEnum> movementQueue
 **Type:** System.Collections.Generic.Queue{SefiraEnum}
 
 ## Properties
-
 ### CoreScript
 ```csharp
 public BinahCoreScript CoreScript { get; }
@@ -145,7 +139,6 @@ private MovableObjectNode Movable { get; }
 **Type:** Global.MovableObjectNode
 
 ## Methods
-
 ### Arrived()
 ```csharp
 public void Arrived()
@@ -219,5 +212,6 @@ public void StopByTime(float stopTime)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

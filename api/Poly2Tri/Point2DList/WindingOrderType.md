@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Point2DList.WindingOrderType
 canonical_path: /api/Poly2Tri/Point2DList/WindingOrderType
 ---
-
 # Enum Point2DList.WindingOrderType
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum Point2DList.WindingOrderType
 ```
 
 ## Fields
-
 ### CCW
 ```csharp
 CCW = 1
@@ -46,5 +42,6 @@ Unknown = 2
 
 #### Field Value
 **Type:** Poly2Tri.Point2DList.WindingOrderType
+
 
 

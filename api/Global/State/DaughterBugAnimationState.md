@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DaughterBug.AnimationState
 canonical_path: /api/Global/State/DaughterBugAnimationState
 ---
-
 # Enum DaughterBug.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DaughterBug.AnimationState
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 4
@@ -70,5 +66,6 @@ MOVE = 0
 
 #### Field Value
 **Type:** Global.DaughterBug.AnimationState
+
 
 

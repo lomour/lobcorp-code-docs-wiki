@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentSlotUI
 canonical_path: /api/Global/IOBserver/AgentSlotUI
 ---
-
 # Class AgentSlotUI
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ UI element for displaying an agent on the [deployment](/api/Global/UI/DeployUI) 
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### AgentSlotUI()
 ```csharp
 public AgentSlotUI()
 ```
 
 ## Fields
-
 ### _currentAgent
 ```csharp
 private AgentModel _currentAgent
@@ -144,7 +139,6 @@ public List<MaskableGraphic> standalone
 **Type:** System.Collections.Generic.List{UnityEngine.UI.MaskableGraphic}
 
 ## Properties
-
 ### _inverseColor
 ```csharp
 private Color _inverseColor { get; }
@@ -162,7 +156,6 @@ public MaskableGraphic OutLineImage { get; }
 **Type:** UnityEngine.UI.MaskableGraphic
 
 ## Methods
-
 ### DestroyNotice()
 ```csharp
 public void DestroyNotice()
@@ -290,5 +283,6 @@ public void UpdateData(AgentModel agent)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

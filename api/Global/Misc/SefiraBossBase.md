@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraBossBase
 canonical_path: /api/Global/Misc/SefiraBossBase
 ---
-
 # Class SefiraBossBase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ Base class for all core suppressions.
 [BinahBossBase](/api/Global/Misc/BinahBossBase), [ChesedBossBase](/api/Global/Misc/ChesedBossBase), [ChokhmahBossBase](/api/Global/Misc/ChokhmahBossBase), [GeburahBossBase](/api/Global/Misc/GeburahBossBase), [HodBossBase](/api/Global/Misc/HodBossBase), [MalkutBossBase](/api/Global/Misc/MalkutBossBase), [NetzachBossBase](/api/Global/Misc/NetzachBossBase), [TipherethBossBase](/api/Global/Misc/TipherethBossBase), [YesodBossBase](/api/Global/Misc/YesodBossBase), [KetherBossBase](/api/KetherBoss/KetherBossBase)
 
 ## Constructors
-
 ### SefiraBossBase()
 ```csharp
 public SefiraBossBase()
 ```
 
 ## Fields
-
 ### _cameraDescTimer
 ```csharp
 protected Timer _cameraDescTimer
@@ -178,7 +173,6 @@ public SefiraEnum sefiraEnum
 **Type:** Global.SefiraEnum
 
 ## Properties
-
 ### QliphothOverloadLevel
 ```csharp
 public virtual int QliphothOverloadLevel { get; }
@@ -196,7 +190,6 @@ public Sefira Sefira { get; }
 **Type:** Global.Sefira
 
 ## Methods
-
 ### ClearDescTexts()
 ```csharp
 public virtual void ClearDescTexts()
@@ -381,5 +374,6 @@ public virtual void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

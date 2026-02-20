@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.UniqueWeaponSpriteUnit
 canonical_path: /api/WorkerSprite/UniqueWeaponSpriteUnit
 ---
-
 # Class UniqueWeaponSpriteUnit
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Has a list of unique weapons?? Maybe??
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UniqueWeaponSpriteUnit
 
 ## Constructors
-
 ### UniqueWeaponSpriteUnit()
 ```csharp
 public UniqueWeaponSpriteUnit()
 ```
 
 ## Fields
-
 ### _commonSprite
 ```csharp
 [Header("May use Unique Sprite : likewise Inventory")]
@@ -61,7 +56,6 @@ public List<UniqueWeaponSprite> sprites
 **Type:** System.Collections.Generic.List{WorkerSprite.UniqueWeaponSprite}
 
 ## Properties
-
 ### CommonSprite
 ```csharp
 public Sprite CommonSprite { get; }
@@ -71,7 +65,6 @@ public Sprite CommonSprite { get; }
 **Type:** UnityEngine.Sprite
 
 ## Methods
-
 ### GetCopy()
 ```csharp
 public UniqueWeaponSpriteUnit GetCopy()
@@ -82,5 +75,6 @@ public UniqueWeaponSpriteUnit GetCopy()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

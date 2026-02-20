@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EventGenInfo
 canonical_path: /api/Global/Info/EventGenInfo
 ---
-
 # Class EventGenInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ See [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EventGenInfo
 
 ## Constructors
-
 ### EventGenInfo()
 ```csharp
 public EventGenInfo()
 ```
 
 ## Fields
-
 ### _bossBirdAdditionDay
 ```csharp
 private const int _bossBirdAdditionDay = 20
@@ -44,7 +39,6 @@ private const int _bossBirdAdditionDay = 20
 **Type:** System.Int32
 
 ## Methods
-
 ### GenerateEvents(int)
 ```csharp
 public static List<EventBase> GenerateEvents(int day)
@@ -61,5 +55,6 @@ public static List<EventBase> GenerateEvents(int day)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

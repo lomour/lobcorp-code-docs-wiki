@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleStatType
 canonical_path: /api/WhiteNightSpace/ApostleStatType
 ---
-
 # Enum ApostleStatType
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ApostleStatType
 ```
 
 ## Fields
-
 ### DEFAULT
 ```csharp
 DEFAULT = 0
@@ -30,5 +26,6 @@ GUARDIAN = 1
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleStatType
+
 
 

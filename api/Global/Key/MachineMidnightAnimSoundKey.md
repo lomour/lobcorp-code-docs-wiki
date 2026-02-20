@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MachineMidnightAnim.SoundKey
 canonical_path: /api/Global/Key/MachineMidnightAnimSoundKey
 ---
-
 # Class MachineMidnightAnim.SoundKey
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public static class MachineMidnightAnim.SoundKey
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MachineMidnightAnim.SoundKey
 
 ## Fields
-
 ### deadSound
 ```csharp
 public const string deadSound = "Dead"
@@ -75,7 +71,6 @@ public const string soundPrefix2 = "Machine_Midnight_"
 **Type:** System.String
 
 ## Methods
-
 ### GetStartSound(int)
 ```csharp
 public static string GetStartSound(int index)
@@ -91,5 +86,6 @@ public static string GetStartSound(int index)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

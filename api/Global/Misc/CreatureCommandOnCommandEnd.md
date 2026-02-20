@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureCommand.OnCommandEnd
 canonical_path: /api/Global/Misc/CreatureCommandOnCommandEnd
 ---
-
 # Delegate CreatureCommand.OnCommandEnd
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void CreatureCommand.OnCommandEnd()
 ```
 
 ## Constructors
-
 ### OnCommandEnd(object, IntPtr)
 ```csharp
 public OnCommandEnd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnCommandEnd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

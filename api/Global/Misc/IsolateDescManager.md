@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IsolateDescManager
 canonical_path: /api/Global/Misc/IsolateDescManager
 ---
-
 # Class IsolateDescManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -21,14 +18,12 @@ Helper for displaying [IsolateDescription](/api/Assets/Scripts/UI/Isolate/Isolat
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IsolateDescManager
 
 ## Constructors
-
 ### IsolateDescManager()
 ```csharp
 public IsolateDescManager()
 ```
 
 ## Fields
-
 ### Max_B_Desc
 ```csharp
 public const int Max_B_Desc = 25
@@ -86,7 +81,6 @@ public const int Max_WorkStart = 1
 **Type:** System.Int32
 
 ## Methods
-
 ### GetList(RwbpType)
 ```csharp
 public static List<int> GetList(RwbpType type)
@@ -104,5 +98,6 @@ Produces a list of integers from 0 to the maximum number of available different 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

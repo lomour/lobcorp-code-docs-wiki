@@ -1,5 +1,3 @@
- 
- 
 ---
 title: AddOn
 description: 
@@ -9,7 +7,6 @@ tags:
 editor: markdown
 dateCreated: 2026-01-15T03:55:37.434Z
 ---
-
 # Class Add_On
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Class that is added by LMM/BaseMod that loads mods.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Add_On
 
 ## Constructors
-
 ### Add_On()
 ```csharp
 public Add_On()
 ```
 
 ## Fields
-
 ### AssemList
 ```csharp
 public List<Assembly> AssemList
@@ -113,7 +108,6 @@ public static string version
 **Type:** System.String
 
 ## Methods
-
 ### CheckNamedDir(DirectoryInfo, string)
 ```csharp
 public static DirectoryInfo CheckNamedDir(DirectoryInfo dir, string name)
@@ -239,5 +233,6 @@ public static void UpdatingBackUps(DirectoryInfo back, DirectoryInfo save)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Result
 canonical_path: /api/Global/Misc/Result
 ---
-
 # Class Result
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ Holds a list of notable events during each quarter, mainly abnormality escapes a
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Result
 
 ## Constructors
-
 ### Result(float, float)
 ```csharp
 public Result(float start, float end)
@@ -37,7 +33,6 @@ public Result(float start, float end)
 | `end` | `System.Single` |  |
 
 ## Fields
-
 ### checkedCreatures
 ```csharp
 public List<CreatureModel> checkedCreatures
@@ -94,5 +89,6 @@ public int workerPanic
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

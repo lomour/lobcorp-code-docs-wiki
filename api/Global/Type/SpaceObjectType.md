@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SpaceObjectType
 canonical_path: /api/Global/Type/SpaceObjectType
 ---
-
 # Enum SpaceObjectType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SpaceObjectType
 ```
 
 ## Fields
-
 ### ELEVATORLONG
 ```csharp
 ELEVATORLONG = 3
@@ -86,5 +82,6 @@ SEFIRAMAIN = 7
 
 #### Field Value
 **Type:** Global.SpaceObjectType
+
 
 

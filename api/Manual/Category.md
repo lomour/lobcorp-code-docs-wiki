@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Manual.Category
 canonical_path: /api/Manual/Category
 ---
-
 # Class Category
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ Sections on the left of the manual?
 [MainCategory](/api/Manual/MainCategory), [NodeCategory](/api/Manual/NodeCategory), [SubCategory](/api/Manual/SubCategory)
 
 ## Constructors
-
 ### Category(string)
 ```csharp
 public Category(string id)
@@ -38,7 +34,6 @@ public Category(string id)
 | `id` | `System.String` |  |
 
 ## Fields
-
 ### id
 ```csharp
 public string id
@@ -85,7 +80,6 @@ protected string title
 **Type:** System.String
 
 ## Properties
-
 ### Title
 ```csharp
 public virtual string Title { get; }
@@ -95,7 +89,6 @@ public virtual string Title { get; }
 **Type:** System.String
 
 ## Methods
-
 ### LoadText()
 ```csharp
 public virtual void LoadText()
@@ -110,5 +103,6 @@ public void Reload()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.EventQueue.EventType
 canonical_path: /api/Spine/EventQueue/EventType
 ---
-
 # Enum EventQueue.EventType
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum EventQueue.EventType
 ```
 
 ## Fields
-
 ### Complete
 ```csharp
 Complete = 4
@@ -62,5 +58,6 @@ Start = 0
 
 #### Field Value
 **Type:** Spine.EventQueue.EventType
+
 
 

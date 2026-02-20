@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitModel
 canonical_path: /api/Global/Model/UnitModel
 ---
-
 # Class UnitModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ Represents a unit on the screen, such as workers, rabbits, or abnormalities.
 [Butterfly.ButterflyEffect](/api/Global/Effect/ButterflyButterflyEffect), [CreatureModel](/api/Global/Model/CreatureModel), [ProjectileModel](/api/Global/Model/ProjectileModel), [RabbitModel](/api/Global/Model/RabbitModel), [SnowWhite.VineArea](/api/Global/Misc/SnowWhiteVineArea), [StandingItemModel](/api/Global/Model/StandingItemModel), [WorkerModel](/api/Global/Model/WorkerModel), [YoungPrinceFriend.Spore](/api/Global/Misc/YoungPrinceFriendSpore)
 
 ## Constructors
-
 ### UnitModel()
 ```csharp
 public UnitModel()
 ```
 
 ## Fields
-
 ### _barrierBufList
 ```csharp
 protected List<BarrierBuf> _barrierBufList
@@ -305,7 +300,6 @@ public DummyAttackAnimator tempAnim
 **Type:** Global.DummyAttackAnimator
 
 ## Properties
-
 ### attackSpeed
 ```csharp
 public virtual float attackSpeed { get; }
@@ -403,7 +397,6 @@ public virtual float regenerationDelay { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### AddSuperArmorMax(float)
 ```csharp
 public void AddSuperArmorMax(float value)
@@ -1203,5 +1196,6 @@ public virtual void UpdateBufState()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StorySeedUI.StorySeedEnd
 canonical_path: /api/Global/Misc/StorySeedUIStorySeedEnd
 ---
-
 # Delegate StorySeedUI.StorySeedEnd
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void StorySeedUI.StorySeedEnd(string angelaStory)
 ```
 
 ## Constructors
-
 ### StorySeedEnd(object, IntPtr)
 ```csharp
 public StorySeedEnd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public StorySeedEnd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(string, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(string angelaStory, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(string angelaStory)
 | Name | Type | Description |
 | --- | --- | --- |
 | `angelaStory` | `System.String` |  |
+
 
 

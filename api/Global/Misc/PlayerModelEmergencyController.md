@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlayerModel.EmergencyController
 canonical_path: /api/Global/Misc/PlayerModelEmergencyController
 ---
-
 # Class PlayerModel.EmergencyController
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class PlayerModel.EmergencyController
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PlayerModel.EmergencyController
 
 ## Constructors
-
 ### EmergencyController()
 ```csharp
 public EmergencyController()
 ```
 
 ## Fields
-
 ### _currentLevel
 ```csharp
 private EmergencyLevel _currentLevel
@@ -98,7 +93,6 @@ public static float ZAYIN
 **Type:** System.Single
 
 ## Properties
-
 ### currentLevel
 ```csharp
 public EmergencyLevel currentLevel { get; set; }
@@ -116,7 +110,6 @@ private float currentScore { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### AddScore(CreatureModel)
 ```csharp
 public void AddScore(CreatureModel model)
@@ -261,5 +254,6 @@ private void SetLevel()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

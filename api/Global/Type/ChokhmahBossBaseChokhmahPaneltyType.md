@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ChokhmahBossBase.ChokhmahPaneltyType
 canonical_path: /api/Global/Type/ChokhmahBossBaseChokhmahPaneltyType
 ---
-
 # Enum ChokhmahBossBase.ChokhmahPaneltyType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ChokhmahBossBase.ChokhmahPaneltyType
 ```
 
 ## Fields
-
 ### DIE
 ```csharp
 DIE = 0
@@ -30,5 +26,6 @@ PANIC = 1
 
 #### Field Value
 **Type:** Global.ChokhmahBossBase.ChokhmahPaneltyType
+
 
 

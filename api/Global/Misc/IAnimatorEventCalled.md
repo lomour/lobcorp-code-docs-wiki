@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IAnimatorEventCalled
 canonical_path: /api/Global/Misc/IAnimatorEventCalled
 ---
-
 # Interface IAnimatorEventCalled
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -34,7 +31,6 @@ Used *mainly* by abnormality animation handlers, but also by [agents](/api/Globa
 
 
 ## Methods
-
 ### AgentReset()
 ```csharp
 void AgentReset()
@@ -109,5 +105,6 @@ void SoundMake(string src)
 | Name | Type | Description |
 | --- | --- | --- |
 | `src` | `System.String` |  |
+
 
 

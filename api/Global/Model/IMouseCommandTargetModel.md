@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IMouseCommandTargetModel
 canonical_path: /api/Global/Model/IMouseCommandTargetModel
 ---
-
 # Interface IMouseCommandTargetModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -13,6 +10,7 @@ canonical_path: /api/Global/Model/IMouseCommandTargetModel
 public interface IMouseCommandTargetModel
 ```
 Empty interface for use with [IMouseCommandTarget](/api/Global/Misc/IMouseCommandTarget).
+
 
 
 

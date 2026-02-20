@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.SpriteSelectRegion
 canonical_path: /api/Customizing/SpriteSelectRegion
 ---
-
 # Enum SpriteSelectRegion
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SpriteSelectRegion
 ```
 
 ## Fields
-
 ### EYE_DEAD
 ```csharp
 EYE_DEAD = 7
@@ -94,5 +90,6 @@ REARHAIR = 1
 
 #### Field Value
 **Type:** Customizing.SpriteSelectRegion
+
 
 

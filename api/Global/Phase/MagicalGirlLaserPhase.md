@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MagicalGirl.LaserPhase
 canonical_path: /api/Global/Phase/MagicalGirlLaserPhase
 ---
-
 # Enum MagicalGirl.LaserPhase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum MagicalGirl.LaserPhase
 ```
 
 ## Fields
-
 ### FIRST
 ```csharp
 FIRST = 0
@@ -38,5 +34,6 @@ THIRD = 2
 
 #### Field Value
 **Type:** Global.MagicalGirl.LaserPhase
+
 
 

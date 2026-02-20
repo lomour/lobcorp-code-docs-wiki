@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IsolateFilterType
 canonical_path: /api/Global/Type/IsolateFilterType
 ---
-
 # Enum IsolateFilterType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum IsolateFilterType
 ```
 
 ## Fields
-
 ### DAMAGE
 ```csharp
 DAMAGE = 2
@@ -62,5 +58,6 @@ STATE = 1
 
 #### Field Value
 **Type:** Global.IsolateFilterType
+
 
 

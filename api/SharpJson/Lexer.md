@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: SharpJson.Lexer
 canonical_path: /api/SharpJson/Lexer
 ---
-
 # Class Lexer
 **Namespace:** [SharpJson](/api/SharpJson)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ internal class Lexer
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Lexer
 
 ## Constructors
-
 ### Lexer(string)
 ```csharp
 public Lexer(string text)
@@ -29,7 +25,6 @@ public Lexer(string text)
 | `text` | `System.String` |  |
 
 ## Fields
-
 ### index
 ```csharp
 private int index
@@ -63,7 +58,6 @@ private bool success
 **Type:** System.Boolean
 
 ## Properties
-
 ### hasError
 ```csharp
 public bool hasError { get; }
@@ -89,7 +83,6 @@ public bool parseNumbersAsFloat { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetLastIndexOfNumber(int)
 ```csharp
 private int GetLastIndexOfNumber(int index)
@@ -177,5 +170,6 @@ private void SkipWhiteSpaces()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

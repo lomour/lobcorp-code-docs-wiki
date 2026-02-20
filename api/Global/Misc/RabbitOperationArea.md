@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RabbitOperationArea
 canonical_path: /api/Global/Misc/RabbitOperationArea
 ---
-
 # Class RabbitOperationArea
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Contains a [MapNode](/api/Global/Misc/MapNode) spawnpoint for rabbits, and a lis
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitOperationArea
 
 ## Constructors
-
 ### RabbitOperationArea()
 ```csharp
 public RabbitOperationArea()
 ```
 
 ## Fields
-
 ### passages
 ```csharp
 public List<PassageObjectModel> passages
@@ -50,5 +45,6 @@ public MapNode summonNode
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

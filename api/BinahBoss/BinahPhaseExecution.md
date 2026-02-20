@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahPhaseExecution
 canonical_path: /api/BinahBoss/BinahPhaseExecution
 ---
-
 # Class BinahPhaseExecution
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ Parent class for [An Arbiter](/api/Global/Script/BinahCoreScript)'s phases durin
 [FirstPhase](/api/BinahBoss/FirstPhase), [SecondPhase](/api/BinahBoss/SecondPhase), [ThirdPhase](/api/BinahBoss/ThirdPhase)
 
 ## Constructors
-
 ### BinahPhaseExecution(BinahCoreScript)
 ```csharp
 public BinahPhaseExecution(BinahCoreScript binah)
@@ -38,7 +34,6 @@ public BinahPhaseExecution(BinahCoreScript binah)
 | `binah` | `Global.BinahCoreScript` |  |
 
 ## Fields
-
 ### binah
 ```csharp
 public BinahCoreScript binah
@@ -76,7 +71,6 @@ public List<OverloadType> overloadTypeList
 **Type:** System.Collections.Generic.List{OverloadType}
 
 ## Properties
-
 ### BinahHasOverload
 ```csharp
 public bool BinahHasOverload { get; }
@@ -86,7 +80,6 @@ public bool BinahHasOverload { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public abstract void FixedUpdate()
@@ -162,5 +155,6 @@ public abstract void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

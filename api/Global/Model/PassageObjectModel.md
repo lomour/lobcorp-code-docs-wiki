@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PassageObjectModel
 canonical_path: /api/Global/Model/PassageObjectModel
 ---
-
 # Class PassageObjectModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,7 +25,6 @@ Represents a room, hallway, [containment unit](/api/Global/IOBserver/IsolateRoom
 [IMouseCommandTargetModel](/api/Global/Model/IMouseCommandTargetModel)
 
 ## Constructors
-
 ### PassageObjectModel(string, string)
 ```csharp
 public PassageObjectModel(string id, string sefiraName)
@@ -55,7 +51,6 @@ public PassageObjectModel(string id, string sefiraName, string prefabSrc)
 | `prefabSrc` | `System.String` |  |
 
 ## Fields
-
 ### _sortedList
 ```csharp
 private List<MapNode> _sortedList
@@ -264,7 +259,6 @@ public PassageWallInfo wallInfo
 **Type:** Global.PassageWallInfo
 
 ## Methods
-
 ### Activate()
 ```csharp
 public void Activate()
@@ -699,5 +693,6 @@ public void SetToIsolate()
 
 ## Inherited Members
 [position](/api/Global/Object/ObjectModelBase#position), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

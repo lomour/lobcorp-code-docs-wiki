@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.BodySpriteRegion
 canonical_path: /api/WorkerSprite/BodySpriteRegion
 ---
-
 # Enum BodySpriteRegion
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BodySpriteRegion
 ```
 
 ## Fields
-
 ### ARM_LEFT_DOWN
 ```csharp
 ARM_LEFT_DOWN = 0
@@ -126,5 +122,6 @@ LEG_RIGHT_UP = 8
 
 #### Field Value
 **Type:** WorkerSprite.BodySpriteRegion
+
 
 

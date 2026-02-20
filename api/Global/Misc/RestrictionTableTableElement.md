@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RestrictionTable.TableElement
 canonical_path: /api/Global/Misc/RestrictionTableTableElement
 ---
-
 # Class RestrictionTable.TableElement
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class RestrictionTable.TableElement
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RestrictionTable.TableElement
 
 ## Constructors
-
 ### TableElement()
 ```csharp
 public TableElement()
 ```
 
 ## Fields
-
 ### creatureID
 ```csharp
 public long creatureID
@@ -42,7 +37,6 @@ public List<RestrictionTable.TableElement.Restriction> list
 **Type:** System.Collections.Generic.List{RestrictionTable.TableElement.Restriction}
 
 ## Methods
-
 ### GetRestriction()
 ```csharp
 public RestrictionTable.TableElement.Restriction[] GetRestriction()
@@ -71,5 +65,6 @@ public void Init(CreatureModel model)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

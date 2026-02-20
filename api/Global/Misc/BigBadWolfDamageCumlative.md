@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BigBadWolf.DamageCumlative
 canonical_path: /api/Global/Misc/BigBadWolfDamageCumlative
 ---
-
 # Class BigBadWolf.DamageCumlative
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ private class BigBadWolf.DamageCumlative
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BigBadWolf.DamageCumlative
 
 ## Constructors
-
 ### DamageCumlative()
 ```csharp
 public DamageCumlative()
 ```
 
 ## Fields
-
 ### curDamage
 ```csharp
 public float curDamage
@@ -50,7 +45,6 @@ public float stdDamage
 **Type:** System.Single
 
 ## Methods
-
 ### OnTakeDamage(float)
 ```csharp
 public void OnTakeDamage(float damage)
@@ -63,5 +57,6 @@ public void OnTakeDamage(float damage)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

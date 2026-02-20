@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahIntegerAction
 canonical_path: /api/BinahBoss/BinahIntegerAction
 ---
-
 # Delegate BinahIntegerAction
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BinahIntegerAction(int i)
 ```
 
 ## Constructors
-
 ### BinahIntegerAction(object, IntPtr)
 ```csharp
 public BinahIntegerAction(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public BinahIntegerAction(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(int, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(int i, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 
 

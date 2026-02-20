@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.ProjectileType
 canonical_path: /api/GeburahBoss/ProjectileType
 ---
-
 # Enum ProjectileType
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ProjectileType
 ```
 
 ## Fields
-
 ### BLOODYTREE
 ```csharp
 BLOODYTREE = 2
@@ -54,5 +50,6 @@ ORCHESTRA = 0
 
 #### Field Value
 **Type:** GeburahBoss.ProjectileType
+
 
 

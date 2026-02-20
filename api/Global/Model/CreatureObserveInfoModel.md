@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureObserveInfoModel
 canonical_path: /api/Global/Model/CreatureObserveInfoModel
 ---
-
 # Class CreatureObserveInfoModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Provides methods to see what has been observed and the costs of buying info sect
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureObserveInfoModel
 
 ## Constructors
-
 ### CreatureObserveInfoModel(long)
 ```csharp
 public CreatureObserveInfoModel(long creatureTypeId)
@@ -37,7 +33,6 @@ public CreatureObserveInfoModel(long creatureTypeId)
 | `creatureTypeId` | `System.Int64` |  |
 
 ## Fields
-
 ### _metaInfo
 ```csharp
 private CreatureTypeInfo _metaInfo
@@ -102,7 +97,6 @@ public float totalKitUseTime
 **Type:** System.Single
 
 ## Methods
-
 ### AddObserveRegionData(Dictionary<string, object>)
 ```csharp
 private void AddObserveRegionData(Dictionary<string, object> dic)
@@ -279,5 +273,6 @@ public void Transaction(int trans)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

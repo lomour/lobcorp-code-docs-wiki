@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureManager
 canonical_path: /api/Global/IOBserver/CreatureManager
 ---
-
 # Class CreatureManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -30,7 +27,6 @@ Controls adding, moving, and removing creatures in departments; loading, saving,
 [IObserver](/api/Global/Misc/IObserver), [ISerializablePlayData](/api/Global/Misc/ISerializablePlayData)
 
 ## Constructors
-
 ### CreatureManager()
 ```csharp
 private CreatureManager()
@@ -38,7 +34,6 @@ private CreatureManager()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static CreatureManager _instance
@@ -94,7 +89,6 @@ private Dictionary<long, CreatureSpecialSkillTipTable> specialSkillTable
 **Type:** System.Collections.Generic.Dictionary{System.Int64,CreatureSpecialSkillTipTable}
 
 ## Properties
-
 ### instance
 ```csharp
 public static CreatureManager instance { get; }
@@ -104,7 +98,6 @@ public static CreatureManager instance { get; }
 **Type:** Global.CreatureManager
 
 ## Methods
-
 ### AddChildObserveInfo(CreatureObserveInfoModel)
 ```csharp
 public void AddChildObserveInfo(CreatureObserveInfoModel infoModel)
@@ -623,5 +616,6 @@ public void UnRegisterCreature(CreatureModel model)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

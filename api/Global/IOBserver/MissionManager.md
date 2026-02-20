@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MissionManager
 canonical_path: /api/Global/IOBserver/MissionManager
 ---
-
 # Class MissionManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,7 +25,6 @@ Manages missions. Holds remaining missions, active missions, cleared mission, an
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### MissionManager()
 ```csharp
 private MissionManager()
@@ -36,7 +32,6 @@ private MissionManager()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static MissionManager _instance
@@ -83,7 +78,6 @@ private List<Mission> remainMissions
 **Type:** System.Collections.Generic.List{Mission}
 
 ## Properties
-
 ### instance
 ```csharp
 public static MissionManager instance { get; }
@@ -93,7 +87,6 @@ public static MissionManager instance { get; }
 **Type:** Global.MissionManager
 
 ## Methods
-
 ### CheckMissionComplete(SefiraEnum)
 ```csharp
 public Mission CheckMissionComplete(SefiraEnum sefira)
@@ -434,5 +427,6 @@ public void StartTutorialMission()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

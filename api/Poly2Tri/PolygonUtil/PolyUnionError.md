@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.PolygonUtil.PolyUnionError
 canonical_path: /api/Poly2Tri/PolygonUtil/PolyUnionError
 ---
-
 # Enum PolygonUtil.PolyUnionError
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PolygonUtil.PolyUnionError
 ```
 
 ## Fields
-
 ### InfiniteLoop
 ```csharp
 InfiniteLoop = 3
@@ -46,5 +42,6 @@ Poly1InsidePoly2 = 2
 
 #### Field Value
 **Type:** Poly2Tri.PolygonUtil.PolyUnionError
+
 
 

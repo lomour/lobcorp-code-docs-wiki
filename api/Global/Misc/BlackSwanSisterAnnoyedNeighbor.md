@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BlackSwanSister.AnnoyedNeighbor
 canonical_path: /api/Global/Misc/BlackSwanSisterAnnoyedNeighbor
 ---
-
 # Class BlackSwanSister.AnnoyedNeighbor
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class BlackSwanSister.AnnoyedNeighbor
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BlackSwanSister.AnnoyedNeighbor
 
 ## Constructors
-
 ### AnnoyedNeighbor(CreatureModel, float)
 ```csharp
 public AnnoyedNeighbor(CreatureModel creature, float coolTime)
@@ -30,7 +26,6 @@ public AnnoyedNeighbor(CreatureModel creature, float coolTime)
 | `coolTime` | `System.Single` |  |
 
 ## Fields
-
 ### coolTime
 ```csharp
 private float coolTime
@@ -56,7 +51,6 @@ private bool enable
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetModel()
 ```csharp
 public CreatureModel GetModel()
@@ -80,5 +74,6 @@ public void Process()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

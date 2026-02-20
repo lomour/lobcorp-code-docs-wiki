@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AnimatorManager.AnimatorComponet.TransformElement.Element
 canonical_path: /api/Global/Misc/AnimatorManagerAnimatorComponetTransformElementElement
 ---
-
 # Class AnimatorManager.AnimatorComponet.TransformElement.Element
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class AnimatorManager.AnimatorComponet.TransformElement.Element
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorManager.AnimatorComponet.TransformElement.Element
 
 ## Constructors
-
 ### Element(Transform)
 ```csharp
 public Element(Transform transform)
@@ -29,7 +25,6 @@ public Element(Transform transform)
 | `transform` | `UnityEngine.Transform` |  |
 
 ## Fields
-
 ### active
 ```csharp
 public bool active
@@ -95,7 +90,6 @@ private string targetName
 **Type:** System.String
 
 ## Methods
-
 ### Reset()
 ```csharp
 public void Reset()
@@ -103,5 +97,6 @@ public void Reset()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

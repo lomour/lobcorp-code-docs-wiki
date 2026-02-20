@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraPanel.CreaturePortrait
 canonical_path: /api/Global/Misc/SefiraPanelCreaturePortrait
 ---
-
 # Class SefiraPanel.CreaturePortrait
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SefiraPanel.CreaturePortrait
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraPanel.CreaturePortrait
 
 ## Constructors
-
 ### CreaturePortrait()
 ```csharp
 public CreaturePortrait()
 ```
 
 ## Fields
-
 ### creature
 ```csharp
 public CreatureModel creature
@@ -82,7 +77,6 @@ private Color sefiraColor
 **Type:** UnityEngine.Color
 
 ## Methods
-
 ### SetCreature(CreatureModel, int, Color)
 ```csharp
 public void SetCreature(CreatureModel creature, int sefiraLevel, Color sefiraColor)
@@ -112,5 +106,6 @@ public void UpdateCheck()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

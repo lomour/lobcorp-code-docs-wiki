@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MapGraph
 canonical_path: /api/Global/IOBserver/MapGraph
 ---
-
 # Class MapGraph
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,11 +22,8 @@ Stores information about the locations of:
 
 
 ## Methods
-
 ### #INC 
-
 ### Loading
-
 #### void LoadMap()
 Reads the map information from Assets/Resources/xml/MapGraph_final2.xml.
 Uses LoadMap(XmlNode, XmlNode).
@@ -110,14 +104,12 @@ edge
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### MapGraph()
 ```csharp
 public MapGraph()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static MapGraph _instance
@@ -236,7 +228,6 @@ private Dictionary<string, List<MapNode>> sefiraRoamingNodesTable
 **Type:** System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{MapNode}}
 
 ## Properties
-
 ### instance
 ```csharp
 public static MapGraph instance { get; }
@@ -255,7 +246,6 @@ public bool loaded { get; private set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### ActivateArea(string)
 ```csharp
 public void ActivateArea(string name)
@@ -637,5 +627,6 @@ private void StageEnd()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

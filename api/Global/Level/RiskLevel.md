@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RiskLevel
 canonical_path: /api/Global/Level/RiskLevel
 ---
-
 # Enum RiskLevel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RiskLevel
 ```
 
 ## Fields
-
 ### ALEPH
 ```csharp
 ALEPH = 4
@@ -54,5 +50,6 @@ ZAYIN = 0
 
 #### Field Value
 **Type:** Global.RiskLevel
+
 
 

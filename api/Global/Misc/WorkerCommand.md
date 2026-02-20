@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.WorkerCommand
 canonical_path: /api/Global/Misc/WorkerCommand
 ---
-
 # Class WorkerCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -30,14 +27,12 @@ Holds many static commands.
 [AttackCommand](/api/Global/Worker/AttackCommand), [AttackOfficerCommand](/api/Global/Worker/AttackOfficerCommand), [FollowWorkerCommand](/api/Global/Worker/FollowWorkerCommand), [ManageCreatureAgentCommand](/api/Global/Worker/ManageCreatureAgentCommand), [MoveFromNullPassageCommand](/api/Global/Worker/MoveFromNullPassageCommand), [MoveWorkerCommand](/api/Global/Worker/MoveWorkerCommand), [PanicPursueWorkerCommand](/api/Global/Worker/PanicPursueWorkerCommand), [ReturnCreatureWorkerCommand](/api/Global/Worker/ReturnCreatureWorkerCommand), [ReturnKitCreatureCommand](/api/Global/Worker/ReturnKitCreatureCommand), [SingingMachineAttackCommand](/api/Global/Worker/SingingMachineAttackCommand), [SpecialActionOfficerCommand](/api/Global/Worker/SpecialActionOfficerCommand), [SuppressWorkerCommand](/api/Global/Worker/SuppressWorkerCommand), [UnconAuthorNoteAttackCommand](/api/Global/Worker/UnconAuthorNoteAttackCommand), [UnconPursueInSilentOrchestra](/api/Global/Worker/UnconPursueInSilentOrchestra), [UnconPursueWorkerCommand](/api/Global/Worker/UnconPursueWorkerCommand)
 
 ## Constructors
-
 ### WorkerCommand()
 ```csharp
 public WorkerCommand()
 ```
 
 ## Methods
-
 ### MakeFollowAgent(MovableObjectNode)
 ```csharp
 public static WorkerCommand MakeFollowAgent(MovableObjectNode targetNode)
@@ -169,5 +164,6 @@ public static WorkerCommand MakeUnconPursueAgent(UnitModel targetAgent)
 
 ## Inherited Members
 [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStart()](/api/Global/Misc/UnitCommand#onstart), [Execute()](/api/Global/Misc/UnitCommand#execute), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [OnDestroy()](/api/Global/Misc/UnitCommand#ondestroy), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.MoveCameraEffect
 canonical_path: /api/KetherBoss/MoveCameraEffect
 ---
-
 # Class MoveCameraEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ public class MoveCameraEffect : KetherLastEffectBase
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → MoveCameraEffect
 
 ## Constructors
-
 ### MoveCameraEffect(KetherLastBossBase)
 ```csharp
 public MoveCameraEffect(KetherLastBossBase bossBase)
@@ -35,7 +31,6 @@ public MoveCameraEffect(KetherLastBossBase bossBase)
 | `bossBase` | `KetherBoss.KetherLastBossBase` |  |
 
 ## Fields
-
 ### _cameraAttached
 ```csharp
 private GameObject _cameraAttached
@@ -91,7 +86,6 @@ private bool startMoving
 **Type:** System.Boolean
 
 ## Methods
-
 ### LoadParticle()
 ```csharp
 private void LoadParticle()
@@ -118,5 +112,6 @@ public override void Update()
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [FixedUpdate()](/api/KetherBoss/KetherLastEffectBase#fixedupdate), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureStaticData
 canonical_path: /api/Global/Creature/CreatureStaticData
 ---
-
 # Class CreatureStaticData
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Used by [Apocalypse Bird](/api/Global/Misc/BossBird)'s narration, [WhiteNight](/
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureStaticData
 
 ## Constructors
-
 ### CreatureStaticData()
 ```csharp
 public CreatureStaticData()
 ```
 
 ## Fields
-
 ### paramList
 ```csharp
 public List<CreatureStaticData.ParameterData> paramList
@@ -39,7 +34,6 @@ public List<CreatureStaticData.ParameterData> paramList
 **Type:** System.Collections.Generic.List{CreatureStaticData.ParameterData}
 
 ## Properties
-
 ### count
 ```csharp
 private int count { get; }
@@ -49,7 +43,6 @@ private int count { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### GetParam(int)
 ```csharp
 public CreatureStaticData.ParameterData GetParam(int index)
@@ -78,5 +71,6 @@ public CreatureStaticData.ParameterData GetParam(string key)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

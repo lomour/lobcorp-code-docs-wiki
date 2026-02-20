@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.Modules.AttachmentTools.AtlasUtilities
 canonical_path: /api/Spine/Unity/Modules/AttachmentTools/AtlasUtilities
 ---
-
 # Class AtlasUtilities
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules) . [AttachmentTools](/api/Spine/Unity/Modules/AttachmentTools)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public static class AtlasUtilities
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AtlasUtilities
 
 ## Fields
-
 ### CachedRegionTextures
 ```csharp
 private static Dictionary<AtlasRegion, Texture2D> CachedRegionTextures
@@ -67,7 +63,6 @@ internal const bool UseMipMaps = false
 **Type:** System.Boolean
 
 ## Methods
-
 ### ApplyPMA(Texture2D, bool)
 ```csharp
 private static void ApplyPMA(this Texture2D texture, bool applyImmediately = true)
@@ -521,5 +516,6 @@ private static Rect UVRectToTextureRect(Rect uvRect, int texWidth, int texHeight
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

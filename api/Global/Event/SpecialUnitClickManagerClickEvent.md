@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SpecialUnitClickManager.ClickEvent
 canonical_path: /api/Global/Event/SpecialUnitClickManagerClickEvent
 ---
-
 # Delegate SpecialUnitClickManager.ClickEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void SpecialUnitClickManager.ClickEvent(Vector3 pos)
 ```
 
 ## Constructors
-
 ### ClickEvent(object, IntPtr)
 ```csharp
 public ClickEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public ClickEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(Vector3, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(Vector3 pos, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(Vector3 pos)
 | Name | Type | Description |
 | --- | --- | --- |
 | `pos` | `UnityEngine.Vector3` |  |
+
 
 

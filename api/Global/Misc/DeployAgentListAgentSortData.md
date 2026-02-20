@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DeployAgentList.AgentSortData
 canonical_path: /api/Global/Misc/DeployAgentListAgentSortData
 ---
-
 # Class DeployAgentList.AgentSortData
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class DeployAgentList.AgentSortData
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DeployAgentList.AgentSortData
 
 ## Constructors
-
 ### AgentSortData()
 ```csharp
 public AgentSortData()
 ```
 
 ## Fields
-
 ### currentGender
 ```csharp
 public DeployAgentList.AgentSortData.GenderType currentGender
@@ -66,7 +61,6 @@ private DeployAgentList.AgentSortData.SortAction sort
 **Type:** Global.DeployAgentList.AgentSortData.SortAction
 
 ## Methods
-
 ### ChangeMainSort()
 ```csharp
 private void ChangeMainSort()
@@ -119,5 +113,6 @@ private void ValueExecute()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

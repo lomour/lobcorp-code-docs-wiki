@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryDialogueBoxType
 canonical_path: /api/Global/Type/StoryDialogueBoxType
 ---
-
 # Enum StoryDialogueBoxType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryDialogueBoxType
 ```
 
 ## Fields
-
 ### DEFAULT
 ```csharp
 DEFAULT = 0
@@ -46,5 +42,6 @@ NARRATION = 2
 
 #### Field Value
 **Type:** Global.StoryDialogueBoxType
+
 
 

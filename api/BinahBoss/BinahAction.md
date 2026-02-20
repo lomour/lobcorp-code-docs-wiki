@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahAction
 canonical_path: /api/BinahBoss/BinahAction
 ---
-
 # Class BinahAction
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ public class BinahAction
 [BinahIdle](/api/BinahBoss/BinahIdle), [BinahMovement](/api/BinahBoss/BinahMovement), [BinahOverloadActivation](/api/BinahBoss/BinahOverloadActivation), [BlackThron](/api/BinahBoss/BlackThron), [BladeWaveThrow](/api/BinahBoss/BladeWaveThrow), [ColumnThrow](/api/BinahBoss/ColumnThrow), [EightColumn](/api/BinahBoss/EightColumn)
 
 ## Constructors
-
 ### BinahAction(BinahCoreScript)
 ```csharp
 public BinahAction(BinahCoreScript binah)
@@ -38,7 +34,6 @@ public BinahAction(BinahCoreScript binah)
 | `binah` | `Global.BinahCoreScript` |  |
 
 ## Fields
-
 ### _interrupt
 ```csharp
 private BinahAction _interrupt
@@ -67,7 +62,6 @@ public BinahCoreScript binah
 **Type:** Global.BinahCoreScript
 
 ## Properties
-
 ### Animator
 ```csharp
 public Animator Animator { get; }
@@ -101,7 +95,6 @@ public MovableObjectNode Movable { get; }
 **Type:** Global.MovableObjectNode
 
 ## Methods
-
 ### CanTakeDamage()
 ```csharp
 public virtual bool CanTakeDamage()
@@ -189,5 +182,6 @@ public virtual void SetInterruptAction(BinahAction action)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

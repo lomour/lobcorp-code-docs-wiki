@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdAnim.NarrationUI.FadeOutEvent
 canonical_path: /api/Global/Event/BossBirdAnimNarrationUIFadeOutEvent
 ---
-
 # Delegate BossBirdAnim.NarrationUI.FadeOutEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BossBirdAnim.NarrationUI.FadeOutEvent()
 ```
 
 ## Constructors
-
 ### FadeOutEvent(object, IntPtr)
 ```csharp
 public FadeOutEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public FadeOutEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

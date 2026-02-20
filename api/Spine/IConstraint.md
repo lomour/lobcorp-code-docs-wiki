@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.IConstraint
 canonical_path: /api/Spine/IConstraint
 ---
-
 # Interface IConstraint
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface IConstraint : IUpdatable
 ```
 
 ## Properties
-
 ### Order
 ```csharp
 int Order { get; }
@@ -25,5 +21,6 @@ int Order { get; }
 
 ## Inherited Members
 [Update()](/api/Spine/IUpdatable#update)
+
 
 

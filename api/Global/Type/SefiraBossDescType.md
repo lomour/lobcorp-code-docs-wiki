@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraBossDescType
 canonical_path: /api/Global/Type/SefiraBossDescType
 ---
-
 # Enum SefiraBossDescType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SefiraBossDescType
 ```
 
 ## Fields
-
 ### BATTLE
 ```csharp
 BATTLE = 12
@@ -126,5 +122,6 @@ REWARD = 10
 
 #### Field Value
 **Type:** Global.SefiraBossDescType
+
 
 

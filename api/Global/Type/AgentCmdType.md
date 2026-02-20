@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentCmdType
 canonical_path: /api/Global/Type/AgentCmdType
 ---
-
 # Enum AgentCmdType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentCmdType
 ```
 
 ## Fields
-
 ### MANAGE_CREATURE
 ```csharp
 MANAGE_CREATURE = 3
@@ -46,5 +42,6 @@ UNKNOWN = 1
 
 #### Field Value
 **Type:** Global.AgentCmdType
+
 
 

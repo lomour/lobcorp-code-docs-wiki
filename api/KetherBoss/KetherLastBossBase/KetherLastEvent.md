@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.KetherLastBossBase.KetherLastEvent
 canonical_path: /api/KetherBoss/KetherLastBossBase/KetherLastEvent
 ---
-
 # Delegate KetherLastBossBase.KetherLastEvent
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void KetherLastBossBase.KetherLastEvent()
 ```
 
 ## Constructors
-
 ### KetherLastEvent(object, IntPtr)
 ```csharp
 public KetherLastEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public KetherLastEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

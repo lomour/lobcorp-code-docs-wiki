@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBird.Phase
 canonical_path: /api/Global/Phase/BossBirdPhase
 ---
-
 # Enum BossBird.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BossBird.Phase
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 3
@@ -54,5 +50,6 @@ TELEPORT = 2
 
 #### Field Value
 **Type:** Global.BossBird.Phase
+
 
 

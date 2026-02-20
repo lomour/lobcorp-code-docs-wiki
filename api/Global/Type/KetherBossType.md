@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.KetherBossType
 canonical_path: /api/Global/Type/KetherBossType
 ---
-
 # Enum KetherBossType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum KetherBossType
 ```
 
 ## Fields
-
 ### E0
 ```csharp
 E0 = 0
@@ -54,5 +50,6 @@ E4 = 4
 
 #### Field Value
 **Type:** Global.KetherBossType
+
 
 

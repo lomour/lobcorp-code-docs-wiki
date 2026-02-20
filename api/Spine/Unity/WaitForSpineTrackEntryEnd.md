@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.WaitForSpineTrackEntryEnd
 canonical_path: /api/Spine/Unity/WaitForSpineTrackEntryEnd
 ---
-
 # Class WaitForSpineTrackEntryEnd
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class WaitForSpineTrackEntryEnd : IEnumerator
 [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## Constructors
-
 ### WaitForSpineTrackEntryEnd(TrackEntry)
 ```csharp
 public WaitForSpineTrackEntryEnd(TrackEntry trackEntry)
@@ -32,7 +28,6 @@ public WaitForSpineTrackEntryEnd(TrackEntry trackEntry)
 | `trackEntry` | `Spine.TrackEntry` |  |
 
 ## Fields
-
 ### m_WasFired
 ```csharp
 private bool m_WasFired
@@ -42,7 +37,6 @@ private bool m_WasFired
 **Type:** System.Boolean
 
 ## Properties
-
 ### IEnumerator.Current
 ```csharp
 object IEnumerator.Current { get; }
@@ -52,7 +46,6 @@ object IEnumerator.Current { get; }
 **Type:** System.Object
 
 ## Methods
-
 ### HandleEnd(TrackEntry)
 ```csharp
 private void HandleEnd(TrackEntry trackEntry)
@@ -101,5 +94,6 @@ private void SafeSubscribe(TrackEntry trackEntry)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

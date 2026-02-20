@@ -1,5 +1,3 @@
- 
- 
 ---
 title: CreatureBase
 description: 
@@ -9,7 +7,6 @@ tags:
 editor: markdown
 dateCreated: 2026-01-06T03:45:21.997Z
 ---
-
 # Class CreatureBase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -35,14 +32,12 @@ All of these implementations are virtual and are intended to be overridden by th
 [Alriune](/api/Global/Misc/Alriune), [AnonymousManPortrait](/api/Global/Misc/AnonymousManPortrait), [ArmorCreature](/api/Global/IOBserver/ArmorCreature), [AuthorNote](/api/Global/Misc/AuthorNote), [Baku](/api/Global/Misc/Baku), [Bald](/api/Global/Misc/Bald), [BeautyBeast](/api/Global/Misc/BeautyBeast), [BigBadWolf](/api/Global/IOBserver/BigBadWolf), [BigTreeSap](/api/Global/Misc/BigTreeSap), [BinahCoreScript](/api/Global/Script/BinahCoreScript), [BirdCreatureBase](/api/Global/Misc/BirdCreatureBase), [BlackCorps](/api/Global/Misc/BlackCorps), [BlackSwan](/api/Global/IOBserver/BlackSwan), [BlackSwanSister](/api/Global/Misc/BlackSwanSister), [BloodBath](/api/Global/Misc/BloodBath), [BloodyTree](/api/Global/Misc/BloodyTree), [BlueStar](/api/Global/IOBserver/BlueStar), [BugOrdealCreature](/api/Global/Creature/BugOrdealCreature), [Bunny](/api/Global/Misc/Bunny), [Butterfly](/api/Global/Misc/Butterfly), [CensoredCreatureBase](/api/Global/Misc/CensoredCreatureBase), [ChesedCoreScript](/api/Global/Script/ChesedCoreScript), [ChokhmahCoreScript](/api/Global/Script/ChokhmahCoreScript), [CircusOrdealCreature](/api/Global/Creature/CircusOrdealCreature), [Cosmos](/api/Global/Misc/Cosmos), [DangoCreature](/api/Global/IOBserver/DangoCreature), [DesireHeart](/api/Global/Misc/DesireHeart), [DontTouchMe](/api/Global/Misc/DontTouchMe), [DummyCreature](/api/Global/Creature/DummyCreature), [Fairy](/api/Global/Misc/Fairy), [FengYun](/api/Global/IOBserver/FengYun), [FireBird](/api/Global/IOBserver/FireBird), [FixerCreature](/api/Global/Creature/FixerCreature), [Freischutz](/api/Global/Misc/Freischutz), [GalaxyBoy](/api/Global/IOBserver/GalaxyBoy), [GeburahCoreScript](/api/Global/Script/GeburahCoreScript), [HappyTeddy](/api/Global/Misc/HappyTeddy), [HealthBracelet](/api/Global/Misc/HealthBracelet), [HellTrain](/api/Global/Misc/HellTrain), [Helper](/api/Global/Misc/Helper), [HodCoreScript](/api/Global/Script/HodCoreScript), [IronMaiden](/api/Global/Misc/IronMaiden), [JackLessTree](/api/Global/Misc/JackLessTree), [JusticeReceiver](/api/Global/Misc/JusticeReceiver), [KnightOfDespair](/api/Global/Misc/KnightOfDespair), [LadyLookingAtWall](/api/Global/Misc/LadyLookingAtWall), [LightsHammer](/api/Global/Misc/LightsHammer), [LittleWitch](/api/Global/Misc/LittleWitch), [LittleWitchMonster](/api/Global/Misc/LittleWitchMonster), [LookAtMe](/api/Global/Misc/LookAtMe), [Lumberjack](/api/Global/Misc/Lumberjack), [MachineOrdealCreature](/api/Global/Creature/MachineOrdealCreature), [MagicalGirl](/api/Global/IOBserver/MagicalGirl), [MagicalGirl_2](/api/Global/Misc/MagicalGirl2), [MalkutCoreScript](/api/Global/Script/MalkutCoreScript), [MatchGirl](/api/Global/Misc/MatchGirl), [MeatIdol](/api/Global/Misc/MeatIdol), [Mhz_1_76](/api/Global/Misc/Mhz176), [NamelessFetus](/api/Global/Misc/NamelessFetus), [NetzachCoreScript](/api/Global/Script/NetzachCoreScript), [Nothing](/api/Global/Misc/Nothing), [OldLady](/api/Global/IOBserver/OldLady), [OneBadManyGood](/api/Global/Misc/OneBadManyGood), [OtherWorldPortrait](/api/Global/IOBserver/OtherWorldPortrait), [OutterGodOrdealCreature](/api/Global/Creature/OutterGodOrdealCreature), [Piano](/api/Global/Misc/Piano), [PianoCreature](/api/Global/Creature/PianoCreature), [PinkCorps](/api/Global/IOBserver/PinkCorps), [Porccu](/api/Global/Misc/Porccu), [Ppodae](/api/Global/Misc/Ppodae), [PromiseAndFaith](/api/Global/Misc/PromiseAndFaith), [ProphecyOfSkin](/api/Global/IOBserver/ProphecyOfSkin), [QueenBee](/api/Global/Misc/QueenBee), [QueenBeeWorker](/api/Global/Worker/QueenBeeWorker), [Reaper](/api/Global/Misc/Reaper), [RedHood](/api/Global/IOBserver/RedHood), [RedShoes](/api/Global/Misc/RedShoes), [ResearcherNote](/api/Global/Misc/ResearcherNote), [ResetMirror](/api/Global/Misc/ResetMirror), [ReverseClock](/api/Global/Misc/ReverseClock), [Rudolph](/api/Global/Misc/Rudolph), [Sakura](/api/Global/Misc/Sakura), [Scarecrow](/api/Global/Misc/Scarecrow), [ScavengerOrdealCreature](/api/Global/Creature/ScavengerOrdealCreature), [ScytheClock](/api/Global/Misc/ScytheClock), [Shark](/api/Global/Misc/Shark), [Shelter](/api/Global/Misc/Shelter), [ShyThing](/api/Global/Misc/ShyThing), [SilentGirl](/api/Global/Misc/SilentGirl), [SilentOrchestra](/api/Global/Misc/SilentOrchestra), [SingingMachine](/api/Global/Machine/SingingMachine), [SlimeCreature](/api/Global/Creature/SlimeCreature), [SmilePierrot](/api/Global/Misc/SmilePierrot), [SnowQueen](/api/Global/Misc/SnowQueen), [SnowWhite](/api/Global/Misc/SnowWhite), [SpiderMom](/api/Global/Misc/SpiderMom), [StraitJacket](/api/Global/Misc/StraitJacket), [Theresia](/api/Global/Misc/Theresia), [TipherethCoreScript](/api/Global/Script/TipherethCoreScript), [ViscusSnake](/api/Global/Misc/ViscusSnake), [VoidBook](/api/Global/Misc/VoidBook), [Wellcheers](/api/Global/Misc/Wellcheers), [Wraith](/api/Global/Misc/Wraith), [YesodCoreScript](/api/Global/Script/YesodCoreScript), [Yggdrasil](/api/Global/IOBserver/Yggdrasil), [Yggdrasil_Sapling](/api/Global/Misc/YggdrasilSapling), [YinAndYangBase](/api/Global/Misc/YinAndYangBase), [YouMustHappy](/api/Global/IOBserver/YouMustHappy), [YoungPrince](/api/Global/IOBserver/YoungPrince), [YoungPrinceFriend](/api/Global/Misc/YoungPrinceFriend), [DeathAngel](/api/Legacy/DeathAngel), [PlagueDoctor](/api/Legacy/PlagueDoctor), [DeathAngel](/api/WhiteNightSpace/DeathAngel), [DeathAngelApostle](/api/WhiteNightSpace/DeathAngelApostle), [PlagueDoctor](/api/WhiteNightSpace/PlagueDoctor)
 
 ## Constructors
-
 ### CreatureBase()
 ```csharp
 public CreatureBase()
 ```
 
 ## Fields
-
 ### _allocatedAgent
 ```csharp
 private AgentModel _allocatedAgent
@@ -141,7 +136,6 @@ public List<CreatureBase.SpecialSkillTipParameter> specialSkillTipParamList
 **Type:** System.Collections.Generic.List{CreatureBase.SpecialSkillTipParameter}
 
 ## Properties
-
 ### AllocatedAgent
 ```csharp
 public AgentModel AllocatedAgent { get; }
@@ -191,7 +185,6 @@ public CreatureUnit Unit { get; }
 **Type:** Global.CreatureUnit
 
 ## Methods
-
 ### ActivateQliphothCounter()
 ```csharp
 public virtual void ActivateQliphothCounter()
@@ -1683,5 +1676,6 @@ public virtual bool UseDefaultDamageIgnoreMessage(DamageTextEffect damageScript)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

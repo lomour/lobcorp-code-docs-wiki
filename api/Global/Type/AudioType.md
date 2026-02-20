@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AudioType
 canonical_path: /api/Global/Type/AudioType
 ---
-
 # Enum AudioType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AudioType
 ```
 
 ## Fields
-
 ### CANCEL
 ```csharp
 CANCEL = 3
@@ -78,5 +74,6 @@ TAPOVER = 2
 
 #### Field Value
 **Type:** Global.AudioType
+
 
 

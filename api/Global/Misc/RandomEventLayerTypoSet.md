@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventLayer.TypoSet
 canonical_path: /api/Global/Misc/RandomEventLayerTypoSet
 ---
-
 # Enum RandomEventLayer.TypoSet
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RandomEventLayer.TypoSet
 ```
 
 ## Fields
-
 ### EVENT
 ```csharp
 EVENT = 1
@@ -30,5 +26,6 @@ TIME = 0
 
 #### Field Value
 **Type:** Global.RandomEventLayer.TypoSet
+
 
 

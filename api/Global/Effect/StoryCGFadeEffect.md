@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryCGFadeEffect
 canonical_path: /api/Global/Effect/StoryCGFadeEffect
 ---
-
 # Enum StoryCGFadeEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryCGFadeEffect
 ```
 
 ## Fields
-
 ### BLINK
 ```csharp
 BLINK = 3
@@ -62,5 +58,6 @@ NONE = 1
 
 #### Field Value
 **Type:** Global.StoryCGFadeEffect
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MotherBug.AnimationState
 canonical_path: /api/Global/State/MotherBugAnimationState
 ---
-
 # Enum MotherBug.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum MotherBug.AnimationState
 ```
 
 ## Fields
-
 ### APPEAR
 ```csharp
 APPEAR = 1
@@ -62,5 +58,6 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.MotherBug.AnimationState
+
 
 

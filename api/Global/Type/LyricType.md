@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LyricType
 canonical_path: /api/Global/Type/LyricType
 ---
-
 # Enum LyricType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum LyricType
 ```
 
 ## Fields
-
 ### C
 ```csharp
 C = 11
@@ -118,5 +114,6 @@ TIRED = 8
 
 #### Field Value
 **Type:** Global.LyricType
+
 
 

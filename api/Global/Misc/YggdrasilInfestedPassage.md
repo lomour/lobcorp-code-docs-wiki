@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Yggdrasil.InfestedPassage
 canonical_path: /api/Global/Misc/YggdrasilInfestedPassage
 ---
-
 # Class Yggdrasil.InfestedPassage
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class Yggdrasil.InfestedPassage
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Yggdrasil.InfestedPassage
 
 ## Constructors
-
 ### InfestedPassage(PassageObjectModel, GameObject, Yggdrasil)
 ```csharp
 public InfestedPassage(PassageObjectModel passage, GameObject filter, Yggdrasil script)
@@ -31,7 +27,6 @@ public InfestedPassage(PassageObjectModel passage, GameObject filter, Yggdrasil 
 | `script` | `Global.Yggdrasil` |  |
 
 ## Fields
-
 ### dmgFreq
 ```csharp
 private const float dmgFreq = 5
@@ -73,7 +68,6 @@ private Yggdrasil script
 **Type:** Global.Yggdrasil
 
 ## Properties
-
 ### model
 ```csharp
 private CreatureModel model { get; }
@@ -83,7 +77,6 @@ private CreatureModel model { get; }
 **Type:** Global.CreatureModel
 
 ## Methods
-
 ### Attack()
 ```csharp
 private void Attack()
@@ -130,5 +123,6 @@ public void Process()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

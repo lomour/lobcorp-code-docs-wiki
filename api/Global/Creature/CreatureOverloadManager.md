@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureOverloadManager
 canonical_path: /api/Global/Creature/CreatureOverloadManager
 ---
-
 # Class CreatureOverloadManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Manages Qliphoth overloads for each day. Also, sets the [GlobalBulletManager](/a
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureOverloadManager
 
 ## Constructors
-
 ### CreatureOverloadManager()
 ```csharp
 public CreatureOverloadManager()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static CreatureOverloadManager _instance
@@ -103,7 +98,6 @@ private int qliphothOverloadLevel
 **Type:** System.Int32
 
 ## Properties
-
 ### instance
 ```csharp
 public static CreatureOverloadManager instance { get; }
@@ -121,7 +115,6 @@ public int qliphothOverloadMax { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### ActivateOverload()
 ```csharp
 private void ActivateOverload()
@@ -202,5 +195,6 @@ private void SetQliphothOverloadLevel(int level)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

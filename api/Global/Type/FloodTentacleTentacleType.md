@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FloodTentacle.TentacleType
 canonical_path: /api/Global/Type/FloodTentacleTentacleType
 ---
-
 # Enum FloodTentacle.TentacleType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FloodTentacle.TentacleType
 ```
 
 ## Fields
-
 ### A
 ```csharp
 A = 0
@@ -38,5 +34,6 @@ C = 2
 
 #### Field Value
 **Type:** Global.FloodTentacle.TentacleType
+
 
 

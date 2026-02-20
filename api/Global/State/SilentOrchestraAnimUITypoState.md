@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SilentOrchestraAnim.UI.TypoState
 canonical_path: /api/Global/State/SilentOrchestraAnimUITypoState
 ---
-
 # Enum SilentOrchestraAnim.UI.TypoState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SilentOrchestraAnim.UI.TypoState
 ```
 
 ## Fields
-
 ### DISPLAYING
 ```csharp
 DISPLAYING = 2
@@ -46,5 +42,6 @@ IDLE = 0
 
 #### Field Value
 **Type:** Global.SilentOrchestraAnim.UI.TypoState
+
 
 

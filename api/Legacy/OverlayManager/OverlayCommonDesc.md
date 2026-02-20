@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.OverlayManager.OverlayCommonDesc
 canonical_path: /api/Legacy/OverlayManager/OverlayCommonDesc
 ---
-
 # Class OverlayManager.OverlayCommonDesc
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class OverlayManager.OverlayCommonDesc
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OverlayManager.OverlayCommonDesc
 
 ## Constructors
-
 ### OverlayCommonDesc()
 ```csharp
 public OverlayCommonDesc()
 ```
 
 ## Fields
-
 ### lib
 ```csharp
 public Dictionary<string, OverlayManager.OverlayCommonDescElement> lib
@@ -34,7 +29,6 @@ public Dictionary<string, OverlayManager.OverlayCommonDescElement> lib
 **Type:** System.Collections.Generic.Dictionary{System.String,Legacy.OverlayManager.OverlayCommonDescElement}
 
 ## Methods
-
 ### AddElement(string, OverlayCommonDescElement)
 ```csharp
 public void AddElement(string key, OverlayManager.OverlayCommonDescElement desc)
@@ -83,5 +77,6 @@ public void SetOverlayObjectSimple(OverlayObject target, string key)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

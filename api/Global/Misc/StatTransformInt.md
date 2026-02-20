@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StatTransformInt
 canonical_path: /api/Global/Misc/StatTransformInt
 ---
-
 # Interface StatTransformInt
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,7 +26,6 @@ int IntToInt(int v)
 
 
 ## Methods
-
 ### IntToInt(int)
 ```csharp
 int IntToInt(int v)
@@ -43,5 +39,6 @@ int IntToInt(int v)
 
 #### Returns
 **Type:** System.Int32
+
 
 

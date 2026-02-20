@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.WorkerFaceType
 canonical_path: /api/WorkerSprite/WorkerFaceType
 ---
-
 # Enum WorkerFaceType
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum WorkerFaceType
 ```
 
 ## Fields
-
 ### BATTLE
 ```csharp
 BATTLE = 1
@@ -46,5 +42,6 @@ PANIC = 2
 
 #### Field Value
 **Type:** WorkerSprite.WorkerFaceType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ConditionType
 canonical_path: /api/Global/Type/ConditionType
 ---
-
 # Enum ConditionType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ConditionType
 ```
 
 ## Fields
-
 ### AGENT_DEAD
 ```csharp
 AGENT_DEAD = 7
@@ -222,5 +218,6 @@ WORK_TYPE = 1
 
 #### Field Value
 **Type:** Global.ConditionType
+
 
 

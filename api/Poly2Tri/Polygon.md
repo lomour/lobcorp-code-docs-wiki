@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Polygon
 canonical_path: /api/Poly2Tri/Polygon
 ---
-
 # Class Polygon
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class Polygon : Point2DList, IList<Point2D>, ICollection<Point2D>, IEnume
 [IList<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1), [ICollection<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1), [IEnumerable<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [ITriangulatable](/api/Poly2Tri/ITriangulatable), [IList<TriangulationPoint>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1), [ICollection<TriangulationPoint>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1), [IEnumerable<TriangulationPoint>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
 ## Constructors
-
 ### Polygon(IEnumerable<PolygonPoint>)
 ```csharp
 public Polygon(IEnumerable<PolygonPoint> points)
@@ -52,7 +48,6 @@ public Polygon(params PolygonPoint[] points)
 | `points` | `Poly2Tri.PolygonPoint[]` |  |
 
 ## Fields
-
 ### _last
 ```csharp
 protected PolygonPoint _last
@@ -102,7 +97,6 @@ protected List<DelaunayTriangle> mTriangles
 **Type:** System.Collections.Generic.List{Poly2Tri.DelaunayTriangle}
 
 ## Properties
-
 ### Bounds
 ```csharp
 public Rect2D Bounds { get; }
@@ -229,7 +223,6 @@ public TriangulationMode TriangulationMode { get; }
 **Type:** Poly2Tri.TriangulationMode
 
 ## Methods
-
 ### Add(Point2D)
 ```csharp
 public override void Add(Point2D p)
@@ -458,5 +451,6 @@ public void RemovePoint(PolygonPoint p)
 
 ## Inherited Members
 [kMaxPolygonVertices](/api/Poly2Tri/Point2DList#kmaxpolygonvertices), [kLinearSlop](/api/Poly2Tri/Point2DList#klinearslop), [kAngularSlop](/api/Poly2Tri/Point2DList#kangularslop), [mPoints](/api/Poly2Tri/Point2DList#mpoints), [mBoundingBox](/api/Poly2Tri/Point2DList#mboundingbox), [mWindingOrder](/api/Poly2Tri/Point2DList#mwindingorder), [mEpsilon](/api/Poly2Tri/Point2DList#mepsilon), [ToString()](/api/Poly2Tri/Point2DList#tostring), [IEnumerable.GetEnumerator()](/api/Poly2Tri/Point2DList#ienumerable-getenumerator), [IEnumerable<Point2D>.GetEnumerator()](/api/Poly2Tri/Point2DList#ienumerable-point2d-getenumerator), [Clear()](/api/Poly2Tri/Point2DList#clear), [IndexOf(Point2D)](/api/Poly2Tri/Point2DList#indexof-point2d), [AddRange(Point2DList)](/api/Poly2Tri/Point2DList#addrange-point2dlist), [AddRange(IEnumerator<Point2D>, WindingOrderType)](/api/Poly2Tri/Point2DList#addrange-ienumerator-point2d-windingordertype), [Insert(int, Point2D)](/api/Poly2Tri/Point2DList#insert-int-point2d), [Remove(Point2D)](/api/Poly2Tri/Point2DList#remove-point2d), [RemoveAt(int)](/api/Poly2Tri/Point2DList#removeat-int), [RemoveRange(int, int)](/api/Poly2Tri/Point2DList#removerange-int-int), [Contains(Point2D)](/api/Poly2Tri/Point2DList#contains-point2d), [CopyTo(Point2D[], int)](/api/Poly2Tri/Point2DList#copyto-point2d-int), [CalculateBounds()](/api/Poly2Tri/Point2DList#calculatebounds), [CalculateEpsilon()](/api/Poly2Tri/Point2DList#calculateepsilon), [CalculateWindingOrder()](/api/Poly2Tri/Point2DList#calculatewindingorder), [NextIndex(int)](/api/Poly2Tri/Point2DList#nextindex-int), [PreviousIndex(int)](/api/Poly2Tri/Point2DList#previousindex-int), [GetSignedArea()](/api/Poly2Tri/Point2DList#getsignedarea), [GetArea()](/api/Poly2Tri/Point2DList#getarea), [GetCentroid()](/api/Poly2Tri/Point2DList#getcentroid), [Translate(Point2D)](/api/Poly2Tri/Point2DList#translate-point2d), [Scale(Point2D)](/api/Poly2Tri/Point2DList#scale-point2d), [Rotate(double)](/api/Poly2Tri/Point2DList#rotate-double), [IsDegenerate()](/api/Poly2Tri/Point2DList#isdegenerate), [IsConvex()](/api/Poly2Tri/Point2DList#isconvex), [IsSimple()](/api/Poly2Tri/Point2DList#issimple), [CheckPolygon()](/api/Poly2Tri/Point2DList#checkpolygon), [GetErrorString(PolygonError)](/api/Poly2Tri/Point2DList#geterrorstring-polygonerror), [RemoveDuplicateNeighborPoints()](/api/Poly2Tri/Point2DList#removeduplicateneighborpoints), [Simplify()](/api/Poly2Tri/Point2DList#simplify), [Simplify(double)](/api/Poly2Tri/Point2DList#simplify-double), [MergeParallelEdges(double)](/api/Poly2Tri/Point2DList#mergeparalleledges-double), [ProjectToAxis(Point2D, out double, out double)](/api/Poly2Tri/Point2DList#projecttoaxis-point2d-out-double-out-double), [BoundingBox](/api/Poly2Tri/Point2DList#boundingbox), [WindingOrder](/api/Poly2Tri/Point2DList#windingorder), [Epsilon](/api/Poly2Tri/Point2DList#epsilon), [Count](/api/Poly2Tri/Point2DList#count), [IsReadOnly](/api/Poly2Tri/Point2DList#isreadonly), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

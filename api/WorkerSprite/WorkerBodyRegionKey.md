@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.WorkerBodyRegionKey
 canonical_path: /api/WorkerSprite/WorkerBodyRegionKey
 ---
-
 # Class WorkerBodyRegionKey
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ Strings associated with each body region
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerBodyRegionKey
 
 ## Fields
-
 ### Body
 ```csharp
 public static string Body
@@ -177,7 +173,6 @@ public static string R_Leg_Up
 **Type:** System.String
 
 ## Methods
-
 ### GetKey(BodySpriteRegion, out string, out string)
 ```csharp
 public static bool GetKey(BodySpriteRegion region, out string slot, out string attach)
@@ -196,5 +191,6 @@ public static bool GetKey(BodySpriteRegion region, out string slot, out string a
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

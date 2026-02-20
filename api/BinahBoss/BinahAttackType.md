@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahAttackType
 canonical_path: /api/BinahBoss/BinahAttackType
 ---
-
 # Enum BinahAttackType
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahAttackType
 ```
 
 ## Fields
-
 ### FIRST_BLADE
 ```csharp
 FIRST_BLADE = 0
@@ -46,5 +42,6 @@ THIRD_COLUMN = 2
 
 #### Field Value
 **Type:** BinahBoss.BinahAttackType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BlockSlider.OnClickEvent
 canonical_path: /api/Global/Event/BlockSliderOnClickEvent
 ---
-
 # Delegate BlockSlider.OnClickEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BlockSlider.OnClickEvent(float rate)
 ```
 
 ## Constructors
-
 ### OnClickEvent(object, IntPtr)
 ```csharp
 public OnClickEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnClickEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(float, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(float rate, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(float rate)
 | Name | Type | Description |
 | --- | --- | --- |
 | `rate` | `System.Single` |  |
+
 
 

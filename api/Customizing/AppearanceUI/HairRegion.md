@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.AppearanceUI.HairRegion
 canonical_path: /api/Customizing/AppearanceUI/HairRegion
 ---
-
 # Enum AppearanceUI.HairRegion
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AppearanceUI.HairRegion
 ```
 
 ## Fields
-
 ### FRONT
 ```csharp
 FRONT = 0
@@ -30,5 +26,6 @@ REAR = 1
 
 #### Field Value
 **Type:** Customizing.AppearanceUI.HairRegion
+
 
 

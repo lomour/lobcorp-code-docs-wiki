@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleGenData
 canonical_path: /api/WhiteNightSpace/ApostleGenData
 ---
-
 # Class ApostleGenData
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ Data for making an apostle from an agent, maybe?
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleGenData
 
 ## Constructors
-
 ### ApostleGenData(WorkerModel, ApostleData, int)
 ```csharp
 public ApostleGenData(WorkerModel worker, ApostleData data, int index)
@@ -38,7 +34,6 @@ public ApostleGenData(WorkerModel worker, ApostleData data, int index)
 | `index` | `System.Int32` |  |
 
 ## Fields
-
 ### AposlteModel
 ```csharp
 public ChildCreatureModel AposlteModel
@@ -76,7 +71,6 @@ public WorkerModel target
 **Type:** Global.WorkerModel
 
 ## Methods
-
 ### Compare(ApostleGenData, ApostleGenData)
 ```csharp
 public static int Compare(ApostleGenData a, ApostleGenData b)
@@ -94,5 +88,6 @@ public static int Compare(ApostleGenData a, ApostleGenData b)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

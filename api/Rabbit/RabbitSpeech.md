@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Rabbit.RabbitSpeech
 canonical_path: /api/Rabbit/RabbitSpeech
 ---
-
 # Class RabbitSpeech
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See also [RabbitConversationType](/api/Rabbit/RabbitConversationType).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitSpeech
 
 ## Constructors
-
 ### RabbitSpeech()
 ```csharp
 public RabbitSpeech()
 ```
 
 ## Fields
-
 ### _unit
 ```csharp
 private RabbitUnit _unit
@@ -96,7 +91,6 @@ public Timer speechTimer
 **Type:** Global.Timer
 
 ## Methods
-
 ### Execute()
 ```csharp
 public void Execute()
@@ -138,5 +132,6 @@ public void Speech(string text, float speechTime = 3)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

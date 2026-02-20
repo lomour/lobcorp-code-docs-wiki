@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.GeburahAction
 canonical_path: /api/GeburahBoss/GeburahAction
 ---
-
 # Class GeburahAction
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s actions
 [BloodyTreeThrow](/api/GeburahBoss/BloodyTreeThrow), [ChaseAction](/api/GeburahBoss/ChaseAction), [DacapoMimicriThrow](/api/GeburahBoss/DacapoMimicriThrow), [DacapoThrow](/api/GeburahBoss/DacapoThrow), [DangoAttackAction](/api/GeburahBoss/DangoAttackAction), [DefaultAttack](/api/GeburahBoss/DefaultAttack), [GeburahIdle](/api/GeburahBoss/GeburahIdle), [GreedyTelepeort](/api/GeburahBoss/GreedyTelepeort), [GreedyThrow](/api/GeburahBoss/GreedyThrow), [MoveNodeAction](/api/GeburahBoss/MoveNodeAction)
 
 ## Constructors
-
 ### GeburahAction(GeburahCoreScript)
 ```csharp
 public GeburahAction(GeburahCoreScript geburah)
@@ -39,7 +35,6 @@ public GeburahAction(GeburahCoreScript geburah)
 | `geburah` | `Global.GeburahCoreScript` |  |
 
 ## Fields
-
 ### _interrupt
 ```csharp
 private GeburahAction _interrupt
@@ -68,7 +63,6 @@ public GeburahCoreScript geburah
 **Type:** Global.GeburahCoreScript
 
 ## Properties
-
 ### Animator
 ```csharp
 public Animator Animator { get; }
@@ -102,7 +96,6 @@ public MovableObjectNode Movable { get; }
 **Type:** Global.MovableObjectNode
 
 ## Methods
-
 ### CanTakeDamage()
 ```csharp
 public virtual bool CanTakeDamage()
@@ -161,5 +154,6 @@ public virtual void SetInterruptAction(GeburahAction action)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

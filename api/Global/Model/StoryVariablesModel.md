@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryVariablesModel
 canonical_path: /api/Global/Model/StoryVariablesModel
 ---
-
 # Class StoryVariablesModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ Holds variables used in the story.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryVariablesModel
 
 ## Constructors
-
 ### StoryVariablesModel()
 ```csharp
 private StoryVariablesModel()
@@ -30,7 +26,6 @@ private StoryVariablesModel()
 
 
 ## Fields
-
 ### _globalVariables
 ```csharp
 private Dictionary<string, int> _globalVariables
@@ -76,7 +71,6 @@ public const string AGENT_DIE_COUNT = "AgentDieCount"
 **Type:** System.String
 
 ## Properties
-
 ### instance
 ```csharp
 public static StoryVariablesModel instance { get; }
@@ -86,7 +80,6 @@ public static StoryVariablesModel instance { get; }
 **Type:** Global.StoryVariablesModel
 
 ## Methods
-
 ### AddVariable(string, int)
 ```csharp
 public void AddVariable(string id, int operand)
@@ -154,5 +147,6 @@ public void SetLocalVariable(string id, int val)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.DefaultAttack
 canonical_path: /api/GeburahBoss/DefaultAttack
 ---
-
 # Class DefaultAttack
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -38,7 +35,6 @@ Phase 4:
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → DefaultAttack
 
 ## Constructors
-
 ### DefaultAttack(GeburahCoreScript, float, float, int)
 ```csharp
 public DefaultAttack(GeburahCoreScript geburah, float front, float rear, int attackTypeMax = 3)
@@ -67,7 +63,6 @@ public DefaultAttack(GeburahCoreScript geburah, float front, float rear, List<De
 | `list` | `System.Collections.Generic.List{GeburahBoss.DefaultAttack.AttackProb}` |  |
 
 ## Fields
-
 ### _attackDist_front
 ```csharp
 private float _attackDist_front
@@ -167,7 +162,6 @@ private float maxProb
 **Type:** System.Single
 
 ## Properties
-
 ### IsAttacking
 ```csharp
 public bool IsAttacking { get; }
@@ -177,7 +171,6 @@ public bool IsAttacking { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### OnAnimEventCalled(int)
 ```csharp
 public void OnAnimEventCalled(int index)
@@ -238,5 +231,6 @@ public void SetAttackTypeMax(int max)
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [CanTakeDamage()](/api/GeburahBoss/GeburahAction#cantakedamage), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

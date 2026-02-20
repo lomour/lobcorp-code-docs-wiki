@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventBase.TypoType
 canonical_path: /api/Global/Type/RandomEventBaseTypoType
 ---
-
 # Enum RandomEventBase.TypoType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RandomEventBase.TypoType
 ```
 
 ## Fields
-
 ### CLEAR
 ```csharp
 CLEAR = 1
@@ -38,5 +34,6 @@ START = 0
 
 #### Field Value
 **Type:** Global.RandomEventBase.TypoType
+
 
 

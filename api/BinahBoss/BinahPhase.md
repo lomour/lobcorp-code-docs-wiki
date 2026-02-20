@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahPhase
 canonical_path: /api/BinahBoss/BinahPhase
 ---
-
 # Enum BinahPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahPhase
 ```
 
 ## Fields
-
 ### END
 ```csharp
 END = 4
@@ -54,5 +50,6 @@ START = 0
 
 #### Field Value
 **Type:** BinahBoss.BinahPhase
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GlobalBullet.GlobalBulletType
 canonical_path: /api/GlobalBullet/GlobalBulletType
 ---
-
 # Enum GlobalBulletType
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum GlobalBulletType
 ```
 
 ## Fields
-
 ### EXCUTE
 ```csharp
 EXCUTE = 8
@@ -86,5 +82,6 @@ SLOW = 7
 
 #### Field Value
 **Type:** GlobalBullet.GlobalBulletType
+
 
 

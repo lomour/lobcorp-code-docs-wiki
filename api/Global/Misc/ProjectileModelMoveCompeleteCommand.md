@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ProjectileModel.MoveCompeleteCommand
 canonical_path: /api/Global/Misc/ProjectileModelMoveCompeleteCommand
 ---
-
 # Delegate ProjectileModel.MoveCompeleteCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void ProjectileModel.MoveCompeleteCommand(ProjectileModel proj)
 ```
 
 ## Constructors
-
 ### MoveCompeleteCommand(object, IntPtr)
 ```csharp
 public MoveCompeleteCommand(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public MoveCompeleteCommand(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(ProjectileModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(ProjectileModel proj, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(ProjectileModel proj)
 | Name | Type | Description |
 | --- | --- | --- |
 | `proj` | `Global.ProjectileModel` |  |
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentHistory.History
 canonical_path: /api/Global/Misc/AgentHistoryHistory
 ---
-
 # Class AgentHistory.History
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class AgentHistory.History
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentHistory.History
 
 ## Constructors
-
 ### History()
 ```csharp
 public History()
 ```
 
 ## Fields
-
 ### workCubeCounts
 ```csharp
 public Dictionary<RwbpType, int> workCubeCounts
@@ -34,7 +29,6 @@ public Dictionary<RwbpType, int> workCubeCounts
 **Type:** System.Collections.Generic.Dictionary{RwbpType,System.Int32}
 
 ## Properties
-
 ### creatureDamage
 ```csharp
 public int creatureDamage { get; set; }
@@ -148,7 +142,6 @@ public int workSuccess { get; set; }
 **Type:** System.Int32
 
 ## Methods
-
 ### AddPanic()
 ```csharp
 public void AddPanic()
@@ -300,5 +293,6 @@ public void WorkResult(bool result)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

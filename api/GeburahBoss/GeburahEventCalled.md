@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.GeburahEventCalled
 canonical_path: /api/GeburahBoss/GeburahEventCalled
 ---
-
 # Delegate GeburahEventCalled
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void GeburahEventCalled(int i)
 ```
 
 ## Constructors
-
 ### GeburahEventCalled(object, IntPtr)
 ```csharp
 public GeburahEventCalled(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public GeburahEventCalled(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(int, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(int i, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 
 

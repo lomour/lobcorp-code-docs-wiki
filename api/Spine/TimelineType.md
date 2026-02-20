@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.TimelineType
 canonical_path: /api/Spine/TimelineType
 ---
-
 # Enum TimelineType
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ internal enum TimelineType
 ```
 
 ## Fields
-
 ### Attachment
 ```csharp
 Attachment = 4
@@ -134,5 +130,6 @@ TwoColor = 14
 
 #### Field Value
 **Type:** Spine.TimelineType
+
 
 

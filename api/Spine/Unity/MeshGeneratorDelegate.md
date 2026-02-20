@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.MeshGeneratorDelegate
 canonical_path: /api/Spine/Unity/MeshGeneratorDelegate
 ---
-
 # Delegate MeshGeneratorDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void MeshGeneratorDelegate(MeshGeneratorBuffers buffers)
 ```
 
 ## Constructors
-
 ### MeshGeneratorDelegate(object, IntPtr)
 ```csharp
 public MeshGeneratorDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public MeshGeneratorDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(MeshGeneratorBuffers, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(MeshGeneratorBuffers buffers, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(MeshGeneratorBuffers buffers)
 | Name | Type | Description |
 | --- | --- | --- |
 | `buffers` | `Spine.Unity.MeshGeneratorBuffers` |  |
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.AtlasRegion
 canonical_path: /api/Spine/AtlasRegion
 ---
-
 # Class AtlasRegion
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ public class AtlasRegion
 - [ToRegionAttachment(AtlasRegion, string, float, float)](Spine.Unity.Modules.AttachmentTools.AttachmentRegionExtensions.html#Spine_Unity_Modules_AttachmentTools_AttachmentRegionExtensions_ToRegionAttachment_Spine_AtlasRegion_System_String_System_Single_System_Single_)
 
 ## Constructors
-
 ### AtlasRegion()
 ```csharp
 public AtlasRegion()
 ```
 
 ## Fields
-
 ### height
 ```csharp
 public int height
@@ -180,5 +175,6 @@ public int y
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

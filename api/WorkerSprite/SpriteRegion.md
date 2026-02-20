@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.SpriteRegion
 canonical_path: /api/WorkerSprite/SpriteRegion
 ---
-
 # Enum SpriteRegion
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SpriteRegion
 ```
 
 ## Fields
-
 ### ATTACHMENT
 ```csharp
 ATTACHMENT = 4
@@ -54,5 +50,6 @@ WEAPON = 3
 
 #### Field Value
 **Type:** WorkerSprite.SpriteRegion
+
 
 

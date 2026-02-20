@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.WorkerDeadScript.EventMethod
 canonical_path: /api/Global/Misc/WorkerDeadScriptEventMethod
 ---
-
 # Delegate WorkerDeadScript.EventMethod
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void WorkerDeadScript.EventMethod(int index)
 ```
 
 ## Constructors
-
 ### EventMethod(object, IntPtr)
 ```csharp
 public EventMethod(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public EventMethod(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(int, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(int index, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(int index)
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
+
 
 

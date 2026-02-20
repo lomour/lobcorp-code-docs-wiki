@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DefenseInfo
 canonical_path: /api/Global/Info/DefenseInfo
 ---
-
 # Class DefenseInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Calculates and stores multipliers for each damage type, and provides some helper
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DefenseInfo
 
 ## Constructors
-
 ### DefenseInfo()
 ```csharp
 public DefenseInfo()
 ```
 
 ## Fields
-
 ### B
 ```csharp
 public float B
@@ -67,7 +62,6 @@ public float W
 **Type:** System.Single
 
 ## Properties
-
 ### zero
 ```csharp
 public static DefenseInfo zero { get; }
@@ -77,7 +71,6 @@ public static DefenseInfo zero { get; }
 **Type:** Global.DefenseInfo
 
 ## Methods
-
 ### Copy()
 ```csharp
 public DefenseInfo Copy()
@@ -129,5 +122,6 @@ public float GetMultiplier(RwbpType rwbpType)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

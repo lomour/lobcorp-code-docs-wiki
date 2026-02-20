@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.SpineChangeData
 canonical_path: /api/WorkerSprite/SpineChangeData
 ---
-
 # Class SpineChangeData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ information for updating a positioning and color with Spine
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpineChangeData
 
 ## Constructors
-
 ### SpineChangeData()
 ```csharp
 public SpineChangeData()
 ```
 
 ## Fields
-
 ### attachmentName
 ```csharp
 [SpineAttachment(true, false, false, "", "", "", true)]
@@ -122,5 +117,6 @@ public Sprite sprite
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

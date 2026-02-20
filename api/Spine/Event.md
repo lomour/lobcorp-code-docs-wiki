@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Event
 canonical_path: /api/Spine/Event
 ---
-
 # Class Event
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class Event
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Event
 
 ## Constructors
-
 ### Event(float, EventData)
 ```csharp
 public Event(float time, EventData data)
@@ -30,7 +26,6 @@ public Event(float time, EventData data)
 | `data` | `Spine.EventData` |  |
 
 ## Fields
-
 ### data
 ```csharp
 internal readonly EventData data
@@ -72,7 +67,6 @@ internal readonly float time
 **Type:** System.Single
 
 ## Properties
-
 ### Data
 ```csharp
 public EventData Data { get; }
@@ -114,7 +108,6 @@ public float Time { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### ToString()
 ```csharp
 public override string ToString()
@@ -125,5 +118,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

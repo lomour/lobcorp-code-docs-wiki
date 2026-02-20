@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureGenerate.CreatureGenerateDoor
 canonical_path: /api/CreatureGenerate/CreatureGenerateDoor
 ---
-
 # Class CreatureGenerateDoor
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Randomly chooses the grade based on the CreatureGenInfo resource, then randomly 
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureGenerateData](/api/CreatureGenerate/CreatureGenerateData) → CreatureGenerateDoor
 
 ## Constructors
-
 ### CreatureGenerateDoor()
 ```csharp
 public CreatureGenerateDoor()
@@ -34,7 +30,6 @@ public CreatureGenerateDoor()
 
 
 ## Fields
-
 ### Creature
 ```csharp
 public long Creature
@@ -90,7 +85,6 @@ public static readonly float[] zeroAry
 **Type:** System.Single[]
 
 ## Properties
-
 ### TotalProb
 ```csharp
 public float TotalProb { get; }
@@ -100,7 +94,6 @@ public float TotalProb { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### CheckProb()
 ```csharp
 public void CheckProb()
@@ -171,5 +164,6 @@ public void SetCreature()
 
 ## Inherited Members
 [split](/api/CreatureGenerate/CreatureGenerateData#split), [uniqueText](/api/CreatureGenerate/CreatureGenerateData#uniquetext), [commonAction](/api/CreatureGenerate/CreatureGenerateData#commonaction), [IsCommonAction(string, out GenerateCommonAction)](/api/CreatureGenerate/CreatureGenerateData#iscommonaction-string-out-generatecommonaction), [IsUniqueAction(string)](/api/CreatureGenerate/CreatureGenerateData#isuniqueaction-string), [ParseAction(ref string, out ActionData)](/api/CreatureGenerate/CreatureGenerateData#parseaction-ref-string-out-actiondata), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

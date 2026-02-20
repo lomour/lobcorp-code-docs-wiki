@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventType
 canonical_path: /api/Global/Type/RandomEventType
 ---
-
 # Enum RandomEventType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RandomEventType
 ```
 
 ## Fields
-
 ### ENVY
 ```csharp
 ENVY = 1
@@ -70,5 +66,6 @@ WRATH = 2
 
 #### Field Value
 **Type:** Global.RandomEventType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.SkeletonUtility.SkeletonUtilityDelegate
 canonical_path: /api/Spine/Unity/SkeletonUtility/SkeletonUtilityDelegate
 ---
-
 # Delegate SkeletonUtility.SkeletonUtilityDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void SkeletonUtility.SkeletonUtilityDelegate()
 ```
 
 ## Constructors
-
 ### SkeletonUtilityDelegate(object, IntPtr)
 ```csharp
 public SkeletonUtilityDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public SkeletonUtilityDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

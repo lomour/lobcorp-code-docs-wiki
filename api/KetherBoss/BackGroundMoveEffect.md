@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.BackGroundMoveEffect
 canonical_path: /api/KetherBoss/BackGroundMoveEffect
 ---
-
 # Class BackGroundMoveEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Moves the background during day 50
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → BackGroundMoveEffect
 
 ## Constructors
-
 ### BackGroundMoveEffect(KetherLastBossBase)
 ```csharp
 public BackGroundMoveEffect(KetherLastBossBase bossBase)
@@ -37,7 +33,6 @@ public BackGroundMoveEffect(KetherLastBossBase bossBase)
 | `bossBase` | `KetherBoss.KetherLastBossBase` |  |
 
 ## Fields
-
 ### _changeAction
 ```csharp
 public BackGroundMoveEffect.ChangeBackgournd _changeAction
@@ -146,7 +141,6 @@ private Timer timer
 **Type:** Global.Timer
 
 ## Properties
-
 ### Tr
 ```csharp
 private Transform Tr { get; }
@@ -156,7 +150,6 @@ private Transform Tr { get; }
 **Type:** UnityEngine.Transform
 
 ## Methods
-
 ### ApplyFrameChangeEvent(ChangeBackgournd)
 ```csharp
 public void ApplyFrameChangeEvent(BackGroundMoveEffect.ChangeBackgournd changeBackgournd)
@@ -193,5 +186,6 @@ public override void Update()
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

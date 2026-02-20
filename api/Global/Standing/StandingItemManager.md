@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StandingItemManager
 canonical_path: /api/Global/Standing/StandingItemManager
 ---
-
 # Class StandingItemManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ public class StandingItemManager
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StandingItemManager
 
 ## Constructors
-
 ### StandingItemManager()
 ```csharp
 public StandingItemManager()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static StandingItemManager _instance
@@ -52,7 +47,6 @@ private long instId
 **Type:** System.Int64
 
 ## Properties
-
 ### instance
 ```csharp
 public static StandingItemManager instance { get; }
@@ -62,7 +56,6 @@ public static StandingItemManager instance { get; }
 **Type:** Global.StandingItemManager
 
 ## Methods
-
 ### GetInstId()
 ```csharp
 public long GetInstId()
@@ -74,5 +67,6 @@ public long GetInstId()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

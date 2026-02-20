@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: LetterboxCamera.CameraRatio
 canonical_path: /api/LetterboxCamera/CameraRatio
 ---
-
 # Class CameraRatio
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class CameraRatio
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CameraRatio
 
 ## Constructors
-
 ### CameraRatio(Camera, Vector2)
 ```csharp
 public CameraRatio(Camera _camera, Vector2 _anchor)
@@ -30,7 +26,6 @@ public CameraRatio(Camera _camera, Vector2 _anchor)
 | `_anchor` | `UnityEngine.Vector2` |  |
 
 ## Fields
-
 ### anchor
 ```csharp
 [Tooltip("When a Camera Viewport is shrunk to fit a ratio, it will anchor the new Viewport Rectangle at the given point (relative to the original, unshrunk Viewport)")]
@@ -67,7 +62,6 @@ public Vector2 vectorAnchor
 **Type:** UnityEngine.Vector2
 
 ## Methods
-
 ### CalculateAndSetCameraRatio(float, float, bool)
 ```csharp
 public void CalculateAndSetCameraRatio(float _width, float _height, bool _horizontalLetterbox)
@@ -97,5 +91,6 @@ public void SetAnchorBasedOnEnum(CameraRatio.CameraAnchor _anchor)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

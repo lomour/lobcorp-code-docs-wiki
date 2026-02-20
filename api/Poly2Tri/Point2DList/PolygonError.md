@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Point2DList.PolygonError
 canonical_path: /api/Poly2Tri/Point2DList/PolygonError
 ---
-
 # Enum Point2DList.PolygonError
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public enum Point2DList.PolygonError : uint
 ```
 
 ## Fields
-
 ### AreaTooSmall
 ```csharp
 AreaTooSmall = 8
@@ -89,5 +85,6 @@ Unknown = 1073741824
 
 #### Field Value
 **Type:** Poly2Tri.Point2DList.PolygonError
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FengYunAnim.CURSTATE
 canonical_path: /api/Global/Misc/FengYunAnimCURSTATE
 ---
-
 # Enum FengYunAnim.CURSTATE
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FengYunAnim.CURSTATE
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 3
@@ -94,5 +90,6 @@ TRANSFORM = 1
 
 #### Field Value
 **Type:** Global.FengYunAnim.CURSTATE
+
 
 

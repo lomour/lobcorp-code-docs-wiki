@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SkillTypeList
 canonical_path: /api/Global/List/SkillTypeList
 ---
-
 # Class SkillTypeList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ A list of [SkillTypeInfo](/api/Global/Info/SkillTypeInfo)s, mostly for abnormali
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkillTypeList
 
 ## Constructors
-
 ### SkillTypeList()
 ```csharp
 private SkillTypeList()
@@ -32,7 +28,6 @@ private SkillTypeList()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static SkillTypeList _instance
@@ -61,7 +56,6 @@ private bool _loaded
 **Type:** System.Boolean
 
 ## Properties
-
 ### instance
 ```csharp
 public static SkillTypeList instance { get; }
@@ -79,7 +73,6 @@ public bool loaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetData(long)
 ```csharp
 public SkillTypeInfo GetData(long id)
@@ -144,5 +137,6 @@ public void Init(SkillTypeInfo[] list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

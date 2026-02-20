@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FixerClaw.Capsule
 canonical_path: /api/Global/Misc/FixerClawCapsule
 ---
-
 # Enum FixerClaw.Capsule
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FixerClaw.Capsule
 ```
 
 ## Fields
-
 ### ALL
 ```csharp
 ALL = 4
@@ -54,5 +50,6 @@ ORANGE = 1
 
 #### Field Value
 **Type:** Global.FixerClaw.Capsule
+
 
 

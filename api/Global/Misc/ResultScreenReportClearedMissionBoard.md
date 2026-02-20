@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ResultScreen.Report.ClearedMissionBoard
 canonical_path: /api/Global/Misc/ResultScreenReportClearedMissionBoard
 ---
-
 # Class ResultScreen.Report.ClearedMissionBoard
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class ResultScreen.Report.ClearedMissionBoard
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResultScreen.Report.ClearedMissionBoard
 
 ## Constructors
-
 ### ClearedMissionBoard()
 ```csharp
 public ClearedMissionBoard()
 ```
 
 ## Fields
-
 ### Arrow_Down
 ```csharp
 public GameObject Arrow_Down
@@ -98,7 +93,6 @@ public Vector2 Spacing
 **Type:** UnityEngine.Vector2
 
 ## Properties
-
 ### scrollRect
 ```csharp
 private RectTransform scrollRect { get; }
@@ -108,7 +102,6 @@ private RectTransform scrollRect { get; }
 **Type:** UnityEngine.RectTransform
 
 ## Methods
-
 ### Make(List<Mission>)
 ```csharp
 public void Make(List<Mission> cleared)
@@ -131,5 +124,6 @@ public void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

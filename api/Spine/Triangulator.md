@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Triangulator
 canonical_path: /api/Spine/Triangulator
 ---
-
 # Class Triangulator
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ internal class Triangulator
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Triangulator
 
 ## Constructors
-
 ### Triangulator()
 ```csharp
 public Triangulator()
 ```
 
 ## Fields
-
 ### convexPolygons
 ```csharp
 private readonly ExposedList<ExposedList<float>> convexPolygons
@@ -82,7 +77,6 @@ private readonly ExposedList<int> triangles
 **Type:** Spine.ExposedList{System.Int32}
 
 ## Methods
-
 ### Decompose(ExposedList<float>, ExposedList<int>)
 ```csharp
 public ExposedList<ExposedList<float>> Decompose(ExposedList<float> verticesArray, ExposedList<int> triangles)
@@ -164,5 +158,6 @@ private static int Winding(float p1x, float p1y, float p2x, float p2y, float p3x
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

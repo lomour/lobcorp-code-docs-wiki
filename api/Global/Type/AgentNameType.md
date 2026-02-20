@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentNameType
 canonical_path: /api/Global/Type/AgentNameType
 ---
-
 # Enum AgentNameType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentNameType
 ```
 
 ## Fields
-
 ### CREDIT
 ```csharp
 CREDIT = 1
@@ -38,5 +34,6 @@ DEFAULT = 0
 
 #### Field Value
 **Type:** Global.AgentNameType
+
 
 

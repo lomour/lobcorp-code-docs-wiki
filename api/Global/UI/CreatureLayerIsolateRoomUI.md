@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureLayer.IsolateRoomUI
 canonical_path: /api/Global/UI/CreatureLayerIsolateRoomUI
 ---
-
 # Class CreatureLayer.IsolateRoomUI
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class CreatureLayer.IsolateRoomUI
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureLayer.IsolateRoomUI
 
 ## Constructors
-
 ### IsolateRoomUI()
 ```csharp
 public IsolateRoomUI()
 ```
 
 ## Fields
-
 ### DamageSprite
 ```csharp
 public Sprite[] DamageSprite
@@ -130,7 +125,6 @@ public Color ZeroEnergyColor
 **Type:** UnityEngine.Color
 
 ## Methods
-
 ### GetDamageSprite(RwbpType)
 ```csharp
 public Sprite GetDamageSprite(RwbpType type)
@@ -170,5 +164,6 @@ public void GetGeneratedEnergyColor(int value, out Color fill, out Color text)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.GeburahStaticInfo
 canonical_path: /api/GeburahBoss/GeburahStaticInfo
 ---
-
 # Class GeburahStaticInfo
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ Damage ranges for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s attacks
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahStaticInfo
 
 ## Fields
-
 ### AttackDelay
 ```csharp
 public static MinMax AttackDelay
@@ -492,7 +488,6 @@ public static DamageInfo Projectile_Mimicri_Phase
 **Type:** Global.DamageInfo
 
 ## Methods
-
 ### GetP4RandomDamage()
 ```csharp
 public static DamageInfo GetP4RandomDamage()
@@ -518,5 +513,6 @@ public static int SelectRandomID(params int[] ary)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

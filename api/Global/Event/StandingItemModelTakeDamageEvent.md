@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StandingItemModel.TakeDamageEvent
 canonical_path: /api/Global/Event/StandingItemModelTakeDamageEvent
 ---
-
 # Delegate StandingItemModel.TakeDamageEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate bool StandingItemModel.TakeDamageEvent(UnitModel target, float d
 ```
 
 ## Constructors
-
 ### TakeDamageEvent(object, IntPtr)
 ```csharp
 public TakeDamageEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public TakeDamageEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(UnitModel, float, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(UnitModel target, float damage, AsyncCallback callback, object @object)
@@ -70,5 +65,6 @@ public virtual bool Invoke(UnitModel target, float damage)
 
 #### Returns
 **Type:** System.Boolean
+
 
 

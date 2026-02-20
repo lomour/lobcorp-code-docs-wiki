@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Assets.Scripts.UI.Utils.LocalizeTextLoadScript.OnSetText
 canonical_path: /api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript/OnSetText
 ---
-
 # Delegate LocalizeTextLoadScript.OnSetText
 **Namespace:** Assets . Scripts . UI . [Utils](/api/Assets/Scripts/UI/Utils)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void LocalizeTextLoadScript.OnSetText()
 ```
 
 ## Constructors
-
 ### OnSetText(object, IntPtr)
 ```csharp
 public OnSetText(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnSetText(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

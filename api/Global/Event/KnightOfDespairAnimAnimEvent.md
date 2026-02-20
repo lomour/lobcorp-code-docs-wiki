@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.KnightOfDespairAnim.AnimEvent
 canonical_path: /api/Global/Event/KnightOfDespairAnimAnimEvent
 ---
-
 # Enum KnightOfDespairAnim.AnimEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum KnightOfDespairAnim.AnimEvent
 ```
 
 ## Fields
-
 ### BLESS_ENDED
 ```csharp
 BLESS_ENDED = 1
@@ -102,5 +98,6 @@ TRANSFROM_ENDED = 0
 
 #### Field Value
 **Type:** Global.KnightOfDespairAnim.AnimEvent
+
 
 

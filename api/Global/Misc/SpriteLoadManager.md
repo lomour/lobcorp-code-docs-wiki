@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SpriteLoadManager
 canonical_path: /api/Global/Misc/SpriteLoadManager
 ---
-
 # Class SpriteLoadManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Loads and stores locations for sprites.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SpriteLoadManager
 
 ## Constructors
-
 ### SpriteLoadManager()
 ```csharp
 public SpriteLoadManager()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static SpriteLoadManager _instance
@@ -87,7 +82,6 @@ public Dictionary<string, SpriteSetLoadedScript.SRC> sefiraSetDic
 **Type:** System.Collections.Generic.Dictionary{System.String,SpriteSetLoadedScript.SRC}
 
 ## Properties
-
 ### instance
 ```csharp
 public static SpriteLoadManager instance { get; }
@@ -105,7 +99,6 @@ public bool isLoaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetCommonSetSRC(string)
 ```csharp
 public SpriteSetLoadedScript.SRC GetCommonSetSRC(string key)
@@ -178,5 +171,6 @@ public void Init(Dictionary<string, string> common, Dictionary<string, string> s
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

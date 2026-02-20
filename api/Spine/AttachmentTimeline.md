@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.AttachmentTimeline
 canonical_path: /api/Spine/AttachmentTimeline
 ---
-
 # Class AttachmentTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class AttachmentTimeline : Timeline
 [Timeline](/api/Spine/Timeline)
 
 ## Constructors
-
 ### AttachmentTimeline(int)
 ```csharp
 public AttachmentTimeline(int frameCount)
@@ -32,7 +28,6 @@ public AttachmentTimeline(int frameCount)
 | `frameCount` | `System.Int32` |  |
 
 ## Fields
-
 ### attachmentNames
 ```csharp
 private string[] attachmentNames
@@ -58,7 +53,6 @@ internal int slotIndex
 **Type:** System.Int32
 
 ## Properties
-
 ### AttachmentNames
 ```csharp
 public string[] AttachmentNames { get; set; }
@@ -100,7 +94,6 @@ public int SlotIndex { get; set; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Apply(Skeleton, float, float, ExposedList<Event>, float, MixPose, MixDirection)
 ```csharp
 public void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> firedEvents, float alpha, MixPose pose, MixDirection direction)
@@ -131,5 +124,6 @@ public void SetFrame(int frameIndex, float time, string attachmentName)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

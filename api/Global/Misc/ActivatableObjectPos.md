@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ActivatableObjectPos
 canonical_path: /api/Global/Misc/ActivatableObjectPos
 ---
-
 # Enum ActivatableObjectPos
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ActivatableObjectPos
 ```
 
 ## Fields
-
 ### ISOLATE
 ```csharp
 ISOLATE = 4
@@ -54,5 +50,6 @@ RIGHTUPPER = 0
 
 #### Field Value
 **Type:** Global.ActivatableObjectPos
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.BoundingBoxAttachment
 canonical_path: /api/Spine/BoundingBoxAttachment
 ---
-
 # Class BoundingBoxAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -31,7 +28,6 @@ public class BoundingBoxAttachment : VertexAttachment
 - [GetWorldVertices(VertexAttachment, Slot, Vector2[])](Spine.Unity.SkeletonExtensions.html#Spine_Unity_SkeletonExtensions_GetWorldVertices_Spine_VertexAttachment_Spine_Slot_UnityEngine_Vector2___)
 
 ## Constructors
-
 ### BoundingBoxAttachment(string)
 ```csharp
 public BoundingBoxAttachment(string name)
@@ -44,5 +40,6 @@ public BoundingBoxAttachment(string name)
 
 ## Inherited Members
 [nextID](/api/Spine/VertexAttachment#nextid), [nextIdLock](/api/Spine/VertexAttachment#nextidlock), [id](/api/Spine/VertexAttachment#id), [bones](/api/Spine/VertexAttachment#bones), [vertices](/api/Spine/VertexAttachment#vertices), [worldVerticesLength](/api/Spine/VertexAttachment#worldverticeslength), [ComputeWorldVertices(Slot, float[])](/api/Spine/VertexAttachment#computeworldvertices-slot-float), [ComputeWorldVertices(Slot, int, int, float[], int, int)](/api/Spine/VertexAttachment#computeworldvertices-slot-int-int-float-int-int), [ApplyDeform(VertexAttachment)](/api/Spine/VertexAttachment#applydeform-vertexattachment), [Id](/api/Spine/VertexAttachment#id), [Bones](/api/Spine/VertexAttachment#bones), [Vertices](/api/Spine/VertexAttachment#vertices), [WorldVerticesLength](/api/Spine/VertexAttachment#worldverticeslength), [<Name>k__BackingField](Spine.Attachment.html#Spine_Attachment__Name_k__BackingField), [ToString()](/api/Spine/Attachment#tostring), [Name](/api/Spine/Attachment#name), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

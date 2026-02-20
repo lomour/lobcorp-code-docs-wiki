@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SupportedLanguage
 canonical_path: /api/Global/Misc/SupportedLanguage
 ---
-
 # Class SupportedLanguage
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Holds the supported languages and the names to display in the language drop-down
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SupportedLanguage
 
 ## Fields
-
 ### bg
 ```csharp
 public const string bg = "bg"
@@ -186,7 +182,6 @@ public const string vn_Name = "Tiếng Việt"
 **Type:** System.String
 
 ## Methods
-
 ### GetCurrentLanguageName(string)
 ```csharp
 public static string GetCurrentLanguageName(string language)
@@ -226,5 +221,6 @@ public static List<string> GetSupprotedList()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

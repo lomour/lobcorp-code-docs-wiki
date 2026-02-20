@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.TextureFilter
 canonical_path: /api/Spine/TextureFilter
 ---
-
 # Enum TextureFilter
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum TextureFilter
 ```
 
 ## Fields
-
 ### Linear
 ```csharp
 Linear = 1
@@ -70,5 +66,6 @@ Nearest = 0
 
 #### Field Value
 **Type:** Spine.TextureFilter
+
 
 

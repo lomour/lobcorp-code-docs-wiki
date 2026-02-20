@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CommandWindow.CreatureSuppressRegion
 canonical_path: /api/CommandWindow/CreatureSuppressRegion
 ---
-
 # Class CreatureSuppressRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ See [CommandWindow](/api/CommandWindow)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → CreatureSuppressRegion
 
 ## Constructors
-
 ### CreatureSuppressRegion()
 ```csharp
 public CreatureSuppressRegion()
 ```
 
 ## Fields
-
 ### _currentModel
 ```csharp
 private CreatureModel _currentModel
@@ -124,7 +119,6 @@ private const string Unknown = "Unknown"
 **Type:** System.String
 
 ## Properties
-
 ### CurrentModel
 ```csharp
 public CreatureModel CurrentModel { get; }
@@ -134,7 +128,6 @@ public CreatureModel CurrentModel { get; }
 **Type:** Global.CreatureModel
 
 ## Methods
-
 ### CalculateMultipleType(List<DefenseInfo>)
 ```csharp
 private void CalculateMultipleType(List<DefenseInfo> list)
@@ -170,5 +163,6 @@ private void SetOrdealData(OrdealCreatureModel ordeal)
 
 ## Inherited Members
 [ActiveControl](/api/CommandWindow/CommandWindowRegion#activecontrol), [TargetImage](/api/CommandWindow/CommandWindowRegion#targetimage), [TargetName](/api/CommandWindow/CommandWindowRegion#targetname), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

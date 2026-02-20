@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.OverlayModel
 canonical_path: /api/Legacy/OverlayModel
 ---
-
 # Class OverlayModel
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class OverlayModel
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OverlayModel
 
 ## Constructors
-
 ### OverlayModel()
 ```csharp
 public OverlayModel()
 ```
 
 ## Fields
-
 ### _detail
 ```csharp
 private bool _detail
@@ -158,7 +153,6 @@ public OverlayModel.OverlayStatus status
 **Type:** Legacy.OverlayModel.OverlayStatus
 
 ## Properties
-
 ### detail
 ```csharp
 private bool detail { get; }
@@ -168,7 +162,6 @@ private bool detail { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### AddEntry(Entry, EventTriggerType)
 ```csharp
 private void AddEntry(EventTrigger.Entry entry, EventTriggerType type)
@@ -268,5 +261,6 @@ public void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

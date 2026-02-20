@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryScriptPosEnum
 canonical_path: /api/Global/Misc/StoryScriptPosEnum
 ---
-
 # Enum StoryScriptPosEnum
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryScriptPosEnum
 ```
 
 ## Fields
-
 ### CENTER
 ```csharp
 CENTER = 5
@@ -94,5 +90,6 @@ RIGHT_NEAR = 9
 
 #### Field Value
 **Type:** Global.StoryScriptPosEnum
+
 
 

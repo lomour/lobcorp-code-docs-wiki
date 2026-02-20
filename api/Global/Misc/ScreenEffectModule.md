@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ScreenEffectModule
 canonical_path: /api/Global/Misc/ScreenEffectModule
 ---
-
 # Class ScreenEffectModule
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ Manages a visual effect. Used by [UIEffectManager](/api/Global/Misc/UIEffectMana
 [BloodyEffect](/api/Global/Effect/BloodyEffect)
 
 ## Constructors
-
 ### ScreenEffectModule()
 ```csharp
 public ScreenEffectModule()
 ```
 
 ## Fields
-
 ### _sequenceChanged
 ```csharp
 private bool _sequenceChanged
@@ -225,7 +220,6 @@ public bool useDefaultAnim
 **Type:** System.Boolean
 
 ## Properties
-
 ### CurrentSprite
 ```csharp
 public Sprite CurrentSprite { get; }
@@ -251,7 +245,6 @@ public bool sequenceChanged { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### AnimBoolMessage(string, bool)
 ```csharp
 public virtual void AnimBoolMessage(string target, bool state)
@@ -321,5 +314,6 @@ public virtual void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

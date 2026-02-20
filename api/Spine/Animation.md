@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Animation
 canonical_path: /api/Spine/Animation
 ---
-
 # Class Animation
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -21,7 +18,6 @@ public class Animation
 - [SetKeyedItemsToSetupPose(Animation, Skeleton)](Spine.SkeletonExtensions.html#Spine_SkeletonExtensions_SetKeyedItemsToSetupPose_Spine_Animation_Spine_Skeleton_)
 
 ## Constructors
-
 ### Animation(string, ExposedList<Timeline>, float)
 ```csharp
 public Animation(string name, ExposedList<Timeline> timelines, float duration)
@@ -35,7 +31,6 @@ public Animation(string name, ExposedList<Timeline> timelines, float duration)
 | `duration` | `System.Single` |  |
 
 ## Fields
-
 ### duration
 ```csharp
 internal float duration
@@ -61,7 +56,6 @@ internal ExposedList<Timeline> timelines
 **Type:** Spine.ExposedList{Spine.Timeline}
 
 ## Properties
-
 ### Duration
 ```csharp
 public float Duration { get; set; }
@@ -87,7 +81,6 @@ public ExposedList<Timeline> Timelines { get; set; }
 **Type:** Spine.ExposedList{Spine.Timeline}
 
 ## Methods
-
 ### Apply(Skeleton, float, float, bool, ExposedList<Event>, float, MixPose, MixDirection)
 ```csharp
 public void Apply(Skeleton skeleton, float lastTime, float time, bool loop, ExposedList<Event> events, float alpha, MixPose pose, MixDirection direction)
@@ -151,5 +144,6 @@ internal static int LinearSearch(float[] values, float target, int step)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahDefenseType
 canonical_path: /api/BinahBoss/BinahDefenseType
 ---
-
 # Enum BinahDefenseType
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahDefenseType
 ```
 
 ## Fields
-
 ### DEFAULT
 ```csharp
 DEFAULT = 0
@@ -46,5 +42,6 @@ RESIST = 2
 
 #### Field Value
 **Type:** BinahBoss.BinahDefenseType
+
 
 

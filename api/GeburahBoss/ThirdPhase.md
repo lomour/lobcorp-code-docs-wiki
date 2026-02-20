@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.ThirdPhase
 canonical_path: /api/GeburahBoss/ThirdPhase
 ---
-
 # Class ThirdPhase
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -27,7 +24,6 @@ If someone is near her, she will randomly choose to either use her [Blade Wave](
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahPhaseExectuion](/api/GeburahBoss/GeburahPhaseExectuion) → ThirdPhase
 
 ## Constructors
-
 ### ThirdPhase(GeburahCoreScript)
 ```csharp
 public ThirdPhase(GeburahCoreScript geburah)
@@ -40,7 +36,6 @@ public ThirdPhase(GeburahCoreScript geburah)
 | `geburah` | `Global.GeburahCoreScript` |  |
 
 ## Fields
-
 ### _prevIsChase
 ```csharp
 private bool _prevIsChase
@@ -96,7 +91,6 @@ private float teleportProb
 **Type:** System.Single
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
@@ -137,5 +131,6 @@ public override void Update()
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahPhaseExectuion#geburah), [isPrevAttack](/api/GeburahBoss/GeburahPhaseExectuion#isprevattack), [GetRandomNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandomnode), [GetRandomMoveNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandommovenode), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

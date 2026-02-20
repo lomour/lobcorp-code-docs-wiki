@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ReverseClockAnim.ClockLamp
 canonical_path: /api/Global/Misc/ReverseClockAnimClockLamp
 ---
-
 # Class ReverseClockAnim.ClockLamp
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class ReverseClockAnim.ClockLamp
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ReverseClockAnim.ClockLamp
 
 ## Constructors
-
 ### ClockLamp()
 ```csharp
 public ClockLamp()
 ```
 
 ## Fields
-
 ### isActivated
 ```csharp
 public bool isActivated
@@ -68,7 +63,6 @@ public GameObject particleObj
 **Type:** UnityEngine.GameObject
 
 ## Methods
-
 ### TurnOff(SkeletonAnimator)
 ```csharp
 public void TurnOff(SkeletonAnimator skel)
@@ -92,5 +86,6 @@ public void TurnOn(SkeletonAnimator skel, Sprite s)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

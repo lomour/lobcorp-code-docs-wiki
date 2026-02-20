@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Ppodae.PpodaeState
 canonical_path: /api/Global/State/PpodaePpodaeState
 ---
-
 # Enum Ppodae.PpodaeState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum Ppodae.PpodaeState
 ```
 
 ## Fields
-
 ### ATTACKING
 ```csharp
 ATTACKING = 1
@@ -54,5 +50,6 @@ RETURNING = 3
 
 #### Field Value
 **Type:** Global.Ppodae.PpodaeState
+
 
 

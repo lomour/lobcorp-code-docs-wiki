@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MagicalGirl.SpeechKey
 canonical_path: /api/Global/Key/MagicalGirlSpeechKey
 ---
-
 # Enum MagicalGirl.SpeechKey
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum MagicalGirl.SpeechKey
 ```
 
 ## Fields
-
 ### BE_HYSTERIC
 ```csharp
 BE_HYSTERIC = 13
@@ -190,5 +186,6 @@ SUPPRESS_GREED = 11
 
 #### Field Value
 **Type:** Global.MagicalGirl.SpeechKey
+
 
 

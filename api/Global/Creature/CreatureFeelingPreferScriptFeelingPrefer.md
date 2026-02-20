@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureFeelingPreferScript.FeelingPrefer
 canonical_path: /api/Global/Creature/CreatureFeelingPreferScriptFeelingPrefer
 ---
-
 # Enum CreatureFeelingPreferScript.FeelingPrefer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureFeelingPreferScript.FeelingPrefer
 ```
 
 ## Fields
-
 ### BAD
 ```csharp
 BAD = 3
@@ -62,5 +58,6 @@ VERYGOOD = 0
 
 #### Field Value
 **Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdAnim.NarrationUI.NarrationDisplayState
 canonical_path: /api/Global/State/BossBirdAnimNarrationUINarrationDisplayState
 ---
-
 # Enum BossBirdAnim.NarrationUI.NarrationDisplayState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BossBirdAnim.NarrationUI.NarrationDisplayState
 ```
 
 ## Fields
-
 ### DISPLAY
 ```csharp
 DISPLAY = 1
@@ -38,5 +34,6 @@ FADEOUT = 2
 
 #### Field Value
 **Type:** Global.BossBirdAnim.NarrationUI.NarrationDisplayState
+
 
 

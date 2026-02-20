@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahStaticData
 canonical_path: /api/BinahBoss/BinahStaticData
 ---
-
 # Class BinahStaticData
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ A bunch of static variables for [Binah's core suppression](/api/Global/Misc/Bina
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahStaticData
 
 ## Fields
-
 ### AttackDelay
 ```csharp
 public static MinMax AttackDelay
@@ -285,7 +281,6 @@ public static DamageInfo Wave_Damage
 **Type:** Global.DamageInfo
 
 ## Properties
-
 ### RandType
 ```csharp
 public static RwbpType RandType { get; }
@@ -295,7 +290,6 @@ public static RwbpType RandType { get; }
 **Type:** Global.RwbpType
 
 ## Methods
-
 ### GetRwbpTypeRandom(MinMax)
 ```csharp
 public static RwbpType GetRwbpTypeRandom(MinMax range)
@@ -326,5 +320,6 @@ public static int SelectRandomID(params int[] ary)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

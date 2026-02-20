@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LocalizeTextDataModel
 canonical_path: /api/Global/Model/LocalizeTextDataModel
 ---
-
 # Class LocalizeTextDataModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ Used for getting text which changes between languages by key.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LocalizeTextDataModel
 
 ## Constructors
-
 ### LocalizeTextDataModel()
 ```csharp
 public LocalizeTextDataModel()
@@ -30,7 +26,6 @@ public LocalizeTextDataModel()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static LocalizeTextDataModel _instance
@@ -68,7 +63,6 @@ public const string Failed = "UNKNOWN"
 **Type:** System.String
 
 ## Properties
-
 ### instance
 ```csharp
 public static LocalizeTextDataModel instance { get; }
@@ -86,7 +80,6 @@ public bool loaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetText(string)
 ```csharp
 public string GetText(string id)
@@ -142,5 +135,6 @@ public void Init(Dictionary<string, string> data)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

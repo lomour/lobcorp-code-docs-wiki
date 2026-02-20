@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.FadeoutEffect
 canonical_path: /api/KetherBoss/FadeoutEffect
 ---
-
 # Class FadeoutEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ public class FadeoutEffect : KetherLastEffectBase
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → FadeoutEffect
 
 ## Constructors
-
 ### FadeoutEffect(KetherLastBossBase)
 ```csharp
 public FadeoutEffect(KetherLastBossBase bossBase)
@@ -36,7 +32,6 @@ public FadeoutEffect(KetherLastBossBase bossBase)
 | `bossBase` | `KetherBoss.KetherLastBossBase` |  |
 
 ## Fields
-
 ### _bloom_amount
 ```csharp
 private static MinMax _bloom_amount
@@ -101,7 +96,6 @@ private CameraFilterPack_Colors_Brightness brightness
 **Type:** Global.CameraFilterPack_Colors_Brightness
 
 ## Properties
-
 ### Camera
 ```csharp
 public Camera Camera { get; }
@@ -111,7 +105,6 @@ public Camera Camera { get; }
 **Type:** UnityEngine.Camera
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
@@ -126,5 +119,6 @@ public override void OnStart()
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

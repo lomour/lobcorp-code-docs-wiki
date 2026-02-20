@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OptionUI.OptionAction
 canonical_path: /api/Global/Action/OptionUIOptionAction
 ---
-
 # Enum OptionUI.OptionAction
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum OptionUI.OptionAction
 ```
 
 ## Fields
-
 ### DISPLAYMODE
 ```csharp
 DISPLAYMODE = 1
@@ -46,5 +42,6 @@ TEXTUREQUALITY = 2
 
 #### Field Value
 **Type:** Global.OptionUI.OptionAction
+
 
 

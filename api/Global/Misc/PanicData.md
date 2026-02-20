@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PanicData
 canonical_path: /api/Global/Misc/PanicData
 ---
-
 # Class PanicData
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -35,14 +32,12 @@ Should be unused[^1].
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PanicData
 
 ## Constructors
-
 ### PanicData()
 ```csharp
 public PanicData()
 ```
 
 ## Fields
-
 ### PanicBuildCode
 ```csharp
 public string PanicBuildCode
@@ -89,7 +84,6 @@ public string PanicName
 **Type:** System.String
 
 ## Methods
-
 ### BuildDefaultPanicAction(WorkerModel)
 ```csharp
 public PanicAction BuildDefaultPanicAction(WorkerModel actor)
@@ -120,5 +114,6 @@ public PanicAction BuildPanicAction(WorkerModel actor)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

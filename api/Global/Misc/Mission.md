@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Mission
 canonical_path: /api/Global/Misc/Mission
 ---
-
 # Class Mission
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ See [MissionManager](/api/Global/IOBserver/MissionManager)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Mission
 
 ## Constructors
-
 ### Mission()
 ```csharp
 public Mission()
@@ -45,7 +41,6 @@ public Mission(MissionTypeInfo metadata)
 | `metadata` | `Global.MissionTypeInfo` |  |
 
 ## Fields
-
 ### baseConditions
 ```csharp
 public List<Condition> baseConditions
@@ -128,7 +123,6 @@ public Condition successCondition
 **Type:** Global.Condition
 
 ## Properties
-
 ### isGlobal
 ```csharp
 public bool isGlobal { get; }
@@ -146,7 +140,6 @@ public string sefira_Name { get; }
 **Type:** System.String
 
 ## Methods
-
 ### CheckAgent(AgentModel)
 ```csharp
 private bool CheckAgent(AgentModel agent)
@@ -297,5 +290,6 @@ public void OnEnabled()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

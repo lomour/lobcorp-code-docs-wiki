@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FixerWhiteLaserScript.EffectMaker
 canonical_path: /api/Global/Misc/FixerWhiteLaserScriptEffectMaker
 ---
-
 # Class FixerWhiteLaserScript.EffectMaker
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class FixerWhiteLaserScript.EffectMaker
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FixerWhiteLaserScript.EffectMaker
 
 ## Constructors
-
 ### EffectMaker(GameObject, FixerWhite, GameObject)
 ```csharp
 public EffectMaker(GameObject pivot, FixerWhite script, GameObject laser)
@@ -31,7 +27,6 @@ public EffectMaker(GameObject pivot, FixerWhite script, GameObject laser)
 | `laser` | `UnityEngine.GameObject` |  |
 
 ## Fields
-
 ### _effectSrc
 ```csharp
 private const string _effectSrc = "Effect/Creature/FixerWhite/FixerWhiteCloud"
@@ -97,7 +92,6 @@ private FixerWhite script
 **Type:** Global.FixerWhite
 
 ## Methods
-
 ### MakeEffect()
 ```csharp
 public GameObject MakeEffect()
@@ -123,5 +117,6 @@ public void SetPosition()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

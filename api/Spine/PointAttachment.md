@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.PointAttachment
 canonical_path: /api/Spine/PointAttachment
 ---
-
 # Class PointAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -30,7 +27,6 @@ public class PointAttachment : Attachment
 - [GetWorldPosition(PointAttachment, Slot, Transform)](Spine.Unity.SkeletonExtensions.html#Spine_Unity_SkeletonExtensions_GetWorldPosition_Spine_PointAttachment_Spine_Slot_UnityEngine_Transform_)
 
 ## Constructors
-
 ### PointAttachment(string)
 ```csharp
 public PointAttachment(string name)
@@ -42,7 +38,6 @@ public PointAttachment(string name)
 | `name` | `System.String` |  |
 
 ## Fields
-
 ### rotation
 ```csharp
 internal float rotation
@@ -68,7 +63,6 @@ internal float y
 **Type:** System.Single
 
 ## Properties
-
 ### Rotation
 ```csharp
 public float Rotation { get; set; }
@@ -94,7 +88,6 @@ public float Y { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### ComputeWorldPosition(Bone, out float, out float)
 ```csharp
 public void ComputeWorldPosition(Bone bone, out float ox, out float oy)
@@ -122,5 +115,6 @@ public float ComputeWorldRotation(Bone bone)
 
 ## Inherited Members
 [<Name>k__BackingField](Spine.Attachment.html#Spine_Attachment__Name_k__BackingField), [ToString()](/api/Spine/Attachment#tostring), [Name](/api/Spine/Attachment#name), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

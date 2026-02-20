@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureLyrics
 canonical_path: /api/Global/Misc/CreatureLyrics
 ---
-
 # Class CreatureLyrics
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See [CreatureSpeech](/api/Global/Misc/CreatureSpeech)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureLyrics
 
 ## Constructors
-
 ### CreatureLyrics()
 ```csharp
 public CreatureLyrics()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static CreatureLyrics _instance
@@ -50,7 +45,6 @@ private Dictionary<long, CreatureLyrics.CreatureLyricList> lib
 **Type:** System.Collections.Generic.Dictionary{System.Int64,CreatureLyrics.CreatureLyricList}
 
 ## Properties
-
 ### instnace
 ```csharp
 public static CreatureLyrics instnace { get; }
@@ -68,7 +62,6 @@ public bool isLoaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### AddCreatureLyricList(CreatureLyricList)
 ```csharp
 public void AddCreatureLyricList(CreatureLyrics.CreatureLyricList list)
@@ -119,5 +112,6 @@ public void Init(CreatureLyrics.CreatureLyricList[] ary)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

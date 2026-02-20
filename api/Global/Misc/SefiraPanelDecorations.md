@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraPanel.Decorations
 canonical_path: /api/Global/Misc/SefiraPanelDecorations
 ---
-
 # Class SefiraPanel.Decorations
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SefiraPanel.Decorations
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraPanel.Decorations
 
 ## Constructors
-
 ### Decorations()
 ```csharp
 public Decorations()
 ```
 
 ## Fields
-
 ### decorations
 ```csharp
 public List<GameObject> decorations
@@ -42,7 +37,6 @@ public List<MaskableGraphic> graphics
 **Type:** System.Collections.Generic.List{UnityEngine.UI.MaskableGraphic}
 
 ## Methods
-
 ### Init(bool, Color)
 ```csharp
 public void Init(bool active, Color c)
@@ -56,5 +50,6 @@ public void Init(bool active, Color c)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

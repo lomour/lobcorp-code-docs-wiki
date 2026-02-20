@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.AttachmentType
 canonical_path: /api/Spine/AttachmentType
 ---
-
 # Enum AttachmentType
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AttachmentType
 ```
 
 ## Fields
-
 ### Boundingbox
 ```csharp
 Boundingbox = 1
@@ -70,5 +66,6 @@ Region = 0
 
 #### Field Value
 **Type:** Spine.AttachmentType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MouseCursorType
 canonical_path: /api/Global/Type/MouseCursorType
 ---
-
 # Enum MouseCursorType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum MouseCursorType
 ```
 
 ## Fields
-
 ### BULLET_EXECUTION
 ```csharp
 BULLET_EXECUTION = 9
@@ -150,5 +146,6 @@ SUPPRESS = 7
 
 #### Field Value
 **Type:** Global.MouseCursorType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlaySpeedSettingBlockType
 canonical_path: /api/Global/Type/PlaySpeedSettingBlockType
 ---
-
 # Enum PlaySpeedSettingBlockType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PlaySpeedSettingBlockType
 ```
 
 ## Fields
-
 ### BINAHBOSS
 ```csharp
 BINAHBOSS = 1
@@ -54,5 +50,6 @@ WHITENIGHT = 3
 
 #### Field Value
 **Type:** Global.PlaySpeedSettingBlockType
+
 
 

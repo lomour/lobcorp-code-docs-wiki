@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CameraMover.CameraForcelyMove
 canonical_path: /api/Global/Camera/Mover/CameraMoverCameraForcelyMove
 ---
-
 # Class CameraMover.CameraForcelyMove
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class CameraMover.CameraForcelyMove
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CameraMover.CameraForcelyMove
 
 ## Constructors
-
 ### CameraForcelyMove()
 ```csharp
 public CameraForcelyMove()
 ```
 
 ## Fields
-
 ### dest
 ```csharp
 public Vector3 dest
@@ -98,7 +93,6 @@ public float time
 **Type:** System.Single
 
 ## Properties
-
 ### transform
 ```csharp
 private Transform transform { get; }
@@ -108,7 +102,6 @@ private Transform transform { get; }
 **Type:** UnityEngine.Transform
 
 ## Methods
-
 ### Init(CameraMover)
 ```csharp
 public void Init(CameraMover script)
@@ -143,5 +136,6 @@ public void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

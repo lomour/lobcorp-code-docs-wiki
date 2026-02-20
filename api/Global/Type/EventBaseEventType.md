@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EventBase.EventType
 canonical_path: /api/Global/Type/EventBaseEventType
 ---
-
 # Enum EventBase.EventType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EventBase.EventType
 ```
 
 ## Fields
-
 ### BOSS_BIRD
 ```csharp
 BOSS_BIRD = 1
@@ -30,5 +26,6 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.EventBase.EventType
+
 
 

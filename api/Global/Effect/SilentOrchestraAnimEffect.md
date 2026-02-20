@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SilentOrchestraAnim.Effect
 canonical_path: /api/Global/Effect/SilentOrchestraAnimEffect
 ---
-
 # Class SilentOrchestraAnim.Effect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SilentOrchestraAnim.Effect
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SilentOrchestraAnim.Effect
 
 ## Constructors
-
 ### Effect()
 ```csharp
 public Effect()
 ```
 
 ## Fields
-
 ### angluarVel
 ```csharp
 public float angluarVel
@@ -90,7 +85,6 @@ public Canvas root
 **Type:** UnityEngine.Canvas
 
 ## Properties
-
 ### rootScale
 ```csharp
 private Vector3 rootScale { get; }
@@ -100,7 +94,6 @@ private Vector3 rootScale { get; }
 **Type:** UnityEngine.Vector3
 
 ## Methods
-
 ### ChangeRangeImage(int, float)
 ```csharp
 public void ChangeRangeImage(int index, float timeScale)
@@ -142,5 +135,6 @@ public void StartEffect()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

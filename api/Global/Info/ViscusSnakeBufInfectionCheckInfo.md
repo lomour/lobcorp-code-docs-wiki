@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ViscusSnakeBuf.InfectionCheckInfo
 canonical_path: /api/Global/Info/ViscusSnakeBufInfectionCheckInfo
 ---
-
 # Class ViscusSnakeBuf.InfectionCheckInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class ViscusSnakeBuf.InfectionCheckInfo
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ViscusSnakeBuf.InfectionCheckInfo
 
 ## Constructors
-
 ### InfectionCheckInfo(WorkerModel)
 ```csharp
 public InfectionCheckInfo(WorkerModel worker)
@@ -29,7 +25,6 @@ public InfectionCheckInfo(WorkerModel worker)
 | `worker` | `Global.WorkerModel` |  |
 
 ## Fields
-
 ### _isExpired
 ```csharp
 private bool _isExpired
@@ -55,7 +50,6 @@ public WorkerModel worker
 **Type:** Global.WorkerModel
 
 ## Properties
-
 ### CheckTime
 ```csharp
 private float CheckTime { get; }
@@ -73,7 +67,6 @@ public bool IsExpired { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public void FixedUpdate()
@@ -81,5 +74,6 @@ public void FixedUpdate()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

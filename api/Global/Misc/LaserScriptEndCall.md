@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LaserScript.EndCall
 canonical_path: /api/Global/Misc/LaserScriptEndCall
 ---
-
 # Delegate LaserScript.EndCall
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void LaserScript.EndCall()
 ```
 
 ## Constructors
-
 ### EndCall(object, IntPtr)
 ```csharp
 public EndCall(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public EndCall(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

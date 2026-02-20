@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Inventory.InventoryItemType
 canonical_path: /api/Inventory/InventoryItemType
 ---
-
 # Enum InventoryItemType
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum InventoryItemType
 ```
 
 ## Fields
-
 ### ARMOR
 ```csharp
 ARMOR = 1
@@ -30,5 +26,6 @@ WEAPON = 0
 
 #### Field Value
 **Type:** Inventory.InventoryItemType
+
 
 

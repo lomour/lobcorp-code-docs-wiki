@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CharacterResourceDataModel.CharacterResourceInfo
 canonical_path: /api/Global/Info/CharacterResourceDataModelCharacterResourceInfo
 ---
-
 # Class CharacterResourceDataModel.CharacterResourceInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class CharacterResourceDataModel.CharacterResourceInfo
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CharacterResourceDataModel.CharacterResourceInfo
 
 ## Constructors
-
 ### CharacterResourceInfo(string, string, string, Color)
 ```csharp
 public CharacterResourceInfo(string spine, string portrait, string name, Color c)
@@ -47,7 +43,6 @@ public CharacterResourceInfo(string spine, string afterSpine, string portrait, s
 | `c` | `UnityEngine.Color` |  |
 
 ## Fields
-
 ### afterPortraitSrc
 ```csharp
 public string afterPortraitSrc
@@ -98,5 +93,6 @@ public string spineSrc
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

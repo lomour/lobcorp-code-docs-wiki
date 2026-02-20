@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitCommand
 canonical_path: /api/Global/Misc/UnitCommand
 ---
-
 # Class UnitCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ A behaviour for a unit (agent, clerk, abnormality, rabbit) to use.
 [RabbitMovingAttackCommand](/api/Global/Misc/RabbitMovingAttackCommand), [StandingCommand](/api/Global/Misc/StandingCommand), [WorkerCommand](/api/Global/Misc/WorkerCommand)
 
 ## Constructors
-
 ### UnitCommand()
 ```csharp
 public UnitCommand()
 ```
 
 ## Fields
-
 ### actor
 ```csharp
 public UnitModel actor
@@ -63,7 +58,6 @@ public bool isRemoved
 **Type:** System.Boolean
 
 ## Methods
-
 ### Execute()
 ```csharp
 public virtual void Execute()
@@ -129,5 +123,6 @@ public virtual void OnStop()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

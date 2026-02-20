@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.AnimationState.TrackEntryDelegate
 canonical_path: /api/Spine/AnimationState/TrackEntryDelegate
 ---
-
 # Delegate AnimationState.TrackEntryDelegate
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void AnimationState.TrackEntryDelegate(TrackEntry trackEntry)
 ```
 
 ## Constructors
-
 ### TrackEntryDelegate(object, IntPtr)
 ```csharp
 public TrackEntryDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public TrackEntryDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(TrackEntry, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(TrackEntry trackEntry, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(TrackEntry trackEntry)
 | Name | Type | Description |
 | --- | --- | --- |
 | `trackEntry` | `Spine.TrackEntry` |  |
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OrdealGenInfo
 canonical_path: /api/Global/Info/OrdealGenInfo
 ---
-
 # Class OrdealGenInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ Provides several methods for generating a random ordeal.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OrdealGenInfo
 
 ## Constructors
-
 ### OrdealGenInfo()
 ```csharp
 public OrdealGenInfo()
 ```
 
 ## Fields
-
 ### _dawnAdditionDay
 ```csharp
 public static int _dawnAdditionDay
@@ -98,7 +93,6 @@ public static int _scanvengerAttidionDay
 **Type:** System.Int32
 
 ## Methods
-
 ### CreateFixerOrdeal(OrdealLevel)
 ```csharp
 private static OrdealBase CreateFixerOrdeal(OrdealLevel level)
@@ -170,5 +164,6 @@ public static List<OrdealBase> GenerateOrdeals(int day)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

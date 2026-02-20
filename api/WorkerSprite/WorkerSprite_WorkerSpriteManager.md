@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.WorkerSprite_WorkerSpriteManager
 canonical_path: /api/WorkerSprite/WorkerSprite_WorkerSpriteManager
 ---
-
 # Class WorkerSprite_WorkerSpriteManager
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Holds sprite data for workers and allows getting clothes sets and other things m
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSprite_WorkerSpriteManager
 
 ## Constructors
-
 ### WorkerSprite_WorkerSpriteManager()
 ```csharp
 private WorkerSprite_WorkerSpriteManager()
@@ -32,7 +28,6 @@ private WorkerSprite_WorkerSpriteManager()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static WorkerSprite_WorkerSpriteManager _instance
@@ -61,7 +56,6 @@ public WorkerEquipmentSpriteController equipData
 **Type:** WorkerSprite.WorkerEquipmentSpriteController
 
 ## Properties
-
 ### instance
 ```csharp
 public static WorkerSprite_WorkerSpriteManager instance { get; }
@@ -71,7 +65,6 @@ public static WorkerSprite_WorkerSpriteManager instance { get; }
 **Type:** WorkerSprite.WorkerSprite_WorkerSpriteManager
 
 ## Methods
-
 ### GetClothesSet(int)
 ```csharp
 public SpriteResourceLoadData GetClothesSet(int id)
@@ -159,5 +152,6 @@ public void SetEquipmentData(WorkerEquipmentSpriteController d)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentLyrics.CreditLyric
 canonical_path: /api/Global/Misc/AgentLyricsCreditLyric
 ---
-
 # Class AgentLyrics.CreditLyric
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class AgentLyrics.CreditLyric
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentLyrics.CreditLyric
 
 ## Constructors
-
 ### CreditLyric()
 ```csharp
 public CreditLyric()
 ```
 
 ## Fields
-
 ### horror
 ```csharp
 public Dictionary<int, List<string>> horror
@@ -66,7 +61,6 @@ public Dictionary<int, List<string>> panic
 **Type:** System.Collections.Generic.Dictionary{System.Int32,System.Collections.Generic.List{System.String}}
 
 ## Methods
-
 ### GetRandomLyric(LyricTypeNew, int)
 ```csharp
 public string GetRandomLyric(LyricTypeNew type, int id)
@@ -83,5 +77,6 @@ public string GetRandomLyric(LyricTypeNew type, int id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

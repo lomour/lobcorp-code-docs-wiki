@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ThrowScript.ThrowEnded
 canonical_path: /api/Global/Misc/ThrowScriptThrowEnded
 ---
-
 # Delegate ThrowScript.ThrowEnded
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void ThrowScript.ThrowEnded()
 ```
 
 ## Constructors
-
 ### ThrowEnded(object, IntPtr)
 ```csharp
 public ThrowEnded(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public ThrowEnded(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ArmorCreature.GiftState
 canonical_path: /api/Global/State/ArmorCreatureGiftState
 ---
-
 # Enum ArmorCreature.GiftState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum ArmorCreature.GiftState
 ```
 
 ## Fields
-
 ### BLUE_ONE
 ```csharp
 BLUE_ONE = 1
@@ -54,5 +50,6 @@ RED = 4
 
 #### Field Value
 **Type:** Global.ArmorCreature.GiftState
+
 
 

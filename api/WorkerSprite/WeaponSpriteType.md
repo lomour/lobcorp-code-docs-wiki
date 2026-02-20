@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.WeaponSpriteType
 canonical_path: /api/WorkerSprite/WeaponSpriteType
 ---
-
 # Enum WeaponSpriteType
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum WeaponSpriteType
 ```
 
 ## Fields
-
 ### AXE
 ```csharp
 AXE = 1
@@ -86,5 +82,6 @@ UNIQUE = 8
 
 #### Field Value
 **Type:** WorkerSprite.WeaponSpriteType
+
 
 

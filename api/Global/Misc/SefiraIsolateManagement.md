@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraIsolateManagement
 canonical_path: /api/Global/Misc/SefiraIsolateManagement
 ---
-
 # Class SefiraIsolateManagement
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Provides methods to get unused rooms, get the [SefiraIsolate](/api/Global/Misc/S
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraIsolateManagement
 
 ## Constructors
-
 ### SefiraIsolateManagement(SefiraIsolate[])
 ```csharp
 public SefiraIsolateManagement(SefiraIsolate[] ary)
@@ -39,7 +35,6 @@ public SefiraIsolateManagement(SefiraIsolate[] ary)
 | `ary` | `Global.SefiraIsolate[]` |  |
 
 ## Fields
-
 ### _notUsed
 ```csharp
 private List<SefiraIsolate> _notUsed
@@ -68,7 +63,6 @@ public List<SefiraIsolate> list
 **Type:** System.Collections.Generic.List{SefiraIsolate}
 
 ## Methods
-
 ### GenIsolateByCreatureAry(long[])
 ```csharp
 public SefiraIsolate[] GenIsolateByCreatureAry(long[] creatureIdAry)
@@ -185,5 +179,6 @@ public void LogRemain()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

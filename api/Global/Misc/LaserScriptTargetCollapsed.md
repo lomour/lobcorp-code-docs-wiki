@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LaserScript.TargetCollapsed
 canonical_path: /api/Global/Misc/LaserScriptTargetCollapsed
 ---
-
 # Delegate LaserScript.TargetCollapsed
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void LaserScript.TargetCollapsed(UnitModel target)
 ```
 
 ## Constructors
-
 ### TargetCollapsed(object, IntPtr)
 ```csharp
 public TargetCollapsed(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public TargetCollapsed(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(UnitModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(UnitModel target, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 
 

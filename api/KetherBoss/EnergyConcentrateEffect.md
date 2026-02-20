@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.EnergyConcentrateEffect
 canonical_path: /api/KetherBoss/EnergyConcentrateEffect
 ---
-
 # Class EnergyConcentrateEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ uh. maybe a big charging thing? i'd have to rewatch day 50
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [KetherLastEffectBase](/api/KetherBoss/KetherLastEffectBase) → EnergyConcentrateEffect
 
 ## Constructors
-
 ### EnergyConcentrateEffect(KetherLastBossBase)
 ```csharp
 public EnergyConcentrateEffect(KetherLastBossBase bossBase)
@@ -38,7 +34,6 @@ public EnergyConcentrateEffect(KetherLastBossBase bossBase)
 | `bossBase` | `KetherBoss.KetherLastBossBase` |  |
 
 ## Fields
-
 ### _emit
 ```csharp
 private MinMax _emit
@@ -121,7 +116,6 @@ private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration
 **Type:** System.String
 
 ## Methods
-
 ### LoadParticle()
 ```csharp
 public void LoadParticle()
@@ -147,5 +141,6 @@ public void TurnOn()
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [FixedUpdate()](/api/KetherBoss/KetherLastEffectBase#fixedupdate), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

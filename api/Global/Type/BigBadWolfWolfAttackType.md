@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BigBadWolf.WolfAttackType
 canonical_path: /api/Global/Type/BigBadWolfWolfAttackType
 ---
-
 # Enum BigBadWolf.WolfAttackType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BigBadWolf.WolfAttackType
 ```
 
 ## Fields
-
 ### BITE
 ```csharp
 BITE = 1
@@ -46,5 +42,6 @@ SCRATCH = 0
 
 #### Field Value
 **Type:** Global.BigBadWolf.WolfAttackType
+
 
 

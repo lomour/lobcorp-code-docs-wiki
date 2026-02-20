@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentEventListenerDelegate
 canonical_path: /api/Global/Misc/AgentEventListenerDelegate
 ---
-
 # Delegate AgentEventListenerDelegate
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void AgentEventListenerDelegate(params object[] param)
 ```
 
 ## Constructors
-
 ### AgentEventListenerDelegate(object, IntPtr)
 ```csharp
 public AgentEventListenerDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public AgentEventListenerDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(object[], AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 
 

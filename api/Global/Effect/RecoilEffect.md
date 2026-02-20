@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RecoilEffect
 canonical_path: /api/Global/Effect/RecoilEffect
 ---
-
 # Class RecoilEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,14 +26,12 @@ Unused recoil effect
 [RecoilEffectUI](/api/Global/UI/RecoilEffectUI)
 
 ## Constructors
-
 ### RecoilEffect()
 ```csharp
 public RecoilEffect()
 ```
 
 ## Fields
-
 ### maxTime
 ```csharp
 public float maxTime
@@ -74,7 +69,6 @@ public Transform targetTransform
 **Type:** UnityEngine.Transform
 
 ## Methods
-
 ### GetArrow(int)
 ```csharp
 public static RecoilArrow GetArrow(int index)
@@ -137,5 +131,6 @@ public static List<RecoilArrow> MakeRecoilArrow(int level)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

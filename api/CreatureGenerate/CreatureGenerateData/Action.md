@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureGenerate.CreatureGenerateData.Action
 canonical_path: /api/CreatureGenerate/CreatureGenerateData/Action
 ---
-
 # Delegate CreatureGenerateData.Action
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void CreatureGenerateData.Action(params object[] param)
 ```
 
 ## Constructors
-
 ### Action(object, IntPtr)
 ```csharp
 public Action(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public Action(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(object[], AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 
 

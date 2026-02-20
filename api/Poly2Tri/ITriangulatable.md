@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.ITriangulatable
 canonical_path: /api/Poly2Tri/ITriangulatable
 ---
-
 # Interface ITriangulatable
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface ITriangulatable
 ```
 
 ## Properties
-
 ### Bounds
 ```csharp
 Rect2D Bounds { get; }
@@ -112,7 +108,6 @@ TriangulationMode TriangulationMode { get; }
 **Type:** Poly2Tri.TriangulationMode
 
 ## Methods
-
 ### AddTriangle(DelaunayTriangle)
 ```csharp
 void AddTriangle(DelaunayTriangle t)
@@ -147,5 +142,6 @@ void Prepare(TriangulationContext tcx)
 | Name | Type | Description |
 | --- | --- | --- |
 | `tcx` | `Poly2Tri.TriangulationContext` |  |
+
 
 

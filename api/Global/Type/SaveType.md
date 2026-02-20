@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SaveType
 canonical_path: /api/Global/Type/SaveType
 ---
-
 # Enum SaveType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SaveType
 ```
 
 ## Fields
-
 ### CHECK_POINT
 ```csharp
 CHECK_POINT = 0
@@ -30,5 +26,6 @@ LASTDAY = 1
 
 #### Field Value
 **Type:** Global.SaveType
+
 
 

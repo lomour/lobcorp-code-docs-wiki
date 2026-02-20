@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugMidnightOrdeal.BugMidnightManager
 canonical_path: /api/Global/Misc/BugMidnightOrdealBugMidnightManager
 ---
-
 # Class BugMidnightOrdeal.BugMidnightManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class BugMidnightOrdeal.BugMidnightManager
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BugMidnightOrdeal.BugMidnightManager
 
 ## Constructors
-
 ### BugMidnightManager(BugMidnight)
 ```csharp
 public BugMidnightManager(BugMidnight script)
@@ -29,7 +25,6 @@ public BugMidnightManager(BugMidnight script)
 | `script` | `Global.BugMidnight` |  |
 
 ## Fields
-
 ### script
 ```csharp
 private BugMidnight script
@@ -55,7 +50,6 @@ private List<BugOrdealCreature> spawns
 **Type:** System.Collections.Generic.List{BugOrdealCreature}
 
 ## Properties
-
 ### Script
 ```csharp
 public BugMidnight Script { get; }
@@ -73,7 +67,6 @@ public Sefira Sefira { get; }
 **Type:** Global.Sefira
 
 ## Methods
-
 ### AddSpawn(BugOrdealCreature)
 ```csharp
 public void AddSpawn(BugOrdealCreature spawn)
@@ -101,5 +94,6 @@ public void SetSefira(Sefira sefira)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IMouseOnDragListener
 canonical_path: /api/Global/Misc/IMouseOnDragListener
 ---
-
 # Interface IMouseOnDragListener
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,7 +26,6 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
 
 
 ## Methods
-
 ### IsDragSelectable()
 ```csharp
 bool IsDragSelectable()
@@ -49,6 +45,7 @@ void OnEnterDragArea()
 ```csharp
 void OnExitDragArea()
 ```
+
 
 
 

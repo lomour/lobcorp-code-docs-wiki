@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IsolateRoom.WorkProgress
 canonical_path: /api/Global/Misc/IsolateRoomWorkProgress
 ---
-
 # Class IsolateRoom.WorkProgress
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class IsolateRoom.WorkProgress
 [object](https://learn.microsoft.com/dotnet/api/system.object) → IsolateRoom.WorkProgress
 
 ## Constructors
-
 ### WorkProgress(GameObject, RectTransform, RectTransform, Text, Image)
 ```csharp
 public WorkProgress(GameObject root, RectTransform Success, RectTransform Fail, Text CubeText, Image CubeTextFill)
@@ -33,7 +29,6 @@ public WorkProgress(GameObject root, RectTransform Success, RectTransform Fail, 
 | `CubeTextFill` | `UnityEngine.UI.Image` |  |
 
 ## Fields
-
 ### _failIndex
 ```csharp
 private int _failIndex
@@ -147,7 +142,6 @@ public RectTransform SuccessParent
 **Type:** UnityEngine.RectTransform
 
 ## Methods
-
 ### AddBar(bool)
 ```csharp
 public void AddBar(bool isSuccess)
@@ -227,5 +221,6 @@ public void SetVisible(bool state)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

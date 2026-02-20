@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EmergencyLevel
 canonical_path: /api/Global/Level/EmergencyLevel
 ---
-
 # Enum EmergencyLevel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EmergencyLevel
 ```
 
 ## Fields
-
 ### CHAOS
 ```csharp
 CHAOS = 4
@@ -54,5 +50,6 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.EmergencyLevel
+
 
 

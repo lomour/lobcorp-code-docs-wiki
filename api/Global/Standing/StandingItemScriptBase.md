@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StandingItemScriptBase
 canonical_path: /api/Global/Standing/StandingItemScriptBase
 ---
-
 # Class StandingItemScriptBase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,14 +25,12 @@ public class StandingItemScriptBase
 [BirdEggObject](/api/Global/Object/BirdEggObject), [BoomerCircusScript](/api/Global/Script/BoomerCircusScript), [BossBirdGateway](/api/Global/Misc/BossBirdGateway), [ChopLeg](/api/Global/Misc/ChopLeg), [FloodTentacle](/api/Global/Misc/FloodTentacle), [HordeOfBugsScript](/api/Global/Script/HordeOfBugsScript), [RandomEventRoot](/api/Global/Misc/RandomEventRoot), [TastyBug](/api/Global/Misc/TastyBug)
 
 ## Constructors
-
 ### StandingItemScriptBase()
 ```csharp
 public StandingItemScriptBase()
 ```
 
 ## Fields
-
 ### _animScript
 ```csharp
 protected StandingItemAnim _animScript
@@ -99,7 +94,6 @@ public const float soundDistDobule = 30
 **Type:** System.Single
 
 ## Properties
-
 ### Defense
 ```csharp
 public float Defense { get; }
@@ -149,7 +143,6 @@ public StandingItemScriptBase.StandingItemState State { get; }
 **Type:** Global.StandingItemScriptBase.StandingItemState
 
 ## Methods
-
 ### CanTakePhsyicalDamage(UnitModel)
 ```csharp
 public virtual bool CanTakePhsyicalDamage(UnitModel target)
@@ -366,5 +359,6 @@ public virtual void SetName(string str)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

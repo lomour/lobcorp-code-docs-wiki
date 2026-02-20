@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LaserParticleEffect.OnArrivedEvent
 canonical_path: /api/Global/Event/LaserParticleEffectOnArrivedEvent
 ---
-
 # Delegate LaserParticleEffect.OnArrivedEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void LaserParticleEffect.OnArrivedEvent(BossBird.LaserAttackTarg
 ```
 
 ## Constructors
-
 ### OnArrivedEvent(object, IntPtr)
 ```csharp
 public OnArrivedEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnArrivedEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(LaserAttackTargetData, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(BossBird.LaserAttackTargetData data, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(BossBird.LaserAttackTargetData data)
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `Global.BossBird.LaserAttackTargetData` |  |
+
 
 

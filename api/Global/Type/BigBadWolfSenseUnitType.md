@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BigBadWolfSense.UnitType
 canonical_path: /api/Global/Type/BigBadWolfSenseUnitType
 ---
-
 # Enum BigBadWolfSense.UnitType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BigBadWolfSense.UnitType
 ```
 
 ## Fields
-
 ### AGENT
 ```csharp
 AGENT = 0
@@ -54,5 +50,6 @@ OFFICER = 1
 
 #### Field Value
 **Type:** Global.BigBadWolfSense.UnitType
+
 
 

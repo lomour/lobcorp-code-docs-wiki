@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.Modules.AttachmentTools.SkinUtilities
 canonical_path: /api/Spine/Unity/Modules/AttachmentTools/SkinUtilities
 ---
-
 # Class SkinUtilities
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules) . [AttachmentTools](/api/Spine/Unity/Modules/AttachmentTools)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public static class SkinUtilities
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkinUtilities
 
 ## Methods
-
 ### Append(Skin, Skin)
 ```csharp
 public static void Append(this Skin destination, Skin source)
@@ -175,5 +171,6 @@ public static Skin UnshareSkin(this Skeleton skeleton, bool includeDefaultSkin, 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

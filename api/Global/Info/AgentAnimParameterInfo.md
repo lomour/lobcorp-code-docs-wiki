@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentAnim.ParameterInfo
 canonical_path: /api/Global/Info/AgentAnimParameterInfo
 ---
-
 # Class AgentAnim.ParameterInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class AgentAnim.ParameterInfo
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentAnim.ParameterInfo
 
 ## Constructors
-
 ### ParameterInfo(string, bool, int)
 ```csharp
 public ParameterInfo(string name, bool value, int state)
@@ -69,7 +65,6 @@ public ParameterInfo(string name, int value, int state, float remainTimer)
 | `remainTimer` | `System.Single` |  |
 
 ## Fields
-
 ### bvalue
 ```csharp
 public bool bvalue
@@ -120,5 +115,6 @@ public AgentAnim.ParameterInfo.ParameterType type
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

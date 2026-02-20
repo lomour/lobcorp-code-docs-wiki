@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CameraFilterPack_NightVisionFX.preset
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackNightVisionFXpreset
 ---
-
 # Enum CameraFilterPack_NightVisionFX.preset
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CameraFilterPack_NightVisionFX.preset
 ```
 
 ## Fields
-
 ### Night_Vision_BlueSky
 ```csharp
 Night_Vision_BlueSky = 5
@@ -102,5 +98,6 @@ Night_Vision_Sharp = 4
 
 #### Field Value
 **Type:** Global.CameraFilterPack_NightVisionFX.preset
+
 
 

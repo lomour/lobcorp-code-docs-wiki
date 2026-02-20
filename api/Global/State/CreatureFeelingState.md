@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureFeelingState
 canonical_path: /api/Global/State/CreatureFeelingState
 ---
-
 # Enum CreatureFeelingState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureFeelingState
 ```
 
 ## Fields
-
 ### BAD
 ```csharp
 BAD = 3
@@ -46,5 +42,6 @@ NORM = 2
 
 #### Field Value
 **Type:** Global.CreatureFeelingState
+
 
 

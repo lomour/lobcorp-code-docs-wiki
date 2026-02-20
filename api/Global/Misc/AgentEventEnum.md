@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentEventEnum
 canonical_path: /api/Global/Misc/AgentEventEnum
 ---
-
 # Enum AgentEventEnum
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentEventEnum
 ```
 
 ## Fields
-
 ### OnEnterRoom
 ```csharp
 OnEnterRoom = 0
@@ -38,5 +34,6 @@ OnFinishWork = 2
 
 #### Field Value
 **Type:** Global.AgentEventEnum
+
 
 

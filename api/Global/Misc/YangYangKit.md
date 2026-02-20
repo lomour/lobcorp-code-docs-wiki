@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Yang.YangKit
 canonical_path: /api/Global/Misc/YangYangKit
 ---
-
 # Class Yang.YangKit
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class Yang.YangKit : CreatureBase.KitEquipEventListener
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase.KitEquipEventListener](/api/Global/Misc/CreatureBaseKitEquipEventListener) → Yang.YangKit
 
 ## Constructors
-
 ### YangKit(Yang)
 ```csharp
 public YangKit(Yang m)
@@ -29,7 +25,6 @@ public YangKit(Yang m)
 | `m` | `Global.Yang` |  |
 
 ## Fields
-
 ### _AMOUNT_RECOVERY
 ```csharp
 private const float _AMOUNT_RECOVERY = 10
@@ -103,7 +98,6 @@ private float _yinQliphothElapsedTime
 **Type:** System.Single
 
 ## Methods
-
 ### OnFixedUpdateInKitEquip(AgentModel)
 ```csharp
 public override void OnFixedUpdateInKitEquip(AgentModel actor)
@@ -147,5 +141,6 @@ public override void OnViewInit(CreatureUnit unit)
 
 ## Inherited Members
 [OnEnterRoom(AgentModel, UseSkill)](/api/Global/Misc/CreatureBaseKitEquipEventListener#onenterroom-agentmodel-useskill), [OnAttack(AgentModel, UnitModel)](/api/Global/Misc/CreatureBaseKitEquipEventListener#onattack-agentmodel-unitmodel), [OnTakeDamagePhysical(WorkerModel, float)](/api/Global/Misc/CreatureBaseKitEquipEventListener#ontakedamagephysical-workermodel-float), [OnTakeDamageMental(WorkerModel, float)](/api/Global/Misc/CreatureBaseKitEquipEventListener#ontakedamagemental-workermodel-float), [OnCommandReleaseKitEquip(AgentModel)](/api/Global/Misc/CreatureBaseKitEquipEventListener#oncommandreleasekitequip-agentmodel), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.SkeletonRendererInstruction
 canonical_path: /api/Spine/Unity/SkeletonRendererInstruction
 ---
-
 # Class SkeletonRendererInstruction
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SkeletonRendererInstruction
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonRendererInstruction
 
 ## Constructors
-
 ### SkeletonRendererInstruction()
 ```csharp
 public SkeletonRendererInstruction()
 ```
 
 ## Fields
-
 ### attachments
 ```csharp
 public readonly ExposedList<Attachment> attachments
@@ -66,7 +61,6 @@ public readonly ExposedList<SubmeshInstruction> submeshInstructions
 **Type:** Spine.ExposedList{Spine.Unity.SubmeshInstruction}
 
 ## Methods
-
 ### Clear()
 ```csharp
 public void Clear()
@@ -115,5 +109,6 @@ public void SetWithSubset(ExposedList<SubmeshInstruction> instructions, int star
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.FireLightEffect.Execution
 canonical_path: /api/KetherBoss/FireLightEffect/Execution
 ---
-
 # Enum FireLightEffect.Execution
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FireLightEffect.Execution
 ```
 
 ## Fields
-
 ### BRIGTHNESS
 ```csharp
 BRIGTHNESS = 1
@@ -46,5 +42,6 @@ GLOW = 0
 
 #### Field Value
 **Type:** KetherBoss.FireLightEffect.Execution
+
 
 

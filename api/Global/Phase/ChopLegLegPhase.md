@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ChopLeg.LegPhase
 canonical_path: /api/Global/Phase/ChopLegLegPhase
 ---
-
 # Enum ChopLeg.LegPhase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ChopLeg.LegPhase
 ```
 
 ## Fields
-
 ### APPEAR
 ```csharp
 APPEAR = 1
@@ -54,5 +50,6 @@ RETURN = 3
 
 #### Field Value
 **Type:** Global.ChopLeg.LegPhase
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OfficerAIState
 canonical_path: /api/Global/State/OfficerAIState
 ---
-
 # Enum OfficerAIState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum OfficerAIState
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 12
@@ -134,5 +130,6 @@ WORKING = 5
 
 #### Field Value
 **Type:** Global.OfficerAIState
+
 
 

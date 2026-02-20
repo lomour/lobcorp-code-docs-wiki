@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.AgentData
 canonical_path: /api/Customizing/AgentData
 ---
-
 # Class AgentData
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Has a section for copying appearance? o_o
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentData
 
 ## Constructors
-
 ### AgentData()
 ```csharp
 public AgentData()
@@ -34,7 +30,6 @@ public AgentData()
 
 
 ## Fields
-
 ### agentName
 ```csharp
 public AgentName agentName
@@ -135,7 +130,6 @@ public int uniqueScriptIndex
 **Type:** System.Int32
 
 ## Properties
-
 ### BLevel
 ```csharp
 public int BLevel { get; }
@@ -169,7 +163,6 @@ public int WLevel { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### AppearCopy(AgentData)
 ```csharp
 public void AppearCopy(AgentData copied)
@@ -192,5 +185,6 @@ public int GetVanliaLevel()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

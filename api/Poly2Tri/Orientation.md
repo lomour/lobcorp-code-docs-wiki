@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Orientation
 canonical_path: /api/Poly2Tri/Orientation
 ---
-
 # Enum Orientation
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum Orientation
 ```
 
 ## Fields
-
 ### CCW
 ```csharp
 CCW = 1
@@ -38,5 +34,6 @@ CW = 0
 
 #### Field Value
 **Type:** Poly2Tri.Orientation
+
 
 

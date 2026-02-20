@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FactionTypeList
 canonical_path: /api/Global/List/FactionTypeList
 ---
-
 # Class FactionTypeList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Maintains a list of [factions](/api/Global/Info/FactionTypeInfo).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FactionTypeList
 
 ## Constructors
-
 ### FactionTypeList()
 ```csharp
 public FactionTypeList()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static FactionTypeList _instance
@@ -58,7 +53,6 @@ private bool isLoaded
 **Type:** System.Boolean
 
 ## Properties
-
 ### instance
 ```csharp
 public static FactionTypeList instance { get; }
@@ -76,7 +70,6 @@ public bool IsLoaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetFaction(string)
 ```csharp
 public FactionTypeInfo GetFaction(string code)
@@ -118,5 +111,6 @@ public void Init(ReadOnlyCollection<FactionTypeInfo> factions)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

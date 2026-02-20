@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FallingLegEvent.SefiraManagement
 canonical_path: /api/Global/Misc/FallingLegEventSefiraManagement
 ---
-
 # Class FallingLegEvent.SefiraManagement
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class FallingLegEvent.SefiraManagement
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FallingLegEvent.SefiraManagement
 
 ## Constructors
-
 ### SefiraManagement()
 ```csharp
 public SefiraManagement()
 ```
 
 ## Fields
-
 ### _sefira
 ```csharp
 public string _sefira
@@ -82,7 +77,6 @@ public FallingLegEvent script
 **Type:** Global.FallingLegEvent
 
 ## Properties
-
 ### sefira
 ```csharp
 public Sefira sefira { get; }
@@ -92,7 +86,6 @@ public Sefira sefira { get; }
 **Type:** Global.Sefira
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public void FixedUpdate()
@@ -128,5 +121,6 @@ public void SetActivate(bool state)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

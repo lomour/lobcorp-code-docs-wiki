@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Timer
 canonical_path: /api/Global/Misc/Timer
 ---
-
 # Class Timer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ Runs for a certain amount of time. Used for all kinds of timed events, including
 [AutoTimer](/api/Global/Misc/AutoTimer), [UnscaledTimer](/api/Global/Misc/UnscaledTimer)
 
 ## Constructors
-
 ### Timer()
 ```csharp
 public Timer()
 ```
 
 ## Fields
-
 ### autoStop
 ```csharp
 public bool autoStop
@@ -80,7 +75,6 @@ public bool started
 **Type:** System.Boolean
 
 ## Properties
-
 ### Rate
 ```csharp
 public float Rate { get; }
@@ -90,7 +84,6 @@ public float Rate { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### GetRate()
 ```csharp
 public virtual float GetRate()
@@ -153,5 +146,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

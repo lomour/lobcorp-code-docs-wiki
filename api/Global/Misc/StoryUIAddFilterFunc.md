@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryUI.AddFilterFunc
 canonical_path: /api/Global/Misc/StoryUIAddFilterFunc
 ---
-
 # Delegate StoryUI.AddFilterFunc
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void StoryUI.AddFilterFunc(StoryFilterParameter param)
 ```
 
 ## Constructors
-
 ### AddFilterFunc(object, IntPtr)
 ```csharp
 public AddFilterFunc(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public AddFilterFunc(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(StoryFilterParameter, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(StoryFilterParameter param, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(StoryFilterParameter param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `Global.StoryFilterParameter` |  |
+
 
 

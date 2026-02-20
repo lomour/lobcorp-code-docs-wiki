@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StatTransform
 canonical_path: /api/Global/Misc/StatTransform
 ---
-
 # Interface StatTransform
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,7 +25,6 @@ float FloatToFloat(float v)
 
 
 ## Methods
-
 ### FloatToFloat(float)
 ```csharp
 float FloatToFloat(float v)
@@ -42,5 +38,6 @@ float FloatToFloat(float v)
 
 #### Returns
 **Type:** System.Single
+
 
 

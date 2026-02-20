@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IsolatePos
 canonical_path: /api/Global/Misc/IsolatePos
 ---
-
 # Enum IsolatePos
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum IsolatePos
 ```
 
 ## Fields
-
 ### ATTACH
 ```csharp
 ATTACH = 2
@@ -38,5 +34,6 @@ UP = 1
 
 #### Field Value
 **Type:** Global.IsolatePos
+
 
 

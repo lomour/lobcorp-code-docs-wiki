@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureDataLoader
 canonical_path: /api/Global/Loader/CreatureDataLoader
 ---
-
 # Class CreatureDataLoader
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,14 +25,12 @@ Loads stats, the animation handler, risk level, observation data, creature scrip
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureDataLoader
 
 ## Constructors
-
 ### CreatureDataLoader()
 ```csharp
 public CreatureDataLoader()
 ```
 
 ## Fields
-
 ### currentLn
 ```csharp
 public string currentLn
@@ -53,7 +48,6 @@ public string documentSrcFormat
 **Type:** System.String
 
 ## Methods
-
 ### ConvertToDamageInfo(XmlNode)
 ```csharp
 public static DamageInfo ConvertToDamageInfo(XmlNode damageNode)
@@ -287,5 +281,6 @@ public SkillTrigger.ClearEvent SkillTriggerClearEvent(XmlNode node)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

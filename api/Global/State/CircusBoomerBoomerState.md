@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CircusBoomer.BoomerState
 canonical_path: /api/Global/State/CircusBoomerBoomerState
 ---
-
 # Enum CircusBoomer.BoomerState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CircusBoomer.BoomerState
 ```
 
 ## Fields
-
 ### ACTIVED
 ```csharp
 ACTIVED = 0
@@ -30,5 +26,6 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.CircusBoomer.BoomerState
+
 
 

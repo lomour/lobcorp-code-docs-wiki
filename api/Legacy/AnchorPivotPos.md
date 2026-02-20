@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.AnchorPivotPos
 canonical_path: /api/Legacy/AnchorPivotPos
 ---
-
 # Enum AnchorPivotPos
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AnchorPivotPos
 ```
 
 ## Fields
-
 ### CENTER
 ```csharp
 CENTER = 9
@@ -94,5 +90,6 @@ UP_RIGHT = 2
 
 #### Field Value
 **Type:** Legacy.AnchorPivotPos
+
 
 

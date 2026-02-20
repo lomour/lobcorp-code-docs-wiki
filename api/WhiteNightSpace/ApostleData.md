@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleData
 canonical_path: /api/WhiteNightSpace/ApostleData
 ---
-
 # Class ApostleData
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ structure for apostle data (including stuff gotten from the old agent)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleData
 
 ## Constructors
-
 ### ApostleData(AgentModel)
 ```csharp
 public ApostleData(AgentModel agent)
@@ -47,7 +43,6 @@ public ApostleData(Dictionary<string, object> data)
 | `data` | `System.Collections.Generic.Dictionary{System.String,System.Object}` |  |
 
 ## Fields
-
 ### hairColor
 ```csharp
 public WorkerSpriteSaveData.ColorData hairColor
@@ -94,7 +89,6 @@ public int NameId
 **Type:** System.Int32
 
 ## Methods
-
 ### GetSaveData()
 ```csharp
 public Dictionary<string, object> GetSaveData()
@@ -106,5 +100,6 @@ public Dictionary<string, object> GetSaveData()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

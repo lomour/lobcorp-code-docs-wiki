@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.SkeletonClipping
 canonical_path: /api/Spine/SkeletonClipping
 ---
-
 # Class SkeletonClipping
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SkeletonClipping
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonClipping
 
 ## Constructors
-
 ### SkeletonClipping()
 ```csharp
 public SkeletonClipping()
 ```
 
 ## Fields
-
 ### clipAttachment
 ```csharp
 internal ClippingAttachment clipAttachment
@@ -98,7 +93,6 @@ internal readonly Triangulator triangulator
 **Type:** Spine.Triangulator
 
 ## Properties
-
 ### ClippedTriangles
 ```csharp
 public ExposedList<int> ClippedTriangles { get; }
@@ -132,7 +126,6 @@ public bool IsClipping { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Clip(float, float, float, float, float, float, ExposedList<float>, ExposedList<float>)
 ```csharp
 internal bool Clip(float x1, float y1, float x2, float y2, float x3, float y3, ExposedList<float> clippingArea, ExposedList<float> output)
@@ -208,5 +201,6 @@ private static void MakeClockwise(ExposedList<float> polygon)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

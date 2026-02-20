@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FixerPale.Phase
 canonical_path: /api/Global/Phase/FixerPalePhase
 ---
-
 # Enum FixerPale.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum FixerPale.Phase
 ```
 
 ## Fields
-
 ### DEFAULT
 ```csharp
 DEFAULT = 0
@@ -30,5 +26,6 @@ TELEPORTING = 1
 
 #### Field Value
 **Type:** Global.FixerPale.Phase
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AlterTitleController.TitleActionType
 canonical_path: /api/Global/Type/AlterTitleControllerTitleActionType
 ---
-
 # Enum AlterTitleController.TitleActionType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AlterTitleController.TitleActionType
 ```
 
 ## Fields
-
 ### CHALLENGE
 ```csharp
 CHALLENGE = 3
@@ -94,5 +90,6 @@ TUTORIAL = 0
 
 #### Field Value
 **Type:** Global.AlterTitleController.TitleActionType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryUI.StoryEndFunc
 canonical_path: /api/Global/Misc/StoryUIStoryEndFunc
 ---
-
 # Delegate StoryUI.StoryEndFunc
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void StoryUI.StoryEndFunc()
 ```
 
 ## Constructors
-
 ### StoryEndFunc(object, IntPtr)
 ```csharp
 public StoryEndFunc(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public StoryEndFunc(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

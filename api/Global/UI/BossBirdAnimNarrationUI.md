@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdAnim.NarrationUI
 canonical_path: /api/Global/UI/BossBirdAnimNarrationUI
 ---
-
 # Class BossBirdAnim.NarrationUI
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class BossBirdAnim.NarrationUI
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BossBirdAnim.NarrationUI
 
 ## Constructors
-
 ### NarrationUI()
 ```csharp
 public NarrationUI()
 ```
 
 ## Fields
-
 ### _fadeoutEvent
 ```csharp
 private BossBirdAnim.NarrationUI.FadeOutEvent _fadeoutEvent
@@ -170,7 +165,6 @@ private Queue<BossBirdAnim.NarrationData> waitQueue
 **Type:** System.Collections.Generic.Queue{BossBirdAnim.NarrationData}
 
 ## Properties
-
 ### fadeOutEvent
 ```csharp
 public BossBirdAnim.NarrationUI.FadeOutEvent fadeOutEvent { get; set; }
@@ -188,7 +182,6 @@ public bool IsWaitingNext { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetImage(NarrationState)
 ```csharp
 private BossBirdAnim.NarrationUI.NarrationImage GetImage(BossBird.NarrationState state)
@@ -254,5 +247,6 @@ public void SetState(bool state)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

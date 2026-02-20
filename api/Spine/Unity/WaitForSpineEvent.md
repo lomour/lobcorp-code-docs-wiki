@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.WaitForSpineEvent
 canonical_path: /api/Spine/Unity/WaitForSpineEvent
 ---
-
 # Class WaitForSpineEvent
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class WaitForSpineEvent : IEnumerator
 [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## Constructors
-
 ### WaitForSpineEvent(AnimationState, EventData, bool)
 ```csharp
 public WaitForSpineEvent(AnimationState state, EventData eventDataReference, bool unsubscribeAfterFiring = true)
@@ -70,7 +66,6 @@ public WaitForSpineEvent(SkeletonAnimation skeletonAnimation, string eventName, 
 | `unsubscribeAfterFiring` | `System.Boolean` |  |
 
 ## Fields
-
 ### m_AnimationState
 ```csharp
 private AnimationState m_AnimationState
@@ -112,7 +107,6 @@ private bool m_WasFired
 **Type:** System.Boolean
 
 ## Properties
-
 ### IEnumerator.Current
 ```csharp
 object IEnumerator.Current { get; }
@@ -130,7 +124,6 @@ public bool WillUnsubscribeAfterFiring { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Clear(AnimationState)
 ```csharp
 private void Clear(AnimationState state)
@@ -232,5 +225,6 @@ private void SubscribeByName(AnimationState state, string eventName, bool unsubs
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

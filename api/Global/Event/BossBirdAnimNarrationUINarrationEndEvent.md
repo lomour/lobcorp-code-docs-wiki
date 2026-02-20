@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdAnim.NarrationUI.NarrationEndEvent
 canonical_path: /api/Global/Event/BossBirdAnimNarrationUINarrationEndEvent
 ---
-
 # Delegate BossBirdAnim.NarrationUI.NarrationEndEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BossBirdAnim.NarrationUI.NarrationEndEvent()
 ```
 
 ## Constructors
-
 ### NarrationEndEvent(object, IntPtr)
 ```csharp
 public NarrationEndEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public NarrationEndEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

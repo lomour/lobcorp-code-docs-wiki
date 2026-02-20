@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.KetherLastEffectType
 canonical_path: /api/KetherBoss/KetherLastEffectType
 ---
-
 # Enum KetherLastEffectType
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum KetherLastEffectType
 ```
 
 ## Fields
-
 ### CONCENTRATION_LIGHT
 ```csharp
 CONCENTRATION_LIGHT = 4
@@ -86,5 +82,6 @@ WHITEFADE = 2
 
 #### Field Value
 **Type:** KetherBoss.KetherLastEffectType
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BlackCorpsAnim.BlackCorpAnimKey
 canonical_path: /api/Global/Key/BlackCorpsAnimBlackCorpAnimKey
 ---
-
 # Enum BlackCorpsAnim.BlackCorpAnimKey
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BlackCorpsAnim.BlackCorpAnimKey
 ```
 
 ## Fields
-
 ### AnimationInit
 ```csharp
 AnimationInit = 0
@@ -70,5 +66,6 @@ KeyEnd = 6
 
 #### Field Value
 **Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Point2DList
 canonical_path: /api/Poly2Tri/Point2DList
 ---
-
 # Class Point2DList
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ public class Point2DList : IList<Point2D>, ICollection<Point2D>, IEnumerable<Poi
 [IList<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1), [ICollection<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1), [IEnumerable<Point2D>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
 ## Constructors
-
 ### Point2DList()
 ```csharp
 public Point2DList()
@@ -60,7 +56,6 @@ public Point2DList(Point2DList l)
 | `l` | `Poly2Tri.Point2DList` |  |
 
 ## Fields
-
 ### kAngularSlop
 ```csharp
 public static readonly double kAngularSlop
@@ -118,7 +113,6 @@ protected Point2DList.WindingOrderType mWindingOrder
 **Type:** Poly2Tri.Point2DList.WindingOrderType
 
 ## Properties
-
 ### BoundingBox
 ```csharp
 public Rect2D BoundingBox { get; }
@@ -173,7 +167,6 @@ public Point2DList.WindingOrderType WindingOrder { get; set; }
 **Type:** Poly2Tri.Point2DList.WindingOrderType
 
 ## Methods
-
 ### Add(Point2D)
 ```csharp
 public virtual void Add(Point2D p)
@@ -518,5 +511,6 @@ public void Translate(Point2D vector)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

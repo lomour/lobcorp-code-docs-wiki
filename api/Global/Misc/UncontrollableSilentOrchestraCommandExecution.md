@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Uncontrollable_SilentOrchestra.CommandExecution
 canonical_path: /api/Global/Misc/UncontrollableSilentOrchestraCommandExecution
 ---
-
 # Delegate Uncontrollable_SilentOrchestra.CommandExecution
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private delegate void Uncontrollable_SilentOrchestra.CommandExecution()
 ```
 
 ## Constructors
-
 ### CommandExecution(object, IntPtr)
 ```csharp
 public CommandExecution(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public CommandExecution(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

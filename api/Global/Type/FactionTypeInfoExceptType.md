@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FactionTypeInfo.ExceptType
 canonical_path: /api/Global/Type/FactionTypeInfoExceptType
 ---
-
 # Class FactionTypeInfo.ExceptType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class FactionTypeInfo.ExceptType
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FactionTypeInfo.ExceptType
 
 ## Constructors
-
 ### ExceptType()
 ```csharp
 public ExceptType()
 ```
 
 ## Fields
-
 ### lib
 ```csharp
 public Dictionary<string, FactionActionType> lib
@@ -34,7 +29,6 @@ public Dictionary<string, FactionActionType> lib
 **Type:** System.Collections.Generic.Dictionary{System.String,FactionActionType}
 
 ## Methods
-
 ### CheckContains(string, out FactionActionType)
 ```csharp
 public bool CheckContains(string key, out FactionActionType type)
@@ -51,5 +45,6 @@ public bool CheckContains(string key, out FactionActionType type)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

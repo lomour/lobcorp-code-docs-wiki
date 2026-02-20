@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Attachment
 canonical_path: /api/Spine/Attachment
 ---
-
 # Class Attachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -30,7 +27,6 @@ public abstract class Attachment
 - [GetMaterial(Attachment)](Spine.Unity.SkeletonExtensions.html#Spine_Unity_SkeletonExtensions_GetMaterial_Spine_Attachment_)
 
 ## Constructors
-
 ### Attachment(string)
 ```csharp
 public Attachment(string name)
@@ -42,7 +38,6 @@ public Attachment(string name)
 | `name` | `System.String` |  |
 
 ## Properties
-
 ### Name
 ```csharp
 public string Name { get; private set; }
@@ -52,7 +47,6 @@ public string Name { get; private set; }
 **Type:** System.String
 
 ## Methods
-
 ### ToString()
 ```csharp
 public override string ToString()
@@ -63,5 +57,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StorySelectionOptionUI.AnimationState
 canonical_path: /api/Global/State/StorySelectionOptionUIAnimationState
 ---
-
 # Enum StorySelectionOptionUI.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum StorySelectionOptionUI.AnimationState
 ```
 
 ## Fields
-
 ### HIDE_TO_SHOW
 ```csharp
 HIDE_TO_SHOW = 1
@@ -38,5 +34,6 @@ STOP = 0
 
 #### Field Value
 **Type:** Global.StorySelectionOptionUI.AnimationState
+
 
 

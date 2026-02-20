@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.AttachmentLoader
 canonical_path: /api/Spine/AttachmentLoader
 ---
-
 # Interface AttachmentLoader
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface AttachmentLoader
 ```
 
 ## Methods
-
 ### NewBoundingBoxAttachment(Skin, string)
 ```csharp
 BoundingBoxAttachment NewBoundingBoxAttachment(Skin skin, string name)
@@ -100,5 +96,6 @@ RegionAttachment NewRegionAttachment(Skin skin, string name, string path)
 
 #### Returns
 **Type:** Spine.RegionAttachment
+
 
 

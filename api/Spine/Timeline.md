@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Timeline
 canonical_path: /api/Spine/Timeline
 ---
-
 # Interface Timeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface Timeline
 ```
 
 ## Properties
-
 ### PropertyId
 ```csharp
 int PropertyId { get; }
@@ -24,7 +20,6 @@ int PropertyId { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Apply(Skeleton, float, float, ExposedList<Event>, float, MixPose, MixDirection)
 ```csharp
 void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> events, float alpha, MixPose pose, MixDirection direction)
@@ -40,5 +35,6 @@ void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> eve
 | `alpha` | `System.Single` |  |
 | `pose` | `Spine.MixPose` |  |
 | `direction` | `Spine.MixDirection` |  |
+
 
 

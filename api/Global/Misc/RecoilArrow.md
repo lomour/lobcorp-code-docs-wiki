@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RecoilArrow
 canonical_path: /api/Global/Misc/RecoilArrow
 ---
-
 # Enum RecoilArrow
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RecoilArrow
 ```
 
 ## Fields
-
 ### DOWN
 ```csharp
 DOWN = 5
@@ -78,5 +74,6 @@ UP = 1
 
 #### Field Value
 **Type:** Global.RecoilArrow
+
 
 

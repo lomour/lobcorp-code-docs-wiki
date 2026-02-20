@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PanicOpenIsolate
 canonical_path: /api/Global/Misc/PanicOpenIsolate
 ---
-
 # Class PanicOpenIsolate
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ Panic behaviour for [agents](/api/Global/Worker/AgentModel) which causes them to
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicOpenIsolate
 
 ## Constructors
-
 ### PanicOpenIsolate(AgentModel)
 ```csharp
 public PanicOpenIsolate(AgentModel actor)
@@ -38,7 +34,6 @@ public PanicOpenIsolate(AgentModel actor)
 | `actor` | `Global.AgentModel` |  |
 
 ## Fields
-
 ### _currentOpenTargetCreature
 ```csharp
 private CreatureModel _currentOpenTargetCreature
@@ -103,7 +98,6 @@ private AgentModel actor
 **Type:** Global.AgentModel
 
 ## Methods
-
 ### Execute()
 ```csharp
 public override void Execute()
@@ -180,5 +174,6 @@ private void UpdateNextTarget()
 
 ## Inherited Members
 [GetAttackSpeedMultiplier()](/api/Global/Action/PanicAction#getattackspeedmultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Sefira
 canonical_path: /api/Global/Misc/Sefira
 ---
-
 # Class Sefira
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,9 +21,7 @@ During management, it also keeps track of the escaped abnormalities in the depar
 Generally, Central 1 does all the functions for Central 2.
 
 ## Methods
-
 ### Core
-
 #### public void OnStageStart_first()
 Initializes the department before the start of the management phase.
 
@@ -63,7 +58,6 @@ Sets the opened level.
 #### public void Activate()
 Sets a flag indicating this department is open.
 ### Rooms and Nodes
-
 #### public void ResetPassageData()
 Resets the lists of rooms.
 #### public void AddPassage(PassageObjectModel passage)
@@ -79,7 +73,6 @@ Adds all of the opened big rooms to the department.
 #### private void InitRecovoerPassages()
 Adds all big rooms to the list of rooms to recover health in. Then, if [Netzach's core suppression](/api/Global/Misc/NetzachBossBase) is completed, adds all hallways and elevators to the list of additional health recovery rooms (these recover at a lower rate). ^\[verify\]^
 ### Agents
-
 #### public void AddAgent(AgentModel add)
 Adds the agent to this department, if that agent isn't already added.
 #### public void RemoveAgent(AgentModel unit)
@@ -124,7 +117,6 @@ When an agent enters the department, adds them to the list of employees in this 
 #### public void ExitAgent(MovableObjectNode unit)
 When an agent leaves the department, removes them from the list of employees in the department. Central 2 removes it from Central 1.
 ### Clerks
-
 #### public void AddUnit(OfficerModel add)
 Adds a clerk to the department and increments the clerk count.
 #### private void AssignOfficerDept()
@@ -150,7 +142,6 @@ Returns the clerk benefits level of this department.
 Returns true if there are any clerks which aren't dead or panicked.
 
 ### Abnormalities
-
 #### public void ClearCreature()
 Clears the list of abnormalities.
 #### public bool IsAnyCreatureEscaped()
@@ -164,7 +155,6 @@ If the target isn't already in the list of breaching abnormalities, adds them, t
 #### public List\<CreatureModel> GetEscapedCreatures()
 Returns the list of breaching abnormalities.
 ### Mostly Unused
-
 #### public void CheckAgentStateForEmergency()
 Checks the rate of dead agents to send update the emergency level; but does so incorrectly... Called, but none of this code ever does anything except to calculate the death and panic rates, and all it *would* do is call empty code.
 #### private void ActivateAgentEmptyPenalty()
@@ -181,32 +171,21 @@ Called by a clerk action which should never be possible.
 #### public void OnAgentGetPanic(AgentModel panicAgent)
 Empty, but called.
 ### Unused
-
 ###### public void SetSefiraPassage(PassageObjectModel passage)
 Sets the main room to the given room.
 ###### public void AddDepartmentPassage(PassageObjectModel passage)
-
 ###### public MapNode[] GetDepartNodeToArray(int index)
-
 ###### private void UpdateAgentEmptyState()
-
 ###### public AgentModel[] GetAgentInSefira()
-
 ###### public OfficerSpecialAction GetRandomSpecialAction()
-
 ###### public bool IsAgentInEsacpedCreaturePassage(AgentModel checkTarget, out CreatureModel targetCreature)
-
 ###### public bool IsAgentInDeadAgentPassage(AgentModel checkTarget)
-
 ###### public int GetAliveOfficerCnt()
-
 ###### public void InitCreatureArray()
-
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Sefira
 
 ## Constructors
-
 ### Sefira(string, int, string, SefiraEnum)
 ```csharp
 public Sefira(string name, int index, string indexString, SefiraEnum sefiraEnum)
@@ -222,7 +201,6 @@ public Sefira(string name, int index, string indexString, SefiraEnum sefiraEnum)
 | `sefiraEnum` | `Global.SefiraEnum` |  |
 
 ## Fields
-
 ### _abilityCheckTimer
 ```csharp
 private Timer _abilityCheckTimer
@@ -638,7 +616,6 @@ private List<int> workingList
 **Type:** System.Collections.Generic.List{System.Int32}
 
 ## Properties
-
 ### activated
 ```csharp
 public bool activated { get; }
@@ -720,7 +697,6 @@ public SefiraEnum sefiraEnum { get; }
 **Type:** Global.SefiraEnum
 
 ## Methods
-
 ### Activate()
 ```csharp
 public void Activate()
@@ -1261,5 +1237,6 @@ private void UpdateSefiraAce()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

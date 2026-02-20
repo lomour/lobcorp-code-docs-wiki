@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureInfo.CreatureInfoCodex.SortData
 canonical_path: /api/CreatureInfo/CreatureInfoCodex/SortData
 ---
-
 # Class CreatureInfoCodex.SortData
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class CreatureInfoCodex.SortData
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureInfoCodex.SortData
 
 ## Constructors
-
 ### SortData()
 ```csharp
 public SortData()
 ```
 
 ## Fields
-
 ### id
 ```csharp
 public long id
@@ -42,7 +37,6 @@ public int index
 **Type:** System.Int32
 
 ## Methods
-
 ### Compare(SortData, SortData)
 ```csharp
 public static int Compare(CreatureInfoCodex.SortData a, CreatureInfoCodex.SortData b)
@@ -59,5 +53,6 @@ public static int Compare(CreatureInfoCodex.SortData a, CreatureInfoCodex.SortDa
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.StatUI.StatController
 canonical_path: /api/Customizing/StatUI/StatController
 ---
-
 # Class StatUI.StatController
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class StatUI.StatController
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StatUI.StatController
 
 ## Constructors
-
 ### StatController()
 ```csharp
 public StatController()
 ```
 
 ## Fields
-
 ### _currentCost
 ```csharp
 private int _currentCost
@@ -114,7 +109,6 @@ private StatUI statUI
 **Type:** Customizing.StatUI
 
 ## Properties
-
 ### CurrentCost
 ```csharp
 public int CurrentCost { get; }
@@ -124,7 +118,6 @@ public int CurrentCost { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### ButtonSetting()
 ```csharp
 public void ButtonSetting()
@@ -199,5 +192,6 @@ public void SetStatUI(StatUI ui)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

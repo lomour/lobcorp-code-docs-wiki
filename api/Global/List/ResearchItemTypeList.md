@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ResearchItemTypeList
 canonical_path: /api/Global/List/ResearchItemTypeList
 ---
-
 # Class ResearchItemTypeList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Loads and holds [types of research](/api/Global/Info/ResearchItemTypeInfo).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchItemTypeList
 
 ## Constructors
-
 ### ResearchItemTypeList()
 ```csharp
 private ResearchItemTypeList()
@@ -32,7 +28,6 @@ private ResearchItemTypeList()
 
 
 ## Fields
-
 ### _dic
 ```csharp
 private Dictionary<int, ResearchItemTypeInfo> _dic
@@ -70,7 +65,6 @@ private bool _loaded
 **Type:** System.Boolean
 
 ## Properties
-
 ### instance
 ```csharp
 public static ResearchItemTypeList instance { get; }
@@ -88,7 +82,6 @@ public bool loaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetData(int)
 ```csharp
 public ResearchItemTypeInfo GetData(int id)
@@ -139,5 +132,6 @@ public void Init(ReadOnlyCollection<ResearchItemTypeInfo> list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

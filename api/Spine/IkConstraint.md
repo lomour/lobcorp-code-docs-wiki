@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.IkConstraint
 canonical_path: /api/Spine/IkConstraint
 ---
-
 # Class IkConstraint
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class IkConstraint : IConstraint, IUpdatable
 [IConstraint](/api/Spine/IConstraint), [IUpdatable](/api/Spine/IUpdatable)
 
 ## Constructors
-
 ### IkConstraint(IkConstraintData, Skeleton)
 ```csharp
 public IkConstraint(IkConstraintData data, Skeleton skeleton)
@@ -33,7 +29,6 @@ public IkConstraint(IkConstraintData data, Skeleton skeleton)
 | `skeleton` | `Spine.Skeleton` |  |
 
 ## Fields
-
 ### bendDirection
 ```csharp
 internal int bendDirection
@@ -75,7 +70,6 @@ internal Bone target
 **Type:** Spine.Bone
 
 ## Properties
-
 ### BendDirection
 ```csharp
 public int BendDirection { get; set; }
@@ -125,7 +119,6 @@ public Bone Target { get; set; }
 **Type:** Spine.Bone
 
 ## Methods
-
 ### Apply()
 ```csharp
 public void Apply()
@@ -174,5 +167,6 @@ public void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

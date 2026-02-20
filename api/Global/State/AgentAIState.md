@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentAIState
 canonical_path: /api/Global/State/AgentAIState
 ---
-
 # Enum AgentAIState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentAIState
 ```
 
 ## Fields
-
 ### CANNOT_CONTROLL
 ```csharp
 CANNOT_CONTROLL = 3
@@ -102,5 +98,6 @@ SUPPRESS_WORKER = 5
 
 #### Field Value
 **Type:** Global.AgentAIState
+
 
 

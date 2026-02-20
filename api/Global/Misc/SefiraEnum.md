@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraEnum
 canonical_path: /api/Global/Misc/SefiraEnum
 ---
-
 # Enum SefiraEnum
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SefiraEnum
 ```
 
 ## Fields
-
 ### BINAH
 ```csharp
 BINAH = 8
@@ -118,5 +114,6 @@ YESOD = 1
 
 #### Field Value
 **Type:** Global.SefiraEnum
+
 
 

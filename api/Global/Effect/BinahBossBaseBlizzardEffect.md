@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BinahBossBase.BlizzardEffect
 canonical_path: /api/Global/Effect/BinahBossBaseBlizzardEffect
 ---
-
 # Enum BinahBossBase.BlizzardEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahBossBase.BlizzardEffect
 ```
 
 ## Fields
-
 ### DEFAULT
 ```csharp
 DEFAULT = 0
@@ -38,5 +34,6 @@ GROGGY = 2
 
 #### Field Value
 **Type:** Global.BinahBossBase.BlizzardEffect
+
 
 

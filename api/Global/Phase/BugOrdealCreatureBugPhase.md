@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugOrdealCreature.BugPhase
 canonical_path: /api/Global/Phase/BugOrdealCreatureBugPhase
 ---
-
 # Enum BugOrdealCreature.BugPhase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BugOrdealCreature.BugPhase
 ```
 
 ## Fields
-
 ### Attack
 ```csharp
 Attack = 3
@@ -54,5 +50,6 @@ Teleporting = 1
 
 #### Field Value
 **Type:** Global.BugOrdealCreature.BugPhase
+
 
 

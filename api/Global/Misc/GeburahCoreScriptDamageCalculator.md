@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GeburahCoreScript.DamageCalculator
 canonical_path: /api/Global/Misc/GeburahCoreScriptDamageCalculator
 ---
-
 # Class GeburahCoreScript.DamageCalculator
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class GeburahCoreScript.DamageCalculator
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GeburahCoreScript.DamageCalculator
 
 ## Constructors
-
 ### DamageCalculator()
 ```csharp
 public DamageCalculator()
 ```
 
 ## Fields
-
 ### curCumlatiedDamage
 ```csharp
 public float curCumlatiedDamage
@@ -50,7 +45,6 @@ public float maxDamage
 **Type:** System.Single
 
 ## Methods
-
 ### CurDamageInit()
 ```csharp
 public void CurDamageInit()
@@ -78,5 +72,6 @@ public void SetMaxDamage(float maxDamage)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

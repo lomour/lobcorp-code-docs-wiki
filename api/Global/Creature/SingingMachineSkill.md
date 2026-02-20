@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SingingMachineSkill
 canonical_path: /api/Global/Creature/SingingMachineSkill
 ---
-
 # Class SingingMachineSkill
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -28,7 +25,6 @@ See .
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### SingingMachineSkill(CreatureModel)
 ```csharp
 public SingingMachineSkill(CreatureModel model)
@@ -41,7 +37,6 @@ public SingingMachineSkill(CreatureModel model)
 | `model` | `Global.CreatureModel` |  |
 
 ## Fields
-
 ### attackTargets
 ```csharp
 private List<UnitModel> attackTargets
@@ -268,7 +263,6 @@ private AgentModel workingAttracted
 **Type:** Global.AgentModel
 
 ## Methods
-
 ### AddAttackTarget(UnitModel)
 ```csharp
 public void AddAttackTarget(UnitModel worker)
@@ -498,5 +492,6 @@ public void StopNote()
 
 ## Inherited Members
 [model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate()](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentInfoWindow.StatSlot
 canonical_path: /api/Global/Misc/AgentInfoWindowStatSlot
 ---
-
 # Class AgentInfoWindow.StatSlot
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class AgentInfoWindow.StatSlot
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentInfoWindow.StatSlot
 
 ## Constructors
-
 ### StatSlot()
 ```csharp
 public StatSlot()
 ```
 
 ## Fields
-
 ### Addition
 ```csharp
 public Text Addition
@@ -66,7 +61,6 @@ public List<Text> Vanila
 **Type:** System.Collections.Generic.List{UnityEngine.UI.Text}
 
 ## Methods
-
 ### SetText(string)
 ```csharp
 public void SetText(string vanlia)
@@ -90,5 +84,6 @@ public void SetText(string vanila, string addition)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

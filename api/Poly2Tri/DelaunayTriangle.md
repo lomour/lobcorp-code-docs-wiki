@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.DelaunayTriangle
 canonical_path: /api/Poly2Tri/DelaunayTriangle
 ---
-
 # Class DelaunayTriangle
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class DelaunayTriangle
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DelaunayTriangle
 
 ## Constructors
-
 ### DelaunayTriangle(TriangulationPoint, TriangulationPoint, TriangulationPoint)
 ```csharp
 public DelaunayTriangle(TriangulationPoint p1, TriangulationPoint p2, TriangulationPoint p3)
@@ -31,7 +27,6 @@ public DelaunayTriangle(TriangulationPoint p1, TriangulationPoint p2, Triangulat
 | `p3` | `Poly2Tri.TriangulationPoint` |  |
 
 ## Fields
-
 ### EdgeIsDelaunay
 ```csharp
 public FixedBitArray3 EdgeIsDelaunay
@@ -65,7 +60,6 @@ public FixedArray3<TriangulationPoint> Points
 **Type:** Poly2Tri.FixedArray3{Poly2Tri.TriangulationPoint}
 
 ## Properties
-
 ### EdgeIsConstrained
 ```csharp
 public FixedBitArray3 EdgeIsConstrained { get; }
@@ -83,7 +77,6 @@ public bool IsInterior { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Area()
 ```csharp
 public double Area()
@@ -594,5 +587,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

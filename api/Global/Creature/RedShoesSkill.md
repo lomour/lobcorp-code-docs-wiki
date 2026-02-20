@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RedShoesSkill
 canonical_path: /api/Global/Creature/RedShoesSkill
 ---
-
 # Class RedShoesSkill
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,7 +24,6 @@ public class RedShoesSkill : CreatureSpecialSkill, IObserver
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### RedShoesSkill(CreatureModel)
 ```csharp
 public RedShoesSkill(CreatureModel model)
@@ -40,7 +36,6 @@ public RedShoesSkill(CreatureModel model)
 | `model` | `Global.CreatureModel` |  |
 
 ## Fields
-
 ### attracted
 ```csharp
 public bool attracted
@@ -96,7 +91,6 @@ private List<WorkerModel> targetList
 **Type:** System.Collections.Generic.List{WorkerModel}
 
 ## Methods
-
 ### Attract(WorkerModel)
 ```csharp
 public void Attract(WorkerModel target)
@@ -232,5 +226,6 @@ public void TryAttract()
 
 ## Inherited Members
 [model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate(WorkerModel)](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate-workermodel), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [DeActivate()](/api/Global/IOBserver/CreatureSpecialSkill#deactivate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [OnObserveLevelChanged()](/api/Global/IOBserver/CreatureSpecialSkill#onobservelevelchanged), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ChopLeg.LegType
 canonical_path: /api/Global/Type/ChopLegLegType
 ---
-
 # Enum ChopLeg.LegType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ChopLeg.LegType
 ```
 
 ## Fields
-
 ### A
 ```csharp
 A = 0
@@ -30,5 +26,6 @@ B = 1
 
 #### Field Value
 **Type:** Global.ChopLeg.LegType
+
 
 

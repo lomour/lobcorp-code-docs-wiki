@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.ISkeletonAnimation
 canonical_path: /api/Spine/Unity/ISkeletonAnimation
 ---
-
 # Interface ISkeletonAnimation
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public interface ISkeletonAnimation
 ```
 
 ## Properties
-
 ### Skeleton
 ```csharp
 Skeleton Skeleton { get; }
@@ -24,14 +20,12 @@ Skeleton Skeleton { get; }
 **Type:** Spine.Skeleton
 
 ## Methods
-
 ### LateUpdate()
 ```csharp
 void LateUpdate()
 ```
 
 ## Events
-
 ### UpdateComplete
 ```csharp
 event UpdateBonesDelegate UpdateComplete
@@ -55,5 +49,6 @@ event UpdateBonesDelegate UpdateWorld
 
 #### Returns
 **Type:** Spine.Unity.UpdateBonesDelegate
+
 
 

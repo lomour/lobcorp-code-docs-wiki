@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.SkeletonBinary
 canonical_path: /api/Spine/SkeletonBinary
 ---
-
 # Class SkeletonBinary
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class SkeletonBinary
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonBinary
 
 ## Constructors
-
 ### SkeletonBinary(AttachmentLoader)
 ```csharp
 public SkeletonBinary(AttachmentLoader attachmentLoader)
@@ -39,7 +35,6 @@ public SkeletonBinary(params Atlas[] atlasArray)
 | `atlasArray` | `Spine.Atlas[]` |  |
 
 ## Fields
-
 ### attachmentLoader
 ```csharp
 private AttachmentLoader attachmentLoader
@@ -177,7 +172,6 @@ public static readonly TransformMode[] TransformModeValues
 **Type:** Spine.TransformMode[]
 
 ## Properties
-
 ### Scale
 ```csharp
 public float Scale { get; set; }
@@ -187,7 +181,6 @@ public float Scale { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### GetVersionString(Stream)
 ```csharp
 public static string GetVersionString(Stream input)
@@ -421,5 +414,6 @@ private SkeletonBinary.Vertices ReadVertices(Stream input, int vertexCount)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Atlas
 canonical_path: /api/Spine/Atlas
 ---
-
 # Class Atlas
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class Atlas : IEnumerable<AtlasRegion>, IEnumerable
 [IEnumerable<AtlasRegion>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
 ## Constructors
-
 ### Atlas(List<AtlasPage>, List<AtlasRegion>)
 ```csharp
 public Atlas(List<AtlasPage> pages, List<AtlasRegion> regions)
@@ -45,7 +41,6 @@ public Atlas(TextReader reader, string dir, TextureLoader textureLoader)
 | `textureLoader` | `Spine.TextureLoader` |  |
 
 ## Fields
-
 ### pages
 ```csharp
 private readonly List<AtlasPage> pages
@@ -71,7 +66,6 @@ private TextureLoader textureLoader
 **Type:** Spine.TextureLoader
 
 ## Methods
-
 ### Dispose()
 ```csharp
 public void Dispose()
@@ -152,5 +146,6 @@ private static string ReadValue(TextReader reader)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

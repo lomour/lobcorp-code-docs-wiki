@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EventBase
 canonical_path: /api/Global/Event/EventBase
 ---
-
 # Class EventBase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ Base for events except there's only [Apocalypse Bird](/api/Global/Misc/BossBird)
 [BossBirdEvent](/api/Global/Event/BossBirdEvent)
 
 ## Constructors
-
 ### EventBase()
 ```csharp
 public EventBase()
 ```
 
 ## Fields
-
 ### _type
 ```csharp
 protected EventBase.EventType _type
@@ -53,7 +48,6 @@ public bool isStarted
 **Type:** System.Boolean
 
 ## Properties
-
 ### type
 ```csharp
 public EventBase.EventType type { get; }
@@ -63,7 +57,6 @@ public EventBase.EventType type { get; }
 **Type:** Global.EventBase.EventType
 
 ## Methods
-
 ### EventEnd()
 ```csharp
 public virtual void EventEnd()
@@ -105,5 +98,6 @@ public virtual void OnGameInit()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

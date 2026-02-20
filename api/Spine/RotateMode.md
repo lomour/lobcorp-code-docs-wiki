@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.RotateMode
 canonical_path: /api/Spine/RotateMode
 ---
-
 # Enum RotateMode
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RotateMode
 ```
 
 ## Fields
-
 ### Chain
 ```csharp
 Chain = 1
@@ -38,5 +34,6 @@ Tangent = 0
 
 #### Field Value
 **Type:** Spine.RotateMode
+
 
 

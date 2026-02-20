@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.BackGroundMoveEffect.ChangeBackgournd
 canonical_path: /api/KetherBoss/BackGroundMoveEffect/ChangeBackgournd
 ---
-
 # Delegate BackGroundMoveEffect.ChangeBackgournd
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BackGroundMoveEffect.ChangeBackgournd()
 ```
 
 ## Constructors
-
 ### ChangeBackgournd(object, IntPtr)
 ```csharp
 public ChangeBackgournd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public ChangeBackgournd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

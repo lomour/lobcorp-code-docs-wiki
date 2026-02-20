@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DraggedObject.OnDropEnd
 canonical_path: /api/Global/Misc/DraggedObjectOnDropEnd
 ---
-
 # Delegate DraggedObject.OnDropEnd
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void DraggedObject.OnDropEnd(Drop drop, bool state)
 ```
 
 ## Constructors
-
 ### OnDropEnd(object, IntPtr)
 ```csharp
 public OnDropEnd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnDropEnd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(Drop, bool, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(Drop drop, bool state, AsyncCallback callback, object @object)
@@ -64,5 +59,6 @@ public virtual void Invoke(Drop drop, bool state)
 | --- | --- | --- |
 | `drop` | `Global.Drop` |  |
 | `state` | `System.Boolean` |  |
+
 
 

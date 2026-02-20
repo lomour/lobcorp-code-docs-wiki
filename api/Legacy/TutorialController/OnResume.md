@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.TutorialController.OnResume
 canonical_path: /api/Legacy/TutorialController/OnResume
 ---
-
 # Delegate TutorialController.OnResume
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void TutorialController.OnResume(PAUSECALL caller)
 ```
 
 ## Constructors
-
 ### OnResume(object, IntPtr)
 ```csharp
 public OnResume(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnResume(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(PAUSECALL, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(PAUSECALL caller, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(PAUSECALL caller)
 | Name | Type | Description |
 | --- | --- | --- |
 | `caller` | `Global.PAUSECALL` |  |
+
 
 

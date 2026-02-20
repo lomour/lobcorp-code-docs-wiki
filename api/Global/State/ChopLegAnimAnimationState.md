@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ChopLegAnim.AnimationState
 canonical_path: /api/Global/State/ChopLegAnimAnimationState
 ---
-
 # Enum ChopLegAnim.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ChopLegAnim.AnimationState
 ```
 
 ## Fields
-
 ### Attack
 ```csharp
 Attack = 2
@@ -38,5 +34,6 @@ Down = 1
 
 #### Field Value
 **Type:** Global.ChopLegAnim.AnimationState
+
 
 

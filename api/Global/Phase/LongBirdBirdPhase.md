@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LongBird.BirdPhase
 canonical_path: /api/Global/Phase/LongBirdBirdPhase
 ---
-
 # Enum LongBird.BirdPhase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum LongBird.BirdPhase
 ```
 
 ## Fields
-
 ### CASTING
 ```csharp
 CASTING = 3
@@ -62,5 +58,6 @@ MOVE_TARGET = 2
 
 #### Field Value
 **Type:** Global.LongBird.BirdPhase
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.DeathAngelClockUI.EndCalled
 canonical_path: /api/Legacy/DeathAngelClockUI/EndCalled
 ---
-
 # Delegate DeathAngelClockUI.EndCalled
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void DeathAngelClockUI.EndCalled()
 ```
 
 ## Constructors
-
 ### EndCalled(object, IntPtr)
 ```csharp
 public EndCalled(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public EndCalled(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

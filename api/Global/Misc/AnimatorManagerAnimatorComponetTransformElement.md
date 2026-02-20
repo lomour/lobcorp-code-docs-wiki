@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AnimatorManager.AnimatorComponet.TransformElement
 canonical_path: /api/Global/Misc/AnimatorManagerAnimatorComponetTransformElement
 ---
-
 # Class AnimatorManager.AnimatorComponet.TransformElement
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class AnimatorManager.AnimatorComponet.TransformElement
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AnimatorManager.AnimatorComponet.TransformElement
 
 ## Constructors
-
 ### TransformElement(Animator)
 ```csharp
 public TransformElement(Animator target)
@@ -29,7 +25,6 @@ public TransformElement(Animator target)
 | `target` | `UnityEngine.Animator` |  |
 
 ## Fields
-
 ### list
 ```csharp
 public List<AnimatorManager.AnimatorComponet.TransformElement.Element> list
@@ -39,7 +34,6 @@ public List<AnimatorManager.AnimatorComponet.TransformElement.Element> list
 **Type:** System.Collections.Generic.List{AnimatorManager.AnimatorComponet.TransformElement.Element}
 
 ## Methods
-
 ### GetTransform()
 ```csharp
 public void GetTransform()
@@ -57,5 +51,6 @@ public void SaveTransform(Transform transform)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.PathConstraintData
 canonical_path: /api/Spine/PathConstraintData
 ---
-
 # Class PathConstraintData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class PathConstraintData
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PathConstraintData
 
 ## Constructors
-
 ### PathConstraintData(string)
 ```csharp
 public PathConstraintData(string name)
@@ -29,7 +25,6 @@ public PathConstraintData(string name)
 | `name` | `System.String` |  |
 
 ## Fields
-
 ### bones
 ```csharp
 internal ExposedList<BoneData> bones
@@ -127,7 +122,6 @@ internal float translateMix
 **Type:** System.Single
 
 ## Properties
-
 ### Bones
 ```csharp
 public ExposedList<BoneData> Bones { get; }
@@ -225,7 +219,6 @@ public float TranslateMix { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### ToString()
 ```csharp
 public override string ToString()
@@ -236,5 +229,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

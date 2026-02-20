@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IActivatableObject
 canonical_path: /api/Global/Object/IActivatableObject
 ---
-
 # Interface IActivatableObject
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ Interface representing an object which can be activated. (Verify this is used fo
 
 
 ## Methods
-
 ### Activate()
 ```csharp
 void Activate()
@@ -66,6 +62,7 @@ void OnUIAreaClick(BaseEventData eventData)
 ```csharp
 void UIActivateInit()
 ```
+
 
 
 

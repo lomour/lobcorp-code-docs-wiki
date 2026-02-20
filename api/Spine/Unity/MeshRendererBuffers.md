@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.MeshRendererBuffers
 canonical_path: /api/Spine/Unity/MeshRendererBuffers
 ---
-
 # Class MeshRendererBuffers
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -20,14 +17,12 @@ public class MeshRendererBuffers : IDisposable
 [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
 ## Constructors
-
 ### MeshRendererBuffers()
 ```csharp
 public MeshRendererBuffers()
 ```
 
 ## Fields
-
 ### doubleBufferedMesh
 ```csharp
 private DoubleBuffered<MeshRendererBuffers.SmartMesh> doubleBufferedMesh
@@ -53,7 +48,6 @@ internal readonly ExposedList<Material> submeshMaterials
 **Type:** Spine.ExposedList{UnityEngine.Material}
 
 ## Methods
-
 ### Clear()
 ```csharp
 public void Clear()
@@ -105,5 +99,6 @@ public void UpdateSharedMaterials(ExposedList<SubmeshInstruction> instructions)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

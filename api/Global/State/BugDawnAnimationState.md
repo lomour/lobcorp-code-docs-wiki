@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugDawn.AnimationState
 canonical_path: /api/Global/State/BugDawnAnimationState
 ---
-
 # Enum BugDawn.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BugDawn.AnimationState
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 4
@@ -62,5 +58,6 @@ MOVE = 0
 
 #### Field Value
 **Type:** Global.BugDawn.AnimationState
+
 
 

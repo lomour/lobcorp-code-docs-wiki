@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ElevatorUsable
 canonical_path: /api/Global/Misc/ElevatorUsable
 ---
-
 # Class ElevatorUsable
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Possibly handles where [elevators](/api/Global/Model/ElevatorPassageModel) go to
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ElevatorUsable
 
 ## Constructors
-
 ### ElevatorUsable(object, MovableObjectNode)
 ```csharp
 public ElevatorUsable(object model, MovableObjectNode movableItem)
@@ -40,7 +36,6 @@ public ElevatorUsable(object model, MovableObjectNode movableItem)
 | `movableItem` | `Global.MovableObjectNode` |  |
 
 ## Fields
-
 ### dest
 ```csharp
 public MapNode dest
@@ -78,7 +73,6 @@ public MovableObjectNode movableObject
 **Type:** Global.MovableObjectNode
 
 ## Methods
-
 ### GetMovableObject()
 ```csharp
 public MovableObjectNode GetMovableObject()
@@ -120,5 +114,6 @@ public void SetDestination()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

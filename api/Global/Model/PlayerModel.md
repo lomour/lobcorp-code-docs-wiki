@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlayerModel
 canonical_path: /api/Global/Model/PlayerModel
 ---
-
 # Class PlayerModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,9 +26,7 @@ Also, has the EmergencyController in it, which controls the current trumpet.
 
 
 ## Methods
-
 ### Core
-
 #### void Init()
 Resets game-overs, memory repository, sets day to 0, and clears the queue of waiting creatures[^1]. 
 [^1]: Does not use InitAddingCreatures
@@ -40,7 +35,6 @@ Returns a dictionary with one key, "day", with the value of the current day.
 #### public void LoadData(Dictionary\<string, object> dic)
 Unflags the Day 47-49 game over flag (and the unused memoryInit flag), then reads the day from the provided data.
 ### Abnormality Queue
-
 #### public void InitAddingCreatures()
 Clears the queue of waiting abnormalities. Used by title Day 1 resets and total resets. 
 #### public void AddWaitingCreature(long id)
@@ -58,7 +52,6 @@ Between days 20-24 and 45-49 (inclusive), this returns true if there are 2 or mo
 Returns true if the given id belongs to an abnormality in the current queue.
 
 ### Day
-
 #### public void SetDay(int day)
 Sets the day to the given value and notifies all listeners of UpdateDay.
 #### public void Nextday()
@@ -66,7 +59,6 @@ Increments the day, sets a flag in [GlobalGameManager](/api/Global/IOBserver/Glo
 #### public int GetDay()
 Returns the current day.
 ### Misc
-
 #### public Sefira[] GetOpenedAreaList()
 Returns an array of all opened departments, via [SefiraManager](/api/Global/IOBserver/SefiraManager).
 #### public int GetOpenedAreaCount()
@@ -78,7 +70,6 @@ Opens all departments (or just the Asiyah and Briah ones, if the save file is ol
 #### public void Remember()
 Sets an unused 'memoryInit' flag.
 ### Unused
-
 #### private void TempMakeCreature()
 Debug tool to open Asiyah and Briah with abnormalities in them. Not used.
 
@@ -87,7 +78,6 @@ Debug tool to open Asiyah and Briah with abnormalities in them. Not used.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PlayerModel
 
 ## Constructors
-
 ### PlayerModel()
 ```csharp
 private PlayerModel()
@@ -95,7 +85,6 @@ private PlayerModel()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static PlayerModel _instance
@@ -213,7 +202,6 @@ private const int Third = 30
 **Type:** System.Int32
 
 ## Properties
-
 ### instance
 ```csharp
 public static PlayerModel instance { get; }
@@ -239,7 +227,6 @@ public bool memoryInit { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### AddWaitingCreature(long)
 ```csharp
 public void AddWaitingCreature(long id)
@@ -404,5 +391,6 @@ public void UnlimitMode(string saveVer)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

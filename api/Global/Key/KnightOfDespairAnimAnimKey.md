@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.KnightOfDespairAnim.AnimKey
 canonical_path: /api/Global/Key/KnightOfDespairAnimAnimKey
 ---
-
 # Enum KnightOfDespairAnim.AnimKey
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum KnightOfDespairAnim.AnimKey
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 5
@@ -62,5 +58,6 @@ TRANSFORM = 1
 
 #### Field Value
 **Type:** Global.KnightOfDespairAnim.AnimKey
+
 
 

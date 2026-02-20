@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Drop.OnDropEvent
 canonical_path: /api/Global/Event/DropOnDropEvent
 ---
-
 # Delegate Drop.OnDropEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate bool Drop.OnDropEvent(params object[] param)
 ```
 
 ## Constructors
-
 ### OnDropEvent(object, IntPtr)
 ```csharp
 public OnDropEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnDropEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(object[], AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, object @object)
@@ -68,5 +63,6 @@ public virtual bool Invoke(params object[] param)
 
 #### Returns
 **Type:** System.Boolean
+
 
 

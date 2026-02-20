@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SilentOrchestraAnim.Singer
 canonical_path: /api/Global/Misc/SilentOrchestraAnimSinger
 ---
-
 # Class SilentOrchestraAnim.Singer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SilentOrchestraAnim.Singer
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SilentOrchestraAnim.Singer
 
 ## Constructors
-
 ### Singer()
 ```csharp
 public Singer()
 ```
 
 ## Fields
-
 ### appearAnimator
 ```csharp
 public Animator appearAnimator
@@ -50,7 +45,6 @@ public GameObject singer
 **Type:** UnityEngine.GameObject
 
 ## Properties
-
 ### singerAnim
 ```csharp
 public Animator singerAnim { get; }
@@ -60,7 +54,6 @@ public Animator singerAnim { get; }
 **Type:** UnityEngine.Animator
 
 ## Methods
-
 ### Appear(float)
 ```csharp
 public void Appear(float appearTime)
@@ -83,5 +76,6 @@ public void OnEndAppear()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

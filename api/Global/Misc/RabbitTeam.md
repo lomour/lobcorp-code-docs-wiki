@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RabbitTeam
 canonical_path: /api/Global/Misc/RabbitTeam
 ---
-
 # Class RabbitTeam
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ A collection of a few [rabbits](/api/Global/Model/RabbitModel) spawned together 
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitTeam
 
 ## Constructors
-
 ### RabbitTeam()
 ```csharp
 public RabbitTeam()
 ```
 
 ## Fields
-
 ### _aiTimer
 ```csharp
 private Timer _aiTimer
@@ -114,7 +109,6 @@ public SefiraEnum sefira
 **Type:** Global.SefiraEnum
 
 ## Properties
-
 ### IsCleared
 ```csharp
 public bool IsCleared { get; }
@@ -124,7 +118,6 @@ public bool IsCleared { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### ClearOperation()
 ```csharp
 public void ClearOperation()
@@ -188,5 +181,6 @@ private void UpdateTargetPassage()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

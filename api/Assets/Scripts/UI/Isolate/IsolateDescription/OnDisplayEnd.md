@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Assets.Scripts.UI.Isolate.IsolateDescription.OnDisplayEnd
 canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescription/OnDisplayEnd
 ---
-
 # Delegate IsolateDescription.OnDisplayEnd
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void IsolateDescription.OnDisplayEnd(IsolateDescription i)
 ```
 
 ## Constructors
-
 ### OnDisplayEnd(object, IntPtr)
 ```csharp
 public OnDisplayEnd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnDisplayEnd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(IsolateDescription, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(IsolateDescription i, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(IsolateDescription i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `Assets.Scripts.UI.Isolate.IsolateDescription` |  |
+
 
 

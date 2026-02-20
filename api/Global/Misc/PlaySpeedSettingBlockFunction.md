@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlaySpeedSettingBlockFunction
 canonical_path: /api/Global/Misc/PlaySpeedSettingBlockFunction
 ---
-
 # Enum PlaySpeedSettingBlockFunction
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PlaySpeedSettingBlockFunction
 ```
 
 ## Fields
-
 ### ALL
 ```csharp
 ALL = 4
@@ -70,5 +66,6 @@ TIMESTOP_RESUME = 1
 
 #### Field Value
 **Type:** Global.PlaySpeedSettingBlockFunction
+
 
 

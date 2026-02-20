@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StageTypeInfo
 canonical_path: /api/Global/Info/StageTypeInfo
 ---
-
 # Class StageTypeInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Also stores how many agents can be allocated to a department of with a certain o
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StageTypeInfo
 
 ## Constructors
-
 ### StageTypeInfo()
 ```csharp
 public StageTypeInfo()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static StageTypeInfo _instance
@@ -78,7 +73,6 @@ public int[] stageTime
 **Type:** System.Int32[]
 
 ## Properties
-
 ### instnace
 ```csharp
 public static StageTypeInfo instnace { get; }
@@ -88,7 +82,6 @@ public static StageTypeInfo instnace { get; }
 **Type:** Global.StageTypeInfo
 
 ## Methods
-
 ### EndRank(int, float)
 ```csharp
 public int EndRank(int day, float time)
@@ -134,5 +127,6 @@ private float GetEnergyNeedInUnlimitMode(int day)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

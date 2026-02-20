@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CommandWindow.WorkData
 canonical_path: /api/CommandWindow/WorkData
 ---
-
 # Class WorkData
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See also [ManagementSlot](/api/CommandWindow/ManagementSlot)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkData
 
 ## Constructors
-
 ### WorkData()
 ```csharp
 public WorkData()
 ```
 
 ## Fields
-
 ### _current
 ```csharp
 private SkillTypeInfo _current
@@ -150,7 +145,6 @@ public Text WorkSuccess
 **Type:** UnityEngine.UI.Text
 
 ## Methods
-
 ### CheckCurrentSkill()
 ```csharp
 public void CheckCurrentSkill()
@@ -192,5 +186,6 @@ public void SetData(AgentModel model)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

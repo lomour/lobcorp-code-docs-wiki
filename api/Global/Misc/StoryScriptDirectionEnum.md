@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryScriptDirectionEnum
 canonical_path: /api/Global/Misc/StoryScriptDirectionEnum
 ---
-
 # Enum StoryScriptDirectionEnum
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryScriptDirectionEnum
 ```
 
 ## Fields
-
 ### LEFT
 ```csharp
 LEFT = 1
@@ -38,5 +34,6 @@ RIGHT = 2
 
 #### Field Value
 **Type:** Global.StoryScriptDirectionEnum
+
 
 

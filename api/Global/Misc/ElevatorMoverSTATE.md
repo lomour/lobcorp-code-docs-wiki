@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ElevatorMover.STATE
 canonical_path: /api/Global/Misc/ElevatorMoverSTATE
 ---
-
 # Enum ElevatorMover.STATE
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ElevatorMover.STATE
 ```
 
 ## Fields
-
 ### MOVE
 ```csharp
 MOVE = 0
@@ -46,5 +42,6 @@ STOP = 2
 
 #### Field Value
 **Type:** Global.ElevatorMover.STATE
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Manual.TextType
 canonical_path: /api/Manual/TextType
 ---
-
 # Enum TextType
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum TextType
 ```
 
 ## Fields
-
 ### TEXT
 ```csharp
 TEXT = 0
@@ -30,5 +26,6 @@ TITLE = 1
 
 #### Field Value
 **Type:** Manual.TextType
+
 
 

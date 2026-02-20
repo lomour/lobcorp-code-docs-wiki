@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentAnim.AfterResetEvent
 canonical_path: /api/Global/Event/AgentAnimAfterResetEvent
 ---
-
 # Delegate AgentAnim.AfterResetEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void AgentAnim.AfterResetEvent()
 ```
 
 ## Constructors
-
 ### AfterResetEvent(object, IntPtr)
 ```csharp
 public AfterResetEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public AfterResetEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

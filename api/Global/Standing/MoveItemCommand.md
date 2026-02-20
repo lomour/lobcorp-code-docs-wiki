@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MoveItemCommand
 canonical_path: /api/Global/Standing/MoveItemCommand
 ---
-
 # Class MoveItemCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ public class MoveItemCommand : StandingCommand
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → [StandingCommand](/api/Global/Misc/StandingCommand) → MoveItemCommand
 
 ## Constructors
-
 ### MoveItemCommand(MapNode)
 ```csharp
 public MoveItemCommand(MapNode targetNode)
@@ -49,7 +45,6 @@ public MoveItemCommand(MovableObjectNode targetMovable)
 | `targetMovable` | `Global.MovableObjectNode` |  |
 
 ## Fields
-
 ### targetMovable
 ```csharp
 public MovableObjectNode targetMovable
@@ -69,7 +64,6 @@ public MapNode targetNode
 **Type:** Global.MapNode
 
 ## Methods
-
 ### Execute()
 ```csharp
 public override void Execute()
@@ -90,5 +84,6 @@ public override void OnStop()
 
 ## Inherited Members
 [endCmd](/api/Global/Misc/StandingCommand#endcmd), [MoveCommand(MovableObjectNode)](/api/Global/Misc/StandingCommand#movecommand-movableobjectnode), [MoveCommand(MapNode)](/api/Global/Misc/StandingCommand#movecommand-mapnode), [MoveCommand(MovableObjectNode, OnCommandEnd)](/api/Global/Misc/StandingCommand#movecommand-movableobjectnode-oncommandend), [MoveCommand(MapNode, OnCommandEnd)](/api/Global/Misc/StandingCommand#movecommand-mapnode-oncommandend), [Finish()](/api/Global/Misc/StandingCommand#finish), [SetEndCommand(OnCommandEnd)](/api/Global/Misc/StandingCommand#setendcommand-oncommandend), [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnDestroy()](/api/Global/Misc/UnitCommand#ondestroy), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

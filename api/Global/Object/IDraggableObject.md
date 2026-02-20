@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IDraggableObject
 canonical_path: /api/Global/Object/IDraggableObject
 ---
-
 # Interface IDraggableObject
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,7 +26,6 @@ OnDropEnd(Drop drop, bool state)
 
 
 ## Methods
-
 ### GenDraggedObject(string)
 ```csharp
 GameObject GenDraggedObject(string name)
@@ -81,6 +77,7 @@ void OnDropEnd(Drop drop, bool state)
 ```csharp
 void OnEndDrag()
 ```
+
 
 
 

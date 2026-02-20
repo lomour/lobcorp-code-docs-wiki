@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureBase.SpecialSkillTipParameter
 canonical_path: /api/Global/Misc/CreatureBaseSpecialSkillTipParameter
 ---
-
 # Class CreatureBase.SpecialSkillTipParameter
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class CreatureBase.SpecialSkillTipParameter
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureBase.SpecialSkillTipParameter
 
 ## Constructors
-
 ### SpecialSkillTipParameter(CreatureBase, CreatureSpecialSkillDesc)
 ```csharp
 public SpecialSkillTipParameter(CreatureBase script, CreatureSpecialSkillDesc desc)
@@ -55,7 +51,6 @@ public SpecialSkillTipParameter(CreatureBase script, string key, int maxCount, b
 | `isRelease` | `System.Boolean` |  |
 
 ## Fields
-
 ### desc
 ```csharp
 private CreatureSpecialSkillDesc desc
@@ -121,7 +116,6 @@ private CreatureBase script
 **Type:** Global.CreatureBase
 
 ## Methods
-
 ### AddCount()
 ```csharp
 public void AddCount()
@@ -185,5 +179,6 @@ public void SetCount(int cnt)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

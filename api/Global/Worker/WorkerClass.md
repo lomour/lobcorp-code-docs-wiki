@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.WorkerClass
 canonical_path: /api/Global/Worker/WorkerClass
 ---
-
 # Enum WorkerClass
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum WorkerClass
 ```
 
 ## Fields
-
 ### AGENT
 ```csharp
 AGENT = 1
@@ -46,5 +42,6 @@ UNKNOWN = 0
 
 #### Field Value
 **Type:** Global.WorkerClass
+
 
 

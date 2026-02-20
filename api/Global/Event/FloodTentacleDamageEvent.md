@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FloodTentacle.DamageEvent
 canonical_path: /api/Global/Event/FloodTentacleDamageEvent
 ---
-
 # Delegate FloodTentacle.DamageEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private delegate void FloodTentacle.DamageEvent(UnitModel target)
 ```
 
 ## Constructors
-
 ### DamageEvent(object, IntPtr)
 ```csharp
 public DamageEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public DamageEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(UnitModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(UnitModel target, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 
 

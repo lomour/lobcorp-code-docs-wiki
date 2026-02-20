@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SnowWhite.PassageInfectInfo
 canonical_path: /api/Global/Info/SnowWhitePassageInfectInfo
 ---
-
 # Class SnowWhite.PassageInfectInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class SnowWhite.PassageInfectInfo
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SnowWhite.PassageInfectInfo
 
 ## Constructors
-
 ### PassageInfectInfo(SnowWhite)
 ```csharp
 public PassageInfectInfo(SnowWhite s)
@@ -29,7 +25,6 @@ public PassageInfectInfo(SnowWhite s)
 | `s` | `Global.SnowWhite` |  |
 
 ## Fields
-
 ### completeInfection
 ```csharp
 public bool completeInfection
@@ -87,7 +82,6 @@ private const float vineDistance = 0.5
 **Type:** System.Single
 
 ## Methods
-
 ### Init()
 ```csharp
 public void Init()
@@ -100,5 +94,6 @@ public void Spread()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

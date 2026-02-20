@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.Appearance
 canonical_path: /api/Customizing/Appearance
 ---
-
 # Class Appearance
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See [CustomizingWindow](/api/Customizing/CustomizingWindow) and [AgentData](/api
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Appearance
 
 ## Constructors
-
 ### Appearance()
 ```csharp
 public Appearance()
 ```
 
 ## Fields
-
 ### Eye_Battle
 ```csharp
 public Sprite Eye_Battle
@@ -157,7 +152,6 @@ public WorkerSprite spriteSet
 **Type:** WorkerSprite.WorkerSprite
 
 ## Properties
-
 ### EyeColor
 ```csharp
 public Color EyeColor { get; set; }
@@ -175,7 +169,6 @@ public Color HairColor { get; set; }
 **Type:** UnityEngine.Color
 
 ## Methods
-
 ### SetResrouceData()
 ```csharp
 public void SetResrouceData()
@@ -184,5 +177,6 @@ public void SetResrouceData()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

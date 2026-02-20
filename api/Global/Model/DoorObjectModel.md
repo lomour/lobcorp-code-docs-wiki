@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DoorObjectModel
 canonical_path: /api/Global/Model/DoorObjectModel
 ---
-
 # Class DoorObjectModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ A door between two [rooms](/api/Global/Model/PassageObjectModel).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [ObjectModelBase](/api/Global/Object/ObjectModelBase) → DoorObjectModel
 
 ## Constructors
-
 ### DoorObjectModel(string, string, PassageObjectModel, MapNode)
 ```csharp
 public DoorObjectModel(string id, string type, PassageObjectModel passage, MapNode node)
@@ -39,7 +35,6 @@ public DoorObjectModel(string id, string type, PassageObjectModel passage, MapNo
 | `node` | `Global.MapNode` |  |
 
 ## Fields
-
 ### autoCloseCount
 ```csharp
 private float autoCloseCount
@@ -140,7 +135,6 @@ public string type
 **Type:** System.String
 
 ## Methods
-
 ### Close()
 ```csharp
 public void Close()
@@ -202,5 +196,6 @@ public void TryOpen()
 
 ## Inherited Members
 [position](/api/Global/Object/ObjectModelBase#position), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

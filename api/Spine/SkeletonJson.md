@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.SkeletonJson
 canonical_path: /api/Spine/SkeletonJson
 ---
-
 # Class SkeletonJson
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class SkeletonJson
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonJson
 
 ## Constructors
-
 ### SkeletonJson(AttachmentLoader)
 ```csharp
 public SkeletonJson(AttachmentLoader attachmentLoader)
@@ -39,7 +35,6 @@ public SkeletonJson(params Atlas[] atlasArray)
 | `atlasArray` | `Spine.Atlas[]` |  |
 
 ## Fields
-
 ### attachmentLoader
 ```csharp
 private AttachmentLoader attachmentLoader
@@ -57,7 +52,6 @@ private List<SkeletonJson.LinkedMesh> linkedMeshes
 **Type:** System.Collections.Generic.List{Spine.SkeletonJson.LinkedMesh}
 
 ## Properties
-
 ### Scale
 ```csharp
 public float Scale { get; set; }
@@ -67,7 +61,6 @@ public float Scale { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### GetBoolean(Dictionary<string, object>, string, bool)
 ```csharp
 private static bool GetBoolean(Dictionary<string, object> map, string name, bool defaultValue)
@@ -282,5 +275,6 @@ private static float ToColor(string hexString, int colorIndex, int expectedLengt
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentLyrics.LyricList_old
 canonical_path: /api/Global/Misc/AgentLyricsLyricListold
 ---
-
 # Class AgentLyrics.LyricList_old
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class AgentLyrics.LyricList_old
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentLyrics.LyricList_old
 
 ## Constructors
-
 ### LyricList_old(LyricType, AgentLyric[], int, int)
 ```csharp
 public LyricList_old(LyricType type, AgentLyrics.AgentLyric[] ary, int danger, int inner)
@@ -43,7 +39,6 @@ public LyricList_old(LyricType type, List<AgentLyrics.AgentLyric> list)
 | `list` | `System.Collections.Generic.List{AgentLyrics.AgentLyric}` |  |
 
 ## Fields
-
 ### dangerLevel
 ```csharp
 public int dangerLevel
@@ -77,7 +72,6 @@ public LyricType type
 **Type:** Global.LyricType
 
 ## Methods
-
 ### GetAllLyrics()
 ```csharp
 public List<AgentLyrics.AgentLyric> GetAllLyrics()
@@ -122,5 +116,6 @@ public AgentLyrics.AgentLyric GetUniqueLyricByIndex(int index)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

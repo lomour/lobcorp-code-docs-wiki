@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Notice
 canonical_path: /api/Global/Misc/Notice
 ---
-
 # Class Notice
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ Class for registering, de-registering, and notifying [observers](/api/Global/Mis
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Notice
 
 ## Constructors
-
 ### Notice()
 ```csharp
 private Notice()
@@ -31,7 +27,6 @@ private Notice()
 
 
 ## Fields
-
 ### _instance
 ```csharp
 private static Notice _instance
@@ -60,7 +55,6 @@ private Dictionary<string, List<IObserver>> noticeList
 **Type:** System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{IObserver}}
 
 ## Properties
-
 ### instance
 ```csharp
 public static Notice instance { get; }
@@ -70,7 +64,6 @@ public static Notice instance { get; }
 **Type:** Global.Notice
 
 ## Methods
-
 ### Observe(string, IObserver)
 ```csharp
 public void Observe(string notice, IObserver observer)
@@ -136,5 +129,6 @@ public void Send(string notice, params object[] param)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

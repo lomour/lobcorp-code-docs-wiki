@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.DeathAngelVoidAction
 canonical_path: /api/WhiteNightSpace/DeathAngelVoidAction
 ---
-
 # Delegate DeathAngelVoidAction
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void DeathAngelVoidAction()
 ```
 
 ## Constructors
-
 ### DeathAngelVoidAction(object, IntPtr)
 ```csharp
 public DeathAngelVoidAction(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public DeathAngelVoidAction(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

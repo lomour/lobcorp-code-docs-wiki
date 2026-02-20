@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.DeathAngelApostle
 canonical_path: /api/Legacy/DeathAngelApostle
 ---
-
 # Class DeathAngelApostle
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -23,14 +20,12 @@ Parent class for apostles for [WhiteNight](/api/Legacy/DeathAngel)'s advent.
 [ISerializablePlayData](/api/Global/Misc/ISerializablePlayData)
 
 ## Constructors
-
 ### DeathAngelApostle()
 ```csharp
 public DeathAngelApostle()
 ```
 
 ## Fields
-
 ### adventTarget
 ```csharp
 public WorkerModel adventTarget
@@ -160,7 +155,6 @@ public static string[] standingSound
 **Type:** System.String[]
 
 ## Methods
-
 ### Advent(DeathAngel, int)
 ```csharp
 public DeathAngel.Apostle Advent(DeathAngel angel, int index)
@@ -234,5 +228,6 @@ public void SetWorker(WorkerModel worker)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

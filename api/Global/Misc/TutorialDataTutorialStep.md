@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.TutorialData.TutorialStep
 canonical_path: /api/Global/Misc/TutorialDataTutorialStep
 ---
-
 # Class TutorialData.TutorialStep
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class TutorialData.TutorialStep
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TutorialData.TutorialStep
 
 ## Constructors
-
 ### TutorialStep()
 ```csharp
 public TutorialStep()
 ```
 
 ## Fields
-
 ### _nodes
 ```csharp
 private List<TutorialData.TutorialNode> _nodes
@@ -42,7 +37,6 @@ private int _step
 **Type:** System.Int32
 
 ## Properties
-
 ### Step
 ```csharp
 public int Step { get; }
@@ -52,7 +46,6 @@ public int Step { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### GetTutorialNodeByIdx(int)
 ```csharp
 public TutorialData.TutorialNode GetTutorialNodeByIdx(int idx)
@@ -87,5 +80,6 @@ public void Init(int step, List<TutorialData.TutorialNode> nodes)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

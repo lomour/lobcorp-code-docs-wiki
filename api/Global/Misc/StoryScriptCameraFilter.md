@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryScriptCameraFilter
 canonical_path: /api/Global/Misc/StoryScriptCameraFilter
 ---
-
 # Enum StoryScriptCameraFilter
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryScriptCameraFilter
 ```
 
 ## Fields
-
 ### AAA_BLOOD
 ```csharp
 AAA_BLOOD = 14
@@ -462,5 +458,6 @@ WING = 52
 
 #### Field Value
 **Type:** Global.StoryScriptCameraFilter
+
 
 

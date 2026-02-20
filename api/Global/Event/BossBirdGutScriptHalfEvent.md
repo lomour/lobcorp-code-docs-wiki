@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdGutScript.HalfEvent
 canonical_path: /api/Global/Event/BossBirdGutScriptHalfEvent
 ---
-
 # Delegate BossBirdGutScript.HalfEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BossBirdGutScript.HalfEvent()
 ```
 
 ## Constructors
-
 ### HalfEvent(object, IntPtr)
 ```csharp
 public HalfEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public HalfEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureGenerate.CreatureGenerateInfoManager
 canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager
 ---
-
 # Class CreatureGenerateInfoManager
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -30,14 +27,12 @@ Holds a lot of data and helper functions for abnormality extraction.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureGenerateInfoManager
 
 ## Constructors
-
 ### CreatureGenerateInfoManager()
 ```csharp
 public CreatureGenerateInfoManager()
 ```
 
 ## Fields
-
 ### _genDay
 ```csharp
 private int _genDay
@@ -156,7 +151,6 @@ private const string XMLFileSrc = "xml/CreatureGenInfo"
 **Type:** System.String
 
 ## Properties
-
 ### GenDay
 ```csharp
 public int GenDay { get; }
@@ -198,7 +192,6 @@ public bool IsloadedDayData { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### CalculateDay()
 ```csharp
 public void CalculateDay()
@@ -405,5 +398,6 @@ public void RemoveAction(long id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.MixPose
 canonical_path: /api/Spine/MixPose
 ---
-
 # Enum MixPose
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum MixPose
 ```
 
 ## Fields
-
 ### Current
 ```csharp
 Current = 1
@@ -38,5 +34,6 @@ Setup = 0
 
 #### Field Value
 **Type:** Spine.MixPose
+
 
 

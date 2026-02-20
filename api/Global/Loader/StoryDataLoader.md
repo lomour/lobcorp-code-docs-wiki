@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryDataLoader
 canonical_path: /api/Global/Loader/StoryDataLoader
 ---
-
 # Class StoryDataLoader
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,14 +20,12 @@ Loads the story data, including (especially) commands.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → StoryDataLoader
 
 ## Constructors
-
 ### StoryDataLoader()
 ```csharp
 public StoryDataLoader()
 ```
 
 ## Fields
-
 ### idRegex
 ```csharp
 private Regex idRegex
@@ -49,7 +44,6 @@ public static Dictionary<string, string> ModTextLib
 **Type:** System.Collections.Generic.Dictionary{System.String,System.String}
 
 ## Methods
-
 ### ConvertToDirectionEnum(string)
 ```csharp
 private StoryScriptDirectionEnum ConvertToDirectionEnum(string str)
@@ -666,5 +660,6 @@ public void XmlLoad(string data, Dictionary<string, string> dic)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

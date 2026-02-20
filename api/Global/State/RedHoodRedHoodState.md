@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RedHood.RedHoodState
 canonical_path: /api/Global/State/RedHoodRedHoodState
 ---
-
 # Enum RedHood.RedHoodState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RedHood.RedHoodState
 ```
 
 ## Fields
-
 ### ESCAPE
 ```csharp
 ESCAPE = 3
@@ -46,5 +42,6 @@ RAMPAGE = 2
 
 #### Field Value
 **Type:** Global.RedHood.RedHoodState
+
 
 

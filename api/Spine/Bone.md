@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Bone
 canonical_path: /api/Spine/Bone
 ---
-
 # Class Bone
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -35,7 +32,6 @@ public class Bone : IUpdatable
 - [WorldToLocal(Bone, Vector2)](Spine.Unity.SkeletonExtensions.html#Spine_Unity_SkeletonExtensions_WorldToLocal_Spine_Bone_UnityEngine_Vector2_)
 
 ## Constructors
-
 ### Bone(BoneData, Skeleton, Bone)
 ```csharp
 public Bone(BoneData data, Skeleton skeleton, Bone parent)
@@ -49,7 +45,6 @@ public Bone(BoneData data, Skeleton skeleton, Bone parent)
 | `parent` | `Spine.Bone` |  |
 
 ## Fields
-
 ### a
 ```csharp
 internal float a
@@ -267,7 +262,6 @@ public static bool yDown
 **Type:** System.Boolean
 
 ## Properties
-
 ### A
 ```csharp
 public float A { get; }
@@ -509,7 +503,6 @@ public float Y { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### LocalToWorld(float, float, out float, out float)
 ```csharp
 public void LocalToWorld(float localX, float localY, out float worldX, out float worldY)
@@ -618,5 +611,6 @@ public float WorldToLocalRotation(float worldRotation)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

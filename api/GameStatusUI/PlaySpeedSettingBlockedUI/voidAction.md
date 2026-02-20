@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GameStatusUI.PlaySpeedSettingBlockedUI.voidAction
 canonical_path: /api/GameStatusUI/PlaySpeedSettingBlockedUI/voidAction
 ---
-
 # Delegate PlaySpeedSettingBlockedUI.voidAction
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void PlaySpeedSettingBlockedUI.voidAction()
 ```
 
 ## Constructors
-
 ### voidAction(object, IntPtr)
 ```csharp
 public voidAction(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public voidAction(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

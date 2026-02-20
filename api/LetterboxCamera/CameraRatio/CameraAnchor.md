@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: LetterboxCamera.CameraRatio.CameraAnchor
 canonical_path: /api/LetterboxCamera/CameraRatio/CameraAnchor
 ---
-
 # Enum CameraRatio.CameraAnchor
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CameraRatio.CameraAnchor
 ```
 
 ## Fields
-
 ### Bottom
 ```csharp
 Bottom = 2
@@ -86,5 +82,6 @@ TopRight = 6
 
 #### Field Value
 **Type:** LetterboxCamera.CameraRatio.CameraAnchor
+
 
 

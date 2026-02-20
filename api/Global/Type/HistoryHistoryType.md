@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.History.HistoryType
 canonical_path: /api/Global/Type/HistoryHistoryType
 ---
-
 # Enum History.HistoryType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum History.HistoryType
 ```
 
 ## Fields
-
 ### CREATURE_ESCAPE
 ```csharp
 CREATURE_ESCAPE = 2
@@ -54,5 +50,6 @@ WORKER_PANIC = 0
 
 #### Field Value
 **Type:** Global.History.HistoryType
+
 
 

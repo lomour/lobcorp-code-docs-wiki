@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.DTSweepContext
 canonical_path: /api/Poly2Tri/DTSweepContext
 ---
-
 # Class DTSweepContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class DTSweepContext : TriangulationContext
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [TriangulationContext](/api/Poly2Tri/TriangulationContext) → DTSweepContext
 
 ## Constructors
-
 ### DTSweepContext()
 ```csharp
 public DTSweepContext()
 ```
 
 ## Fields
-
 ### _comparator
 ```csharp
 private DTSweepPointComparator _comparator
@@ -66,7 +61,6 @@ public AdvancingFront Front
 **Type:** Poly2Tri.AdvancingFront
 
 ## Properties
-
 ### Algorithm
 ```csharp
 public override TriangulationAlgorithm Algorithm { get; }
@@ -100,7 +94,6 @@ public TriangulationPoint Tail { get; set; }
 **Type:** Poly2Tri.TriangulationPoint
 
 ## Methods
-
 ### AddNode(AdvancingFrontNode)
 ```csharp
 public void AddNode(AdvancingFrontNode node)
@@ -215,5 +208,6 @@ public void RemoveNode(AdvancingFrontNode node)
 
 ## Inherited Members
 [<DebugContext>k__BackingField](Poly2Tri.TriangulationContext.html#Poly2Tri_TriangulationContext__DebugContext_k__BackingField), [Triangles](/api/Poly2Tri/TriangulationContext#triangles), [Points](/api/Poly2Tri/TriangulationContext#points), [<TriangulationMode>k__BackingField](Poly2Tri.TriangulationContext.html#Poly2Tri_TriangulationContext__TriangulationMode_k__BackingField), [<Triangulatable>k__BackingField](Poly2Tri.TriangulationContext.html#Poly2Tri_TriangulationContext__Triangulatable_k__BackingField), [<StepCount>k__BackingField](Poly2Tri.TriangulationContext.html#Poly2Tri_TriangulationContext__StepCount_k__BackingField), [<IsDebugEnabled>k__BackingField](Poly2Tri.TriangulationContext.html#Poly2Tri_TriangulationContext__IsDebugEnabled_k__BackingField), [Done()](/api/Poly2Tri/TriangulationContext#done), [Update(string)](/api/Poly2Tri/TriangulationContext#update-string), [DebugContext](/api/Poly2Tri/TriangulationContext#debugcontext), [TriangulationMode](/api/Poly2Tri/TriangulationContext#triangulationmode), [Triangulatable](/api/Poly2Tri/TriangulationContext#triangulatable), [StepCount](/api/Poly2Tri/TriangulationContext#stepcount), [DTDebugContext](/api/Poly2Tri/TriangulationContext#dtdebugcontext), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

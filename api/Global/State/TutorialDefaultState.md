@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Tutorial.DefaultState
 canonical_path: /api/Global/State/TutorialDefaultState
 ---
-
 # Class Tutorial.DefaultState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class Tutorial.DefaultState
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Tutorial.DefaultState
 
 ## Constructors
-
 ### DefaultState(Canvas, bool, bool)
 ```csharp
 public DefaultState(Canvas canvas, bool isHighLight, bool isParent)
@@ -31,7 +27,6 @@ public DefaultState(Canvas canvas, bool isHighLight, bool isParent)
 | `isParent` | `System.Boolean` |  |
 
 ## Fields
-
 ### canvas
 ```csharp
 private Canvas canvas
@@ -57,7 +52,6 @@ private int defaultOrder
 **Type:** System.Int32
 
 ## Properties
-
 ### Canvas
 ```csharp
 public Canvas Canvas { get; }
@@ -67,7 +61,6 @@ public Canvas Canvas { get; }
 **Type:** UnityEngine.Canvas
 
 ## Methods
-
 ### BackToDefault()
 ```csharp
 public void BackToDefault()
@@ -86,5 +79,6 @@ private void SaveDefaultState(bool isHighLight, bool isParent)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

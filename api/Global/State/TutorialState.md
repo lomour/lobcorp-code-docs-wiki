@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.TutorialState
 canonical_path: /api/Global/State/TutorialState
 ---
-
 # Enum TutorialState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum TutorialState
 ```
 
 ## Fields
-
 ### ENDED
 ```csharp
 ENDED = 4
@@ -54,5 +50,6 @@ SKIPPED = 0
 
 #### Field Value
 **Type:** Global.TutorialState
+
 
 

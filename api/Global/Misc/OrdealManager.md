@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OrdealManager
 canonical_path: /api/Global/Misc/OrdealManager
 ---
-
 # Class OrdealManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ Holds a queue of ordeals from the day, as well as methods for activating ordeals
 [object](https://learn.microsoft.com/dotnet/api/system.object) → OrdealManager
 
 ## Constructors
-
 ### OrdealManager()
 ```csharp
 public OrdealManager()
 ```
 
 ## Fields
-
 ### _activatedOrdeals
 ```csharp
 private List<OrdealBase> _activatedOrdeals
@@ -170,7 +165,6 @@ private readonly int[] ordealTimer2
 **Type:** System.Int32[]
 
 ## Properties
-
 ### instance
 ```csharp
 public static OrdealManager instance { get; }
@@ -180,7 +174,6 @@ public static OrdealManager instance { get; }
 **Type:** Global.OrdealManager
 
 ## Methods
-
 ### ActivateOrdeal(OrdealBase, bool)
 ```csharp
 public bool ActivateOrdeal(OrdealBase ordeal, bool remove = true)
@@ -339,5 +332,6 @@ private void UpdateOrdealUI()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

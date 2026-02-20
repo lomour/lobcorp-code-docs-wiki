@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.BasicSpriteRegion
 canonical_path: /api/WorkerSprite/BasicSpriteRegion
 ---
-
 # Enum BasicSpriteRegion
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BasicSpriteRegion
 ```
 
 ## Fields
-
 ### EYE_CLOSED
 ```csharp
 EYE_CLOSED = 1
@@ -118,5 +114,6 @@ MOUTH_PANIC = 10
 
 #### Field Value
 **Type:** WorkerSprite.BasicSpriteRegion
+
 
 

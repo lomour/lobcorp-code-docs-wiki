@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Rabbit.RabbitCaptainConversationType
 canonical_path: /api/Rabbit/RabbitCaptainConversationType
 ---
-
 # Enum RabbitCaptainConversationType
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RabbitCaptainConversationType
 ```
 
 ## Fields
-
 ### ALLDEAD
 ```csharp
 ALLDEAD = 3
@@ -54,5 +50,6 @@ START = 0
 
 #### Field Value
 **Type:** Rabbit.RabbitCaptainConversationType
+
 
 

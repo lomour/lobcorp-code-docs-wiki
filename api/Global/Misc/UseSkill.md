@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UseSkill
 canonical_path: /api/Global/Misc/UseSkill
 ---
-
 # Class UseSkill
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Represents an active work cycle.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UseSkill
 
 ## Constructors
-
 ### UseSkill()
 ```csharp
 public UseSkill()
 ```
 
 ## Fields
-
 ### _elapsedTime
 ```csharp
 private float _elapsedTime
@@ -303,7 +298,6 @@ public float workSpeed
 **Type:** System.Single
 
 ## Properties
-
 ### creatureFaced
 ```csharp
 public bool creatureFaced { get; }
@@ -329,7 +323,6 @@ public bool IsWorkPlaying { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### CalculateDmgExp(float)
 ```csharp
 private float CalculateDmgExp(float rate)
@@ -556,5 +549,6 @@ public void SetForceSuccess()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

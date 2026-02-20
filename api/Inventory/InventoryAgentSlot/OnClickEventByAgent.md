@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Inventory.InventoryAgentSlot.OnClickEventByAgent
 canonical_path: /api/Inventory/InventoryAgentSlot/OnClickEventByAgent
 ---
-
 # Delegate InventoryAgentSlot.OnClickEventByAgent
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void InventoryAgentSlot.OnClickEventByAgent(InventoryAgentSlot s
 ```
 
 ## Constructors
-
 ### OnClickEventByAgent(object, IntPtr)
 ```csharp
 public OnClickEventByAgent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnClickEventByAgent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(InventoryAgentSlot, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(InventoryAgentSlot slot, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(InventoryAgentSlot slot)
 | Name | Type | Description |
 | --- | --- | --- |
 | `slot` | `Inventory.InventoryAgentSlot` |  |
+
 
 

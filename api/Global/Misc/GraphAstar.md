@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GraphAstar
 canonical_path: /api/Global/Misc/GraphAstar
 ---
-
 # Class GraphAstar
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ For finding the shortest path between two nodes on the [map](/api/Global/IOBserv
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GraphAstar
 
 ## Constructors
-
 ### GraphAstar()
 ```csharp
 public GraphAstar()
 ```
 
 ## Methods
-
 ### ComputeHeuristic(Vector2, Vector2)
 ```csharp
 public static float ComputeHeuristic(Vector2 a, Vector2 b)
@@ -79,5 +74,6 @@ public static PathResult SearchPath(MapNode startPoint, MapNode endPoint, bool i
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

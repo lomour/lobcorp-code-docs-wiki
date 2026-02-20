@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahSoundInfo
 canonical_path: /api/BinahBoss/BinahSoundInfo
 ---
-
 # Class BinahSoundInfo
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ Sound locations for [Binah's core suppression](/api/Global/Misc/BinahBossBase).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BinahSoundInfo
 
 ## Fields
-
 ### Attack1
 ```csharp
 public static string Attack1
@@ -169,5 +165,6 @@ public static string Thron_Move
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

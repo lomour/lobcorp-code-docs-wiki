@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.BlendMode
 canonical_path: /api/Spine/BlendMode
 ---
-
 # Enum BlendMode
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BlendMode
 ```
 
 ## Fields
-
 ### Additive
 ```csharp
 Additive = 1
@@ -46,5 +42,6 @@ Screen = 3
 
 #### Field Value
 **Type:** Spine.BlendMode
+
 
 

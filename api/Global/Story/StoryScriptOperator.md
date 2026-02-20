@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryScriptOperator
 canonical_path: /api/Global/Story/StoryScriptOperator
 ---
-
 # Enum StoryScriptOperator
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryScriptOperator
 ```
 
 ## Fields
-
 ### EQUAL
 ```csharp
 EQUAL = 0
@@ -62,5 +58,6 @@ NOT_EQUAL = 1
 
 #### Field Value
 **Type:** Global.StoryScriptOperator
+
 
 

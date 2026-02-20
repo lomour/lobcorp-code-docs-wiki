@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugMidnightAnim.AgentControl
 canonical_path: /api/Global/Control/BugMidnightAnimAgentControl
 ---
-
 # Class BugMidnightAnim.AgentControl
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class BugMidnightAnim.AgentControl
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BugMidnightAnim.AgentControl
 
 ## Constructors
-
 ### AgentControl()
 ```csharp
 public AgentControl()
 ```
 
 ## Fields
-
 ### distance_x
 ```csharp
 public float distance_x
@@ -90,7 +85,6 @@ public WorkerUnit targetWorkerUnit
 **Type:** Global.WorkerUnit
 
 ## Methods
-
 ### ChangeLayer(int)
 ```csharp
 public void ChangeLayer(int layer = 0)
@@ -120,5 +114,6 @@ private void MakeExplodeEffect()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

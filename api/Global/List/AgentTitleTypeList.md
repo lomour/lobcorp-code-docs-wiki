@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentTitleTypeList
 canonical_path: /api/Global/List/AgentTitleTypeList
 ---
-
 # Class AgentTitleTypeList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Maintains titles for [agents](/api/Global/Worker/AgentModel).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentTitleTypeList
 
 ## Constructors
-
 ### AgentTitleTypeList()
 ```csharp
 public AgentTitleTypeList()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static AgentTitleTypeList _instance
@@ -49,7 +44,6 @@ private List<AgentTitleTypeInfo> _list
 **Type:** System.Collections.Generic.List{AgentTitleTypeInfo}
 
 ## Properties
-
 ### instance
 ```csharp
 public static AgentTitleTypeList instance { get; }
@@ -59,7 +53,6 @@ public static AgentTitleTypeList instance { get; }
 **Type:** Global.AgentTitleTypeList
 
 ## Methods
-
 ### GetData(AgentModel, int, string, bool)
 ```csharp
 private AgentTitleTypeInfo GetData(AgentModel agent, int level, string pos, bool randomly = true)
@@ -136,5 +129,6 @@ public void Init(List<AgentTitleTypeInfo> list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

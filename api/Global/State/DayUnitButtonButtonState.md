@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DayUnitButton.ButtonState
 canonical_path: /api/Global/State/DayUnitButtonButtonState
 ---
-
 # Enum DayUnitButton.ButtonState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DayUnitButton.ButtonState
 ```
 
 ## Fields
-
 ### DISABLED
 ```csharp
 DISABLED = 3
@@ -46,5 +42,6 @@ PRESSED = 2
 
 #### Field Value
 **Type:** Global.DayUnitButton.ButtonState
+
 
 

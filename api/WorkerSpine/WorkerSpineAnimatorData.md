@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSpine.WorkerSpineAnimatorData
 canonical_path: /api/WorkerSpine/WorkerSpineAnimatorData
 ---
-
 # Class WorkerSpineAnimatorData
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ stores an animation source, and loads it?
 [object](https://learn.microsoft.com/dotnet/api/system.object) → WorkerSpineAnimatorData
 
 ## Constructors
-
 ### WorkerSpineAnimatorData()
 ```csharp
 public WorkerSpineAnimatorData()
@@ -58,7 +54,6 @@ public WorkerSpineAnimatorData(int id, string name, string animatorSrc, string s
 | `skeletonSrc` | `System.String` |  |
 
 ## Fields
-
 ### _isLoaded
 ```csharp
 private bool _isLoaded
@@ -123,7 +118,6 @@ public string skeletonSrc
 **Type:** System.String
 
 ## Properties
-
 ### IsLoaded
 ```csharp
 public bool IsLoaded { get; }
@@ -133,7 +127,6 @@ public bool IsLoaded { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### LoadData()
 ```csharp
 public void LoadData()
@@ -157,5 +150,6 @@ public static WorkerSpineAnimatorData MakeDefault(RuntimeAnimatorController anim
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahMoveState
 canonical_path: /api/BinahBoss/BinahMoveState
 ---
-
 # Enum BinahMoveState
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BinahMoveState
 ```
 
 ## Fields
-
 ### ATTACKING
 ```csharp
 ATTACKING = 2
@@ -38,5 +34,6 @@ MOVING = 1
 
 #### Field Value
 **Type:** BinahBoss.BinahMoveState
+
 
 

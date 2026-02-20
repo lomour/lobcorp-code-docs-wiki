@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GeburahProjectile.MovementType
 canonical_path: /api/Global/Type/GeburahProjectileMovementType
 ---
-
 # Enum GeburahProjectile.MovementType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum GeburahProjectile.MovementType
 ```
 
 ## Fields
-
 ### NORMAL
 ```csharp
 NORMAL = 0
@@ -30,5 +26,6 @@ QUEUE = 1
 
 #### Field Value
 **Type:** Global.GeburahProjectile.MovementType
+
 
 

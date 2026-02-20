@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: DeadEffect.BloodyTreeDeadScript.GeneratbleRegion
 canonical_path: /api/DeadEffect/BloodyTreeDeadScript/GeneratbleRegion
 ---
-
 # Enum BloodyTreeDeadScript.GeneratbleRegion
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BloodyTreeDeadScript.GeneratbleRegion
 ```
 
 ## Fields
-
 ### BODY
 ```csharp
 BODY = 1
@@ -62,5 +58,6 @@ RIGHTLEG = 5
 
 #### Field Value
 **Type:** DeadEffect.BloodyTreeDeadScript.GeneratbleRegion
+
 
 

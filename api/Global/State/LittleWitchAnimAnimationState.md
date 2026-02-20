@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LittleWitchAnim.AnimationState
 canonical_path: /api/Global/State/LittleWitchAnimAnimationState
 ---
-
 # Enum LittleWitchAnim.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum LittleWitchAnim.AnimationState
 ```
 
 ## Fields
-
 ### IDLE
 ```csharp
 IDLE = 0
@@ -38,5 +34,6 @@ WORK = 1
 
 #### Field Value
 **Type:** Global.LittleWitchAnim.AnimationState
+
 
 

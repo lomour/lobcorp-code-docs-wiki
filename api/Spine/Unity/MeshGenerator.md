@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.MeshGenerator
 canonical_path: /api/Spine/Unity/MeshGenerator
 ---
-
 # Class MeshGenerator
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class MeshGenerator
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MeshGenerator
 
 ## Constructors
-
 ### MeshGenerator()
 ```csharp
 public MeshGenerator()
 ```
 
 ## Fields
-
 ### BoundsMaxDefault
 ```csharp
 private const float BoundsMaxDefault = -Infinity
@@ -178,7 +173,6 @@ private readonly ExposedList<Vector3> vertexBuffer
 **Type:** Spine.ExposedList{UnityEngine.Vector3}
 
 ## Properties
-
 ### Buffers
 ```csharp
 public MeshGeneratorBuffers Buffers { get; }
@@ -196,7 +190,6 @@ public int VertexCount { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### AddAttachmentTintBlack(float, float, float, int)
 ```csharp
 private void AddAttachmentTintBlack(float r2, float g2, float b2, int vertexCount)
@@ -372,5 +365,6 @@ public static void TryReplaceMaterials(ExposedList<SubmeshInstruction> workingSu
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

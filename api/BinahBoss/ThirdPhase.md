@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.ThirdPhase
 canonical_path: /api/BinahBoss/ThirdPhase
 ---
-
 # Class ThirdPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -27,7 +24,6 @@ If someone is near her, she will randomly choose to either use her [Blade Wave](
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahPhaseExecution](/api/BinahBoss/BinahPhaseExecution) → ThirdPhase
 
 ## Constructors
-
 ### ThirdPhase(BinahCoreScript)
 ```csharp
 public ThirdPhase(BinahCoreScript binah)
@@ -40,7 +36,6 @@ public ThirdPhase(BinahCoreScript binah)
 | `binah` | `Global.BinahCoreScript` |  |
 
 ## Fields
-
 ### columnTimer
 ```csharp
 private Timer columnTimer
@@ -69,7 +64,6 @@ private Timer forcelyTimer
 **Type:** Global.Timer
 
 ## Methods
-
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
@@ -104,5 +98,6 @@ public override void Update()
 
 ## Inherited Members
 [binah](/api/BinahBoss/BinahPhaseExecution#binah), [overloadActivated](/api/BinahBoss/BinahPhaseExecution#overloadactivated), [overloadTimer](/api/BinahBoss/BinahPhaseExecution#overloadtimer), [overloadTypeList](/api/BinahBoss/BinahPhaseExecution#overloadtypelist), [HaltOverload()](/api/BinahBoss/BinahPhaseExecution#haltoverload), [StartTimer(float)](/api/BinahBoss/BinahPhaseExecution#starttimer-float), [GetOverloadType()](/api/BinahBoss/BinahPhaseExecution#getoverloadtype), [OnOverloadEnd()](/api/BinahBoss/BinahPhaseExecution#onoverloadend), [ToString()](/api/BinahBoss/BinahPhaseExecution#tostring), [BinahHasOverload](/api/BinahBoss/BinahPhaseExecution#binahhasoverload), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

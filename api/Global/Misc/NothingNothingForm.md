@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Nothing.NothingForm
 canonical_path: /api/Global/Misc/NothingNothingForm
 ---
-
 # Enum Nothing.NothingForm
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum Nothing.NothingForm
 ```
 
 ## Fields
-
 ### EGG
 ```csharp
 EGG = 3
@@ -54,5 +50,6 @@ WORKER_ROOM = 0
 
 #### Field Value
 **Type:** Global.Nothing.NothingForm
+
 
 

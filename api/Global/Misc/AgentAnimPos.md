@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentAnimPos
 canonical_path: /api/Global/Misc/AgentAnimPos
 ---
-
 # Enum AgentAnimPos
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentAnimPos
 ```
 
 ## Fields
-
 ### BODY
 ```csharp
 BODY = 10
@@ -110,5 +106,6 @@ SYMBOL = 11
 
 #### Field Value
 **Type:** Global.AgentAnimPos
+
 
 

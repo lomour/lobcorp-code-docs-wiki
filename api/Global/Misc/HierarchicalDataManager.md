@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.HierarchicalDataManager
 canonical_path: /api/Global/Misc/HierarchicalDataManager
 ---
-
 # Class HierarchicalDataManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,14 +23,12 @@ The only such data is for [uncontrollable actions](/api/Global/Action/Uncontroll
 [object](https://learn.microsoft.com/dotnet/api/system.object) → HierarchicalDataManager
 
 ## Constructors
-
 ### HierarchicalDataManager()
 ```csharp
 public HierarchicalDataManager()
 ```
 
 ## Fields
-
 ### _intance
 ```csharp
 private static HierarchicalDataManager _intance
@@ -71,7 +66,6 @@ public static string Uncon
 **Type:** System.String
 
 ## Properties
-
 ### instance
 ```csharp
 public static HierarchicalDataManager instance { get; }
@@ -89,7 +83,6 @@ public bool IsInit { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Init(Dictionary<string, List<string>>)
 ```csharp
 public void Init(Dictionary<string, List<string>> lib)
@@ -118,5 +111,6 @@ public int InitialSetting(string area, string name)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

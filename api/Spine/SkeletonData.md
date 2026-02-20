@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.SkeletonData
 canonical_path: /api/Spine/SkeletonData
 ---
-
 # Class SkeletonData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -21,14 +18,12 @@ public class SkeletonData
 - [AddUnitySprite(SkeletonData, string, Sprite, string, Shader, bool, float)](Spine.Unity.Modules.SpriteAttachmentExtensions.html#Spine_Unity_Modules_SpriteAttachmentExtensions_AddUnitySprite_Spine_SkeletonData_System_String_UnityEngine_Sprite_System_String_UnityEngine_Shader_System_Boolean_System_Single_)
 
 ## Constructors
-
 ### SkeletonData()
 ```csharp
 public SkeletonData()
 ```
 
 ## Fields
-
 ### animations
 ```csharp
 internal ExposedList<Animation> animations
@@ -158,7 +153,6 @@ internal float width
 **Type:** System.Single
 
 ## Properties
-
 ### Animations
 ```csharp
 public ExposedList<Animation> Animations { get; set; }
@@ -288,7 +282,6 @@ public float Width { get; set; }
 **Type:** System.Single
 
 ## Methods
-
 ### FindAnimation(string)
 ```csharp
 public Animation FindAnimation(string animationName)
@@ -442,5 +435,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

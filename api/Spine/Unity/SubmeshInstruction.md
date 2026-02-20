@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.SubmeshInstruction
 canonical_path: /api/Spine/Unity/SubmeshInstruction
 ---
-
 # Struct SubmeshInstruction
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public struct SubmeshInstruction
 ```
 
 ## Fields
-
 ### endSlot
 ```csharp
 public int endSlot
@@ -96,7 +92,6 @@ public int startSlot
 **Type:** System.Int32
 
 ## Properties
-
 ### SlotCount
 ```csharp
 public int SlotCount { get; }
@@ -106,7 +101,6 @@ public int SlotCount { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### ToString()
 ```csharp
 public override string ToString()
@@ -117,5 +111,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.valuetype.equals), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
 
 

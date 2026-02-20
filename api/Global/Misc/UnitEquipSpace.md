@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitEquipSpace
 canonical_path: /api/Global/Misc/UnitEquipSpace
 ---
-
 # Class UnitEquipSpace
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Holds and manages the equipment of a [unit](/api/Global/Model/UnitModel).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UnitEquipSpace
 
 ## Constructors
-
 ### UnitEquipSpace()
 ```csharp
 public UnitEquipSpace()
 ```
 
 ## Fields
-
 ### armor
 ```csharp
 public ArmorModel armor
@@ -69,7 +64,6 @@ public WeaponModel weapon
 **Type:** Global.WeaponModel
 
 ## Methods
-
 ### GetBonus(UnitModel)
 ```csharp
 public EGObonusInfo GetBonus(UnitModel actor)
@@ -115,5 +109,6 @@ public bool HasEquipment(int id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

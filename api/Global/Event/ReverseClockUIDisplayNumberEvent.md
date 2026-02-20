@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ReverseClockUI.DisplayNumberEvent
 canonical_path: /api/Global/Event/ReverseClockUIDisplayNumberEvent
 ---
-
 # Delegate ReverseClockUI.DisplayNumberEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void ReverseClockUI.DisplayNumberEvent(int i)
 ```
 
 ## Constructors
-
 ### DisplayNumberEvent(object, IntPtr)
 ```csharp
 public DisplayNumberEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public DisplayNumberEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(int, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(int i, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 
 

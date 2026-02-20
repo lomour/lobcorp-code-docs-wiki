@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StageRank
 canonical_path: /api/Global/Misc/StageRank
 ---
-
 # Enum StageRank
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StageRank
 ```
 
 ## Fields
-
 ### A
 ```csharp
 A = 1
@@ -62,5 +58,6 @@ S = 0
 
 #### Field Value
 **Type:** Global.StageRank
+
 
 

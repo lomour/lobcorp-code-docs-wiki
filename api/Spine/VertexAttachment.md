@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.VertexAttachment
 canonical_path: /api/Spine/VertexAttachment
 ---
-
 # Class VertexAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -33,7 +30,6 @@ public class VertexAttachment : Attachment
 - [GetWorldVertices(VertexAttachment, Slot, Vector2[])](Spine.Unity.SkeletonExtensions.html#Spine_Unity_SkeletonExtensions_GetWorldVertices_Spine_VertexAttachment_Spine_Slot_UnityEngine_Vector2___)
 
 ## Constructors
-
 ### VertexAttachment(string)
 ```csharp
 public VertexAttachment(string name)
@@ -45,7 +41,6 @@ public VertexAttachment(string name)
 | `name` | `System.String` |  |
 
 ## Fields
-
 ### bones
 ```csharp
 internal int[] bones
@@ -95,7 +90,6 @@ internal int worldVerticesLength
 **Type:** System.Int32
 
 ## Properties
-
 ### Bones
 ```csharp
 public int[] Bones { get; set; }
@@ -129,7 +123,6 @@ public int WorldVerticesLength { get; set; }
 **Type:** System.Int32
 
 ## Methods
-
 ### ApplyDeform(VertexAttachment)
 ```csharp
 public virtual bool ApplyDeform(VertexAttachment sourceAttachment)
@@ -171,5 +164,6 @@ public void ComputeWorldVertices(Slot slot, int start, int count, float[] worldV
 
 ## Inherited Members
 [<Name>k__BackingField](Spine.Attachment.html#Spine_Attachment__Name_k__BackingField), [ToString()](/api/Spine/Attachment#tostring), [Name](/api/Spine/Attachment#name), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

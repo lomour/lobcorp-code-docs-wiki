@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GrandmaBug.AnimationState
 canonical_path: /api/Global/State/GrandmaBugAnimationState
 ---
-
 # Enum GrandmaBug.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum GrandmaBug.AnimationState
 ```
 
 ## Fields
-
 ### APPEAR
 ```csharp
 APPEAR = 1
@@ -46,5 +42,6 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.GrandmaBug.AnimationState
+
 
 

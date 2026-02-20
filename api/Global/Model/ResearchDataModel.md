@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ResearchDataModel
 canonical_path: /api/Global/Model/ResearchDataModel
 ---
-
 # Class ResearchDataModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Loads and holds information about researches, including completed researches.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchDataModel
 
 ## Constructors
-
 ### ResearchDataModel()
 ```csharp
 public ResearchDataModel()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static ResearchDataModel _instance
@@ -105,7 +100,6 @@ private Dictionary<int, int> weaponLevelResearchInfo
 **Type:** System.Collections.Generic.Dictionary{System.Int32,System.Int32}
 
 ## Properties
-
 ### instance
 ```csharp
 public static ResearchDataModel instance { get; }
@@ -115,7 +109,6 @@ public static ResearchDataModel instance { get; }
 **Type:** Global.ResearchDataModel
 
 ## Methods
-
 ### ConvertResearchType(ResearchType)
 ```csharp
 public static string ConvertResearchType(ResearchType type)
@@ -395,5 +388,6 @@ public bool UpgradeResearch(int id, bool forcely = false)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

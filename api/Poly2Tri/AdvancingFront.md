@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.AdvancingFront
 canonical_path: /api/Poly2Tri/AdvancingFront
 ---
-
 # Class AdvancingFront
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class AdvancingFront
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AdvancingFront
 
 ## Constructors
-
 ### AdvancingFront(AdvancingFrontNode, AdvancingFrontNode)
 ```csharp
 public AdvancingFront(AdvancingFrontNode head, AdvancingFrontNode tail)
@@ -30,7 +26,6 @@ public AdvancingFront(AdvancingFrontNode head, AdvancingFrontNode tail)
 | `tail` | `Poly2Tri.AdvancingFrontNode` |  |
 
 ## Fields
-
 ### Head
 ```csharp
 public AdvancingFrontNode Head
@@ -56,7 +51,6 @@ public AdvancingFrontNode Tail
 **Type:** Poly2Tri.AdvancingFrontNode
 
 ## Methods
-
 ### AddNode(AdvancingFrontNode)
 ```csharp
 public void AddNode(AdvancingFrontNode node)
@@ -139,5 +133,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

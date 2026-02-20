@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PinkCorpsAnim.PinkCorpsAnimKey
 canonical_path: /api/Global/Key/PinkCorpsAnimPinkCorpsAnimKey
 ---
-
 # Enum PinkCorpsAnim.PinkCorpsAnimKey
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum PinkCorpsAnim.PinkCorpsAnimKey
 ```
 
 ## Fields
-
 ### ChangeSound
 ```csharp
 ChangeSound = 5
@@ -62,5 +58,6 @@ RecoverAnimPlayed = 3
 
 #### Field Value
 **Type:** Global.PinkCorpsAnim.PinkCorpsAnimKey
+
 
 

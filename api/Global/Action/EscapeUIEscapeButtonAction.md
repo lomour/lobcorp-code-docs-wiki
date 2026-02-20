@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EscapeUI.EscapeButtonAction
 canonical_path: /api/Global/Action/EscapeUIEscapeButtonAction
 ---
-
 # Enum EscapeUI.EscapeButtonAction
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EscapeUI.EscapeButtonAction
 ```
 
 ## Fields
-
 ### CHECKPOINT
 ```csharp
 CHECKPOINT = 1
@@ -70,5 +66,6 @@ TITLE = 2
 
 #### Field Value
 **Type:** Global.EscapeUI.EscapeButtonAction
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FixerClaw.Phase
 canonical_path: /api/Global/Phase/FixerClawPhase
 ---
-
 # Enum FixerClaw.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FixerClaw.Phase
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 1
@@ -126,5 +122,6 @@ SKILL_ORANGE = 6
 
 #### Field Value
 **Type:** Global.FixerClaw.Phase
+
 
 

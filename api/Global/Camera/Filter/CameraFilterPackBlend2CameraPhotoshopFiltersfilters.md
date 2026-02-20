@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackBlend2CameraPhotoshopFiltersfilters
 ---
-
 # Enum CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
 ```
 
 ## Fields
-
 ### Color
 ```csharp
 Color = 23
@@ -214,5 +210,6 @@ VividLight = 13
 
 #### Field Value
 **Type:** Global.CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.GeburahPhase
 canonical_path: /api/GeburahBoss/GeburahPhase
 ---
-
 # Enum GeburahPhase
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum GeburahPhase
 ```
 
 ## Fields
-
 ### END
 ```csharp
 END = 5
@@ -62,5 +58,6 @@ START = 0
 
 #### Field Value
 **Type:** GeburahBoss.GeburahPhase
+
 
 

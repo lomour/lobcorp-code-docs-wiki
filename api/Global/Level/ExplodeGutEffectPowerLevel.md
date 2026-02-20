@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ExplodeGutEffect.PowerLevel
 canonical_path: /api/Global/Level/ExplodeGutEffectPowerLevel
 ---
-
 # Enum ExplodeGutEffect.PowerLevel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ExplodeGutEffect.PowerLevel
 ```
 
 ## Fields
-
 ### HIGH
 ```csharp
 HIGH = 3
@@ -54,5 +50,6 @@ WEAK = 0
 
 #### Field Value
 **Type:** Global.ExplodeGutEffect.PowerLevel
+
 
 

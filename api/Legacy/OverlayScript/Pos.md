@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.OverlayScript.Pos
 canonical_path: /api/Legacy/OverlayScript/Pos
 ---
-
 # Enum OverlayScript.Pos
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum OverlayScript.Pos
 ```
 
 ## Fields
-
 ### DOWN
 ```csharp
 DOWN = 3
@@ -46,5 +42,6 @@ UP = 2
 
 #### Field Value
 **Type:** Legacy.OverlayScript.Pos
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BugDawnOrdeal.BugDawnManager
 canonical_path: /api/Global/Misc/BugDawnOrdealBugDawnManager
 ---
-
 # Class BugDawnOrdeal.BugDawnManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class BugDawnOrdeal.BugDawnManager
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BugDawnOrdeal.BugDawnManager
 
 ## Constructors
-
 ### BugDawnManager(BugDawnOrdeal)
 ```csharp
 public BugDawnManager(BugDawnOrdeal script)
@@ -29,7 +25,6 @@ public BugDawnManager(BugDawnOrdeal script)
 | `script` | `Global.BugDawnOrdeal` |  |
 
 ## Fields
-
 ### _teleportTimeMax
 ```csharp
 private const float _teleportTimeMax = 60
@@ -79,7 +74,6 @@ private Timer teleportTimer
 **Type:** Global.Timer
 
 ## Properties
-
 ### teleportTime
 ```csharp
 private static float teleportTime { get; }
@@ -89,7 +83,6 @@ private static float teleportTime { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### AddCreature(BugDawn)
 ```csharp
 public void AddCreature(BugDawn bug)
@@ -128,5 +121,6 @@ public void Run()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

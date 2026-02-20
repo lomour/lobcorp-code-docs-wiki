@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PassageType
 canonical_path: /api/Global/Type/PassageType
 ---
-
 # Enum PassageType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PassageType
 ```
 
 ## Fields
-
 ### DEPARTMENT
 ```csharp
 DEPARTMENT = 1
@@ -62,5 +58,6 @@ VERTICAL = 2
 
 #### Field Value
 **Type:** Global.PassageType
+
 
 

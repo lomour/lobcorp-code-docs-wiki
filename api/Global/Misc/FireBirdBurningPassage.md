@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FireBird.BurningPassage
 canonical_path: /api/Global/Misc/FireBirdBurningPassage
 ---
-
 # Class FireBird.BurningPassage
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class FireBird.BurningPassage
 [object](https://learn.microsoft.com/dotnet/api/system.object) → FireBird.BurningPassage
 
 ## Constructors
-
 ### BurningPassage(PassageObjectModel, GameObject, FireBird)
 ```csharp
 public BurningPassage(PassageObjectModel passage, GameObject filter, FireBird script)
@@ -31,7 +27,6 @@ public BurningPassage(PassageObjectModel passage, GameObject filter, FireBird sc
 | `script` | `Global.FireBird` |  |
 
 ## Fields
-
 ### defaultRemain
 ```csharp
 private const float defaultRemain = 1
@@ -81,7 +76,6 @@ private FireBird script
 **Type:** Global.FireBird
 
 ## Methods
-
 ### CheckDamaged(UnitModel)
 ```csharp
 private bool CheckDamaged(UnitModel target)
@@ -115,5 +109,6 @@ public void Process()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

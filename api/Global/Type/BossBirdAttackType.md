@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBird.AttackType
 canonical_path: /api/Global/Type/BossBirdAttackType
 ---
-
 # Enum BossBird.AttackType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BossBird.AttackType
 ```
 
 ## Fields
-
 ### ATTRACT
 ```csharp
 ATTRACT = 2
@@ -54,5 +50,6 @@ ULTIMATE = 4
 
 #### Field Value
 **Type:** Global.BossBird.AttackType
+
 
 

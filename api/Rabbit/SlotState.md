@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Rabbit.SlotState
 canonical_path: /api/Rabbit/SlotState
 ---
-
 # Enum SlotState
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SlotState
 ```
 
 ## Fields
-
 ### ACTIVATED
 ```csharp
 ACTIVATED = 0
@@ -38,5 +34,6 @@ NOTOPENED = 1
 
 #### Field Value
 **Type:** Rabbit.SlotState
+
 
 

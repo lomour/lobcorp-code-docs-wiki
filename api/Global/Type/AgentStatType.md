@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentStatType
 canonical_path: /api/Global/Type/AgentStatType
 ---
-
 # Enum AgentStatType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum AgentStatType
 ```
 
 ## Fields
-
 ### DUMMY
 ```csharp
 DUMMY = 4
@@ -54,5 +50,6 @@ WORK = 3
 
 #### Field Value
 **Type:** Global.AgentStatType
+
 
 

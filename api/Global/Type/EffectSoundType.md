@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EffectSoundType
 canonical_path: /api/Global/Type/EffectSoundType
 ---
-
 # Enum EffectSoundType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EffectSoundType
 ```
 
 ## Fields
-
 ### ALARM
 ```csharp
 ALARM = 7
@@ -78,5 +74,6 @@ START = 5
 
 #### Field Value
 **Type:** Global.EffectSoundType
+
 
 

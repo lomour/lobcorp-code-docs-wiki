@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureBase.SensingModule
 canonical_path: /api/Global/Misc/CreatureBaseSensingModule
 ---
-
 # Class CreatureBase.SensingModule
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class CreatureBase.SensingModule
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureBase.SensingModule
 
 ## Constructors
-
 ### SensingModule()
 ```csharp
 public SensingModule()
 ```
 
 ## Fields
-
 ### downY
 ```csharp
 private float downY
@@ -66,7 +61,6 @@ private float upY
 **Type:** System.Single
 
 ## Methods
-
 ### Check(Vector3)
 ```csharp
 public bool Check(Vector3 pos)
@@ -129,5 +123,6 @@ public void SetEnabled(bool b)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

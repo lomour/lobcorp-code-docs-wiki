@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AutoTimer
 canonical_path: /api/Global/Misc/AutoTimer
 ---
-
 # Class AutoTimer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -27,14 +24,12 @@ Calls a target method after a certain amount of time.
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### AutoTimer()
 ```csharp
 public AutoTimer()
 ```
 
 ## Fields
-
 ### del1
 ```csharp
 private AutoTimer.TargetMethod del1
@@ -78,7 +73,6 @@ private AutoTimer.TargetMethod updateCalled
 **Type:** Global.AutoTimer.TargetMethod
 
 ## Methods
-
 ### Destroy(AutoTimer)
 ```csharp
 public static void Destroy(AutoTimer timer)
@@ -175,5 +169,6 @@ public void Update()
 
 ## Inherited Members
 [elapsed](/api/Global/Misc/Timer#elapsed), [maxTime](/api/Global/Misc/Timer#maxtime), [started](/api/Global/Misc/Timer#started), [autoStop](/api/Global/Misc/Timer#autostop), [endCmd](/api/Global/Misc/Timer#endcmd), [StartTimer(float)](/api/Global/Misc/Timer#starttimer-float), [SetEndCmd(OnTimerRunningEnd)](/api/Global/Misc/Timer#setendcmd-ontimerrunningend), [RunTimer()](/api/Global/Misc/Timer#runtimer), [StartTimer()](/api/Global/Misc/Timer#starttimer), [StopTimer()](/api/Global/Misc/Timer#stoptimer), [ToString()](/api/Global/Misc/Timer#tostring), [GetRate()](/api/Global/Misc/Timer#getrate), [Rate](/api/Global/Misc/Timer#rate), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

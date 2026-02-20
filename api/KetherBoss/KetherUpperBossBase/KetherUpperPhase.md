@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: KetherBoss.KetherUpperBossBase.KetherUpperPhase
 canonical_path: /api/KetherBoss/KetherUpperBossBase/KetherUpperPhase
 ---
-
 # Enum KetherUpperBossBase.KetherUpperPhase
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum KetherUpperBossBase.KetherUpperPhase
 ```
 
 ## Fields
-
 ### FIRST
 ```csharp
 FIRST = 0
@@ -38,5 +34,6 @@ THIRD = 2
 
 #### Field Value
 **Type:** KetherBoss.KetherUpperBossBase.KetherUpperPhase
+
 
 

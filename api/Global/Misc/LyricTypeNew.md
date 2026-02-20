@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LyricTypeNew
 canonical_path: /api/Global/Misc/LyricTypeNew
 ---
-
 # Enum LyricTypeNew
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum LyricTypeNew
 ```
 
 ## Fields
-
 ### HORROR
 ```csharp
 HORROR = 3
@@ -54,5 +50,6 @@ PANIC = 2
 
 #### Field Value
 **Type:** Global.LyricTypeNew
+
 
 

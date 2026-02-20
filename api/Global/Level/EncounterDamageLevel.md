@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EncounterDamageLevel
 canonical_path: /api/Global/Level/EncounterDamageLevel
 ---
-
 # Enum EncounterDamageLevel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EncounterDamageLevel
 ```
 
 ## Fields
-
 ### FOUR
 ```csharp
 FOUR = 4
@@ -54,5 +50,6 @@ ZERO = 0
 
 #### Field Value
 **Type:** Global.EncounterDamageLevel
+
 
 

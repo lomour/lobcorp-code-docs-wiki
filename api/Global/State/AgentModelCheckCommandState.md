@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.AgentModel.CheckCommandState
 canonical_path: /api/Global/State/AgentModelCheckCommandState
 ---
-
 # Delegate AgentModel.CheckCommandState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate bool AgentModel.CheckCommandState()
 ```
 
 ## Constructors
-
 ### CheckCommandState(object, IntPtr)
 ```csharp
 public CheckCommandState(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public CheckCommandState(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual bool Invoke()
 
 #### Returns
 **Type:** System.Boolean
+
 
 

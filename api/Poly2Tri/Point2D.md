@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Point2D
 canonical_path: /api/Poly2Tri/Point2D
 ---
-
 # Class Point2D
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ public class Point2D : IComparable<Point2D>
 [IComparable<Point2D>](https://learn.microsoft.com/dotnet/api/system.icomparable-1)
 
 ## Constructors
-
 ### Point2D()
 ```csharp
 public Point2D()
@@ -51,7 +47,6 @@ public Point2D(Point2D p)
 | `p` | `Poly2Tri.Point2D` |  |
 
 ## Fields
-
 ### mX
 ```csharp
 protected double mX
@@ -69,7 +64,6 @@ protected double mY
 **Type:** System.Double
 
 ## Properties
-
 ### X
 ```csharp
 public virtual double X { get; set; }
@@ -103,7 +97,6 @@ public float Yf { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### Abs()
 ```csharp
 public void Abs()
@@ -553,7 +546,6 @@ public void Translate(Point2D vector)
 | `vector` | `Poly2Tri.Point2D` |  |
 
 ## Operators
-
 ### operator *(double, Point2D)
 ```csharp
 public static Point2D operator *(double scalar, Point2D lhs)
@@ -751,5 +743,6 @@ public static bool operator >=(Point2D lhs, Point2D rhs)
 
 ## Inherited Members
 [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

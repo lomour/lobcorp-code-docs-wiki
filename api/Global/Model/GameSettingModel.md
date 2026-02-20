@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GameSettingModel
 canonical_path: /api/Global/Model/GameSettingModel
 ---
-
 # Class GameSettingModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Used by [OptionUI](/api/Global/UI/OptionUI) probably
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GameSettingModel
 
 ## Constructors
-
 ### GameSettingModel()
 ```csharp
 public GameSettingModel()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static GameSettingModel _instance
@@ -42,7 +37,6 @@ private static GameSettingModel _instance
 **Type:** Global.GameSettingModel
 
 ## Properties
-
 ### instance
 ```csharp
 public static GameSettingModel instance { get; }
@@ -52,7 +46,6 @@ public static GameSettingModel instance { get; }
 **Type:** Global.GameSettingModel
 
 ## Methods
-
 ### FixInvalidResolution()
 ```csharp
 public void FixInvalidResolution()
@@ -115,5 +108,6 @@ public void SetResolution(int width, int height, GameFullScreenMode mode)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

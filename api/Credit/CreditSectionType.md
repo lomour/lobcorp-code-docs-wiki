@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Credit.CreditSectionType
 canonical_path: /api/Credit/CreditSectionType
 ---
-
 # Enum CreditSectionType
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreditSectionType
 ```
 
 ## Fields
-
 ### MAIN
 ```csharp
 MAIN = 0
@@ -38,5 +34,6 @@ SUPPORT = 1
 
 #### Field Value
 **Type:** Credit.CreditSectionType
+
 
 

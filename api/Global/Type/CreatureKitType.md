@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureKitType
 canonical_path: /api/Global/Type/CreatureKitType
 ---
-
 # Enum CreatureKitType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureKitType
 ```
 
 ## Fields
-
 ### CHANNEL
 ```csharp
 CHANNEL = 2
@@ -46,5 +42,6 @@ ONESHOT = 3
 
 #### Field Value
 **Type:** Global.CreatureKitType
+
 
 

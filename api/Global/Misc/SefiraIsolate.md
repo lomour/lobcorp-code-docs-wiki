@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraIsolate
 canonical_path: /api/Global/Misc/SefiraIsolate
 ---
-
 # Class SefiraIsolate
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ Represents a place in the map for a [containment unit](/api/Global/IOBserver/Iso
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraIsolate
 
 ## Constructors
-
 ### SefiraIsolate()
 ```csharp
 public SefiraIsolate()
 ```
 
 ## Fields
-
 ### creatureId
 ```csharp
 public long creatureId
@@ -105,7 +100,6 @@ public float y
 **Type:** System.Single
 
 ## Methods
-
 ### isExclusive(long)
 ```csharp
 public bool isExclusive(long target)
@@ -122,5 +116,6 @@ public bool isExclusive(long target)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

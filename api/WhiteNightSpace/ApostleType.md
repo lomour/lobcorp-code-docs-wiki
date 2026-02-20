@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleType
 canonical_path: /api/WhiteNightSpace/ApostleType
 ---
-
 # Enum ApostleType
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ApostleType
 ```
 
 ## Fields
-
 ### BETRAYER
 ```csharp
 BETRAYER = 3
@@ -46,5 +42,6 @@ WAND = 2
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleType
+
 
 

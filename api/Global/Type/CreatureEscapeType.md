@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureEscapeType
 canonical_path: /api/Global/Type/CreatureEscapeType
 ---
-
 # Enum CreatureEscapeType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CreatureEscapeType
 ```
 
 ## Fields
-
 ### ATTACKWORKER
 ```csharp
 ATTACKWORKER = 0
@@ -46,5 +42,6 @@ WANDER = 3
 
 #### Field Value
 **Type:** Global.CreatureEscapeType
+
 
 

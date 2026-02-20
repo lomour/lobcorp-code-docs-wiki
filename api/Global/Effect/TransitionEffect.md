@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.TransitionEffect
 canonical_path: /api/Global/Effect/TransitionEffect
 ---
-
 # Class TransitionEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ public class TransitionEffect
 [object](https://learn.microsoft.com/dotnet/api/system.object) → TransitionEffect
 
 ## Constructors
-
 ### TransitionEffect()
 ```csharp
 public TransitionEffect()
 ```
 
 ## Fields
-
 ### _isBigger
 ```csharp
 private bool _isBigger
@@ -88,7 +83,6 @@ public Timer TransitionTimer
 **Type:** Global.Timer
 
 ## Properties
-
 ### IsBigger
 ```csharp
 public bool IsBigger { get; private set; }
@@ -106,7 +100,6 @@ public bool IsTrans { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### StartTransition(bool)
 ```csharp
 public void StartTransition(bool isBigger)
@@ -126,5 +119,6 @@ public void Update()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

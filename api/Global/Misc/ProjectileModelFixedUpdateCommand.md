@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ProjectileModel.FixedUpdateCommand
 canonical_path: /api/Global/Misc/ProjectileModelFixedUpdateCommand
 ---
-
 # Delegate ProjectileModel.FixedUpdateCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void ProjectileModel.FixedUpdateCommand(ProjectileModel proj)
 ```
 
 ## Constructors
-
 ### FixedUpdateCommand(object, IntPtr)
 ```csharp
 public FixedUpdateCommand(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public FixedUpdateCommand(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(ProjectileModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(ProjectileModel proj, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(ProjectileModel proj)
 | Name | Type | Description |
 | --- | --- | --- |
 | `proj` | `Global.ProjectileModel` |  |
+
 
 

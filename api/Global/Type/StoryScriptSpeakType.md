@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryScriptSpeakType
 canonical_path: /api/Global/Type/StoryScriptSpeakType
 ---
-
 # Enum StoryScriptSpeakType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryScriptSpeakType
 ```
 
 ## Fields
-
 ### AUTO
 ```csharp
 AUTO = 1
@@ -30,5 +26,6 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.StoryScriptSpeakType
+
 
 

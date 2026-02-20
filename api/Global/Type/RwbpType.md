@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RwbpType
 canonical_path: /api/Global/Type/RwbpType
 ---
-
 # Enum RwbpType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RwbpType
 ```
 
 ## Fields
-
 ### A
 ```csharp
 A = 5
@@ -62,5 +58,6 @@ W = 2
 
 #### Field Value
 **Type:** Global.RwbpType
+
 
 

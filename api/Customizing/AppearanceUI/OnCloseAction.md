@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.AppearanceUI.OnCloseAction
 canonical_path: /api/Customizing/AppearanceUI/OnCloseAction
 ---
-
 # Delegate AppearanceUI.OnCloseAction
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void AppearanceUI.OnCloseAction(AgentData data)
 ```
 
 ## Constructors
-
 ### OnCloseAction(object, IntPtr)
 ```csharp
 public OnCloseAction(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnCloseAction(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AgentData, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AgentData data, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(AgentData data)
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `Customizing.AgentData` |  |
+
 
 

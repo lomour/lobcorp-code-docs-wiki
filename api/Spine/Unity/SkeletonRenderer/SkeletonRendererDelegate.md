@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.SkeletonRenderer.SkeletonRendererDelegate
 canonical_path: /api/Spine/Unity/SkeletonRenderer/SkeletonRendererDelegate
 ---
-
 # Delegate SkeletonRenderer.SkeletonRendererDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void SkeletonRenderer.SkeletonRendererDelegate(SkeletonRenderer 
 ```
 
 ## Constructors
-
 ### SkeletonRendererDelegate(object, IntPtr)
 ```csharp
 public SkeletonRendererDelegate(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public SkeletonRendererDelegate(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(SkeletonRenderer, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(SkeletonRenderer skeletonRenderer, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(SkeletonRenderer skeletonRenderer)
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeletonRenderer` | `Spine.Unity.SkeletonRenderer` |  |
+
 
 

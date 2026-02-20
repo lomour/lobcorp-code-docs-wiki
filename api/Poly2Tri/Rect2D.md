@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.Rect2D
 canonical_path: /api/Poly2Tri/Rect2D
 ---
-
 # Class Rect2D
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class Rect2D
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Rect2D
 
 ## Constructors
-
 ### Rect2D()
 ```csharp
 public Rect2D()
 ```
 
 ## Fields
-
 ### mMaxX
 ```csharp
 private double mMaxX
@@ -58,7 +53,6 @@ private double mMinY
 **Type:** System.Double
 
 ## Properties
-
 ### Bottom
 ```csharp
 public double Bottom { get; set; }
@@ -148,7 +142,6 @@ public double Width { get; }
 **Type:** System.Double
 
 ## Methods
-
 ### AddPoint(Point2D)
 ```csharp
 public void AddPoint(Point2D p)
@@ -476,5 +469,6 @@ public void Union(Rect2D r1, Rect2D r2)
 
 ## Inherited Members
 [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

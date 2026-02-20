@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.TriangulationDebugContext
 canonical_path: /api/Poly2Tri/TriangulationDebugContext
 ---
-
 # Class TriangulationDebugContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public abstract class TriangulationDebugContext
 [DTSweepDebugContext](/api/Poly2Tri/DTSweepDebugContext)
 
 ## Constructors
-
 ### TriangulationDebugContext(TriangulationContext)
 ```csharp
 public TriangulationDebugContext(TriangulationContext tcx)
@@ -32,7 +28,6 @@ public TriangulationDebugContext(TriangulationContext tcx)
 | `tcx` | `Poly2Tri.TriangulationContext` |  |
 
 ## Fields
-
 ### _tcx
 ```csharp
 protected TriangulationContext _tcx
@@ -42,7 +37,6 @@ protected TriangulationContext _tcx
 **Type:** Poly2Tri.TriangulationContext
 
 ## Methods
-
 ### Clear()
 ```csharp
 public abstract void Clear()
@@ -50,5 +44,6 @@ public abstract void Clear()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

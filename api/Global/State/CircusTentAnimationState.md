@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CircusTent.AnimationState
 canonical_path: /api/Global/State/CircusTentAnimationState
 ---
-
 # Enum CircusTent.AnimationState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CircusTent.AnimationState
 ```
 
 ## Fields
-
 ### APPEAR
 ```csharp
 APPEAR = 0
@@ -38,5 +34,6 @@ SPAWN = 1
 
 #### Field Value
 **Type:** Global.CircusTent.AnimationState
+
 
 

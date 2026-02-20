@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BigBirdAttractBuf.Phase
 canonical_path: /api/Global/Phase/BigBirdAttractBufPhase
 ---
-
 # Enum BigBirdAttractBuf.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BigBirdAttractBuf.Phase
 ```
 
 ## Fields
-
 ### FIRST
 ```csharp
 FIRST = 0
@@ -38,5 +34,6 @@ THIRD = 2
 
 #### Field Value
 **Type:** Global.BigBirdAttractBuf.Phase
+
 
 

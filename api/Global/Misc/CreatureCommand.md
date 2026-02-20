@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureCommand
 canonical_path: /api/Global/Misc/CreatureCommand
 ---
-
 # Class CreatureCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ Instruction to an abnormality to do something (looks like mostly movement)
 [AttackCommand_creature](/api/Global/Creature/AttackCommandcreature), [MoveCreatureCommand](/api/Global/Creature/MoveCreatureCommand), [PursueCreatureCommand](/api/Global/Creature/PursueCreatureCommand), [PursueCreatureCommandAlter](/api/Global/Creature/PursueCreatureCommandAlter), [PursueCreatureCommandMultipleAttack](/api/Global/Creature/PursueCreatureCommandMultipleAttack)
 
 ## Constructors
-
 ### CreatureCommand()
 ```csharp
 public CreatureCommand()
 ```
 
 ## Fields
-
 ### actor
 ```csharp
 public CreatureModel actor
@@ -69,7 +64,6 @@ public bool isFinished
 **Type:** System.Boolean
 
 ## Methods
-
 ### Execute()
 ```csharp
 public virtual void Execute()
@@ -212,5 +206,6 @@ public virtual void SetEndCommand(CreatureCommand.OnCommandEnd cmd)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

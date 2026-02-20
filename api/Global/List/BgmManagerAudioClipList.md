@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BgmManager.AudioClipList
 canonical_path: /api/Global/List/BgmManagerAudioClipList
 ---
-
 # Class BgmManager.AudioClipList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class BgmManager.AudioClipList
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BgmManager.AudioClipList
 
 ## Constructors
-
 ### AudioClipList()
 ```csharp
 public AudioClipList()
 ```
 
 ## Fields
-
 ### lastPlayed
 ```csharp
 public int lastPlayed
@@ -42,7 +37,6 @@ public List<AudioClip> list
 **Type:** System.Collections.Generic.List{UnityEngine.AudioClip}
 
 ## Methods
-
 ### GetClip(int)
 ```csharp
 public AudioClip GetClip(int index)
@@ -66,5 +60,6 @@ public AudioClip GetRandomClip()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

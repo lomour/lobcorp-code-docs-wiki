@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StandingCmdType
 canonical_path: /api/Global/Type/StandingCmdType
 ---
-
 # Enum StandingCmdType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StandingCmdType
 ```
 
 ## Fields
-
 ### MOVE
 ```csharp
 MOVE = 1
@@ -38,5 +34,6 @@ STANDING = 2
 
 #### Field Value
 **Type:** Global.StandingCmdType
+
 
 

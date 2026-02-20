@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DamageInfo
 canonical_path: /api/Global/Info/DamageInfo
 ---
-
 # Class DamageInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ Also provides the method that calculates damage.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DamageInfo
 
 ## Constructors
-
 ### DamageInfo(RwbpType, float)
 ```csharp
 public DamageInfo(RwbpType type, float damage)
@@ -53,7 +49,6 @@ public DamageInfo(RwbpType type, int min, int max)
 | `max` | `System.Int32` |  |
 
 ## Fields
-
 ### effectInfo
 ```csharp
 public EffectInfo effectInfo
@@ -136,7 +131,6 @@ public RwbpType type
 **Type:** Global.RwbpType
 
 ## Properties
-
 ### zero
 ```csharp
 public static DamageInfo zero { get; }
@@ -146,7 +140,6 @@ public static DamageInfo zero { get; }
 **Type:** Global.DamageInfo
 
 ## Methods
-
 ### Copy()
 ```csharp
 public DamageInfo Copy()
@@ -180,7 +173,6 @@ public float GetDamageWithDefenseInfo(DefenseInfo defense)
 **Type:** System.Single
 
 ## Operators
-
 ### operator *(DamageInfo, float)
 ```csharp
 public static DamageInfo operator *(DamageInfo d, float f)
@@ -213,5 +205,6 @@ public static DamageInfo operator *(float f, DamageInfo d)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

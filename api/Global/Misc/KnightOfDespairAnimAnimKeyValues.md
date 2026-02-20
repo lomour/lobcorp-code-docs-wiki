@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.KnightOfDespairAnim.AnimKeyValues
 canonical_path: /api/Global/Misc/KnightOfDespairAnimAnimKeyValues
 ---
-
 # Class KnightOfDespairAnim.AnimKeyValues
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public static class KnightOfDespairAnim.AnimKeyValues
 [object](https://learn.microsoft.com/dotnet/api/system.object) → KnightOfDespairAnim.AnimKeyValues
 
 ## Fields
-
 ### Attack
 ```csharp
 public static string Attack
@@ -75,7 +71,6 @@ public static string Transform
 **Type:** System.String
 
 ## Methods
-
 ### GetAnimKey(AnimKey, bool)
 ```csharp
 public static string GetAnimKey(KnightOfDespairAnim.AnimKey key, bool type = false)
@@ -92,5 +87,6 @@ public static string GetAnimKey(KnightOfDespairAnim.AnimKey key, bool type = fal
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

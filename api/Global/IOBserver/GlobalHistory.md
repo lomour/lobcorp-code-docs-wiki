@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.GlobalHistory
 canonical_path: /api/Global/IOBserver/GlobalHistory
 ---
-
 # Class GlobalHistory
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -34,7 +31,6 @@ For the [results screen](/api/Global/IANimatorEventCalled/ResultScreen) and some
 [IObserver](/api/Global/Misc/IObserver)
 
 ## Constructors
-
 ### GlobalHistory()
 ```csharp
 public GlobalHistory()
@@ -42,7 +38,6 @@ public GlobalHistory()
 
 
 ## Fields
-
 ### _deadAgents
 ```csharp
 private List<AgentModel> _deadAgents
@@ -125,7 +120,6 @@ private float _thirdQuarter
 **Type:** System.Single
 
 ## Properties
-
 ### instance
 ```csharp
 public static GlobalHistory instance { get; }
@@ -135,7 +129,6 @@ public static GlobalHistory instance { get; }
 **Type:** Global.GlobalHistory
 
 ## Methods
-
 ### AddOrdsAndEmers(History)
 ```csharp
 public void AddOrdsAndEmers(History history)
@@ -203,5 +196,6 @@ public void OnStageStart()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

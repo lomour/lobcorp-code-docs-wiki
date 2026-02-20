@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BossBirdAnim.NarrationData
 canonical_path: /api/Global/Misc/BossBirdAnimNarrationData
 ---
-
 # Class BossBirdAnim.NarrationData
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class BossBirdAnim.NarrationData
 [object](https://learn.microsoft.com/dotnet/api/system.object) → BossBirdAnim.NarrationData
 
 ## Constructors
-
 ### NarrationData(string, float, NarrationEndEvent, NarrationState)
 ```csharp
 public NarrationData(string text, float time, BossBirdAnim.NarrationUI.NarrationEndEvent endEvent, BossBird.NarrationState state)
@@ -32,7 +28,6 @@ public NarrationData(string text, float time, BossBirdAnim.NarrationUI.Narration
 | `state` | `Global.BossBird.NarrationState` |  |
 
 ## Fields
-
 ### endEvent
 ```csharp
 public BossBirdAnim.NarrationUI.NarrationEndEvent endEvent
@@ -75,5 +70,6 @@ public float narrationTime
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

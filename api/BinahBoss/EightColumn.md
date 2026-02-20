@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.EightColumn
 canonical_path: /api/BinahBoss/EightColumn
 ---
-
 # Class EightColumn
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ public class EightColumn : BinahAction
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [BinahAction](/api/BinahBoss/BinahAction) → EightColumn
 
 ## Constructors
-
 ### EightColumn(BinahCoreScript)
 ```csharp
 public EightColumn(BinahCoreScript binah)
@@ -35,7 +31,6 @@ public EightColumn(BinahCoreScript binah)
 | `binah` | `Global.BinahCoreScript` |  |
 
 ## Fields
-
 ### _timeLimit
 ```csharp
 private const float _timeLimit = 60
@@ -118,7 +113,6 @@ private Timer timeLimitTimer
 **Type:** Global.Timer
 
 ## Methods
-
 ### GenProjectile(Transform, out Vector3)
 ```csharp
 private BinahProjectile GenProjectile(Transform startPos, out Vector3 velocity)
@@ -195,5 +189,6 @@ public override void ParamInit()
 
 ## Inherited Members
 [binah](/api/BinahBoss/BinahAction#binah), [actionState](/api/BinahBoss/BinahAction#actionstate), [_interrupt](/api/BinahBoss/BinahAction#interrupt), [SetInterruptAction(BinahAction)](/api/BinahBoss/BinahAction#setinterruptaction-binahaction), [OnInterrupt()](/api/BinahBoss/BinahAction#oninterrupt), [EndAction()](/api/BinahBoss/BinahAction#endaction), [Interrupt()](/api/BinahBoss/BinahAction#interrupt), [CanTakeDamage()](/api/BinahBoss/BinahAction#cantakedamage), [Movable](/api/BinahBoss/BinahAction#movable), [Model](/api/BinahBoss/BinahAction#model), [AnimScript](/api/BinahBoss/BinahAction#animscript), [Animator](/api/BinahBoss/BinahAction#animator), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

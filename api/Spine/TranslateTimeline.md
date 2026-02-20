@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.TranslateTimeline
 canonical_path: /api/Spine/TranslateTimeline
 ---
-
 # Class TranslateTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ public class TranslateTimeline : CurveTimeline, Timeline
 [Timeline](/api/Spine/Timeline)
 
 ## Constructors
-
 ### TranslateTimeline(int)
 ```csharp
 public TranslateTimeline(int frameCount)
@@ -35,7 +31,6 @@ public TranslateTimeline(int frameCount)
 | `frameCount` | `System.Int32` |  |
 
 ## Fields
-
 ### boneIndex
 ```csharp
 internal int boneIndex
@@ -101,7 +96,6 @@ protected const int Y = 2
 **Type:** System.Int32
 
 ## Properties
-
 ### BoneIndex
 ```csharp
 public int BoneIndex { get; set; }
@@ -127,7 +121,6 @@ public override int PropertyId { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Apply(Skeleton, float, float, ExposedList<Event>, float, MixPose, MixDirection)
 ```csharp
 public override void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> firedEvents, float alpha, MixPose pose, MixDirection direction)
@@ -159,5 +152,6 @@ public void SetFrame(int frameIndex, float time, float x, float y)
 
 ## Inherited Members
 [LINEAR](/api/Spine/CurveTimeline#linear), [STEPPED](/api/Spine/CurveTimeline#stepped), [BEZIER](/api/Spine/CurveTimeline#bezier), [BEZIER_SIZE](/api/Spine/CurveTimeline#bezier-size), [curves](/api/Spine/CurveTimeline#curves), [SetLinear(int)](/api/Spine/CurveTimeline#setlinear-int), [SetStepped(int)](/api/Spine/CurveTimeline#setstepped-int), [SetCurve(int, float, float, float, float)](/api/Spine/CurveTimeline#setcurve-int-float-float-float-float), [GetCurvePercent(int, float)](/api/Spine/CurveTimeline#getcurvepercent-int-float), [GetCurveType(int)](/api/Spine/CurveTimeline#getcurvetype-int), [FrameCount](/api/Spine/CurveTimeline#framecount), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

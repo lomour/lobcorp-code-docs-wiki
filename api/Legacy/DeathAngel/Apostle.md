@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Legacy.DeathAngel.Apostle
 canonical_path: /api/Legacy/DeathAngel/Apostle
 ---
-
 # Class DeathAngel.Apostle
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class DeathAngel.Apostle
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DeathAngel.Apostle
 
 ## Constructors
-
 ### Apostle()
 ```csharp
 public Apostle()
 ```
 
 ## Fields
-
 ### angel
 ```csharp
 public DeathAngel angel
@@ -74,7 +69,6 @@ public Uncontrollable_DeathApostle uncon
 **Type:** Legacy.Uncontrollable_DeathApostle
 
 ## Methods
-
 ### InitApostle(WorkerModel, DeathAngel, DeathAngelApostle, int)
 ```csharp
 public void InitApostle(WorkerModel target, DeathAngel angel, DeathAngelApostle data, int index)
@@ -90,5 +84,6 @@ public void InitApostle(WorkerModel target, DeathAngel angel, DeathAngelApostle 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ShockwaveEffect.State
 canonical_path: /api/Global/State/ShockwaveEffectState
 ---
-
 # Enum ShockwaveEffect.State
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private enum ShockwaveEffect.State
 ```
 
 ## Fields
-
 ### Explode
 ```csharp
 Explode = 2
@@ -38,5 +34,6 @@ Pause = 0
 
 #### Field Value
 **Type:** Global.ShockwaveEffect.State
+
 
 

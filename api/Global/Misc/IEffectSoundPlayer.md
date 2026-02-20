@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IEffectSoundPlayer
 canonical_path: /api/Global/Misc/IEffectSoundPlayer
 ---
-
 # Interface IEffectSoundPlayer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Interface for things which can play sound effects. Unused.
 
 
 ## Methods
-
 ### PlayEffectSound(EffectSoundType)
 ```csharp
 void PlayEffectSound(EffectSoundType type)
@@ -47,5 +43,6 @@ void PlayEffectSound(EffectSoundType type, float volume)
 | --- | --- | --- |
 | `type` | `Global.EffectSoundType` |  |
 | `volume` | `System.Single` |  |
+
 
 

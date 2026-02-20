@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Mhz_1_76.NoiseDmg
 canonical_path: /api/Global/Misc/Mhz176NoiseDmg
 ---
-
 # Class Mhz_1_76.NoiseDmg
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class Mhz_1_76.NoiseDmg
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Mhz_1_76.NoiseDmg
 
 ## Constructors
-
 ### NoiseDmg(PassageObjectModel, GameObject)
 ```csharp
 public NoiseDmg(PassageObjectModel p, GameObject go)
@@ -30,7 +26,6 @@ public NoiseDmg(PassageObjectModel p, GameObject go)
 | `go` | `UnityEngine.GameObject` |  |
 
 ## Fields
-
 ### _dmgTimer
 ```csharp
 public AutoTimer _dmgTimer
@@ -64,7 +59,6 @@ public PassageObjectModel _passage
 **Type:** Global.PassageObjectModel
 
 ## Methods
-
 ### DestroyNoise()
 ```csharp
 public void DestroyNoise()
@@ -77,5 +71,6 @@ public void GiveNoiseDmg()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.TransformMode
 canonical_path: /api/Spine/TransformMode
 ---
-
 # Enum TransformMode
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -21,7 +18,6 @@ public enum TransformMode
 - [InheritsScale(TransformMode)](Spine.SkeletonExtensions.html#Spine_SkeletonExtensions_InheritsScale_Spine_TransformMode_)
 
 ## Fields
-
 ### Normal
 ```csharp
 Normal = 0
@@ -61,5 +57,6 @@ OnlyTranslation = NoRotationOrReflection | NoScaleOrReflection
 
 #### Field Value
 **Type:** Spine.TransformMode
+
 
 

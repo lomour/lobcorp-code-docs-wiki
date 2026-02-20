@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Unity.SkeletonAnimator.MecanimTranslator
 canonical_path: /api/Spine/Unity/SkeletonAnimator/MecanimTranslator
 ---
-
 # Class SkeletonAnimator.MecanimTranslator
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class SkeletonAnimator.MecanimTranslator
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SkeletonAnimator.MecanimTranslator
 
 ## Constructors
-
 ### MecanimTranslator()
 ```csharp
 public MecanimTranslator()
 ```
 
 ## Fields
-
 ### animationTable
 ```csharp
 private readonly Dictionary<int, Animation> animationTable
@@ -90,7 +85,6 @@ private readonly List<Animation> previousAnimations
 **Type:** System.Collections.Generic.List{Spine.Animation}
 
 ## Properties
-
 ### Animator
 ```csharp
 public Animator Animator { get; }
@@ -100,7 +94,6 @@ public Animator Animator { get; }
 **Type:** UnityEngine.Animator
 
 ## Methods
-
 ### AnimationTime(float, float, bool)
 ```csharp
 private static float AnimationTime(float normalizedTime, float clipLength, bool reversed)
@@ -182,5 +175,6 @@ private int NameHashCode(AnimationClip clip)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

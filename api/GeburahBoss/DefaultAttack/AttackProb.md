@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GeburahBoss.DefaultAttack.AttackProb
 canonical_path: /api/GeburahBoss/DefaultAttack/AttackProb
 ---
-
 # Class DefaultAttack.AttackProb
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class DefaultAttack.AttackProb
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DefaultAttack.AttackProb
 
 ## Constructors
-
 ### AttackProb(int, float)
 ```csharp
 public AttackProb(int type, float prob)
@@ -30,7 +26,6 @@ public AttackProb(int type, float prob)
 | `prob` | `System.Single` |  |
 
 ## Fields
-
 ### _rangeMax
 ```csharp
 public float _rangeMax
@@ -65,5 +60,6 @@ public int attackType
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

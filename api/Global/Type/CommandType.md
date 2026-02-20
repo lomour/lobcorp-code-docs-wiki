@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CommandType
 canonical_path: /api/Global/Type/CommandType
 ---
-
 # Enum CommandType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CommandType
 ```
 
 ## Fields
-
 ### KitCreature
 ```csharp
 KitCreature = 2
@@ -38,5 +34,6 @@ Suppress = 0
 
 #### Field Value
 **Type:** Global.CommandType
+
 
 

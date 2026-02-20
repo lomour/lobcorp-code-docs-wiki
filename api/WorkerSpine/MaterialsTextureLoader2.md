@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSpine.MaterialsTextureLoader2
 canonical_path: /api/WorkerSpine/MaterialsTextureLoader2
 ---
-
 # Class MaterialsTextureLoader2
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class MaterialsTextureLoader2 : TextureLoader
 [TextureLoader](/api/Spine/TextureLoader)
 
 ## Constructors
-
 ### MaterialsTextureLoader2()
 ```csharp
 public MaterialsTextureLoader2()
@@ -37,7 +33,6 @@ public MaterialsTextureLoader2(AtlasAsset atlasAsset)
 | `atlasAsset` | `Spine.Unity.AtlasAsset` |  |
 
 ## Fields
-
 ### atlasAsset
 ```csharp
 private AtlasAsset atlasAsset
@@ -47,7 +42,6 @@ private AtlasAsset atlasAsset
 **Type:** Spine.Unity.AtlasAsset
 
 ## Methods
-
 ### Load(AtlasPage, string)
 ```csharp
 public void Load(AtlasPage page, string path)
@@ -71,5 +65,6 @@ public void Unload(object texture)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

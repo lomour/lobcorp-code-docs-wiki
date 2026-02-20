@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureGenerate.ActivateStateList
 canonical_path: /api/CreatureGenerate/ActivateStateList
 ---
-
 # Class ActivateStateList
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See [CreatureGenerateInfoManager](/api/CreatureGenerate/CreatureGenerateInfoMana
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ActivateStateList
 
 ## Constructors
-
 ### ActivateStateList()
 ```csharp
 public ActivateStateList()
 ```
 
 ## Fields
-
 ### list
 ```csharp
 public List<ActivateStateModel> list
@@ -60,7 +55,6 @@ public List<ActivateStateModel> Usable
 **Type:** System.Collections.Generic.List{CreatureGenerate.ActivateStateModel}
 
 ## Properties
-
 ### CurrentDay
 ```csharp
 private int CurrentDay { get; }
@@ -94,7 +88,6 @@ public int UsableCount { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Add(ActivateStateModel)
 ```csharp
 public void Add(ActivateStateModel model)
@@ -160,5 +153,6 @@ public void RemoveAction(long id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

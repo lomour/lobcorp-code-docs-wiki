@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GlobalBullet.GlobalBulletManager
 canonical_path: /api/GlobalBullet/GlobalBulletManager
 ---
-
 # Class GlobalBulletManager
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Manager for how many bullets there are, when they're reloaded, when they're acti
 [object](https://learn.microsoft.com/dotnet/api/system.object) → GlobalBulletManager
 
 ## Constructors
-
 ### GlobalBulletManager()
 ```csharp
 private GlobalBulletManager()
@@ -32,7 +28,6 @@ private GlobalBulletManager()
 
 
 ## Fields
-
 ### _funcs
 ```csharp
 private Dictionary<GlobalBulletType, GlobalBulletManager.BulletFunc> _funcs
@@ -96,7 +91,6 @@ public int maxBullet
 **Type:** System.Int32
 
 ## Properties
-
 ### instance
 ```csharp
 public static GlobalBulletManager instance { get; }
@@ -106,7 +100,6 @@ public static GlobalBulletManager instance { get; }
 **Type:** GlobalBullet.GlobalBulletManager
 
 ## Methods
-
 ### ActivateBullet(GlobalBulletType, List<UnitModel>)
 ```csharp
 public bool ActivateBullet(GlobalBulletType type, List<UnitModel> targets)
@@ -259,5 +252,6 @@ private void UpdateUI()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CameraFilterPack_Colors_Adjust_PreFilters.filters
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackColorsAdjustPreFiltersfilters
 ---
-
 # Enum CameraFilterPack_Colors_Adjust_PreFilters.filters
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum CameraFilterPack_Colors_Adjust_PreFilters.filters
 ```
 
 ## Fields
-
 ### Amelie
 ```csharp
 Amelie = 15
@@ -270,5 +266,6 @@ YellowSunSet = 10
 
 #### Field Value
 **Type:** Global.CameraFilterPack_Colors_Adjust_PreFilters.filters
+
 
 

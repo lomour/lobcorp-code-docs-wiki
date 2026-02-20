@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: BinahBoss.BinahVoidAction
 canonical_path: /api/BinahBoss/BinahVoidAction
 ---
-
 # Delegate BinahVoidAction
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void BinahVoidAction()
 ```
 
 ## Constructors
-
 ### BinahVoidAction(object, IntPtr)
 ```csharp
 public BinahVoidAction(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public BinahVoidAction(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

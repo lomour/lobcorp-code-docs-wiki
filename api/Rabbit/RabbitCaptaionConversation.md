@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Rabbit.RabbitCaptaionConversation
 canonical_path: /api/Rabbit/RabbitCaptaionConversation
 ---
-
 # Class RabbitCaptaionConversation
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll
@@ -26,7 +23,6 @@ During [Gebura](/api/Global/Misc/GeburahBossBase) and [Binah's core suppressions
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RabbitCaptaionConversation
 
 ## Fields
-
 ### format
 ```csharp
 private const string format = "Rabbit_Captain_{0}_"
@@ -46,7 +42,6 @@ public static int[] keyCount
 **Type:** System.Int32[]
 
 ## Properties
-
 ### Binah
 ```csharp
 public static bool Binah { get; }
@@ -64,7 +59,6 @@ public static bool Geburah { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetKey(RabbitCaptainConversationType)
 ```csharp
 public static string GetKey(RabbitCaptainConversationType type)
@@ -95,5 +89,6 @@ public static string GetText(RabbitCaptainConversationType type)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

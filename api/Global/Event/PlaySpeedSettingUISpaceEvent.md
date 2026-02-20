@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlaySpeedSettingUI.SpaceEvent
 canonical_path: /api/Global/Event/PlaySpeedSettingUISpaceEvent
 ---
-
 # Delegate PlaySpeedSettingUI.SpaceEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void PlaySpeedSettingUI.SpaceEvent(bool state)
 ```
 
 ## Constructors
-
 ### SpaceEvent(object, IntPtr)
 ```csharp
 public SpaceEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public SpaceEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(bool, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(bool state, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(bool state)
 | Name | Type | Description |
 | --- | --- | --- |
 | `state` | `System.Boolean` |  |
+
 
 

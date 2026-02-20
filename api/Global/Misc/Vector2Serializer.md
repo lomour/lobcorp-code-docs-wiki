@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.Vector2Serializer
 canonical_path: /api/Global/Misc/Vector2Serializer
 ---
-
 # Class Vector2Serializer
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ Tool for loading and saving 2D vectors to disk. Only used by [CreatureModel](/ap
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Vector2Serializer
 
 ## Constructors
-
 ### Vector2Serializer()
 ```csharp
 public Vector2Serializer()
@@ -42,7 +38,6 @@ public Vector2Serializer(Vector2 v2)
 | `v2` | `UnityEngine.Vector2` |  |
 
 ## Fields
-
 ### x
 ```csharp
 public float x
@@ -62,7 +57,6 @@ public float y
 **Type:** System.Single
 
 ## Properties
-
 ### V2
 ```csharp
 public Vector3 V2 { get; set; }
@@ -72,7 +66,6 @@ public Vector3 V2 { get; set; }
 **Type:** UnityEngine.Vector3
 
 ## Methods
-
 ### Fill(Vector2)
 ```csharp
 public void Fill(Vector2 v2)
@@ -86,5 +79,6 @@ public void Fill(Vector2 v2)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

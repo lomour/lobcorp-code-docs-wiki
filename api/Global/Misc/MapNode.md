@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.MapNode
 canonical_path: /api/Global/Misc/MapNode
 ---
-
 # Class MapNode
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ May also represent an [elevator](/api/Global/Model/ElevatorPassageModel) or a [d
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapNode
 
 ## Constructors
-
 ### MapNode(string, Vector3, string)
 ```csharp
 public MapNode(string id, Vector3 pos, string areaName)
@@ -54,7 +50,6 @@ public MapNode(string id, Vector3 pos, string areaName, PassageObjectModel attac
 | `attachedPassage` | `Global.PassageObjectModel` |  |
 
 ## Fields
-
 ### _activate
 ```csharp
 private bool _activate
@@ -191,7 +186,6 @@ private List<MapNode> zNodes
 **Type:** System.Collections.Generic.List{MapNode}
 
 ## Properties
-
 ### activate
 ```csharp
 public bool activate { get; set; }
@@ -201,7 +195,6 @@ public bool activate { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### AddEdge(MapEdge)
 ```csharp
 public void AddEdge(MapEdge edge)
@@ -428,5 +421,6 @@ public void SetTeleport(List<MapNode> teleportTo, UnitDirection dir)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

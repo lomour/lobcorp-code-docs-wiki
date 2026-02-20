@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DaughterBug.DaughterState
 canonical_path: /api/Global/State/DaughterBugDaughterState
 ---
-
 # Enum DaughterBug.DaughterState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DaughterBug.DaughterState
 ```
 
 ## Fields
-
 ### ACTIVED
 ```csharp
 ACTIVED = 0
@@ -30,5 +26,6 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.DaughterBug.DaughterState
+
 
 

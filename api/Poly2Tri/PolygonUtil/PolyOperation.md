@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.PolygonUtil.PolyOperation
 canonical_path: /api/Poly2Tri/PolygonUtil/PolyOperation
 ---
-
 # Enum PolygonUtil.PolyOperation
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public enum PolygonUtil.PolyOperation : uint
 ```
 
 ## Fields
-
 ### Intersect
 ```csharp
 Intersect = 2
@@ -49,5 +45,6 @@ Union = 1
 
 #### Field Value
 **Type:** Poly2Tri.PolygonUtil.PolyOperation
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.ExposedList`1.Enumerator
 canonical_path: /api/Spine/ExposedList-T/Enumerator
 ---
-
 # Struct ExposedList<T>.Enumerator
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public struct ExposedList<T>.Enumerator : IEnumerator<T>, IDisposable, IEnumerat
 [IEnumerator<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1), [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable), [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
 ## Constructors
-
 ### Enumerator(ExposedList<T>)
 ```csharp
 internal Enumerator(ExposedList<T> l)
@@ -29,7 +25,6 @@ internal Enumerator(ExposedList<T> l)
 | `l` | `Spine.ExposedList`1` |  |
 
 ## Fields
-
 ### current
 ```csharp
 private T current
@@ -63,7 +58,6 @@ private int ver
 **Type:** System.Int32
 
 ## Properties
-
 ### Current
 ```csharp
 public T Current { get; }
@@ -81,7 +75,6 @@ object IEnumerator.Current { get; }
 **Type:** System.Object
 
 ## Methods
-
 ### Dispose()
 ```csharp
 public void Dispose()
@@ -107,5 +100,6 @@ private void VerifyState()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.valuetype.equals), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode), [ToString()](https://learn.microsoft.com/dotnet/api/system.valuetype.tostring), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
 
 

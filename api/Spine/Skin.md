@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.Skin
 canonical_path: /api/Spine/Skin
 ---
-
 # Class Skin
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -32,7 +29,6 @@ public class Skin
 - [SetAttachment(Skin, string, string, Attachment, Skeleton)](Spine.Unity.Modules.AttachmentTools.SkinUtilities.html#Spine_Unity_Modules_AttachmentTools_SkinUtilities_SetAttachment_Spine_Skin_System_String_System_String_Spine_Attachment_Spine_Skeleton_)
 
 ## Constructors
-
 ### Skin(string)
 ```csharp
 public Skin(string name)
@@ -44,7 +40,6 @@ public Skin(string name)
 | `name` | `System.String` |  |
 
 ## Fields
-
 ### attachments
 ```csharp
 private Dictionary<Skin.AttachmentKeyTuple, Attachment> attachments
@@ -62,7 +57,6 @@ internal string name
 **Type:** System.String
 
 ## Properties
-
 ### Attachments
 ```csharp
 public Dictionary<Skin.AttachmentKeyTuple, Attachment> Attachments { get; }
@@ -80,7 +74,6 @@ public string Name { get; }
 **Type:** System.String
 
 ## Methods
-
 ### AddAttachment(int, string, Attachment)
 ```csharp
 public void AddAttachment(int slotIndex, string name, Attachment attachment)
@@ -150,5 +143,6 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

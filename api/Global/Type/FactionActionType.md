@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FactionActionType
 canonical_path: /api/Global/Type/FactionActionType
 ---
-
 # Enum FactionActionType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FactionActionType
 ```
 
 ## Fields
-
 ### FRIENDLY
 ```csharp
 FRIENDLY = 1
@@ -30,5 +26,6 @@ HOSTILE = 0
 
 #### Field Value
 **Type:** Global.FactionActionType
+
 
 

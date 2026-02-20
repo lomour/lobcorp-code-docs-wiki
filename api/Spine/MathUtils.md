@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.MathUtils
 canonical_path: /api/Spine/MathUtils
 ---
-
 # Class MathUtils
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public static class MathUtils
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MathUtils
 
 ## Fields
-
 ### DegFull
 ```csharp
 private const float DegFull = 360
@@ -115,7 +111,6 @@ private const int SIN_MASK = 16383
 **Type:** System.Int32
 
 ## Methods
-
 ### Atan2(float, float)
 ```csharp
 public static float Atan2(float y, float x)
@@ -199,5 +194,6 @@ public static float SinDeg(float degrees)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

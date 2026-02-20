@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSpine.DefaultTwoHandedType
 canonical_path: /api/WorkerSpine/DefaultTwoHandedType
 ---
-
 # Enum DefaultTwoHandedType
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DefaultTwoHandedType
 ```
 
 ## Fields
-
 ### BOWGUN
 ```csharp
 BOWGUN = 0
@@ -62,5 +58,6 @@ SPEAR = 1
 
 #### Field Value
 **Type:** WorkerSpine.DefaultTwoHandedType
+
 
 

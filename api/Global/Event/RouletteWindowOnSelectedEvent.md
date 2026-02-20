@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RouletteWindow.OnSelectedEvent
 canonical_path: /api/Global/Event/RouletteWindowOnSelectedEvent
 ---
-
 # Delegate RouletteWindow.OnSelectedEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void RouletteWindow.OnSelectedEvent(WorkerModel target)
 ```
 
 ## Constructors
-
 ### OnSelectedEvent(object, IntPtr)
 ```csharp
 public OnSelectedEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public OnSelectedEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(WorkerModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(WorkerModel target, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(WorkerModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
+
 
 

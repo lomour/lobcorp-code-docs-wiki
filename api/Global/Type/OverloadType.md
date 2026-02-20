@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.OverloadType
 canonical_path: /api/Global/Type/OverloadType
 ---
-
 # Enum OverloadType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum OverloadType
 ```
 
 ## Fields
-
 ### BLACKFOG
 ```csharp
 BLACKFOG = 2
@@ -54,5 +50,6 @@ WAVE = 3
 
 #### Field Value
 **Type:** Global.OverloadType
+
 
 

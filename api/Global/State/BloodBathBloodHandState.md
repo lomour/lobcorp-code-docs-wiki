@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BloodBath.BloodHandState
 canonical_path: /api/Global/State/BloodBathBloodHandState
 ---
-
 # Enum BloodBath.BloodHandState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BloodBath.BloodHandState
 ```
 
 ## Fields
-
 ### ONE
 ```csharp
 ONE = 1
@@ -46,5 +42,6 @@ ZERO = 0
 
 #### Field Value
 **Type:** Global.BloodBath.BloodHandState
+
 
 

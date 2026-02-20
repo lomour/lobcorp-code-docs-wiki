@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SilentOrchestra.Movement
 canonical_path: /api/Global/Misc/SilentOrchestraMovement
 ---
-
 # Enum SilentOrchestra.Movement
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum SilentOrchestra.Movement
 ```
 
 ## Fields
-
 ### FINALE
 ```csharp
 FINALE = 5
@@ -62,5 +58,6 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.SilentOrchestra.Movement
+
 
 

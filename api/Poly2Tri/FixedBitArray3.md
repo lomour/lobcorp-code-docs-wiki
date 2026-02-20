@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.FixedBitArray3
 canonical_path: /api/Poly2Tri/FixedBitArray3
 ---
-
 # Struct FixedBitArray3
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public struct FixedBitArray3 : IEnumerable<bool>, IEnumerable
 [IEnumerable<bool>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
 ## Fields
-
 ### _0
 ```csharp
 public bool _0
@@ -43,7 +39,6 @@ public bool _2
 **Type:** System.Boolean
 
 ## Properties
-
 ### this[int]
 ```csharp
 public bool this[int index] { get; set; }
@@ -58,7 +53,6 @@ public bool this[int index] { get; set; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Clear()
 ```csharp
 public void Clear()
@@ -126,5 +120,6 @@ public int IndexOf(bool value)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.valuetype.equals), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode), [ToString()](https://learn.microsoft.com/dotnet/api/system.valuetype.tostring), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
 
 

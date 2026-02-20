@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Inventory.InventoryRequireLayout
 canonical_path: /api/Inventory/InventoryRequireLayout
 ---
-
 # Class InventoryRequireLayout
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Layout for formatting the [EGO requirement text](/api/Global/Unit/InventoryRequi
 [object](https://learn.microsoft.com/dotnet/api/system.object) → InventoryRequireLayout
 
 ## Constructors
-
 ### InventoryRequireLayout()
 ```csharp
 public InventoryRequireLayout()
 ```
 
 ## Fields
-
 ### ActiveControl
 ```csharp
 public GameObject ActiveControl
@@ -67,7 +62,6 @@ public GameObject unit
 **Type:** UnityEngine.GameObject
 
 ## Methods
-
 ### Init(EquipmentTypeInfo)
 ```csharp
 public void Init(EquipmentTypeInfo info)
@@ -81,5 +75,6 @@ public void Init(EquipmentTypeInfo info)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

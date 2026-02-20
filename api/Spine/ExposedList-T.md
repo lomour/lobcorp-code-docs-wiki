@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.ExposedList`1
 canonical_path: /api/Spine/ExposedList-T
 ---
-
 # Class ExposedList<T>
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -20,7 +17,6 @@ public class ExposedList<T> : IEnumerable<T>, IEnumerable
 [IEnumerable<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1), [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
 ## Constructors
-
 ### ExposedList()
 ```csharp
 public ExposedList()
@@ -58,7 +54,6 @@ internal ExposedList(T[] data, int size)
 | `size` | `System.Int32` |  |
 
 ## Fields
-
 ### Count
 ```csharp
 public int Count
@@ -100,7 +95,6 @@ private int version
 **Type:** System.Int32
 
 ## Properties
-
 ### Capacity
 ```csharp
 public int Capacity { get; set; }
@@ -110,7 +104,6 @@ public int Capacity { get; set; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Add(T)
 ```csharp
 public void Add(T item)
@@ -840,5 +833,6 @@ public bool TrueForAll(Predicate<T> match)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

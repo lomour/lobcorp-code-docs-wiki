@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.LocalizeTextDataLoader
 canonical_path: /api/Global/Loader/LocalizeTextDataLoader
 ---
-
 # Class LocalizeTextDataLoader
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ See also [LocalizeTextDataModel](/api/Global/Model/LocalizeTextDataModel)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → LocalizeTextDataLoader
 
 ## Constructors
-
 ### LocalizeTextDataLoader(string)
 ```csharp
 public LocalizeTextDataLoader(string lang)
@@ -37,7 +33,6 @@ public LocalizeTextDataLoader(string lang)
 | `lang` | `System.String` |  |
 
 ## Fields
-
 ### _lang
 ```csharp
 public string _lang
@@ -47,7 +42,6 @@ public string _lang
 **Type:** System.String
 
 ## Methods
-
 ### CheckDirText(DirectoryInfo, Dictionary<string, string>)
 ```csharp
 public void CheckDirText(DirectoryInfo dir, Dictionary<string, string> dic)
@@ -89,5 +83,6 @@ public Dictionary<string, string> LoadText(XmlDocument document)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

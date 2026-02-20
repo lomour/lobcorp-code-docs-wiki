@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UnitMouseEventEffect.EffectType
 canonical_path: /api/Global/Type/UnitMouseEventEffectEffectType
 ---
-
 # Enum UnitMouseEventEffect.EffectType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum UnitMouseEventEffect.EffectType
 ```
 
 ## Fields
-
 ### CLICK
 ```csharp
 CLICK = 1
@@ -30,5 +26,6 @@ OVERLAY = 0
 
 #### Field Value
 **Type:** Global.UnitMouseEventEffect.EffectType
+
 
 

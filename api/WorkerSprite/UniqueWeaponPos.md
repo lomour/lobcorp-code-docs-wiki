@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WorkerSprite.UniqueWeaponPos
 canonical_path: /api/WorkerSprite/UniqueWeaponPos
 ---
-
 # Enum UniqueWeaponPos
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum UniqueWeaponPos
 ```
 
 ## Fields
-
 ### BACK
 ```csharp
 BACK = 1
@@ -54,5 +50,6 @@ RIGHTHAND = 3
 
 #### Field Value
 **Type:** WorkerSprite.UniqueWeaponPos
+
 
 

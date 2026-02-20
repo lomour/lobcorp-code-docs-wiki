@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureSpecialDamageTable
 canonical_path: /api/Global/Misc/CreatureSpecialDamageTable
 ---
-
 # Class CreatureSpecialDamageTable
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -30,14 +27,12 @@ Holds the damage values of abnormality damage outside of work damage (e.g., brea
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureSpecialDamageTable
 
 ## Constructors
-
 ### CreatureSpecialDamageTable()
 ```csharp
 public CreatureSpecialDamageTable()
 ```
 
 ## Fields
-
 ### _specialWeaponInfos
 ```csharp
 private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
@@ -48,7 +43,6 @@ private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
 **Type:** System.Collections.Generic.Dictionary{System.String,EquipmentTypeInfo}
 
 ## Methods
-
 ### GetList()
 ```csharp
 public List<DamageInfo> GetList()
@@ -99,5 +93,6 @@ public void Init(Dictionary<string, EquipmentTypeInfo> infos)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

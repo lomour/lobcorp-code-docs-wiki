@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ItemObjectManager
 canonical_path: /api/Global/Misc/ItemObjectManager
 ---
-
 # Class ItemObjectManager
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ public class ItemObjectManager
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ItemObjectManager
 
 ## Constructors
-
 ### ItemObjectManager()
 ```csharp
 public ItemObjectManager()
 ```
 
 ## Fields
-
 ### _instance
 ```csharp
 private static ItemObjectManager _instance
@@ -61,7 +56,6 @@ private bool init
 **Type:** System.Boolean
 
 ## Properties
-
 ### instance
 ```csharp
 public static ItemObjectManager instance { get; }
@@ -79,7 +73,6 @@ public bool IsInit { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### GetData(long)
 ```csharp
 public ItemObjectData GetData(long id)
@@ -118,5 +111,6 @@ public void Init(ReadOnlyCollection<ItemObjectData> data)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

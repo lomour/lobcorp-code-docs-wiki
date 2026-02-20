@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SnowQueen.SnowQueenSound
 canonical_path: /api/Global/Misc/SnowQueenSnowQueenSound
 ---
-
 # Class SnowQueen.SnowQueenSound
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class SnowQueen.SnowQueenSound
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SnowQueen.SnowQueenSound
 
 ## Constructors
-
 ### SnowQueenSound(string, SoundEffectPlayer)
 ```csharp
 public SnowQueenSound(string p, SoundEffectPlayer s)
@@ -30,7 +26,6 @@ public SnowQueenSound(string p, SoundEffectPlayer s)
 | `s` | `Global.SoundEffectPlayer` |  |
 
 ## Fields
-
 ### sound
 ```csharp
 public SoundEffectPlayer sound
@@ -49,5 +44,6 @@ public string src
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

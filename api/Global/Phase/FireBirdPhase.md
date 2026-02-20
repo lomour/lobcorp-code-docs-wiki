@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FireBird.Phase
 canonical_path: /api/Global/Phase/FireBirdPhase
 ---
-
 # Enum FireBird.Phase
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FireBird.Phase
 ```
 
 ## Fields
-
 ### ATTACKEND
 ```csharp
 ATTACKEND = 3
@@ -62,5 +58,6 @@ SUPPRESSED = 4
 
 #### Field Value
 **Type:** Global.FireBird.Phase
+
 
 

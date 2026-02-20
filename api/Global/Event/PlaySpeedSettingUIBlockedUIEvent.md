@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.PlaySpeedSettingUI.BlockedUIEvent
 canonical_path: /api/Global/Event/PlaySpeedSettingUIBlockedUIEvent
 ---
-
 # Delegate PlaySpeedSettingUI.BlockedUIEvent
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void PlaySpeedSettingUI.BlockedUIEvent(int index)
 ```
 
 ## Constructors
-
 ### BlockedUIEvent(object, IntPtr)
 ```csharp
 public BlockedUIEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public BlockedUIEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(int, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(int index, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(int index)
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
+
 
 

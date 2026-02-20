@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StorySceneController.StorySceneState
 canonical_path: /api/Global/State/StorySceneControllerStorySceneState
 ---
-
 # Enum StorySceneController.StorySceneState
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StorySceneController.StorySceneState
 ```
 
 ## Fields
-
 ### EVENT_STORY
 ```csharp
 EVENT_STORY = 4
@@ -62,5 +58,6 @@ SUB_STORY = 3
 
 #### Field Value
 **Type:** Global.StorySceneController.StorySceneState
+
 
 

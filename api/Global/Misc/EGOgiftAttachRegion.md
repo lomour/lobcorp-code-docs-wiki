@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EGOgiftAttachRegion
 canonical_path: /api/Global/Misc/EGOgiftAttachRegion
 ---
-
 # Enum EGOgiftAttachRegion
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EGOgiftAttachRegion
 ```
 
 ## Fields
-
 ### BACK
 ```csharp
 BACK = 9
@@ -126,5 +122,6 @@ RIGHTHAND = 4
 
 #### Field Value
 **Type:** Global.EGOgiftAttachRegion
+
 
 

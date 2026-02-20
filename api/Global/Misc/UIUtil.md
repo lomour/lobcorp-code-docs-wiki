@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.UIUtil
 canonical_path: /api/Global/Misc/UIUtil
 ---
-
 # Class UIUtil
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,14 +19,12 @@ Provides some common methods for UI elements, like displaying defense factors, t
 [object](https://learn.microsoft.com/dotnet/api/system.object) → UIUtil
 
 ## Constructors
-
 ### UIUtil()
 ```csharp
 public UIUtil()
 ```
 
 ## Fields
-
 ### full
 ```csharp
 public const float full = 1
@@ -67,7 +62,6 @@ public const float quaterHalf = 0.75
 **Type:** System.Single
 
 ## Methods
-
 ### DefenseSetFactor(DefenseInfo, Text[], bool)
 ```csharp
 public static void DefenseSetFactor(DefenseInfo defenseInfo, Text[] text, bool bracket = false)
@@ -158,5 +152,6 @@ public static void SetUIAlpha(Text text, float value)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

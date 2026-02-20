@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.SplitComplexPolygonNode
 canonical_path: /api/Poly2Tri/SplitComplexPolygonNode
 ---
-
 # Class SplitComplexPolygonNode
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class SplitComplexPolygonNode
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SplitComplexPolygonNode
 
 ## Constructors
-
 ### SplitComplexPolygonNode()
 ```csharp
 public SplitComplexPolygonNode()
@@ -34,7 +30,6 @@ public SplitComplexPolygonNode(Point2D pos)
 | `pos` | `Poly2Tri.Point2D` |  |
 
 ## Fields
-
 ### mConnected
 ```csharp
 private List<SplitComplexPolygonNode> mConnected
@@ -52,7 +47,6 @@ private Point2D mPosition
 **Type:** Poly2Tri.Point2D
 
 ## Properties
-
 ### NumConnected
 ```csharp
 public int NumConnected { get; }
@@ -83,7 +77,6 @@ public SplitComplexPolygonNode this[int index] { get; }
 **Type:** Poly2Tri.SplitComplexPolygonNode
 
 ## Methods
-
 ### AddConnection(SplitComplexPolygonNode)
 ```csharp
 public void AddConnection(SplitComplexPolygonNode toMe)
@@ -231,7 +224,6 @@ public override string ToString()
 **Type:** System.String
 
 ## Operators
-
 ### operator !=(SplitComplexPolygonNode, SplitComplexPolygonNode)
 ```csharp
 public static bool operator !=(SplitComplexPolygonNode lhs, SplitComplexPolygonNode rhs)
@@ -262,5 +254,6 @@ public static bool operator ==(SplitComplexPolygonNode lhs, SplitComplexPolygonN
 
 ## Inherited Members
 [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

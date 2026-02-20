@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventLayer.TypoSession
 canonical_path: /api/Global/Misc/RandomEventLayerTypoSession
 ---
-
 # Class RandomEventLayer.TypoSession
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class RandomEventLayer.TypoSession
 [object](https://learn.microsoft.com/dotnet/api/system.object) → RandomEventLayer.TypoSession
 
 ## Constructors
-
 ### TypoSession()
 ```csharp
 public TypoSession()
 ```
 
 ## Fields
-
 ### color
 ```csharp
 public Color color
@@ -162,7 +157,6 @@ public bool useRatio
 **Type:** System.Boolean
 
 ## Properties
-
 ### FadeOutStart
 ```csharp
 public float FadeOutStart { get; }
@@ -172,7 +166,6 @@ public float FadeOutStart { get; }
 **Type:** System.Single
 
 ## Methods
-
 ### SetRatio(float, float)
 ```csharp
 public void SetRatio(float fadeIn, float fadeOut)
@@ -224,5 +217,6 @@ public void SetTypoEvent(RandomEventLayer.TypoState state, RandomEventLayer.Typo
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

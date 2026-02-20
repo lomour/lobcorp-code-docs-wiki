@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CommandWindow.WorkAllocateRegion
 canonical_path: /api/CommandWindow/WorkAllocateRegion
 ---
-
 # Class WorkAllocateRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll
@@ -25,14 +22,12 @@ See also [CommandWindow](/api/CommandWindow)
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CommandWindowRegion](/api/CommandWindow/CommandWindowRegion) → WorkAllocateRegion
 
 ## Constructors
-
 ### WorkAllocateRegion()
 ```csharp
 public WorkAllocateRegion()
 ```
 
 ## Fields
-
 ### _currentModel
 ```csharp
 private CreatureModel _currentModel
@@ -151,7 +146,6 @@ public Text WorkDamageType
 **Type:** UnityEngine.UI.Text
 
 ## Properties
-
 ### CurrentModel
 ```csharp
 public CreatureModel CurrentModel { get; }
@@ -161,7 +155,6 @@ public CreatureModel CurrentModel { get; }
 **Type:** Global.CreatureModel
 
 ## Methods
-
 ### NonObserved(CreatureModel)
 ```csharp
 private void NonObserved(CreatureModel creature)
@@ -197,5 +190,6 @@ public override void SetData(UnitModel target)
 
 ## Inherited Members
 [ActiveControl](/api/CommandWindow/CommandWindowRegion#activecontrol), [TargetImage](/api/CommandWindow/CommandWindowRegion#targetimage), [TargetName](/api/CommandWindow/CommandWindowRegion#targetname), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

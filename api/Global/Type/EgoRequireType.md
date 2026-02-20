@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.EgoRequireType
 canonical_path: /api/Global/Type/EgoRequireType
 ---
-
 # Enum EgoRequireType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum EgoRequireType
 ```
 
 ## Fields
-
 ### B
 ```csharp
 B = 3
@@ -54,5 +50,6 @@ W = 2
 
 #### Field Value
 **Type:** Global.EgoRequireType
+
 
 

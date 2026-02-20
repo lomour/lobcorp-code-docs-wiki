@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DefenseInfo.Type
 canonical_path: /api/Global/Type/DefenseInfoType
 ---
-
 # Enum DefenseInfo.Type
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DefenseInfo.Type
 ```
 
 ## Fields
-
 ### ENDURE
 ```csharp
 ENDURE = 3
@@ -62,5 +58,6 @@ WEAKNESS = 1
 
 #### Field Value
 **Type:** Global.DefenseInfo.Type
+
 
 

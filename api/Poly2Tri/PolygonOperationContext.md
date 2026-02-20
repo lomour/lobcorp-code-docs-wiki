@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Poly2Tri.PolygonOperationContext
 canonical_path: /api/Poly2Tri/PolygonOperationContext
 ---
-
 # Class PolygonOperationContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class PolygonOperationContext
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PolygonOperationContext
 
 ## Constructors
-
 ### PolygonOperationContext()
 ```csharp
 public PolygonOperationContext()
 ```
 
 ## Fields
-
 ### mError
 ```csharp
 public PolygonUtil.PolyUnionError mError
@@ -114,7 +109,6 @@ public int mStartingIndex
 **Type:** System.Int32
 
 ## Properties
-
 ### Intersect
 ```csharp
 public Point2DList Intersect { get; }
@@ -140,7 +134,6 @@ public Point2DList Union { get; }
 **Type:** Poly2Tri.Point2DList
 
 ## Methods
-
 ### Clear()
 ```csharp
 public void Clear()
@@ -206,5 +199,6 @@ private bool VerticesIntersect(Point2DList polygon1, Point2DList polygon2, out L
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

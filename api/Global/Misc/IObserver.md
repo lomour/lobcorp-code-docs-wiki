@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IObserver
 canonical_path: /api/Global/Misc/IObserver
 ---
-
 # Interface IObserver
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -29,7 +26,6 @@ void OnNotice(string notice, params object[] param)
 
 
 ## Methods
-
 ### OnNotice(string, params object[])
 ```csharp
 void OnNotice(string notice, params object[] param)
@@ -41,5 +37,6 @@ void OnNotice(string notice, params object[] param)
 | --- | --- | --- |
 | `notice` | `System.String` |  |
 | `param` | `System.Object[]` |  |
+
 
 

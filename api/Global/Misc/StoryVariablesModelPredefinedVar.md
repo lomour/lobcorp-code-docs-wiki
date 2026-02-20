@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryVariablesModel.PredefinedVar
 canonical_path: /api/Global/Misc/StoryVariablesModelPredefinedVar
 ---
-
 # Delegate StoryVariablesModel.PredefinedVar
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private delegate int StoryVariablesModel.PredefinedVar()
 ```
 
 ## Constructors
-
 ### PredefinedVar(object, IntPtr)
 ```csharp
 public PredefinedVar(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public PredefinedVar(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual int Invoke()
 
 #### Returns
 **Type:** System.Int32
+
 
 

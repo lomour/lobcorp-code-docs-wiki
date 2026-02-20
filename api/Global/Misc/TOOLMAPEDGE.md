@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.TOOL_MAP_EDGE
 canonical_path: /api/Global/Misc/TOOLMAPEDGE
 ---
-
 # Enum TOOL_MAP_EDGE
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum TOOL_MAP_EDGE
 ```
 
 ## Fields
-
 ### door
 ```csharp
 door = 0
@@ -30,5 +26,6 @@ road = 1
 
 #### Field Value
 **Type:** Global.TOOL_MAP_EDGE
+
 
 

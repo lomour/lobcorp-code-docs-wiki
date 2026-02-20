@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Customizing.Appearance.ResourceLib
 canonical_path: /api/Customizing/Appearance/ResourceLib
 ---
-
 # Class Appearance.ResourceLib
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll
@@ -17,14 +14,12 @@ public class Appearance.ResourceLib
 [object](https://learn.microsoft.com/dotnet/api/system.object) → Appearance.ResourceLib
 
 ## Constructors
-
 ### ResourceLib()
 ```csharp
 public ResourceLib()
 ```
 
 ## Fields
-
 ### Eye_Dead
 ```csharp
 public WorkerBasicSprite.ResourceData Eye_Dead
@@ -107,5 +102,6 @@ public WorkerBasicSprite.ResourceData RearHair
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.PlagueDocAnimRegion
 canonical_path: /api/WhiteNightSpace/PlagueDocAnimRegion
 ---
-
 # Enum PlagueDocAnimRegion
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PlagueDocAnimRegion
 ```
 
 ## Fields
-
 ### HAT_COAT
 ```csharp
 HAT_COAT = 1
@@ -38,5 +34,6 @@ WING = 0
 
 #### Field Value
 **Type:** WhiteNightSpace.PlagueDocAnimRegion
+
 
 

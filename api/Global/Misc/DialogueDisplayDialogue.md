@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DialogueDisplay.Dialogue
 canonical_path: /api/Global/Misc/DialogueDisplayDialogue
 ---
-
 # Class DialogueDisplay.Dialogue
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ private class DialogueDisplay.Dialogue
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DialogueDisplay.Dialogue
 
 ## Constructors
-
 ### Dialogue(string[])
 ```csharp
 public Dialogue(string[] w)
@@ -29,7 +25,6 @@ public Dialogue(string[] w)
 | `w` | `System.String[]` |  |
 
 ## Fields
-
 ### _words
 ```csharp
 public string[] _words
@@ -39,7 +34,6 @@ public string[] _words
 **Type:** System.String[]
 
 ## Properties
-
 ### Sentence
 ```csharp
 public string Sentence { get; }
@@ -50,5 +44,6 @@ public string Sentence { get; }
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

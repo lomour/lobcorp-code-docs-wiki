@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: GlobalBullet.GlobalBulletManager.BulletFunc
 canonical_path: /api/GlobalBullet/GlobalBulletManager/BulletFunc
 ---
-
 # Delegate GlobalBulletManager.BulletFunc
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ private delegate void GlobalBulletManager.BulletFunc(UnitModel target)
 ```
 
 ## Constructors
-
 ### BulletFunc(object, IntPtr)
 ```csharp
 public BulletFunc(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public BulletFunc(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(UnitModel, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(UnitModel target, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.PlagueDocAnimPart
 canonical_path: /api/WhiteNightSpace/PlagueDocAnimPart
 ---
-
 # Enum PlagueDocAnimPart
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum PlagueDocAnimPart
 ```
 
 ## Fields
-
 ### ANGEL
 ```csharp
 ANGEL = 10
@@ -102,5 +98,6 @@ WING_4 = 3
 
 #### Field Value
 **Type:** WhiteNightSpace.PlagueDocAnimPart
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: SharpJson.Lexer.Token
 canonical_path: /api/SharpJson/Lexer/Token
 ---
-
 # Enum Lexer.Token
 **Namespace:** [SharpJson](/api/SharpJson)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum Lexer.Token
 ```
 
 ## Fields
-
 ### Colon
 ```csharp
 Colon = 4
@@ -110,5 +106,6 @@ True = 2
 
 #### Field Value
 **Type:** SharpJson.Lexer.Token
+
 
 

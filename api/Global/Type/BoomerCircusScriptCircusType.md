@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.BoomerCircusScript.CircusType
 canonical_path: /api/Global/Type/BoomerCircusScriptCircusType
 ---
-
 # Enum BoomerCircusScript.CircusType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum BoomerCircusScript.CircusType
 ```
 
 ## Fields
-
 ### BOOMER
 ```csharp
 BOOMER = 1
@@ -30,5 +26,6 @@ TENT = 0
 
 #### Field Value
 **Type:** Global.BoomerCircusScript.CircusType
+
 
 

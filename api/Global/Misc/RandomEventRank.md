@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventRank
 canonical_path: /api/Global/Misc/RandomEventRank
 ---
-
 # Enum RandomEventRank
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum RandomEventRank
 ```
 
 ## Fields
-
 ### DAWN
 ```csharp
 DAWN = 0
@@ -46,5 +42,6 @@ NOON = 1
 
 #### Field Value
 **Type:** Global.RandomEventRank
+
 
 

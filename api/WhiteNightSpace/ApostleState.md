@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleState
 canonical_path: /api/WhiteNightSpace/ApostleState
 ---
-
 # Enum ApostleState
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ApostleState
 ```
 
 ## Fields
-
 ### ATTACK
 ```csharp
 ATTACK = 1
@@ -46,5 +42,6 @@ SUPPRESSED = 2
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleState
+
 
 

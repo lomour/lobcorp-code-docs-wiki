@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RandomEventManager.RandomEventTime.CommonCondition
 canonical_path: /api/Global/Misc/RandomEventManagerRandomEventTimeCommonCondition
 ---
-
 # Struct RandomEventManager.RandomEventTime.CommonCondition
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public struct RandomEventManager.RandomEventTime.CommonCondition
 ```
 
 ## Fields
-
 ### Prob
 ```csharp
 public float Prob
@@ -33,5 +29,6 @@ public float ProbCheckFreq
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.valuetype.equals), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode), [ToString()](https://learn.microsoft.com/dotnet/api/system.valuetype.tostring), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals)
+
 
 

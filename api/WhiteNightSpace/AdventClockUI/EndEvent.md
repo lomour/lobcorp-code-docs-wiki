@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.AdventClockUI.EndEvent
 canonical_path: /api/WhiteNightSpace/AdventClockUI/EndEvent
 ---
-
 # Delegate AdventClockUI.EndEvent
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void AdventClockUI.EndEvent()
 ```
 
 ## Constructors
-
 ### EndEvent(object, IntPtr)
 ```csharp
 public EndEvent(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public EndEvent(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
@@ -56,5 +51,6 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 
 

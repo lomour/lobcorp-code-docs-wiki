@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: CreatureInfo.EquipSlot
 canonical_path: /api/CreatureInfo/EquipSlot
 ---
-
 # Class EquipSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll
@@ -28,14 +25,12 @@ Parent class for displaying EGO in the abnormality information screen.
 [ArmorSlot](/api/CreatureInfo/ArmorSlot), [GiftSlot](/api/CreatureInfo/GiftSlot), [WeaponSlot](/api/CreatureInfo/WeaponSlot)
 
 ## Constructors
-
 ### EquipSlot()
 ```csharp
 public EquipSlot()
 ```
 
 ## Fields
-
 ### _info
 ```csharp
 private EquipmentTypeInfo _info
@@ -118,7 +113,6 @@ public Text Title
 **Type:** UnityEngine.UI.Text
 
 ## Properties
-
 ### Info
 ```csharp
 public EquipmentTypeInfo Info { get; }
@@ -144,7 +138,6 @@ public EquipmentModel Model { get; }
 **Type:** Global.EquipmentModel
 
 ## Methods
-
 ### CheckBlocked(bool, int)
 ```csharp
 public void CheckBlocked(bool state, int level)
@@ -217,5 +210,6 @@ public virtual void SetModel(EquipmentTypeInfo info)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryUI.StoryScriptCommandEventEnum
 canonical_path: /api/Global/Misc/StoryUIStoryScriptCommandEventEnum
 ---
-
 # Enum StoryUI.StoryScriptCommandEventEnum
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum StoryUI.StoryScriptCommandEventEnum
 ```
 
 ## Fields
-
 ### CLICK_DIALOGUE
 ```csharp
 CLICK_DIALOGUE = 1
@@ -70,5 +66,6 @@ VIDEO_END = 6
 
 #### Field Value
 **Type:** Global.StoryUI.StoryScriptCommandEventEnum
+
 
 

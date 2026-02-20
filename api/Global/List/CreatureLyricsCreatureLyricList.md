@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CreatureLyrics.CreatureLyricList
 canonical_path: /api/Global/List/CreatureLyricsCreatureLyricList
 ---
-
 # Class CreatureLyrics.CreatureLyricList
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -17,7 +14,6 @@ public class CreatureLyrics.CreatureLyricList
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CreatureLyrics.CreatureLyricList
 
 ## Constructors
-
 ### CreatureLyricList(long, CreatureLyric[])
 ```csharp
 public CreatureLyricList(long id, CreatureLyrics.CreatureLyric[] ary)
@@ -30,7 +26,6 @@ public CreatureLyricList(long id, CreatureLyrics.CreatureLyric[] ary)
 | `ary` | `Global.CreatureLyrics.CreatureLyric[]` |  |
 
 ## Fields
-
 ### creatureId
 ```csharp
 public long creatureId
@@ -48,7 +43,6 @@ public Dictionary<string, CreatureLyrics.CreatureLyric> lib
 **Type:** System.Collections.Generic.Dictionary{System.String,CreatureLyrics.CreatureLyric}
 
 ## Methods
-
 ### GetCreatureLyric(string)
 ```csharp
 public CreatureLyrics.CreatureLyric GetCreatureLyric(string key)
@@ -77,5 +71,6 @@ public string GetRandomDescByKey(string key)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

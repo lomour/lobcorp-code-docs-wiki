@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: WhiteNightSpace.ApostleStaticInfo
 canonical_path: /api/WhiteNightSpace/ApostleStaticInfo
 ---
-
 # Class ApostleStaticInfo
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll
@@ -24,7 +21,6 @@ Locations for prefabs and scripts and apostle types by index and stuff
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ApostleStaticInfo
 
 ## Fields
-
 ### GuardApostleAry
 ```csharp
 public static int[] GuardApostleAry
@@ -116,7 +112,6 @@ public const string WandApostleScript = "WhiteNightSpace.WandApostle"
 **Type:** System.String
 
 ## Methods
-
 ### GetApostleGenInfo(ApostleType, out string, out string)
 ```csharp
 public static void GetApostleGenInfo(ApostleType type, out string script, out string prefab)
@@ -146,5 +141,6 @@ public static ApostleType GetApostleType(int index)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

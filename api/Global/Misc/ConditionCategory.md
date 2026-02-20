@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.ConditionCategory
 canonical_path: /api/Global/Misc/ConditionCategory
 ---
-
 # Enum ConditionCategory
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum ConditionCategory
 ```
 
 ## Fields
-
 ### ACTION_CONDITION
 ```csharp
 ACTION_CONDITION = 4
@@ -54,5 +50,6 @@ WORK_CONDITION = 0
 
 #### Field Value
 **Type:** Global.ConditionCategory
+
 
 

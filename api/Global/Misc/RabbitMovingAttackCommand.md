@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.RabbitMovingAttackCommand
 canonical_path: /api/Global/Misc/RabbitMovingAttackCommand
 ---
-
 # Class RabbitMovingAttackCommand
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -25,7 +22,6 @@ Attempts to fire at everything hostile in the room, prioritizing larger groups, 
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitCommand](/api/Global/Misc/UnitCommand) → RabbitMovingAttackCommand
 
 ## Constructors
-
 ### RabbitMovingAttackCommand(MapNode)
 ```csharp
 public RabbitMovingAttackCommand(MapNode targetNode)
@@ -49,7 +45,6 @@ public RabbitMovingAttackCommand(MovableObjectNode movableNode)
 | `movableNode` | `Global.MovableObjectNode` |  |
 
 ## Fields
-
 ### targetMovable
 ```csharp
 public MovableObjectNode targetMovable
@@ -69,7 +64,6 @@ public MapNode targetNode
 **Type:** Global.MapNode
 
 ## Methods
-
 ### AttackOrMove()
 ```csharp
 private void AttackOrMove()
@@ -102,5 +96,6 @@ private void Shot()
 
 ## Inherited Members
 [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnDestroy()](/api/Global/Misc/UnitCommand#ondestroy), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.SefiraBossBase.CloseEffect
 canonical_path: /api/Global/Effect/SefiraBossBaseCloseEffect
 ---
-
 # Delegate SefiraBossBase.CloseEffect
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void SefiraBossBase.CloseEffect(params object[] param)
 ```
 
 ## Constructors
-
 ### CloseEffect(object, IntPtr)
 ```csharp
 public CloseEffect(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public CloseEffect(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(object[], AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 
 

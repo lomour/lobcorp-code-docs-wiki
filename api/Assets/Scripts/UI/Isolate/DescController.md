@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Assets.Scripts.UI.Isolate.DescController
 canonical_path: /api/Assets/Scripts/UI/Isolate/DescController
 ---
-
 # Class DescController
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll
@@ -24,14 +21,12 @@ See also [IsolateDescManager](/api/Global/Misc/IsolateDescManager).
 [object](https://learn.microsoft.com/dotnet/api/system.object) → DescController
 
 ## Constructors
-
 ### DescController()
 ```csharp
 public DescController()
 ```
 
 ## Fields
-
 ### ctrl
 ```csharp
 private IsolateDescController ctrl
@@ -105,7 +100,6 @@ public RectTransform pivot
 **Type:** UnityEngine.RectTransform
 
 ## Properties
-
 ### IsAvailable
 ```csharp
 public bool IsAvailable { get; }
@@ -115,7 +109,6 @@ public bool IsAvailable { get; }
 **Type:** System.Boolean
 
 ## Methods
-
 ### Init(IsolateDescController)
 ```csharp
 public void Init(IsolateDescController ctrl)
@@ -158,5 +151,6 @@ public void Terminal()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

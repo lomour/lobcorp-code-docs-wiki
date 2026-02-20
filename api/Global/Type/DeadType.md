@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.DeadType
 canonical_path: /api/Global/Type/DeadType
 ---
-
 # Enum DeadType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum DeadType
 ```
 
 ## Fields
-
 ### EXECUTION
 ```csharp
 EXECUTION = 4
@@ -62,5 +58,6 @@ SPECIAL = 5
 
 #### Field Value
 **Type:** Global.DeadType
+
 
 

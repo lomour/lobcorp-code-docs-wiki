@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.CharacterResourceDataModel
 canonical_path: /api/Global/Model/CharacterResourceDataModel
 ---
-
 # Class CharacterResourceDataModel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -22,7 +19,6 @@ I think this stores information about characters for the story, i.e. names, spri
 [object](https://learn.microsoft.com/dotnet/api/system.object) → CharacterResourceDataModel
 
 ## Constructors
-
 ### CharacterResourceDataModel()
 ```csharp
 private CharacterResourceDataModel()
@@ -30,7 +26,6 @@ private CharacterResourceDataModel()
 
 
 ## Fields
-
 ### _dic
 ```csharp
 private Dictionary<string, CharacterResourceDataModel.CharacterResourceInfo> _dic
@@ -49,7 +44,6 @@ private static CharacterResourceDataModel _instance
 **Type:** Global.CharacterResourceDataModel
 
 ## Properties
-
 ### instance
 ```csharp
 public static CharacterResourceDataModel instance { get; }
@@ -59,7 +53,6 @@ public static CharacterResourceDataModel instance { get; }
 **Type:** Global.CharacterResourceDataModel
 
 ## Methods
-
 ### GetColor(string)
 ```csharp
 public Color GetColor(string character)
@@ -133,5 +126,6 @@ public GameObject GetSpine(string character)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

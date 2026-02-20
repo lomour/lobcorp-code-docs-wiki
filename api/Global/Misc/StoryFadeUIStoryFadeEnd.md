@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.StoryFadeUI.StoryFadeEnd
 canonical_path: /api/Global/Misc/StoryFadeUIStoryFadeEnd
 ---
-
 # Delegate StoryFadeUI.StoryFadeEnd
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public delegate void StoryFadeUI.StoryFadeEnd(string nextStory)
 ```
 
 ## Constructors
-
 ### StoryFadeEnd(object, IntPtr)
 ```csharp
 public StoryFadeEnd(object @object, IntPtr method)
@@ -27,7 +23,6 @@ public StoryFadeEnd(object @object, IntPtr method)
 | `method` | `System.IntPtr` |  |
 
 ## Methods
-
 ### BeginInvoke(string, AsyncCallback, object)
 ```csharp
 public virtual IAsyncResult BeginInvoke(string nextStory, AsyncCallback callback, object @object)
@@ -62,5 +57,6 @@ public virtual void Invoke(string nextStory)
 | Name | Type | Description |
 | --- | --- | --- |
 | `nextStory` | `System.String` |  |
+
 
 

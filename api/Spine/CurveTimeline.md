@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Spine.CurveTimeline
 canonical_path: /api/Spine/CurveTimeline
 ---
-
 # Class CurveTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
@@ -23,7 +20,6 @@ public abstract class CurveTimeline : Timeline
 [Timeline](/api/Spine/Timeline)
 
 ## Constructors
-
 ### CurveTimeline(int)
 ```csharp
 public CurveTimeline(int frameCount)
@@ -35,7 +31,6 @@ public CurveTimeline(int frameCount)
 | `frameCount` | `System.Int32` |  |
 
 ## Fields
-
 ### BEZIER
 ```csharp
 protected const float BEZIER = 2
@@ -77,7 +72,6 @@ protected const float STEPPED = 1
 **Type:** System.Single
 
 ## Properties
-
 ### FrameCount
 ```csharp
 public int FrameCount { get; }
@@ -95,7 +89,6 @@ public abstract int PropertyId { get; }
 **Type:** System.Int32
 
 ## Methods
-
 ### Apply(Skeleton, float, float, ExposedList<Event>, float, MixPose, MixDirection)
 ```csharp
 public abstract void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> firedEvents, float alpha, MixPose pose, MixDirection direction)
@@ -175,5 +168,6 @@ public void SetStepped(int frameIndex)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
 

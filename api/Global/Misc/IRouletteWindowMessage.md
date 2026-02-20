@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.IRouletteWindowMessage
 canonical_path: /api/Global/Misc/IRouletteWindowMessage
 ---
-
 # Interface IRouletteWindowMessage
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -19,7 +16,6 @@ Interface for things which call the [roulette UI](/api/Global/IANimatorEventCall
 
 
 ## Methods
-
 ### RouletteCancel()
 ```csharp
 void RouletteCancel()
@@ -30,6 +26,7 @@ void RouletteCancel()
 ```csharp
 void RouletteOpen()
 ```
+
 
 
 

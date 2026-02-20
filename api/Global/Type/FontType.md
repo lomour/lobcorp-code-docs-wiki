@@ -1,10 +1,7 @@
- 
- 
 ---
 uid: Global.FontType
 canonical_path: /api/Global/Type/FontType
 ---
-
 # Enum FontType
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -14,7 +11,6 @@ public enum FontType
 ```
 
 ## Fields
-
 ### ANTIQUE
 ```csharp
 ANTIQUE = 3
@@ -46,5 +42,6 @@ TITLE = 0
 
 #### Field Value
 **Type:** Global.FontType
+
 
 
