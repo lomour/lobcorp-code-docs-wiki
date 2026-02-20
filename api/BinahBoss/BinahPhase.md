@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahPhase
 canonical_path: /api/BinahBoss/BinahPhase
@@ -53,4 +54,5 @@ START = 0
 
 #### Field Value
 **Type:** BinahBoss.BinahPhase
+
 

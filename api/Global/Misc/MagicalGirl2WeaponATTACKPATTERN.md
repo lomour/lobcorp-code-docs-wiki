@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MagicalGirl_2Weapon.ATTACK_PATTERN
 canonical_path: /api/Global/Misc/MagicalGirl2WeaponATTACKPATTERN
@@ -29,4 +30,5 @@ SPECIAL = 1
 
 #### Field Value
 **Type:** Global.MagicalGirl_2Weapon.ATTACK_PATTERN
+
 

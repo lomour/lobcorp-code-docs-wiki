@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FloodTentacle.TentacleType
 canonical_path: /api/Global/Type/FloodTentacleTentacleType
@@ -37,4 +38,5 @@ C = 2
 
 #### Field Value
 **Type:** Global.FloodTentacle.TentacleType
+
 

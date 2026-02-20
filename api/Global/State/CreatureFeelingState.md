@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureFeelingState
 canonical_path: /api/Global/State/CreatureFeelingState
@@ -45,4 +46,5 @@ NORM = 2
 
 #### Field Value
 **Type:** Global.CreatureFeelingState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EncounterDamageLevel
 canonical_path: /api/Global/Level/EncounterDamageLevel
@@ -53,4 +54,5 @@ ZERO = 0
 
 #### Field Value
 **Type:** Global.EncounterDamageLevel
+
 

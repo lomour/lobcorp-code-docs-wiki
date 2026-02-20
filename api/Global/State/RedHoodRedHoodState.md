@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RedHood.RedHoodState
 canonical_path: /api/Global/State/RedHoodRedHoodState
@@ -45,4 +46,5 @@ RAMPAGE = 2
 
 #### Field Value
 **Type:** Global.RedHood.RedHoodState
+
 

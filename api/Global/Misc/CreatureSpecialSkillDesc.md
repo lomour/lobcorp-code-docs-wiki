@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureSpecialSkillDesc
 canonical_path: /api/Global/Misc/CreatureSpecialSkillDesc
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/CreatureSpecialSkillDesc
 ```csharp
 public class CreatureSpecialSkillDesc
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Description for [CreatureSpecialSkill](/api/Global/IOBserver/CreatureSpecialSkill)s?
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public CreatureSpecialSkillDesc()
 ```csharp
 public int currentTipRevealCount
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public int currentTipRevealCount
 ```csharp
 public string desc
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public string desc
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public int index
 ```csharp
 public bool isRevealed
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public bool isRevealed
 ```csharp
 public string key
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public string key
 ```csharp
 public int openLevel
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public int openLevel
 ```csharp
 public string original
 ```
-#INC
 
 
 #### Field Value
@@ -104,8 +101,6 @@ public string original
 ```csharp
 public void ActivateDesc(CreatureModel model, params object[] param)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -118,9 +113,9 @@ public void ActivateDesc(CreatureModel model, params object[] param)
 ```csharp
 public void Reset()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

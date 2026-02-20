@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GameSettingModel
 canonical_path: /api/Global/Model/GameSettingModel
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Model/GameSettingModel
 ```csharp
 public class GameSettingModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds game graphics settings options, like resolution, texture quality, and fullscreen mode.
 
-Used by [OptionUI](/api/Global/UI/OptionUI) probably #INC 
+Used by [OptionUI](/api/Global/UI/OptionUI) probably 
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public GameSettingModel()
 ```csharp
 private static GameSettingModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -54,14 +57,12 @@ public static GameSettingModel instance { get; }
 ```csharp
 public void FixInvalidResolution()
 ```
-#INC
 
 
 ### GetCurrentFullScreenMode()
 ```csharp
 public GameFullScreenMode GetCurrentFullScreenMode()
 ```
-#INC
 
 
 #### Returns
@@ -71,7 +72,6 @@ public GameFullScreenMode GetCurrentFullScreenMode()
 ```csharp
 public int GetCurrentTextureQuality()
 ```
-#INC
 
 
 #### Returns
@@ -81,22 +81,18 @@ public int GetCurrentTextureQuality()
 ```csharp
 public void GetResolutionList()
 ```
-#INC
 
 
 ### InitResolution()
 ```csharp
 public void InitResolution()
 ```
-#INC
-#code-generated
 
 
 ### SetCurrentTextureQuality(int)
 ```csharp
 public void SetCurrentTextureQuality(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -108,7 +104,6 @@ public void SetCurrentTextureQuality(int level)
 ```csharp
 public void SetResolution(int width, int height, GameFullScreenMode mode)
 ```
-#INC
 
 
 #### Parameters
@@ -120,4 +115,5 @@ public void SetResolution(int width, int height, GameFullScreenMode mode)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

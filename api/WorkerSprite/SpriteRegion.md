@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.SpriteRegion
 canonical_path: /api/WorkerSprite/SpriteRegion
@@ -53,4 +54,5 @@ WEAPON = 3
 
 #### Field Value
 **Type:** WorkerSprite.SpriteRegion
+
 

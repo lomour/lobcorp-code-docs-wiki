@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EGOgiftAttachRegion
 canonical_path: /api/Global/Misc/EGOgiftAttachRegion
@@ -125,4 +126,5 @@ RIGHTHAND = 4
 
 #### Field Value
 **Type:** Global.EGOgiftAttachRegion
+
 

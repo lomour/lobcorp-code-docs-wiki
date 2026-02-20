@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusTent.AnimationState
 canonical_path: /api/Global/State/CircusTentAnimationState
@@ -37,4 +38,5 @@ SPAWN = 1
 
 #### Field Value
 **Type:** Global.CircusTent.AnimationState
+
 

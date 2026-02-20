@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TOOL_NODE_POS
 canonical_path: /api/Global/Misc/TOOLNODEPOS
@@ -29,4 +30,5 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.TOOL_NODE_POS
+
 

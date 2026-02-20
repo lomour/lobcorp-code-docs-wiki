@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.ColorPalette
 canonical_path: /api/Customizing/ColorPalette
@@ -11,6 +12,9 @@ canonical_path: /api/Customizing/ColorPalette
 ```csharp
 public class ColorPalette : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 UI element for selecting colors (used for customizing hair color).
 
 See [AppearanceUI](/api/Customizing/AppearanceUI)
@@ -32,7 +36,6 @@ public ColorPalette()
 ```csharp
 private Color _currentColor
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private Color _currentColor
 ```csharp
 public Slider Blue
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public Slider Blue
 ```csharp
 public InputField BlueInput
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public InputField BlueInput
 ```csharp
 private const int colorRangeMax = 255
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ private const int colorRangeMax = 255
 ```csharp
 public Image CurrentColorRenderer
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public Image CurrentColorRenderer
 ```csharp
 public Slider Green
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public Slider Green
 ```csharp
 public InputField GreenInput
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public InputField GreenInput
 ```csharp
 public Slider Red
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +108,6 @@ public Slider Red
 ```csharp
 public InputField RedInput
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +117,6 @@ public InputField RedInput
 ```csharp
 public GameObject rootObject
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +126,6 @@ public GameObject rootObject
 ```csharp
 private ColorSelector selector
 ```
-#INC
 
 
 #### Field Value
@@ -144,22 +137,18 @@ private ColorSelector selector
 ```csharp
 public void Apply()
 ```
-#INC
 
 
 ### Awake()
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### BlueChanged(float)
 ```csharp
 public void BlueChanged(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -171,7 +160,6 @@ public void BlueChanged(float value)
 ```csharp
 public void Changed(float val)
 ```
-#INC
 
 
 #### Parameters
@@ -183,14 +171,12 @@ public void Changed(float val)
 ```csharp
 public void GenRandomColor()
 ```
-#INC
 
 
 ### GetValue(string)
 ```csharp
 private float GetValue(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -205,7 +191,6 @@ private float GetValue(string str)
 ```csharp
 public void GreenChanged(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -217,7 +202,6 @@ public void GreenChanged(float value)
 ```csharp
 public void OnBlueInputEnd(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -229,7 +213,6 @@ public void OnBlueInputEnd(string str)
 ```csharp
 public void OnBlueInputUpdate(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -241,14 +224,12 @@ public void OnBlueInputUpdate(string str)
 ```csharp
 public void OnExitEdit()
 ```
-#INC
 
 
 ### OnGreenInputEnd(string)
 ```csharp
 public void OnGreenInputEnd(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -260,7 +241,6 @@ public void OnGreenInputEnd(string str)
 ```csharp
 public void OnGreenInputUpdate(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -272,7 +252,6 @@ public void OnGreenInputUpdate(string str)
 ```csharp
 public void OnRedInputEnd(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -284,7 +263,6 @@ public void OnRedInputEnd(string str)
 ```csharp
 public void OnRedInputUpdate(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -296,7 +274,6 @@ public void OnRedInputUpdate(string str)
 ```csharp
 public void OnSetColor(Color current)
 ```
-#INC
 
 
 #### Parameters
@@ -308,14 +285,12 @@ public void OnSetColor(Color current)
 ```csharp
 public void OpenWindow()
 ```
-#INC
 
 
 ### RedChanged(float)
 ```csharp
 public void RedChanged(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -327,7 +302,6 @@ public void RedChanged(float value)
 ```csharp
 public void SetSelector(ColorSelector s)
 ```
-#INC
 
 
 #### Parameters
@@ -337,4 +311,5 @@ public void SetSelector(ColorSelector s)
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

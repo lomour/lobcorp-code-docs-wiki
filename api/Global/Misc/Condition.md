@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Condition
 canonical_path: /api/Global/Misc/Condition
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Misc/Condition
 ```csharp
 public class Condition
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Condition for mission completion, probably.
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ Condition for mission completion, probably.
 ```csharp
 public Condition()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -34,7 +36,6 @@ public Condition()
 ```csharp
 public int current
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +45,6 @@ public int current
 ```csharp
 public MissionConditionTypeInfo metaInfo
 ```
-#INC
 
 
 #### Field Value
@@ -102,4 +102,5 @@ public int stat { get; }
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

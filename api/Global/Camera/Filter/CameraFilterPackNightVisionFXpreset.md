@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CameraFilterPack_NightVisionFX.preset
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackNightVisionFXpreset
@@ -101,4 +102,5 @@ Night_Vision_Sharp = 4
 
 #### Field Value
 **Type:** Global.CameraFilterPack_NightVisionFX.preset
+
 

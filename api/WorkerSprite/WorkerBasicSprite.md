@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerBasicSprite
 canonical_path: /api/WorkerSprite/WorkerBasicSprite
@@ -11,9 +12,12 @@ canonical_path: /api/WorkerSprite/WorkerBasicSprite
 ```csharp
 public class WorkerBasicSprite
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Worker facial sprite...?
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public WorkerBasicSprite()
 ```csharp
 private List<Sprite> all
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +53,6 @@ private List<WorkerBasicSprite.ResourceData> data
 ```csharp
 public List<SpriteResourceLoadData> loadedData
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +62,6 @@ public List<SpriteResourceLoadData> loadedData
 ```csharp
 public BasicSpriteRegion subRegion
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +73,6 @@ public BasicSpriteRegion subRegion
 ```csharp
 public List<Sprite> GetAllSprites()
 ```
-#INC
 
 
 #### Returns
@@ -82,7 +82,6 @@ public List<Sprite> GetAllSprites()
 ```csharp
 public SpriteResourceLoadData GetData(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -97,8 +96,6 @@ public SpriteResourceLoadData GetData(long id)
 ```csharp
 public int GetLastId()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -108,7 +105,6 @@ public int GetLastId()
 ```csharp
 public SpriteResourceLoadData GetRandomData(bool containCustom = false)
 ```
-#INC
 
 
 #### Parameters
@@ -123,7 +119,6 @@ public SpriteResourceLoadData GetRandomData(bool containCustom = false)
 ```csharp
 public SpriteResourceLoadData GetRandomDataWithExclude(List<int> excludeIds, bool containCustom = false)
 ```
-#INC
 
 
 #### Parameters
@@ -152,7 +147,6 @@ public WorkerBasicSprite.ResourceData GetResourceData(Sprite sprite)
 ```csharp
 public SpriteResourceLoadData GetUniqueCustomData()
 ```
-#INC
 
 
 #### Returns
@@ -160,4 +154,5 @@ public SpriteResourceLoadData GetUniqueCustomData()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

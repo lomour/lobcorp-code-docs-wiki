@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.TriangulationConstraint
 canonical_path: /api/Poly2Tri/TriangulationConstraint
@@ -98,4 +99,5 @@ public override string ToString()
 
 ## Inherited Members
 [mP](/api/Poly2Tri/Edge#mp), [mQ](/api/Poly2Tri/Edge#mq), [EdgeStart](/api/Poly2Tri/Edge#edgestart), [EdgeEnd](/api/Poly2Tri/Edge#edgeend), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

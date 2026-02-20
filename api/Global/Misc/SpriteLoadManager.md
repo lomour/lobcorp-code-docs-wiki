@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpriteLoadManager
 canonical_path: /api/Global/Misc/SpriteLoadManager
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SpriteLoadManager
 ```csharp
 public class SpriteLoadManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads and stores locations for sprites.
 
-#INC  #verify 
+ ^\[verify\]^
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public SpriteLoadManager()
 ```csharp
 private static SpriteLoadManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private static SpriteLoadManager _instance
 ```csharp
 private bool _isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private bool _isLoaded
 ```csharp
 public Dictionary<string, string> commonLib
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public Dictionary<string, string> commonLib
 ```csharp
 public Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic
 ```csharp
 public Dictionary<string, string> sefiraLib
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public Dictionary<string, string> sefiraLib
 ```csharp
 public Dictionary<string, SpriteSetLoadedScript.SRC> sefiraSetDic
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +110,6 @@ public bool isLoaded { get; }
 ```csharp
 public SpriteSetLoadedScript.SRC GetCommonSetSRC(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -127,7 +124,6 @@ public SpriteSetLoadedScript.SRC GetCommonSetSRC(string key)
 ```csharp
 public string GetCommonSrc(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -142,7 +138,6 @@ public string GetCommonSrc(string key)
 ```csharp
 public SpriteSetLoadedScript.SRC GetSefiraSetSRC(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -157,7 +152,6 @@ public SpriteSetLoadedScript.SRC GetSefiraSetSRC(string key)
 ```csharp
 public string GetSefiraSrc(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -172,8 +166,6 @@ public string GetSefiraSrc(string key)
 ```csharp
 public void Init(Dictionary<string, string> common, Dictionary<string, string> sefira, Dictionary<string, SpriteSetLoadedScript.SRC> commonSetDic, Dictionary<string, SpriteSetLoadedScript.SRC> sefiraSetDic)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -186,4 +178,5 @@ public void Init(Dictionary<string, string> common, Dictionary<string, string> s
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

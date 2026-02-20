@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployAgentList.AgentSortData.SortAction
 canonical_path: /api/Global/Action/DeployAgentListAgentSortDataSortAction
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

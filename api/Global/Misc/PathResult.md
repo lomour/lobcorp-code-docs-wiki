@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PathResult
 canonical_path: /api/Global/Misc/PathResult
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/PathResult
 ```csharp
 public class PathResult
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A path for something to follow, in terms of node edges to travel between.
 
 Stores the edges and which directions to go in for each leg of the path, as well as the individual leg cost and total cost (roughly, travel time) of the path.
@@ -25,8 +29,6 @@ Stores the edges and which directions to go in for each leg of the path, as well
 ```csharp
 public PathResult(MapEdge[] pathEdges, EdgeDirection[] edgeDirections, float totalCost)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -42,7 +44,6 @@ public PathResult(MapEdge[] pathEdges, EdgeDirection[] edgeDirections, float tot
 ```csharp
 public EdgeDirection[] edgeDirections
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +53,6 @@ public EdgeDirection[] edgeDirections
 ```csharp
 public MapEdge[] pathEdges
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ public MapEdge[] pathEdges
 ```csharp
 public float totalCost
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +71,6 @@ public float totalCost
 ```csharp
 public float[] zValues
 ```
-#INC
 
 
 #### Field Value
@@ -80,4 +78,5 @@ public float[] zValues
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

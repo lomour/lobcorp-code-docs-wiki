@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TextureDropdown.TexutureLevel
 canonical_path: /api/Global/Level/TextureDropdownTexutureLevel
@@ -37,4 +38,5 @@ MIDDLE = 1
 
 #### Field Value
 **Type:** Global.TextureDropdown.TexutureLevel
+
 

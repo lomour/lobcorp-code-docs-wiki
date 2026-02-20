@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BlackCorpsAnim.BlackCorpAnimKey
 canonical_path: /api/Global/Key/BlackCorpsAnimBlackCorpAnimKey
@@ -69,4 +70,5 @@ KeyEnd = 6
 
 #### Field Value
 **Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
+
 

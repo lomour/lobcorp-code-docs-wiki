@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.AnimationState.TrackEntryDelegate
 canonical_path: /api/Spine/AnimationState/TrackEntryDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(TrackEntry trackEntry)
 | Name | Type | Description |
 | --- | --- | --- |
 | `trackEntry` | `Spine.TrackEntry` |  |
+
 

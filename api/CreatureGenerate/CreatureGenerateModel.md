@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateModel
 canonical_path: /api/CreatureGenerate/CreatureGenerateModel
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateModel
 ```csharp
 public class CreatureGenerateModel : CreatureGenerateData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Holds three doors, which can be set as creatures. Also, has the implementation for the Remove and Only actions. 'Only' restricts to the listed abnormalities, and 'Remove' removes banned abnormalities for that day.
 
@@ -33,7 +37,6 @@ public CreatureGenerateModel()
 ```csharp
 public List<long> creature
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ public List<long> creature
 ```csharp
 public int day
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ public int day
 ```csharp
 public CreatureGenerateDoor door1
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ public CreatureGenerateDoor door1
 ```csharp
 public CreatureGenerateDoor door2
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ public CreatureGenerateDoor door2
 ```csharp
 public CreatureGenerateDoor door3
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ public CreatureGenerateDoor door3
 ```csharp
 public bool stop
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public bool stop
 ```csharp
 public override void OnlyAction(params object[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -120,15 +117,12 @@ public CreatureGenerateData.ActionData ParseActionNode(string nodeText)
 ```csharp
 public void Print()
 ```
-#INC
 
 
 ### RemoveAction(params object[])
 ```csharp
 public override void RemoveAction(params object[] ids)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -140,9 +134,9 @@ public override void RemoveAction(params object[] ids)
 ```csharp
 public void SetCreature()
 ```
-#INC
 
 
 ## Inherited Members
 [split](/api/CreatureGenerate/CreatureGenerateData#split), [uniqueText](/api/CreatureGenerate/CreatureGenerateData#uniquetext), [commonAction](/api/CreatureGenerate/CreatureGenerateData#commonaction), [IsCommonAction(string, out GenerateCommonAction)](/api/CreatureGenerate/CreatureGenerateData#iscommonaction-string-out-generatecommonaction), [IsUniqueAction(string)](/api/CreatureGenerate/CreatureGenerateData#isuniqueaction-string), [ParseAction(ref string, out ActionData)](/api/CreatureGenerate/CreatureGenerateData#parseaction-ref-string-out-actiondata), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

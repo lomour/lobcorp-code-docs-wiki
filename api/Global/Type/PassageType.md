@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PassageType
 canonical_path: /api/Global/Type/PassageType
@@ -61,4 +62,5 @@ VERTICAL = 2
 
 #### Field Value
 **Type:** Global.PassageType
+
 

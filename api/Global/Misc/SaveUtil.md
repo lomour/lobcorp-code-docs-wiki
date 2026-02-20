@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SaveUtil
 canonical_path: /api/Global/Misc/SaveUtil
@@ -35,7 +36,6 @@ public SaveUtil()
 public static void DeleteSerializableFile(string fileName)
 ```
 Deletes the file at the provided path if it exists, as well as the files at the paths `fileName`+".val.txt" and `fileName`+".\_temp".
-#code-generated
 
 
 #### Parameters
@@ -87,4 +87,5 @@ Then it copies the temp file to fileName and deletes both the .val.txt and .\_te
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

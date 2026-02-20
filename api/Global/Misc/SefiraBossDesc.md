@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraBossDesc
 canonical_path: /api/Global/Misc/SefiraBossDesc
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Misc/SefiraBossDesc
 ```csharp
 public class SefiraBossDesc : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Script for [core suppression](/api/Global/Misc/SefiraBossBase) text which appears over the screen. #verify 
 
-#INC 
+Script for [core suppression](/api/Global/Misc/SefiraBossBase) text which appears over the screen. ^\[verify\]^
+
+
 
 
 ## Inheritance
@@ -33,7 +37,6 @@ public SefiraBossDesc()
 ```csharp
 private UnscaledTimer _activateTimer
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ private UnscaledTimer _activateTimer
 ```csharp
 private UnscaledTimer _alphaTimer
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private UnscaledTimer _alphaTimer
 ```csharp
 private UnscaledTimer _disableTimer
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private UnscaledTimer _disableTimer
 ```csharp
 private UnscaledTimer _enableTimer
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ private UnscaledTimer _enableTimer
 ```csharp
 private Font _font
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ private Font _font
 ```csharp
 private SefiraEnum _sefira
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ private SefiraEnum _sefira
 ```csharp
 public float alphaTransitionTime
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ public float alphaTransitionTime
 ```csharp
 public float bigMaxScale
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +109,6 @@ public float bigMaxScale
 ```csharp
 public float bigMinScale
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +118,6 @@ public float bigMinScale
 ```csharp
 public bool check
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +127,6 @@ public bool check
 ```csharp
 private int currentGenIndex
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +136,6 @@ private int currentGenIndex
 ```csharp
 public float customSpcaing
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +145,6 @@ public float customSpcaing
 ```csharp
 public float disableTime
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +154,6 @@ public float disableTime
 ```csharp
 public TextMesh dummyMesh
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +172,6 @@ public float enableTime
 ```csharp
 public float endAlpha
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +181,6 @@ public float endAlpha
 ```csharp
 public int fontSize
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +190,6 @@ public int fontSize
 ```csharp
 public FontType fontType
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +199,6 @@ public FontType fontType
 ```csharp
 private Vector3 initialPos
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +208,6 @@ private Vector3 initialPos
 ```csharp
 private Color innerColor
 ```
-#INC
 
 
 #### Field Value
@@ -232,7 +217,6 @@ private Color innerColor
 ```csharp
 public SpriteRenderer layerSetter
 ```
-#INC
 
 
 #### Field Value
@@ -242,7 +226,6 @@ public SpriteRenderer layerSetter
 ```csharp
 public float maxRootRotation
 ```
-#INC
 
 
 #### Field Value
@@ -252,7 +235,6 @@ public float maxRootRotation
 ```csharp
 public float maxRotation
 ```
-#INC
 
 
 #### Field Value
@@ -280,7 +262,6 @@ public float minRotation
 ```csharp
 private Color outlineColor
 ```
-#INC
 
 
 #### Field Value
@@ -290,7 +271,6 @@ private Color outlineColor
 ```csharp
 public float smallMaxScale
 ```
-#INC
 
 
 #### Field Value
@@ -300,7 +280,6 @@ public float smallMaxScale
 ```csharp
 public float smallMinScale
 ```
-#INC
 
 
 #### Field Value
@@ -310,7 +289,6 @@ public float smallMinScale
 ```csharp
 private float spaceWidth
 ```
-#INC
 
 
 #### Field Value
@@ -320,7 +298,6 @@ private float spaceWidth
 ```csharp
 public const string Src = "Effect/SefiraBoss/SefiraBossText"
 ```
-#INC
 
 
 #### Field Value
@@ -339,7 +316,6 @@ public float startAlpha
 ```csharp
 public string text
 ```
-#INC
 
 
 #### Field Value
@@ -349,7 +325,6 @@ public string text
 ```csharp
 public TextAnchor textAnchor
 ```
-#INC
 
 
 #### Field Value
@@ -367,7 +342,6 @@ public List<SefiraBossDesc.TextUnit> textList
 ```csharp
 public Transform textPivot
 ```
-#INC
 
 
 #### Field Value
@@ -377,7 +351,6 @@ public Transform textPivot
 ```csharp
 public float xRatioMax
 ```
-#INC
 
 
 #### Field Value
@@ -387,7 +360,6 @@ public float xRatioMax
 ```csharp
 public float xRatioMin
 ```
-#INC
 
 
 #### Field Value
@@ -397,7 +369,6 @@ public float xRatioMin
 ```csharp
 public float yRatioMax
 ```
-#INC
 
 
 #### Field Value
@@ -407,7 +378,6 @@ public float yRatioMax
 ```csharp
 public float yRatioMin
 ```
-#INC
 
 
 #### Field Value
@@ -417,7 +387,6 @@ public float yRatioMin
 ```csharp
 public const float zeroSize = 22
 ```
-#INC
 
 
 #### Field Value
@@ -427,7 +396,6 @@ public const float zeroSize = 22
 ```csharp
 public const float zeroX = 38
 ```
-#INC
 
 
 #### Field Value
@@ -437,7 +405,6 @@ public const float zeroX = 38
 ```csharp
 public const float zeroY = 21.375
 ```
-#INC
 
 
 #### Field Value
@@ -483,7 +450,6 @@ private int MaxCharCount { get; }
 ```csharp
 public static SefiraBossDesc GenDesc(string text)
 ```
-#INC
 
 
 #### Parameters
@@ -498,7 +464,6 @@ public static SefiraBossDesc GenDesc(string text)
 ```csharp
 public float GetRandomScale(bool prev)
 ```
-#INC
 
 
 #### Parameters
@@ -513,7 +478,6 @@ public float GetRandomScale(bool prev)
 ```csharp
 public Quaternion GetRootRotation()
 ```
-#INC
 
 
 #### Returns
@@ -523,7 +487,6 @@ public Quaternion GetRootRotation()
 ```csharp
 public Quaternion GetRotation()
 ```
-#INC
 
 
 #### Returns
@@ -533,7 +496,6 @@ public Quaternion GetRotation()
 ```csharp
 public void Init(string desc)
 ```
-#INC
 
 
 #### Parameters
@@ -545,14 +507,12 @@ public void Init(string desc)
 ```csharp
 private void SetAlpha()
 ```
-#INC
 
 
 ### SetFont(FontType)
 ```csharp
 public void SetFont(FontType type)
 ```
-#INC
 
 
 #### Parameters
@@ -564,7 +524,6 @@ public void SetFont(FontType type)
 ```csharp
 public void SetInitialPos(Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -576,24 +535,21 @@ public void SetInitialPos(Vector3 pos)
 ```csharp
 private void Start()
 ```
-#INC
-#code-generated
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### UpdateText()
 ```csharp
 public void UpdateText()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

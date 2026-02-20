@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitDirection
 canonical_path: /api/Global/Misc/UnitDirection
@@ -45,4 +46,5 @@ RIGHT = 1
 
 #### Field Value
 **Type:** Global.UnitDirection
+
 

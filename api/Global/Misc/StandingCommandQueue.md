@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingCommandQueue
 canonical_path: /api/Global/Misc/StandingCommandQueue
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Misc/StandingCommandQueue
 ```csharp
 public class StandingCommandQueue
 ```
-#unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -23,8 +30,6 @@ public class StandingCommandQueue
 ```csharp
 public StandingCommandQueue(StandingItemModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -38,7 +43,6 @@ public StandingCommandQueue(StandingItemModel actor)
 ```csharp
 private StandingItemModel actor
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +52,6 @@ private StandingItemModel actor
 ```csharp
 private LinkedList<StandingCommand> queue
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +63,6 @@ private LinkedList<StandingCommand> queue
 ```csharp
 public void AddFirst(StandingCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -72,7 +74,6 @@ public void AddFirst(StandingCommand cmd)
 ```csharp
 public void AddLast(StandingCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -84,21 +85,18 @@ public void AddLast(StandingCommand cmd)
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### ClearQueue()
 ```csharp
 private void ClearQueue()
 ```
-#INC
 
 
 ### Execute(StandingItemModel)
 ```csharp
 public void Execute(StandingItemModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -110,7 +108,6 @@ public void Execute(StandingItemModel model)
 ```csharp
 public StandingCommand GetCurrentCmd()
 ```
-#INC
 
 
 #### Returns
@@ -120,7 +117,6 @@ public StandingCommand GetCurrentCmd()
 ```csharp
 public void SetCommand(StandingCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -130,4 +126,5 @@ public void SetCommand(StandingCommand cmd)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

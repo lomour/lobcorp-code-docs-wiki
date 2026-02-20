@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GraphPosition
 canonical_path: /api/Global/Misc/GraphPosition
@@ -11,8 +12,14 @@ canonical_path: /api/Global/Misc/GraphPosition
 ```csharp
 public class GraphPosition
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Represents a position and edge on the [map](/api/Global/IOBserver/MapGraph).
-#unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -24,7 +31,6 @@ Represents a position and edge on the [map](/api/Global/IOBserver/MapGraph).
 ```csharp
 public GraphPosition(MapEdge currentEdge, int direction, float rate)
 ```
-#INC
 
 
 #### Parameters
@@ -38,8 +44,6 @@ public GraphPosition(MapEdge currentEdge, int direction, float rate)
 ```csharp
 public GraphPosition(MapNode currentNode)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -53,7 +57,6 @@ public GraphPosition(MapNode currentNode)
 ```csharp
 public MapEdge currentEdge
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +66,6 @@ public MapEdge currentEdge
 ```csharp
 public MapNode currentNode
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +75,6 @@ public MapNode currentNode
 ```csharp
 public int edgeDirection
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +84,6 @@ public int edgeDirection
 ```csharp
 public float edgePosRate
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +95,6 @@ public float edgePosRate
 ```csharp
 public bool GetCurrentViewPosition(out Vector2 output)
 ```
-#INC
 
 
 #### Parameters
@@ -108,4 +107,5 @@ public bool GetCurrentViewPosition(out Vector2 output)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

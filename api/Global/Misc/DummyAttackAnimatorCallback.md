@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DummyAttackAnimator.Callback
 canonical_path: /api/Global/Misc/DummyAttackAnimatorCallback
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

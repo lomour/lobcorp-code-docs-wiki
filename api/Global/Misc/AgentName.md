@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentName
 canonical_path: /api/Global/Misc/AgentName
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Misc/AgentName
 ```csharp
 public class AgentName : ISerializablePlayData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents an [agent](/api/Global/Worker/AgentModel)'s name
 
-#INC 
+
 
 
 ## Inheritance
@@ -29,7 +33,6 @@ Represents an [agent](/api/Global/Worker/AgentModel)'s name
 ```csharp
 public AgentName(AgentNameTypeInfo meta, int instId)
 ```
-#INC
 
 
 #### Parameters
@@ -42,7 +45,6 @@ public AgentName(AgentNameTypeInfo meta, int instId)
 ```csharp
 public AgentName(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -56,7 +58,6 @@ public AgentName(int id)
 ```csharp
 public bool canUse
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +67,6 @@ public bool canUse
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +76,6 @@ public int id
 ```csharp
 public int instanceId
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +85,6 @@ public int instanceId
 ```csharp
 public bool isCredit
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +94,6 @@ public bool isCredit
 ```csharp
 public bool isCustom
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +103,6 @@ public bool isCustom
 ```csharp
 public bool isUsed
 ```
-#INC
 
 
 #### Field Value
@@ -116,7 +112,6 @@ public bool isUsed
 ```csharp
 public AgentNameTypeInfo metaInfo
 ```
-#INC
 
 
 #### Field Value
@@ -126,7 +121,6 @@ public AgentNameTypeInfo metaInfo
 ```csharp
 public Dictionary<string, string> nameDic
 ```
-#INC
 
 
 #### Field Value
@@ -138,7 +132,6 @@ public Dictionary<string, string> nameDic
 ```csharp
 public string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -148,7 +141,6 @@ public string GetName()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -158,7 +150,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -170,7 +161,6 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void SetUseState(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -182,8 +172,6 @@ public void SetUseState(bool state)
 ```csharp
 public override string ToString()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -191,4 +179,5 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

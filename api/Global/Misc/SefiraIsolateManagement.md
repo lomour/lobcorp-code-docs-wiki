@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraIsolateManagement
 canonical_path: /api/Global/Misc/SefiraIsolateManagement
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/SefiraIsolateManagement
 ```csharp
 public class SefiraIsolateManagement
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages [containment units](/api/Global/Misc/SefiraIsolate).
 
 Provides methods to get unused rooms, get the [SefiraIsolate](/api/Global/Misc/SefiraIsolate) of a creature, and other things.
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ Provides methods to get unused rooms, get the [SefiraIsolate](/api/Global/Misc/S
 ```csharp
 public SefiraIsolateManagement(SefiraIsolate[] ary)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -42,7 +44,6 @@ public SefiraIsolateManagement(SefiraIsolate[] ary)
 ```csharp
 private List<SefiraIsolate> _notUsed
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +53,6 @@ private List<SefiraIsolate> _notUsed
 ```csharp
 private List<SefiraIsolate> _used
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ private List<SefiraIsolate> _used
 ```csharp
 public List<SefiraIsolate> list
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +73,6 @@ public List<SefiraIsolate> list
 ```csharp
 public SefiraIsolate[] GenIsolateByCreatureAry(long[] creatureIdAry)
 ```
-#INC
 
 
 #### Parameters
@@ -89,7 +87,6 @@ public SefiraIsolate[] GenIsolateByCreatureAry(long[] creatureIdAry)
 ```csharp
 public SefiraIsolate GenIsolateByCreatureAryByOrder(long creatureId)
 ```
-#INC
 
 
 #### Parameters
@@ -104,7 +101,6 @@ public SefiraIsolate GenIsolateByCreatureAryByOrder(long creatureId)
 ```csharp
 public SefiraIsolate[] GenIsolateByCreatureAryByOrder(long[] creatureIdAry)
 ```
-#INC
 
 
 #### Parameters
@@ -119,7 +115,6 @@ public SefiraIsolate[] GenIsolateByCreatureAryByOrder(long[] creatureIdAry)
 ```csharp
 public SefiraIsolate GenIsolateByCreatureByNodeId(long creatureId, string nodeId)
 ```
-#INC
 
 
 #### Parameters
@@ -135,7 +130,6 @@ public SefiraIsolate GenIsolateByCreatureByNodeId(long creatureId, string nodeId
 ```csharp
 public SefiraIsolate GetByNodeId(string nodeId)
 ```
-#INC
 
 
 #### Parameters
@@ -150,7 +144,6 @@ public SefiraIsolate GetByNodeId(string nodeId)
 ```csharp
 public SefiraIsolate GetNotUsed()
 ```
-#INC
 
 
 #### Returns
@@ -160,7 +153,6 @@ public SefiraIsolate GetNotUsed()
 ```csharp
 public SefiraIsolate GetNotUsedRandom(long targetId)
 ```
-#INC
 
 
 #### Parameters
@@ -175,7 +167,6 @@ public SefiraIsolate GetNotUsedRandom(long targetId)
 ```csharp
 private bool isExclusiveByIsolate(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -190,9 +181,9 @@ private bool isExclusiveByIsolate(long id)
 ```csharp
 public void LogRemain()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

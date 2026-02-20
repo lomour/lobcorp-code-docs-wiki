@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GameFullScreenMode
 canonical_path: /api/Global/Misc/GameFullScreenMode
@@ -29,4 +30,5 @@ WINDOW = 0
 
 #### Field Value
 **Type:** Global.GameFullScreenMode
+
 

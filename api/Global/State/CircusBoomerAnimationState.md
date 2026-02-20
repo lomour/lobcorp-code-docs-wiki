@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusBoomer.AnimationState
 canonical_path: /api/Global/State/CircusBoomerAnimationState
@@ -37,4 +38,5 @@ MOVE = 1
 
 #### Field Value
 **Type:** Global.CircusBoomer.AnimationState
+
 

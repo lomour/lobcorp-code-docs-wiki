@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IsolateFilterType
 canonical_path: /api/Global/Type/IsolateFilterType
@@ -61,4 +62,5 @@ STATE = 1
 
 #### Field Value
 **Type:** Global.IsolateFilterType
+
 

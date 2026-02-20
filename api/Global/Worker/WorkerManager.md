@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerManager
 canonical_path: /api/Global/Worker/WorkerManager
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Worker/WorkerManager
 ```csharp
 public class WorkerManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages workers.
 
 Holds an [AgentManager](/api/Global/IOBserver/AgentManager) and [OfficerManager](/api/Global/Misc/OfficerManager).
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ Holds an [AgentManager](/api/Global/IOBserver/AgentManager) and [OfficerManager]
 ```csharp
 public WorkerManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -37,7 +39,6 @@ public WorkerManager()
 ```csharp
 private static WorkerManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +48,6 @@ private static WorkerManager _instance
 ```csharp
 private AgentManager agentManager
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +57,6 @@ private AgentManager agentManager
 ```csharp
 private long nextInstId
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +66,6 @@ private long nextInstId
 ```csharp
 private OfficerManager officerManager
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +75,6 @@ private OfficerManager officerManager
 ```csharp
 private List<WorkerModel> workerList
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +96,6 @@ public static WorkerManager instance { get; }
 ```csharp
 public void AddWorker(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -111,7 +107,6 @@ public void AddWorker(WorkerModel worker)
 ```csharp
 public List<WorkerModel> GetWorkerList()
 ```
-#INC
 
 
 #### Returns
@@ -121,7 +116,6 @@ public List<WorkerModel> GetWorkerList()
 ```csharp
 public void RemoveWorker(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -133,7 +127,6 @@ public void RemoveWorker(WorkerModel worker)
 ```csharp
 public void RemoveWorkers(WorkerModel[] workers)
 ```
-#INC
 
 
 #### Parameters
@@ -143,4 +136,5 @@ public void RemoveWorkers(WorkerModel[] workers)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

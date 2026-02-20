@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OptionUI.OptionAction
 canonical_path: /api/Global/Action/OptionUIOptionAction
@@ -45,4 +46,5 @@ TEXTUREQUALITY = 2
 
 #### Field Value
 **Type:** Global.OptionUI.OptionAction
+
 

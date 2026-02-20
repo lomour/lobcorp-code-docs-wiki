@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.GenerateCommonAction
 canonical_path: /api/CreatureGenerate/GenerateCommonAction
@@ -37,4 +38,5 @@ REMOVE = 0
 
 #### Field Value
 **Type:** CreatureGenerate.GenerateCommonAction
+
 

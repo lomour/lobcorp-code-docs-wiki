@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.MixDirection
 canonical_path: /api/Spine/MixDirection
@@ -29,4 +30,5 @@ Out = 1
 
 #### Field Value
 **Type:** Spine.MixDirection
+
 

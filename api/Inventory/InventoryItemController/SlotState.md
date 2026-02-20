@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryItemController.SlotState
 canonical_path: /api/Inventory/InventoryItemController/SlotState
@@ -37,4 +38,5 @@ REDUCED = 1
 
 #### Field Value
 **Type:** Inventory.InventoryItemController.SlotState
+
 

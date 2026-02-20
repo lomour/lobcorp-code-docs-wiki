@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerCommand
 canonical_path: /api/Global/Misc/WorkerCommand
@@ -11,12 +12,15 @@ canonical_path: /api/Global/Misc/WorkerCommand
 ```csharp
 public class WorkerCommand : UnitCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Parent class for commands to employees, which are instructions to change their current behaviour.
 
 Holds many static commands.
 
-#INC 
+
 
 
 ## Inheritance
@@ -38,7 +42,6 @@ public WorkerCommand()
 ```csharp
 public static WorkerCommand MakeFollowAgent(MovableObjectNode targetNode)
 ```
-#INC
 
 
 #### Parameters
@@ -53,8 +56,6 @@ public static WorkerCommand MakeFollowAgent(MovableObjectNode targetNode)
 ```csharp
 public static WorkerCommand MakeManageCreature(CreatureModel targetCreature, AgentModel agent, SkillTypeInfo skill, Sprite skillSprite)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -72,7 +73,6 @@ public static WorkerCommand MakeManageCreature(CreatureModel targetCreature, Age
 ```csharp
 public static WorkerCommand MakeMove(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -87,7 +87,6 @@ public static WorkerCommand MakeMove(MapNode node)
 ```csharp
 public static WorkerCommand MakeMove(MovableObjectNode movable)
 ```
-#INC
 
 
 #### Parameters
@@ -102,7 +101,6 @@ public static WorkerCommand MakeMove(MovableObjectNode movable)
 ```csharp
 public static WorkerCommand MakeOfficerSpecialAction(OfficerSpecialAction action)
 ```
-#INC
 
 
 #### Parameters
@@ -117,7 +115,6 @@ public static WorkerCommand MakeOfficerSpecialAction(OfficerSpecialAction action
 ```csharp
 public static WorkerCommand MakePanicPursueAgent(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -132,7 +129,6 @@ public static WorkerCommand MakePanicPursueAgent(UnitModel target)
 ```csharp
 public static WorkerCommand MakeReturnCreature(CreatureModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -147,7 +143,6 @@ public static WorkerCommand MakeReturnCreature(CreatureModel target)
 ```csharp
 public static WorkerCommand MakeSuppressCommand(UnitModel targetObject)
 ```
-#INC
 
 
 #### Parameters
@@ -162,7 +157,6 @@ public static WorkerCommand MakeSuppressCommand(UnitModel targetObject)
 ```csharp
 public static WorkerCommand MakeUnconPursueAgent(UnitModel targetAgent)
 ```
-#INC
 
 
 #### Parameters
@@ -175,4 +169,5 @@ public static WorkerCommand MakeUnconPursueAgent(UnitModel targetAgent)
 
 ## Inherited Members
 [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStart()](/api/Global/Misc/UnitCommand#onstart), [Execute()](/api/Global/Misc/UnitCommand#execute), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [OnDestroy()](/api/Global/Misc/UnitCommand#ondestroy), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

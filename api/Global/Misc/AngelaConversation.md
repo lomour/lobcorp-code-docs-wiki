@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AngelaConversation
 canonical_path: /api/Global/Misc/AngelaConversation
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/AngelaConversation
 ```csharp
 public class AngelaConversation
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Angela's yapping handler
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Angela's yapping handler
 ```csharp
 private AngelaConversation()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private AngelaConversation()
 ```csharp
 private static AngelaConversation _instance
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private static AngelaConversation _instance
 ```csharp
 public Timer agentDeadTimer
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ public Timer agentDeadTimer
 ```csharp
 private bool isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +64,6 @@ private bool isLoaded
 ```csharp
 public AngelaMessageLib messageLib
 ```
-#INC
 
 
 #### Field Value
@@ -95,21 +93,18 @@ public bool loaded { get; }
 ```csharp
 public void DeplayedGreeting()
 ```
-#INC
 
 
 ### DeplayedMessage()
 ```csharp
 public void DeplayedMessage()
 ```
-#INC
 
 
 ### GetAngelaMessageState(int)
 ```csharp
 public static AngelaMessageState GetAngelaMessageState(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -124,7 +119,6 @@ public static AngelaMessageState GetAngelaMessageState(int index)
 ```csharp
 public void Init(AngelaMessage[] ary)
 ```
-#INC
 
 
 #### Parameters
@@ -136,7 +130,6 @@ public void Init(AngelaMessage[] ary)
 ```csharp
 public string MakeDefaultFormatMessage(AngelaMessageState state, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -152,7 +145,6 @@ public string MakeDefaultFormatMessage(AngelaMessageState state, params object[]
 ```csharp
 public string MakeDefaultMessage(AngelaMessageState state, bool writeLog, bool angelaNarrate, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -170,7 +162,6 @@ public string MakeDefaultMessage(AngelaMessageState state, bool writeLog, bool a
 ```csharp
 public string MakeDetailMessage(AngelaMessageState state, bool writeLog, bool angelaNarrate, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -188,7 +179,6 @@ public string MakeDetailMessage(AngelaMessageState state, bool writeLog, bool an
 ```csharp
 public string MakeMessage(AngelaMessageState state, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -204,7 +194,6 @@ public string MakeMessage(AngelaMessageState state, params object[] param)
 ```csharp
 public string RefineAgentName(string origin, AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -220,7 +209,6 @@ public string RefineAgentName(string origin, AgentModel target)
 ```csharp
 public string RefineAgentName(string origin, List<AgentModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -236,7 +224,6 @@ public string RefineAgentName(string origin, List<AgentModel> list)
 ```csharp
 public string RefineCreatureName(string origin, CreatureModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -252,7 +239,6 @@ public string RefineCreatureName(string origin, CreatureModel target)
 ```csharp
 public string RefineCreatureName(string origin, List<CreatureModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -268,7 +254,6 @@ public string RefineCreatureName(string origin, List<CreatureModel> list)
 ```csharp
 public string RefineMessage(string origin, out CreatureModel model, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -285,7 +270,6 @@ public string RefineMessage(string origin, out CreatureModel model, params objec
 ```csharp
 public string RefineNarrationText(string origin, UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -301,7 +285,6 @@ public string RefineNarrationText(string origin, UseSkill skill)
 ```csharp
 public string RefineOfficerName(string origin, List<OfficerModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -317,7 +300,6 @@ public string RefineOfficerName(string origin, List<OfficerModel> list)
 ```csharp
 public string RefineSefiraName(string origin, List<Sefira> target)
 ```
-#INC
 
 
 #### Parameters
@@ -333,7 +315,6 @@ public string RefineSefiraName(string origin, List<Sefira> target)
 ```csharp
 public string RefineSefiraName(string origin, Sefira target)
 ```
-#INC
 
 
 #### Parameters
@@ -349,7 +330,6 @@ public string RefineSefiraName(string origin, Sefira target)
 ```csharp
 public string RefineSkillName(string origin, List<SkillTypeInfo> list)
 ```
-#INC
 
 
 #### Parameters
@@ -365,7 +345,6 @@ public string RefineSkillName(string origin, List<SkillTypeInfo> list)
 ```csharp
 public string RefineSkillName(string origin, SkillTypeInfo target)
 ```
-#INC
 
 
 #### Parameters
@@ -381,7 +360,6 @@ public string RefineSkillName(string origin, SkillTypeInfo target)
 ```csharp
 public string RefineSkillOriginName(string origin, List<SkillTypeInfo> list)
 ```
-#INC
 
 
 #### Parameters
@@ -397,7 +375,6 @@ public string RefineSkillOriginName(string origin, List<SkillTypeInfo> list)
 ```csharp
 public string RefineSkillOriginName(string origin, SkillTypeInfo target)
 ```
-#INC
 
 
 #### Parameters
@@ -413,7 +390,6 @@ public string RefineSkillOriginName(string origin, SkillTypeInfo target)
 ```csharp
 public void SendNarrationLogMessage(CreatureModel model, string desc)
 ```
-#INC
 
 
 #### Parameters
@@ -426,7 +402,6 @@ public void SendNarrationLogMessage(CreatureModel model, string desc)
 ```csharp
 public void SendSystemLogMessage(CreatureModel cm, string desc)
 ```
-#INC
 
 
 #### Parameters
@@ -437,4 +412,5 @@ public void SendSystemLogMessage(CreatureModel cm, string desc)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

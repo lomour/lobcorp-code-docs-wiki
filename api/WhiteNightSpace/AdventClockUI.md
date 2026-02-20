@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.AdventClockUI
 canonical_path: /api/WhiteNightSpace/AdventClockUI
@@ -11,9 +12,12 @@ canonical_path: /api/WhiteNightSpace/AdventClockUI
 ```csharp
 public class AdventClockUI : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 UI for [WhiteNight](/api/Legacy/DeathAngel) and [Plague Doctor](/api/Legacy/PlagueDoctor)'s advent clock.
 
-#INC 
+
 
 
 ## Inheritance
@@ -40,7 +44,6 @@ private AdventClockUI.EndEvent _adevntEffectEnd
 ```csharp
 private bool _advent
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +53,6 @@ private bool _advent
 ```csharp
 public float _advent_adventAnim
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +71,6 @@ public float _advent_cameraMove
 ```csharp
 private UnscaledTimer _adventAnimTimer
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +80,6 @@ private UnscaledTimer _adventAnimTimer
 ```csharp
 public GameObject[] _adventDisabled
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +89,6 @@ public GameObject[] _adventDisabled
 ```csharp
 private List<ApostleGenData> _adventList
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +98,6 @@ private List<ApostleGenData> _adventList
 ```csharp
 private const float _adventMaxTime = 80
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +107,6 @@ private const float _adventMaxTime = 80
 ```csharp
 private Queue<ApostleGenData> _adventQueue
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +116,6 @@ private Queue<ApostleGenData> _adventQueue
 ```csharp
 private UnscaledTimer _adventTimer
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +125,6 @@ private UnscaledTimer _adventTimer
 ```csharp
 private float _arrowGoalRotation
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +134,6 @@ private float _arrowGoalRotation
 ```csharp
 private float _arrowInitialRotation
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +143,6 @@ private float _arrowInitialRotation
 ```csharp
 public float _arrowMoveTime
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +152,6 @@ public float _arrowMoveTime
 ```csharp
 private UnscaledTimer _arrowTimer
 ```
-#INC
 
 
 #### Field Value
@@ -178,7 +170,6 @@ public AnimationCurve _arrowTransitionCurve
 ```csharp
 private const float _clockFactor = -30
 ```
-#INC
 
 
 #### Field Value
@@ -188,7 +179,6 @@ private const float _clockFactor = -30
 ```csharp
 public UIController _controller
 ```
-#INC
 
 
 #### Field Value
@@ -198,7 +188,6 @@ public UIController _controller
 ```csharp
 private ApostleGenData _currentAdventData
 ```
-#INC
 
 
 #### Field Value
@@ -208,7 +197,6 @@ private ApostleGenData _currentAdventData
 ```csharp
 private Outline _currentAdventNameOutline
 ```
-#INC
 
 
 #### Field Value
@@ -218,7 +206,6 @@ private Outline _currentAdventNameOutline
 ```csharp
 private Text _currentEffectText
 ```
-#INC
 
 
 #### Field Value
@@ -228,7 +215,6 @@ private Text _currentEffectText
 ```csharp
 public float _descEnableTime
 ```
-#INC
 
 
 #### Field Value
@@ -238,7 +224,6 @@ public float _descEnableTime
 ```csharp
 private bool _nameEffect
 ```
-#INC
 
 
 #### Field Value
@@ -265,7 +250,6 @@ public float _nameEffectTime
 ```csharp
 public float _nameRevealTime
 ```
-#INC
 
 
 #### Field Value
@@ -275,7 +259,6 @@ public float _nameRevealTime
 ```csharp
 private UnscaledTimer _nameRevealTimer
 ```
-#INC
 
 
 #### Field Value
@@ -285,7 +268,6 @@ private UnscaledTimer _nameRevealTimer
 ```csharp
 public Color _NameTextAdventColor
 ```
-#INC
 
 
 #### Field Value
@@ -295,7 +277,6 @@ public Color _NameTextAdventColor
 ```csharp
 public Color _NameTextOriginalColor
 ```
-#INC
 
 
 #### Field Value
@@ -305,7 +286,6 @@ public Color _NameTextOriginalColor
 ```csharp
 private bool _simpleAdvent
 ```
-#INC
 
 
 #### Field Value
@@ -315,7 +295,6 @@ private bool _simpleAdvent
 ```csharp
 private const float _simpleAdventMaxTime = 10
 ```
-#INC
 
 
 #### Field Value
@@ -325,7 +304,6 @@ private const float _simpleAdventMaxTime = 10
 ```csharp
 private UnscaledTimer _timer
 ```
-#INC
 
 
 #### Field Value
@@ -335,7 +313,6 @@ private UnscaledTimer _timer
 ```csharp
 public Image AdventBlackShader
 ```
-#INC
 
 
 #### Field Value
@@ -345,7 +322,6 @@ public Image AdventBlackShader
 ```csharp
 public RectTransform Arrow
 ```
-#INC
 
 
 #### Field Value
@@ -355,7 +331,6 @@ public RectTransform Arrow
 ```csharp
 private int currentNameIndex
 ```
-#INC
 
 
 #### Field Value
@@ -365,7 +340,6 @@ private int currentNameIndex
 ```csharp
 public Text Desc
 ```
-#INC
 
 
 #### Field Value
@@ -375,7 +349,6 @@ public Text Desc
 ```csharp
 public Text[] Names
 ```
-#INC
 
 
 #### Field Value
@@ -385,7 +358,6 @@ public Text[] Names
 ```csharp
 public Canvas rootCanvas
 ```
-#INC
 
 
 #### Field Value
@@ -395,7 +367,6 @@ public Canvas rootCanvas
 ```csharp
 private const string soundSrc = "Sounds/creature/deathangel/Lucifer_Advent1"
 ```
-#INC
 
 
 #### Field Value
@@ -407,7 +378,6 @@ private const string soundSrc = "Sounds/creature/deathangel/Lucifer_Advent1"
 ```csharp
 public void AdventTimerStart(List<ApostleGenData> adventTargets)
 ```
-#INC
 
 
 #### Parameters
@@ -419,29 +389,24 @@ public void AdventTimerStart(List<ApostleGenData> adventTargets)
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### ExecuteNextAdventTarget()
 ```csharp
 public void ExecuteNextAdventTarget()
 ```
-#INC
 
 
 ### Init()
 ```csharp
 private void Init()
 ```
-#INC
 
 
 ### MakeSound(string)
 ```csharp
 public void MakeSound(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -453,21 +418,18 @@ public void MakeSound(string src)
 ```csharp
 public void OnDisableController()
 ```
-#INC
 
 
 ### OnEnableController()
 ```csharp
 public void OnEnableController()
 ```
-#INC
 
 
 ### OnEndAdventEffect()
 ```csharp
 private void OnEndAdventEffect()
 ```
-#INC
 
 
 ### SetAdventEffectEndEvent(EndEvent)
@@ -484,7 +446,6 @@ public void SetAdventEffectEndEvent(AdventClockUI.EndEvent EndEvent)
 ```csharp
 public void SetAlpha(MaskableGraphic graphic, float alpha)
 ```
-#INC
 
 
 #### Parameters
@@ -497,7 +458,6 @@ public void SetAlpha(MaskableGraphic graphic, float alpha)
 ```csharp
 private void SetArrowRotation(float rotation)
 ```
-#INC
 
 
 #### Parameters
@@ -509,7 +469,6 @@ private void SetArrowRotation(float rotation)
 ```csharp
 public void SetEffect(bool isAdvent)
 ```
-#INC
 
 
 #### Parameters
@@ -521,7 +480,6 @@ public void SetEffect(bool isAdvent)
 ```csharp
 public void SetName(int index, string name, bool activeEffect = false)
 ```
-#INC
 
 
 #### Parameters
@@ -545,7 +503,6 @@ public void SetNameEffectEndEvent(AdventClockUI.EndEvent EndEvent)
 ```csharp
 public void SetOutlineAlpha(Outline outline, float a)
 ```
-#INC
 
 
 #### Parameters
@@ -558,7 +515,6 @@ public void SetOutlineAlpha(Outline outline, float a)
 ```csharp
 public void SetOutlineAlpha(Text t, float a)
 ```
-#INC
 
 
 #### Parameters
@@ -571,7 +527,6 @@ public void SetOutlineAlpha(Text t, float a)
 ```csharp
 public void SimpleAdventStart(List<ApostleGenData> adventTargets)
 ```
-#INC
 
 
 #### Parameters
@@ -583,44 +538,39 @@ public void SimpleAdventStart(List<ApostleGenData> adventTargets)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### StartAdventAnim()
 ```csharp
 public void StartAdventAnim()
 ```
-#INC
 
 
 ### StartAdventEvent()
 ```csharp
 public void StartAdventEvent()
 ```
-#INC
 
 
 ### StartNameEffect()
 ```csharp
 public void StartNameEffect()
 ```
-#INC
 
 
 ### StartSimpleAdventEvent()
 ```csharp
 public void StartSimpleAdventEvent()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

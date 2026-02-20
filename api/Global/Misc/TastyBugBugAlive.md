@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TastyBug.BugAlive
 canonical_path: /api/Global/Misc/TastyBugBugAlive
@@ -29,4 +30,5 @@ DEAD = 1
 
 #### Field Value
 **Type:** Global.TastyBug.BugAlive
+
 

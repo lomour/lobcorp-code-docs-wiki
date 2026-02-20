@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ProjectileModel.FixedUpdateCommand
 canonical_path: /api/Global/Misc/ProjectileModelFixedUpdateCommand
@@ -61,4 +62,5 @@ public virtual void Invoke(ProjectileModel proj)
 | Name | Type | Description |
 | --- | --- | --- |
 | `proj` | `Global.ProjectileModel` |  |
+
 

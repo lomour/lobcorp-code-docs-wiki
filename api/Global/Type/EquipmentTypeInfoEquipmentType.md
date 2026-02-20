@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EquipmentTypeInfo.EquipmentType
 canonical_path: /api/Global/Type/EquipmentTypeInfoEquipmentType
@@ -37,4 +38,5 @@ WEAPON = 0
 
 #### Field Value
 **Type:** Global.EquipmentTypeInfo.EquipmentType
+
 

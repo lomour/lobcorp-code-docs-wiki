@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.HordeOfBugsScript.BugType
 canonical_path: /api/Global/Type/HordeOfBugsScriptBugType
@@ -37,4 +38,5 @@ MOTHER = 1
 
 #### Field Value
 **Type:** Global.HordeOfBugsScript.BugType
+
 

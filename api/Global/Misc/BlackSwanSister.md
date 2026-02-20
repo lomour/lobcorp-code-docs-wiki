@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BlackSwanSister
 canonical_path: /api/Global/Misc/BlackSwanSister
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/BlackSwanSister
 ```csharp
 public class BlackSwanSister : CreatureBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [Dream of a Black Swan](/api/Global/IOBserver/BlackSwan)'s breaching form, the sister.
 
@@ -31,7 +35,6 @@ public BlackSwanSister()
 ```csharp
 private BlackSwanSisterAnim _animScript
 ```
-#INC
 
 
 #### Field Value
@@ -41,7 +44,6 @@ private BlackSwanSisterAnim _animScript
 ```csharp
 private ChildCreatureUnit _unit
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +53,6 @@ private ChildCreatureUnit _unit
 ```csharp
 private const float annoyEffectFixedX = 1.5
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +62,6 @@ private const float annoyEffectFixedX = 1.5
 ```csharp
 private const float annoyEffectFixedY = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +71,6 @@ private const float annoyEffectFixedY = 0.5
 ```csharp
 private const float attackCoolTime = 1
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +80,6 @@ private const float attackCoolTime = 1
 ```csharp
 private Timer attackCoolTimer
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +89,6 @@ private Timer attackCoolTimer
 ```csharp
 private const float attackDelayTime = 1
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +98,6 @@ private const float attackDelayTime = 1
 ```csharp
 private Timer attackDelayTimer
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +107,6 @@ private Timer attackDelayTimer
 ```csharp
 private const int attackDmgMax = 8
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +116,6 @@ private const int attackDmgMax = 8
 ```csharp
 private const int attackDmgMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +125,6 @@ private const int attackDmgMin = 5
 ```csharp
 private const float attackEffectFixedX = 0
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +134,6 @@ private const float attackEffectFixedX = 0
 ```csharp
 private const float attackEffectFixedY = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +143,6 @@ private const float attackEffectFixedY = 0.5
 ```csharp
 private const float attackRange = 4
 ```
-#INC
 
 
 #### Field Value
@@ -161,7 +152,6 @@ private const float attackRange = 4
 ```csharp
 private BlackSwan brother
 ```
-#INC
 
 
 #### Field Value
@@ -171,7 +161,6 @@ private BlackSwan brother
 ```csharp
 private SoundEffectPlayer cryingSound
 ```
-#INC
 
 
 #### Field Value
@@ -181,7 +170,6 @@ private SoundEffectPlayer cryingSound
 ```csharp
 private const float damageRange = 4.6
 ```
-#INC
 
 
 #### Field Value
@@ -191,7 +179,6 @@ private const float damageRange = 4.6
 ```csharp
 private const string effect_annoy = "BlackSwanAnnoyEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -201,7 +188,6 @@ private const string effect_annoy = "BlackSwanAnnoyEffect"
 ```csharp
 private const string effect_attack = "BlackSwanAttackEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -211,7 +197,6 @@ private const string effect_attack = "BlackSwanAttackEffect"
 ```csharp
 private const string effect_reflect = "BlackSwanReflectEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -221,7 +206,6 @@ private const string effect_reflect = "BlackSwanReflectEffect"
 ```csharp
 private const string effect_skill = "BlackSwanSkillEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -231,7 +215,6 @@ private const string effect_skill = "BlackSwanSkillEffect"
 ```csharp
 private const string effect_summon = "BlackSwanSummonEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -241,7 +224,6 @@ private const string effect_summon = "BlackSwanSummonEffect"
 ```csharp
 private const string effectSrc = "Effect/Creature/BlackSwan/"
 ```
-#INC
 
 
 #### Field Value
@@ -251,7 +233,6 @@ private const string effectSrc = "Effect/Creature/BlackSwan/"
 ```csharp
 private bool init
 ```
-#INC
 
 
 #### Field Value
@@ -261,7 +242,6 @@ private bool init
 ```csharp
 private const float initTime = 4
 ```
-#INC
 
 
 #### Field Value
@@ -271,7 +251,6 @@ private const float initTime = 4
 ```csharp
 private Timer initTimer
 ```
-#INC
 
 
 #### Field Value
@@ -281,7 +260,6 @@ private Timer initTimer
 ```csharp
 private List<MapNode> neighborDoors
 ```
-#INC
 
 
 #### Field Value
@@ -299,7 +277,6 @@ private List<BlackSwanSister.AnnoyedNeighbor> neighbors
 ```csharp
 private PassageObjectModel oldPassage
 ```
-#INC
 
 
 #### Field Value
@@ -309,7 +286,6 @@ private PassageObjectModel oldPassage
 ```csharp
 private const float reflectCoolTime = 15
 ```
-#INC
 
 
 #### Field Value
@@ -319,7 +295,6 @@ private const float reflectCoolTime = 15
 ```csharp
 private Timer reflectCoolTimer
 ```
-#INC
 
 
 #### Field Value
@@ -329,7 +304,6 @@ private Timer reflectCoolTimer
 ```csharp
 private const float reflectEffectFixedX = 5
 ```
-#INC
 
 
 #### Field Value
@@ -339,7 +313,6 @@ private const float reflectEffectFixedX = 5
 ```csharp
 private const float reflectEffectFixedY = 2
 ```
-#INC
 
 
 #### Field Value
@@ -349,7 +322,6 @@ private const float reflectEffectFixedY = 2
 ```csharp
 private const float reflectRemainTime = 10
 ```
-#INC
 
 
 #### Field Value
@@ -359,7 +331,6 @@ private const float reflectRemainTime = 10
 ```csharp
 private Timer reflectRemainTimer
 ```
-#INC
 
 
 #### Field Value
@@ -369,7 +340,6 @@ private Timer reflectRemainTimer
 ```csharp
 private const float skillCoolTime = 25
 ```
-#INC
 
 
 #### Field Value
@@ -379,7 +349,6 @@ private const float skillCoolTime = 25
 ```csharp
 private Timer skillCoolTimer
 ```
-#INC
 
 
 #### Field Value
@@ -389,7 +358,6 @@ private Timer skillCoolTimer
 ```csharp
 private const int skillDmgMax = 45
 ```
-#INC
 
 
 #### Field Value
@@ -399,7 +367,6 @@ private const int skillDmgMax = 45
 ```csharp
 private const int skillDmgMin = 30
 ```
-#INC
 
 
 #### Field Value
@@ -409,7 +376,6 @@ private const int skillDmgMin = 30
 ```csharp
 private const float skillEffectFixedX = 0.8
 ```
-#INC
 
 
 #### Field Value
@@ -419,7 +385,6 @@ private const float skillEffectFixedX = 0.8
 ```csharp
 private const float skillEffectFixedY = 4.6
 ```
-#INC
 
 
 #### Field Value
@@ -429,7 +394,6 @@ private const float skillEffectFixedY = 4.6
 ```csharp
 public const string sound_atk_dmg = "atk_dmg"
 ```
-#INC
 
 
 #### Field Value
@@ -439,7 +403,6 @@ public const string sound_atk_dmg = "atk_dmg"
 ```csharp
 public const string sound_dead = "dead"
 ```
-#INC
 
 
 #### Field Value
@@ -449,7 +412,6 @@ public const string sound_dead = "dead"
 ```csharp
 public const string sound_pre_atk = "pre_atk"
 ```
-#INC
 
 
 #### Field Value
@@ -459,7 +421,6 @@ public const string sound_pre_atk = "pre_atk"
 ```csharp
 public const string sound_reflect = "reflect"
 ```
-#INC
 
 
 #### Field Value
@@ -469,7 +430,6 @@ public const string sound_reflect = "reflect"
 ```csharp
 public const string sound_skill = "skill"
 ```
-#INC
 
 
 #### Field Value
@@ -479,7 +439,6 @@ public const string sound_skill = "skill"
 ```csharp
 public const string sound_trans = "trans"
 ```
-#INC
 
 
 #### Field Value
@@ -489,7 +448,6 @@ public const string sound_trans = "trans"
 ```csharp
 private const float SubQliphothCounterCoolTime = 30
 ```
-#INC
 
 
 #### Field Value
@@ -499,7 +457,6 @@ private const float SubQliphothCounterCoolTime = 30
 ```csharp
 private const float summonEffectFixedX = 0
 ```
-#INC
 
 
 #### Field Value
@@ -509,7 +466,6 @@ private const float summonEffectFixedX = 0
 ```csharp
 private const float summonEffectFixedY = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -519,7 +475,6 @@ private const float summonEffectFixedY = 0.5
 ```csharp
 private const float transformHpCondition = 0.4
 ```
-#INC
 
 
 #### Field Value
@@ -529,7 +484,6 @@ private const float transformHpCondition = 0.4
 ```csharp
 private const float transformInitTime = 1.4
 ```
-#INC
 
 
 #### Field Value
@@ -575,21 +529,18 @@ private static int skillDmg { get; }
 ```csharp
 public void AttackEnd()
 ```
-#INC
 
 
 ### AttackStart()
 ```csharp
 private void AttackStart()
 ```
-#INC
 
 
 ### CanTakeDamage(UnitModel, DamageInfo)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -605,7 +556,6 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 public string GetSoundSrc(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -620,14 +570,12 @@ public string GetSoundSrc(string key)
 ```csharp
 public void GiveAttackDamage()
 ```
-#INC
 
 
 ### HasEscapeUI()
 ```csharp
 public override bool HasEscapeUI()
 ```
-#INC
 
 
 #### Returns
@@ -637,7 +585,6 @@ public override bool HasEscapeUI()
 ```csharp
 private bool IsInRange(UnitModel unit, float range)
 ```
-#INC
 
 
 #### Parameters
@@ -653,7 +600,6 @@ private bool IsInRange(UnitModel unit, float range)
 ```csharp
 private GameObject MakeEffect(string src, float fixedX, float fixedY, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -671,14 +617,12 @@ private GameObject MakeEffect(string src, float fixedX, float fixedY, UnitModel 
 ```csharp
 private void MakeMovement()
 ```
-#INC
 
 
 ### MakeSound(string)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -693,7 +637,6 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -708,7 +651,6 @@ public override SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public override bool OnAfterSuppressed()
 ```
-#INC
 
 
 #### Returns
@@ -718,7 +660,6 @@ public override bool OnAfterSuppressed()
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -730,7 +671,6 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -744,8 +684,6 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -757,7 +695,6 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 private void SetBrother(BlackSwan brother)
 ```
-#INC
 
 
 #### Parameters
@@ -769,7 +706,6 @@ private void SetBrother(BlackSwan brother)
 ```csharp
 public override void SetModel(CreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -781,23 +717,21 @@ public override void SetModel(CreatureModel model)
 ```csharp
 public void SkillDamage()
 ```
-#INC
 
 
 ### SkillEnd()
 ```csharp
 public void SkillEnd()
 ```
-#INC
 
 
 ### SkillStart()
 ```csharp
 private void SkillStart()
 ```
-#INC
 
 
 ## Inherited Members
 [isolateSpriteSrc](/api/Global/Creature/CreatureBase#isolatespritesrc), [model](/api/Global/Creature/CreatureBase#model), [skill](/api/Global/Creature/CreatureBase#skill), [kitEvent](/api/Global/Creature/CreatureBase#kitevent), [hasUniqueEscapeLogic](/api/Global/Creature/CreatureBase#hasuniqueescapelogic), [isWorkAllocated](/api/Global/Creature/CreatureBase#isworkallocated), [_allocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [damage](/api/Global/Creature/CreatureBase#damage), [OnReleaseSpecialTip](/api/Global/Creature/CreatureBase#onreleasespecialtip), [specialSkillTipParamList](/api/Global/Creature/CreatureBase#specialskilltipparamlist), [_check](/api/Global/Creature/CreatureBase#check), [OnInit()](/api/Global/Creature/CreatureBase#oninit), [OnStageStart()](/api/Global/Creature/CreatureBase#onstagestart), [OnViewInitPrev(CreatureUnit)](/api/Global/Creature/CreatureBase#onviewinitprev-creatureunit), [OnFixedUpdateInSkill(UseSkill)](/api/Global/Creature/CreatureBase#onfixedupdateinskill-useskill), [OnSkillFailWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillfailworktick-useskill), [OnSkillSuccessWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillsuccessworktick-useskill), [OnSkillTickUpdate(UseSkill)](/api/Global/Creature/CreatureBase#onskilltickupdate-useskill), [OnSkillGoalComplete(UseSkill)](/api/Global/Creature/CreatureBase#onskillgoalcomplete-useskill), [PermitCancelCurrentWork()](/api/Global/Creature/CreatureBase#permitcancelcurrentwork), [GetKitCreatureProcessTime()](/api/Global/Creature/CreatureBase#getkitcreatureprocesstime), [OnBonusWorkProb()](/api/Global/Creature/CreatureBase#onbonusworkprob), [GetDamageMultiplierInWork(UseSkill)](/api/Global/Creature/CreatureBase#getdamagemultiplierinwork-useskill), [TranformWorkProb(float)](/api/Global/Creature/CreatureBase#tranformworkprob-float), [OnEnterRoom(UseSkill)](/api/Global/Creature/CreatureBase#onenterroom-useskill), [OnReleaseWork(UseSkill)](/api/Global/Creature/CreatureBase#onreleasework-useskill), [OnFinishWork(UseSkill)](/api/Global/Creature/CreatureBase#onfinishwork-useskill), [OnWorkCoolTimeEnd(CreatureFeelingState)](/api/Global/Creature/CreatureBase#onworkcooltimeend-creaturefeelingstate), [OnReturn()](/api/Global/Creature/CreatureBase#onreturn), [UniqueEscape()](/api/Global/Creature/CreatureBase#uniqueescape), [Escape()](/api/Global/Creature/CreatureBase#escape), [GetSpecialSkill()](/api/Global/Creature/CreatureBase#getspecialskill), [GetDebugText()](/api/Global/Creature/CreatureBase#getdebugtext), [OnTimerEnd()](/api/Global/Creature/CreatureBase#ontimerend), [MakeEffect(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffect-isolateroom-int), [MakeEffectAlter(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffectalter-isolateroom-int), [Prob(int)](/api/Global/Creature/CreatureBase#prob-int), [isAttackInWorkProcess()](/api/Global/Creature/CreatureBase#isattackinworkprocess), [OnAttackInWorkProcess(UseSkill)](/api/Global/Creature/CreatureBase#onattackinworkprocess-useskill), [AttackProcess(UnitModel)](/api/Global/Creature/CreatureBase#attackprocess-unitmodel), [AutoFeelingDown()](/api/Global/Creature/CreatureBase#autofeelingdown), [AgentAnimCalled(int, WorkerModel)](/api/Global/Creature/CreatureBase#agentanimcalled-int-workermodel), [MakingEffect(string, float, string, Transform, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-transform-int), [MakingEffect(string, float)](/api/Global/Creature/CreatureBase#makingeffect-string-float), [MakeEffectAttachedToHead(string)](/api/Global/Creature/CreatureBase#makeeffectattachedtohead-string), [MakingEffect(string, float, string, Vector3, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-vector3-int), [OnAgentWorkEndAnimationPlayed(UseSkill)](/api/Global/Creature/CreatureBase#onagentworkendanimationplayed-useskill), [OnAgentAllocateWork(AgentModel)](/api/Global/Creature/CreatureBase#onagentallocatework-agentmodel), [OnSuppressed()](/api/Global/Creature/CreatureBase#onsuppressed), [OnStageRelease()](/api/Global/Creature/CreatureBase#onstagerelease), [OnAllocatedWork(AgentModel)](/api/Global/Creature/CreatureBase#onallocatedwork-agentmodel), [OnReleaseWorkAllocated()](/api/Global/Creature/CreatureBase#onreleaseworkallocated), [ObserveLevelChangeForSpecialSkillTip()](/api/Global/Creature/CreatureBase#observelevelchangeforspecialskilltip), [OnObserveLevelChanged()](/api/Global/Creature/CreatureBase#onobservelevelchanged), [HasUniqueProcessWorkNarration()](/api/Global/Creature/CreatureBase#hasuniqueprocessworknarration), [UniqueProcessWorkNarration(UseSkill)](/api/Global/Creature/CreatureBase#uniqueprocessworknarration-useskill), [RoomSpriteInit()](/api/Global/Creature/CreatureBase#roomspriteinit), [RoomEscapeSpriteOn()](/api/Global/Creature/CreatureBase#roomescapespriteon), [RoomEscapeSpriteOff()](/api/Global/Creature/CreatureBase#roomescapespriteoff), [RoomSkillSpriteOn()](/api/Global/Creature/CreatureBase#roomskillspriteon), [RoomSkillSpriteOff()](/api/Global/Creature/CreatureBase#roomskillspriteoff), [RoomStateSpriteOn()](/api/Global/Creature/CreatureBase#roomstatespriteon), [RoomStateSpriteOff()](/api/Global/Creature/CreatureBase#roomstatespriteoff), [OnForceSpecialSkillTipReveal(string, params object[])](/api/Global/Creature/CreatureBase#onforcespecialskilltipreveal-string-params-object), [OnWorkReleaseSpeicalSkillTipReveal(string)](/api/Global/Creature/CreatureBase#onworkreleasespeicalskilltipreveal-string), [OnWorkReleaseTipUpdate(params object[])](/api/Global/Creature/CreatureBase#onworkreleasetipupdate-params-object), [OnAgentAnimatorReseted()](/api/Global/Creature/CreatureBase#onagentanimatorreseted), [SpecialEnergyTick()](/api/Global/Creature/CreatureBase#specialenergytick), [OnStageEnd()](/api/Global/Creature/CreatureBase#onstageend), [OnFeverTimeOver()](/api/Global/Creature/CreatureBase#onfevertimeover), [OnOverlayIsolateWork()](/api/Global/Creature/CreatureBase#onoverlayisolatework), [OnOverlayIsolateObserve()](/api/Global/Creature/CreatureBase#onoverlayisolateobserve), [OnOpenObserveWindow()](/api/Global/Creature/CreatureBase#onopenobservewindow), [OnOpenWorkWindow()](/api/Global/Creature/CreatureBase#onopenworkwindow), [OnOpenCollectionWindow()](/api/Global/Creature/CreatureBase#onopencollectionwindow), [DelayAttackMotion(float)](/api/Global/Creature/CreatureBase#delayattackmotion-float), [IsAttackTargetable()](/api/Global/Creature/CreatureBase#isattacktargetable), [GetRealTargets()](/api/Global/Creature/CreatureBase#getrealtargets), [HasScriptSaveData()](/api/Global/Creature/CreatureBase#hasscriptsavedata), [GetSaveData()](/api/Global/Creature/CreatureBase#getsavedata), [LoadData(Dictionary<string, object>)](/api/Global/Creature/CreatureBase#loaddata-dictionary-string-object), [LoadScriptData()](/api/Global/Creature/CreatureBase#loadscriptdata), [SaveScriptData()](/api/Global/Creature/CreatureBase#savescriptdata), [ExistSaveData()](/api/Global/Creature/CreatureBase#existsavedata), [RemoveSaveData()](/api/Global/Creature/CreatureBase#removesavedata), [ReplaceCommand(CreatureModel)](/api/Global/Creature/CreatureBase#replacecommand-creaturemodel), [OnGamemanagerInit()](/api/Global/Creature/CreatureBase#ongamemanagerinit), [MakeEffectGlobalPos(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalpos-string-vector3), [MakeEffectGlobalPosNonTrans(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalposnontrans-string-vector3), [CanObservedByAgent(AgentModel)](/api/Global/Creature/CreatureBase#canobservedbyagent-agentmodel), [MakeSound(string, float)](/api/Global/Creature/CreatureBase#makesound-string-float), [MakeSound(string, AudioRolloffMode)](/api/Global/Creature/CreatureBase#makesound-string-audiorolloffmode), [MakeSoundQueue(params string[])](/api/Global/Creature/CreatureBase#makesoundqueue-params-string), [OnViewDestroy()](/api/Global/Creature/CreatureBase#onviewdestroy), [IsWorkable()](/api/Global/Creature/CreatureBase#isworkable), [ParamInit()](/api/Global/Creature/CreatureBase#paraminit), [HasUniqueMaxObservationFinish()](/api/Global/Creature/CreatureBase#hasuniquemaxobservationfinish), [UniqueMaxObservationFinish(Desc)](/api/Global/Creature/CreatureBase#uniquemaxobservationfinish-desc), [OnChildSuppressed(ChildCreatureModel)](/api/Global/Creature/CreatureBase#onchildsuppressed-childcreaturemodel), [MakeChildCreature(UnitModel)](/api/Global/Creature/CreatureBase#makechildcreature-unitmodel), [OnKillWorker(WorkerModel)](/api/Global/Creature/CreatureBase#onkillworker-workermodel), [GenPursueCommandAlter(WorkerModel)](/api/Global/Creature/CreatureBase#genpursuecommandalter-workermodel), [hasUniqueDeadScene()](/api/Global/Creature/CreatureBase#hasuniquedeadscene), [SetHpSlider(Slider)](/api/Global/Creature/CreatureBase#sethpslider-slider), [SetCastingSlider(Slider)](/api/Global/Creature/CreatureBase#setcastingslider-slider), [HasUniqueAttackDealy()](/api/Global/Creature/CreatureBase#hasuniqueattackdealy), [OnTakePhysicalDamage(UnitModel, float)](/api/Global/Creature/CreatureBase#ontakephysicaldamage-unitmodel-float), [HasUniqueFaction()](/api/Global/Creature/CreatureBase#hasuniquefaction), [OnWorkerPanic(WorkerModel)](/api/Global/Creature/CreatureBase#onworkerpanic-workermodel), [OnSelectMaxObservation(int)](/api/Global/Creature/CreatureBase#onselectmaxobservation-int), [OnLoadCreatureName(ref string)](/api/Global/Creature/CreatureBase#onloadcreaturename-ref-string), [IsSuppressable()](/api/Global/Creature/CreatureBase#issuppressable), [IsSuppressableByRoom()](/api/Global/Creature/CreatureBase#issuppressablebyroom), [IsAutoSuppressable()](/api/Global/Creature/CreatureBase#isautosuppressable), [OnWorkWindowSkillClicked(long)](/api/Global/Creature/CreatureBase#onworkwindowskillclicked-long), [UseDefaultDamageIgnoreMessage(DamageTextEffect)](/api/Global/Creature/CreatureBase#usedefaultdamageignoremessage-damagetexteffect), [OnWorkAllocated(SkillTypeInfo, AgentModel)](/api/Global/Creature/CreatureBase#onworkallocated-skilltypeinfo-agentmodel), [GetPhysicalDamage(out float)](/api/Global/Creature/CreatureBase#getphysicaldamage-out-float), [GetMentalDamage(out float)](/api/Global/Creature/CreatureBase#getmentaldamage-out-float), [OnSuperArmorBreak()](/api/Global/Creature/CreatureBase#onsuperarmorbreak), [UniqueStunEffect()](/api/Global/Creature/CreatureBase#uniquestuneffect), [HasRoomCounter()](/api/Global/Creature/CreatureBase#hasroomcounter), [RoomCounterInit()](/api/Global/Creature/CreatureBase#roomcounterinit), [ResetQliphothCounter()](/api/Global/Creature/CreatureBase#resetqliphothcounter), [GetMaxWorkCountView()](/api/Global/Creature/CreatureBase#getmaxworkcountview), [GetQliphothCounterMax()](/api/Global/Creature/CreatureBase#getqliphothcountermax), [ActivateQliphothCounter()](/api/Global/Creature/CreatureBase#activateqliphothcounter), [ReducedQliphothCounter()](/api/Global/Creature/CreatureBase#reducedqliphothcounter), [AddedQliphothCounter()](/api/Global/Creature/CreatureBase#addedqliphothcounter), [GetRadius()](/api/Global/Creature/CreatureBase#getradius), [OnElevatorStuck()](/api/Global/Creature/CreatureBase#onelevatorstuck), [OnWorkClosed(UseSkill, int)](/api/Global/Creature/CreatureBase#onworkclosed-useskill-int), [IsActivatedWorkDesc()](/api/Global/Creature/CreatureBase#isactivatedworkdesc), [IsSensoredInPassage()](/api/Global/Creature/CreatureBase#issensoredinpassage), [IsIndirectSuppressable()](/api/Global/Creature/CreatureBase#isindirectsuppressable), [GetRiskLevel()](/api/Global/Creature/CreatureBase#getrisklevel), [GetName()](/api/Global/Creature/CreatureBase#getname), [UniqueMoveControl()](/api/Global/Creature/CreatureBase#uniquemovecontrol), [HasUniqueName()](/api/Global/Creature/CreatureBase#hasuniquename), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#getdamagefactor-unitmodel-damageinfo), [OnInitialBuild()](/api/Global/Creature/CreatureBase#oninitialbuild), [HasUniqueCollectionCost(string, out string)](/api/Global/Creature/CreatureBase#hasuniquecollectioncost-string-out-string), [OnOpenCommandWindow(Button[])](/api/Global/Creature/CreatureBase#onopencommandwindow-button), [HasUniqueCommandAction(int)](/api/Global/Creature/CreatureBase#hasuniquecommandaction-int), [HasUniqueWorkSelect(int)](/api/Global/Creature/CreatureBase#hasuniqueworkselect-int), [ForcelySuccess(UseSkill)](/api/Global/Creature/CreatureBase#forcelysuccess-useskill), [ForcelyFail(UseSkill)](/api/Global/Creature/CreatureBase#forcelyfail-useskill), [TryRabbitTeleport(MapNode)](/api/Global/Creature/CreatureBase#tryrabbitteleport-mapnode), [CanEnterRoom()](/api/Global/Creature/CreatureBase#canenterroom), [AllocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [skillTriggerCheck](/api/Global/Creature/CreatureBase#skilltriggercheck), [Unit](/api/Global/Creature/CreatureBase#unit), [GetSaveSrc](/api/Global/Creature/CreatureBase#getsavesrc), [movable](/api/Global/Creature/CreatureBase#movable), [currentPassage](/api/Global/Creature/CreatureBase#currentpassage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

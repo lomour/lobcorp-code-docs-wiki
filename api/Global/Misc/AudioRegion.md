@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AudioRegion
 canonical_path: /api/Global/Misc/AudioRegion
@@ -29,4 +30,5 @@ LOCAL = 1
 
 #### Field Value
 **Type:** Global.AudioRegion
+
 

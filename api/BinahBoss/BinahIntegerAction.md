@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahIntegerAction
 canonical_path: /api/BinahBoss/BinahIntegerAction
@@ -61,4 +62,5 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 

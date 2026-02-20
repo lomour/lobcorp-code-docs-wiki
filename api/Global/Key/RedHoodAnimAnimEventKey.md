@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RedHoodAnim.AnimEventKey
 canonical_path: /api/Global/Key/RedHoodAnimAnimEventKey
@@ -53,4 +54,5 @@ RIGHTFIRE = 4
 
 #### Field Value
 **Type:** Global.RedHoodAnim.AnimEventKey
+
 

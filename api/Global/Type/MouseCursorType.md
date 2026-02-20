@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MouseCursorType
 canonical_path: /api/Global/Type/MouseCursorType
@@ -149,4 +150,5 @@ SUPPRESS = 7
 
 #### Field Value
 **Type:** Global.MouseCursorType
+
 

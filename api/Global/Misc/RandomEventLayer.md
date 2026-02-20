@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventLayer
 canonical_path: /api/Global/Misc/RandomEventLayer
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/RandomEventLayer
 ```csharp
 public class RandomEventLayer : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Game layer for ordeal popups and the unused Random Events.
 
@@ -34,7 +38,6 @@ public RandomEventLayer()
 ```csharp
 private static RandomEventLayer _currentLayer
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +63,6 @@ public RandomEventLayer.TypoSession currentTimeSession
 ```csharp
 private bool effectEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +72,6 @@ private bool effectEnabled
 ```csharp
 public AudioSource EffectSoundSource
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +81,6 @@ public AudioSource EffectSoundSource
 ```csharp
 public AnimationCurve fadeCurve
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +90,6 @@ public AnimationCurve fadeCurve
 ```csharp
 public bool midnightEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +99,6 @@ public bool midnightEnabled
 ```csharp
 private float midnightMax
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +108,6 @@ private float midnightMax
 ```csharp
 public Text midnightText
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +117,6 @@ public Text midnightText
 ```csharp
 public UnscaledTimer midnightTimer
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +135,6 @@ public Canvas midnightTimerRoot
 ```csharp
 public Text midnightTimerText
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +144,6 @@ public Text midnightTimerText
 ```csharp
 public Canvas timeCanvas
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +153,6 @@ public Canvas timeCanvas
 ```csharp
 public Text timeDesc
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +162,6 @@ public Text timeDesc
 ```csharp
 public CanvasGroup timeGroup
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +171,6 @@ public CanvasGroup timeGroup
 ```csharp
 public Text timeName
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +180,6 @@ public Text timeName
 ```csharp
 public GameObject timeRoot
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +189,6 @@ public GameObject timeRoot
 ```csharp
 private float timeStamp
 ```
-#INC
 
 
 #### Field Value
@@ -226,7 +215,6 @@ private UnscaledTimer timeTimer
 ```csharp
 public Canvas typoCanvas
 ```
-#INC
 
 
 #### Field Value
@@ -236,7 +224,6 @@ public Canvas typoCanvas
 ```csharp
 public Text typoDesc
 ```
-#INC
 
 
 #### Field Value
@@ -254,7 +241,6 @@ private List<RandomEventLayer.TypoEvent> typoEndEvent
 ```csharp
 public CanvasGroup typoGroup
 ```
-#INC
 
 
 #### Field Value
@@ -264,7 +250,6 @@ public CanvasGroup typoGroup
 ```csharp
 public Text typoName
 ```
-#INC
 
 
 #### Field Value
@@ -274,7 +259,6 @@ public Text typoName
 ```csharp
 public GameObject typoRoot
 ```
-#INC
 
 
 #### Field Value
@@ -292,7 +276,6 @@ public RandomEventLayer.TypoState typoState
 ```csharp
 private UnscaledTimer typoTimer
 ```
-#INC
 
 
 #### Field Value
@@ -302,7 +285,6 @@ private UnscaledTimer typoTimer
 ```csharp
 public GameObject typoTopRoot
 ```
-#INC
 
 
 #### Field Value
@@ -312,7 +294,6 @@ public GameObject typoTopRoot
 ```csharp
 public Text typoTopText
 ```
-#INC
 
 
 #### Field Value
@@ -322,7 +303,6 @@ public Text typoTopText
 ```csharp
 public Text typoType
 ```
-#INC
 
 
 #### Field Value
@@ -332,7 +312,6 @@ public Text typoType
 ```csharp
 public List<MaskableGraphic> uiColorList
 ```
-#INC
 
 
 #### Field Value
@@ -419,36 +398,30 @@ public void AddTypo(RandomEventLayer.TypoSession session, string color, string s
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### CheckMidnight()
 ```csharp
 private void CheckMidnight()
 ```
-#INC
 
 
 ### EndTime()
 ```csharp
 private void EndTime()
 ```
-#INC
 
 
 ### EndTypo()
 ```csharp
 private void EndTypo()
 ```
-#INC
 
 
 ### FadeEffect(CanvasGroup, float)
 ```csharp
 public void FadeEffect(CanvasGroup group, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -461,7 +434,6 @@ public void FadeEffect(CanvasGroup group, float value)
 ```csharp
 private void FixedUpdate()
 ```
-#INC
 
 
 ### MakeDefaultTypoSession(string)
@@ -538,14 +510,12 @@ public void MakeTime(RandomEventLayer.TypoSession session)
 ```csharp
 public void MidnightTimerDisable()
 ```
-#INC
 
 
 ### PlayeEffect(string)
 ```csharp
 public void PlayeEffect(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -557,7 +527,6 @@ public void PlayeEffect(string src)
 ```csharp
 public void SetColor(Text text, float rate)
 ```
-#INC
 
 
 #### Parameters
@@ -570,7 +539,6 @@ public void SetColor(Text text, float rate)
 ```csharp
 public void SetMidnight(bool state, float maxTime)
 ```
-#INC
 
 
 #### Parameters
@@ -583,7 +551,6 @@ public void SetMidnight(bool state, float maxTime)
 ```csharp
 private void SetMidnightText(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -595,7 +562,6 @@ private void SetMidnightText(float value)
 ```csharp
 public void SetTypoUIColor(Color c)
 ```
-#INC
 
 
 #### Parameters
@@ -607,7 +573,6 @@ public void SetTypoUIColor(Color c)
 ```csharp
 public void SetTypoUIColor(string color)
 ```
-#INC
 
 
 #### Parameters
@@ -619,37 +584,33 @@ public void SetTypoUIColor(string color)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### StartMidnightTimer()
 ```csharp
 public void StartMidnightTimer()
 ```
-#INC
 
 
 ### StartTime()
 ```csharp
 private void StartTime()
 ```
-#INC
 
 
 ### StartTypo()
 ```csharp
 private void StartTypo()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

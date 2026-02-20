@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GameStatusUI.PlaySpeedSettingBlockedUI.voidAction
 canonical_path: /api/GameStatusUI/PlaySpeedSettingBlockedUI/voidAction
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

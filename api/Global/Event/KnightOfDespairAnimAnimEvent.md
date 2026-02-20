@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.KnightOfDespairAnim.AnimEvent
 canonical_path: /api/Global/Event/KnightOfDespairAnimAnimEvent
@@ -101,4 +102,5 @@ TRANSFROM_ENDED = 0
 
 #### Field Value
 **Type:** Global.KnightOfDespairAnim.AnimEvent
+
 

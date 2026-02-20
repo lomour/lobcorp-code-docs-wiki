@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResourceCache
 canonical_path: /api/Global/Misc/ResourceCache
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/ResourceCache
 ```csharp
 public class ResourceCache
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads and caches textures, sprites, prefabs, and sprite arrays.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public ResourceCache()
 ```csharp
 private static ResourceCache _instance
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private static ResourceCache _instance
 ```csharp
 private int loadingCount
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private int loadingCount
 ```csharp
 private Dictionary<string, Sprite[]> multipleSpriteCache
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private Dictionary<string, Sprite[]> multipleSpriteCache
 ```csharp
 private Dictionary<string, GameObject> prefabCache
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ private Dictionary<string, GameObject> prefabCache
 ```csharp
 private Dictionary<string, Sprite> spriteCache
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ private Dictionary<string, Sprite> spriteCache
 ```csharp
 private Dictionary<string, Texture2D> textureCache
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +110,6 @@ public bool isLoadingDone { get; }
 ```csharp
 public Sprite[] GetMultipleSprite(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -127,7 +124,6 @@ public Sprite[] GetMultipleSprite(string name)
 ```csharp
 public Sprite GetSprite(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -142,7 +138,6 @@ public Sprite GetSprite(string name)
 ```csharp
 public Texture2D GetTexture(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -157,15 +152,12 @@ public Texture2D GetTexture(string name)
 ```csharp
 private void Init()
 ```
-#INC
-#code-generated
 
 
 ### InsertSpriteCache(string, Sprite)
 ```csharp
 public void InsertSpriteCache(string name, Sprite sprite)
 ```
-#INC
 
 
 #### Parameters
@@ -178,7 +170,6 @@ public void InsertSpriteCache(string name, Sprite sprite)
 ```csharp
 public void InsertSpriteCache(string name, Sprite[] sprite)
 ```
-#INC
 
 
 #### Parameters
@@ -191,7 +182,6 @@ public void InsertSpriteCache(string name, Sprite[] sprite)
 ```csharp
 public GameObject LoadPrefab(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -206,7 +196,6 @@ public GameObject LoadPrefab(string name)
 ```csharp
 public IEnumerator LoadSprites(string[] spriteNameList, Callback finishCallback)
 ```
-#INC
 
 
 #### Parameters
@@ -220,4 +209,5 @@ public IEnumerator LoadSprites(string[] spriteNameList, Callback finishCallback)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

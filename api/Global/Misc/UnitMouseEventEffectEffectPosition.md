@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitMouseEventEffect.EffectPosition
 canonical_path: /api/Global/Misc/UnitMouseEventEffectEffectPosition
@@ -53,4 +54,5 @@ RIGHT_UP = 2
 
 #### Field Value
 **Type:** Global.UnitMouseEventEffect.EffectPosition
+
 

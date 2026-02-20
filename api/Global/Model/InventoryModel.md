@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.InventoryModel
 canonical_path: /api/Global/Model/InventoryModel
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Model/InventoryModel
 ```csharp
 public class InventoryModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Maintains the list of EGO in the facility.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public InventoryModel()
 ```csharp
 private List<EquipmentModel> _equipList
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private List<EquipmentModel> _equipList
 ```csharp
 private static InventoryModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +82,6 @@ public static InventoryModel Instance { get; }
 ```csharp
 public bool CheckEquipmentCount(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -95,7 +96,6 @@ public bool CheckEquipmentCount(int id)
 ```csharp
 public EquipmentModel CreateEquipment(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -110,7 +110,6 @@ public EquipmentModel CreateEquipment(int id)
 ```csharp
 public EquipmentModel CreateEquipment(int id, long instanceId)
 ```
-#INC
 
 
 #### Parameters
@@ -126,7 +125,6 @@ public EquipmentModel CreateEquipment(int id, long instanceId)
 ```csharp
 public EquipmentModel CreateEquipmentForcely(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -141,7 +139,6 @@ public EquipmentModel CreateEquipmentForcely(int id)
 ```csharp
 public IList<EquipmentModel> GetAllEquipmentList()
 ```
-#INC
 
 
 #### Returns
@@ -151,7 +148,6 @@ public IList<EquipmentModel> GetAllEquipmentList()
 ```csharp
 public bool GetEquipCount(int id, out int current, out int max)
 ```
-#INC
 
 
 #### Parameters
@@ -168,7 +164,6 @@ public bool GetEquipCount(int id, out int current, out int max)
 ```csharp
 public EquipmentModel GetEquipment(long instanceId)
 ```
-#INC
 
 
 #### Parameters
@@ -183,7 +178,6 @@ public EquipmentModel GetEquipment(long instanceId)
 ```csharp
 public Dictionary<int, List<EquipmentModel>> GetEquipmentListByTypeInfo()
 ```
-#INC
 
 
 #### Returns
@@ -193,7 +187,6 @@ public Dictionary<int, List<EquipmentModel>> GetEquipmentListByTypeInfo()
 ```csharp
 public Dictionary<string, object> GetGlobalSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -203,7 +196,6 @@ public Dictionary<string, object> GetGlobalSaveData()
 ```csharp
 public IList<EquipmentModel> GetWaitingEquipmentList()
 ```
-#INC
 
 
 #### Returns
@@ -213,15 +205,12 @@ public IList<EquipmentModel> GetWaitingEquipmentList()
 ```csharp
 public void Init()
 ```
-#INC
-#code-generated
 
 
 ### LoadGlobalData(Dictionary<string, object>)
 ```csharp
 public void LoadGlobalData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -233,14 +222,12 @@ public void LoadGlobalData(Dictionary<string, object> dic)
 ```csharp
 public void OnReleaseGame()
 ```
-#INC
 
 
 ### RemoveAllDlcEquipment()
 ```csharp
 public bool RemoveAllDlcEquipment()
 ```
-#INC
 
 
 #### Returns
@@ -250,7 +237,6 @@ public bool RemoveAllDlcEquipment()
 ```csharp
 public void RemoveEquipment(EquipmentModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -260,4 +246,5 @@ public void RemoveEquipment(EquipmentModel model)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

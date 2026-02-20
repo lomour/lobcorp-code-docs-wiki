@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StatMultiplier
 canonical_path: /api/Global/Misc/StatMultiplier
@@ -11,8 +12,14 @@ canonical_path: /api/Global/Misc/StatMultiplier
 ```csharp
 public class StatMultiplier : IdentityTransform, StatTransform
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#unused 
+> This class is not used.
+{.is-info}
+
+
+
 
 
 ## Inheritance
@@ -27,7 +34,6 @@ public class StatMultiplier : IdentityTransform, StatTransform
 ```csharp
 public StatMultiplier(float m)
 ```
-#INC
 
 
 #### Parameters
@@ -41,7 +47,6 @@ public StatMultiplier(float m)
 ```csharp
 private float multiplier
 ```
-#INC
 
 
 #### Field Value
@@ -53,8 +58,6 @@ private float multiplier
 ```csharp
 public override float FloatToFloat(float v)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -67,4 +70,5 @@ public override float FloatToFloat(float v)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

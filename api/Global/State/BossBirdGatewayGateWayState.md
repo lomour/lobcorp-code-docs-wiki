@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdGateway.GateWayState
 canonical_path: /api/Global/State/BossBirdGatewayGateWayState
@@ -37,4 +38,5 @@ LV3 = 2
 
 #### Field Value
 **Type:** Global.BossBirdGateway.GateWayState
+
 

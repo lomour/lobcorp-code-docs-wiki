@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GeburahCoreScript.DamageCalculator.OnDamageFilled
 canonical_path: /api/Global/Misc/GeburahCoreScriptDamageCalculatorOnDamageFilled
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

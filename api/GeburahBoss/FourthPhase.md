@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.FourthPhase
 canonical_path: /api/GeburahBoss/FourthPhase
@@ -11,10 +12,13 @@ canonical_path: /api/GeburahBoss/FourthPhase
 ```csharp
 public class FourthPhase : GeburahPhaseExectuion
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [The Red Mist](/api/Global/Script/GeburahCoreScript)'s fourth phase.
 
-Sets attack probabilities and queues actions for this phase. #INC 
+Sets attack probabilities and queues actions for this phase. 
 
 
 ## Inheritance
@@ -26,7 +30,6 @@ Sets attack probabilities and queues actions for this phase. #INC
 ```csharp
 public FourthPhase(GeburahCoreScript geburah)
 ```
-#INC
 
 
 #### Parameters
@@ -40,7 +43,6 @@ public FourthPhase(GeburahCoreScript geburah)
 ```csharp
 private float defaultAttackProb
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private float defaultAttackProb
 ```csharp
 private float greedy
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private float greedy
 ```csharp
 private float idleChase
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private float idleChase
 ```csharp
 private float moveProb
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ private float moveProb
 ```csharp
 private float p4Speed
 ```
-#INC
 
 
 #### Field Value
@@ -92,14 +90,12 @@ private float p4Speed
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### GetNextAction(List<UnitModel>)
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -114,10 +110,9 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void Update()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahPhaseExectuion#geburah), [isPrevAttack](/api/GeburahBoss/GeburahPhaseExectuion#isprevattack), [GetRandomNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandomnode), [GetRandomMoveNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandommovenode), [OnPrevSuppressed()](/api/GeburahBoss/GeburahPhaseExectuion#onprevsuppressed), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

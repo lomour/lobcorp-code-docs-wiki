@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandaloneTutorialElementType
 canonical_path: /api/Global/Type/StandaloneTutorialElementType
@@ -29,4 +30,5 @@ SUPPRESS = 1
 
 #### Field Value
 **Type:** Global.StandaloneTutorialElementType
+
 

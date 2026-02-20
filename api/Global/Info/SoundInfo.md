@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SoundInfo
 canonical_path: /api/Global/Info/SoundInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/SoundInfo
 ```csharp
 public class SoundInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Used to play some sound effects by [weapons](/api/Global/Model/WeaponModel) (including [Paradise Lost](/api/Global/Weapon/DeathAngelWeapon) and [Adoration](/api/Global/Weapon/SlimeGirlWeapon)) and the [Rabbits' rifles](/api/Global/Model/RabbitModel).
 
 
@@ -30,7 +34,6 @@ public SoundInfo()
 ```csharp
 public string soundSrc
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public string soundSrc
 ```csharp
 public DamageInfo_EffectType soundType
 ```
-#INC
 
 
 #### Field Value
@@ -52,8 +54,6 @@ public DamageInfo_EffectType soundType
 ```csharp
 public static AudioClip LoadClip(SoundInfo sound)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -68,7 +68,6 @@ public static AudioClip LoadClip(SoundInfo sound)
 ```csharp
 public static SoundEffectPlayer PlaySound(SoundInfo sound, Vector2 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -84,7 +83,6 @@ public static SoundEffectPlayer PlaySound(SoundInfo sound, Vector2 pos)
 ```csharp
 public SoundEffectPlayer PlaySound(Vector2 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -97,4 +95,5 @@ public SoundEffectPlayer PlaySound(Vector2 pos)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

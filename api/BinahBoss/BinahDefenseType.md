@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahDefenseType
 canonical_path: /api/BinahBoss/BinahDefenseType
@@ -45,4 +46,5 @@ RESIST = 2
 
 #### Field Value
 **Type:** BinahBoss.BinahDefenseType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 title: WeaponModel
 description: 
@@ -16,10 +17,13 @@ dateCreated: 2026-01-15T04:42:17.236Z
 ```csharp
 public class WeaponModel : EquipmentModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents an EGO Weapon.
 
-#INC worth going through
+worth going through
 
 
 ## Inheritance
@@ -38,7 +42,6 @@ public WeaponModel()
 ```csharp
 private Queue<DamageInfo> _currentDamageInfos
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +51,6 @@ private Queue<DamageInfo> _currentDamageInfos
 ```csharp
 private bool fireEffectRunned
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +60,6 @@ private bool fireEffectRunned
 ```csharp
 public float remainDelay
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +71,6 @@ public float remainDelay
 ```csharp
 public DamageInfo GetDamage(UnitModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -85,7 +85,6 @@ public DamageInfo GetDamage(UnitModel actor)
 ```csharp
 public UnitDirection GetDir(UnitModel attacker, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -121,7 +120,6 @@ Creates and returns the pistol that clerks use.
 ```csharp
 public bool InRange(UnitModel actor, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -137,7 +135,6 @@ public bool InRange(UnitModel actor, UnitModel target)
 ```csharp
 public bool InRangeDirectionalAtDamageTime(UnitModel actor, UnitModel target, float addedRange)
 ```
-#INC
 
 
 #### Parameters
@@ -154,7 +151,6 @@ public bool InRangeDirectionalAtDamageTime(UnitModel actor, UnitModel target, fl
 ```csharp
 public void InvokeEffect(UnitModel unit, DamageInfo damageInfo, UnitDirection dir)
 ```
-#INC
 
 
 #### Parameters
@@ -168,7 +164,6 @@ public void InvokeEffect(UnitModel unit, DamageInfo damageInfo, UnitDirection di
 ```csharp
 public static WeaponModel MakeWeapon(EquipmentTypeInfo info)
 ```
-#INC
 
 
 #### Parameters
@@ -183,7 +178,6 @@ public static WeaponModel MakeWeapon(EquipmentTypeInfo info)
 ```csharp
 public string OnAttack(UnitModel actor, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -199,22 +193,18 @@ public string OnAttack(UnitModel actor, UnitModel target)
 ```csharp
 public void OnEndAttackCycle()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 public override void OnFixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### OnGiveDamage(UnitModel)
 ```csharp
 public void OnGiveDamage(UnitModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -224,4 +214,5 @@ public void OnGiveDamage(UnitModel actor)
 
 ## Inherited Members
 [metaInfo](/api/Global/Model/EquipmentModel#metainfo), [instanceId](/api/Global/Model/EquipmentModel#instanceid), [_owner](/api/Global/Model/EquipmentModel#owner), [script](/api/Global/Model/EquipmentModel#script), [currentTarget](/api/Global/Model/EquipmentModel#currenttarget), [OnPrepareWeapon(UnitModel)](/api/Global/Model/EquipmentModel#onprepareweapon-unitmodel), [GetDamageFactor()](/api/Global/Model/EquipmentModel#getdamagefactor), [OnCancelWeapon(UnitModel)](/api/Global/Model/EquipmentModel#oncancelweapon-unitmodel), [OnEquip(UnitModel)](/api/Global/Model/EquipmentModel#onequip-unitmodel), [OnRelease()](/api/Global/Model/EquipmentModel#onrelease), [OnTakeDamage(UnitModel, ref DamageInfo)](/api/Global/Model/EquipmentModel#ontakedamage-unitmodel-ref-damageinfo), [OnTakeDamage_After(float, RwbpType)](/api/Global/Model/EquipmentModel#ontakedamage-after-float-rwbptype), [CheckRequire(UnitModel)](/api/Global/Model/EquipmentModel#checkrequire-unitmodel), [GetBonus(UnitModel)](/api/Global/Model/EquipmentModel#getbonus-unitmodel), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Model/EquipmentModel#getworkprobspecialbonus-unitmodel-skilltypeinfo), [owner](/api/Global/Model/EquipmentModel#owner), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

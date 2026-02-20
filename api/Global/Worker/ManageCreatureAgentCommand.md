@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ManageCreatureAgentCommand
 canonical_path: /api/Global/Worker/ManageCreatureAgentCommand
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Worker/ManageCreatureAgentCommand
 ```csharp
 public class ManageCreatureAgentCommand : WorkerCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Commands an [agent](/api/Global/Worker/AgentUnit) to attack a target creature.
 
@@ -24,7 +28,6 @@ Commands an [agent](/api/Global/Worker/AgentUnit) to attack a target creature.
 ```csharp
 public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel self, SkillTypeInfo skill, Sprite skillSprite)
 ```
-#INC
 
 
 #### Parameters
@@ -39,7 +42,6 @@ public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel self,
 ```csharp
 public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel[] coopAgents, SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -55,7 +57,6 @@ public ManageCreatureAgentCommand(CreatureModel targetCreature, AgentModel[] coo
 ```csharp
 private AgentModel[] coopAgents
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ private AgentModel[] coopAgents
 ```csharp
 private SkillTypeInfo skill
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ private SkillTypeInfo skill
 ```csharp
 private Sprite skillSprite
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ private Sprite skillSprite
 ```csharp
 private CreatureModel targetCreature
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ private CreatureModel targetCreature
 ```csharp
 private UseSkill useSkill
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +102,6 @@ private UseSkill useSkill
 ```csharp
 private bool waiting
 ```
-#INC
 
 
 #### Field Value
@@ -117,14 +113,12 @@ private bool waiting
 ```csharp
 public void Cancle()
 ```
-#INC
 
 
 ### CheckStarting(AgentModel)
 ```csharp
 private void CheckStarting(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -136,22 +130,18 @@ private void CheckStarting(AgentModel agent)
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnInit(WorkerModel)
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -161,4 +151,5 @@ public override void OnInit(WorkerModel agent)
 
 ## Inherited Members
 [MakeManageCreature(CreatureModel, AgentModel, SkillTypeInfo, Sprite)](/api/Global/Misc/WorkerCommand#makemanagecreature-creaturemodel-agentmodel-skilltypeinfo-sprite), [MakeReturnCreature(CreatureModel)](/api/Global/Misc/WorkerCommand#makereturncreature-creaturemodel), [MakeSuppressCommand(UnitModel)](/api/Global/Misc/WorkerCommand#makesuppresscommand-unitmodel), [MakeMove(MapNode)](/api/Global/Misc/WorkerCommand#makemove-mapnode), [MakeMove(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makemove-movableobjectnode), [MakePanicPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makepanicpursueagent-unitmodel), [MakeUnconPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makeunconpursueagent-unitmodel), [MakeFollowAgent(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makefollowagent-movableobjectnode), [MakeOfficerSpecialAction(OfficerSpecialAction)](/api/Global/Misc/WorkerCommand#makeofficerspecialaction-officerspecialaction), [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStart()](/api/Global/Misc/UnitCommand#onstart), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

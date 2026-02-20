@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LongBird.BirdPhase
 canonical_path: /api/Global/Phase/LongBirdBirdPhase
@@ -61,4 +62,5 @@ MOVE_TARGET = 2
 
 #### Field Value
 **Type:** Global.LongBird.BirdPhase
+
 

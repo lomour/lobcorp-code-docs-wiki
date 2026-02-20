@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EdgeDirection
 canonical_path: /api/Global/Misc/EdgeDirection
@@ -29,4 +30,5 @@ FORWARD = 0
 
 #### Field Value
 **Type:** Global.EdgeDirection
+
 

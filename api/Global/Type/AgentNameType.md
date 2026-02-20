@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentNameType
 canonical_path: /api/Global/Type/AgentNameType
@@ -37,4 +38,5 @@ DEFAULT = 0
 
 #### Field Value
 **Type:** Global.AgentNameType
+
 

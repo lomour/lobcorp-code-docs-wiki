@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureEquipmentMakeInfo
 canonical_path: /api/Global/Info/CreatureEquipmentMakeInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/CreatureEquipmentMakeInfo
 ```csharp
 public class CreatureEquipmentMakeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores purchase information for EGO Suits and Weapons, and EGO gift chance.
 
 
@@ -30,7 +34,6 @@ public CreatureEquipmentMakeInfo()
 ```csharp
 public int cost
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public int cost
 ```csharp
 public EquipmentTypeInfo equipTypeInfo
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public EquipmentTypeInfo equipTypeInfo
 ```csharp
 public int level
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public int level
 ```csharp
 public float prob
 ```
-#INC
 
 
 #### Field Value
@@ -72,8 +72,6 @@ public float prob
 ```csharp
 public int GetCostAfterUpgrade()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -83,7 +81,6 @@ public int GetCostAfterUpgrade()
 ```csharp
 public float GetProb()
 ```
-#INC
 
 
 #### Returns
@@ -91,4 +88,5 @@ public float GetProb()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

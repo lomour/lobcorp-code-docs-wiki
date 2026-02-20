@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OrdealBase
 canonical_path: /api/Global/Misc/OrdealBase
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/OrdealBase
 ```csharp
 public class OrdealBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Base class for ordeals.
 
-#INC 
+
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public OrdealBase()
 ```csharp
 private bool _canTakeRewards
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ private bool _canTakeRewards
 ```csharp
 private string _ordeal_name
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ private string _ordeal_name
 ```csharp
 public bool isStarted
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ public bool isStarted
 ```csharp
 public OrdealLevel level
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ public OrdealLevel level
 ```csharp
 public Color OrdealColor
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public Color OrdealColor
 ```csharp
 public readonly int[] ordealRewards
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public readonly int[] ordealRewards
 ```csharp
 private RiskLevel riskLevel
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +102,6 @@ private RiskLevel riskLevel
 ```csharp
 public int startTime
 ```
-#INC
 
 
 #### Field Value
@@ -135,14 +131,12 @@ public virtual string OrdealTypeText { get; }
 ```csharp
 public virtual void FixedUpdate()
 ```
-#INC
 
 
 ### GetRiskLevel(OrdealCreatureModel)
 ```csharp
 public virtual RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -157,7 +151,6 @@ public virtual RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```csharp
 public virtual bool IsStartable()
 ```
-#INC
 
 
 #### Returns
@@ -167,36 +160,30 @@ public virtual bool IsStartable()
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnGameInit()
 ```csharp
 public virtual void OnGameInit()
 ```
-#INC
 
 
 ### OnOrdealStart()
 ```csharp
 public virtual void OnOrdealStart()
 ```
-#INC
 
 
 ### OrdealEnd()
 ```csharp
 public virtual void OrdealEnd()
 ```
-#INC
 
 
 ### OrdealNameText(OrdealCreatureModel)
 ```csharp
 public virtual string OrdealNameText(OrdealCreatureModel ordeal)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -211,7 +198,6 @@ public virtual string OrdealNameText(OrdealCreatureModel ordeal)
 ```csharp
 public virtual void OrdealTypo(string ordealName, Color color, bool isStart = true, int reward = 0)
 ```
-#INC
 
 
 #### Parameters
@@ -226,7 +212,6 @@ public virtual void OrdealTypo(string ordealName, Color color, bool isStart = tr
 ```csharp
 public void SetRiskLevel(RiskLevel value)
 ```
-#INC
 
 
 #### Parameters
@@ -236,4 +221,5 @@ public void SetRiskLevel(RiskLevel value)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

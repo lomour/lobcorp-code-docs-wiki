@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Legacy.DeathAngel.ApostleType
 canonical_path: /api/Legacy/DeathAngel/ApostleType
@@ -45,4 +46,5 @@ Ranged = 1
 
 #### Field Value
 **Type:** Legacy.DeathAngel.ApostleType
+
 

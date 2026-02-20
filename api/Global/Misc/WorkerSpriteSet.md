@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerSpriteSet
 canonical_path: /api/Global/Misc/WorkerSpriteSet
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/WorkerSpriteSet
 ```csharp
 public class WorkerSpriteSet
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds a set of sprites to use for a [worker](/api/Global/Unit/WorkerUnit).
 
 
@@ -30,7 +34,6 @@ public WorkerSpriteSet()
 ```csharp
 public Sprite Body
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public Sprite Body
 ```csharp
 public Sprite LeftDownHand
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public Sprite LeftDownHand
 ```csharp
 public Sprite LeftDownLeg
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public Sprite LeftDownLeg
 ```csharp
 public Sprite LeftUpHand
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ public Sprite LeftUpHand
 ```csharp
 public Sprite LeftUpLeg
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ public Sprite LeftUpLeg
 ```csharp
 public Sprite RightDownHand
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ public Sprite RightDownHand
 ```csharp
 public Sprite RightDownLeg
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ public Sprite RightDownLeg
 ```csharp
 public Sprite RightUpHand
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +106,6 @@ public Sprite RightUpHand
 ```csharp
 public Sprite RightUpLeg
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ public Sprite RightUpLeg
 ```csharp
 public Sprite Symbol
 ```
-#INC
 
 
 #### Field Value
@@ -130,8 +124,6 @@ public Sprite Symbol
 ```csharp
 public int targetSefira
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -139,4 +131,5 @@ public int targetSefira
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

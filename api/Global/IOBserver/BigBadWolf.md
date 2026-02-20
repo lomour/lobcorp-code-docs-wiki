@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBadWolf
 canonical_path: /api/Global/IOBserver/BigBadWolf
@@ -11,10 +12,13 @@ canonical_path: /api/Global/IOBserver/BigBadWolf
 ```csharp
 public class BigBadWolf : CreatureBase, IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Big and Will Be Bad Wolf.
 
-#INC 
+
 
 
 ## Inheritance
@@ -36,7 +40,6 @@ public BigBadWolf()
 ```csharp
 private bool _activateEvent
 ```
-#INC
 
 
 #### Field Value
@@ -46,7 +49,6 @@ private bool _activateEvent
 ```csharp
 private Timer _castingGroggyTimer
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +58,6 @@ private Timer _castingGroggyTimer
 ```csharp
 private MapNode _castingNode
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +67,6 @@ private MapNode _castingNode
 ```csharp
 private UnitModel _currentApproachingTarget
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +84,6 @@ private BigBadWolf.WolfAttackType _currentAttackType
 ```csharp
 private MovableObjectNode _currentMoveTargetMovable
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +93,6 @@ private MovableObjectNode _currentMoveTargetMovable
 ```csharp
 private MapNode _currentMoveTargetNode
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +102,6 @@ private MapNode _currentMoveTargetNode
 ```csharp
 private const float _defaultAttackRange = 4
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +111,6 @@ private const float _defaultAttackRange = 4
 ```csharp
 private PassageObjectModel _entryPassage
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +120,6 @@ private PassageObjectModel _entryPassage
 ```csharp
 private const float _filterDisplayTime = 20
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +129,6 @@ private const float _filterDisplayTime = 20
 ```csharp
 private float _filterElapSave
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +138,6 @@ private float _filterElapSave
 ```csharp
 private Timer _filterTimer
 ```
-#INC
 
 
 #### Field Value
@@ -162,7 +155,6 @@ private BigBadWolf.FilterType _filterType
 ```csharp
 private Timer _getawayGroggyTimer
 ```
-#INC
 
 
 #### Field Value
@@ -172,7 +164,6 @@ private Timer _getawayGroggyTimer
 ```csharp
 private const float _getaWayStdDamage = 300
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +173,6 @@ private const float _getaWayStdDamage = 300
 ```csharp
 private const float _groggyCasting = 3
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +182,6 @@ private const float _groggyCasting = 3
 ```csharp
 private const float _groggyTime = 7.5
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +191,6 @@ private const float _groggyTime = 7.5
 ```csharp
 private const int _howlingDamageMax = 20
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +200,6 @@ private const int _howlingDamageMax = 20
 ```csharp
 private const int _howlingDamageMin = 15
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +209,6 @@ private const int _howlingDamageMin = 15
 ```csharp
 private const float _howlingDelay = 20
 ```
-#INC
 
 
 #### Field Value
@@ -232,7 +218,6 @@ private const float _howlingDelay = 20
 ```csharp
 private Timer _howlingDelayTimer
 ```
-#INC
 
 
 #### Field Value
@@ -242,7 +227,6 @@ private Timer _howlingDelayTimer
 ```csharp
 private const float _initialHealthRate = 0.8
 ```
-#INC
 
 
 #### Field Value
@@ -252,7 +236,6 @@ private const float _initialHealthRate = 0.8
 ```csharp
 private bool _isApproaching
 ```
-#INC
 
 
 #### Field Value
@@ -262,7 +245,6 @@ private bool _isApproaching
 ```csharp
 private bool _isAttacking
 ```
-#INC
 
 
 #### Field Value
@@ -272,7 +254,6 @@ private bool _isAttacking
 ```csharp
 private bool _isMovingToSefira
 ```
-#INC
 
 
 #### Field Value
@@ -282,7 +263,6 @@ private bool _isMovingToSefira
 ```csharp
 private bool _isRedHoodSuppressed
 ```
-#INC
 
 
 #### Field Value
@@ -292,7 +272,6 @@ private bool _isRedHoodSuppressed
 ```csharp
 private Sefira _nextGetawaySefira
 ```
-#INC
 
 
 #### Field Value
@@ -302,7 +281,6 @@ private Sefira _nextGetawaySefira
 ```csharp
 private const int _normalFortitudeLevel = 3
 ```
-#INC
 
 
 #### Field Value
@@ -312,7 +290,6 @@ private const int _normalFortitudeLevel = 3
 ```csharp
 private const int _qliphothMax = 2
 ```
-#INC
 
 
 #### Field Value
@@ -322,7 +299,6 @@ private const int _qliphothMax = 2
 ```csharp
 private int _qlipothSubCount
 ```
-#INC
 
 
 #### Field Value
@@ -332,7 +308,6 @@ private int _qlipothSubCount
 ```csharp
 private const float _radius = 2
 ```
-#INC
 
 
 #### Field Value
@@ -342,7 +317,6 @@ private const float _radius = 2
 ```csharp
 private RedHood _redHood
 ```
-#INC
 
 
 #### Field Value
@@ -352,7 +326,6 @@ private RedHood _redHood
 ```csharp
 private AgentModel _redHoodWorker
 ```
-#INC
 
 
 #### Field Value
@@ -362,7 +335,6 @@ private AgentModel _redHoodWorker
 ```csharp
 private const float _redMoonValue = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -372,7 +344,6 @@ private const float _redMoonValue = 0.5
 ```csharp
 public const string BiteSrc = "Effect/Creature/BigBadWolf/Charge1-{0}"
 ```
-#INC
 
 
 #### Field Value
@@ -382,7 +353,6 @@ public const string BiteSrc = "Effect/Creature/BigBadWolf/Charge1-{0}"
 ```csharp
 public const string ChargeSrc = "Effect/Creature/BigBadWolf/Scratch{0}"
 ```
-#INC
 
 
 #### Field Value
@@ -392,7 +362,6 @@ public const string ChargeSrc = "Effect/Creature/BigBadWolf/Scratch{0}"
 ```csharp
 private List<UnitModel> CheckedUnit
 ```
-#INC
 
 
 #### Field Value
@@ -410,7 +379,6 @@ private BigBadWolf.DamageCumlative damageModule
 ```csharp
 private List<Uncontrollable_WolfEaten> eatenWorker
 ```
-#INC
 
 
 #### Field Value
@@ -420,7 +388,6 @@ private List<Uncontrollable_WolfEaten> eatenWorker
 ```csharp
 private IsolateFilter eatFilter_1
 ```
-#INC
 
 
 #### Field Value
@@ -430,7 +397,6 @@ private IsolateFilter eatFilter_1
 ```csharp
 private IsolateFilter eatFilter_2
 ```
-#INC
 
 
 #### Field Value
@@ -440,7 +406,6 @@ private IsolateFilter eatFilter_2
 ```csharp
 public const int GiftId = 1033
 ```
-#INC
 
 
 #### Field Value
@@ -450,7 +415,6 @@ public const int GiftId = 1033
 ```csharp
 public const string SlashSrc = "Effect/Creature/BigBadWolf/Slash"
 ```
-#INC
 
 
 #### Field Value
@@ -460,7 +424,6 @@ public const string SlashSrc = "Effect/Creature/BigBadWolf/Slash"
 ```csharp
 private IsolateFilter vomitFilter_1
 ```
-#INC
 
 
 #### Field Value
@@ -470,7 +433,6 @@ private IsolateFilter vomitFilter_1
 ```csharp
 private IsolateFilter vomitFilter_2
 ```
-#INC
 
 
 #### Field Value
@@ -572,7 +534,6 @@ private float SenseRadiusDouble { get; }
 ```csharp
 private void ActivateEatEvent(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -584,7 +545,6 @@ private void ActivateEatEvent(AgentModel target)
 ```csharp
 public override void ActivateQliphothCounter()
 ```
-#INC
 
 
 ### AddDefenseBuf(UnitModel, float, float)
@@ -603,7 +563,6 @@ public void AddDefenseBuf(UnitModel target, float factor, float lifeTime = -1)
 ```csharp
 public void AddGift(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -615,7 +574,6 @@ public void AddGift(AgentModel agent)
 ```csharp
 private void Approach(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -627,7 +585,6 @@ private void Approach(UnitModel target)
 ```csharp
 public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -643,14 +600,12 @@ public override bool CanTakeDamage(UnitModel attacker, DamageInfo dmg)
 ```csharp
 private void CheckPassage()
 ```
-#INC
 
 
 ### CheckRange(UnitModel, float, bool)
 ```csharp
 private bool CheckRange(UnitModel target, float range, bool ignoreDirection = true)
 ```
-#INC
 
 
 #### Parameters
@@ -667,21 +622,18 @@ private bool CheckRange(UnitModel target, float range, bool ignoreDirection = tr
 ```csharp
 private void FindRedHood()
 ```
-#INC
 
 
 ### Getaway()
 ```csharp
 private void Getaway()
 ```
-#INC
 
 
 ### GetCurrentStandingSefira()
 ```csharp
 private Sefira GetCurrentStandingSefira()
 ```
-#INC
 
 
 #### Returns
@@ -691,7 +643,6 @@ private Sefira GetCurrentStandingSefira()
 ```csharp
 private List<UnitModel> GetDamagedTarget(List<UnitModel> near, float range, bool ignoreDir = false)
 ```
-#INC
 
 
 #### Parameters
@@ -708,7 +659,6 @@ private List<UnitModel> GetDamagedTarget(List<UnitModel> near, float range, bool
 ```csharp
 private UnitDirection GetDirection(UnitModel unit)
 ```
-#INC
 
 
 #### Parameters
@@ -723,7 +673,6 @@ private UnitDirection GetDirection(UnitModel unit)
 ```csharp
 private float GetDistDouble(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -738,7 +687,6 @@ private float GetDistDouble(UnitModel target)
 ```csharp
 private float GetDoubleValue(float val)
 ```
-#INC
 
 
 #### Parameters
@@ -753,7 +701,6 @@ private float GetDoubleValue(float val)
 ```csharp
 private List<UnitModel> GetNearTarget()
 ```
-#INC
 
 
 #### Returns
@@ -763,7 +710,6 @@ private List<UnitModel> GetNearTarget()
 ```csharp
 public override float GetRadius()
 ```
-#INC
 
 
 #### Returns
@@ -773,7 +719,6 @@ public override float GetRadius()
 ```csharp
 public string GetSoundSrc(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -788,7 +733,6 @@ public string GetSoundSrc(string key)
 ```csharp
 private List<UnitModel> GetTargetsInRange()
 ```
-#INC
 
 
 #### Returns
@@ -798,14 +742,12 @@ private List<UnitModel> GetTargetsInRange()
 ```csharp
 private void Howling()
 ```
-#INC
 
 
 ### HowlingDamageToAgent(AgentModel)
 ```csharp
 private void HowlingDamageToAgent(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -817,21 +759,18 @@ private void HowlingDamageToAgent(AgentModel target)
 ```csharp
 public void InitialEscapeAction()
 ```
-#INC
 
 
 ### InitialEscapeArrived()
 ```csharp
 public void InitialEscapeArrived()
 ```
-#INC
 
 
 ### IsRedHood(UnitModel)
 ```csharp
 private bool IsRedHood(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -846,7 +785,6 @@ private bool IsRedHood(UnitModel target)
 ```csharp
 private bool IsRedHood(UnitModel target, out RedHood redHood)
 ```
-#INC
 
 
 #### Parameters
@@ -862,7 +800,6 @@ private bool IsRedHood(UnitModel target, out RedHood redHood)
 ```csharp
 public override bool IsWorkable()
 ```
-#INC
 
 
 #### Returns
@@ -872,7 +809,6 @@ public override bool IsWorkable()
 ```csharp
 public static void Log(string log)
 ```
-#INC
 
 
 #### Parameters
@@ -884,14 +820,12 @@ public static void Log(string log)
 ```csharp
 public void MakeBiteEffect()
 ```
-#INC
 
 
 ### MakeCastingAttackEffect(UnitModel)
 ```csharp
 private void MakeCastingAttackEffect(UnitModel unit)
 ```
-#INC
 
 
 #### Parameters
@@ -903,7 +837,6 @@ private void MakeCastingAttackEffect(UnitModel unit)
 ```csharp
 public void MakeMovement(MapNode targetNode, CreatureCommand.OnCommandEnd commandEnd = null)
 ```
-#INC
 
 
 #### Parameters
@@ -916,7 +849,6 @@ public void MakeMovement(MapNode targetNode, CreatureCommand.OnCommandEnd comman
 ```csharp
 public void MakeMovement(MovableObjectNode movable, CreatureCommand.OnCommandEnd commandEnd = null)
 ```
-#INC
 
 
 #### Parameters
@@ -929,14 +861,12 @@ public void MakeMovement(MovableObjectNode movable, CreatureCommand.OnCommandEnd
 ```csharp
 public void MakeScratchEffect()
 ```
-#INC
 
 
 ### MakeSound(string)
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -951,63 +881,54 @@ public override SoundEffectPlayer MakeSound(string src)
 ```csharp
 public void OnArriveGetaway()
 ```
-#INC
 
 
 ### OnAttackEnd()
 ```csharp
 public void OnAttackEnd()
 ```
-#INC
 
 
 ### OnCastingArrived()
 ```csharp
 public void OnCastingArrived()
 ```
-#INC
 
 
 ### OnCastingAttack()
 ```csharp
 public void OnCastingAttack()
 ```
-#INC
 
 
 ### OnCastingReady()
 ```csharp
 public void OnCastingReady()
 ```
-#INC
 
 
 ### OnDamage()
 ```csharp
 public void OnDamage()
 ```
-#INC
 
 
 ### OnDamageFilled()
 ```csharp
 public void OnDamageFilled()
 ```
-#INC
 
 
 ### OnEatAnimEnd()
 ```csharp
 private void OnEatAnimEnd()
 ```
-#INC
 
 
 ### OnEnterRoom(UseSkill)
 ```csharp
 public override void OnEnterRoom(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1019,7 +940,6 @@ public override void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFinishWork(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1031,7 +951,6 @@ public override void OnFinishWork(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -1043,15 +962,12 @@ public override void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public override void OnInit()
 ```
-#INC
-#code-generated
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1064,56 +980,48 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnReadyForEscape()
 ```
-#INC
 
 
 ### OnRedHoodSuppressed()
 ```csharp
 public void OnRedHoodSuppressed()
 ```
-#INC
 
 
 ### OnReturn()
 ```csharp
 public override void OnReturn()
 ```
-#INC
 
 
 ### OnStageEnd()
 ```csharp
 public override void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public override void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
 
 
 ### OnSuppressedByRedHood()
 ```csharp
 public void OnSuppressedByRedHood()
 ```
-#INC
 
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 ```csharp
 public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -1127,7 +1035,6 @@ public override void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -1139,7 +1046,6 @@ public override void OnViewInit(CreatureUnit unit)
 ```csharp
 public override void OnWorkClosed(UseSkill skill, int successCount)
 ```
-#INC
 
 
 #### Parameters
@@ -1152,21 +1058,18 @@ public override void OnWorkClosed(UseSkill skill, int successCount)
 ```csharp
 public override void ParamInit()
 ```
-#INC
 
 
 ### ReadyForEscape()
 ```csharp
 private void ReadyForEscape()
 ```
-#INC
 
 
 ### Recover(float)
 ```csharp
 private void Recover(float recoverValue)
 ```
-#INC
 
 
 #### Parameters
@@ -1178,28 +1081,24 @@ private void Recover(float recoverValue)
 ```csharp
 public override void ResetQliphothCounter()
 ```
-#INC
 
 
 ### RoomSpriteInit()
 ```csharp
 public override void RoomSpriteInit()
 ```
-#INC
 
 
 ### SetGetawaySefira()
 ```csharp
 private void SetGetawaySefira()
 ```
-#INC
 
 
 ### StartAttack(UnitModel)
 ```csharp
 private void StartAttack(UnitModel mainTarget)
 ```
-#INC
 
 
 #### Parameters
@@ -1211,7 +1110,6 @@ private void StartAttack(UnitModel mainTarget)
 ```csharp
 public void StopMovement(bool clearTarget = false)
 ```
-#INC
 
 
 #### Parameters
@@ -1223,14 +1121,12 @@ public void StopMovement(bool clearTarget = false)
 ```csharp
 public override void UniqueEscape()
 ```
-#INC
 
 
 ### UniqueMoveControl()
 ```csharp
 public override bool UniqueMoveControl()
 ```
-#INC
 
 
 #### Returns
@@ -1240,16 +1136,15 @@ public override bool UniqueMoveControl()
 ```csharp
 private void VomitEatenWorker()
 ```
-#INC
 
 
 ### VomitStart()
 ```csharp
 private void VomitStart()
 ```
-#INC
 
 
 ## Inherited Members
 [isolateSpriteSrc](/api/Global/Creature/CreatureBase#isolatespritesrc), [model](/api/Global/Creature/CreatureBase#model), [skill](/api/Global/Creature/CreatureBase#skill), [kitEvent](/api/Global/Creature/CreatureBase#kitevent), [hasUniqueEscapeLogic](/api/Global/Creature/CreatureBase#hasuniqueescapelogic), [isWorkAllocated](/api/Global/Creature/CreatureBase#isworkallocated), [_allocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [damage](/api/Global/Creature/CreatureBase#damage), [OnReleaseSpecialTip](/api/Global/Creature/CreatureBase#onreleasespecialtip), [specialSkillTipParamList](/api/Global/Creature/CreatureBase#specialskilltipparamlist), [_check](/api/Global/Creature/CreatureBase#check), [SetModel(CreatureModel)](/api/Global/Creature/CreatureBase#setmodel-creaturemodel), [OnViewInitPrev(CreatureUnit)](/api/Global/Creature/CreatureBase#onviewinitprev-creatureunit), [OnFixedUpdateInSkill(UseSkill)](/api/Global/Creature/CreatureBase#onfixedupdateinskill-useskill), [OnSkillFailWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillfailworktick-useskill), [OnSkillSuccessWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillsuccessworktick-useskill), [OnSkillTickUpdate(UseSkill)](/api/Global/Creature/CreatureBase#onskilltickupdate-useskill), [OnSkillGoalComplete(UseSkill)](/api/Global/Creature/CreatureBase#onskillgoalcomplete-useskill), [PermitCancelCurrentWork()](/api/Global/Creature/CreatureBase#permitcancelcurrentwork), [GetKitCreatureProcessTime()](/api/Global/Creature/CreatureBase#getkitcreatureprocesstime), [OnBonusWorkProb()](/api/Global/Creature/CreatureBase#onbonusworkprob), [GetDamageMultiplierInWork(UseSkill)](/api/Global/Creature/CreatureBase#getdamagemultiplierinwork-useskill), [TranformWorkProb(float)](/api/Global/Creature/CreatureBase#tranformworkprob-float), [OnReleaseWork(UseSkill)](/api/Global/Creature/CreatureBase#onreleasework-useskill), [OnWorkCoolTimeEnd(CreatureFeelingState)](/api/Global/Creature/CreatureBase#onworkcooltimeend-creaturefeelingstate), [Escape()](/api/Global/Creature/CreatureBase#escape), [GetSpecialSkill()](/api/Global/Creature/CreatureBase#getspecialskill), [GetDebugText()](/api/Global/Creature/CreatureBase#getdebugtext), [OnTimerEnd()](/api/Global/Creature/CreatureBase#ontimerend), [MakeEffect(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffect-isolateroom-int), [MakeEffectAlter(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffectalter-isolateroom-int), [Prob(int)](/api/Global/Creature/CreatureBase#prob-int), [isAttackInWorkProcess()](/api/Global/Creature/CreatureBase#isattackinworkprocess), [OnAttackInWorkProcess(UseSkill)](/api/Global/Creature/CreatureBase#onattackinworkprocess-useskill), [AttackProcess(UnitModel)](/api/Global/Creature/CreatureBase#attackprocess-unitmodel), [AutoFeelingDown()](/api/Global/Creature/CreatureBase#autofeelingdown), [AgentAnimCalled(int, WorkerModel)](/api/Global/Creature/CreatureBase#agentanimcalled-int-workermodel), [MakingEffect(string, float, string, Transform, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-transform-int), [MakingEffect(string, float)](/api/Global/Creature/CreatureBase#makingeffect-string-float), [MakeEffectAttachedToHead(string)](/api/Global/Creature/CreatureBase#makeeffectattachedtohead-string), [MakingEffect(string, float, string, Vector3, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-vector3-int), [OnAgentWorkEndAnimationPlayed(UseSkill)](/api/Global/Creature/CreatureBase#onagentworkendanimationplayed-useskill), [OnAgentAllocateWork(AgentModel)](/api/Global/Creature/CreatureBase#onagentallocatework-agentmodel), [OnSuppressed()](/api/Global/Creature/CreatureBase#onsuppressed), [OnAllocatedWork(AgentModel)](/api/Global/Creature/CreatureBase#onallocatedwork-agentmodel), [OnReleaseWorkAllocated()](/api/Global/Creature/CreatureBase#onreleaseworkallocated), [ObserveLevelChangeForSpecialSkillTip()](/api/Global/Creature/CreatureBase#observelevelchangeforspecialskilltip), [OnObserveLevelChanged()](/api/Global/Creature/CreatureBase#onobservelevelchanged), [HasUniqueProcessWorkNarration()](/api/Global/Creature/CreatureBase#hasuniqueprocessworknarration), [UniqueProcessWorkNarration(UseSkill)](/api/Global/Creature/CreatureBase#uniqueprocessworknarration-useskill), [RoomEscapeSpriteOn()](/api/Global/Creature/CreatureBase#roomescapespriteon), [RoomEscapeSpriteOff()](/api/Global/Creature/CreatureBase#roomescapespriteoff), [RoomSkillSpriteOn()](/api/Global/Creature/CreatureBase#roomskillspriteon), [RoomSkillSpriteOff()](/api/Global/Creature/CreatureBase#roomskillspriteoff), [RoomStateSpriteOn()](/api/Global/Creature/CreatureBase#roomstatespriteon), [RoomStateSpriteOff()](/api/Global/Creature/CreatureBase#roomstatespriteoff), [OnForceSpecialSkillTipReveal(string, params object[])](/api/Global/Creature/CreatureBase#onforcespecialskilltipreveal-string-params-object), [OnWorkReleaseSpeicalSkillTipReveal(string)](/api/Global/Creature/CreatureBase#onworkreleasespeicalskilltipreveal-string), [OnWorkReleaseTipUpdate(params object[])](/api/Global/Creature/CreatureBase#onworkreleasetipupdate-params-object), [OnAgentAnimatorReseted()](/api/Global/Creature/CreatureBase#onagentanimatorreseted), [SpecialEnergyTick()](/api/Global/Creature/CreatureBase#specialenergytick), [OnFeverTimeOver()](/api/Global/Creature/CreatureBase#onfevertimeover), [OnOverlayIsolateWork()](/api/Global/Creature/CreatureBase#onoverlayisolatework), [OnOverlayIsolateObserve()](/api/Global/Creature/CreatureBase#onoverlayisolateobserve), [OnOpenObserveWindow()](/api/Global/Creature/CreatureBase#onopenobservewindow), [OnOpenWorkWindow()](/api/Global/Creature/CreatureBase#onopenworkwindow), [OnOpenCollectionWindow()](/api/Global/Creature/CreatureBase#onopencollectionwindow), [DelayAttackMotion(float)](/api/Global/Creature/CreatureBase#delayattackmotion-float), [IsAttackTargetable()](/api/Global/Creature/CreatureBase#isattacktargetable), [GetRealTargets()](/api/Global/Creature/CreatureBase#getrealtargets), [HasScriptSaveData()](/api/Global/Creature/CreatureBase#hasscriptsavedata), [GetSaveData()](/api/Global/Creature/CreatureBase#getsavedata), [LoadData(Dictionary<string, object>)](/api/Global/Creature/CreatureBase#loaddata-dictionary-string-object), [LoadScriptData()](/api/Global/Creature/CreatureBase#loadscriptdata), [SaveScriptData()](/api/Global/Creature/CreatureBase#savescriptdata), [ExistSaveData()](/api/Global/Creature/CreatureBase#existsavedata), [RemoveSaveData()](/api/Global/Creature/CreatureBase#removesavedata), [ReplaceCommand(CreatureModel)](/api/Global/Creature/CreatureBase#replacecommand-creaturemodel), [OnGamemanagerInit()](/api/Global/Creature/CreatureBase#ongamemanagerinit), [MakeEffectGlobalPos(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalpos-string-vector3), [MakeEffectGlobalPosNonTrans(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalposnontrans-string-vector3), [CanObservedByAgent(AgentModel)](/api/Global/Creature/CreatureBase#canobservedbyagent-agentmodel), [MakeSound(string, float)](/api/Global/Creature/CreatureBase#makesound-string-float), [MakeSound(string, AudioRolloffMode)](/api/Global/Creature/CreatureBase#makesound-string-audiorolloffmode), [MakeSoundQueue(params string[])](/api/Global/Creature/CreatureBase#makesoundqueue-params-string), [MakeSoundLoop(string)](/api/Global/Creature/CreatureBase#makesoundloop-string), [OnViewDestroy()](/api/Global/Creature/CreatureBase#onviewdestroy), [HasUniqueMaxObservationFinish()](/api/Global/Creature/CreatureBase#hasuniquemaxobservationfinish), [UniqueMaxObservationFinish(Desc)](/api/Global/Creature/CreatureBase#uniquemaxobservationfinish-desc), [OnChildSuppressed(ChildCreatureModel)](/api/Global/Creature/CreatureBase#onchildsuppressed-childcreaturemodel), [MakeChildCreature(UnitModel)](/api/Global/Creature/CreatureBase#makechildcreature-unitmodel), [OnKillWorker(WorkerModel)](/api/Global/Creature/CreatureBase#onkillworker-workermodel), [GenPursueCommandAlter(WorkerModel)](/api/Global/Creature/CreatureBase#genpursuecommandalter-workermodel), [OnAfterSuppressed()](/api/Global/Creature/CreatureBase#onaftersuppressed), [hasUniqueDeadScene()](/api/Global/Creature/CreatureBase#hasuniquedeadscene), [SetHpSlider(Slider)](/api/Global/Creature/CreatureBase#sethpslider-slider), [SetCastingSlider(Slider)](/api/Global/Creature/CreatureBase#setcastingslider-slider), [HasUniqueAttackDealy()](/api/Global/Creature/CreatureBase#hasuniqueattackdealy), [OnTakePhysicalDamage(UnitModel, float)](/api/Global/Creature/CreatureBase#ontakephysicaldamage-unitmodel-float), [HasUniqueFaction()](/api/Global/Creature/CreatureBase#hasuniquefaction), [OnWorkerPanic(WorkerModel)](/api/Global/Creature/CreatureBase#onworkerpanic-workermodel), [OnSelectMaxObservation(int)](/api/Global/Creature/CreatureBase#onselectmaxobservation-int), [OnLoadCreatureName(ref string)](/api/Global/Creature/CreatureBase#onloadcreaturename-ref-string), [IsSuppressable()](/api/Global/Creature/CreatureBase#issuppressable), [IsSuppressableByRoom()](/api/Global/Creature/CreatureBase#issuppressablebyroom), [IsAutoSuppressable()](/api/Global/Creature/CreatureBase#isautosuppressable), [OnWorkWindowSkillClicked(long)](/api/Global/Creature/CreatureBase#onworkwindowskillclicked-long), [UseDefaultDamageIgnoreMessage(DamageTextEffect)](/api/Global/Creature/CreatureBase#usedefaultdamageignoremessage-damagetexteffect), [OnWorkAllocated(SkillTypeInfo, AgentModel)](/api/Global/Creature/CreatureBase#onworkallocated-skilltypeinfo-agentmodel), [GetPhysicalDamage(out float)](/api/Global/Creature/CreatureBase#getphysicaldamage-out-float), [GetMentalDamage(out float)](/api/Global/Creature/CreatureBase#getmentaldamage-out-float), [OnSuperArmorBreak()](/api/Global/Creature/CreatureBase#onsuperarmorbreak), [UniqueStunEffect()](/api/Global/Creature/CreatureBase#uniquestuneffect), [HasEscapeUI()](/api/Global/Creature/CreatureBase#hasescapeui), [HasRoomCounter()](/api/Global/Creature/CreatureBase#hasroomcounter), [RoomCounterInit()](/api/Global/Creature/CreatureBase#roomcounterinit), [GetMaxWorkCountView()](/api/Global/Creature/CreatureBase#getmaxworkcountview), [GetQliphothCounterMax()](/api/Global/Creature/CreatureBase#getqliphothcountermax), [ReducedQliphothCounter()](/api/Global/Creature/CreatureBase#reducedqliphothcounter), [AddedQliphothCounter()](/api/Global/Creature/CreatureBase#addedqliphothcounter), [OnElevatorStuck()](/api/Global/Creature/CreatureBase#onelevatorstuck), [IsActivatedWorkDesc()](/api/Global/Creature/CreatureBase#isactivatedworkdesc), [IsSensoredInPassage()](/api/Global/Creature/CreatureBase#issensoredinpassage), [IsIndirectSuppressable()](/api/Global/Creature/CreatureBase#isindirectsuppressable), [GetRiskLevel()](/api/Global/Creature/CreatureBase#getrisklevel), [GetName()](/api/Global/Creature/CreatureBase#getname), [HasUniqueName()](/api/Global/Creature/CreatureBase#hasuniquename), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#getdamagefactor-unitmodel-damageinfo), [OnInitialBuild()](/api/Global/Creature/CreatureBase#oninitialbuild), [HasUniqueCollectionCost(string, out string)](/api/Global/Creature/CreatureBase#hasuniquecollectioncost-string-out-string), [OnOpenCommandWindow(Button[])](/api/Global/Creature/CreatureBase#onopencommandwindow-button), [HasUniqueCommandAction(int)](/api/Global/Creature/CreatureBase#hasuniquecommandaction-int), [HasUniqueWorkSelect(int)](/api/Global/Creature/CreatureBase#hasuniqueworkselect-int), [ForcelySuccess(UseSkill)](/api/Global/Creature/CreatureBase#forcelysuccess-useskill), [ForcelyFail(UseSkill)](/api/Global/Creature/CreatureBase#forcelyfail-useskill), [TryRabbitTeleport(MapNode)](/api/Global/Creature/CreatureBase#tryrabbitteleport-mapnode), [CanEnterRoom()](/api/Global/Creature/CreatureBase#canenterroom), [AllocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [skillTriggerCheck](/api/Global/Creature/CreatureBase#skilltriggercheck), [Unit](/api/Global/Creature/CreatureBase#unit), [GetSaveSrc](/api/Global/Creature/CreatureBase#getsavesrc), [movable](/api/Global/Creature/CreatureBase#movable), [currentPassage](/api/Global/Creature/CreatureBase#currentpassage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

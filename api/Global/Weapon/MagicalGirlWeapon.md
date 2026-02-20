@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MagicalGirlWeapon
 canonical_path: /api/Global/Weapon/MagicalGirlWeapon
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Weapon/MagicalGirlWeapon
 ```csharp
 public class MagicalGirlWeapon : EquipmentScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Script for [Queen of Hatred](/api/Global/IOBserver/MagicalGirl)'s EGO Weapon: In the Name of Love and Hate.
 
@@ -35,7 +39,6 @@ public MagicalGirlWeapon()
 ```csharp
 private const float _bDmgMax = 8
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ private const float _bDmgMax = 8
 ```csharp
 private const float _bDmgMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ private const float _bDmgMin = 5
 ```csharp
 private const float _bHealMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ private const float _bHealMax = 3
 ```csharp
 private const float _bHealMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ private const float _bHealMin = 2
 ```csharp
 private const float _bProb = 0.3
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ private const float _bProb = 0.3
 ```csharp
 private Vector3 _effectPos
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ private Vector3 _effectPos
 ```csharp
 private const float _pDmgMax = 8
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +102,6 @@ private const float _pDmgMax = 8
 ```csharp
 private const float _pDmgMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +111,6 @@ private const float _pDmgMin = 5
 ```csharp
 private const float _pHealMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +120,6 @@ private const float _pHealMax = 3
 ```csharp
 private const float _pHealMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +129,6 @@ private const float _pHealMin = 2
 ```csharp
 private const string _projectileSrc = "Effect/Agent/MagicalGirlWeaponProjectile_"
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +138,6 @@ private const string _projectileSrc = "Effect/Agent/MagicalGirlWeaponProjectile_
 ```csharp
 private const float _rDmgMax = 8
 ```
-#INC
 
 
 #### Field Value
@@ -155,7 +147,6 @@ private const float _rDmgMax = 8
 ```csharp
 private const float _rDmgMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -165,7 +156,6 @@ private const float _rDmgMin = 5
 ```csharp
 private const float _rHealMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -175,7 +165,6 @@ private const float _rHealMax = 3
 ```csharp
 private const float _rHealMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -185,7 +174,6 @@ private const float _rHealMin = 2
 ```csharp
 private const float _rProb = 0.3
 ```
-#INC
 
 
 #### Field Value
@@ -195,7 +183,6 @@ private const float _rProb = 0.3
 ```csharp
 private const float _wDmgMax = 8
 ```
-#INC
 
 
 #### Field Value
@@ -205,7 +192,6 @@ private const float _wDmgMax = 8
 ```csharp
 private const float _wDmgMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +201,6 @@ private const float _wDmgMin = 5
 ```csharp
 private const float _wHealMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -225,7 +210,6 @@ private const float _wHealMax = 3
 ```csharp
 private const float _wHealMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -235,7 +219,6 @@ private const float _wHealMin = 2
 ```csharp
 private const float _wProb = 0.3
 ```
-#INC
 
 
 #### Field Value
@@ -345,7 +328,6 @@ private static float wValue { get; }
 ```csharp
 public bool CheckHit(UnitModel target, RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -361,7 +343,6 @@ public bool CheckHit(UnitModel target, RwbpType type)
 ```csharp
 private void GiveDamage(UnitModel target, RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -374,7 +355,6 @@ private void GiveDamage(UnitModel target, RwbpType type)
 ```csharp
 private void Heal(WorkerModel worker, RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -387,8 +367,6 @@ private void Heal(WorkerModel worker, RwbpType type)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -405,9 +383,9 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 private void ShootProjectile()
 ```
-#INC
 
 
 ## Inherited Members
 [_model](/api/Global/Misc/EquipmentScriptBase#model), [_reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [MAX_REINFORCEMENT_LEVEL](/api/Global/Misc/EquipmentScriptBase#max-reinforcement-level), [SetModel(EquipmentModel)](/api/Global/Misc/EquipmentScriptBase#setmodel-equipmentmodel), [OnEquip(UnitModel)](/api/Global/Misc/EquipmentScriptBase#onequip-unitmodel), [OnRelease()](/api/Global/Misc/EquipmentScriptBase#onrelease), [OnStageStart()](/api/Global/Misc/EquipmentScriptBase#onstagestart), [OnStageRelease()](/api/Global/Misc/EquipmentScriptBase#onstagerelease), [OnPrepareWeapon(UnitModel)](/api/Global/Misc/EquipmentScriptBase#onprepareweapon-unitmodel), [OnCancelWeapon(UnitModel)](/api/Global/Misc/EquipmentScriptBase#oncancelweapon-unitmodel), [OnAttackStart(UnitModel, UnitModel)](/api/Global/Misc/EquipmentScriptBase#onattackstart-unitmodel-unitmodel), [OnAttackEnd(UnitModel, UnitModel)](/api/Global/Misc/EquipmentScriptBase#onattackend-unitmodel-unitmodel), [OnKillMainTarget(UnitModel, UnitModel)](/api/Global/Misc/EquipmentScriptBase#onkillmaintarget-unitmodel-unitmodel), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/EquipmentScriptBase#ongivedamageafter-unitmodel-unitmodel-damageinfo), [OnTakeDamage(UnitModel, ref DamageInfo)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-unitmodel-ref-damageinfo), [OnTakeDamage_After(float, RwbpType)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-after-float-rwbptype), [GetReinforcementDmg()](/api/Global/Misc/EquipmentScriptBase#getreinforcementdmg), [AddReinforcementLevel(int)](/api/Global/Misc/EquipmentScriptBase#addreinforcementlevel-int), [GetDefense(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdefense-unitmodel), [GetDamageFactor()](/api/Global/Misc/EquipmentScriptBase#getdamagefactor), [GetDamage(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdamage-unitmodel), [OnFixedUpdate()](/api/Global/Misc/EquipmentScriptBase#onfixedupdate), [GetBonus(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getbonus-unitmodel), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/EquipmentScriptBase#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OwnerHeal(bool, ref float)](/api/Global/Misc/EquipmentScriptBase#ownerheal-bool-ref-float), [model](/api/Global/Misc/EquipmentScriptBase#model), [reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

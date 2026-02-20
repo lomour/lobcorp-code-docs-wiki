@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.Category
 canonical_path: /api/Manual/Category
@@ -11,6 +12,9 @@ canonical_path: /api/Manual/Category
 ```csharp
 public class Category
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Sections on the left of the manual?
 
 
@@ -26,8 +30,6 @@ Sections on the left of the manual?
 ```csharp
 public Category(string id)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public Category(string id)
 ```csharp
 public string id
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public string id
 ```csharp
 public Category next
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public Category next
 ```csharp
 public Category parent
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ public Category parent
 ```csharp
 public Category prev
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +79,6 @@ public Category prev
 ```csharp
 protected string title
 ```
-#INC
 
 
 #### Field Value
@@ -103,16 +100,15 @@ public virtual string Title { get; }
 ```csharp
 public virtual void LoadText()
 ```
-#INC
 
 
 ### Reload()
 ```csharp
 public void Reload()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

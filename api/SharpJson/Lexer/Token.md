@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: SharpJson.Lexer.Token
 canonical_path: /api/SharpJson/Lexer/Token
@@ -109,4 +110,5 @@ True = 2
 
 #### Field Value
 **Type:** SharpJson.Lexer.Token
+
 

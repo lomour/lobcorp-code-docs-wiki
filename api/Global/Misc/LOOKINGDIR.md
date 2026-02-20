@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LOOKINGDIR
 canonical_path: /api/Global/Misc/LOOKINGDIR
@@ -37,4 +38,5 @@ RIGHT = 1
 
 #### Field Value
 **Type:** Global.LOOKINGDIR
+
 

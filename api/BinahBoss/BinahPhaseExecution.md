@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahPhaseExecution
 canonical_path: /api/BinahBoss/BinahPhaseExecution
@@ -11,6 +12,9 @@ canonical_path: /api/BinahBoss/BinahPhaseExecution
 ```csharp
 public abstract class BinahPhaseExecution
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for [An Arbiter](/api/Global/Script/BinahCoreScript)'s phases during [Binah's core suppression](/api/Global/Misc/BinahBossBase).
 
 
@@ -26,7 +30,6 @@ Parent class for [An Arbiter](/api/Global/Script/BinahCoreScript)'s phases durin
 ```csharp
 public BinahPhaseExecution(BinahCoreScript binah)
 ```
-#INC
 
 
 #### Parameters
@@ -40,7 +43,6 @@ public BinahPhaseExecution(BinahCoreScript binah)
 ```csharp
 public BinahCoreScript binah
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public BinahCoreScript binah
 ```csharp
 public bool overloadActivated
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public bool overloadActivated
 ```csharp
 public Timer overloadTimer
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ public Timer overloadTimer
 ```csharp
 public List<OverloadType> overloadTypeList
 ```
-#INC
 
 
 #### Field Value
@@ -92,14 +91,12 @@ public bool BinahHasOverload { get; }
 ```csharp
 public abstract void FixedUpdate()
 ```
-#INC
 
 
 ### GetNextAction(List<UnitModel>)
 ```csharp
 public abstract BinahAction GetNextAction(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -114,7 +111,6 @@ public abstract BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public virtual OverloadType GetOverloadType()
 ```
-#INC
 
 
 #### Returns
@@ -124,28 +120,24 @@ public virtual OverloadType GetOverloadType()
 ```csharp
 public virtual void HaltOverload()
 ```
-#INC
 
 
 ### OnOverloadEnd()
 ```csharp
 public virtual void OnOverloadEnd()
 ```
-#INC
 
 
 ### OnPrevSuppressed()
 ```csharp
 public abstract void OnPrevSuppressed()
 ```
-#INC
 
 
 ### StartTimer(float)
 ```csharp
 public virtual void StartTimer(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -157,8 +149,6 @@ public virtual void StartTimer(float time)
 ```csharp
 public override string ToString()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -168,9 +158,9 @@ public override string ToString()
 ```csharp
 public abstract void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

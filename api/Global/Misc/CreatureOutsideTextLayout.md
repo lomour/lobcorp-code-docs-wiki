@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureOutsideTextLayout
 canonical_path: /api/Global/Misc/CreatureOutsideTextLayout
@@ -85,4 +86,5 @@ RIGHT_TOP = 6
 
 #### Field Value
 **Type:** Global.CreatureOutsideTextLayout
+
 

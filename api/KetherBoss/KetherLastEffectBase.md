@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.KetherLastEffectBase
 canonical_path: /api/KetherBoss/KetherLastEffectBase
@@ -11,6 +12,9 @@ canonical_path: /api/KetherBoss/KetherLastEffectBase
 ```csharp
 public class KetherLastEffectBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for day 50 effects
 
 
@@ -26,8 +30,6 @@ Parent class for day 50 effects
 ```csharp
 public KetherLastEffectBase(KetherLastBossBase bossBase)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public KetherLastEffectBase(KetherLastBossBase bossBase)
 ```csharp
 private KetherLastBossBase bossBase
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ private KetherLastBossBase bossBase
 ```csharp
 protected KetherLastEffectType type
 ```
-#INC
 
 
 #### Field Value
@@ -73,37 +73,33 @@ public KetherLastBossBase BossBase { get; }
 ```csharp
 public virtual void FixedUpdate()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public virtual void OnStart()
 ```
-#INC
 
 
 ### Terminate()
 ```csharp
 public virtual void Terminate()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public virtual void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

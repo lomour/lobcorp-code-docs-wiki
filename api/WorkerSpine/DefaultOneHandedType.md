@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.DefaultOneHandedType
 canonical_path: /api/WorkerSpine/DefaultOneHandedType
@@ -29,4 +30,5 @@ MACE = 0
 
 #### Field Value
 **Type:** WorkerSpine.DefaultOneHandedType
+
 

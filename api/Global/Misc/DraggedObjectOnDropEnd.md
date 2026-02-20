@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DraggedObject.OnDropEnd
 canonical_path: /api/Global/Misc/DraggedObjectOnDropEnd
@@ -63,4 +64,5 @@ public virtual void Invoke(Drop drop, bool state)
 | --- | --- | --- |
 | `drop` | `Global.Drop` |  |
 | `state` | `System.Boolean` |  |
+
 

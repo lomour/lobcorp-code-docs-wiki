@@ -1,4 +1,5 @@
  
+ 
 ---
 title: BarrierBuf
 description: 
@@ -16,6 +17,9 @@ dateCreated: 2026-01-15T05:09:22.658Z
 ```csharp
 public class BarrierBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Shield buff given by shield bullets and certain E.G.O. effects. When the unit with this buff takes damage, it will reduce the barrierValue of the BarrierBuff with the matching RWBPType by the damage. If the barrierValue is greater than 0 after this reduction, the unit doesn't take the damage. Otherwise, the shield breaks without reducing the damage. The shield breaks on its own when the time expires.
 
 
@@ -28,7 +32,6 @@ Shield buff given by shield bullets and certain E.G.O. effects. When the unit wi
 ```csharp
 public BarrierBuf(RwbpType type, float barrierValue, float time)
 ```
-#INC
 
 
 #### Parameters
@@ -44,7 +47,6 @@ public BarrierBuf(RwbpType type, float barrierValue, float time)
 ```csharp
 private float _barrierValue
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private float _barrierValue
 ```csharp
 private float _barrierValueMax
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private float _barrierValueMax
 ```csharp
 private RwbpType _rwbpType
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ private RwbpType _rwbpType
 ```csharp
 private BarrierEffect barrierEffect
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private BarrierEffect barrierEffect
 ```csharp
 private float maxTime
 ```
-#INC
 
 
 #### Field Value
@@ -106,15 +104,12 @@ private float Rate { get; }
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -126,21 +121,18 @@ public override void Init(UnitModel model)
 ```csharp
 public void OnCrackBarrier()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### UseBarrier(RwbpType, float)
 ```csharp
 public float UseBarrier(RwbpType dmgRwbpType, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -154,4 +146,5 @@ public float UseBarrier(RwbpType dmgRwbpType, float damage)
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

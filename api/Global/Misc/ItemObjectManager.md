@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ItemObjectManager
 canonical_path: /api/Global/Misc/ItemObjectManager
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Misc/ItemObjectManager
 ```csharp
 public class ItemObjectManager
 ```
-#unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -30,7 +37,6 @@ public ItemObjectManager()
 ```csharp
 private static ItemObjectManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +46,6 @@ private static ItemObjectManager _instance
 ```csharp
 public List<ItemObjectData> dataList
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +55,6 @@ public List<ItemObjectData> dataList
 ```csharp
 private bool init
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +84,6 @@ public bool IsInit { get; }
 ```csharp
 public ItemObjectData GetData(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -95,8 +98,6 @@ public ItemObjectData GetData(long id)
 ```csharp
 public void Init(ItemObjectData[] data)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -108,7 +109,6 @@ public void Init(ItemObjectData[] data)
 ```csharp
 public void Init(ReadOnlyCollection<ItemObjectData> data)
 ```
-#INC
 
 
 #### Parameters
@@ -118,4 +118,5 @@ public void Init(ReadOnlyCollection<ItemObjectData> data)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

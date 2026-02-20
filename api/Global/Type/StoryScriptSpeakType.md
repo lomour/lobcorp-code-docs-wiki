@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptSpeakType
 canonical_path: /api/Global/Type/StoryScriptSpeakType
@@ -29,4 +30,5 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.StoryScriptSpeakType
+
 

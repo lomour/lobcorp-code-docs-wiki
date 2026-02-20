@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OrdealManager
 canonical_path: /api/Global/Misc/OrdealManager
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/OrdealManager
 ```csharp
 public class OrdealManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages [ordeals](/api/Global/Misc/OrdealBase).
 
 Holds a queue of ordeals from the day, as well as methods for activating ordeals, adding creatures, and behavior on start and end.
 
-#INC 
+
 
 
 ## Inheritance
@@ -34,7 +38,6 @@ public OrdealManager()
 ```csharp
 private List<OrdealBase> _activatedOrdeals
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private List<OrdealBase> _activatedOrdeals
 ```csharp
 private int _currentOrdealLevel
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private int _currentOrdealLevel
 ```csharp
 private float _elapsedTime
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private float _elapsedTime
 ```csharp
 private static OrdealManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ private static OrdealManager _instance
 ```csharp
 private List<OrdealBase> _ordealList
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private List<OrdealBase> _ordealList
 ```csharp
 private Queue<OrdealBase> _ordealQueue
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ private Queue<OrdealBase> _ordealQueue
 ```csharp
 private float _remainTime
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ private float _remainTime
 ```csharp
 private List<OrdealBase> _removedOrdeals
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ private List<OrdealBase> _removedOrdeals
 ```csharp
 public List<RwbpType> availableFixers
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public List<RwbpType> availableFixers
 ```csharp
 private readonly int[] needWorkCount
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ private readonly int[] needWorkCount
 ```csharp
 private int nextInstId
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +137,6 @@ private int nextInstId
 ```csharp
 private List<OrdealCreatureModel> ordealCreatureList
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +146,6 @@ private List<OrdealCreatureModel> ordealCreatureList
 ```csharp
 private readonly int[] ordealTimer
 ```
-#INC
 
 
 #### Field Value
@@ -164,7 +155,6 @@ private readonly int[] ordealTimer
 ```csharp
 private readonly int[] ordealTimer1
 ```
-#INC
 
 
 #### Field Value
@@ -174,7 +164,6 @@ private readonly int[] ordealTimer1
 ```csharp
 private readonly int[] ordealTimer2
 ```
-#INC
 
 
 #### Field Value
@@ -196,7 +185,6 @@ public static OrdealManager instance { get; }
 ```csharp
 public bool ActivateOrdeal(OrdealBase ordeal, bool remove = true)
 ```
-#INC
 
 
 #### Parameters
@@ -212,7 +200,6 @@ public bool ActivateOrdeal(OrdealBase ordeal, bool remove = true)
 ```csharp
 public OrdealCreatureModel AddCreature(long metadataId, MapNode pos, OrdealBase ordealBase)
 ```
-#INC
 
 
 #### Parameters
@@ -229,7 +216,6 @@ public OrdealCreatureModel AddCreature(long metadataId, MapNode pos, OrdealBase 
 ```csharp
 private void BuildCreature(OrdealCreatureModel model, long metadataId)
 ```
-#INC
 
 
 #### Parameters
@@ -242,7 +228,6 @@ private void BuildCreature(OrdealCreatureModel model, long metadataId)
 ```csharp
 public bool CheckOrdealContains(OrdealLevel level, out OrdealBase ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -258,14 +243,12 @@ public bool CheckOrdealContains(OrdealLevel level, out OrdealBase ordeal)
 ```csharp
 public void ClearCreatures()
 ```
-#INC
 
 
 ### GetActivatedOrdeals()
 ```csharp
 public List<OrdealBase> GetActivatedOrdeals()
 ```
-#INC
 
 
 #### Returns
@@ -275,7 +258,6 @@ public List<OrdealBase> GetActivatedOrdeals()
 ```csharp
 public OrdealLevel GetMaxOrdealLevel()
 ```
-#INC
 
 
 #### Returns
@@ -285,7 +267,6 @@ public OrdealLevel GetMaxOrdealLevel()
 ```csharp
 public OrdealCreatureModel[] GetOrdealCreatureList()
 ```
-#INC
 
 
 #### Returns
@@ -295,21 +276,18 @@ public OrdealCreatureModel[] GetOrdealCreatureList()
 ```csharp
 public void InitAvailableFixers()
 ```
-#INC
 
 
 ### OnAddCreatureWorkCount()
 ```csharp
 public void OnAddCreatureWorkCount()
 ```
-#INC
 
 
 ### OnAddCreatureWorkCount(OrdealBase)
 ```csharp
 private void OnAddCreatureWorkCount(OrdealBase ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -321,22 +299,18 @@ private void OnAddCreatureWorkCount(OrdealBase ordeal)
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnGameInit()
 ```csharp
 public void OnGameInit()
 ```
-#INC
-#code-generated
 
 
 ### OnOrdealEnd(OrdealBase, bool)
 ```csharp
 public void OnOrdealEnd(OrdealBase ordeal, bool b)
 ```
-#INC
 
 
 #### Parameters
@@ -349,23 +323,21 @@ public void OnOrdealEnd(OrdealBase ordeal, bool b)
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### UpdateOrdealUI()
 ```csharp
 private void UpdateOrdealUI()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

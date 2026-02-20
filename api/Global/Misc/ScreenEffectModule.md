@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ScreenEffectModule
 canonical_path: /api/Global/Misc/ScreenEffectModule
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/ScreenEffectModule
 ```csharp
 public class ScreenEffectModule
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages a visual effect. Used by [UIEffectManager](/api/Global/Misc/UIEffectManager)
 
-#INC 
+
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public ScreenEffectModule()
 ```csharp
 private bool _sequenceChanged
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +57,6 @@ public Animator anim
 ```csharp
 public string AnimParam
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +66,6 @@ public string AnimParam
 ```csharp
 private Sprite currentSprite
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +75,6 @@ private Sprite currentSprite
 ```csharp
 public float defaultDisplayTime
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +84,6 @@ public float defaultDisplayTime
 ```csharp
 private AutoTimer.TargetMethod del
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +93,6 @@ private AutoTimer.TargetMethod del
 ```csharp
 private Image displayedImage
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +102,6 @@ private Image displayedImage
 ```csharp
 private float displayTime
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +111,6 @@ private float displayTime
 ```csharp
 public UIEffectType effectType
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +120,6 @@ public UIEffectType effectType
 ```csharp
 public int fps
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +129,6 @@ public int fps
 ```csharp
 private float fpsElapsed
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +138,6 @@ private float fpsElapsed
 ```csharp
 public bool hasAnim
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +147,6 @@ public bool hasAnim
 ```csharp
 public bool hasSequence
 ```
-#INC
 
 
 #### Field Value
@@ -164,7 +156,6 @@ public bool hasSequence
 ```csharp
 public long id
 ```
-#INC
 
 
 #### Field Value
@@ -174,7 +165,6 @@ public long id
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -184,7 +174,6 @@ public string name
 ```csharp
 public bool shouldLoad
 ```
-#INC
 
 
 #### Field Value
@@ -194,7 +183,6 @@ public bool shouldLoad
 ```csharp
 private List<Sprite> spriteList
 ```
-#INC
 
 
 #### Field Value
@@ -204,7 +192,6 @@ private List<Sprite> spriteList
 ```csharp
 public string SpriteSrc
 ```
-#INC
 
 
 #### Field Value
@@ -214,7 +201,6 @@ public string SpriteSrc
 ```csharp
 private AutoTimer timer
 ```
-#INC
 
 
 #### Field Value
@@ -224,7 +210,6 @@ private AutoTimer timer
 ```csharp
 private AutoTimer.TargetMethod updateCalled
 ```
-#INC
 
 
 #### Field Value
@@ -234,7 +219,6 @@ private AutoTimer.TargetMethod updateCalled
 ```csharp
 public bool useDefaultAnim
 ```
-#INC
 
 
 #### Field Value
@@ -272,7 +256,6 @@ public bool sequenceChanged { get; set; }
 ```csharp
 public virtual void AnimBoolMessage(string target, bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -285,21 +268,18 @@ public virtual void AnimBoolMessage(string target, bool state)
 ```csharp
 public virtual void Disable()
 ```
-#INC
 
 
 ### Enable()
 ```csharp
 public virtual void Enable()
 ```
-#INC
 
 
 ### GetAnimParam()
 ```csharp
 private string GetAnimParam()
 ```
-#INC
 
 
 #### Returns
@@ -309,8 +289,6 @@ private string GetAnimParam()
 ```csharp
 public virtual void Init(Image SpriteDisplayedImage)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -322,14 +300,12 @@ public virtual void Init(Image SpriteDisplayedImage)
 ```csharp
 public virtual void StartEffect()
 ```
-#INC
 
 
 ### StartEffect(float)
 ```csharp
 public virtual void StartEffect(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -341,9 +317,9 @@ public virtual void StartEffect(float time)
 ```csharp
 public virtual void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

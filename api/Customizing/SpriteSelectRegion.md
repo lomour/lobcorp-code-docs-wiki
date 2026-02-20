@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.SpriteSelectRegion
 canonical_path: /api/Customizing/SpriteSelectRegion
@@ -93,4 +94,5 @@ REARHAIR = 1
 
 #### Field Value
 **Type:** Customizing.SpriteSelectRegion
+
 

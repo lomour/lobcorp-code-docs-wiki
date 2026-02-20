@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GrandmaBug.GrandmaState
 canonical_path: /api/Global/State/GrandmaBugGrandmaState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.GrandmaBug.GrandmaState
+
 

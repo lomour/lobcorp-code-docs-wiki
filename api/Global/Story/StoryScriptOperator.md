@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptOperator
 canonical_path: /api/Global/Story/StoryScriptOperator
@@ -61,4 +62,5 @@ NOT_EQUAL = 1
 
 #### Field Value
 **Type:** Global.StoryScriptOperator
+
 

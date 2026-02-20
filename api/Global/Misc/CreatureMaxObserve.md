@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureMaxObserve
 canonical_path: /api/Global/Misc/CreatureMaxObserve
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/CreatureMaxObserve
 ```csharp
 public class CreatureMaxObserve
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 I don't... think this is used.
 
-#INC #unused 
+
 
 
 ## Inheritance
@@ -25,8 +32,6 @@ I don't... think this is used.
 ```csharp
 public CreatureMaxObserve()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -59,7 +64,6 @@ public List<CreatureMaxObserve.Desc> descs
 ```csharp
 public bool init
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +73,6 @@ public bool init
 ```csharp
 public bool isHasSelect
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +82,6 @@ public bool isHasSelect
 ```csharp
 public bool isMultipeSelect
 ```
-#INC
 
 
 #### Field Value
@@ -157,4 +159,5 @@ public CreatureMaxObserve.Select GetSelect(int id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

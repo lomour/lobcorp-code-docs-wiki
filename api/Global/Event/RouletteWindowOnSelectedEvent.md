@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RouletteWindow.OnSelectedEvent
 canonical_path: /api/Global/Event/RouletteWindowOnSelectedEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(WorkerModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
+
 

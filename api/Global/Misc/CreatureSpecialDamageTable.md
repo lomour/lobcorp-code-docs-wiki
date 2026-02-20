@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureSpecialDamageTable
 canonical_path: /api/Global/Misc/CreatureSpecialDamageTable
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/CreatureSpecialDamageTable
 ```csharp
 public class CreatureSpecialDamageTable
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the damage values of abnormality damage outside of work damage (e.g., breaching attack damages). Only used by some abnormalities:
 - [Big and Will be Bad Wolf](/api/Global/IOBserver/BigBadWolf)
 - [Fragment of the Universe](/api/Global/Misc/Cosmos)
@@ -38,7 +42,6 @@ public CreatureSpecialDamageTable()
 ```csharp
 private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +53,6 @@ private Dictionary<string, EquipmentTypeInfo> _specialWeaponInfos
 ```csharp
 public List<DamageInfo> GetList()
 ```
-#INC
 
 
 #### Returns
@@ -60,7 +62,6 @@ public List<DamageInfo> GetList()
 ```csharp
 public DamageInfo GetSpecialDamage(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -75,7 +76,6 @@ public DamageInfo GetSpecialDamage(string id)
 ```csharp
 public EquipmentTypeInfo GetSpecialWeapon(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -90,7 +90,6 @@ public EquipmentTypeInfo GetSpecialWeapon(string id)
 ```csharp
 public void Init(Dictionary<string, EquipmentTypeInfo> infos)
 ```
-#INC
 
 
 #### Parameters
@@ -100,4 +99,5 @@ public void Init(Dictionary<string, EquipmentTypeInfo> infos)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

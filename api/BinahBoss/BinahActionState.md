@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahActionState
 canonical_path: /api/BinahBoss/BinahActionState
@@ -37,4 +38,5 @@ START = 0
 
 #### Field Value
 **Type:** BinahBoss.BinahActionState
+
 

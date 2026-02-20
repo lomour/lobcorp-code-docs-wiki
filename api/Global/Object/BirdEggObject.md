@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BirdEggObject
 canonical_path: /api/Global/Object/BirdEggObject
@@ -11,12 +12,17 @@ canonical_path: /api/Global/Object/BirdEggObject
 ```csharp
 public class BirdEggObject : StandingItemScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Unused version of the eggs for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
 
 See [BossEggBase](/api/Global/Misc/BossEggBase) for the used version
 
-#unused
 
 
 ## Inheritance
@@ -35,7 +41,6 @@ public BirdEggObject()
 ```csharp
 private bool breakDown
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +50,6 @@ private bool breakDown
 ```csharp
 private bool halfActivated
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +59,6 @@ private bool halfActivated
 ```csharp
 private SoundEffectPlayer sep
 ```
-#INC
 
 
 #### Field Value
@@ -77,21 +80,18 @@ private BirdEggAnim animScript { get; }
 ```csharp
 public void ActivateAnimHalf()
 ```
-#INC
 
 
 ### ActivateScript()
 ```csharp
 public void ActivateScript()
 ```
-#INC
 
 
 ### GetName()
 ```csharp
 public override string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -101,7 +101,6 @@ public override string GetName()
 ```csharp
 public override bool HasName()
 ```
-#INC
 
 
 #### Returns
@@ -111,7 +110,6 @@ public override bool HasName()
 ```csharp
 public bool IsEnabled()
 ```
-#INC
 
 
 #### Returns
@@ -121,15 +119,12 @@ public bool IsEnabled()
 ```csharp
 public override void OnBreakDown()
 ```
-#INC
 
 
 ### OnTakePhyisclaDamage(float)
 ```csharp
 public override void OnTakePhyisclaDamage(float damage)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -141,7 +136,6 @@ public override void OnTakePhyisclaDamage(float damage)
 ```csharp
 public void SetSound(SoundEffectPlayer sep)
 ```
-#INC
 
 
 #### Parameters
@@ -151,4 +145,5 @@ public void SetSound(SoundEffectPlayer sep)
 
 ## Inherited Members
 [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [Init()](/api/Global/Standing/StandingItemScriptBase#init), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [CanTakePhsyicalDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#cantakephsyicaldamage-unitmodel), [IsAttackable()](/api/Global/Standing/StandingItemScriptBase#isattackable), [OnFixedUpdate(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#onfixedupdate-standingitemmodel), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

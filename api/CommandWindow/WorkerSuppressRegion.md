@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CommandWindow.WorkerSuppressRegion
 canonical_path: /api/CommandWindow/WorkerSuppressRegion
@@ -11,6 +12,9 @@ canonical_path: /api/CommandWindow/WorkerSuppressRegion
 ```csharp
 public class WorkerSuppressRegion : CommandWindowRegion
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 UI element for displaying the targeted [agent](/api/Global/Worker/AgentUnit) during agent suppression.
 
@@ -35,7 +39,6 @@ public WorkerSuppressRegion()
 ```csharp
 public Text AgentName
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ public Text AgentName
 ```csharp
 public Text ArmorGrade
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ public Text ArmorGrade
 ```csharp
 public Text ArmorName
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ public Text ArmorName
 ```csharp
 public Text[] DefenseFactor
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ public Text[] DefenseFactor
 ```csharp
 public Image[] DefenseFill
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public Image[] DefenseFill
 ```csharp
 public Text[] DefenseInner
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public Text[] DefenseInner
 ```csharp
 public Text[] DefenseType
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +102,6 @@ public Text[] DefenseType
 ```csharp
 public Image GradeImage
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +111,6 @@ public Image GradeImage
 ```csharp
 public WorkerPortraitSetter portrait
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +120,6 @@ public WorkerPortraitSetter portrait
 ```csharp
 public AgentInfoWindow.StatObject Stat_B
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +129,6 @@ public AgentInfoWindow.StatObject Stat_B
 ```csharp
 public AgentInfoWindow.StatObject Stat_P
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +138,6 @@ public AgentInfoWindow.StatObject Stat_P
 ```csharp
 public AgentInfoWindow.StatObject Stat_R
 ```
-#INC
 
 
 #### Field Value
@@ -155,7 +147,6 @@ public AgentInfoWindow.StatObject Stat_R
 ```csharp
 public AgentInfoWindow.StatObject Stat_W
 ```
-#INC
 
 
 #### Field Value
@@ -165,7 +156,6 @@ public AgentInfoWindow.StatObject Stat_W
 ```csharp
 public Text Title
 ```
-#INC
 
 
 #### Field Value
@@ -175,7 +165,6 @@ public Text Title
 ```csharp
 public AgentInfoWindow.StatObject Weapon
 ```
-#INC
 
 
 #### Field Value
@@ -185,7 +174,6 @@ public AgentInfoWindow.StatObject Weapon
 ```csharp
 public Text WeaponGrade
 ```
-#INC
 
 
 #### Field Value
@@ -197,8 +185,6 @@ public Text WeaponGrade
 ```csharp
 public override void SetData(UnitModel target)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -210,7 +196,6 @@ public override void SetData(UnitModel target)
 ```csharp
 public void SetData(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -220,4 +205,5 @@ public void SetData(WorkerModel worker)
 
 ## Inherited Members
 [ActiveControl](/api/CommandWindow/CommandWindowRegion#activecontrol), [TargetImage](/api/CommandWindow/CommandWindowRegion#targetimage), [TargetName](/api/CommandWindow/CommandWindowRegion#targetname), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

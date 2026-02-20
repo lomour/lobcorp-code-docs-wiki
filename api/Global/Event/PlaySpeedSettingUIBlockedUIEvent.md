@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PlaySpeedSettingUI.BlockedUIEvent
 canonical_path: /api/Global/Event/PlaySpeedSettingUIBlockedUIEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(int index)
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.SkeletonRenderer.InstructionDelegate
 canonical_path: /api/Spine/Unity/SkeletonRenderer/InstructionDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(SkeletonRendererInstruction instruction)
 | Name | Type | Description |
 | --- | --- | --- |
 | `instruction` | `Spine.Unity.SkeletonRendererInstruction` |  |
+
 

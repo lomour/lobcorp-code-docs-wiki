@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.TextData
 canonical_path: /api/Manual/TextData
@@ -11,7 +12,10 @@ canonical_path: /api/Manual/TextData
 ```csharp
 public class TextData
 ```
-#INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+
 
 
 ## Inheritance
@@ -30,7 +34,6 @@ public TextData()
 ```csharp
 public int fontSize
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public int fontSize
 ```csharp
 public Rect rect
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public Rect rect
 ```csharp
 public string textId
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public string textId
 ```csharp
 public TextType type
 ```
-#INC
 
 
 #### Field Value
@@ -106,8 +106,6 @@ public float y { get; set; }
 ```csharp
 public static TextData Parse(string idPrefix, XmlNode node)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -121,4 +119,5 @@ public static TextData Parse(string idPrefix, XmlNode node)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

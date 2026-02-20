@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GameStatusUI.EnergyController
 canonical_path: /api/GameStatusUI/EnergyController
@@ -11,6 +12,9 @@ canonical_path: /api/GameStatusUI/EnergyController
 ```csharp
 public class EnergyController : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 extends 
 UI for displaying the current energy, as well as potential ordeals (or otherwise the number of upcoming meltdowns).
@@ -34,7 +38,6 @@ public EnergyController()
 ```csharp
 private int _currentEntered
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private int _currentEntered
 ```csharp
 private const float _overloadUITime = 5
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private const float _overloadUITime = 5
 ```csharp
 private UnscaledTimer _overloadUITimer
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private UnscaledTimer _overloadUITimer
 ```csharp
 public GameObject ActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ public GameObject ActiveControl
 ```csharp
 private float current
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private float current
 ```csharp
 public Image EnergyFill
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public Image EnergyFill
 ```csharp
 public Text InnerText
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ public Text InnerText
 ```csharp
 public Text LobPoint
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ public Text LobPoint
 ```csharp
 public Image LobPointTexture
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public Image LobPointTexture
 ```csharp
 private float max
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ private float max
 ```csharp
 public Color Orange
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +146,6 @@ public EnergyController.OrdealSlot[] OrdealSlots
 ```csharp
 public AudioClip OverloadClip
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +155,6 @@ public AudioClip OverloadClip
 ```csharp
 public List<MaskableGraphic> OverloadColored
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +164,6 @@ public List<MaskableGraphic> OverloadColored
 ```csharp
 public GameObject OverLoadGaugeLayout
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +173,6 @@ public GameObject OverLoadGaugeLayout
 ```csharp
 public GameObject OverloadGaugeUnitPrefab
 ```
-#INC
 
 
 #### Field Value
@@ -193,7 +182,6 @@ public GameObject OverloadGaugeUnitPrefab
 ```csharp
 public Image OverloadImage
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +200,6 @@ public Text OverLoadIsolateNumText
 ```csharp
 public Text OverloadLevelText
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +209,6 @@ public Text OverloadLevelText
 ```csharp
 public Image OverLoadOrdealImage
 ```
-#INC
 
 
 #### Field Value
@@ -232,7 +218,6 @@ public Image OverLoadOrdealImage
 ```csharp
 public Text OverLoadOrdealName
 ```
-#INC
 
 
 #### Field Value
@@ -242,7 +227,6 @@ public Text OverLoadOrdealName
 ```csharp
 public GameObject OverLoadOrdealRoot
 ```
-#INC
 
 
 #### Field Value
@@ -252,7 +236,6 @@ public GameObject OverLoadOrdealRoot
 ```csharp
 public UIController OverloadUIController
 ```
-#INC
 
 
 #### Field Value
@@ -262,7 +245,6 @@ public UIController OverloadUIController
 ```csharp
 public Text OverloadUIText
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +271,6 @@ public EnergyController.RankSlot[] RankSlots
 ```csharp
 public Color Red
 ```
-#INC
 
 
 #### Field Value
@@ -299,7 +280,6 @@ public Color Red
 ```csharp
 private StageRewardTypeInfo stageRewardInfo
 ```
-#INC
 
 
 #### Field Value
@@ -311,14 +291,12 @@ private StageRewardTypeInfo stageRewardInfo
 ```csharp
 public void CheckGameStatus()
 ```
-#INC
 
 
 ### GetOrdealName(OrdealLevel)
 ```csharp
 private string GetOrdealName(OrdealLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -333,7 +311,6 @@ private string GetOrdealName(OrdealLevel level)
 ```csharp
 public float GetRankTime(StageRank rank)
 ```
-#INC
 
 
 #### Parameters
@@ -348,7 +325,6 @@ public float GetRankTime(StageRank rank)
 ```csharp
 public void OnRankSlotEnter(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -360,7 +336,6 @@ public void OnRankSlotEnter(int i)
 ```csharp
 public void OnRankSlotExit(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -372,28 +347,24 @@ public void OnRankSlotExit(int i)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### OrdealSlotInit()
 ```csharp
 private void OrdealSlotInit()
 ```
-#INC
 
 
 ### OrdealUpdate()
 ```csharp
 private void OrdealUpdate()
 ```
-#INC
 
 
 ### SetDawnOrdeal(bool, int)
 ```csharp
 public void SetDawnOrdeal(bool activated, int timeSec)
 ```
-#INC
 
 
 #### Parameters
@@ -406,7 +377,6 @@ public void SetDawnOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetDawnOrdeal(bool activated, int current, int max)
 ```
-#INC
 
 
 #### Parameters
@@ -420,7 +390,6 @@ public void SetDawnOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetDawnOrdealVisible(bool visible)
 ```
-#INC
 
 
 #### Parameters
@@ -432,7 +401,6 @@ public void SetDawnOrdealVisible(bool visible)
 ```csharp
 public void SetDuskOrdeal(bool activated, int timeSec)
 ```
-#INC
 
 
 #### Parameters
@@ -445,7 +413,6 @@ public void SetDuskOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetDuskOrdeal(bool activated, int current, int max)
 ```
-#INC
 
 
 #### Parameters
@@ -459,7 +426,6 @@ public void SetDuskOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetDuskOrdealVisible(bool visible)
 ```
-#INC
 
 
 #### Parameters
@@ -471,7 +437,6 @@ public void SetDuskOrdealVisible(bool visible)
 ```csharp
 public void SetNoonOrdeal(bool activated, int timeSec)
 ```
-#INC
 
 
 #### Parameters
@@ -484,7 +449,6 @@ public void SetNoonOrdeal(bool activated, int timeSec)
 ```csharp
 public void SetNoonOrdeal(bool activated, int current, int max)
 ```
-#INC
 
 
 #### Parameters
@@ -498,7 +462,6 @@ public void SetNoonOrdeal(bool activated, int current, int max)
 ```csharp
 public void SetNoonOrdealVisible(bool visible)
 ```
-#INC
 
 
 #### Parameters
@@ -510,7 +473,6 @@ public void SetNoonOrdealVisible(bool visible)
 ```csharp
 public void SetOverloadGauge(int num, int max)
 ```
-#INC
 
 
 #### Parameters
@@ -523,7 +485,6 @@ public void SetOverloadGauge(int num, int max)
 ```csharp
 public void SetOverloadIsolateNum(int num)
 ```
-#INC
 
 
 #### Parameters
@@ -535,7 +496,6 @@ public void SetOverloadIsolateNum(int num)
 ```csharp
 public void SetOverloadLevel(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -547,7 +507,6 @@ public void SetOverloadLevel(int level)
 ```csharp
 public void SetOverLoadOrdeal(OrdealBase ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -559,7 +518,6 @@ public void SetOverLoadOrdeal(OrdealBase ordeal)
 ```csharp
 public void SetOverLoadUI(string text)
 ```
-#INC
 
 
 #### Parameters
@@ -571,7 +529,6 @@ public void SetOverLoadUI(string text)
 ```csharp
 public void SetStageRank(StageRank rank)
 ```
-#INC
 
 
 #### Parameters
@@ -583,17 +540,15 @@ public void SetStageRank(StageRank rank)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public void Update()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

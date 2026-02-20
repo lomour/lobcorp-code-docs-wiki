@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MovableState
 canonical_path: /api/Global/State/MovableState
@@ -37,4 +38,5 @@ WAIT = 2
 
 #### Field Value
 **Type:** Global.MovableState
+
 

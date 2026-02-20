@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BugMidnight.AnimationState
 canonical_path: /api/Global/State/BugMidnightAnimationState
@@ -61,4 +62,5 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.BugMidnight.AnimationState
+
 

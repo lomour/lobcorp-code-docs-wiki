@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird.LaserMode
 canonical_path: /api/Global/Misc/BossBirdLaserMode
@@ -29,4 +30,5 @@ ONLY_ONE = 0
 
 #### Field Value
 **Type:** Global.BossBird.LaserMode
+
 

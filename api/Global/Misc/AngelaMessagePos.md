@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AngelaMessagePos
 canonical_path: /api/Global/Misc/AngelaMessagePos
@@ -29,4 +30,5 @@ UP = 0
 
 #### Field Value
 **Type:** Global.AngelaMessagePos
+
 

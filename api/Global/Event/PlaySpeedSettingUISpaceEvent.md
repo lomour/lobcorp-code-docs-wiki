@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PlaySpeedSettingUI.SpaceEvent
 canonical_path: /api/Global/Event/PlaySpeedSettingUISpaceEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(bool state)
 | Name | Type | Description |
 | --- | --- | --- |
 | `state` | `System.Boolean` |  |
+
 

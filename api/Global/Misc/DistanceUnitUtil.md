@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DistanceUnitUtil
 canonical_path: /api/Global/Misc/DistanceUnitUtil
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/DistanceUnitUtil
 ```csharp
 public class DistanceUnitUtil
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Seems to be a utility for converting between the game's internal units and unity's units.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public DistanceUnitUtil()
 ```csharp
 public const float distanceScale = 1.3333334
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ public const float distanceScale = 1.3333334
 ```csharp
 public static float GameToUnity(float v)
 ```
-#INC
 
 
 #### Parameters
@@ -59,7 +61,6 @@ public static float GameToUnity(float v)
 ```csharp
 public static UnitModel SelectNearestUnit(UnitModel model, List<UnitModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -75,8 +76,6 @@ public static UnitModel SelectNearestUnit(UnitModel model, List<UnitModel> list)
 ```csharp
 public static float UnityToGame(float v)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -89,4 +88,5 @@ public static float UnityToGame(float v)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

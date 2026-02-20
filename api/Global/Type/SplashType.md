@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SplashType
 canonical_path: /api/Global/Type/SplashType
@@ -37,4 +38,5 @@ SPLASH = 1
 
 #### Field Value
 **Type:** Global.SplashType
+
 

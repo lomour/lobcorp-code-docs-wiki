@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StatSetter
 canonical_path: /api/Global/Misc/StatSetter
@@ -11,10 +12,16 @@ canonical_path: /api/Global/Misc/StatSetter
 ```csharp
 public class StatSetter : IdentityTransform, StatTransform
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Returns a fixed value.
 
-#unused 
+
 
 
 ## Inheritance
@@ -29,7 +36,6 @@ Returns a fixed value.
 ```csharp
 public StatSetter(float s)
 ```
-#INC
 
 
 #### Parameters
@@ -43,7 +49,6 @@ public StatSetter(float s)
 ```csharp
 private float setter
 ```
-#INC
 
 
 #### Field Value
@@ -55,8 +60,6 @@ private float setter
 ```csharp
 public override float FloatToFloat(float v)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -69,4 +72,5 @@ public override float FloatToFloat(float v)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

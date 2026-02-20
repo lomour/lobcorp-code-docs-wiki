@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraBossDescType
 canonical_path: /api/Global/Type/SefiraBossDescType
@@ -125,4 +126,5 @@ REWARD = 10
 
 #### Field Value
 **Type:** Global.SefiraBossDescType
+
 

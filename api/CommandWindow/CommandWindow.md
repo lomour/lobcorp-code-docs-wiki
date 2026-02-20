@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CommandWindow.CommandWindow
 canonical_path: /api/CommandWindow/CommandWindow
@@ -11,13 +12,16 @@ canonical_path: /api/CommandWindow/CommandWindow
 ```csharp
 public class CommandWindow : MonoBehaviour, IObserver, IScrollMessageReciever, IScrollTarget
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 For assigning [agents](/api/Global/Worker/AgentUnit) places (for work and suppression). Handles the logic for the:
 - Abnormality management UI
 - Suppression UI
 - Tool UI
 
-#TODO add a picture for clarity
+add a picture for clarity
 
 
 
@@ -40,7 +44,6 @@ public CommandWindow()
 ```csharp
 private Sefira _currentSefira
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +53,6 @@ private Sefira _currentSefira
 ```csharp
 private UnitModel _currentTarget
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +62,6 @@ private UnitModel _currentTarget
 ```csharp
 private static CommandWindow _currentWindow
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +71,6 @@ private static CommandWindow _currentWindow
 ```csharp
 private CommandType _currentWindowType
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +80,6 @@ private CommandType _currentWindowType
 ```csharp
 private bool _isEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +89,6 @@ private bool _isEnabled
 ```csharp
 private long _selectedWork
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +98,6 @@ private long _selectedWork
 ```csharp
 public AudioClipPlayer audioClipPlayer
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +107,6 @@ public AudioClipPlayer audioClipPlayer
 ```csharp
 public const int BWork = 3
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +116,6 @@ public const int BWork = 3
 ```csharp
 public Color CancelOrcerColor
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +125,6 @@ public Color CancelOrcerColor
 ```csharp
 public CreatureSuppressRegion CretureSuppress
 ```
-#INC
 
 
 #### Field Value
@@ -167,7 +161,6 @@ public GameObject KitCreature_ActiveControl
 ```csharp
 public KitCreatureRegion kitCreatureRegion
 ```
-#INC
 
 
 #### Field Value
@@ -177,7 +170,6 @@ public KitCreatureRegion kitCreatureRegion
 ```csharp
 public float LeftPos
 ```
-#INC
 
 
 #### Field Value
@@ -205,7 +197,6 @@ public GameObject ManagementAgentSlotParent
 ```csharp
 public List<ManagementSlot> ManagementSlots
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +206,6 @@ public List<ManagementSlot> ManagementSlots
 ```csharp
 public Color OrderColor
 ```
-#INC
 
 
 #### Field Value
@@ -225,7 +215,6 @@ public Color OrderColor
 ```csharp
 public int page
 ```
-#INC
 
 
 #### Field Value
@@ -235,7 +224,6 @@ public int page
 ```csharp
 public Color PanicColor
 ```
-#INC
 
 
 #### Field Value
@@ -245,7 +233,6 @@ public Color PanicColor
 ```csharp
 public Vector2 Position_Suppress
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +242,6 @@ public Vector2 Position_Suppress
 ```csharp
 public Vector2 Position_Work
 ```
-#INC
 
 
 #### Field Value
@@ -265,7 +251,6 @@ public Vector2 Position_Work
 ```csharp
 public RectTransform PositionPivot
 ```
-#INC
 
 
 #### Field Value
@@ -275,7 +260,6 @@ public RectTransform PositionPivot
 ```csharp
 public const int PWork = 4
 ```
-#INC
 
 
 #### Field Value
@@ -285,7 +269,6 @@ public const int PWork = 4
 ```csharp
 public float RightPos
 ```
-#INC
 
 
 #### Field Value
@@ -295,7 +278,6 @@ public float RightPos
 ```csharp
 public GameObject RootControl
 ```
-#INC
 
 
 #### Field Value
@@ -305,7 +287,6 @@ public GameObject RootControl
 ```csharp
 public const int RWork = 1
 ```
-#INC
 
 
 #### Field Value
@@ -315,7 +296,6 @@ public const int RWork = 1
 ```csharp
 public Color SefiraDisabledColor
 ```
-#INC
 
 
 #### Field Value
@@ -325,7 +305,6 @@ public Color SefiraDisabledColor
 ```csharp
 public RectTransform SefiraMovementPivot
 ```
-#INC
 
 
 #### Field Value
@@ -353,7 +332,6 @@ public GameObject Suppress_ActiveControl
 ```csharp
 public Color SuppressingColor
 ```
-#INC
 
 
 #### Field Value
@@ -363,7 +341,6 @@ public Color SuppressingColor
 ```csharp
 public Vector2 SuppressPosition
 ```
-#INC
 
 
 #### Field Value
@@ -373,7 +350,6 @@ public Vector2 SuppressPosition
 ```csharp
 public List<SuppressSlot> SuppressSlots
 ```
-#INC
 
 
 #### Field Value
@@ -383,7 +359,6 @@ public List<SuppressSlot> SuppressSlots
 ```csharp
 public Color textColor
 ```
-#INC
 
 
 #### Field Value
@@ -393,7 +368,6 @@ public Color textColor
 ```csharp
 public Color UnconColor
 ```
-#INC
 
 
 #### Field Value
@@ -403,7 +377,6 @@ public Color UnconColor
 ```csharp
 public Sprite Work_B
 ```
-#INC
 
 
 #### Field Value
@@ -413,7 +386,6 @@ public Sprite Work_B
 ```csharp
 public Sprite Work_C
 ```
-#INC
 
 
 #### Field Value
@@ -423,7 +395,6 @@ public Sprite Work_C
 ```csharp
 public Sprite Work_I
 ```
-#INC
 
 
 #### Field Value
@@ -433,7 +404,6 @@ public Sprite Work_I
 ```csharp
 public Sprite Work_P
 ```
-#INC
 
 
 #### Field Value
@@ -443,7 +413,6 @@ public Sprite Work_P
 ```csharp
 public Sprite Work_Protection
 ```
-#INC
 
 
 #### Field Value
@@ -462,7 +431,6 @@ public Sprite Work_R
 ```csharp
 public Sprite Work_S
 ```
-#INC
 
 
 #### Field Value
@@ -472,7 +440,6 @@ public Sprite Work_S
 ```csharp
 public Sprite Work_V
 ```
-#INC
 
 
 #### Field Value
@@ -482,7 +449,6 @@ public Sprite Work_V
 ```csharp
 public Sprite Work_W
 ```
-#INC
 
 
 #### Field Value
@@ -492,7 +458,6 @@ public Sprite Work_W
 ```csharp
 public WorkAllocateRegion WorkAllocate
 ```
-#INC
 
 
 #### Field Value
@@ -502,7 +467,6 @@ public WorkAllocateRegion WorkAllocate
 ```csharp
 public GameObject WorkAllocate_ActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -512,7 +476,6 @@ public GameObject WorkAllocate_ActiveControl
 ```csharp
 public Button[] WorkButton
 ```
-#INC
 
 
 #### Field Value
@@ -531,7 +494,6 @@ public Vector2 WorkCommmandPosition
 ```csharp
 public WorkerSuppressRegion WorkerSuppress
 ```
-#INC
 
 
 #### Field Value
@@ -541,7 +503,6 @@ public WorkerSuppressRegion WorkerSuppress
 ```csharp
 public Color WorkingColor
 ```
-#INC
 
 
 #### Field Value
@@ -551,7 +512,6 @@ public Color WorkingColor
 ```csharp
 public LocalizeTextLoadScript[] workNames
 ```
-#INC
 
 
 #### Field Value
@@ -561,7 +521,6 @@ public LocalizeTextLoadScript[] workNames
 ```csharp
 public GameObject WorkScrollDown
 ```
-#INC
 
 
 #### Field Value
@@ -571,7 +530,6 @@ public GameObject WorkScrollDown
 ```csharp
 public GameObject WorkScrollUp
 ```
-#INC
 
 
 #### Field Value
@@ -581,7 +539,6 @@ public GameObject WorkScrollUp
 ```csharp
 public const int WWork = 2
 ```
-#INC
 
 
 #### Field Value
@@ -651,28 +608,24 @@ public long SelectedWork { get; set; }
 ```csharp
 public void AddTrigger()
 ```
-#INC
 
 
 ### Awake()
 ```csharp
 private void Awake()
 ```
-#INC
 
 
 ### CheckMalkutBoss()
 ```csharp
 private void CheckMalkutBoss()
 ```
-#INC
 
 
 ### CheckSefiraMovementEnable()
 ```csharp
 public bool CheckSefiraMovementEnable()
 ```
-#INC
 
 
 #### Returns
@@ -682,15 +635,12 @@ public bool CheckSefiraMovementEnable()
 ```csharp
 public void CloseWindow()
 ```
-#INC
 
 
 ### CreateWindow(CommandType, UnitModel)
 ```csharp
 public static CommandWindow CreateWindow(CommandType type, UnitModel target)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -706,14 +656,12 @@ public static CommandWindow CreateWindow(CommandType type, UnitModel target)
 ```csharp
 public void DeRegist()
 ```
-#INC
 
 
 ### GetSelectedWorkId(int)
 ```csharp
 private int GetSelectedWorkId(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -728,7 +676,6 @@ private int GetSelectedWorkId(int id)
 ```csharp
 public Sprite GetWorkSprite(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -743,7 +690,6 @@ public Sprite GetWorkSprite(RwbpType type)
 ```csharp
 public void OnClick(AgentModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -755,35 +701,30 @@ public void OnClick(AgentModel actor)
 ```csharp
 public void OnClickNextSefira()
 ```
-#INC
 
 
 ### OnClickPrevSefira()
 ```csharp
 public void OnClickPrevSefira()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 private void OnDestroy()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 private void OnEnable()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -796,7 +737,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnScroll(BaseEventData bData)
 ```
-#INC
 
 
 #### Parameters
@@ -808,7 +748,6 @@ public void OnScroll(BaseEventData bData)
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
-#INC
 
 
 #### Parameters
@@ -820,7 +759,6 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 private void OnScroll_mouseSelected(PointerEventData eventData)
 ```
-#INC
 
 
 #### Parameters
@@ -832,7 +770,6 @@ private void OnScroll_mouseSelected(PointerEventData eventData)
 ```csharp
 private void OnScroll_sefira(PointerEventData eventData)
 ```
-#INC
 
 
 #### Parameters
@@ -844,7 +781,6 @@ private void OnScroll_sefira(PointerEventData eventData)
 ```csharp
 public void OnSefiraMove(SefiraEnum target)
 ```
-#INC
 
 
 #### Parameters
@@ -856,14 +792,12 @@ public void OnSefiraMove(SefiraEnum target)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### OnWorkSelect(int)
 ```csharp
 public void OnWorkSelect(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -875,14 +809,12 @@ public void OnWorkSelect(int id)
 ```csharp
 public void Regist()
 ```
-#INC
 
 
 ### SetAgentList(CommandType, List<AgentModel>)
 ```csharp
 public void SetAgentList(CommandType type, List<AgentModel> agents)
 ```
-#INC
 
 
 #### Parameters
@@ -895,7 +827,6 @@ public void SetAgentList(CommandType type, List<AgentModel> agents)
 ```csharp
 public void SetAgentList(CommandType type, Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -908,23 +839,21 @@ public void SetAgentList(CommandType type, Sefira sefira)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### UpdateMouseSelectedList()
 ```csharp
 private void UpdateMouseSelectedList()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

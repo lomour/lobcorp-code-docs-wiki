@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentAIState
 canonical_path: /api/Global/State/AgentAIState
@@ -101,4 +102,5 @@ SUPPRESS_WORKER = 5
 
 #### Field Value
 **Type:** Global.AgentAIState
+
 

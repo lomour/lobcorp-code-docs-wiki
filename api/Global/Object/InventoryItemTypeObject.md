@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.InventoryItemTypeObject
 canonical_path: /api/Global/Object/InventoryItemTypeObject
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Object/InventoryItemTypeObject
 ```csharp
 public class InventoryItemTypeObject
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the [InventoryItemType](/api/Inventory/InventoryItemType) that was just clicked.
 
 Used for [InventoryTapTutorial](/api/Global/Tutorial/InventoryTapTutorial).
@@ -25,8 +29,6 @@ Used for [InventoryTapTutorial](/api/Global/Tutorial/InventoryTapTutorial).
 ```csharp
 public InventoryItemTypeObject(InventoryItemType type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -40,7 +42,6 @@ public InventoryItemTypeObject(InventoryItemType type)
 ```csharp
 private InventoryItemType _type
 ```
-#INC
 
 
 #### Field Value
@@ -58,4 +59,5 @@ public InventoryItemType Type { get; }
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

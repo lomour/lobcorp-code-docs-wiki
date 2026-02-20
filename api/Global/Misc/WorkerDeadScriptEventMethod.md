@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerDeadScript.EventMethod
 canonical_path: /api/Global/Misc/WorkerDeadScriptEventMethod
@@ -61,4 +62,5 @@ public virtual void Invoke(int index)
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
+
 

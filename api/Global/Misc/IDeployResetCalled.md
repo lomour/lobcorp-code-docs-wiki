@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IDeployResetCalled
 canonical_path: /api/Global/Misc/IDeployResetCalled
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/IDeployResetCalled
 ```csharp
 public interface IDeployResetCalled
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface for listeners of deployment events.
 
 See [DeployUI](/api/Global/UI/DeployUI)
 
-#INC 
+
 
 
 ## Methods
@@ -24,7 +28,6 @@ See [DeployUI](/api/Global/UI/DeployUI)
 ```csharp
 void DeployColorSetted(Color c)
 ```
-#INC
 
 
 #### Parameters
@@ -36,14 +39,12 @@ void DeployColorSetted(Color c)
 ```csharp
 void DeployResetCalled()
 ```
-#INC
 
 
 ### Registration()
 ```csharp
 void Registration()
 ```
-#INC
-#code-generated
+
 
 

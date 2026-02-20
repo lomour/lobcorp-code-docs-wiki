@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EscapeUI.EscapeButtonAction
 canonical_path: /api/Global/Action/EscapeUIEscapeButtonAction
@@ -69,4 +70,5 @@ TITLE = 2
 
 #### Field Value
 **Type:** Global.EscapeUI.EscapeButtonAction
+
 

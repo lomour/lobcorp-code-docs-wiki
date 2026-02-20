@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentInfoWindow.AgentInfoWindowType
 canonical_path: /api/Global/Type/AgentInfoWindowAgentInfoWindowType
@@ -37,4 +38,5 @@ NORMAL = 2
 
 #### Field Value
 **Type:** Global.AgentInfoWindow.AgentInfoWindowType
+
 

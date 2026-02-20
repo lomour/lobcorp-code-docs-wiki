@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PanicData
 canonical_path: /api/Global/Misc/PanicData
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/PanicData
 ```csharp
 public class PanicData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Should be unused[^1].
 
-#unused 
+
 
 
 
@@ -40,7 +47,6 @@ public PanicData()
 ```csharp
 public string PanicBuildCode
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +56,6 @@ public string PanicBuildCode
 ```csharp
 public string PanicDesc
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +65,6 @@ public string PanicDesc
 ```csharp
 public int PanicId
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +74,6 @@ public int PanicId
 ```csharp
 public string PanicLifeStyle
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +83,6 @@ public string PanicLifeStyle
 ```csharp
 public string PanicName
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +94,6 @@ public string PanicName
 ```csharp
 public PanicAction BuildDefaultPanicAction(WorkerModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -107,8 +108,6 @@ public PanicAction BuildDefaultPanicAction(WorkerModel actor)
 ```csharp
 public PanicAction BuildPanicAction(WorkerModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -121,4 +120,5 @@ public PanicAction BuildPanicAction(WorkerModel actor)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

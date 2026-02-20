@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerEquipmentSpriteController
 canonical_path: /api/WorkerSprite/WorkerEquipmentSpriteController
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerEquipmentSpriteController
 ```csharp
 public class WorkerEquipmentSpriteController : WorkerSpriteData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Associates each region for equipment to a sprite, and provides a getter
 
@@ -31,7 +35,6 @@ public WorkerEquipmentSpriteController()
 ```csharp
 private SpriteRegionType _regionType
 ```
-#INC
 
 
 #### Field Value
@@ -41,7 +44,6 @@ private SpriteRegionType _regionType
 ```csharp
 public Dictionary<EquipmentSpriteRegion, WorkerEquipmentSprite> lib
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +53,6 @@ public Dictionary<EquipmentSpriteRegion, WorkerEquipmentSprite> lib
 ```csharp
 public List<WorkerEquipmentSprite> list
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +74,6 @@ public override SpriteRegionType RegionType { get; }
 ```csharp
 public bool GetData(EquipmentSpriteRegion region, out WorkerEquipmentSprite output)
 ```
-#INC
 
 
 #### Parameters
@@ -87,4 +87,5 @@ public bool GetData(EquipmentSpriteRegion region, out WorkerEquipmentSprite outp
 
 ## Inherited Members
 [<>f__switch$map0](WorkerSprite.WorkerSpriteData.html#WorkerSprite_WorkerSpriteData___f__switch_map0), [GetSpriteRegion(string)](/api/WorkerSprite/WorkerSpriteData#getspriteregion-string), [GetBasicSpriteRegion(string)](/api/WorkerSprite/WorkerSpriteData#getbasicspriteregion-string), [GetEquipmentSpriteRegion(string)](/api/WorkerSprite/WorkerSpriteData#getequipmentspriteregion-string), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

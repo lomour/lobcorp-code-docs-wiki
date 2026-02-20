@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.ApostleStatType
 canonical_path: /api/WhiteNightSpace/ApostleStatType
@@ -29,4 +30,5 @@ GUARDIAN = 1
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleStatType
+
 

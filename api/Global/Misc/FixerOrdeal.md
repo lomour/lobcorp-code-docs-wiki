@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FixerOrdeal
 canonical_path: /api/Global/Misc/FixerOrdeal
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/FixerOrdeal
 ```csharp
 public class FixerOrdeal : OrdealBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Ordeals of White.
-#INC 
+
 
 
 ## Inheritance
@@ -25,7 +29,6 @@ Ordeals of White.
 ```csharp
 public FixerOrdeal(OrdealLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -39,7 +42,6 @@ public FixerOrdeal(OrdealLevel level)
 ```csharp
 protected Color _color
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +51,6 @@ protected Color _color
 ```csharp
 protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +60,6 @@ protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```csharp
 protected string _ordealName
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ protected string _ordealName
 ```csharp
 private const int _spawn_dawn = 1
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +78,6 @@ private const int _spawn_dawn = 1
 ```csharp
 private const int _spawn_dusk = 4
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +87,6 @@ private const int _spawn_dusk = 4
 ```csharp
 private const int _spawn_noon = 2
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +96,6 @@ private const int _spawn_noon = 2
 ```csharp
 private static int[] ids
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +105,6 @@ private static int[] ids
 ```csharp
 private static string[] names
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +114,6 @@ private static string[] names
 ```csharp
 private static RiskLevel[] risks
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +125,6 @@ private static RiskLevel[] risks
 ```csharp
 protected virtual bool CheckCloseCondition()
 ```
-#INC
 
 
 #### Returns
@@ -141,15 +134,12 @@ protected virtual bool CheckCloseCondition()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### GetRiskLevel(OrdealCreatureModel)
 ```csharp
 public override RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -164,7 +154,6 @@ public override RiskLevel GetRiskLevel(OrdealCreatureModel creature)
 ```csharp
 private List<MapNode> GetTargetNodes()
 ```
-#INC
 
 
 #### Returns
@@ -174,21 +163,18 @@ private List<MapNode> GetTargetNodes()
 ```csharp
 private void MakeClaw()
 ```
-#INC
 
 
 ### MakeFixers()
 ```csharp
 private void MakeFixers()
 ```
-#INC
 
 
 ### MakeOrdealCreature(RwbpType, MapNode)
 ```csharp
 public FixerCreature MakeOrdealCreature(RwbpType type, MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -204,7 +190,6 @@ public FixerCreature MakeOrdealCreature(RwbpType type, MapNode node)
 ```csharp
 public FixerCreature MakeOrdealCreature_Midnight(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -219,7 +204,6 @@ public FixerCreature MakeOrdealCreature_Midnight(MapNode node)
 ```csharp
 public virtual void OnDie(OrdealCreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -231,21 +215,18 @@ public virtual void OnDie(OrdealCreatureModel model)
 ```csharp
 public override void OnOrdealStart()
 ```
-#INC
 
 
 ### OrdealEnd()
 ```csharp
 public override void OrdealEnd()
 ```
-#INC
 
 
 ### OrdealNameText(OrdealCreatureModel)
 ```csharp
 public override string OrdealNameText(OrdealCreatureModel ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -260,9 +241,9 @@ public override string OrdealNameText(OrdealCreatureModel ordeal)
 ```csharp
 protected void SetColor()
 ```
-#INC
 
 
 ## Inherited Members
 [level](/api/Global/Misc/OrdealBase#level), [riskLevel](/api/Global/Misc/OrdealBase#risklevel), [ordealRewards](/api/Global/Misc/OrdealBase#ordealrewards), [startTime](/api/Global/Misc/OrdealBase#starttime), [isStarted](/api/Global/Misc/OrdealBase#isstarted), [_ordeal_name](/api/Global/Misc/OrdealBase#ordeal-name), [OrdealColor](/api/Global/Misc/OrdealBase#ordealcolor), [_canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OnGameInit()](/api/Global/Misc/OrdealBase#ongameinit), [OnDestroy()](/api/Global/Misc/OrdealBase#ondestroy), [OrdealTypo(string, Color, bool, int)](/api/Global/Misc/OrdealBase#ordealtypo-string-color-bool-int), [IsStartable()](/api/Global/Misc/OrdealBase#isstartable), [SetRiskLevel(RiskLevel)](/api/Global/Misc/OrdealBase#setrisklevel-risklevel), [canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OrdealTypeText](/api/Global/Misc/OrdealBase#ordealtypetext), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: nightowl.DistortionShaderPack.Explosion.State
 canonical_path: /api/nightowl/DistortionShaderPack/Explosion/State
@@ -37,4 +38,5 @@ Pause = 0
 
 #### Field Value
 **Type:** nightowl.DistortionShaderPack.Explosion.State
+
 

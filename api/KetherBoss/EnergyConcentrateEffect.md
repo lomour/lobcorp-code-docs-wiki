@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.EnergyConcentrateEffect
 canonical_path: /api/KetherBoss/EnergyConcentrateEffect
@@ -11,10 +12,13 @@ canonical_path: /api/KetherBoss/EnergyConcentrateEffect
 ```csharp
 public class EnergyConcentrateEffect : KetherLastEffectBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 uh. maybe a big charging thing? i'd have to rewatch day 50
 
-#INC 
+
 
 
 ## Inheritance
@@ -26,8 +30,6 @@ uh. maybe a big charging thing? i'd have to rewatch day 50
 ```csharp
 public EnergyConcentrateEffect(KetherLastBossBase bossBase)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public EnergyConcentrateEffect(KetherLastBossBase bossBase)
 ```csharp
 private MinMax _emit
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ private MinMax _emit
 ```csharp
 private float _rate
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ private float _rate
 ```csharp
 private static float _rateDelta
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ private static float _rateDelta
 ```csharp
 private MinMax _shape
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +79,6 @@ private MinMax _shape
 ```csharp
 private MinMax _speedMax
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +88,6 @@ private MinMax _speedMax
 ```csharp
 private MinMax _speedMin
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +97,6 @@ private MinMax _speedMin
 ```csharp
 private Transform parent
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +106,6 @@ private Transform parent
 ```csharp
 private ParticleSystem particle
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +115,6 @@ private ParticleSystem particle
 ```csharp
 private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration"
 ```
-#INC
 
 
 #### Field Value
@@ -133,14 +126,12 @@ private const string particleSrc = "Effect/SefiraBoss/Kether/EnergyConcentration
 ```csharp
 public void LoadParticle()
 ```
-#INC
 
 
 ### SetRate(float)
 ```csharp
 public void SetRate(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -152,9 +143,9 @@ public void SetRate(float value)
 ```csharp
 public void TurnOn()
 ```
-#INC
 
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [FixedUpdate()](/api/KetherBoss/KetherLastEffectBase#fixedupdate), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

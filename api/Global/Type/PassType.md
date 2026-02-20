@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PassType
 canonical_path: /api/Global/Type/PassType
@@ -29,4 +30,5 @@ SHIELDBEARER = 1
 
 #### Field Value
 **Type:** Global.PassType
+
 

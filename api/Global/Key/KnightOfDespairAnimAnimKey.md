@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.KnightOfDespairAnim.AnimKey
 canonical_path: /api/Global/Key/KnightOfDespairAnimAnimKey
@@ -61,4 +62,5 @@ TRANSFORM = 1
 
 #### Field Value
 **Type:** Global.KnightOfDespairAnim.AnimKey
+
 

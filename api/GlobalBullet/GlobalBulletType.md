@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GlobalBullet.GlobalBulletType
 canonical_path: /api/GlobalBullet/GlobalBulletType
@@ -85,4 +86,5 @@ SLOW = 7
 
 #### Field Value
 **Type:** GlobalBullet.GlobalBulletType
+
 

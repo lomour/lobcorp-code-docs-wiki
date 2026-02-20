@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.HordeOfBugs
 canonical_path: /api/Global/Misc/HordeOfBugs
@@ -11,10 +12,16 @@ canonical_path: /api/Global/Misc/HordeOfBugs
 ```csharp
 public class HordeOfBugs : RandomEventBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Unused random event.
 
-#unused 
+
 
 
 ## Inheritance
@@ -33,7 +40,6 @@ public HordeOfBugs()
 ```csharp
 private List<TastyBug> bugs
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +49,6 @@ private List<TastyBug> bugs
 ```csharp
 private List<DaughterBug> daughterBugs
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +58,6 @@ private List<DaughterBug> daughterBugs
 ```csharp
 public const string daughterBugSrc = "StandingItem/DaughterBugAnim"
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +67,6 @@ public const string daughterBugSrc = "StandingItem/DaughterBugAnim"
 ```csharp
 public const long daughterId = 10043
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +76,6 @@ public const long daughterId = 10043
 ```csharp
 public const int daughterMax = 100
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +85,6 @@ public const int daughterMax = 100
 ```csharp
 public const float DelayEnableMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +94,6 @@ public const float DelayEnableMax = 3
 ```csharp
 public const float DelayEnableMin = 1
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +103,6 @@ public const float DelayEnableMin = 1
 ```csharp
 private GrandmaBug grandBug
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +112,6 @@ private GrandmaBug grandBug
 ```csharp
 public const string grandBugSrc = "StandingItem/TastyBugs/GrandBug"
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +121,6 @@ public const string grandBugSrc = "StandingItem/TastyBugs/GrandBug"
 ```csharp
 public const long grandmaId = 10041
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +130,6 @@ public const long grandmaId = 10041
 ```csharp
 public const string hordeBgm = ""
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +139,6 @@ public const string hordeBgm = ""
 ```csharp
 private List<MotherBug> motherBugs
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +148,6 @@ private List<MotherBug> motherBugs
 ```csharp
 public const string motherBugSrc = "StandingItem/HordeOfBugs/MotherBug"
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +157,6 @@ public const string motherBugSrc = "StandingItem/HordeOfBugs/MotherBug"
 ```csharp
 public const long motherId = 10042
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +166,6 @@ public const long motherId = 10042
 ```csharp
 public const int motherMax = 20
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +175,6 @@ public const int motherMax = 20
 ```csharp
 public int numOfDaughters
 ```
-#INC
 
 
 #### Field Value
@@ -193,7 +184,6 @@ public int numOfDaughters
 ```csharp
 public int numOfMothers
 ```
-#INC
 
 
 #### Field Value
@@ -203,7 +193,6 @@ public int numOfMothers
 ```csharp
 public List<PassageObjectModel> sefiraPassages
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +204,6 @@ public List<PassageObjectModel> sefiraPassages
 ```csharp
 public void EnableBugs(HordeOfBugsScript.BugType type, MapNode node, params UnitDirection[] direction)
 ```
-#INC
 
 
 #### Parameters
@@ -229,7 +217,6 @@ public void EnableBugs(HordeOfBugsScript.BugType type, MapNode node, params Unit
 ```csharp
 public PassageObjectModel GetOtherpassage(PassageObjectModel current)
 ```
-#INC
 
 
 #### Parameters
@@ -244,7 +231,6 @@ public PassageObjectModel GetOtherpassage(PassageObjectModel current)
 ```csharp
 public PassageObjectModel GetRandomTargetPassage()
 ```
-#INC
 
 
 #### Returns
@@ -254,7 +240,6 @@ public PassageObjectModel GetRandomTargetPassage()
 ```csharp
 public GameObject LoadBug(string src, long metaId, out HordeOfBugsScript script)
 ```
-#INC
 
 
 #### Parameters
@@ -271,43 +256,36 @@ public GameObject LoadBug(string src, long metaId, out HordeOfBugsScript script)
 ```csharp
 public override void ManualDisable()
 ```
-#INC
 
 
 ### OnDisable()
 ```csharp
 public override void OnDisable()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 public override void OnEnable()
 ```
-#INC
-#code-generated
 
 
 ### OnFixedUpdate()
 ```csharp
 public override void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnInit()
 ```csharp
 public override void OnInit()
 ```
-#INC
 
 
 ### SetTime(float)
 ```csharp
 public void SetTime(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -317,4 +295,5 @@ public void SetTime(float time)
 
 ## Inherited Members
 [rootObjectSrc](/api/Global/Misc/RandomEventBase#rootobjectsrc), [rootObjectId](/api/Global/Misc/RandomEventBase#rootobjectid), [type](/api/Global/Misc/RandomEventBase#type), [rank](/api/Global/Misc/RandomEventBase#rank), [metaInfo](/api/Global/Misc/RandomEventBase#metainfo), [rootGameObject](/api/Global/Misc/RandomEventBase#rootgameobject), [rootStanding](/api/Global/Misc/RandomEventBase#rootstanding), [enableCheckConditions](/api/Global/Misc/RandomEventBase#enablecheckconditions), [instanceId](/api/Global/Misc/RandomEventBase#instanceid), [_isEnabled](/api/Global/Misc/RandomEventBase#isenabled), [GenerateCondition()](/api/Global/Misc/RandomEventBase#generatecondition), [GenerateCondition(ConditionInfo, ref List<int>)](/api/Global/Misc/RandomEventBase#generatecondition-conditioninfo-ref-list-int), [OnDestroy()](/api/Global/Misc/RandomEventBase#ondestroy), [OnEnd()](/api/Global/Misc/RandomEventBase#onend), [IsDuplicatable()](/api/Global/Misc/RandomEventBase#isduplicatable), [CheckEquivalent(string)](/api/Global/Misc/RandomEventBase#checkequivalent-string), [CheckCondition()](/api/Global/Misc/RandomEventBase#checkcondition), [ManualDisable(string)](/api/Global/Misc/RandomEventBase#manualdisable-string), [GenerateTypo(TypoType, string)](/api/Global/Misc/RandomEventBase#generatetypo-typotype-string), [GenerateTypo(TypoType)](/api/Global/Misc/RandomEventBase#generatetypo-typotype), [GenerateTypo(string)](/api/Global/Misc/RandomEventBase#generatetypo-string), [OnUpdate()](/api/Global/Misc/RandomEventBase#onupdate), [GetCondition(string)](/api/Global/Misc/RandomEventBase#getcondition-string), [MakeRootObject()](/api/Global/Misc/RandomEventBase#makerootobject), [GetTimerCondition()](/api/Global/Misc/RandomEventBase#gettimercondition), [SetTimerConditionTime(float)](/api/Global/Misc/RandomEventBase#settimerconditiontime-float), [RootTransform](/api/Global/Misc/RandomEventBase#roottransform), [HasRootObject](/api/Global/Misc/RandomEventBase#hasrootobject), [MetaDataId](/api/Global/Misc/RandomEventBase#metadataid), [IsEnabled](/api/Global/Misc/RandomEventBase#isenabled), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

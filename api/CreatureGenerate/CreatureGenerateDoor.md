@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateDoor
 canonical_path: /api/CreatureGenerate/CreatureGenerateDoor
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateDoor
 ```csharp
 public class CreatureGenerateDoor : CreatureGenerateData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Code for choosing the creature behind each door during abnormality extraction.
 
@@ -27,7 +31,6 @@ Randomly chooses the grade based on the CreatureGenInfo resource, then randomly 
 ```csharp
 public CreatureGenerateDoor()
 ```
-#INC
 
 
 ## Fields
@@ -36,7 +39,6 @@ public CreatureGenerateDoor()
 ```csharp
 public long Creature
 ```
-#INC
 
 
 #### Field Value
@@ -46,7 +48,6 @@ public long Creature
 ```csharp
 public static bool[] initialState
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +57,6 @@ public static bool[] initialState
 ```csharp
 public const int MAX = 5
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +66,6 @@ public const int MAX = 5
 ```csharp
 public float[] prob
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +75,6 @@ public float[] prob
 ```csharp
 public bool[] probState
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +84,6 @@ public bool[] probState
 ```csharp
 public static readonly float[] zeroAry
 ```
-#INC
 
 
 #### Field Value
@@ -108,14 +105,12 @@ public float TotalProb { get; }
 ```csharp
 public void CheckProb()
 ```
-#INC
 
 
 ### GetList(int)
 ```csharp
 public ActivateStateList GetList(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -130,7 +125,6 @@ public ActivateStateList GetList(int i)
 ```csharp
 public override void OnlyAction(params object[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -142,7 +136,6 @@ public override void OnlyAction(params object[] ids)
 ```csharp
 public static CreatureGenerateDoor Parse(string parsed)
 ```
-#INC
 
 
 #### Parameters
@@ -157,15 +150,12 @@ public static CreatureGenerateDoor Parse(string parsed)
 ```csharp
 public void Print()
 ```
-#INC
 
 
 ### RemoveAction(params object[])
 ```csharp
 public override void RemoveAction(params object[] ids)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -177,9 +167,9 @@ public override void RemoveAction(params object[] ids)
 ```csharp
 public void SetCreature()
 ```
-#INC
 
 
 ## Inherited Members
 [split](/api/CreatureGenerate/CreatureGenerateData#split), [uniqueText](/api/CreatureGenerate/CreatureGenerateData#uniquetext), [commonAction](/api/CreatureGenerate/CreatureGenerateData#commonaction), [IsCommonAction(string, out GenerateCommonAction)](/api/CreatureGenerate/CreatureGenerateData#iscommonaction-string-out-generatecommonaction), [IsUniqueAction(string)](/api/CreatureGenerate/CreatureGenerateData#isuniqueaction-string), [ParseAction(ref string, out ActionData)](/api/CreatureGenerate/CreatureGenerateData#parseaction-ref-string-out-actiondata), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

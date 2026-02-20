@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerPrimaryStat
 canonical_path: /api/Global/Misc/WorkerPrimaryStat
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/WorkerPrimaryStat
 ```csharp
 public class WorkerPrimaryStat
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the stats for a [worker](/api/Global/Model/WorkerModel).
 
 
@@ -30,7 +34,6 @@ public WorkerPrimaryStat()
 ```csharp
 public int battle
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public int battle
 ```csharp
 public int hp
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public int hp
 ```csharp
 public int mental
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public int mental
 ```csharp
 public int work
 ```
-#INC
 
 
 #### Field Value
@@ -122,8 +122,6 @@ public int workProb { get; }
 ```csharp
 public WorkerPrimaryStat GetAddedStat(WorkerPrimaryStatExp expAdd)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -138,7 +136,6 @@ public WorkerPrimaryStat GetAddedStat(WorkerPrimaryStatExp expAdd)
 ```csharp
 public static int MaxStatB()
 ```
-#INC
 
 
 #### Returns
@@ -148,7 +145,6 @@ public static int MaxStatB()
 ```csharp
 public static int MaxStatP()
 ```
-#INC
 
 
 #### Returns
@@ -158,7 +154,6 @@ public static int MaxStatP()
 ```csharp
 public static int MaxStatR()
 ```
-#INC
 
 
 #### Returns
@@ -168,7 +163,6 @@ public static int MaxStatR()
 ```csharp
 public static int MaxStatW()
 ```
-#INC
 
 
 #### Returns
@@ -178,7 +172,6 @@ public static int MaxStatW()
 ```csharp
 public void UpdateStat(WorkerPrimaryStatExp exp)
 ```
-#INC
 
 
 #### Parameters
@@ -188,4 +181,5 @@ public void UpdateStat(WorkerPrimaryStatExp exp)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapObjectTypeInfo
 canonical_path: /api/Global/Info/MapObjectTypeInfo
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Info/MapObjectTypeInfo
 ```csharp
 public class MapObjectTypeInfo
 ```
-#unused #maybe_unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -30,7 +37,6 @@ public MapObjectTypeInfo()
 ```csharp
 public int horrorPoint
 ```
-#INC
 
 
 #### Field Value
@@ -40,8 +46,6 @@ public int horrorPoint
 ```csharp
 public long id
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -51,7 +55,6 @@ public long id
 ```csharp
 public string src
 ```
-#INC
 
 
 #### Field Value
@@ -59,4 +62,5 @@ public string src
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

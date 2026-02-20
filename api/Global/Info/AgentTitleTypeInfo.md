@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentTitleTypeInfo
 canonical_path: /api/Global/Info/AgentTitleTypeInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/AgentTitleTypeInfo
 ```csharp
 public class AgentTitleTypeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores information about an [agent](/api/Global/Worker/AgentModel)'s title.
 
 Looks like it has the id of the title, the level of the agent which should have it, the best stat it gives (or all), the name of the title itself, and all of its modifiers.
@@ -34,7 +38,6 @@ public AgentTitleTypeInfo()
 ```csharp
 public int attackSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ public int attackSpeed
 ```csharp
 public int cubeSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ public int cubeSpeed
 ```csharp
 public int hp
 ```
-#INC
 
 
 #### Field Value
@@ -64,8 +65,6 @@ public int hp
 ```csharp
 public int id
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -75,7 +74,6 @@ public int id
 ```csharp
 public int level
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +83,6 @@ public int level
 ```csharp
 public int mental
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +92,6 @@ public int mental
 ```csharp
 public int movementSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +101,6 @@ public int movementSpeed
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +110,6 @@ public string name
 ```csharp
 public string nameId
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +119,6 @@ public string nameId
 ```csharp
 public string pos
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +128,6 @@ public string pos
 ```csharp
 public string rwbp
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +137,6 @@ public string rwbp
 ```csharp
 public int workProb
 ```
-#INC
 
 
 #### Field Value
@@ -153,4 +144,5 @@ public int workProb
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

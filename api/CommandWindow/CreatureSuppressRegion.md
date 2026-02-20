@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CommandWindow.CreatureSuppressRegion
 canonical_path: /api/CommandWindow/CreatureSuppressRegion
@@ -11,6 +12,9 @@ canonical_path: /api/CommandWindow/CreatureSuppressRegion
 ```csharp
 public class CreatureSuppressRegion : CommandWindowRegion
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Displays an [abnormality](/api/Global/Model/CreatureModel), its attack information, and its [defenses](/api/Global/Info/DefenseInfo) in the suppression UI.
 
@@ -33,7 +37,6 @@ public CreatureSuppressRegion()
 ```csharp
 private CreatureModel _currentModel
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ private CreatureModel _currentModel
 ```csharp
 public Text CodeNo
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ public Text CodeNo
 ```csharp
 public Text[] DefenseFactor
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ public Text[] DefenseFactor
 ```csharp
 public Text[] DefenseType
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ public Text[] DefenseType
 ```csharp
 public Text Name
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ public Text Name
 ```csharp
 public Image Portrait
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ public Image Portrait
 ```csharp
 public Text RiskLevel
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ public Text RiskLevel
 ```csharp
 public GameObject[] RWBPAttackType
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +109,6 @@ public GameObject[] RWBPAttackType
 ```csharp
 private const string unk = "?"
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +118,6 @@ private const string unk = "?"
 ```csharp
 private const string Unknown = "Unknown"
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +139,6 @@ public CreatureModel CurrentModel { get; }
 ```csharp
 private void CalculateMultipleType(List<DefenseInfo> list)
 ```
-#INC
 
 
 #### Parameters
@@ -157,8 +150,6 @@ private void CalculateMultipleType(List<DefenseInfo> list)
 ```csharp
 public override void SetData(UnitModel target)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -170,7 +161,6 @@ public override void SetData(UnitModel target)
 ```csharp
 private void SetOrdealData(OrdealCreatureModel ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -180,4 +170,5 @@ private void SetOrdealData(OrdealCreatureModel ordeal)
 
 ## Inherited Members
 [ActiveControl](/api/CommandWindow/CommandWindowRegion#activecontrol), [TargetImage](/api/CommandWindow/CommandWindowRegion#targetimage), [TargetName](/api/CommandWindow/CommandWindowRegion#targetname), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StatTransformInt
 canonical_path: /api/Global/Misc/StatTransformInt
@@ -11,11 +12,17 @@ canonical_path: /api/Global/Misc/StatTransformInt
 ```csharp
 public interface StatTransformInt
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Interface with one method, returning a transformed version of an input int.
 
 Implemented by a couple classes, but these are all unused.
 
-#unused 
+
 
 #### Method
 int IntToInt(int v)
@@ -27,8 +34,6 @@ int IntToInt(int v)
 ```csharp
 int IntToInt(int v)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -38,4 +43,5 @@ int IntToInt(int v)
 
 #### Returns
 **Type:** System.Int32
+
 

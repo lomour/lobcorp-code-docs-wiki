@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EGOGiftRegionKey
 canonical_path: /api/Global/Key/EGOGiftRegionKey
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Key/EGOGiftRegionKey
 ```csharp
 public static class EGOGiftRegionKey
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Converts between the [EGOgiftAttachRegion](/api/Global/Misc/EGOgiftAttachRegion) enum and string.
 
 
@@ -23,7 +27,6 @@ Converts between the [EGOgiftAttachRegion](/api/Global/Misc/EGOgiftAttachRegion)
 ```csharp
 public static string back
 ```
-#INC
 
 
 #### Field Value
@@ -33,7 +36,6 @@ public static string back
 ```csharp
 public static string body_up
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +45,6 @@ public static string body_up
 ```csharp
 public static string eye
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public static string eye
 ```csharp
 public static string face
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public static string face
 ```csharp
 public static string hair
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public static string hair
 ```csharp
 public static string head
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public static string head
 ```csharp
 public static string lefthand
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public static string lefthand
 ```csharp
 public static string mouth
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public static string mouth
 ```csharp
 public static string[] region
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public static string[] region
 ```csharp
 public static string righthand
 ```
-#INC
 
 
 #### Field Value
@@ -125,8 +119,6 @@ public static string righthand
 ```csharp
 public static EGOgiftAttachRegion GetRegion(string name)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -141,7 +133,6 @@ public static EGOgiftAttachRegion GetRegion(string name)
 ```csharp
 public static bool GetRegionKey(EGOgiftAttachRegion region, out string slot, out string attach)
 ```
-#INC
 
 
 #### Parameters
@@ -158,7 +149,6 @@ public static bool GetRegionKey(EGOgiftAttachRegion region, out string slot, out
 ```csharp
 public static bool ParseRegion(string name, out EGOgiftAttachRegion region)
 ```
-#INC
 
 
 #### Parameters
@@ -172,4 +162,5 @@ public static bool ParseRegion(string name, out EGOgiftAttachRegion region)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

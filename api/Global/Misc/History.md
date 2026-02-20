@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.History
 canonical_path: /api/Global/Misc/History
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/History
 ```csharp
 public class History
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores an time and event type for an event in the work day.
 
 These events can be:
@@ -32,8 +36,6 @@ See also [GlobalHistory](/api/Global/IOBserver/GlobalHistory).
 ```csharp
 public History(string notice, params object[] param)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -48,7 +50,6 @@ public History(string notice, params object[] param)
 ```csharp
 private float _inputTime
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +59,6 @@ private float _inputTime
 ```csharp
 private CreatureModel _targetCreature
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +68,6 @@ private CreatureModel _targetCreature
 ```csharp
 private RandomEventBase _targetEvent
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +77,6 @@ private RandomEventBase _targetEvent
 ```csharp
 private EmergencyLevel _targetLevel
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +86,6 @@ private EmergencyLevel _targetLevel
 ```csharp
 private AgentModel _targetWorker
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +103,6 @@ private History.HistoryType _type
 ```csharp
 public bool isSuppressed
 ```
-#INC
 
 
 #### Field Value
@@ -116,7 +112,6 @@ public bool isSuppressed
 ```csharp
 public float suppressedTime
 ```
-#INC
 
 
 #### Field Value
@@ -128,7 +123,6 @@ public float suppressedTime
 ```csharp
 public CreatureModel GetCreature()
 ```
-#INC
 
 
 #### Returns
@@ -138,7 +132,6 @@ public CreatureModel GetCreature()
 ```csharp
 public EmergencyLevel GetEmergency()
 ```
-#INC
 
 
 #### Returns
@@ -148,7 +141,6 @@ public EmergencyLevel GetEmergency()
 ```csharp
 public RandomEventBase GetEvent()
 ```
-#INC
 
 
 #### Returns
@@ -166,7 +158,6 @@ public History.HistoryType GetHistoryType()
 ```csharp
 public float GetTime()
 ```
-#INC
 
 
 #### Returns
@@ -176,7 +167,6 @@ public float GetTime()
 ```csharp
 public AgentModel GetWorker()
 ```
-#INC
 
 
 #### Returns
@@ -184,4 +174,5 @@ public AgentModel GetWorker()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CharacterResourceDataModel
 canonical_path: /api/Global/Model/CharacterResourceDataModel
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Model/CharacterResourceDataModel
 ```csharp
 public class CharacterResourceDataModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 I think this stores information about characters for the story, i.e. names, sprites, etc.
 
 
@@ -23,8 +27,6 @@ I think this stores information about characters for the story, i.e. names, spri
 ```csharp
 private CharacterResourceDataModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -41,7 +43,6 @@ private Dictionary<string, CharacterResourceDataModel.CharacterResourceInfo> _di
 ```csharp
 private static CharacterResourceDataModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ public static CharacterResourceDataModel instance { get; }
 ```csharp
 public Color GetColor(string character)
 ```
-#INC
 
 
 #### Parameters
@@ -78,7 +78,6 @@ public Color GetColor(string character)
 ```csharp
 public string GetName(string character)
 ```
-#INC
 
 
 #### Parameters
@@ -93,7 +92,6 @@ public string GetName(string character)
 ```csharp
 public Sprite GetPortrait(string character)
 ```
-#INC
 
 
 #### Parameters
@@ -108,7 +106,6 @@ public Sprite GetPortrait(string character)
 ```csharp
 public Sprite GetSefiraPortrait(SefiraEnum sefiraEnum, bool tipherethException = true)
 ```
-#INC
 
 
 #### Parameters
@@ -124,7 +121,6 @@ public Sprite GetSefiraPortrait(SefiraEnum sefiraEnum, bool tipherethException =
 ```csharp
 public GameObject GetSpine(string character)
 ```
-#INC
 
 
 #### Parameters
@@ -137,4 +133,5 @@ public GameObject GetSpine(string character)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

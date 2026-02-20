@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EventGenInfo
 canonical_path: /api/Global/Info/EventGenInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/EventGenInfo
 ```csharp
 public class EventGenInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Information about which events can be generated.
 
 [Apocalypse Bird](/api/Global/Misc/BossBird) is banned from showing up until after day 20.
@@ -34,7 +38,6 @@ public EventGenInfo()
 ```csharp
 private const int _bossBirdAdditionDay = 20
 ```
-#INC
 
 
 #### Field Value
@@ -46,8 +49,6 @@ private const int _bossBirdAdditionDay = 20
 ```csharp
 public static List<EventBase> GenerateEvents(int day)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -60,4 +61,5 @@ public static List<EventBase> GenerateEvents(int day)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

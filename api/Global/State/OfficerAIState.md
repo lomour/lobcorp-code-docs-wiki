@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OfficerAIState
 canonical_path: /api/Global/State/OfficerAIState
@@ -133,4 +134,5 @@ WORKING = 5
 
 #### Field Value
 **Type:** Global.OfficerAIState
+
 

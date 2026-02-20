@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentNameList
 canonical_path: /api/Global/List/AgentNameList
@@ -11,11 +12,14 @@ canonical_path: /api/Global/List/AgentNameList
 ```csharp
 public class AgentNameList : ISerializablePlayData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Loads and holds the lists of (default) [names](/api/Global/Misc/AgentName) for [agents](/api/Global/Worker/AgentModel). May do more...
 
 Seems that names are 'used up' when given to an agent, and are then removed from the pool?
-#INC 
+
 
 
 ## Inheritance
@@ -37,7 +41,6 @@ public AgentNameList()
 ```csharp
 private Dictionary<int, AgentNameTypeInfo> _allTypeInfo
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +50,6 @@ private Dictionary<int, AgentNameTypeInfo> _allTypeInfo
 ```csharp
 private List<AgentNameTypeInfo> _allTypeInfo_list
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +59,6 @@ private List<AgentNameTypeInfo> _allTypeInfo_list
 ```csharp
 private List<int> _creditInfoPool
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +68,6 @@ private List<int> _creditInfoPool
 ```csharp
 private List<AgentNameTypeInfo> _creditNameList
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +77,6 @@ private List<AgentNameTypeInfo> _creditNameList
 ```csharp
 private List<AgentName> _creditNameNotUsed
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +86,6 @@ private List<AgentName> _creditNameNotUsed
 ```csharp
 private List<int> _defaultInfoPool
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +95,6 @@ private List<int> _defaultInfoPool
 ```csharp
 private List<AgentNameTypeInfo> _defaultNameList
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +104,6 @@ private List<AgentNameTypeInfo> _defaultNameList
 ```csharp
 private static AgentNameList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +113,6 @@ private static AgentNameList _instance
 ```csharp
 private bool _isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -127,7 +122,6 @@ private bool _isLoaded
 ```csharp
 private List<AgentName> _list
 ```
-#INC
 
 
 #### Field Value
@@ -137,7 +131,6 @@ private List<AgentName> _list
 ```csharp
 private List<AgentName> _notUsed
 ```
-#INC
 
 
 #### Field Value
@@ -147,7 +140,6 @@ private List<AgentName> _notUsed
 ```csharp
 private Dictionary<int, UniqueCreditAgentInfo> _uniqueCreditNameInfo
 ```
-#INC
 
 
 #### Field Value
@@ -157,7 +149,6 @@ private Dictionary<int, UniqueCreditAgentInfo> _uniqueCreditNameInfo
 ```csharp
 private Dictionary<string, int> _uniqueCreditSearchTable
 ```
-#INC
 
 
 #### Field Value
@@ -167,7 +158,6 @@ private Dictionary<string, int> _uniqueCreditSearchTable
 ```csharp
 private List<AgentName> _used
 ```
-#INC
 
 
 #### Field Value
@@ -177,7 +167,6 @@ private List<AgentName> _used
 ```csharp
 private float creditAgentNameProb
 ```
-#INC
 
 
 #### Field Value
@@ -187,7 +176,6 @@ private float creditAgentNameProb
 ```csharp
 private int creditIndex
 ```
-#INC
 
 
 #### Field Value
@@ -197,7 +185,6 @@ private int creditIndex
 ```csharp
 public const int creditName_id_added = 10000
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +194,6 @@ public const int creditName_id_added = 10000
 ```csharp
 public const int customName_id_added = 20000
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +203,6 @@ public const int customName_id_added = 20000
 ```csharp
 private int instId
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +240,6 @@ public bool isLoaded { get; }
 ```csharp
 public void AddCreditNames(List<AgentName> nameList)
 ```
-#INC
 
 
 #### Parameters
@@ -267,7 +251,6 @@ public void AddCreditNames(List<AgentName> nameList)
 ```csharp
 public void AddCustomName(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -279,7 +262,6 @@ public void AddCustomName(Dictionary<string, object> dic)
 ```csharp
 public static bool CheckCustomForOldSave(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -294,7 +276,6 @@ public static bool CheckCustomForOldSave(long id)
 ```csharp
 public void ExtractFromPool(AgentName name)
 ```
-#INC
 
 
 #### Parameters
@@ -306,7 +287,6 @@ public void ExtractFromPool(AgentName name)
 ```csharp
 public int GetCreditIndex()
 ```
-#INC
 
 
 #### Returns
@@ -316,7 +296,6 @@ public int GetCreditIndex()
 ```csharp
 public AgentName GetCustomName(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -331,7 +310,6 @@ public AgentName GetCustomName(int id)
 ```csharp
 public AgentName GetCustomName(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -346,7 +324,6 @@ public AgentName GetCustomName(string name)
 ```csharp
 public AgentName GetCustomNameByInfo(string name, int nameId = -1)
 ```
-#INC
 
 
 #### Parameters
@@ -362,7 +339,6 @@ public AgentName GetCustomNameByInfo(string name, int nameId = -1)
 ```csharp
 public AgentName GetFakeNameByInfo()
 ```
-#INC
 
 
 #### Returns
@@ -372,7 +348,6 @@ public AgentName GetFakeNameByInfo()
 ```csharp
 public AgentName GetName(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -387,7 +362,6 @@ public AgentName GetName(int id)
 ```csharp
 public AgentName GetNameByInfo(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -402,7 +376,6 @@ public AgentName GetNameByInfo(int id)
 ```csharp
 public AgentName GetNotUsedName()
 ```
-#INC
 
 
 #### Returns
@@ -412,7 +385,6 @@ public AgentName GetNotUsedName()
 ```csharp
 public AgentName GetNotUsedNameAsFake()
 ```
-#INC
 
 
 #### Returns
@@ -422,7 +394,6 @@ public AgentName GetNotUsedNameAsFake()
 ```csharp
 public AgentNameTypeInfo GetRandomInfo()
 ```
-#INC
 
 
 #### Returns
@@ -432,7 +403,6 @@ public AgentNameTypeInfo GetRandomInfo()
 ```csharp
 public AgentNameTypeInfo GetRandomInfoFromPool(AgentNameType type)
 ```
-#INC
 
 
 #### Parameters
@@ -447,7 +417,6 @@ public AgentNameTypeInfo GetRandomInfoFromPool(AgentNameType type)
 ```csharp
 private int GetRandomInfoIdFromPool(AgentNameType type)
 ```
-#INC
 
 
 #### Parameters
@@ -462,7 +431,6 @@ private int GetRandomInfoIdFromPool(AgentNameType type)
 ```csharp
 public AgentName GetRandomNameByInfo()
 ```
-#INC
 
 
 #### Returns
@@ -472,7 +440,6 @@ public AgentName GetRandomNameByInfo()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -482,7 +449,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public UniqueCreditAgentInfo GetUniqueCreditInfo(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -497,7 +463,6 @@ public UniqueCreditAgentInfo GetUniqueCreditInfo(string name)
 ```csharp
 public AgentName GetUsedName(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -512,8 +477,6 @@ public AgentName GetUsedName(string name)
 ```csharp
 public void Init(AgentName[] ary)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -525,21 +488,18 @@ public void Init(AgentName[] ary)
 ```csharp
 private void InitializeCreditPool()
 ```
-#INC
 
 
 ### InitializeDefaultPool()
 ```csharp
 private void InitializeDefaultPool()
 ```
-#INC
 
 
 ### InitializePool(List<int>, List<AgentNameTypeInfo>)
 ```csharp
 private void InitializePool(List<int> targetPool, List<AgentNameTypeInfo> data)
 ```
-#INC
 
 
 #### Parameters
@@ -552,7 +512,6 @@ private void InitializePool(List<int> targetPool, List<AgentNameTypeInfo> data)
 ```csharp
 public void InitNameTypes(AgentNameTypeInfo[] defaultName, AgentNameTypeInfo[] creditName, UniqueCreditAgentInfo[] uniqueCreditAgent)
 ```
-#INC
 
 
 #### Parameters
@@ -566,7 +525,6 @@ public void InitNameTypes(AgentNameTypeInfo[] defaultName, AgentNameTypeInfo[] c
 ```csharp
 public bool IsUniqueName(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -581,7 +539,6 @@ public bool IsUniqueName(string name)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -593,21 +550,18 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnInit()
 ```
-#INC
 
 
 ### Print()
 ```csharp
 public void Print()
 ```
-#INC
 
 
 ### ReturnName(long)
 ```csharp
 public void ReturnName(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -619,7 +573,6 @@ public void ReturnName(long id)
 ```csharp
 public AgentName SetCustomName(string name, int id)
 ```
-#INC
 
 
 #### Parameters
@@ -635,7 +588,6 @@ public AgentName SetCustomName(string name, int id)
 ```csharp
 public void SetFakeAsRealUsed(AgentName name)
 ```
-#INC
 
 
 #### Parameters
@@ -645,4 +597,5 @@ public void SetFakeAsRealUsed(AgentName name)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

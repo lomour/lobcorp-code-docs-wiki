@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryFilterParameter
 canonical_path: /api/Global/Misc/StoryFilterParameter
@@ -11,10 +12,12 @@ canonical_path: /api/Global/Misc/StoryFilterParameter
 ```csharp
 public class StoryFilterParameter
 ```
-Parent class for changing parameters for the filter over the story. #INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-All of these store a bool called fade, except Blur_Blurry which stores a bool called amount (??), and TVOldMovie2 which stores a float called burn. #INC 
-#code-generated
+Parent class for changing parameters for the filter over the story. 
+
+All of these store a bool called fade, except Blur_Blurry which stores a bool called amount (??), and TVOldMovie2 which stores a float called burn. 
 
 
 ## Inheritance
@@ -32,4 +35,5 @@ public StoryFilterParameter()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

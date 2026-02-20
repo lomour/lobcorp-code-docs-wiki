@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentMotion
 canonical_path: /api/Global/Misc/AgentMotion
@@ -29,4 +30,5 @@ PANIC_ATTACK_MOTION = 1
 
 #### Field Value
 **Type:** Global.AgentMotion
+
 

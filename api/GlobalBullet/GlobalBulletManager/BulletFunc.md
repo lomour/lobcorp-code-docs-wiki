@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GlobalBullet.GlobalBulletManager.BulletFunc
 canonical_path: /api/GlobalBullet/GlobalBulletManager/BulletFunc
@@ -61,4 +62,5 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchItemModel
 canonical_path: /api/Global/Model/ResearchItemModel
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Model/ResearchItemModel
 ```csharp
 public class ResearchItemModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A research.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public ResearchItemModel()
 ```csharp
 public int curLevel
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public int curLevel
 ```csharp
 public ResearchItemTypeInfo info
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ public ResearchItemTypeInfo info
 ```csharp
 public static int CompareById(ResearchItemModel a, ResearchItemModel b)
 ```
-#INC
 
 
 #### Parameters
@@ -70,7 +71,6 @@ public static int CompareById(ResearchItemModel a, ResearchItemModel b)
 ```csharp
 public ResearchUpgradeInfo GetCurrentUpgradeInfo()
 ```
-#INC
 
 
 #### Returns
@@ -80,7 +80,6 @@ public ResearchUpgradeInfo GetCurrentUpgradeInfo()
 ```csharp
 public ResearchUpgradeInfo GetNextUpgradeInfo()
 ```
-#INC
 
 
 #### Returns
@@ -90,8 +89,6 @@ public ResearchUpgradeInfo GetNextUpgradeInfo()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -101,7 +98,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -111,4 +107,5 @@ public void LoadData(Dictionary<string, object> dic)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

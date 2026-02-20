@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.SpriteChangeData
 canonical_path: /api/WorkerSpine/SpriteChangeData
@@ -11,8 +12,11 @@ canonical_path: /api/WorkerSpine/SpriteChangeData
 ```csharp
 public class SpriteChangeData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 stores data to modify a sprite, maybe?
-#INC 
+
 
 
 ## Inheritance
@@ -40,7 +44,6 @@ public string attachmentName
 ```csharp
 public bool calculateRate
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +53,6 @@ public bool calculateRate
 ```csharp
 public Color color
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +80,6 @@ public bool isSetOffset
 ```csharp
 public Vector2 position
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +89,6 @@ public Vector2 position
 ```csharp
 public float rotation
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +98,6 @@ public float rotation
 ```csharp
 public Vector2 scale
 ```
-#INC
 
 
 #### Field Value
@@ -124,4 +123,5 @@ public Sprite spriteData
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryCharacter
 canonical_path: /api/Global/Misc/StoryCharacter
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/StoryCharacter
 ```csharp
 public class StoryCharacter
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores the id, name, and CG name of a story character.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public StoryCharacter()
 ```csharp
 public string cg
 ```
-#INC
 
 
 #### Field Value
@@ -42,8 +45,6 @@ public string cg
 ```csharp
 public string id
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public string id
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -61,4 +61,5 @@ public string name
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

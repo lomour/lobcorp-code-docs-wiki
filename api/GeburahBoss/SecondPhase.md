@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.SecondPhase
 canonical_path: /api/GeburahBoss/SecondPhase
@@ -11,6 +12,9 @@ canonical_path: /api/GeburahBoss/SecondPhase
 ```csharp
 public class SecondPhase : GeburahPhaseExectuion
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [An Arbiter](/api/Global/Script/BinahCoreScript)'s second phase behavior.
 She gets [Black Fog](/api/BinahBoss/BlackFogOverload), [Golden](/api/BinahBoss/GoldenOverload), and [Wave](/api/BinahBoss/WaveOverload) meltdowns.
@@ -29,7 +33,6 @@ If someone is near her, she will randomly choose to either use her [Blade Wave](
 ```csharp
 public SecondPhase(GeburahCoreScript geburah)
 ```
-#INC
 
 
 #### Parameters
@@ -43,7 +46,6 @@ public SecondPhase(GeburahCoreScript geburah)
 ```csharp
 private float attackDist
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private float attackDist
 ```csharp
 private static DefaultAttack.AttackProb[] AttackProb
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private static DefaultAttack.AttackProb[] AttackProb
 ```csharp
 private static List<DefaultAttack.AttackProb> attackProbList
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ private static List<DefaultAttack.AttackProb> attackProbList
 ```csharp
 private UnitModel currentTarget
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ private UnitModel currentTarget
 ```csharp
 private int fillCount
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ private int fillCount
 ```csharp
 private float MoveProb
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ private float MoveProb
 ```csharp
 private const float spearProb = 0.2
 ```
-#INC
 
 
 #### Field Value
@@ -115,15 +111,12 @@ private const float spearProb = 0.2
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### GetNextAction(List<UnitModel>)
 ```csharp
 public override GeburahAction GetNextAction(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -138,23 +131,21 @@ public override GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public void OnDamageFilled()
 ```
-#INC
 
 
 ### OnPrevSuppressed()
 ```csharp
 public override void OnPrevSuppressed()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public override void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahPhaseExectuion#geburah), [isPrevAttack](/api/GeburahBoss/GeburahPhaseExectuion#isprevattack), [GetRandomNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandomnode), [GetRandomMoveNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandommovenode), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

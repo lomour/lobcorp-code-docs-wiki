@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ThrowItem
 canonical_path: /api/Global/Misc/ThrowItem
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/ThrowItem
 ```csharp
 public class ThrowItem
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Used by [ThrowGravScript](/api/Global/Script/ThrowGravScript)
 
-#INC #unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -32,7 +39,6 @@ public ThrowItem()
 ```csharp
 public GameObject gameObject
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +48,6 @@ public GameObject gameObject
 ```csharp
 public bool setActive
 ```
-#INC
 
 
 #### Field Value
@@ -52,8 +57,6 @@ public bool setActive
 ```csharp
 public Sprite sprite
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -72,4 +75,5 @@ public SpriteRenderer renderer { get; }
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentAnim.ParameterInfo.ParameterType
 canonical_path: /api/Global/Type/AgentAnimParameterInfoParameterType
@@ -37,4 +38,5 @@ INT = 0
 
 #### Field Value
 **Type:** Global.AgentAnim.ParameterInfo.ParameterType
+
 

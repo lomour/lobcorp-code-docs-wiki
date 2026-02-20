@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.ApostleGenData
 canonical_path: /api/WhiteNightSpace/ApostleGenData
@@ -11,8 +12,11 @@ canonical_path: /api/WhiteNightSpace/ApostleGenData
 ```csharp
 public class ApostleGenData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Data for making an apostle from an agent, maybe?
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ Data for making an apostle from an agent, maybe?
 ```csharp
 public ApostleGenData(WorkerModel worker, ApostleData data, int index)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public ApostleGenData(WorkerModel worker, ApostleData data, int index)
 ```csharp
 public ChildCreatureModel AposlteModel
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public ChildCreatureModel AposlteModel
 ```csharp
 public ApostleData data
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public ApostleData data
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ public int index
 ```csharp
 public WorkerModel target
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public WorkerModel target
 ```csharp
 public static int Compare(ApostleGenData a, ApostleGenData b)
 ```
-#INC
 
 
 #### Parameters
@@ -97,4 +94,5 @@ public static int Compare(ApostleGenData a, ApostleGenData b)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

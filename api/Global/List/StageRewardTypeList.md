@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StageRewardTypeList
 canonical_path: /api/Global/List/StageRewardTypeList
@@ -11,9 +12,12 @@ canonical_path: /api/Global/List/StageRewardTypeList
 ```csharp
 public class StageRewardTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores the LOB point reward for each day as a [StageRewardTypeInfo](/api/Global/Info/StageRewardTypeInfo).
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Stores the LOB point reward for each day as a [StageRewardTypeInfo](/api/Global/
 ```csharp
 private StageRewardTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private StageRewardTypeList()
 ```csharp
 private static StageRewardTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private static StageRewardTypeList _instance
 ```csharp
 private List<StageRewardTypeInfo> _list
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private List<StageRewardTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public bool loaded { get; }
 ```csharp
 public StageRewardTypeInfo GetData(int day)
 ```
-#INC
 
 
 #### Parameters
@@ -100,7 +98,6 @@ public StageRewardTypeInfo GetData(int day)
 ```csharp
 public StageRewardTypeInfo[] GetList()
 ```
-#INC
 
 
 #### Returns
@@ -110,7 +107,6 @@ public StageRewardTypeInfo[] GetList()
 ```csharp
 public void Init(StageRewardTypeInfo[] list)
 ```
-#INC
 
 
 #### Parameters
@@ -120,4 +116,5 @@ public void Init(StageRewardTypeInfo[] list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpecialEventManager
 canonical_path: /api/Global/Misc/SpecialEventManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/SpecialEventManager
 ```csharp
 public class SpecialEventManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages the activation of special events and creating [event creatures](/api/Global/Creature/EventCreatureModel) during them. The only special event is [Apocalypse Bird's event](/api/Global/Event/BossBirdEvent).
 
 
@@ -30,7 +34,6 @@ public SpecialEventManager()
 ```csharp
 private static SpecialEventManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ private static SpecialEventManager _instance
 ```csharp
 private List<EventBase> activatedEvents
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private List<EventBase> activatedEvents
 ```csharp
 private List<EventCreatureModel> eventCreatureList
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private List<EventCreatureModel> eventCreatureList
 ```csharp
 private List<EventBase> eventlist
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private List<EventBase> eventlist
 ```csharp
 private int nextInstId
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ private int nextInstId
 ```csharp
 private List<EventBase> removedEvents
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +100,6 @@ public static SpecialEventManager instance { get; }
 ```csharp
 public bool ActivateEvent(EventBase _event)
 ```
-#INC
 
 
 #### Parameters
@@ -117,7 +114,6 @@ public bool ActivateEvent(EventBase _event)
 ```csharp
 public EventCreatureModel AddCreature(long metadataId, MapNode pos, EventBase eventBase)
 ```
-#INC
 
 
 #### Parameters
@@ -134,7 +130,6 @@ public EventCreatureModel AddCreature(long metadataId, MapNode pos, EventBase ev
 ```csharp
 private void BuildCreature(EventCreatureModel model, long metadataId)
 ```
-#INC
 
 
 #### Parameters
@@ -147,7 +142,6 @@ private void BuildCreature(EventCreatureModel model, long metadataId)
 ```csharp
 public bool CheckEventContains(EventBase.EventType type, out EventBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -163,14 +157,12 @@ public bool CheckEventContains(EventBase.EventType type, out EventBase script)
 ```csharp
 public void ClearCreatures()
 ```
-#INC
 
 
 ### GetEventCreatureList()
 ```csharp
 public EventCreatureModel[] GetEventCreatureList()
 ```
-#INC
 
 
 #### Returns
@@ -180,7 +172,6 @@ public EventCreatureModel[] GetEventCreatureList()
 ```csharp
 public void OnEventEnd(EventBase _event)
 ```
-#INC
 
 
 #### Parameters
@@ -192,24 +183,21 @@ public void OnEventEnd(EventBase _event)
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnGameInit()
 ```csharp
 public void OnGameInit()
 ```
-#INC
-#code-generated
 
 
 ### OnStageRelease()
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CommandWindow.AgentState
 canonical_path: /api/CommandWindow/AgentState
@@ -69,4 +70,5 @@ WORKING = 3
 
 #### Field Value
 **Type:** CommandWindow.AgentState
+
 

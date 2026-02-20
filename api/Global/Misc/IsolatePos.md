@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IsolatePos
 canonical_path: /api/Global/Misc/IsolatePos
@@ -37,4 +38,5 @@ UP = 1
 
 #### Field Value
 **Type:** Global.IsolatePos
+
 

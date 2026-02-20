@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AutoTimer
 canonical_path: /api/Global/Misc/AutoTimer
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/AutoTimer
 ```csharp
 public class AutoTimer : Timer, IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Calls a target method after a certain amount of time.
 
-#INC 
+
 
 
 ## Inheritance
@@ -43,7 +47,6 @@ private AutoTimer.TargetMethod del1
 ```csharp
 public bool isInitialized
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +64,6 @@ private AutoTimer.UpdateMode mode
 ```csharp
 private bool removeAfterRun
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +83,6 @@ private AutoTimer.TargetMethod updateCalled
 ```csharp
 public static void Destroy(AutoTimer timer)
 ```
-#INC
 
 
 #### Parameters
@@ -93,28 +94,24 @@ public static void Destroy(AutoTimer timer)
 ```csharp
 public void FixedUpdate()
 ```
-#INC
 
 
 ### Init()
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public void OnDestroy()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -165,7 +162,6 @@ public void StartTimer(float time, AutoTimer.TargetMethod method, AutoTimer.Upda
 ```csharp
 public bool UnscaledRunTimer()
 ```
-#INC
 
 
 #### Returns
@@ -175,9 +171,9 @@ public bool UnscaledRunTimer()
 ```csharp
 public void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [elapsed](/api/Global/Misc/Timer#elapsed), [maxTime](/api/Global/Misc/Timer#maxtime), [started](/api/Global/Misc/Timer#started), [autoStop](/api/Global/Misc/Timer#autostop), [endCmd](/api/Global/Misc/Timer#endcmd), [StartTimer(float)](/api/Global/Misc/Timer#starttimer-float), [SetEndCmd(OnTimerRunningEnd)](/api/Global/Misc/Timer#setendcmd-ontimerrunningend), [RunTimer()](/api/Global/Misc/Timer#runtimer), [StartTimer()](/api/Global/Misc/Timer#starttimer), [StopTimer()](/api/Global/Misc/Timer#stoptimer), [ToString()](/api/Global/Misc/Timer#tostring), [GetRate()](/api/Global/Misc/Timer#getrate), [Rate](/api/Global/Misc/Timer#rate), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

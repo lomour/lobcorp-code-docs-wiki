@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IScrollTarget
 canonical_path: /api/Global/Misc/IScrollTarget
@@ -11,12 +12,15 @@ canonical_path: /api/Global/Misc/IScrollTarget
 ```csharp
 public interface IScrollTarget
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface for things that can be scrolled in.
 
 Example: [CommandWindow](/api/CommandWindow) registers itself to listen to mouse scroll while the cursor is over an [agent](/api/CommandWindow/AgentSlot), and unregisters itself when the cursor exits.
 
  (used for the work log) does the same.
-#INC 
+
 
 #### Methods
 	void Regist()
@@ -30,21 +34,18 @@ Example: [CommandWindow](/api/CommandWindow) registers itself to listen to mouse
 ```csharp
 void AddTrigger()
 ```
-#INC
 
 
 ### DeRegist()
 ```csharp
 void DeRegist()
 ```
-#INC
 
 
 ### Regist()
 ```csharp
 void Regist()
 ```
-#INC
-#code-generated
+
 
 

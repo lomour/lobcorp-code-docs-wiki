@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FixerPale.Phase
 canonical_path: /api/Global/Phase/FixerPalePhase
@@ -29,4 +30,5 @@ TELEPORTING = 1
 
 #### Field Value
 **Type:** Global.FixerPale.Phase
+
 

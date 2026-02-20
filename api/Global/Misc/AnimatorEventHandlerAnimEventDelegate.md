@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AnimatorEventHandler.AnimEventDelegate
 canonical_path: /api/Global/Misc/AnimatorEventHandlerAnimEventDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 

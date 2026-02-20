@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UncontrollableAction
 canonical_path: /api/Global/Action/UncontrollableAction
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Action/UncontrollableAction
 ```csharp
 public class UncontrollableAction : HierarchicalData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 An uncontrollable effect, for employees which are 'Uncontrollable' or otherwise possessed.
 
-#INC 
+
 
 
 ## Inheritance
@@ -36,7 +40,6 @@ public UncontrollableAction()
 ```csharp
 public virtual bool CastingSlider(Slider slider)
 ```
-#INC
 
 
 #### Parameters
@@ -51,14 +54,12 @@ public virtual bool CastingSlider(Slider slider)
 ```csharp
 public virtual void Execute()
 ```
-#INC
 
 
 ### HasAttackAnim()
 ```csharp
 public virtual bool HasAttackAnim()
 ```
-#INC
 
 
 #### Returns
@@ -68,7 +69,6 @@ public virtual bool HasAttackAnim()
 ```csharp
 public virtual bool HasUniqueHostility()
 ```
-#INC
 
 
 #### Returns
@@ -78,15 +78,12 @@ public virtual bool HasUniqueHostility()
 ```csharp
 public virtual void Init()
 ```
-#INC
-#code-generated
 
 
 ### IsAttackTargetable()
 ```csharp
 public virtual bool IsAttackTargetable()
 ```
-#INC
 
 
 #### Returns
@@ -96,7 +93,6 @@ public virtual bool IsAttackTargetable()
 ```csharp
 public virtual bool IsHostile()
 ```
-#INC
 
 
 #### Returns
@@ -106,7 +102,6 @@ public virtual bool IsHostile()
 ```csharp
 public virtual bool IsNextAttackWillKillTarget()
 ```
-#INC
 
 
 #### Returns
@@ -116,7 +111,6 @@ public virtual bool IsNextAttackWillKillTarget()
 ```csharp
 public virtual bool IsPreferredTouch()
 ```
-#INC
 
 
 #### Returns
@@ -126,35 +120,30 @@ public virtual bool IsPreferredTouch()
 ```csharp
 public virtual void OnClick()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnDie()
 ```csharp
 public virtual void OnDie()
 ```
-#INC
 
 
 ### OnKillTarget()
 ```csharp
 public virtual void OnKillTarget()
 ```
-#INC
 
 
 ### OnNextAttakInvokeKill()
 ```csharp
 public virtual bool OnNextAttakInvokeKill()
 ```
-#INC
 
 
 #### Returns
@@ -164,21 +153,18 @@ public virtual bool OnNextAttakInvokeKill()
 ```csharp
 public virtual void OnPrevDie()
 ```
-#INC
 
 
 ### OnStageEnd()
 ```csharp
 public virtual void OnStageEnd()
 ```
-#INC
 
 
 ### OnTakeMentalDamage(int)
 ```csharp
 public virtual void OnTakeMentalDamage(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -190,7 +176,6 @@ public virtual void OnTakeMentalDamage(int damage)
 ```csharp
 public virtual void OnTakePhysicalDamage(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -202,14 +187,12 @@ public virtual void OnTakePhysicalDamage(int damage)
 ```csharp
 public virtual void SetAttackAnim()
 ```
-#INC
 
 
 ### ShowUnconSpeech(string)
 ```csharp
 public virtual void ShowUnconSpeech(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -221,9 +204,9 @@ public virtual void ShowUnconSpeech(string key)
 ```csharp
 public virtual void UnderAttack()
 ```
-#INC
 
 
 ## Inherited Members
 [_H_index](/api/Global/Misc/HierarchicalData#h-index), [InitialSetting()](/api/Global/Misc/HierarchicalData#initialsetting), [GetHierachicalName()](/api/Global/Misc/HierarchicalData#gethierachicalname), [SetHierarchicalIndex(int)](/api/Global/Misc/HierarchicalData#sethierarchicalindex-int), [Comparer(HierarchicalData)](/api/Global/Misc/HierarchicalData#comparer-hierarchicaldata), [isUpperHierarchy(HierarchicalData)](/api/Global/Misc/HierarchicalData#isupperhierarchy-hierarchicaldata), [Comparer(HierarchicalData, HierarchicalData)](/api/Global/Misc/HierarchicalData#comparer-hierarchicaldata-hierarchicaldata), [HierachicalIndex](/api/Global/Misc/HierarchicalData#hierachicalindex), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

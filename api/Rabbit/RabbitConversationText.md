@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Rabbit.RabbitConversationText
 canonical_path: /api/Rabbit/RabbitConversationText
@@ -11,6 +12,9 @@ canonical_path: /api/Rabbit/RabbitConversationText
 ```csharp
 public static class RabbitConversationText
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 For getting [rabbit](/api/Global/Model/RabbitModel) yapping text.
 
 Randomly selects from the available text for the given type. See [RabbitConversationType](/api/Rabbit/RabbitConversationType).
@@ -25,7 +29,6 @@ Randomly selects from the available text for the given type. See [RabbitConversa
 ```csharp
 public static int[] keyCount
 ```
-#INC
 
 
 #### Field Value
@@ -35,7 +38,6 @@ public static int[] keyCount
 ```csharp
 private const string txt = "Rabbit_Unit_{0}_"
 ```
-#INC
 
 
 #### Field Value
@@ -47,8 +49,6 @@ private const string txt = "Rabbit_Unit_{0}_"
 ```csharp
 public static string GetKey(RabbitConversationType type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -63,7 +63,6 @@ public static string GetKey(RabbitConversationType type)
 ```csharp
 public static string GetText(RabbitConversationType type)
 ```
-#INC
 
 
 #### Parameters
@@ -76,4 +75,5 @@ public static string GetText(RabbitConversationType type)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

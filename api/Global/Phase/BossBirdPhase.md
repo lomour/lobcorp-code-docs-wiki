@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird.Phase
 canonical_path: /api/Global/Phase/BossBirdPhase
@@ -53,4 +54,5 @@ TELEPORT = 2
 
 #### Field Value
 **Type:** Global.BossBird.Phase
+
 

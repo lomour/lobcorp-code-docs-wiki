@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Legacy.TutorialController.OnPause
 canonical_path: /api/Legacy/TutorialController/OnPause
@@ -61,4 +62,5 @@ public virtual void Invoke(PAUSECALL caller)
 | Name | Type | Description |
 | --- | --- | --- |
 | `caller` | `Global.PAUSECALL` |  |
+
 

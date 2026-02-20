@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Timer
 canonical_path: /api/Global/Misc/Timer
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/Timer
 ```csharp
 public class Timer
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Runs for a certain amount of time. Used for all kinds of timed events, including cooldowns and duration times.
 
-#INC 
+
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public Timer()
 ```csharp
 public bool autoStop
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ public bool autoStop
 ```csharp
 public float elapsed
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +65,6 @@ public Timer.OnTimerRunningEnd endCmd
 ```csharp
 public float maxTime
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +74,6 @@ public float maxTime
 ```csharp
 public bool started
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +95,6 @@ public float Rate { get; }
 ```csharp
 public virtual float GetRate()
 ```
-#INC
 
 
 #### Returns
@@ -105,7 +104,6 @@ public virtual float GetRate()
 ```csharp
 public virtual bool RunTimer()
 ```
-#INC
 
 
 #### Returns
@@ -125,14 +123,12 @@ public virtual void SetEndCmd(Timer.OnTimerRunningEnd cmd)
 ```csharp
 public virtual void StartTimer()
 ```
-#INC
 
 
 ### StartTimer(float)
 ```csharp
 public virtual void StartTimer(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -144,15 +140,12 @@ public virtual void StartTimer(float time)
 ```csharp
 public virtual void StopTimer()
 ```
-#INC
 
 
 ### ToString()
 ```csharp
 public override string ToString()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -160,4 +153,5 @@ public override string ToString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

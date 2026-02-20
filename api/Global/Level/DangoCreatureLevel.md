@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DangoCreature.Level
 canonical_path: /api/Global/Level/DangoCreatureLevel
@@ -45,4 +46,5 @@ ZERO = 0
 
 #### Field Value
 **Type:** Global.DangoCreature.Level
+
 

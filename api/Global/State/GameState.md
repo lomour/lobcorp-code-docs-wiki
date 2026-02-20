@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GameState
 canonical_path: /api/Global/State/GameState
@@ -37,4 +38,5 @@ STOP = 1
 
 #### Field Value
 **Type:** Global.GameState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ElevatorType
 canonical_path: /api/Global/Type/ElevatorType
@@ -37,4 +38,5 @@ SHORT = 1
 
 #### Field Value
 **Type:** Global.ElevatorType
+
 

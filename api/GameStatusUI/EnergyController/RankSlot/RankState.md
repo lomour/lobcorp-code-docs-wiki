@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GameStatusUI.EnergyController.RankSlot.RankState
 canonical_path: /api/GameStatusUI/EnergyController/RankSlot/RankState
@@ -37,4 +38,5 @@ NORMAL = 2
 
 #### Field Value
 **Type:** GameStatusUI.EnergyController.RankSlot.RankState
+
 

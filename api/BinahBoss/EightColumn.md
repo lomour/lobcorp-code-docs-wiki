@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.EightColumn
 canonical_path: /api/BinahBoss/EightColumn
@@ -11,6 +12,9 @@ canonical_path: /api/BinahBoss/EightColumn
 ```csharp
 public class EightColumn : BinahAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 [An Arbiter](/api/Global/Script/BinahCoreScript)'s 8 column attack (scary!).
 
 
@@ -23,7 +27,6 @@ public class EightColumn : BinahAction
 ```csharp
 public EightColumn(BinahCoreScript binah)
 ```
-#INC
 
 
 #### Parameters
@@ -37,7 +40,6 @@ public EightColumn(BinahCoreScript binah)
 ```csharp
 private const float _timeLimit = 60
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +49,6 @@ private const float _timeLimit = 60
 ```csharp
 private ColumnOverload columnOverload
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +58,6 @@ private ColumnOverload columnOverload
 ```csharp
 private Dictionary<BinahProjectile, Vector3> columns
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +67,6 @@ private Dictionary<BinahProjectile, Vector3> columns
 ```csharp
 private int genCount
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +76,6 @@ private int genCount
 ```csharp
 private Timer generationTimer
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +85,6 @@ private Timer generationTimer
 ```csharp
 private float genFreq
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +94,6 @@ private float genFreq
 ```csharp
 private SoundEffectPlayer Loop
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +103,6 @@ private SoundEffectPlayer Loop
 ```csharp
 private Transform[] Pivots
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +112,6 @@ private Transform[] Pivots
 ```csharp
 private Timer timeLimitTimer
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +123,6 @@ private Timer timeLimitTimer
 ```csharp
 private BinahProjectile GenProjectile(Transform startPos, out Vector3 velocity)
 ```
-#INC
 
 
 #### Parameters
@@ -145,7 +138,6 @@ private BinahProjectile GenProjectile(Transform startPos, out Vector3 velocity)
 ```csharp
 public override void OnAnimEventCalled(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -157,59 +149,51 @@ public override void OnAnimEventCalled(int index)
 ```csharp
 public override void OnAttackEnd()
 ```
-#INC
 
 
 ### OnCancel()
 ```csharp
 public void OnCancel()
 ```
-#INC
 
 
 ### OnEnd()
 ```csharp
 public override void OnEnd()
 ```
-#INC
 
 
 ### OnExecute()
 ```csharp
 public override void OnExecute()
 ```
-#INC
 
 
 ### OnGiveDamage()
 ```csharp
 public override void OnGiveDamage()
 ```
-#INC
 
 
 ### OnShoot()
 ```csharp
 public void OnShoot()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ### ParamInit()
 ```csharp
 public override void ParamInit()
 ```
-#INC
 
 
 ## Inherited Members
 [binah](/api/BinahBoss/BinahAction#binah), [actionState](/api/BinahBoss/BinahAction#actionstate), [_interrupt](/api/BinahBoss/BinahAction#interrupt), [SetInterruptAction(BinahAction)](/api/BinahBoss/BinahAction#setinterruptaction-binahaction), [OnInterrupt()](/api/BinahBoss/BinahAction#oninterrupt), [EndAction()](/api/BinahBoss/BinahAction#endaction), [Interrupt()](/api/BinahBoss/BinahAction#interrupt), [CanTakeDamage()](/api/BinahBoss/BinahAction#cantakedamage), [Movable](/api/BinahBoss/BinahAction#movable), [Model](/api/BinahBoss/BinahAction#model), [AnimScript](/api/BinahBoss/BinahAction#animscript), [Animator](/api/BinahBoss/BinahAction#animator), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

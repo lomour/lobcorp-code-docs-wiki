@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EgoRequireType
 canonical_path: /api/Global/Type/EgoRequireType
@@ -53,4 +54,5 @@ W = 2
 
 #### Field Value
 **Type:** Global.EgoRequireType
+
 

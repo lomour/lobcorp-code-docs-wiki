@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.TextureFilter
 canonical_path: /api/Spine/TextureFilter
@@ -69,4 +70,5 @@ Nearest = 0
 
 #### Field Value
 **Type:** Spine.TextureFilter
+
 

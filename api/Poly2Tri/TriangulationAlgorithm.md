@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.TriangulationAlgorithm
 canonical_path: /api/Poly2Tri/TriangulationAlgorithm
@@ -21,4 +22,5 @@ DTSweep = 0
 
 #### Field Value
 **Type:** Poly2Tri.TriangulationAlgorithm
+
 

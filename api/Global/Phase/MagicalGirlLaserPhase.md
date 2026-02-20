@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MagicalGirl.LaserPhase
 canonical_path: /api/Global/Phase/MagicalGirlLaserPhase
@@ -37,4 +38,5 @@ THIRD = 2
 
 #### Field Value
 **Type:** Global.MagicalGirl.LaserPhase
+
 

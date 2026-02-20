@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AlterTitleController.TitleActionType
 canonical_path: /api/Global/Type/AlterTitleControllerTitleActionType
@@ -93,4 +94,5 @@ TUTORIAL = 0
 
 #### Field Value
 **Type:** Global.AlterTitleController.TitleActionType
+
 

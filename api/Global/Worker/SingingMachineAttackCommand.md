@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SingingMachineAttackCommand
 canonical_path: /api/Global/Worker/SingingMachineAttackCommand
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Worker/SingingMachineAttackCommand
 ```csharp
 public class SingingMachineAttackCommand : WorkerCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Behaviour for an uncontrollable employee attracted by [Singing Machine](/api/Global/Machine/SingingMachine). Used by  #verify .
 
-#INC 
+Behaviour for an uncontrollable employee attracted by [Singing Machine](/api/Global/Machine/SingingMachine). Used by  ^\[verify\]^.
+
+
 
 
 ## Inheritance
@@ -26,7 +30,6 @@ Behaviour for an uncontrollable employee attracted by [Singing Machine](/api/Glo
 ```csharp
 public SingingMachineAttackCommand(WorkerModel target, SingingMachine ownerMachine, SpriteRenderer deadBackHairRenderer, SpriteRenderer deadFrontHairRenderer)
 ```
-#INC
 
 
 #### Parameters
@@ -43,7 +46,6 @@ public SingingMachineAttackCommand(WorkerModel target, SingingMachine ownerMachi
 ```csharp
 private Timer _attackPreCooltimeTimer
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private Timer _attackPreCooltimeTimer
 ```csharp
 private SpriteRenderer _deadBackHairRenderer
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private SpriteRenderer _deadBackHairRenderer
 ```csharp
 private SpriteRenderer _deadFrontHairRenderer
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ private SpriteRenderer _deadFrontHairRenderer
 ```csharp
 private bool _drag
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ private bool _drag
 ```csharp
 private Timer _dragStartTimer
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ private Timer _dragStartTimer
 ```csharp
 private Timer _finishTimer
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ private Timer _finishTimer
 ```csharp
 private Timer _insertingTimer
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +109,6 @@ private Timer _insertingTimer
 ```csharp
 private float _remainAttackDelay
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +118,6 @@ private float _remainAttackDelay
 ```csharp
 private SingingMachine _singingMachine
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +127,6 @@ private SingingMachine _singingMachine
 ```csharp
 private WorkerModel _target
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +136,6 @@ private WorkerModel _target
 ```csharp
 private const float defaultDamage = 16
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +145,6 @@ private const float defaultDamage = 16
 ```csharp
 private const float range = 3
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +154,6 @@ private const float range = 3
 ```csharp
 private const float statDamageBonus = 3
 ```
-#INC
 
 
 #### Field Value
@@ -175,28 +165,24 @@ private const float statDamageBonus = 3
 ```csharp
 private void DefaultAction()
 ```
-#INC
 
 
 ### DragAction()
 ```csharp
 private void DragAction()
 ```
-#INC
 
 
 ### Execute()
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### GetTarget()
 ```csharp
 public UnitModel GetTarget()
 ```
-#INC
 
 
 #### Returns
@@ -206,21 +192,18 @@ public UnitModel GetTarget()
 ```csharp
 public virtual void GiveDamage()
 ```
-#INC
 
 
 ### MoveOrAttack()
 ```csharp
 private void MoveOrAttack()
 ```
-#INC
 
 
 ### OnAnimCalled(int)
 ```csharp
 public void OnAnimCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -232,17 +215,15 @@ public void OnAnimCalled(int i)
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [MakeManageCreature(CreatureModel, AgentModel, SkillTypeInfo, Sprite)](/api/Global/Misc/WorkerCommand#makemanagecreature-creaturemodel-agentmodel-skilltypeinfo-sprite), [MakeReturnCreature(CreatureModel)](/api/Global/Misc/WorkerCommand#makereturncreature-creaturemodel), [MakeSuppressCommand(UnitModel)](/api/Global/Misc/WorkerCommand#makesuppresscommand-unitmodel), [MakeMove(MapNode)](/api/Global/Misc/WorkerCommand#makemove-mapnode), [MakeMove(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makemove-movableobjectnode), [MakePanicPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makepanicpursueagent-unitmodel), [MakeUnconPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makeunconpursueagent-unitmodel), [MakeFollowAgent(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makefollowagent-movableobjectnode), [MakeOfficerSpecialAction(OfficerSpecialAction)](/api/Global/Misc/WorkerCommand#makeofficerspecialaction-officerspecialaction), [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

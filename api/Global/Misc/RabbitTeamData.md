@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RabbitTeamData
 canonical_path: /api/Global/Misc/RabbitTeamData
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Misc/RabbitTeamData
 ```csharp
 public class RabbitTeamData
 ```
-Holds the spawnpoint of a [rabbit team](/api/Global/Misc/RabbitTeam) and the group. The group determines which [rooms](/api/Global/Model/PassageObjectModel) this team should go to #verify .
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Holds the spawnpoint of a [rabbit team](/api/Global/Misc/RabbitTeam) and the group. The group determines which [rooms](/api/Global/Model/PassageObjectModel) this team should go to ^\[verify\]^.
 
 
 ## Inheritance
@@ -30,7 +34,6 @@ public RabbitTeamData()
 ```csharp
 public string group
 ```
-#INC
 
 
 #### Field Value
@@ -40,8 +43,6 @@ public string group
 ```csharp
 public string summonNode
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -49,4 +50,5 @@ public string summonNode
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

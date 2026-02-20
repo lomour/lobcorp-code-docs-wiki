@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchType
 canonical_path: /api/Global/Type/ResearchType
@@ -37,4 +38,5 @@ WEAPON = 2
 
 #### Field Value
 **Type:** Global.ResearchType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerClass
 canonical_path: /api/Global/Worker/WorkerClass
@@ -45,4 +46,5 @@ UNKNOWN = 0
 
 #### Field Value
 **Type:** Global.WorkerClass
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SkillTypeList
 canonical_path: /api/Global/List/SkillTypeList
@@ -11,9 +12,12 @@ canonical_path: /api/Global/List/SkillTypeList
 ```csharp
 public class SkillTypeList
 ```
-A list of [SkillTypeInfo](/api/Global/Info/SkillTypeInfo)s, mostly for abnormality work type. #verify 
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#INC 
+A list of [SkillTypeInfo](/api/Global/Info/SkillTypeInfo)s, mostly for abnormality work type. ^\[verify\]^
+
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ A list of [SkillTypeInfo](/api/Global/Info/SkillTypeInfo)s, mostly for abnormali
 ```csharp
 private SkillTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private SkillTypeList()
 ```csharp
 private static SkillTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private static SkillTypeList _instance
 ```csharp
 private List<SkillTypeInfo> _list
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private List<SkillTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public bool loaded { get; }
 ```csharp
 public SkillTypeInfo GetData(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -100,7 +98,6 @@ public SkillTypeInfo GetData(long id)
 ```csharp
 public SkillTypeInfo GetDataByName(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -115,7 +112,6 @@ public SkillTypeInfo GetDataByName(string name)
 ```csharp
 public SkillTypeInfo[] GetList()
 ```
-#INC
 
 
 #### Returns
@@ -125,7 +121,6 @@ public SkillTypeInfo[] GetList()
 ```csharp
 public SkillTypeInfo GetNextSkill(SkillTypeInfo typeInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -140,7 +135,6 @@ public SkillTypeInfo GetNextSkill(SkillTypeInfo typeInfo)
 ```csharp
 public void Init(SkillTypeInfo[] list)
 ```
-#INC
 
 
 #### Parameters
@@ -150,4 +144,5 @@ public void Init(SkillTypeInfo[] list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

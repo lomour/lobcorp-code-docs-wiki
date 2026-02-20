@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird
 canonical_path: /api/Global/Misc/BossBird
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Misc/BossBird
 ```csharp
 public class BossBird : BirdCreatureBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Apocalypse Bird. #INC 
+
+Apocalypse Bird. 
 
 
 
@@ -33,7 +37,6 @@ public BossBird()
 ```csharp
 private const int _attackDmgMax = 43
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ private const int _attackDmgMax = 43
 ```csharp
 private const int _attackDmgMin = 23
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private const int _attackDmgMin = 23
 ```csharp
 private const int _attractMax = 5
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private const int _attractMax = 5
 ```csharp
 private const int _attractMin = 3
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ private const int _attractMin = 3
 ```csharp
 private const int _biteDmgMax = 115
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ private const int _biteDmgMax = 115
 ```csharp
 private const int _biteDmgMin = 50
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ private const int _biteDmgMin = 50
 ```csharp
 private const int _boss_armor_id = 300038
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ private const int _boss_armor_id = 300038
 ```csharp
 public const int _boss_gift_id = 400038
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +109,6 @@ public const int _boss_gift_id = 400038
 ```csharp
 private const int _boss_weapon_id = 200038
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +126,6 @@ private BossBird.Phase _currentPhase
 ```csharp
 private const int _laserDmgMax = 14
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +135,6 @@ private const int _laserDmgMax = 14
 ```csharp
 private const int _laserDmgMin = 8
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +144,6 @@ private const int _laserDmgMin = 8
 ```csharp
 private const int _scaleDmgMax = 15
 ```
-#INC
 
 
 #### Field Value
@@ -161,7 +153,6 @@ private const int _scaleDmgMax = 15
 ```csharp
 private const int _scaleDmgMin = 10
 ```
-#INC
 
 
 #### Field Value
@@ -171,7 +162,6 @@ private const int _scaleDmgMin = 10
 ```csharp
 private ChildCreatureUnit _unit
 ```
-#INC
 
 
 #### Field Value
@@ -181,7 +171,6 @@ private ChildCreatureUnit _unit
 ```csharp
 private bool activateState
 ```
-#INC
 
 
 #### Field Value
@@ -191,7 +180,6 @@ private bool activateState
 ```csharp
 private List<BossEggBase> aliveEggs
 ```
-#INC
 
 
 #### Field Value
@@ -201,7 +189,6 @@ private List<BossEggBase> aliveEggs
 ```csharp
 private const float attackDelayMax = 6
 ```
-#INC
 
 
 #### Field Value
@@ -211,7 +198,6 @@ private const float attackDelayMax = 6
 ```csharp
 private const float attackDelayMin = 4
 ```
-#INC
 
 
 #### Field Value
@@ -221,7 +207,6 @@ private const float attackDelayMin = 4
 ```csharp
 private RwbpType attackType
 ```
-#INC
 
 
 #### Field Value
@@ -231,7 +216,6 @@ private RwbpType attackType
 ```csharp
 private List<WorkerModel> attracted
 ```
-#INC
 
 
 #### Field Value
@@ -241,7 +225,6 @@ private List<WorkerModel> attracted
 ```csharp
 public const string attractEffect = "Effect/Creature/BossBird/Particle/BossBirdAttractEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -251,7 +234,6 @@ public const string attractEffect = "Effect/Creature/BossBird/Particle/BossBirdA
 ```csharp
 private const int attractPatternProb = 30
 ```
-#INC
 
 
 #### Field Value
@@ -261,7 +243,6 @@ private const int attractPatternProb = 30
 ```csharp
 private BigBird bigBird
 ```
-#INC
 
 
 #### Field Value
@@ -271,7 +252,6 @@ private BigBird bigBird
 ```csharp
 private BossEggBase bigEgg
 ```
-#INC
 
 
 #### Field Value
@@ -281,7 +261,6 @@ private BossEggBase bigEgg
 ```csharp
 private List<IBirdControl> birdControl
 ```
-#INC
 
 
 #### Field Value
@@ -291,7 +270,6 @@ private List<IBirdControl> birdControl
 ```csharp
 private const int bitePatternProb = 10
 ```
-#INC
 
 
 #### Field Value
@@ -301,7 +279,6 @@ private const int bitePatternProb = 10
 ```csharp
 private RwbpType biteType
 ```
-#INC
 
 
 #### Field Value
@@ -319,7 +296,6 @@ private BossBird.AttackType currentAttackType
 ```csharp
 private BossEggBase currentForcelyTeleportTarget
 ```
-#INC
 
 
 #### Field Value
@@ -329,7 +305,6 @@ private BossEggBase currentForcelyTeleportTarget
 ```csharp
 private MapNode currentTeleportDest
 ```
-#INC
 
 
 #### Field Value
@@ -339,7 +314,6 @@ private MapNode currentTeleportDest
 ```csharp
 private SoundEffectPlayer defaultAmbience
 ```
-#INC
 
 
 #### Field Value
@@ -349,7 +323,6 @@ private SoundEffectPlayer defaultAmbience
 ```csharp
 private List<CreatureBase> escapedCreatures
 ```
-#INC
 
 
 #### Field Value
@@ -359,7 +332,6 @@ private List<CreatureBase> escapedCreatures
 ```csharp
 private BossBirdEvent eventScript
 ```
-#INC
 
 
 #### Field Value
@@ -369,7 +341,6 @@ private BossBirdEvent eventScript
 ```csharp
 private bool forcelyTeleport
 ```
-#INC
 
 
 #### Field Value
@@ -379,7 +350,6 @@ private bool forcelyTeleport
 ```csharp
 private const float forcelyTeleportDelayMin = 10
 ```
-#INC
 
 
 #### Field Value
@@ -389,7 +359,6 @@ private const float forcelyTeleportDelayMin = 10
 ```csharp
 private bool forcelyTeleportReady
 ```
-#INC
 
 
 #### Field Value
@@ -399,7 +368,6 @@ private bool forcelyTeleportReady
 ```csharp
 private Timer forcelyTeleportTimer
 ```
-#INC
 
 
 #### Field Value
@@ -409,7 +377,6 @@ private Timer forcelyTeleportTimer
 ```csharp
 private const float forcelyTteleportDelayMax = 15
 ```
-#INC
 
 
 #### Field Value
@@ -419,7 +386,6 @@ private const float forcelyTteleportDelayMax = 15
 ```csharp
 private BossGateWay gateWay
 ```
-#INC
 
 
 #### Field Value
@@ -429,7 +395,6 @@ private BossGateWay gateWay
 ```csharp
 private MapNode gatewayNode
 ```
-#INC
 
 
 #### Field Value
@@ -439,7 +404,6 @@ private MapNode gatewayNode
 ```csharp
 private bool isEscaped
 ```
-#INC
 
 
 #### Field Value
@@ -449,7 +413,6 @@ private bool isEscaped
 ```csharp
 private bool isNarration
 ```
-#INC
 
 
 #### Field Value
@@ -459,7 +422,6 @@ private bool isNarration
 ```csharp
 private bool isTeleporting
 ```
-#INC
 
 
 #### Field Value
@@ -469,7 +431,6 @@ private bool isTeleporting
 ```csharp
 private bool laserArriveSoundPlayed
 ```
-#INC
 
 
 #### Field Value
@@ -479,7 +440,6 @@ private bool laserArriveSoundPlayed
 ```csharp
 public const int LaserCount = 26
 ```
-#INC
 
 
 #### Field Value
@@ -489,7 +449,6 @@ public const int LaserCount = 26
 ```csharp
 public const string laserExplode = "Effect/Creature/BossBird/Particle/ExplodeEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -499,7 +458,6 @@ public const string laserExplode = "Effect/Creature/BossBird/Particle/ExplodeEff
 ```csharp
 private const int laserPatternProb = 35
 ```
-#INC
 
 
 #### Field Value
@@ -509,7 +467,6 @@ private const int laserPatternProb = 35
 ```csharp
 private RwbpType laserType
 ```
-#INC
 
 
 #### Field Value
@@ -519,7 +476,6 @@ private RwbpType laserType
 ```csharp
 private const float laserUnitExplodeRad = 2
 ```
-#INC
 
 
 #### Field Value
@@ -529,7 +485,6 @@ private const float laserUnitExplodeRad = 2
 ```csharp
 private LongBird longBird
 ```
-#INC
 
 
 #### Field Value
@@ -539,7 +494,6 @@ private LongBird longBird
 ```csharp
 private BossEggBase longEgg
 ```
-#INC
 
 
 #### Field Value
@@ -549,7 +503,6 @@ private BossEggBase longEgg
 ```csharp
 public const string meleeHit_1_EffectSrc = "Effect/Creature/BossBird/Particle/BossBirdMeleeHit"
 ```
-#INC
 
 
 #### Field Value
@@ -559,7 +512,6 @@ public const string meleeHit_1_EffectSrc = "Effect/Creature/BossBird/Particle/Bo
 ```csharp
 public const string meleeHit_2_Claw_LeftEffectSrc = "Effect/Creature/BossBird/Particle/SlashEffectLeft"
 ```
-#INC
 
 
 #### Field Value
@@ -569,7 +521,6 @@ public const string meleeHit_2_Claw_LeftEffectSrc = "Effect/Creature/BossBird/Pa
 ```csharp
 public const string meleeHit_2_Claw_RightEffectSrc = "Effect/Creature/BossBird/Particle/SlashEffectRight"
 ```
-#INC
 
 
 #### Field Value
@@ -579,7 +530,6 @@ public const string meleeHit_2_Claw_RightEffectSrc = "Effect/Creature/BossBird/P
 ```csharp
 public const string meleeHit_2_Grep_LeftEffectSrc = "Effect/Creature/BossBird/Particle/GrepEffectLeft"
 ```
-#INC
 
 
 #### Field Value
@@ -589,7 +539,6 @@ public const string meleeHit_2_Grep_LeftEffectSrc = "Effect/Creature/BossBird/Pa
 ```csharp
 public const string meleeHit_2_Grep_RightEffectSrc = "Effect/Creature/BossBird/Particle/GrepEffectRight"
 ```
-#INC
 
 
 #### Field Value
@@ -599,7 +548,6 @@ public const string meleeHit_2_Grep_RightEffectSrc = "Effect/Creature/BossBird/P
 ```csharp
 private bool normalAttackReady
 ```
-#INC
 
 
 #### Field Value
@@ -609,7 +557,6 @@ private bool normalAttackReady
 ```csharp
 private Timer normalAttackTimer
 ```
-#INC
 
 
 #### Field Value
@@ -619,7 +566,6 @@ private Timer normalAttackTimer
 ```csharp
 private List<IBirdControl> notArrived
 ```
-#INC
 
 
 #### Field Value
@@ -629,7 +575,6 @@ private List<IBirdControl> notArrived
 ```csharp
 private const float patternDelay = 15
 ```
-#INC
 
 
 #### Field Value
@@ -639,7 +584,6 @@ private const float patternDelay = 15
 ```csharp
 private bool patternReady
 ```
-#INC
 
 
 #### Field Value
@@ -649,7 +593,6 @@ private bool patternReady
 ```csharp
 public const string scaleEffect = "Effect/Creature/BossBird/Particle/ScaleEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -659,7 +602,6 @@ public const string scaleEffect = "Effect/Creature/BossBird/Particle/ScaleEffect
 ```csharp
 private const int scalePatternProb = 25
 ```
-#INC
 
 
 #### Field Value
@@ -669,7 +611,6 @@ private const int scalePatternProb = 25
 ```csharp
 private RwbpType scaleType
 ```
-#INC
 
 
 #### Field Value
@@ -679,7 +620,6 @@ private RwbpType scaleType
 ```csharp
 private SmallBird smallBird
 ```
-#INC
 
 
 #### Field Value
@@ -689,7 +629,6 @@ private SmallBird smallBird
 ```csharp
 private BossEggBase smallEgg
 ```
-#INC
 
 
 #### Field Value
@@ -699,7 +638,6 @@ private BossEggBase smallEgg
 ```csharp
 private Timer specialPatternTimer
 ```
-#INC
 
 
 #### Field Value
@@ -709,7 +647,6 @@ private Timer specialPatternTimer
 ```csharp
 private const float teleportDelayMax = 25
 ```
-#INC
 
 
 #### Field Value
@@ -719,7 +656,6 @@ private const float teleportDelayMax = 25
 ```csharp
 private const float teleportDelayMin = 15
 ```
-#INC
 
 
 #### Field Value
@@ -729,7 +665,6 @@ private const float teleportDelayMin = 15
 ```csharp
 private bool teleportReady
 ```
-#INC
 
 
 #### Field Value
@@ -739,7 +674,6 @@ private bool teleportReady
 ```csharp
 private Timer teleportTimer
 ```
-#INC
 
 
 #### Field Value
@@ -749,7 +683,6 @@ private Timer teleportTimer
 ```csharp
 private const long traitId = 100038
 ```
-#INC
 
 
 #### Field Value
@@ -759,7 +692,6 @@ private const long traitId = 100038
 ```csharp
 public const string ultDeadEffecSrc = "Effect/Creature/BossBird/Particle/BossBirdAgentDead"
 ```
-#INC
 
 
 #### Field Value
@@ -769,7 +701,6 @@ public const string ultDeadEffecSrc = "Effect/Creature/BossBird/Particle/BossBir
 ```csharp
 public const string ultHandLeftSrc = "Effect/Creature/BossBird/Particle/UltShock_Left"
 ```
-#INC
 
 
 #### Field Value
@@ -779,7 +710,6 @@ public const string ultHandLeftSrc = "Effect/Creature/BossBird/Particle/UltShock
 ```csharp
 public const string ultHandRightSrc = "Effect/Creature/BossBird/Particle/UltShcok_Right"
 ```
-#INC
 
 
 #### Field Value
@@ -789,7 +719,6 @@ public const string ultHandRightSrc = "Effect/Creature/BossBird/Particle/UltShco
 ```csharp
 private bool ultShooted
 ```
-#INC
 
 
 #### Field Value
@@ -799,7 +728,6 @@ private bool ultShooted
 ```csharp
 public const string ultShootEffectLeftSrc = "Effect/Creature/BossBird/Particle/GutShootEffectLeft"
 ```
-#INC
 
 
 #### Field Value
@@ -809,7 +737,6 @@ public const string ultShootEffectLeftSrc = "Effect/Creature/BossBird/Particle/G
 ```csharp
 public const string ultShootEffectRightSrc = "Effect/Creature/BossBird/Particle/GutShootEffectRight"
 ```
-#INC
 
 
 #### Field Value
@@ -819,7 +746,6 @@ public const string ultShootEffectRightSrc = "Effect/Creature/BossBird/Particle/
 ```csharp
 private Timer uniquePattern
 ```
-#INC
 
 
 #### Field Value
@@ -829,7 +755,6 @@ private Timer uniquePattern
 ```csharp
 private const float uniquePatternCheckTime = 5
 ```
-#INC
 
 
 #### Field Value
@@ -839,7 +764,6 @@ private const float uniquePatternCheckTime = 5
 ```csharp
 private Queue<IBirdControl> waitQueue
 ```
-#INC
 
 
 #### Field Value
@@ -973,8 +897,7 @@ private float teleportDelay { get; }
 ```csharp
 private void AddAgentsTrait()
 ```
-Gives all living and controllable agents the Twilight EGO Gift asynchronously #verify , then tries to make the new Twilight EGO Weapon and Suit. #uses-id
-
+Gives all living and controllable agents the Twilight EGO Gift asynchronously ^\[verify\]^, then tries to make the new Twilight EGO Weapon and Suit. 
 
 ### AfterAppearNarration()
 ```csharp
@@ -987,35 +910,30 @@ Spawns Apocalypse Bird at Entrance's last location with EscapeInit.
 ```csharp
 private void AfterEggBreakNarration()
 ```
-#INC
 
 
 ### AttractCastingSuccess()
 ```csharp
 private void AttractCastingSuccess()
 ```
-#INC
 
 
 ### AttractPattern()
 ```csharp
 public void AttractPattern()
 ```
-#INC
 
 
 ### BiteCastingSuccess()
 ```csharp
 private void BiteCastingSuccess()
 ```
-#INC
 
 
 ### BitePattern()
 ```csharp
 public void BitePattern()
 ```
-#INC
 
 
 ### CancelNormalAttack()
@@ -1043,8 +961,7 @@ Checks to make sure the game object is active (or inactive) to match Apocalypse 
 ```csharp
 private bool CheckTwilight()
 ```
-Returns false if there is an agent wielding the Twilight EGO Weapon or Suit, and true otherwise. #uses-id
-
+Returns false if there is an agent wielding the Twilight EGO Weapon or Suit, and true otherwise. 
 
 #### Returns
 **Type:** System.Boolean
@@ -1086,7 +1003,6 @@ Resets teleporting flag and phase.
 ```csharp
 public void EndUltShoot()
 ```
-#INC
 
 
 ### EscapeInit()
@@ -1094,21 +1010,19 @@ public void EndUltShoot()
 private void EscapeInit()
 ```
 Spawns Apocalypse Bird and its eggs once all birds have arrived at the [Entrance to the Black Forest](/api/Global/Misc/BossGateWay).
-#INC
 
 
 ### FadeOutSound()
 ```csharp
 public void FadeOutSound()
 ```
-Plays a sound called 'appear' which ends in 4.5 seconds #verify .
+Plays a sound called 'appear' which ends in 4.5 seconds ^\[verify\]^.
 
 
 ### GetAttackTarget()
 ```csharp
 public List<UnitModel> GetAttackTarget()
 ```
-#INC
 
 
 #### Returns
@@ -1134,7 +1048,6 @@ public BossBird.AttackType GetCurrentAttackType()
 ```csharp
 public List<UnitModel> GetDirectionTarget()
 ```
-#INC
 
 
 #### Returns
@@ -1144,7 +1057,6 @@ public List<UnitModel> GetDirectionTarget()
 ```csharp
 public List<UnitModel> GetDirectionTarget(List<UnitModel> targets, float max_dist, float min_dist)
 ```
-#INC
 
 
 #### Parameters
@@ -1161,8 +1073,7 @@ public List<UnitModel> GetDirectionTarget(List<UnitModel> targets, float max_dis
 ```csharp
 public override string GetName()
 ```
-Returns Apocalypse Bird's name. (Overrides because technically Apocalypse Bird is a ChildCreatureModel with no parent... #verify )
-#code-generated
+Returns Apocalypse Bird's name. (Overrides because technically Apocalypse Bird is a ChildCreatureModel with no parent... ^\[verify\]^)
 
 
 #### Returns
@@ -1198,7 +1109,6 @@ public static BossBird.NarrationState GetNarrationState(string state)
 ```csharp
 public CreatureStaticData.ParameterData GetParam(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -1213,7 +1123,6 @@ public CreatureStaticData.ParameterData GetParam(string key)
 ```csharp
 public string GetParamData(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -1228,7 +1137,6 @@ public string GetParamData(string key)
 ```csharp
 public List<UnitModel> GetRangeTarget(Vector3 pos, float half_Range)
 ```
-#INC
 
 
 #### Parameters
@@ -1244,7 +1152,7 @@ public List<UnitModel> GetRangeTarget(Vector3 pos, float half_Range)
 ```csharp
 public void GiveMeleeDamage()
 ```
-Does melee damage to all units in range in the direction of the attack #verify #INC .
+Does melee damage to all units in range in the direction of the attack ^\[verify\]^.
 
 
 ### InvokeForceTeleport()
@@ -1265,7 +1173,7 @@ Starts its melee attack.
 ```csharp
 private void InvokePatternAttack()
 ```
-Does a special attack depending on the current attack type. Can be normal, Big Bird's attract, Judgment Birds.... #INC , Punishing Bird's mouth attack, or a ranged attack #INC ?
+Does a special attack depending on the current attack type. Can be normal, Big Bird's attract, Judgment Birds.... , Punishing Bird's mouth attack, or a ranged attack ?
 
 
 ### InvokeTeleport()
@@ -1286,21 +1194,20 @@ Activates the Apocalypse Bird event and makes the [Entrance to the Black Forest]
 ```csharp
 private void MakeBirdObjects()
 ```
-Makes the eggs for the battle. #INC
-
+Makes the eggs for the battle. 
 
 ### MakeMovementRandom()
 ```csharp
 public void MakeMovementRandom()
 ```
-Moves to a random main room #verify #INC .
+Moves to a random main room ^\[verify\]^.
 
 
 ### MakeMovementToEgg(BossEggBase)
 ```csharp
 public void MakeMovementToEgg(BossEggBase script)
 ```
-Moves to the center of the room of the given egg, then plays the teleport animation #verify .
+Moves to the center of the room of the given egg, then plays the teleport animation ^\[verify\]^.
 
 
 #### Parameters
@@ -1312,7 +1219,7 @@ Moves to the center of the room of the given egg, then plays the teleport animat
 ```csharp
 public override SoundEffectPlayer MakeSound(string src)
 ```
-Plays the sound at the given source (to play once). Attaches itself to the camera #INC .
+Plays the sound at the given source (to play once). Attaches itself to the camera .
 
 
 #### Parameters
@@ -1327,7 +1234,7 @@ Plays the sound at the given source (to play once). Attaches itself to the camer
 ```csharp
 public override SoundEffectPlayer MakeSoundLoop(string src)
 ```
-Plays the sound at the given source (to loop). Attaches itself to the camera #INC .
+Plays the sound at the given source (to loop). Attaches itself to the camera .
 
 
 #### Parameters
@@ -1427,14 +1334,12 @@ Logs a debug message.
 ```csharp
 public void OnCastingEnd()
 ```
-#INC
 
 
 ### OnEggBreakDown(BossEggBase)
 ```csharp
 public void OnEggBreakDown(BossEggBase eggScript)
 ```
-#INC
 
 
 #### Parameters
@@ -1446,7 +1351,6 @@ public void OnEggBreakDown(BossEggBase eggScript)
 ```csharp
 public void OnEggHalfDamage(BossEggBase eggScript)
 ```
-#INC
 
 
 #### Parameters
@@ -1466,7 +1370,7 @@ If the force-teleport timer is done, there is an active egg that wants to be tel
 Otherwise, if the normal teleport is ready and Apocalypse Bird is idle, teleports normally.
 
 If not teleporting, checks to see which attack or pattern should happen. If doing a bite attack and the attack has fired, applies damage.
-If the cooldown for the normal attack is done, does a normal attack; otherwise, if the cooldown for the 'special pattern' #INC is done, does the special pattern.
+If the cooldown for the normal attack is done, does a normal attack; otherwise, if the cooldown for the 'special pattern' is done, does the special pattern.
 
 
 #### Parameters
@@ -1506,7 +1410,7 @@ private void OnSetPhase(BossBird.Phase p, bool isDifferentWithPrevious)
 ```csharp
 public override void OnStageEnd()
 ```
-Calls base's OnStageRelease #weird #verify  and sets the instances of the birds to null.
+Calls base's OnStageRelease ^\[weird\]^^\[verify\]^ and sets the instances of the birds to null.
 
 
 ### OnStageStart()
@@ -1520,14 +1424,14 @@ Calls base and resets its parameters.
 ```csharp
 public override void OnSuppressed()
 ```
-Wakes up any workers controlled by Big Bird's effect, tells each bird Apocalypse Bird has been suppressed, sets some animation thing #INC , and gives every living and controllable agent the EGO Gift Twilight.
+Wakes up any workers controlled by Big Bird's effect, tells each bird Apocalypse Bird has been suppressed, sets some animation thing , and gives every living and controllable agent the EGO Gift Twilight.
 
 
 ### OnViewInit(CreatureUnit)
 ```csharp
 public override void OnViewInit(CreatureUnit unit)
 ```
-Registers the [CreatureUnit](/api/Global/Unit/CreatureUnit) belonging to Apocalypse Bird #verify , sets the animator and a method to call at half health #inc, and unlocks all of its observation data.
+Registers the [CreatureUnit](/api/Global/Unit/CreatureUnit) belonging to Apocalypse Bird ^\[verify\]^, sets the animator and a method to call at half health #inc, and unlocks all of its observation data.
 
 
 #### Parameters
@@ -1551,7 +1455,6 @@ Removes the given worker from the list of workers attracted by Big Bird's abilit
 ```csharp
 public void OpenBossBirdCollection()
 ```
-#INC
 
 
 ### ParamInit()
@@ -1565,8 +1468,7 @@ Resets:
 - The current attack
 - The current teleport destination
 - The list of living eggs
-- Readiness for force-teleport, normal teleport, normal attack, patternReady #INC
-- Other current state (activateState #INC , teleporting, using a special attack #INC , force-teleport destination)
+- Readiness for force-teleport, normal teleport, normal attack, patternReady - Other current state (activateState , teleporting, using a special attack , force-teleport destination)
 
 
 ### PrevTeleport(MapNode)
@@ -1585,14 +1487,12 @@ Tells the animation script Apocalypse Bird is teleporting, and sets some interna
 ```csharp
 private void ScaleCastingSuccess()
 ```
-#INC
 
 
 ### ScalePattern()
 ```csharp
 public void ScalePattern()
 ```
-#INC
 
 
 ### SetBirds(LongBird, SmallBird, BigBird)
@@ -1613,8 +1513,7 @@ Registers all of the birds with Apocalypse Bird, and Apocalypse Bird with all of
 ```csharp
 public override bool SetCastingSlider(Slider castingSlider)
 ```
-Does some stuff that shouldn't matter. #verify
-
+Does some stuff that shouldn't matter. ^\[verify\]^
 
 #### Parameters
 | Name | Type | Description |
@@ -1654,7 +1553,6 @@ Sets the model to the given model.
 ```csharp
 private void SetPassageAlpha(bool isDark)
 ```
-#INC
 
 
 #### Parameters
@@ -1685,14 +1583,12 @@ Chooses a random target in range, faces towards them, and attacks.
 ```csharp
 public void StartRangeAttack()
 ```
-#INC
 
 
 ### StartUltShoot(MapNode)
 ```csharp
 private void StartUltShoot(MapNode destNode)
 ```
-#INC
 
 
 #### Parameters
@@ -1711,7 +1607,6 @@ Stops moving.
 ```csharp
 public void TakeUltDamage()
 ```
-#INC
 
 
 ### Teleport()
@@ -1737,14 +1632,12 @@ If the given EGO doesn't already exist, makes it.
 ```csharp
 private void TryMakeEquipments()
 ```
-Attempts to make the Twilight EGO Weapon and Suit, and unlocks all of Apocalypse Bird's information. #uses-id
-
+Attempts to make the Twilight EGO Weapon and Suit, and unlocks all of Apocalypse Bird's information. 
 
 ### WakeUpWorker(WorkerModel)
 ```csharp
 public void WakeUpWorker(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1754,4 +1647,5 @@ public void WakeUpWorker(WorkerModel target)
 
 ## Inherited Members
 [isolateSpriteSrc](/api/Global/Creature/CreatureBase#isolatespritesrc), [model](/api/Global/Creature/CreatureBase#model), [skill](/api/Global/Creature/CreatureBase#skill), [kitEvent](/api/Global/Creature/CreatureBase#kitevent), [hasUniqueEscapeLogic](/api/Global/Creature/CreatureBase#hasuniqueescapelogic), [isWorkAllocated](/api/Global/Creature/CreatureBase#isworkallocated), [_allocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [damage](/api/Global/Creature/CreatureBase#damage), [OnReleaseSpecialTip](/api/Global/Creature/CreatureBase#onreleasespecialtip), [specialSkillTipParamList](/api/Global/Creature/CreatureBase#specialskilltipparamlist), [_check](/api/Global/Creature/CreatureBase#check), [OnInit()](/api/Global/Creature/CreatureBase#oninit), [OnViewInitPrev(CreatureUnit)](/api/Global/Creature/CreatureBase#onviewinitprev-creatureunit), [OnFixedUpdateInSkill(UseSkill)](/api/Global/Creature/CreatureBase#onfixedupdateinskill-useskill), [OnSkillFailWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillfailworktick-useskill), [OnSkillSuccessWorkTick(UseSkill)](/api/Global/Creature/CreatureBase#onskillsuccessworktick-useskill), [OnSkillTickUpdate(UseSkill)](/api/Global/Creature/CreatureBase#onskilltickupdate-useskill), [OnSkillGoalComplete(UseSkill)](/api/Global/Creature/CreatureBase#onskillgoalcomplete-useskill), [PermitCancelCurrentWork()](/api/Global/Creature/CreatureBase#permitcancelcurrentwork), [GetKitCreatureProcessTime()](/api/Global/Creature/CreatureBase#getkitcreatureprocesstime), [OnBonusWorkProb()](/api/Global/Creature/CreatureBase#onbonusworkprob), [GetDamageMultiplierInWork(UseSkill)](/api/Global/Creature/CreatureBase#getdamagemultiplierinwork-useskill), [TranformWorkProb(float)](/api/Global/Creature/CreatureBase#tranformworkprob-float), [OnEnterRoom(UseSkill)](/api/Global/Creature/CreatureBase#onenterroom-useskill), [OnReleaseWork(UseSkill)](/api/Global/Creature/CreatureBase#onreleasework-useskill), [OnFinishWork(UseSkill)](/api/Global/Creature/CreatureBase#onfinishwork-useskill), [OnWorkCoolTimeEnd(CreatureFeelingState)](/api/Global/Creature/CreatureBase#onworkcooltimeend-creaturefeelingstate), [OnReturn()](/api/Global/Creature/CreatureBase#onreturn), [UniqueEscape()](/api/Global/Creature/CreatureBase#uniqueescape), [Escape()](/api/Global/Creature/CreatureBase#escape), [GetSpecialSkill()](/api/Global/Creature/CreatureBase#getspecialskill), [GetDebugText()](/api/Global/Creature/CreatureBase#getdebugtext), [OnTimerEnd()](/api/Global/Creature/CreatureBase#ontimerend), [MakeEffect(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffect-isolateroom-int), [MakeEffectAlter(IsolateRoom, int)](/api/Global/Creature/CreatureBase#makeeffectalter-isolateroom-int), [Prob(int)](/api/Global/Creature/CreatureBase#prob-int), [isAttackInWorkProcess()](/api/Global/Creature/CreatureBase#isattackinworkprocess), [OnAttackInWorkProcess(UseSkill)](/api/Global/Creature/CreatureBase#onattackinworkprocess-useskill), [AttackProcess(UnitModel)](/api/Global/Creature/CreatureBase#attackprocess-unitmodel), [AutoFeelingDown()](/api/Global/Creature/CreatureBase#autofeelingdown), [AgentAnimCalled(int, WorkerModel)](/api/Global/Creature/CreatureBase#agentanimcalled-int-workermodel), [MakingEffect(string, float, string, Transform, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-transform-int), [MakingEffect(string, float)](/api/Global/Creature/CreatureBase#makingeffect-string-float), [MakeEffectAttachedToHead(string)](/api/Global/Creature/CreatureBase#makeeffectattachedtohead-string), [MakingEffect(string, float, string, Vector3, int)](/api/Global/Creature/CreatureBase#makingeffect-string-float-string-vector3-int), [OnAgentWorkEndAnimationPlayed(UseSkill)](/api/Global/Creature/CreatureBase#onagentworkendanimationplayed-useskill), [OnAgentAllocateWork(AgentModel)](/api/Global/Creature/CreatureBase#onagentallocatework-agentmodel), [OnStageRelease()](/api/Global/Creature/CreatureBase#onstagerelease), [OnAllocatedWork(AgentModel)](/api/Global/Creature/CreatureBase#onallocatedwork-agentmodel), [OnReleaseWorkAllocated()](/api/Global/Creature/CreatureBase#onreleaseworkallocated), [ObserveLevelChangeForSpecialSkillTip()](/api/Global/Creature/CreatureBase#observelevelchangeforspecialskilltip), [OnObserveLevelChanged()](/api/Global/Creature/CreatureBase#onobservelevelchanged), [HasUniqueProcessWorkNarration()](/api/Global/Creature/CreatureBase#hasuniqueprocessworknarration), [UniqueProcessWorkNarration(UseSkill)](/api/Global/Creature/CreatureBase#uniqueprocessworknarration-useskill), [RoomSpriteInit()](/api/Global/Creature/CreatureBase#roomspriteinit), [RoomEscapeSpriteOn()](/api/Global/Creature/CreatureBase#roomescapespriteon), [RoomEscapeSpriteOff()](/api/Global/Creature/CreatureBase#roomescapespriteoff), [RoomSkillSpriteOn()](/api/Global/Creature/CreatureBase#roomskillspriteon), [RoomSkillSpriteOff()](/api/Global/Creature/CreatureBase#roomskillspriteoff), [RoomStateSpriteOn()](/api/Global/Creature/CreatureBase#roomstatespriteon), [RoomStateSpriteOff()](/api/Global/Creature/CreatureBase#roomstatespriteoff), [OnForceSpecialSkillTipReveal(string, params object[])](/api/Global/Creature/CreatureBase#onforcespecialskilltipreveal-string-params-object), [OnWorkReleaseSpeicalSkillTipReveal(string)](/api/Global/Creature/CreatureBase#onworkreleasespeicalskilltipreveal-string), [OnWorkReleaseTipUpdate(params object[])](/api/Global/Creature/CreatureBase#onworkreleasetipupdate-params-object), [OnAgentAnimatorReseted()](/api/Global/Creature/CreatureBase#onagentanimatorreseted), [SpecialEnergyTick()](/api/Global/Creature/CreatureBase#specialenergytick), [OnFeverTimeOver()](/api/Global/Creature/CreatureBase#onfevertimeover), [OnOverlayIsolateWork()](/api/Global/Creature/CreatureBase#onoverlayisolatework), [OnOverlayIsolateObserve()](/api/Global/Creature/CreatureBase#onoverlayisolateobserve), [OnOpenObserveWindow()](/api/Global/Creature/CreatureBase#onopenobservewindow), [OnOpenWorkWindow()](/api/Global/Creature/CreatureBase#onopenworkwindow), [OnOpenCollectionWindow()](/api/Global/Creature/CreatureBase#onopencollectionwindow), [DelayAttackMotion(float)](/api/Global/Creature/CreatureBase#delayattackmotion-float), [IsAttackTargetable()](/api/Global/Creature/CreatureBase#isattacktargetable), [GetRealTargets()](/api/Global/Creature/CreatureBase#getrealtargets), [HasScriptSaveData()](/api/Global/Creature/CreatureBase#hasscriptsavedata), [GetSaveData()](/api/Global/Creature/CreatureBase#getsavedata), [LoadData(Dictionary<string, object>)](/api/Global/Creature/CreatureBase#loaddata-dictionary-string-object), [LoadScriptData()](/api/Global/Creature/CreatureBase#loadscriptdata), [SaveScriptData()](/api/Global/Creature/CreatureBase#savescriptdata), [ExistSaveData()](/api/Global/Creature/CreatureBase#existsavedata), [RemoveSaveData()](/api/Global/Creature/CreatureBase#removesavedata), [ReplaceCommand(CreatureModel)](/api/Global/Creature/CreatureBase#replacecommand-creaturemodel), [OnGamemanagerInit()](/api/Global/Creature/CreatureBase#ongamemanagerinit), [MakeEffectGlobalPos(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalpos-string-vector3), [MakeEffectGlobalPosNonTrans(string, Vector3)](/api/Global/Creature/CreatureBase#makeeffectglobalposnontrans-string-vector3), [CanObservedByAgent(AgentModel)](/api/Global/Creature/CreatureBase#canobservedbyagent-agentmodel), [MakeSound(string, float)](/api/Global/Creature/CreatureBase#makesound-string-float), [MakeSound(string, AudioRolloffMode)](/api/Global/Creature/CreatureBase#makesound-string-audiorolloffmode), [MakeSoundQueue(params string[])](/api/Global/Creature/CreatureBase#makesoundqueue-params-string), [OnViewDestroy()](/api/Global/Creature/CreatureBase#onviewdestroy), [IsWorkable()](/api/Global/Creature/CreatureBase#isworkable), [HasUniqueMaxObservationFinish()](/api/Global/Creature/CreatureBase#hasuniquemaxobservationfinish), [UniqueMaxObservationFinish(Desc)](/api/Global/Creature/CreatureBase#uniquemaxobservationfinish-desc), [OnChildSuppressed(ChildCreatureModel)](/api/Global/Creature/CreatureBase#onchildsuppressed-childcreaturemodel), [MakeChildCreature(UnitModel)](/api/Global/Creature/CreatureBase#makechildcreature-unitmodel), [OnKillWorker(WorkerModel)](/api/Global/Creature/CreatureBase#onkillworker-workermodel), [GenPursueCommandAlter(WorkerModel)](/api/Global/Creature/CreatureBase#genpursuecommandalter-workermodel), [hasUniqueDeadScene()](/api/Global/Creature/CreatureBase#hasuniquedeadscene), [SetHpSlider(Slider)](/api/Global/Creature/CreatureBase#sethpslider-slider), [HasUniqueAttackDealy()](/api/Global/Creature/CreatureBase#hasuniqueattackdealy), [CanTakeDamage(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#cantakedamage-unitmodel-damageinfo), [OnTakePhysicalDamage(UnitModel, float)](/api/Global/Creature/CreatureBase#ontakephysicaldamage-unitmodel-float), [HasUniqueFaction()](/api/Global/Creature/CreatureBase#hasuniquefaction), [OnWorkerPanic(WorkerModel)](/api/Global/Creature/CreatureBase#onworkerpanic-workermodel), [OnSelectMaxObservation(int)](/api/Global/Creature/CreatureBase#onselectmaxobservation-int), [OnLoadCreatureName(ref string)](/api/Global/Creature/CreatureBase#onloadcreaturename-ref-string), [IsSuppressable()](/api/Global/Creature/CreatureBase#issuppressable), [IsSuppressableByRoom()](/api/Global/Creature/CreatureBase#issuppressablebyroom), [IsAutoSuppressable()](/api/Global/Creature/CreatureBase#isautosuppressable), [OnWorkWindowSkillClicked(long)](/api/Global/Creature/CreatureBase#onworkwindowskillclicked-long), [UseDefaultDamageIgnoreMessage(DamageTextEffect)](/api/Global/Creature/CreatureBase#usedefaultdamageignoremessage-damagetexteffect), [OnWorkAllocated(SkillTypeInfo, AgentModel)](/api/Global/Creature/CreatureBase#onworkallocated-skilltypeinfo-agentmodel), [GetPhysicalDamage(out float)](/api/Global/Creature/CreatureBase#getphysicaldamage-out-float), [GetMentalDamage(out float)](/api/Global/Creature/CreatureBase#getmentaldamage-out-float), [OnSuperArmorBreak()](/api/Global/Creature/CreatureBase#onsuperarmorbreak), [UniqueStunEffect()](/api/Global/Creature/CreatureBase#uniquestuneffect), [HasEscapeUI()](/api/Global/Creature/CreatureBase#hasescapeui), [HasRoomCounter()](/api/Global/Creature/CreatureBase#hasroomcounter), [RoomCounterInit()](/api/Global/Creature/CreatureBase#roomcounterinit), [ResetQliphothCounter()](/api/Global/Creature/CreatureBase#resetqliphothcounter), [GetMaxWorkCountView()](/api/Global/Creature/CreatureBase#getmaxworkcountview), [GetQliphothCounterMax()](/api/Global/Creature/CreatureBase#getqliphothcountermax), [ActivateQliphothCounter()](/api/Global/Creature/CreatureBase#activateqliphothcounter), [ReducedQliphothCounter()](/api/Global/Creature/CreatureBase#reducedqliphothcounter), [AddedQliphothCounter()](/api/Global/Creature/CreatureBase#addedqliphothcounter), [OnTakeDamage(UnitModel, DamageInfo, float)](/api/Global/Creature/CreatureBase#ontakedamage-unitmodel-damageinfo-float), [GetRadius()](/api/Global/Creature/CreatureBase#getradius), [OnElevatorStuck()](/api/Global/Creature/CreatureBase#onelevatorstuck), [OnWorkClosed(UseSkill, int)](/api/Global/Creature/CreatureBase#onworkclosed-useskill-int), [IsActivatedWorkDesc()](/api/Global/Creature/CreatureBase#isactivatedworkdesc), [IsSensoredInPassage()](/api/Global/Creature/CreatureBase#issensoredinpassage), [IsIndirectSuppressable()](/api/Global/Creature/CreatureBase#isindirectsuppressable), [GetRiskLevel()](/api/Global/Creature/CreatureBase#getrisklevel), [UniqueMoveControl()](/api/Global/Creature/CreatureBase#uniquemovecontrol), [HasUniqueName()](/api/Global/Creature/CreatureBase#hasuniquename), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Creature/CreatureBase#getdamagefactor-unitmodel-damageinfo), [OnInitialBuild()](/api/Global/Creature/CreatureBase#oninitialbuild), [HasUniqueCollectionCost(string, out string)](/api/Global/Creature/CreatureBase#hasuniquecollectioncost-string-out-string), [OnOpenCommandWindow(Button[])](/api/Global/Creature/CreatureBase#onopencommandwindow-button), [HasUniqueCommandAction(int)](/api/Global/Creature/CreatureBase#hasuniquecommandaction-int), [HasUniqueWorkSelect(int)](/api/Global/Creature/CreatureBase#hasuniqueworkselect-int), [ForcelySuccess(UseSkill)](/api/Global/Creature/CreatureBase#forcelysuccess-useskill), [ForcelyFail(UseSkill)](/api/Global/Creature/CreatureBase#forcelyfail-useskill), [TryRabbitTeleport(MapNode)](/api/Global/Creature/CreatureBase#tryrabbitteleport-mapnode), [CanEnterRoom()](/api/Global/Creature/CreatureBase#canenterroom), [AllocatedAgent](/api/Global/Creature/CreatureBase#allocatedagent), [skillTriggerCheck](/api/Global/Creature/CreatureBase#skilltriggercheck), [Unit](/api/Global/Creature/CreatureBase#unit), [GetSaveSrc](/api/Global/Creature/CreatureBase#getsavesrc), [movable](/api/Global/Creature/CreatureBase#movable), [currentPassage](/api/Global/Creature/CreatureBase#currentpassage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

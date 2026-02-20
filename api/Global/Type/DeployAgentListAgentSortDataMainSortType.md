@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployAgentList.AgentSortData.MainSortType
 canonical_path: /api/Global/Type/DeployAgentListAgentSortDataMainSortType
@@ -29,4 +30,5 @@ VALUE = 0
 
 #### Field Value
 **Type:** Global.DeployAgentList.AgentSortData.MainSortType
+
 

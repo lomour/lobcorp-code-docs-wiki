@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PursueCreatureCommandAlter
 canonical_path: /api/Global/Creature/PursueCreatureCommandAlter
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Creature/PursueCreatureCommandAlter
 ```csharp
 public class PursueCreatureCommandAlter : CreatureCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Command to pursue a nearby worker.
 
@@ -29,7 +33,6 @@ Ends when this creature is no longer breaching or the target is dead #verify.
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -41,7 +44,6 @@ public PursueCreatureCommandAlter(WorkerModel target)
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -54,7 +56,6 @@ public PursueCreatureCommandAlter(WorkerModel target, float damage)
 ```csharp
 public PursueCreatureCommandAlter(WorkerModel target, RwbpType dmgType, int dmgMin, int dmgMax)
 ```
-#INC
 
 
 #### Parameters
@@ -71,7 +72,6 @@ public PursueCreatureCommandAlter(WorkerModel target, RwbpType dmgType, int dmgM
 ```csharp
 private Timer changeTargetTimer
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +81,6 @@ private Timer changeTargetTimer
 ```csharp
 private float damage
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +90,6 @@ private float damage
 ```csharp
 private int dmgMax
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +99,6 @@ private int dmgMax
 ```csharp
 private int dmgMin
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +108,6 @@ private int dmgMin
 ```csharp
 private RwbpType dmgType
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +117,6 @@ private RwbpType dmgType
 ```csharp
 private float elapsedTime
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +126,6 @@ private float elapsedTime
 ```csharp
 private const float maxWaitTime = 10
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +135,6 @@ private const float maxWaitTime = 10
 ```csharp
 private WorkerModel targetWorker
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +144,6 @@ private WorkerModel targetWorker
 ```csharp
 private float waitingTime
 ```
-#INC
 
 
 #### Field Value
@@ -163,38 +155,33 @@ private float waitingTime
 ```csharp
 private void CheckPursueTarget()
 ```
-#INC
 
 
 ### Execute()
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### GiveDamage()
 ```csharp
 public void GiveDamage()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [actor](/api/Global/Misc/CreatureCommand#actor), [cmdQueue](/api/Global/Misc/CreatureCommand#cmdqueue), [isFinished](/api/Global/Misc/CreatureCommand#isfinished), [endCmd](/api/Global/Misc/CreatureCommand#endcmd), [OnInit(CreatureModel, CreatureCommandQueue)](/api/Global/Misc/CreatureCommand#oninit-creaturemodel-creaturecommandqueue), [OnStop()](/api/Global/Misc/CreatureCommand#onstop), [Finish()](/api/Global/Misc/CreatureCommand#finish), [SetEndCommand(OnCommandEnd)](/api/Global/Misc/CreatureCommand#setendcommand-oncommandend), [MakeMove(MapNode)](/api/Global/Misc/CreatureCommand#makemove-mapnode), [MakeMove(MovableObjectNode)](/api/Global/Misc/CreatureCommand#makemove-movableobjectnode), [MakePursue(WorkerModel)](/api/Global/Misc/CreatureCommand#makepursue-workermodel), [MakePursueAlter(WorkerModel)](/api/Global/Misc/CreatureCommand#makepursuealter-workermodel), [MakePursueAlter(WorkerModel, float)](/api/Global/Misc/CreatureCommand#makepursuealter-workermodel-float), [MakePursueAlter(WorkerModel, RwbpType, int, int)](/api/Global/Misc/CreatureCommand#makepursuealter-workermodel-rwbptype-int-int), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

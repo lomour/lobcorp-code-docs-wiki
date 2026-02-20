@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.DamageType
 canonical_path: /api/GeburahBoss/DamageType
@@ -37,4 +38,5 @@ RANGED = 1
 
 #### Field Value
 **Type:** GeburahBoss.DamageType
+
 

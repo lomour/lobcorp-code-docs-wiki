@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MissionManager
 canonical_path: /api/Global/IOBserver/MissionManager
@@ -11,10 +12,13 @@ canonical_path: /api/Global/IOBserver/MissionManager
 ```csharp
 public class MissionManager : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Manages missions. Holds remaining missions, active missions, cleared mission, and unavailable missions.
 
-#INC 
+
 
 
 ## Inheritance
@@ -29,8 +33,6 @@ Manages missions. Holds remaining missions, active missions, cleared mission, an
 ```csharp
 private MissionManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -39,7 +41,6 @@ private MissionManager()
 ```csharp
 private static MissionManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +50,6 @@ private static MissionManager _instance
 ```csharp
 private List<Mission> clearedMissions
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +59,6 @@ private List<Mission> clearedMissions
 ```csharp
 private List<Mission> closedMissions
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +68,6 @@ private List<Mission> closedMissions
 ```csharp
 private List<Mission> missionsInProgress
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +77,6 @@ private List<Mission> missionsInProgress
 ```csharp
 private List<Mission> remainMissions
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +98,6 @@ public static MissionManager instance { get; }
 ```csharp
 public Mission CheckMissionComplete(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -116,7 +112,6 @@ public Mission CheckMissionComplete(SefiraEnum sefira)
 ```csharp
 public void ClearMission(Mission m)
 ```
-#INC
 
 
 #### Parameters
@@ -128,7 +123,6 @@ public void ClearMission(Mission m)
 ```csharp
 public void CloseClearedMission(Mission m)
 ```
-#INC
 
 
 #### Parameters
@@ -140,7 +134,6 @@ public void CloseClearedMission(Mission m)
 ```csharp
 public void CloseClearedMission_ExceptBoss(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -152,7 +145,6 @@ public void CloseClearedMission_ExceptBoss(SefiraEnum sefira)
 ```csharp
 public void DebugMissionClear(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -164,7 +156,6 @@ public void DebugMissionClear(int index)
 ```csharp
 public bool ExistsBossMission()
 ```
-#INC
 
 
 #### Returns
@@ -174,7 +165,6 @@ public bool ExistsBossMission()
 ```csharp
 public bool ExistsBossMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -189,7 +179,6 @@ public bool ExistsBossMission(SefiraEnum sefira)
 ```csharp
 public bool ExistsClearedMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -204,7 +193,6 @@ public bool ExistsClearedMission(SefiraEnum sefira)
 ```csharp
 public bool ExistsFinishedBossMission()
 ```
-#INC
 
 
 #### Returns
@@ -214,7 +202,6 @@ public bool ExistsFinishedBossMission()
 ```csharp
 public bool ExistsFinishedBossMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -229,7 +216,6 @@ public bool ExistsFinishedBossMission(SefiraEnum sefira)
 ```csharp
 public Mission GetAvailableMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -244,7 +230,6 @@ public Mission GetAvailableMission(SefiraEnum sefira)
 ```csharp
 public Mission GetAvailableMission(SefiraEnum sefira, out List<string> requireTextList, out bool isBossMission)
 ```
-#INC
 
 
 #### Parameters
@@ -261,7 +246,6 @@ public Mission GetAvailableMission(SefiraEnum sefira, out List<string> requireTe
 ```csharp
 public Mission GetBossMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -276,7 +260,6 @@ public Mission GetBossMission(SefiraEnum sefira)
 ```csharp
 public List<Mission> GetClearedMissions()
 ```
-#INC
 
 
 #### Returns
@@ -286,7 +269,6 @@ public List<Mission> GetClearedMissions()
 ```csharp
 public int GetClearedOrClosedBossMissionNum()
 ```
-#INC
 
 
 #### Returns
@@ -296,7 +278,6 @@ public int GetClearedOrClosedBossMissionNum()
 ```csharp
 public List<Mission> GetClearedOrClosedBossMissions()
 ```
-#INC
 
 
 #### Returns
@@ -306,7 +287,6 @@ public List<Mission> GetClearedOrClosedBossMissions()
 ```csharp
 public int GetClearedOrClosedMissionNum(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -321,7 +301,6 @@ public int GetClearedOrClosedMissionNum(SefiraEnum sefira)
 ```csharp
 public Mission GetCurrentSefiraMission(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -336,7 +315,6 @@ public Mission GetCurrentSefiraMission(SefiraEnum sefira)
 ```csharp
 public List<Mission> GetMissionsInProgress()
 ```
-#INC
 
 
 #### Returns
@@ -346,7 +324,6 @@ public List<Mission> GetMissionsInProgress()
 ```csharp
 public Mission GetNextMission(SefiraEnum sefira, out List<string> requireTextList, out bool isBossMission)
 ```
-#INC
 
 
 #### Parameters
@@ -363,7 +340,6 @@ public Mission GetNextMission(SefiraEnum sefira, out List<string> requireTextLis
 ```csharp
 public Mission GetReadyToClearMission(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -378,7 +354,6 @@ public Mission GetReadyToClearMission(SefiraEnum sefiraEnum)
 ```csharp
 public List<Mission> GetReadyToClearMissions()
 ```
-#INC
 
 
 #### Returns
@@ -388,7 +363,6 @@ public List<Mission> GetReadyToClearMissions()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -398,14 +372,12 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### LoadData(Dictionary<string, object>)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -417,7 +389,6 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -430,28 +401,24 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### ReleaseGame()
 ```csharp
 public void ReleaseGame()
 ```
-#INC
 
 
 ### RemoveTutorialMission()
 ```csharp
 public void RemoveTutorialMission()
 ```
-#INC
 
 
 ### StartMission(int)
 ```csharp
 public void StartMission(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -463,9 +430,9 @@ public void StartMission(int id)
 ```csharp
 public void StartTutorialMission()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UIController.OnHideAction
 canonical_path: /api/Global/Action/UIControllerOnHideAction
@@ -37,4 +38,5 @@ None = 0
 
 #### Field Value
 **Type:** Global.UIController.OnHideAction
+
 

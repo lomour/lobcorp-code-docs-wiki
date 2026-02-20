@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StorySeedUI.StorySeedEnd
 canonical_path: /api/Global/Misc/StorySeedUIStorySeedEnd
@@ -61,4 +62,5 @@ public virtual void Invoke(string angelaStory)
 | Name | Type | Description |
 | --- | --- | --- |
 | `angelaStory` | `System.String` |  |
+
 

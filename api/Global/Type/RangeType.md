@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RangeType
 canonical_path: /api/Global/Type/RangeType
@@ -11,4 +12,5 @@ canonical_path: /api/Global/Type/RangeType
 ```csharp
 public enum RangeType
 ```
+
 

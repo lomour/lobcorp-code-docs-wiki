@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryDialogueBoxType
 canonical_path: /api/Global/Type/StoryDialogueBoxType
@@ -45,4 +46,5 @@ NARRATION = 2
 
 #### Field Value
 **Type:** Global.StoryDialogueBoxType
+
 

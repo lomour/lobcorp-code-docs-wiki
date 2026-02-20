@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployUI
 canonical_path: /api/Global/UI/DeployUI
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UI/DeployUI
 ```csharp
 public class DeployUI : MonoBehaviour, IScrollMessageReciever
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 The deployment UI, including [all departments](/api/Global/List/DeploySefiraList), the hire button and the list of [undeployed agents](/api/Global/List/DeployAgentList), the [research window](/api/Global/IANimatorEventCalled/ResearchWindow) (when research can be obtained), the [memory repository popup](/api/Global/IOBserver/CheckPointUI), a button for the [E.G.O List](/api/Inventory/InventoryUI), a button to access the [manual](/api/Manual), and the Begin Management button.
 
@@ -37,7 +41,6 @@ public DeployUI()
 ```csharp
 private int _currentColorIndex
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +50,6 @@ private int _currentColorIndex
 ```csharp
 private SefiraLevel _currentLevel
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +59,6 @@ private SefiraLevel _currentLevel
 ```csharp
 private static DeployUI _instance
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +68,6 @@ private static DeployUI _instance
 ```csharp
 private bool _isEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +77,6 @@ private bool _isEnabled
 ```csharp
 private bool _isGameStarted
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +86,6 @@ private bool _isGameStarted
 ```csharp
 private Timer _moveAreaTimer
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +95,6 @@ private Timer _moveAreaTimer
 ```csharp
 private bool _startAble
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +104,6 @@ private bool _startAble
 ```csharp
 private bool _startButtonOverlayed
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +113,6 @@ private bool _startButtonOverlayed
 ```csharp
 public const int AgentCustomCost = 1
 ```
-#INC
 
 
 #### Field Value
@@ -127,7 +122,6 @@ public const int AgentCustomCost = 1
 ```csharp
 public Sprite[] AgentGradeImage
 ```
-#INC
 
 
 #### Field Value
@@ -137,7 +131,6 @@ public Sprite[] AgentGradeImage
 ```csharp
 public const int AgentHireCost = 1
 ```
-#INC
 
 
 #### Field Value
@@ -147,7 +140,6 @@ public const int AgentHireCost = 1
 ```csharp
 public Sprite[] AgentLifeStyleImage
 ```
-#INC
 
 
 #### Field Value
@@ -157,7 +149,6 @@ public Sprite[] AgentLifeStyleImage
 ```csharp
 public Color[] AgentLifeStyleThemeColor
 ```
-#INC
 
 
 #### Field Value
@@ -167,7 +158,6 @@ public Color[] AgentLifeStyleThemeColor
 ```csharp
 public DeployAgentList agentList
 ```
-#INC
 
 
 #### Field Value
@@ -177,7 +167,6 @@ public DeployAgentList agentList
 ```csharp
 public const int AgentMaxLevel = 5
 ```
-#INC
 
 
 #### Field Value
@@ -187,7 +176,6 @@ public const int AgentMaxLevel = 5
 ```csharp
 public Animator AreaMoveAnim
 ```
-#INC
 
 
 #### Field Value
@@ -197,7 +185,6 @@ public Animator AreaMoveAnim
 ```csharp
 public Button[] AreaMoveButton
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +194,6 @@ public Button[] AreaMoveButton
 ```csharp
 public Vector2 CanavsRect
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +203,6 @@ public Vector2 CanavsRect
 ```csharp
 public Canvas canvas
 ```
-#INC
 
 
 #### Field Value
@@ -227,7 +212,6 @@ public Canvas canvas
 ```csharp
 public const int CheckPointDayCount = 5
 ```
-#INC
 
 
 #### Field Value
@@ -237,7 +221,6 @@ public const int CheckPointDayCount = 5
 ```csharp
 public CheckPointUI checkPointUI
 ```
-#INC
 
 
 #### Field Value
@@ -256,7 +239,6 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 private int currentTutorialIndex
 ```
-#INC
 
 
 #### Field Value
@@ -266,7 +248,6 @@ private int currentTutorialIndex
 ```csharp
 public static int[] CusomAgentHireCost
 ```
-#INC
 
 
 #### Field Value
@@ -276,7 +257,6 @@ public static int[] CusomAgentHireCost
 ```csharp
 public Image[] DayCircleImage
 ```
-#INC
 
 
 #### Field Value
@@ -295,7 +275,6 @@ public Text dayCount
 ```csharp
 public Sprite[] defaultWorkIcon
 ```
-#INC
 
 
 #### Field Value
@@ -314,7 +293,6 @@ public Color[] DeployColorSet
 ```csharp
 public Sprite Gender_Female
 ```
-#INC
 
 
 #### Field Value
@@ -324,7 +302,6 @@ public Sprite Gender_Female
 ```csharp
 public Sprite Gender_Male
 ```
-#INC
 
 
 #### Field Value
@@ -334,7 +311,6 @@ public Sprite Gender_Male
 ```csharp
 public Text goal
 ```
-#INC
 
 
 #### Field Value
@@ -344,7 +320,6 @@ public Text goal
 ```csharp
 public GameObject[] KetherConnected
 ```
-#INC
 
 
 #### Field Value
@@ -372,7 +347,6 @@ public List<GameObject> middleAreaConnected
 ```csharp
 public RectTransform MoveControl
 ```
-#INC
 
 
 #### Field Value
@@ -382,7 +356,6 @@ public RectTransform MoveControl
 ```csharp
 public Text ordeal
 ```
-#INC
 
 
 #### Field Value
@@ -392,7 +365,6 @@ public Text ordeal
 ```csharp
 public Text OrdealText
 ```
-#INC
 
 
 #### Field Value
@@ -402,7 +374,6 @@ public Text OrdealText
 ```csharp
 public const string Point = "LOB"
 ```
-#INC
 
 
 #### Field Value
@@ -412,7 +383,6 @@ public const string Point = "LOB"
 ```csharp
 public Text pointCount
 ```
-#INC
 
 
 #### Field Value
@@ -422,7 +392,6 @@ public Text pointCount
 ```csharp
 private Queue<Sefira> ResearchUpgradeWaitQueue
 ```
-#INC
 
 
 #### Field Value
@@ -432,7 +401,6 @@ private Queue<Sefira> ResearchUpgradeWaitQueue
 ```csharp
 public ResearchWindow researchWindow
 ```
-#INC
 
 
 #### Field Value
@@ -442,7 +410,6 @@ public ResearchWindow researchWindow
 ```csharp
 private List<IDeployResetCalled> resetTargets
 ```
-#INC
 
 
 #### Field Value
@@ -452,7 +419,6 @@ private List<IDeployResetCalled> resetTargets
 ```csharp
 public Color[] RiskLevelColor
 ```
-#INC
 
 
 #### Field Value
@@ -462,7 +428,6 @@ public Color[] RiskLevelColor
 ```csharp
 public List<ScrollExchanger> scroll
 ```
-#INC
 
 
 #### Field Value
@@ -472,7 +437,6 @@ public List<ScrollExchanger> scroll
 ```csharp
 public RectTransform SefiraBossTutorial_HorizontalText
 ```
-#INC
 
 
 #### Field Value
@@ -482,7 +446,6 @@ public RectTransform SefiraBossTutorial_HorizontalText
 ```csharp
 public Button SefiraBossTutorial_Left
 ```
-#INC
 
 
 #### Field Value
@@ -492,7 +455,6 @@ public Button SefiraBossTutorial_Left
 ```csharp
 public Button SefiraBossTutorial_Right
 ```
-#INC
 
 
 #### Field Value
@@ -502,7 +464,6 @@ public Button SefiraBossTutorial_Right
 ```csharp
 public List<Text> SefiraBossTutorial_Text
 ```
-#INC
 
 
 #### Field Value
@@ -512,7 +473,6 @@ public List<Text> SefiraBossTutorial_Text
 ```csharp
 public RectTransform SefiraBossTutorial_VerticalText
 ```
-#INC
 
 
 #### Field Value
@@ -522,7 +482,6 @@ public RectTransform SefiraBossTutorial_VerticalText
 ```csharp
 public Image SefiraBossTutorialBlock
 ```
-#INC
 
 
 #### Field Value
@@ -532,7 +491,6 @@ public Image SefiraBossTutorialBlock
 ```csharp
 public Text SefiraBossTutorialIndex
 ```
-#INC
 
 
 #### Field Value
@@ -551,7 +509,6 @@ public GameObject SefiraBossTutorialRoot
 ```csharp
 public GameObject SefiraBossZeroEmpty
 ```
-#INC
 
 
 #### Field Value
@@ -561,7 +518,6 @@ public GameObject SefiraBossZeroEmpty
 ```csharp
 public DeploySefiraList sefiraList
 ```
-#INC
 
 
 #### Field Value
@@ -571,7 +527,6 @@ public DeploySefiraList sefiraList
 ```csharp
 public Text StartButtonText
 ```
-#INC
 
 
 #### Field Value
@@ -581,7 +536,6 @@ public Text StartButtonText
 ```csharp
 public Image StartButtonTexture
 ```
-#INC
 
 
 #### Field Value
@@ -591,7 +545,6 @@ public Image StartButtonTexture
 ```csharp
 public Color UIDefaultBlack
 ```
-#INC
 
 
 #### Field Value
@@ -601,7 +554,6 @@ public Color UIDefaultBlack
 ```csharp
 public Color UIDefaultFill
 ```
-#INC
 
 
 #### Field Value
@@ -611,7 +563,6 @@ public Color UIDefaultFill
 ```csharp
 public Color UIOverlayColor
 ```
-#INC
 
 
 #### Field Value
@@ -697,14 +648,12 @@ public bool StartAble { get; private set; }
 ```csharp
 public void AddAgent()
 ```
-#INC
 
 
 ### AddAgent(AgentModel)
 ```csharp
 public void AddAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -716,22 +665,18 @@ public void AddAgent(AgentModel agent)
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### BuyAgent()
 ```csharp
 public void BuyAgent()
 ```
-#INC
 
 
 ### CheckBossClear()
 ```csharp
 public bool CheckBossClear()
 ```
-#INC
 
 
 #### Returns
@@ -741,7 +686,6 @@ public bool CheckBossClear()
 ```csharp
 private bool CheckPointCheck()
 ```
-#INC
 
 
 #### Returns
@@ -751,21 +695,18 @@ private bool CheckPointCheck()
 ```csharp
 public void CheckResearch()
 ```
-#INC
 
 
 ### CheckResearchAvailable()
 ```csharp
 private void CheckResearchAvailable()
 ```
-#INC
 
 
 ### CheckResearchRemains(Sefira)
 ```csharp
 private bool CheckResearchRemains(Sefira target)
 ```
-#INC
 
 
 #### Parameters
@@ -780,14 +721,12 @@ private bool CheckResearchRemains(Sefira target)
 ```csharp
 private void CheckStartState()
 ```
-#INC
 
 
 ### GetAgentGenderImage(string)
 ```csharp
 public static Sprite GetAgentGenderImage(string gender)
 ```
-#INC
 
 
 #### Parameters
@@ -802,7 +741,6 @@ public static Sprite GetAgentGenderImage(string gender)
 ```csharp
 public static Sprite GetAgentGradeSprite(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -817,7 +755,6 @@ public static Sprite GetAgentGradeSprite(AgentModel agent)
 ```csharp
 public static Sprite[] GetAgentWorkIcon(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -832,7 +769,6 @@ public static Sprite[] GetAgentWorkIcon(AgentModel agent)
 ```csharp
 public Vector2 GetCanvasPosition(RectTransform target)
 ```
-#INC
 
 
 #### Parameters
@@ -847,7 +783,6 @@ public Vector2 GetCanvasPosition(RectTransform target)
 ```csharp
 public static Color GetCreatureRiskLevelColor(RiskLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -862,7 +797,6 @@ public static Color GetCreatureRiskLevelColor(RiskLevel level)
 ```csharp
 public string GetCustomHireText(bool isEnter)
 ```
-#INC
 
 
 #### Parameters
@@ -877,7 +811,6 @@ public string GetCustomHireText(bool isEnter)
 ```csharp
 public static Sprite GetGradeSprite(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -892,7 +825,6 @@ public static Sprite GetGradeSprite(int level)
 ```csharp
 public string GetHireText(bool isEnter)
 ```
-#INC
 
 
 #### Parameters
@@ -907,42 +839,36 @@ public string GetHireText(bool isEnter)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InitBossSetting()
 ```csharp
 public void InitBossSetting()
 ```
-#INC
 
 
 ### InitialResearchProcedure()
 ```csharp
 private void InitialResearchProcedure()
 ```
-#INC
 
 
 ### InputCheck()
 ```csharp
 private void InputCheck()
 ```
-#INC
 
 
 ### MakeStartSound()
 ```csharp
 public void MakeStartSound()
 ```
-#INC
 
 
 ### MoveSefira(MoveDirection)
 ```csharp
 private void MoveSefira(MoveDirection dir)
 ```
-#INC
 
 
 #### Parameters
@@ -954,14 +880,12 @@ private void MoveSefira(MoveDirection dir)
 ```csharp
 public void OnBossTutorialEnd()
 ```
-#INC
 
 
 ### OnClickMoveArea(int)
 ```csharp
 public void OnClickMoveArea(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -973,7 +897,6 @@ public void OnClickMoveArea(int i)
 ```csharp
 public bool OnClickSefiraBossSession(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -988,21 +911,18 @@ public bool OnClickSefiraBossSession(SefiraEnum sefira)
 ```csharp
 public void OnClickStartGame()
 ```
-#INC
 
 
 ### OnManagementStart()
 ```csharp
 public void OnManagementStart()
 ```
-#INC
 
 
 ### OnScroll(PointerEventData)
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
-#INC
 
 
 #### Parameters
@@ -1014,7 +934,6 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 public void OnSetLevel(SefiraLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -1026,7 +945,6 @@ public void OnSetLevel(SefiraLevel level)
 ```csharp
 private void OnSetStartState(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -1038,42 +956,36 @@ private void OnSetStartState(bool state)
 ```csharp
 public void OnStartButtonEnter()
 ```
-#INC
 
 
 ### OnStartButtonExit()
 ```csharp
 public void OnStartButtonExit()
 ```
-#INC
 
 
 ### OpenCustomizingWindow()
 ```csharp
 public void OpenCustomizingWindow()
 ```
-#INC
 
 
 ### OpenInventroyUI()
 ```csharp
 public void OpenInventroyUI()
 ```
-#INC
 
 
 ### OpenManual()
 ```csharp
 public void OpenManual()
 ```
-#INC
 
 
 ### OrdealTextSetting(bool, string)
 ```csharp
 public void OrdealTextSetting(bool hasOrdeal, string text)
 ```
-#INC
 
 
 #### Parameters
@@ -1086,7 +998,6 @@ public void OrdealTextSetting(bool hasOrdeal, string text)
 ```csharp
 public void RegistDeployReset(IDeployResetCalled called)
 ```
-#INC
 
 
 #### Parameters
@@ -1098,42 +1009,36 @@ public void RegistDeployReset(IDeployResetCalled called)
 ```csharp
 public void ResetAll()
 ```
-#INC
 
 
 ### SefiraTutorialDecrease()
 ```csharp
 public void SefiraTutorialDecrease()
 ```
-#INC
 
 
 ### SefiraTutorialIncrease()
 ```csharp
 public void SefiraTutorialIncrease()
 ```
-#INC
 
 
 ### SetBossTutorial()
 ```csharp
 private void SetBossTutorial()
 ```
-#INC
 
 
 ### SetDayIcon()
 ```csharp
 private void SetDayIcon()
 ```
-#INC
 
 
 ### SetOrdealText(OrdealLevel)
 ```csharp
 public void SetOrdealText(OrdealLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -1145,7 +1050,6 @@ public void SetOrdealText(OrdealLevel level)
 ```csharp
 public void SetResearchWaitQueue(params string[] sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -1157,30 +1061,27 @@ public void SetResearchWaitQueue(params string[] sefira)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### TextCheckPoint()
 ```csharp
 public void TextCheckPoint()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### VolumeSetting()
 ```csharp
 public void VolumeSetting()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

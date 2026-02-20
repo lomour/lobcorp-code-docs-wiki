@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AssetLoader
 canonical_path: /api/Global/Loader/AssetLoader
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Loader/AssetLoader
 ```csharp
 public class AssetLoader
 ```
-Loads an XML from `ExternalData/xml` #verify .
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Loads an XML from `ExternalData/xml` ^\[verify\]^.
 
 
 ## Inheritance
@@ -30,8 +34,6 @@ public AssetLoader()
 ```csharp
 public static XmlDocument LoadExternalXML(string src)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -46,7 +48,6 @@ public static XmlDocument LoadExternalXML(string src)
 ```csharp
 public static XmlDocument LoadExternalXmlSafe(string fileName, string language, bool languageFolderExist, string prefix = "Language/")
 ```
-#INC
 
 
 #### Parameters
@@ -62,4 +63,5 @@ public static XmlDocument LoadExternalXmlSafe(string fileName, string language, 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

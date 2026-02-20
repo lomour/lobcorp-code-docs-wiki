@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StorySelectionOptionUI.AnimationState
 canonical_path: /api/Global/State/StorySelectionOptionUIAnimationState
@@ -37,4 +38,5 @@ STOP = 0
 
 #### Field Value
 **Type:** Global.StorySelectionOptionUI.AnimationState
+
 

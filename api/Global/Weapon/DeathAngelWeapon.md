@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeathAngelWeapon
 canonical_path: /api/Global/Weapon/DeathAngelWeapon
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Weapon/DeathAngelWeapon
 ```csharp
 public class DeathAngelWeapon : EquipmentScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Script for [WhiteNight](/api/Legacy/DeathAngel)'s EGO Weapon: Paradise Lost.
 
@@ -20,7 +24,7 @@ Has a special AOE attack which gives a shield that negates all forms of damage. 
 Heals on attack, and prevents all other healing except by damage.
 Apparently slows the target on hit, too?
 
-#INC 
+
 
 
 ## Inheritance
@@ -39,7 +43,6 @@ public DeathAngelWeapon()
 ```csharp
 private const float _barrierTime = 10
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +52,6 @@ private const float _barrierTime = 10
 ```csharp
 private const float _barrierValue = 100
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +61,6 @@ private const float _barrierValue = 100
 ```csharp
 private const int _dmgMax_1st = 20
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +70,6 @@ private const int _dmgMax_1st = 20
 ```csharp
 private const int _dmgMax_2nd = 23
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +79,6 @@ private const int _dmgMax_2nd = 23
 ```csharp
 private const int _dmgMax_3rd = 28
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +88,6 @@ private const int _dmgMax_3rd = 28
 ```csharp
 private const int _dmgMin_1st = 16
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +97,6 @@ private const int _dmgMin_1st = 16
 ```csharp
 private const int _dmgMin_2nd = 19
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +106,6 @@ private const int _dmgMin_2nd = 19
 ```csharp
 private const int _dmgMin_3rd = 22
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +115,6 @@ private const int _dmgMin_3rd = 22
 ```csharp
 private const RwbpType _dmgType = P
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +124,6 @@ private const RwbpType _dmgType = P
 ```csharp
 private const int _effectConditionFirst = 2
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +133,6 @@ private const int _effectConditionFirst = 2
 ```csharp
 private const int _effectConditionSecond = 6
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +142,6 @@ private const int _effectConditionSecond = 6
 ```csharp
 private const string _effectSrc = "Effect/Invoke/DamageInfo/DeathAngelWeaponeffect"
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +151,6 @@ private const string _effectSrc = "Effect/Invoke/DamageInfo/DeathAngelWeaponeffe
 ```csharp
 private const float _healMax = 4
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +160,6 @@ private const float _healMax = 4
 ```csharp
 private const float _healMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +169,6 @@ private const float _healMin = 2
 ```csharp
 private bool _isBattle
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +178,6 @@ private bool _isBattle
 ```csharp
 private const float _skillCoolTimeMax = 20
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +187,6 @@ private const float _skillCoolTimeMax = 20
 ```csharp
 private const float _skillCoolTimeMin = 20
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +196,6 @@ private const float _skillCoolTimeMin = 20
 ```csharp
 private GameObject _skillEffect
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +205,6 @@ private GameObject _skillEffect
 ```csharp
 private const string _trailSrc = "Effect/Agent/DeathAngelWeaponTrail"
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +214,6 @@ private const string _trailSrc = "Effect/Agent/DeathAngelWeaponTrail"
 ```csharp
 private bool _whiteNight
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +223,6 @@ private bool _whiteNight
 ```csharp
 private bool atkInit
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +232,6 @@ private bool atkInit
 ```csharp
 private bool isSpecial
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +241,6 @@ private bool isSpecial
 ```csharp
 private Timer skillCoolTimer
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +250,6 @@ private Timer skillCoolTimer
 ```csharp
 private readonly Vector3 trailPos
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +259,6 @@ private readonly Vector3 trailPos
 ```csharp
 private readonly Vector3 trailRot
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +268,6 @@ private readonly Vector3 trailRot
 ```csharp
 private WorkerModel worker
 ```
-#INC
 
 
 #### Field Value
@@ -343,21 +321,18 @@ private static float skillCoolTime { get; }
 ```csharp
 private void ClearEffect()
 ```
-#INC
 
 
 ### GetBarrier()
 ```csharp
 private void GetBarrier()
 ```
-#INC
 
 
 ### GetTargets()
 ```csharp
 private List<UnitModel> GetTargets()
 ```
-#INC
 
 
 #### Returns
@@ -367,7 +342,6 @@ private List<UnitModel> GetTargets()
 ```csharp
 private void GiveDamage(UnitModel target, int cnt)
 ```
-#INC
 
 
 #### Parameters
@@ -380,7 +354,6 @@ private void GiveDamage(UnitModel target, int cnt)
 ```csharp
 private bool IsHostile(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -395,14 +368,12 @@ private bool IsHostile(UnitModel target)
 ```csharp
 private void LoadEffect()
 ```
-#INC
 
 
 ### MakeEffect(UnitModel, int)
 ```csharp
 private void MakeEffect(UnitModel target, int cnt)
 ```
-#INC
 
 
 #### Parameters
@@ -415,7 +386,6 @@ private void MakeEffect(UnitModel target, int cnt)
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -442,7 +412,6 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnCancelWeapon(UnitModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -454,14 +423,12 @@ public override void OnCancelWeapon(UnitModel actor)
 ```csharp
 public override void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -478,7 +445,6 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnPrepareWeapon(UnitModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -490,22 +456,18 @@ public override void OnPrepareWeapon(UnitModel actor)
 ```csharp
 public override void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
-#code-generated
 
 
 ### SetEffectActive(bool)
 ```csharp
 private void SetEffectActive(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -517,9 +479,9 @@ private void SetEffectActive(bool state)
 ```csharp
 private void SetNextAttackType()
 ```
-#INC
 
 
 ## Inherited Members
 [_model](/api/Global/Misc/EquipmentScriptBase#model), [_reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [MAX_REINFORCEMENT_LEVEL](/api/Global/Misc/EquipmentScriptBase#max-reinforcement-level), [SetModel(EquipmentModel)](/api/Global/Misc/EquipmentScriptBase#setmodel-equipmentmodel), [OnEquip(UnitModel)](/api/Global/Misc/EquipmentScriptBase#onequip-unitmodel), [OnRelease()](/api/Global/Misc/EquipmentScriptBase#onrelease), [OnKillMainTarget(UnitModel, UnitModel)](/api/Global/Misc/EquipmentScriptBase#onkillmaintarget-unitmodel-unitmodel), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/EquipmentScriptBase#ongivedamageafter-unitmodel-unitmodel-damageinfo), [OnTakeDamage(UnitModel, ref DamageInfo)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-unitmodel-ref-damageinfo), [OnTakeDamage_After(float, RwbpType)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-after-float-rwbptype), [GetReinforcementDmg()](/api/Global/Misc/EquipmentScriptBase#getreinforcementdmg), [AddReinforcementLevel(int)](/api/Global/Misc/EquipmentScriptBase#addreinforcementlevel-int), [GetDefense(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdefense-unitmodel), [GetDamageFactor()](/api/Global/Misc/EquipmentScriptBase#getdamagefactor), [GetDamage(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdamage-unitmodel), [GetBonus(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getbonus-unitmodel), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/EquipmentScriptBase#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OwnerHeal(bool, ref float)](/api/Global/Misc/EquipmentScriptBase#ownerheal-bool-ref-float), [model](/api/Global/Misc/EquipmentScriptBase#model), [reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.PolygonUtil.PolyOperation
 canonical_path: /api/Poly2Tri/PolygonUtil/PolyOperation
@@ -48,4 +49,5 @@ Union = 1
 
 #### Field Value
 **Type:** Poly2Tri.PolygonUtil.PolyOperation
+
 

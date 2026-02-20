@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DamageInfo_EffectType
 canonical_path: /api/Global/Type/DamageInfoEffectType
@@ -29,4 +30,5 @@ DAMAGE_INVOKED = 1
 
 #### Field Value
 **Type:** Global.DamageInfo_EffectType
+
 

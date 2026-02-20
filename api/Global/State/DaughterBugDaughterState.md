@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DaughterBug.DaughterState
 canonical_path: /api/Global/State/DaughterBugDaughterState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.DaughterBug.DaughterState
+
 

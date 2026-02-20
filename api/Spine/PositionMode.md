@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.PositionMode
 canonical_path: /api/Spine/PositionMode
@@ -29,4 +30,5 @@ Percent = 1
 
 #### Field Value
 **Type:** Spine.PositionMode
+
 

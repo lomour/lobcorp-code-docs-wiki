@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureWorkType
 canonical_path: /api/Global/Type/CreatureWorkType
@@ -29,4 +30,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.CreatureWorkType
+
 

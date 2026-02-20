@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DefenseInfo.Type
 canonical_path: /api/Global/Type/DefenseInfoType
@@ -61,4 +62,5 @@ WEAKNESS = 1
 
 #### Field Value
 **Type:** Global.DefenseInfo.Type
+
 

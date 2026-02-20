@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AutoTimer.UpdateMode
 canonical_path: /api/Global/Misc/AutoTimerUpdateMode
@@ -29,4 +30,5 @@ UPDATE = 1
 
 #### Field Value
 **Type:** Global.AutoTimer.UpdateMode
+
 

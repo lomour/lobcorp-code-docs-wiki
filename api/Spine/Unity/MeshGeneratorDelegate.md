@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.MeshGeneratorDelegate
 canonical_path: /api/Spine/Unity/MeshGeneratorDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(MeshGeneratorBuffers buffers)
 | Name | Type | Description |
 | --- | --- | --- |
 | `buffers` | `Spine.Unity.MeshGeneratorBuffers` |  |
+
 

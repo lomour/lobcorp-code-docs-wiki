@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossGateWay.GateWayState
 canonical_path: /api/Global/State/BossGateWayGateWayState
@@ -45,4 +46,5 @@ LV4 = 3
 
 #### Field Value
 **Type:** Global.BossGateWay.GateWayState
+
 

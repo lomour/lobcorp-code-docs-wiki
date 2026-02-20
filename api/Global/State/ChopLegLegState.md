@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChopLeg.LegState
 canonical_path: /api/Global/State/ChopLegLegState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.ChopLeg.LegState
+
 

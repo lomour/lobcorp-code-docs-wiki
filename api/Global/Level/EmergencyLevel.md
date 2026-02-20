@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EmergencyLevel
 canonical_path: /api/Global/Level/EmergencyLevel
@@ -53,4 +54,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.EmergencyLevel
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RecoilArrow
 canonical_path: /api/Global/Misc/RecoilArrow
@@ -77,4 +78,5 @@ UP = 1
 
 #### Field Value
 **Type:** Global.RecoilArrow
+
 

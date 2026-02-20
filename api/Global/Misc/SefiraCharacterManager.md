@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraCharacterManager
 canonical_path: /api/Global/Misc/SefiraCharacterManager
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SefiraCharacterManager
 ```csharp
 public class SefiraCharacterManager
 ```
-Manages [SefiraCharacterModel](/api/Global/Model/SefiraCharacterModel)s, which represent departments opened to a certain level. #verify 
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#INC 
+Manages [SefiraCharacterModel](/api/Global/Model/SefiraCharacterModel)s, which represent departments opened to a certain level. ^\[verify\]^
+
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Manages [SefiraCharacterModel](/api/Global/Model/SefiraCharacterModel)s, which r
 ```csharp
 private SefiraCharacterManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private SefiraCharacterManager()
 ```csharp
 private Dictionary<SefiraEnum, SefiraCharacterModel> _characters
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private Dictionary<SefiraEnum, SefiraCharacterModel> _characters
 ```csharp
 private List<SefiraCharacterModel> _charactersList
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private List<SefiraCharacterModel> _charactersList
 ```csharp
 private static SefiraCharacterManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +76,6 @@ public static SefiraCharacterManager instance { get; }
 ```csharp
 private void AddSefiraInfo(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -89,7 +87,6 @@ private void AddSefiraInfo(SefiraEnum sefira)
 ```csharp
 public IList<SefiraCharacterModel> GetList()
 ```
-#INC
 
 
 #### Returns
@@ -99,7 +96,6 @@ public IList<SefiraCharacterModel> GetList()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -109,7 +105,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public SefiraCharacterModel GetSefiraCharacter(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -124,14 +119,12 @@ public SefiraCharacterModel GetSefiraCharacter(SefiraEnum sefira)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### LoadData(Dictionary<string, object>)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -143,7 +136,6 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnOpenSefira(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -153,4 +145,5 @@ public void OnOpenSefira(SefiraEnum sefira)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

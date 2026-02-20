@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LaserScript.TargetCollapsed
 canonical_path: /api/Global/Misc/LaserScriptTargetCollapsed
@@ -61,4 +62,5 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 

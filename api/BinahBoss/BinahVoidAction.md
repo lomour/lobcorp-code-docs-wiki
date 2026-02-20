@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahVoidAction
 canonical_path: /api/BinahBoss/BinahVoidAction
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

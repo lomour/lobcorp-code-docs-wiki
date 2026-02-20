@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptCameraFilter
 canonical_path: /api/Global/Misc/StoryScriptCameraFilter
@@ -461,4 +462,5 @@ WING = 52
 
 #### Field Value
 **Type:** Global.StoryScriptCameraFilter
+
 

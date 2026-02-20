@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EffectInfo
 canonical_path: /api/Global/Info/EffectInfo
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Info/EffectInfo
 ```csharp
 public class EffectInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Has information about a damage effect and provides static methods to invoke the effect.
 
 Used by [DamageInfo](/api/Global/Info/DamageInfo) and [WeaponModel](/api/Global/Model/WeaponModel)s.
 
-#INC 
+
 
 
 ## Inheritance
@@ -34,7 +38,6 @@ public EffectInfo()
 ```csharp
 public const string EffectPrefix = "DamageInfo/"
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ public const string EffectPrefix = "DamageInfo/"
 ```csharp
 public string effectSrc
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ public string effectSrc
 ```csharp
 public DamageInfo_EffectType effectType
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ public DamageInfo_EffectType effectType
 ```csharp
 public EffectInvokedUnit invokedUnit
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ public EffectInvokedUnit invokedUnit
 ```csharp
 public bool invokeOnce
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ public bool invokeOnce
 ```csharp
 public float lifetime
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public float lifetime
 ```csharp
 public Vector3 relativePosition
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ public Vector3 relativePosition
 ```csharp
 public float rotation
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ public float rotation
 ```csharp
 public bool unscaled
 ```
-#INC
 
 
 #### Field Value
@@ -126,8 +121,6 @@ public bool unscaled
 ```csharp
 public static EffectInvoker MakeEffect(EffectInfo info, MovableObjectNode mov)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -143,7 +136,6 @@ public static EffectInvoker MakeEffect(EffectInfo info, MovableObjectNode mov)
 ```csharp
 public EffectInvoker MakeEffect(MovableObjectNode mov)
 ```
-#INC
 
 
 #### Parameters
@@ -156,4 +148,5 @@ public EffectInvoker MakeEffect(MovableObjectNode mov)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

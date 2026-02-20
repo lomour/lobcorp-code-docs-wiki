@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.ISkeletonAnimation
 canonical_path: /api/Spine/Unity/ISkeletonAnimation
@@ -54,4 +55,5 @@ event UpdateBonesDelegate UpdateWorld
 
 #### Returns
 **Type:** Spine.Unity.UpdateBonesDelegate
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TextAppearEffectType
 canonical_path: /api/Global/Type/TextAppearEffectType
@@ -29,4 +30,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.TextAppearEffectType
+
 

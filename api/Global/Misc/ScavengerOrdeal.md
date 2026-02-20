@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ScavengerOrdeal
 canonical_path: /api/Global/Misc/ScavengerOrdeal
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/ScavengerOrdeal
 ```csharp
 public class ScavengerOrdeal : OrdealBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Parent class for Indigo Ordeals. There is just one: [Indigo Noon](/api/Global/Misc/ScavengerNoonOrdeal).
 
@@ -27,7 +31,6 @@ Parent class for Indigo Ordeals. There is just one: [Indigo Noon](/api/Global/Mi
 ```csharp
 public ScavengerOrdeal()
 ```
-#INC
 
 
 ## Fields
@@ -36,7 +39,6 @@ public ScavengerOrdeal()
 ```csharp
 protected Color _color
 ```
-#INC
 
 
 #### Field Value
@@ -46,7 +48,6 @@ protected Color _color
 ```csharp
 protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +57,6 @@ protected List<OrdealCreatureModel> _curOrdealCreatureList
 ```csharp
 protected string _ordealName
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +66,6 @@ protected string _ordealName
 ```csharp
 private static int[] ids
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +77,6 @@ private static int[] ids
 ```csharp
 protected virtual bool CheckCloseCondition()
 ```
-#INC
 
 
 #### Returns
@@ -88,15 +86,12 @@ protected virtual bool CheckCloseCondition()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### MakeOrdealCreature(OrdealLevel, MapNode, params UnitDirection[])
 ```csharp
 public ScavengerOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode node, params UnitDirection[] direction)
 ```
-#INC
 
 
 #### Parameters
@@ -113,7 +108,6 @@ public ScavengerOrdealCreature MakeOrdealCreature(OrdealLevel level, MapNode nod
 ```csharp
 public virtual void OnDie(OrdealCreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -125,23 +119,21 @@ public virtual void OnDie(OrdealCreatureModel model)
 ```csharp
 public override void OnOrdealStart()
 ```
-#INC
 
 
 ### OrdealEnd()
 ```csharp
 public override void OrdealEnd()
 ```
-#INC
 
 
 ### SetColor()
 ```csharp
 protected void SetColor()
 ```
-#INC
 
 
 ## Inherited Members
 [level](/api/Global/Misc/OrdealBase#level), [riskLevel](/api/Global/Misc/OrdealBase#risklevel), [ordealRewards](/api/Global/Misc/OrdealBase#ordealrewards), [startTime](/api/Global/Misc/OrdealBase#starttime), [isStarted](/api/Global/Misc/OrdealBase#isstarted), [_ordeal_name](/api/Global/Misc/OrdealBase#ordeal-name), [OrdealColor](/api/Global/Misc/OrdealBase#ordealcolor), [_canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OrdealNameText(OrdealCreatureModel)](/api/Global/Misc/OrdealBase#ordealnametext-ordealcreaturemodel), [OnGameInit()](/api/Global/Misc/OrdealBase#ongameinit), [OnDestroy()](/api/Global/Misc/OrdealBase#ondestroy), [OrdealTypo(string, Color, bool, int)](/api/Global/Misc/OrdealBase#ordealtypo-string-color-bool-int), [IsStartable()](/api/Global/Misc/OrdealBase#isstartable), [GetRiskLevel(OrdealCreatureModel)](/api/Global/Misc/OrdealBase#getrisklevel-ordealcreaturemodel), [SetRiskLevel(RiskLevel)](/api/Global/Misc/OrdealBase#setrisklevel-risklevel), [canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OrdealTypeText](/api/Global/Misc/OrdealBase#ordealtypetext), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

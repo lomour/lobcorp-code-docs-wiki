@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusDawn.State
 canonical_path: /api/Global/State/CircusDawnState
@@ -45,4 +46,5 @@ TRICK = 2
 
 #### Field Value
 **Type:** Global.CircusDawn.State
+
 

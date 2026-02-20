@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureEventCallTime
 canonical_path: /api/Global/Misc/CreatureEventCallTime
@@ -37,4 +38,5 @@ OnRoomEnter = 1
 
 #### Field Value
 **Type:** Global.CreatureEventCallTime
+
 

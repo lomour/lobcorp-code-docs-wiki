@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryUI.AddFilterFunc
 canonical_path: /api/Global/Misc/StoryUIAddFilterFunc
@@ -61,4 +62,5 @@ public virtual void Invoke(StoryFilterParameter param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `Global.StoryFilterParameter` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Drop.OnDropEvent
 canonical_path: /api/Global/Event/DropOnDropEvent
@@ -67,4 +68,5 @@ public virtual bool Invoke(params object[] param)
 
 #### Returns
 **Type:** System.Boolean
+
 

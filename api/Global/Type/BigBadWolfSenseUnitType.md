@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBadWolfSense.UnitType
 canonical_path: /api/Global/Type/BigBadWolfSenseUnitType
@@ -53,4 +54,5 @@ OFFICER = 1
 
 #### Field Value
 **Type:** Global.BigBadWolfSense.UnitType
+
 

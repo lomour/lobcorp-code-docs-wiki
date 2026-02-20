@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OfficerManager
 canonical_path: /api/Global/Misc/OfficerManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/OfficerManager
 ```csharp
 public class OfficerManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages the list of clerks.
 
 Holds an ID which is incremented by one each time a new clerk is added. Also holds the first part of clerks' names.
@@ -56,8 +60,6 @@ Calls OnFixedUpdate() for each clerk.
 ```csharp
 public OfficerManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -66,7 +68,6 @@ public OfficerManager()
 ```csharp
 private static OfficerManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +77,6 @@ private static OfficerManager _instance
 ```csharp
 private static int agentImgRange
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +86,6 @@ private static int agentImgRange
 ```csharp
 public bool isLoadedActionList
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +95,6 @@ public bool isLoadedActionList
 ```csharp
 public static string[] nameList
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +104,6 @@ public static string[] nameList
 ```csharp
 private long nextInstId
 ```
-#INC
 
 
 #### Field Value
@@ -116,7 +113,6 @@ private long nextInstId
 ```csharp
 private List<OfficerModel> officerList
 ```
-#INC
 
 
 #### Field Value
@@ -138,21 +134,18 @@ public static OfficerManager instance { get; }
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### ClearOfficer()
 ```csharp
 public void ClearOfficer()
 ```
-#INC
 
 
 ### CreateDebugOfficer()
 ```csharp
 public OfficerModel CreateDebugOfficer()
 ```
-#INC
 
 
 #### Returns
@@ -162,7 +155,6 @@ public OfficerModel CreateDebugOfficer()
 ```csharp
 public OfficerModel CreateDebugOfficer(string nodeId)
 ```
-#INC
 
 
 #### Parameters
@@ -177,7 +169,6 @@ public OfficerModel CreateDebugOfficer(string nodeId)
 ```csharp
 public OfficerModel CreateOfficerModel(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -192,7 +183,6 @@ public OfficerModel CreateOfficerModel(string sefira)
 ```csharp
 public OfficerModel[] GetNearOfficers(MovableObjectNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -207,7 +197,6 @@ public OfficerModel[] GetNearOfficers(MovableObjectNode node)
 ```csharp
 public IList<OfficerModel> GetOfficerList()
 ```
-#INC
 
 
 #### Returns
@@ -217,7 +206,6 @@ public IList<OfficerModel> GetOfficerList()
 ```csharp
 private static string GetRandomName(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -232,30 +220,27 @@ private static string GetRandomName(string sefira)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnStageEnd()
 ```csharp
 public void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

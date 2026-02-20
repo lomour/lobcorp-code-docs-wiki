@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptPosEnum
 canonical_path: /api/Global/Misc/StoryScriptPosEnum
@@ -93,4 +94,5 @@ RIGHT_NEAR = 9
 
 #### Field Value
 **Type:** Global.StoryScriptPosEnum
+
 

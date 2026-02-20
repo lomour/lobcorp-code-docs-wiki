@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusDawnOrdeal
 canonical_path: /api/Global/Misc/CircusDawnOrdeal
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/CircusDawnOrdeal
 ```csharp
 public class CircusDawnOrdeal : CircusOrdeal
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Dawn of Crimson ordeal, The Cheers for the Beginning. Spawns several [CircusDawns](/api/Global/Misc/CircusDawn).
 
@@ -24,7 +28,6 @@ Dawn of Crimson ordeal, The Cheers for the Beginning. Spawns several [CircusDawn
 ```csharp
 public CircusDawnOrdeal()
 ```
-#INC
 
 
 ## Fields
@@ -33,7 +36,6 @@ public CircusDawnOrdeal()
 ```csharp
 private CreatureModel _currentWaitingCreature
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +47,6 @@ private CreatureModel _currentWaitingCreature
 ```csharp
 public CreatureModel GetTarget(out bool hasError)
 ```
-#INC
 
 
 #### Parameters
@@ -60,7 +61,6 @@ public CreatureModel GetTarget(out bool hasError)
 ```csharp
 public MapNode GetTeleportNode()
 ```
-#INC
 
 
 #### Returns
@@ -70,7 +70,6 @@ public MapNode GetTeleportNode()
 ```csharp
 public override bool IsStartable()
 ```
-#INC
 
 
 #### Returns
@@ -80,15 +79,12 @@ public override bool IsStartable()
 ```csharp
 public override void OnOrdealStart()
 ```
-#INC
-#code-generated
 
 
 ### ReadyForTeleport()
 ```csharp
 public bool ReadyForTeleport()
 ```
-#INC
 
 
 #### Returns
@@ -96,4 +92,5 @@ public bool ReadyForTeleport()
 
 ## Inherited Members
 [_curOrdealCreatureList](/api/Global/Misc/CircusOrdeal#curordealcreaturelist), [_color](/api/Global/Misc/CircusOrdeal#color), [ids](/api/Global/Misc/CircusOrdeal#ids), [risks](/api/Global/Misc/CircusOrdeal#risks), [names](/api/Global/Misc/CircusOrdeal#names), [_ordealName](/api/Global/Misc/CircusOrdeal#ordealname), [SetColor()](/api/Global/Misc/CircusOrdeal#setcolor), [GetRiskLevel(OrdealCreatureModel)](/api/Global/Misc/CircusOrdeal#getrisklevel-ordealcreaturemodel), [OrdealNameText(OrdealCreatureModel)](/api/Global/Misc/CircusOrdeal#ordealnametext-ordealcreaturemodel), [MakeOrdealCreature(OrdealLevel, MapNode)](/api/Global/Misc/CircusOrdeal#makeordealcreature-ordeallevel-mapnode), [AddChildCircus(OrdealCreatureModel)](/api/Global/Misc/CircusOrdeal#addchildcircus-ordealcreaturemodel), [FixedUpdate()](/api/Global/Misc/CircusOrdeal#fixedupdate), [CheckCloseCondition()](/api/Global/Misc/CircusOrdeal#checkclosecondition), [OnDie(OrdealCreatureModel)](/api/Global/Misc/CircusOrdeal#ondie-ordealcreaturemodel), [OrdealEnd()](/api/Global/Misc/CircusOrdeal#ordealend), [level](/api/Global/Misc/OrdealBase#level), [riskLevel](/api/Global/Misc/OrdealBase#risklevel), [ordealRewards](/api/Global/Misc/OrdealBase#ordealrewards), [startTime](/api/Global/Misc/OrdealBase#starttime), [isStarted](/api/Global/Misc/OrdealBase#isstarted), [_ordeal_name](/api/Global/Misc/OrdealBase#ordeal-name), [OrdealColor](/api/Global/Misc/OrdealBase#ordealcolor), [_canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OnGameInit()](/api/Global/Misc/OrdealBase#ongameinit), [OnDestroy()](/api/Global/Misc/OrdealBase#ondestroy), [OrdealTypo(string, Color, bool, int)](/api/Global/Misc/OrdealBase#ordealtypo-string-color-bool-int), [SetRiskLevel(RiskLevel)](/api/Global/Misc/OrdealBase#setrisklevel-risklevel), [canTakeRewards](/api/Global/Misc/OrdealBase#cantakerewards), [OrdealTypeText](/api/Global/Misc/OrdealBase#ordealtypetext), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackBlend2CameraPhotoshopFiltersfilters
@@ -213,4 +214,5 @@ VividLight = 13
 
 #### Field Value
 **Type:** Global.CameraFilterPack_Blend2Camera_PhotoshopFilters.filters
+
 

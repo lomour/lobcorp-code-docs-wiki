@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingItemScriptBase.StandingItemState
 canonical_path: /api/Global/State/StandingItemScriptBaseStandingItemState
@@ -29,4 +30,5 @@ DEFAULT = 0
 
 #### Field Value
 **Type:** Global.StandingItemScriptBase.StandingItemState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryOptionUI.EventType
 canonical_path: /api/Global/Type/StoryOptionUIEventType
@@ -37,4 +38,5 @@ SETTING = 1
 
 #### Field Value
 **Type:** Global.StoryOptionUI.EventType
+
 

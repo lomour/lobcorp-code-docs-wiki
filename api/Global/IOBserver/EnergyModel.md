@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EnergyModel
 canonical_path: /api/Global/IOBserver/EnergyModel
@@ -11,10 +12,13 @@ canonical_path: /api/Global/IOBserver/EnergyModel
 ```csharp
 public class EnergyModel : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Manager for energy collection during the day.
 
-#INC 
+
 
 
 ## Inheritance
@@ -29,8 +33,6 @@ Manager for energy collection during the day.
 ```csharp
 public EnergyModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -39,7 +41,6 @@ public EnergyModel()
 ```csharp
 private bool _fillBlock
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +50,6 @@ private bool _fillBlock
 ```csharp
 private static EnergyModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +59,6 @@ private static EnergyModel _instance
 ```csharp
 private float energy
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +68,6 @@ private float energy
 ```csharp
 private int finishCounter
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +77,6 @@ private int finishCounter
 ```csharp
 private float finishTimer
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +86,6 @@ private float finishTimer
 ```csharp
 private bool fullSay
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +95,6 @@ private bool fullSay
 ```csharp
 private bool halfSay
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +124,6 @@ public static EnergyModel instance { get; }
 ```csharp
 public void AddEnergy(float added)
 ```
-#INC
 
 
 #### Parameters
@@ -141,7 +135,6 @@ public void AddEnergy(float added)
 ```csharp
 public float GetEnergy()
 ```
-#INC
 
 
 #### Returns
@@ -151,7 +144,6 @@ public float GetEnergy()
 ```csharp
 public int GetFinishCounter()
 ```
-#INC
 
 
 #### Returns
@@ -161,7 +153,6 @@ public int GetFinishCounter()
 ```csharp
 public void ManualAdd(CreatureModel creature, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -174,14 +165,12 @@ public void ManualAdd(CreatureModel creature, float value)
 ```csharp
 private void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -194,14 +183,12 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### SubEnergy(float)
 ```csharp
 public void SubEnergy(float sub)
 ```
-#INC
 
 
 #### Parameters
@@ -213,9 +200,9 @@ public void SubEnergy(float sub)
 ```csharp
 private void UpdateEnergy()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

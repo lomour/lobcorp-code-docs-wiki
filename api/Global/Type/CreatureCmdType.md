@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureCmdType
 canonical_path: /api/Global/Type/CreatureCmdType
@@ -29,4 +30,5 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.CreatureCmdType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.UniqueWeaponPos
 canonical_path: /api/WorkerSprite/UniqueWeaponPos
@@ -53,4 +54,5 @@ RIGHTHAND = 3
 
 #### Field Value
 **Type:** WorkerSprite.UniqueWeaponPos
+
 

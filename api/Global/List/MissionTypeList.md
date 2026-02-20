@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MissionTypeList
 canonical_path: /api/Global/List/MissionTypeList
@@ -11,9 +12,12 @@ canonical_path: /api/Global/List/MissionTypeList
 ```csharp
 public class MissionTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the list and information about all missions.
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Holds the list and information about all missions.
 ```csharp
 private MissionTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private MissionTypeList()
 ```csharp
 private static MissionTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private static MissionTypeList _instance
 ```csharp
 private List<MissionTypeInfo> _list
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +67,6 @@ public static MissionTypeList instance { get; }
 ```csharp
 public MissionTypeInfo GetData(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -82,7 +81,6 @@ public MissionTypeInfo GetData(int id)
 ```csharp
 public IList<MissionTypeInfo> GetList()
 ```
-#INC
 
 
 #### Returns
@@ -92,9 +90,9 @@ public IList<MissionTypeInfo> GetList()
 ```csharp
 public void LoadData()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

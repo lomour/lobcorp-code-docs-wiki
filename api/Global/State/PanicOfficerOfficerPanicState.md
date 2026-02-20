@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PanicOfficer.OfficerPanicState
 canonical_path: /api/Global/State/PanicOfficerOfficerPanicState
@@ -29,4 +30,5 @@ WANDER = 1
 
 #### Field Value
 **Type:** Global.PanicOfficer.OfficerPanicState
+
 

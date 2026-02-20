@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureCommand
 canonical_path: /api/Global/Misc/CreatureCommand
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/CreatureCommand
 ```csharp
 public class CreatureCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Instruction to an abnormality to do something (looks like mostly movement)
 
 
@@ -33,7 +37,6 @@ public CreatureCommand()
 ```csharp
 public CreatureModel actor
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ public CreatureModel actor
 ```csharp
 public CreatureCommandQueue cmdQueue
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +63,6 @@ public CreatureCommand.OnCommandEnd endCmd
 ```csharp
 public bool isFinished
 ```
-#INC
 
 
 #### Field Value
@@ -73,21 +74,18 @@ public bool isFinished
 ```csharp
 public virtual void Execute()
 ```
-#INC
 
 
 ### Finish()
 ```csharp
 public virtual void Finish()
 ```
-#INC
 
 
 ### MakeMove(MapNode)
 ```csharp
 public static CreatureCommand MakeMove(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -102,7 +100,6 @@ public static CreatureCommand MakeMove(MapNode node)
 ```csharp
 public static CreatureCommand MakeMove(MovableObjectNode movable)
 ```
-#INC
 
 
 #### Parameters
@@ -117,7 +114,6 @@ public static CreatureCommand MakeMove(MovableObjectNode movable)
 ```csharp
 public static CreatureCommand MakePursue(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -132,7 +128,6 @@ public static CreatureCommand MakePursue(WorkerModel worker)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -147,7 +142,6 @@ public static CreatureCommand MakePursueAlter(WorkerModel target)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -163,7 +157,6 @@ public static CreatureCommand MakePursueAlter(WorkerModel target, float damage)
 ```csharp
 public static CreatureCommand MakePursueAlter(WorkerModel target, RwbpType dmgType, int dmgMin, int dmgMax)
 ```
-#INC
 
 
 #### Parameters
@@ -181,15 +174,12 @@ public static CreatureCommand MakePursueAlter(WorkerModel target, RwbpType dmgTy
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnInit(CreatureModel, CreatureCommandQueue)
 ```csharp
 public virtual void OnInit(CreatureModel creature, CreatureCommandQueue cmdQueue)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -202,14 +192,12 @@ public virtual void OnInit(CreatureModel creature, CreatureCommandQueue cmdQueue
 ```csharp
 public virtual void OnStart()
 ```
-#INC
 
 
 ### OnStop()
 ```csharp
 public virtual void OnStop()
 ```
-#INC
 
 
 ### SetEndCommand(OnCommandEnd)
@@ -224,4 +212,5 @@ public virtual void SetEndCommand(CreatureCommand.OnCommandEnd cmd)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

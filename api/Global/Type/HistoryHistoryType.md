@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.History.HistoryType
 canonical_path: /api/Global/Type/HistoryHistoryType
@@ -53,4 +54,5 @@ WORKER_PANIC = 0
 
 #### Field Value
 **Type:** Global.History.HistoryType
+
 

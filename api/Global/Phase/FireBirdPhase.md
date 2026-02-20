@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FireBird.Phase
 canonical_path: /api/Global/Phase/FireBirdPhase
@@ -61,4 +62,5 @@ SUPPRESSED = 4
 
 #### Field Value
 **Type:** Global.FireBird.Phase
+
 

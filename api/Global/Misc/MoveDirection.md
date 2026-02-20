@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MoveDirection
 canonical_path: /api/Global/Misc/MoveDirection
@@ -37,4 +38,5 @@ UP = 1
 
 #### Field Value
 **Type:** Global.MoveDirection
+
 

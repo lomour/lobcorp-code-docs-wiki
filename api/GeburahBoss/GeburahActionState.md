@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahActionState
 canonical_path: /api/GeburahBoss/GeburahActionState
@@ -37,4 +38,5 @@ START = 0
 
 #### Field Value
 **Type:** GeburahBoss.GeburahActionState
+
 

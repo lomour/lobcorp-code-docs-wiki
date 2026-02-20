@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahPhase
 canonical_path: /api/GeburahBoss/GeburahPhase
@@ -61,4 +62,5 @@ START = 0
 
 #### Field Value
 **Type:** GeburahBoss.GeburahPhase
+
 

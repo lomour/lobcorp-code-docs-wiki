@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.MixPose
 canonical_path: /api/Spine/MixPose
@@ -37,4 +38,5 @@ Setup = 0
 
 #### Field Value
 **Type:** Spine.MixPose
+
 

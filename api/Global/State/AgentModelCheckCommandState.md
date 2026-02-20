@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentModel.CheckCommandState
 canonical_path: /api/Global/State/AgentModelCheckCommandState
@@ -61,4 +62,5 @@ public virtual bool Invoke()
 
 #### Returns
 **Type:** System.Boolean
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EquipmentDataLoader
 canonical_path: /api/Global/Loader/EquipmentDataLoader
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Loader/EquipmentDataLoader
 ```csharp
 public class EquipmentDataLoader
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Class which loads static data about [EGO](/api/Global/Model/EquipmentModel).
 
-#INC 
+
 
 
 ## Inheritance
@@ -85,8 +89,6 @@ public static WeaponClassType ConvertToWeaponClassType(string text)
 ```csharp
 public void Load()
 ```
-#INC
-#code-generated
 
 
 ### LoadArmor(EquipmentTypeInfo, XmlNode)
@@ -143,4 +145,5 @@ public EquipmentTypeInfo LoadWeapon(EquipmentTypeInfo info, XmlNode equipNode)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IsolateRoom.OverlayRegion
 canonical_path: /api/Global/Misc/IsolateRoomOverlayRegion
@@ -29,4 +30,5 @@ ROOM_MAIN = 0
 
 #### Field Value
 **Type:** Global.IsolateRoom.OverlayRegion
+
 

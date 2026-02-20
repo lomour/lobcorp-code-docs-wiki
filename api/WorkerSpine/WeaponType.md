@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.WeaponType
 canonical_path: /api/WorkerSpine/WeaponType
@@ -29,4 +30,5 @@ TWO_HANDED = 1
 
 #### Field Value
 **Type:** WorkerSpine.WeaponType
+
 

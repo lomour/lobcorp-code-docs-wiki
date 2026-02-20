@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FriendTokenBuf
 canonical_path: /api/Global/UnitBuf/FriendTokenBuf
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FriendTokenBuf
 ```csharp
 public class FriendTokenBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Buff for [Child of the Galaxy](/api/Global/IOBserver/GalaxyBoy)'s favorite workers.
 
@@ -32,7 +36,6 @@ When Child's Qliphoth counter hits 0 this unit will die instantly.
 ```csharp
 public FriendTokenBuf(GalaxyBoy creature)
 ```
-#INC
 
 
 #### Parameters
@@ -46,7 +49,6 @@ public FriendTokenBuf(GalaxyBoy creature)
 ```csharp
 private const float _damageFactor = 4
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +58,6 @@ private const float _damageFactor = 4
 ```csharp
 private const int _deadCounterReduce = 4
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +67,6 @@ private const int _deadCounterReduce = 4
 ```csharp
 private const float _healthRecoverFactor = 0.65
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +76,6 @@ private const float _healthRecoverFactor = 0.65
 ```csharp
 private Timer _healthRecoverTimer
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +85,6 @@ private Timer _healthRecoverTimer
 ```csharp
 private const float _instantKillCheckFreq = 20
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +94,6 @@ private const float _instantKillCheckFreq = 20
 ```csharp
 private const float _mentalRecoverFactor = 0.65
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +103,6 @@ private const float _mentalRecoverFactor = 0.65
 ```csharp
 private Timer _mentalRecoverTimer
 ```
-#INC
 
 
 #### Field Value
@@ -116,7 +112,6 @@ private Timer _mentalRecoverTimer
 ```csharp
 private Timer _qlipothActivatedEventTimer
 ```
-#INC
 
 
 #### Field Value
@@ -126,7 +121,6 @@ private Timer _qlipothActivatedEventTimer
 ```csharp
 private bool _recoverDebufActviated
 ```
-#INC
 
 
 #### Field Value
@@ -136,7 +130,6 @@ private bool _recoverDebufActviated
 ```csharp
 private const float _recoverFreq = 5
 ```
-#INC
 
 
 #### Field Value
@@ -146,7 +139,6 @@ private const float _recoverFreq = 5
 ```csharp
 private bool _workEnterCheck
 ```
-#INC
 
 
 #### Field Value
@@ -156,7 +148,6 @@ private bool _workEnterCheck
 ```csharp
 private AgentModel agentModel
 ```
-#INC
 
 
 #### Field Value
@@ -166,7 +157,6 @@ private AgentModel agentModel
 ```csharp
 private GalaxyBoy baseCreature
 ```
-#INC
 
 
 #### Field Value
@@ -188,22 +178,18 @@ private int CurrentQlipoth { get; }
 ```csharp
 private void DamageInvoke()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -215,9 +201,9 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnUnitDie()
 ```
-#INC
 
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [OnDestroy()](/api/Global/Misc/UnitBuf#ondestroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

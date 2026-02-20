@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraBossBase.CloseEffect
 canonical_path: /api/Global/Effect/SefiraBossBaseCloseEffect
@@ -61,4 +62,5 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 

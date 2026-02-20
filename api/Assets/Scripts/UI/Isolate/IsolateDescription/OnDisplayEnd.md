@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Assets.Scripts.UI.Isolate.IsolateDescription.OnDisplayEnd
 canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescription/OnDisplayEnd
@@ -61,4 +62,5 @@ public virtual void Invoke(IsolateDescription i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `Assets.Scripts.UI.Isolate.IsolateDescription` |  |
+
 

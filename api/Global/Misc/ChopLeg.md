@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChopLeg
 canonical_path: /api/Global/Misc/ChopLeg
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/ChopLeg
 ```csharp
 public class ChopLeg : StandingItemScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Part of [BugsForFoodEvent](/api/Global/Event/BugsForFoodEvent), maybe? And some [FallingLegEvent](/api/Global/Event/FallingLegEvent) thing...
-#unused 
+
 
 
 ## Inheritance
@@ -48,7 +55,6 @@ private ChopLeg.LegType _type
 ```csharp
 public string allocatedSefira
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +64,6 @@ public string allocatedSefira
 ```csharp
 public ChopLegAnim animScript
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +73,6 @@ public ChopLegAnim animScript
 ```csharp
 public Timer attackDelay
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +82,6 @@ public Timer attackDelay
 ```csharp
 private float attackRange
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +91,6 @@ private float attackRange
 ```csharp
 public bool canCancel
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +100,6 @@ public bool canCancel
 ```csharp
 private const int clickMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +109,6 @@ private const int clickMax = 3
 ```csharp
 private Timer clickTimer
 ```
-#INC
 
 
 #### Field Value
@@ -118,7 +118,6 @@ private Timer clickTimer
 ```csharp
 private int currentClickCount
 ```
-#INC
 
 
 #### Field Value
@@ -128,7 +127,6 @@ private int currentClickCount
 ```csharp
 public float currentGateOpenSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -138,7 +136,6 @@ public float currentGateOpenSpeed
 ```csharp
 private PassageObjectModel currentPassage
 ```
-#INC
 
 
 #### Field Value
@@ -148,7 +145,6 @@ private PassageObjectModel currentPassage
 ```csharp
 public const float Damage = 50
 ```
-#INC
 
 
 #### Field Value
@@ -158,7 +154,6 @@ public const float Damage = 50
 ```csharp
 private float delayMax
 ```
-#INC
 
 
 #### Field Value
@@ -168,7 +163,6 @@ private float delayMax
 ```csharp
 private float delayMin
 ```
-#INC
 
 
 #### Field Value
@@ -178,7 +172,6 @@ private float delayMin
 ```csharp
 private float deleteRange
 ```
-#INC
 
 
 #### Field Value
@@ -188,7 +181,6 @@ private float deleteRange
 ```csharp
 private List<MapNode> movNodes
 ```
-#INC
 
 
 #### Field Value
@@ -198,7 +190,6 @@ private List<MapNode> movNodes
 ```csharp
 public FallingLegEvent randomEvent
 ```
-#INC
 
 
 #### Field Value
@@ -236,7 +227,6 @@ public ChopLeg.LegType type { get; }
 ```csharp
 public void DelayedEnable(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -248,14 +238,12 @@ public void DelayedEnable(float value)
 ```csharp
 public void EndAttack()
 ```
-#INC
 
 
 ### GetNearTargets()
 ```csharp
 public List<UnitModel> GetNearTargets()
 ```
-#INC
 
 
 #### Returns
@@ -265,7 +253,6 @@ public List<UnitModel> GetNearTargets()
 ```csharp
 public List<UnitModel> GetRangeTargets()
 ```
-#INC
 
 
 #### Returns
@@ -275,14 +262,12 @@ public List<UnitModel> GetRangeTargets()
 ```csharp
 public void GiveDamage()
 ```
-#INC
 
 
 ### MakeWorkerEffect(UnitModel)
 ```csharp
 private void MakeWorkerEffect(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -294,29 +279,24 @@ private void MakeWorkerEffect(UnitModel target)
 ```csharp
 public void OnAppearEnd()
 ```
-#INC
 
 
 ### OnCancelFail()
 ```csharp
 public void OnCancelFail()
 ```
-#INC
 
 
 ### OnClick()
 ```csharp
 public void OnClick()
 ```
-#INC
 
 
 ### OnFixedUpdate(StandingItemModel)
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -328,7 +308,6 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public void SetEvent(FallingLegEvent fle)
 ```
-#INC
 
 
 #### Parameters
@@ -340,14 +319,12 @@ public void SetEvent(FallingLegEvent fle)
 ```csharp
 public void SetNodes()
 ```
-#INC
 
 
 ### SetPassage(PassageObjectModel)
 ```csharp
 public void SetPassage(PassageObjectModel targetPassage)
 ```
-#INC
 
 
 #### Parameters
@@ -359,7 +336,6 @@ public void SetPassage(PassageObjectModel targetPassage)
 ```csharp
 public void SetRandomPosition()
 ```
-#INC
 
 
 ### SetType(LegType)
@@ -376,9 +352,9 @@ public void SetType(ChopLeg.LegType type)
 ```csharp
 public void StartAttack()
 ```
-#INC
 
 
 ## Inherited Members
 [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [Init()](/api/Global/Standing/StandingItemScriptBase#init), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [CanTakePhsyicalDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#cantakephsyicaldamage-unitmodel), [IsAttackable()](/api/Global/Standing/StandingItemScriptBase#isattackable), [OnBreakDown()](/api/Global/Standing/StandingItemScriptBase#onbreakdown), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [OnTakePhyisclaDamage(float)](/api/Global/Standing/StandingItemScriptBase#ontakephyiscladamage-float), [GetName()](/api/Global/Standing/StandingItemScriptBase#getname), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [HasName()](/api/Global/Standing/StandingItemScriptBase#hasname), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

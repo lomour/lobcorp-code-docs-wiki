@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.Point2DList.PolygonError
 canonical_path: /api/Poly2Tri/Point2DList/PolygonError
@@ -88,4 +89,5 @@ Unknown = 1073741824
 
 #### Field Value
 **Type:** Poly2Tri.Point2DList.PolygonError
+
 

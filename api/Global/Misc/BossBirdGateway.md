@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdGateway
 canonical_path: /api/Global/Misc/BossBirdGateway
@@ -11,11 +12,16 @@ canonical_path: /api/Global/Misc/BossBirdGateway
 ```csharp
 public class BossBirdGateway : StandingItemScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Unused version of Entrance to the Black Forest, as seen in [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight.
 
 See [BossGateWay](/api/Global/Misc/BossGateWay) for the used version of this.
-#unused
 
 
 ## Inheritance
@@ -42,7 +48,6 @@ private BossBirdGateway.GateWayState __GatewayState
 ```csharp
 private BigBird bigBird
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +57,6 @@ private BigBird bigBird
 ```csharp
 private LongBird longBird
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +66,6 @@ private LongBird longBird
 ```csharp
 private const float mentalDamage = 2
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +75,6 @@ private const float mentalDamage = 2
 ```csharp
 private const float mentalDamageFreq = 1
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +84,6 @@ private const float mentalDamageFreq = 1
 ```csharp
 private Timer mentalDamageTimer
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +93,6 @@ private Timer mentalDamageTimer
 ```csharp
 private SmallBird smallBird
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +102,6 @@ private SmallBird smallBird
 ```csharp
 private Timer stateChecker
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +111,6 @@ private Timer stateChecker
 ```csharp
 private const float stateCheckFreq = 5
 ```
-#INC
 
 
 #### Field Value
@@ -142,14 +140,12 @@ public BossBirdGateway.GateWayState gateWayState { get; }
 ```csharp
 private void BirdsCheck()
 ```
-#INC
 
 
 ### GetName()
 ```csharp
 public override string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -159,7 +155,6 @@ public override string GetName()
 ```csharp
 public override bool HasName()
 ```
-#INC
 
 
 #### Returns
@@ -169,22 +164,18 @@ public override bool HasName()
 ```csharp
 public override void Init()
 ```
-#INC
-#code-generated
 
 
 ### OnEnterBird()
 ```csharp
 public void OnEnterBird()
 ```
-#INC
 
 
 ### OnFixedUpdate(StandingItemModel)
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -196,14 +187,12 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 private void OnSetState()
 ```
-#INC
 
 
 ### SetBirds(BigBird, SmallBird, LongBird)
 ```csharp
 public void SetBirds(BigBird big, SmallBird small, LongBird @long)
 ```
-#INC
 
 
 #### Parameters
@@ -217,7 +206,6 @@ public void SetBirds(BigBird big, SmallBird small, LongBird @long)
 ```csharp
 public override void SetName(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -229,9 +217,9 @@ public override void SetName(string str)
 ```csharp
 private void TakeNearMentalDamage()
 ```
-#INC
 
 
 ## Inherited Members
 [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [CanTakePhsyicalDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#cantakephsyicaldamage-unitmodel), [IsAttackable()](/api/Global/Standing/StandingItemScriptBase#isattackable), [OnBreakDown()](/api/Global/Standing/StandingItemScriptBase#onbreakdown), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [OnTakePhyisclaDamage(float)](/api/Global/Standing/StandingItemScriptBase#ontakephyiscladamage-float), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

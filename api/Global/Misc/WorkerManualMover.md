@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerManualMover
 canonical_path: /api/Global/Misc/WorkerManualMover
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/WorkerManualMover
 ```csharp
 public class WorkerManualMover
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Presumably something for taking control of a particular employee, but unused.
 
-#unused 
+
 
 
 ## Inheritance
@@ -28,15 +35,12 @@ Presumably something for taking control of a particular employee, but unused.
 ```csharp
 public WorkerManualMover()
 ```
-#INC
-#code-generated
 
 
 ### WorkerManualMover(WorkerModel, Vector3, MapNode, float, float)
 ```csharp
 public WorkerManualMover(WorkerModel target, Vector3 pos, MapNode initial, float scale, float unitTime)
 ```
-#INC
 
 
 #### Parameters
@@ -54,7 +58,6 @@ public WorkerManualMover(WorkerModel target, Vector3 pos, MapNode initial, float
 ```csharp
 public int currentCnt
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +67,6 @@ public int currentCnt
 ```csharp
 public bool halt
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +76,6 @@ public bool halt
 ```csharp
 public bool isMoved
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +85,6 @@ public bool isMoved
 ```csharp
 public bool isMoving
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +94,6 @@ public bool isMoving
 ```csharp
 public Vector3 movedPos
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +103,6 @@ public Vector3 movedPos
 ```csharp
 public MapNode originNode
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +112,6 @@ public MapNode originNode
 ```csharp
 public float scale
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +121,6 @@ public float scale
 ```csharp
 public WorkerModel targetModel
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +130,6 @@ public WorkerModel targetModel
 ```csharp
 public object unitObject
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +139,6 @@ public object unitObject
 ```csharp
 public float unitTime
 ```
-#INC
 
 
 #### Field Value
@@ -156,37 +150,33 @@ public float unitTime
 ```csharp
 public virtual void Halt()
 ```
-#INC
 
 
 ### MoveToNode()
 ```csharp
 public virtual void MoveToNode()
 ```
-#INC
 
 
 ### MoveToVector()
 ```csharp
 public virtual void MoveToVector()
 ```
-#INC
 
 
 ### MovingEnd()
 ```csharp
 public virtual void MovingEnd()
 ```
-#INC
 
 
 ### MovingProcess()
 ```csharp
 public virtual void MovingProcess()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

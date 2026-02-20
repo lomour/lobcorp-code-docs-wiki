@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GlobalGameManager
 canonical_path: /api/Global/IOBserver/GlobalGameManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/IOBserver/GlobalGameManager
 ```csharp
 public class GlobalGameManager : MonoBehaviour, IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Main game manager.
 
@@ -44,7 +48,7 @@ Runs on game start.
 
 #### Update
 Loads the title screen if in the start screen.
-Edits the alpha of some canvas elements if loaded #INC .
+Edits the alpha of some canvas elements if loaded .
 
 #### LoadStateData
 Loads saved global state data.
@@ -91,13 +95,13 @@ Initializes:
 - [Research progress](/api/Global/Model/ResearchDataModel)
 - [EGO owned](/api/Global/Model/InventoryModel)
 - [Missions](/api/Global/IOBserver/MissionManager)
-- [SefiraCharacterManager](/api/Global/Misc/SefiraCharacterManager) #INC 
+- [SefiraCharacterManager](/api/Global/Misc/SefiraCharacterManager) 
 - [LOB points](/api/Global/Model/MoneyModel)
 - [Player](/api/Global/Model/PlayerModel)
 Then sets the day to 0, [game mode](/api/Global/Misc/GameMode) to TUTORIAL, and starts playing.
 
 #### InitHidden
-Starts the game in the [game mode](/api/Global/Misc/GameMode) HIDDEN. #INC 
+Starts the game in the [game mode](/api/Global/Misc/GameMode) HIDDEN. 
 
 
 #### ReleaseGame
@@ -106,7 +110,7 @@ Exits from gameplay.
 	- [InventoryModel](/api/Global/Model/InventoryModel) (OnReleaseGame)
 	- [MissionManager](/api/Global/IOBserver/MissionManager) (ReleaseGame)
 - Initializes [LOB points](/api/Global/Model/MoneyModel)
-- Clears unit data in [SefiraManager](/api/Global/IOBserver/SefiraManager) #INC 
+- Clears unit data in [SefiraManager](/api/Global/IOBserver/SefiraManager) 
 - Clears [clerks](/api/Global/Misc/OfficerManager)
 - Clears [agents](/api/Global/IOBserver/AgentManager)
 - Clears [abnormalities](/api/Global/IOBserver/CreatureManager)
@@ -114,7 +118,7 @@ Exits from gameplay.
 - Clears [departments](/api/Global/IOBserver/SefiraManager)
 - Reset [map](/api/Global/IOBserver/MapGraph)
 - Calls [AgentNameList](/api/Global/List/AgentNameList) (OnInit)
-- Creates a new [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) and loads containment unit info #INC 
+- Creates a new [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) and loads containment unit info 
 - Sets some flags
 
 
@@ -122,7 +126,7 @@ Exits from gameplay.
 #### ChangeFont
 Changes the fonts based on the language with GetLanguageFont.
 #### string GetLanguageFont
-Chinese (both), Japanese, Vietnamese, Bulgarian, French, English, and Portuguese (both) use the same font as for English. All others have a custom font. #INC 
+Chinese (both), Japanese, Vietnamese, Bulgarian, French, English, and Portuguese (both) use the same font as for English. All others have a custom font. 
 #### SetLanguageFont
 Sets the font.
 #### GetCurrentLanguage
@@ -165,7 +169,6 @@ private static GlobalGameManager.LanguageFont _currentLanguageFont
 ```csharp
 private static GlobalGameManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -175,7 +178,6 @@ private static GlobalGameManager _instance
 ```csharp
 private bool _isPlayingTutorial
 ```
-#INC
 
 
 #### Field Value
@@ -185,7 +187,6 @@ private bool _isPlayingTutorial
 ```csharp
 private SystemLanguage _language
 ```
-#INC
 
 
 #### Field Value
@@ -195,7 +196,6 @@ private SystemLanguage _language
 ```csharp
 public bool _tutorialPlayed
 ```
-#INC
 
 
 #### Field Value
@@ -205,7 +205,6 @@ public bool _tutorialPlayed
 ```csharp
 private bool bPlayingGame
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +214,6 @@ private bool bPlayingGame
 ```csharp
 public string BuildVer
 ```
-#INC
 
 
 #### Field Value
@@ -225,7 +223,6 @@ public string BuildVer
 ```csharp
 private bool calcTime
 ```
-#INC
 
 
 #### Field Value
@@ -235,7 +232,6 @@ private bool calcTime
 ```csharp
 public Canvas canvas
 ```
-#INC
 
 
 #### Field Value
@@ -245,7 +241,6 @@ public Canvas canvas
 ```csharp
 public const int checkPointOffset = 10000
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +250,6 @@ public const int checkPointOffset = 10000
 ```csharp
 public bool dlcCreatureOn
 ```
-#INC
 
 
 #### Field Value
@@ -265,7 +259,6 @@ public bool dlcCreatureOn
 ```csharp
 public string etcRemembered
 ```
-#INC
 
 
 #### Field Value
@@ -284,7 +277,6 @@ private List<GlobalGameManager.LanguageFont> fontList
 ```csharp
 public GameMode gameMode
 ```
-#INC
 
 
 #### Field Value
@@ -294,7 +286,6 @@ public GameMode gameMode
 ```csharp
 public bool isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -304,7 +295,6 @@ public bool isLoaded
 ```csharp
 public string language
 ```
-#INC
 
 
 #### Field Value
@@ -314,7 +304,6 @@ public string language
 ```csharp
 public bool lastLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -324,7 +313,6 @@ public bool lastLoaded
 ```csharp
 public string loadingScene
 ```
-#INC
 
 
 #### Field Value
@@ -334,7 +322,6 @@ public string loadingScene
 ```csharp
 public LoadingScreen loadingScreen
 ```
-#INC
 
 
 #### Field Value
@@ -344,7 +331,6 @@ public LoadingScreen loadingScreen
 ```csharp
 private int logCount
 ```
-#INC
 
 
 #### Field Value
@@ -354,7 +340,6 @@ private int logCount
 ```csharp
 private const int logMax = 10
 ```
-#INC
 
 
 #### Field Value
@@ -364,7 +349,6 @@ private const int logMax = 10
 ```csharp
 private string logOutput
 ```
-#INC
 
 
 #### Field Value
@@ -374,7 +358,6 @@ private string logOutput
 ```csharp
 private string logStack
 ```
-#INC
 
 
 #### Field Value
@@ -384,7 +367,6 @@ private string logStack
 ```csharp
 public float playTime
 ```
-#INC
 
 
 #### Field Value
@@ -403,7 +385,6 @@ public Dictionary<string, object> preLoadedTutorialData
 ```csharp
 private const string SAVE_VER = "ver1"
 ```
-#INC
 
 
 #### Field Value
@@ -413,7 +394,6 @@ private const string SAVE_VER = "ver1"
 ```csharp
 private string saveEtcFileName
 ```
-#INC
 
 
 #### Field Value
@@ -423,7 +403,6 @@ private string saveEtcFileName
 ```csharp
 private string saveFileName
 ```
-#INC
 
 
 #### Field Value
@@ -433,7 +412,6 @@ private string saveFileName
 ```csharp
 private string saveGlobalFileName
 ```
-#INC
 
 
 #### Field Value
@@ -443,7 +421,6 @@ private string saveGlobalFileName
 ```csharp
 public string saveState
 ```
-#INC
 
 
 #### Field Value
@@ -453,7 +430,6 @@ public string saveState
 ```csharp
 private string saveUnlimitFileName
 ```
-#INC
 
 
 #### Field Value
@@ -463,7 +439,6 @@ private string saveUnlimitFileName
 ```csharp
 public const string saveVerName = "170808"
 ```
-#INC
 
 
 #### Field Value
@@ -473,7 +448,6 @@ public const string saveVerName = "170808"
 ```csharp
 public SceneDataSave sceneDataSaver
 ```
-#INC
 
 
 #### Field Value
@@ -483,7 +457,6 @@ public SceneDataSave sceneDataSaver
 ```csharp
 public int ScreenWidth
 ```
-#INC
 
 
 #### Field Value
@@ -493,7 +466,6 @@ public int ScreenWidth
 ```csharp
 public string singledaySave
 ```
-#INC
 
 
 #### Field Value
@@ -503,7 +475,6 @@ public string singledaySave
 ```csharp
 public string storySaveDir
 ```
-#INC
 
 
 #### Field Value
@@ -513,7 +484,6 @@ public string storySaveDir
 ```csharp
 public int tutorialStep
 ```
-#INC
 
 
 #### Field Value
@@ -523,7 +493,6 @@ public int tutorialStep
 ```csharp
 private const string ver = "170808"
 ```
-#INC
 
 
 #### Field Value
@@ -533,7 +502,6 @@ private const string ver = "170808"
 ```csharp
 public const string verPathName = "170808"
 ```
-#INC
 
 
 #### Field Value
@@ -603,15 +571,12 @@ public bool tutorialPlayed { get; set; }
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### ChangeFont(string, FontType, string)
 ```csharp
 public void ChangeFont(string language, FontType type, string fontName)
 ```
-#INC
 
 
 #### Parameters
@@ -625,7 +590,6 @@ public void ChangeFont(string language, FontType type, string fontName)
 ```csharp
 public void ChangeLanguage(SystemLanguage value)
 ```
-#INC
 
 
 #### Parameters
@@ -637,7 +601,6 @@ public void ChangeLanguage(SystemLanguage value)
 ```csharp
 public bool ExistEtcData()
 ```
-#INC
 
 
 #### Returns
@@ -647,7 +610,6 @@ public bool ExistEtcData()
 ```csharp
 public bool ExistSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -657,7 +619,6 @@ public bool ExistSaveData()
 ```csharp
 public bool ExistUnlimitData()
 ```
-#INC
 
 
 #### Returns
@@ -667,7 +628,6 @@ public bool ExistUnlimitData()
 ```csharp
 public string GetCurrentLanguage()
 ```
-#INC
 
 
 #### Returns
@@ -677,7 +637,6 @@ public string GetCurrentLanguage()
 ```csharp
 private int GetDayFromSaveData(Dictionary<string, object> dayData)
 ```
-#INC
 
 
 #### Parameters
@@ -692,7 +651,6 @@ private int GetDayFromSaveData(Dictionary<string, object> dayData)
 ```csharp
 public SystemLanguage GetLanguage(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -707,7 +665,6 @@ public SystemLanguage GetLanguage(string str)
 ```csharp
 public string GetLanguage(SystemLanguage ln)
 ```
-#INC
 
 
 #### Parameters
@@ -735,7 +692,6 @@ public GlobalGameManager.LanguageFont GetLanguageFont(string language)
 ```csharp
 private string GetLogSrc()
 ```
-#INC
 
 
 #### Returns
@@ -745,7 +701,6 @@ private string GetLogSrc()
 ```csharp
 public Dictionary<string, object> GetSaveDayData()
 ```
-#INC
 
 
 #### Returns
@@ -755,21 +710,18 @@ public Dictionary<string, object> GetSaveDayData()
 ```csharp
 public void InitHidden()
 ```
-#INC
 
 
 ### InitStoryMode()
 ```csharp
 public void InitStoryMode()
 ```
-#INC
 
 
 ### InitTutorial(int)
 ```csharp
 public void InitTutorial(int step)
 ```
-#INC
 
 
 #### Parameters
@@ -781,7 +733,6 @@ public void InitTutorial(int step)
 ```csharp
 public bool IsPlaying()
 ```
-#INC
 
 
 #### Returns
@@ -791,14 +742,12 @@ public bool IsPlaying()
 ```csharp
 private void LateUpdate()
 ```
-#INC
 
 
 ### LoadCheckPointDay()
 ```csharp
 public int LoadCheckPointDay()
 ```
-#INC
 
 
 #### Returns
@@ -808,7 +757,6 @@ public int LoadCheckPointDay()
 ```csharp
 public void LoadData(SaveType saveType)
 ```
-#INC
 
 
 #### Parameters
@@ -820,14 +768,12 @@ public void LoadData(SaveType saveType)
 ```csharp
 private void LoadData_preprocess()
 ```
-#INC
 
 
 ### LoadDay(Dictionary<string, object>)
 ```csharp
 private void LoadDay(Dictionary<string, object> data)
 ```
-#INC
 
 
 #### Parameters
@@ -839,7 +785,6 @@ private void LoadDay(Dictionary<string, object> data)
 ```csharp
 public Dictionary<string, object> LoadEtcFile()
 ```
-#INC
 
 
 #### Returns
@@ -849,14 +794,12 @@ public Dictionary<string, object> LoadEtcFile()
 ```csharp
 public void LoadGlobalData()
 ```
-#INC
 
 
 ### LoadSaveFile()
 ```csharp
 public Dictionary<string, object> LoadSaveFile()
 ```
-#INC
 
 
 #### Returns
@@ -866,21 +809,18 @@ public Dictionary<string, object> LoadSaveFile()
 ```csharp
 public void LoadStateData()
 ```
-#INC
 
 
 ### LoadUnlimitData()
 ```csharp
 public void LoadUnlimitData()
 ```
-#INC
 
 
 ### MessageHandler(string, string, LogType)
 ```csharp
 private void MessageHandler(string logString, string stackTrace, LogType type)
 ```
-#INC
 
 
 #### Parameters
@@ -894,35 +834,30 @@ private void MessageHandler(string logString, string stackTrace, LogType type)
 ```csharp
 private void OnApplicationQuit()
 ```
-#INC
 
 
 ### OnDisable()
 ```csharp
 private void OnDisable()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 private void OnEnable()
 ```
-#INC
 
 
 ### OnLevelWasLoaded()
 ```csharp
 private void OnLevelWasLoaded()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -935,7 +870,6 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public int PreLoadData()
 ```
-#INC
 
 
 #### Returns
@@ -945,42 +879,36 @@ public int PreLoadData()
 ```csharp
 public void ReleaseGame()
 ```
-#INC
 
 
 ### RemoveEtcData()
 ```csharp
 public void RemoveEtcData()
 ```
-#INC
 
 
 ### RemoveGlobalData()
 ```csharp
 public void RemoveGlobalData()
 ```
-#INC
 
 
 ### RemoveSaveData()
 ```csharp
 public void RemoveSaveData()
 ```
-#INC
 
 
 ### RemoveUnlimitData()
 ```csharp
 public void RemoveUnlimitData()
 ```
-#INC
 
 
 ### SaveData(bool)
 ```csharp
 public void SaveData(bool saveCheckPoint = false)
 ```
-#INC
 
 
 #### Parameters
@@ -992,70 +920,60 @@ public void SaveData(bool saveCheckPoint = false)
 ```csharp
 public void SaveDataWithCheckPoint()
 ```
-#INC
 
 
 ### SaveEtcData()
 ```csharp
 public void SaveEtcData()
 ```
-#INC
 
 
 ### SaveGlobalData()
 ```csharp
 public void SaveGlobalData()
 ```
-#INC
 
 
 ### SaveLogs()
 ```csharp
 private void SaveLogs()
 ```
-#INC
 
 
 ### SaveStateData()
 ```csharp
 public void SaveStateData()
 ```
-#INC
 
 
 ### SaveUnlimitData()
 ```csharp
 public void SaveUnlimitData()
 ```
-#INC
 
 
 ### SetLanguageFont()
 ```csharp
 public void SetLanguageFont()
 ```
-#INC
 
 
 ### Start()
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### StoryReturnTitle()
 ```csharp
 public void StoryReturnTitle()
 ```
-#INC
 
 
 ### TryGetGlobalData(out Dictionary<string, object>)
 ```csharp
 public bool TryGetGlobalData(out Dictionary<string, object> dictionary)
 ```
-#INC
 
 
 #### Parameters
@@ -1070,7 +988,6 @@ public bool TryGetGlobalData(out Dictionary<string, object> dictionary)
 ```csharp
 public bool TrySetGlobalInventoryData(Dictionary<string, object> dictionary)
 ```
-#INC
 
 
 #### Parameters
@@ -1085,9 +1002,9 @@ public bool TrySetGlobalInventoryData(Dictionary<string, object> dictionary)
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

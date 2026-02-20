@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventLayer.TypoState
 canonical_path: /api/Global/State/RandomEventLayerTypoState
@@ -45,4 +46,5 @@ IDLE = 0
 
 #### Field Value
 **Type:** Global.RandomEventLayer.TypoState
+
 

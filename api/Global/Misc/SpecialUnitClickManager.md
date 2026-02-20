@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpecialUnitClickManager
 canonical_path: /api/Global/Misc/SpecialUnitClickManager
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/SpecialUnitClickManager
 ```csharp
 public class SpecialUnitClickManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 OnLateUpdate gets called by [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) but I don't think this is used...
 
-#unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -32,7 +39,6 @@ public SpecialUnitClickManager()
 ```csharp
 public static SpecialUnitClickManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +48,6 @@ public static SpecialUnitClickManager _instance
 ```csharp
 private List<RaycastResult> mouseRaycastResult
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +69,6 @@ public static SpecialUnitClickManager instance { get; }
 ```csharp
 public List<RaycastResult> GetMouseRaycast()
 ```
-#INC
 
 
 #### Returns
@@ -74,7 +78,6 @@ public List<RaycastResult> GetMouseRaycast()
 ```csharp
 public List<RaycastResult> GetMouseRaycast(ref Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -89,10 +92,9 @@ public List<RaycastResult> GetMouseRaycast(ref Vector3 pos)
 ```csharp
 public void OnLateUpdate()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

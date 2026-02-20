@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitBufType
 canonical_path: /api/Global/Type/UnitBufType
@@ -749,4 +750,5 @@ YOUNGPRINCE_WEAPON = 74
 
 #### Field Value
 **Type:** Global.UnitBufType
+
 

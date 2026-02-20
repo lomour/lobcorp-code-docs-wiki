@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChesedBossBase
 canonical_path: /api/Global/Misc/ChesedBossBase
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Misc/ChesedBossBase
 ```csharp
 public class ChesedBossBase : SefiraBossBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Chesed's core suppression. #INC 
+
+Chesed's core suppression. 
 
 
 ## Inheritance
@@ -24,7 +28,6 @@ Chesed's core suppression. #INC
 ```csharp
 public ChesedBossBase()
 ```
-#INC
 
 
 ## Fields
@@ -33,7 +36,6 @@ public ChesedBossBase()
 ```csharp
 private const float _effectLifeTime = 3
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +45,6 @@ private const float _effectLifeTime = 3
 ```csharp
 private Timer _effectTimer
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ private Timer _effectTimer
 ```csharp
 private int _phase
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ private int _phase
 ```csharp
 private const int _secondPhaseQliphothLevel = 2
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ private const int _secondPhaseQliphothLevel = 2
 ```csharp
 private const int _thirdPhaseQliphothLevel = 5
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ private const int _thirdPhaseQliphothLevel = 5
 ```csharp
 private const string animSrc = "ChesedCoreAnim"
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ private const string animSrc = "ChesedCoreAnim"
 ```csharp
 private const string bgm1 = "Chesed/1_Theme_-_Blues_Man"
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ private const string bgm1 = "Chesed/1_Theme_-_Blues_Man"
 ```csharp
 private const string bgm2 = "Chesed/2_Battle_-_Urgent_Encounter"
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ private const string bgm2 = "Chesed/2_Battle_-_Urgent_Encounter"
 ```csharp
 private const string chesedBase = "ChesedCoreScript"
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +117,6 @@ private const string chesedBase = "ChesedCoreScript"
 ```csharp
 private const int clearQliphothLevel = 8
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +126,6 @@ private const int clearQliphothLevel = 8
 ```csharp
 private List<RwbpType> currentDamageMultiplied
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +135,6 @@ private List<RwbpType> currentDamageMultiplied
 ```csharp
 private const float descDelay = 15
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +144,6 @@ private const float descDelay = 15
 ```csharp
 private SefiraBossCreatureModel model
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +153,6 @@ private SefiraBossCreatureModel model
 ```csharp
 private const string node = "dept-chesed-4"
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +162,6 @@ private const string node = "dept-chesed-4"
 ```csharp
 private CameraFilterPack_Atmosphere_Rain_Pro rain
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +171,6 @@ private CameraFilterPack_Atmosphere_Rain_Pro rain
 ```csharp
 private static RwbpType[] rwbpTypes
 ```
-#INC
 
 
 #### Field Value
@@ -193,7 +180,6 @@ private static RwbpType[] rwbpTypes
 ```csharp
 private float totalEnergy
 ```
-#INC
 
 
 #### Field Value
@@ -203,7 +189,6 @@ private float totalEnergy
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
-#INC
 
 
 #### Field Value
@@ -225,21 +210,18 @@ private ChesedCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### GenBuf()
 ```csharp
 private void GenBuf()
 ```
-#INC
 
 
 ### GetDamageChangeTime()
 ```csharp
 private float GetDamageChangeTime()
 ```
-#INC
 
 
 #### Returns
@@ -249,7 +231,6 @@ private float GetDamageChangeTime()
 ```csharp
 public override bool IsCleared()
 ```
-#INC
 
 
 #### Returns
@@ -259,7 +240,6 @@ public override bool IsCleared()
 ```csharp
 public bool IsDamageMultiplied(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -274,28 +254,24 @@ public bool IsDamageMultiplied(RwbpType type)
 ```csharp
 public override void OnChangePhase()
 ```
-#INC
 
 
 ### OnCleared()
 ```csharp
 public override void OnCleared()
 ```
-#INC
 
 
 ### OnKetherStart()
 ```csharp
 public override void OnKetherStart()
 ```
-#INC
 
 
 ### OnOverloadActivated(int)
 ```csharp
 public override void OnOverloadActivated(int currentLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -307,29 +283,24 @@ public override void OnOverloadActivated(int currentLevel)
 ```csharp
 public override void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
-#code-generated
 
 
 ### SetDamageMultiplied()
 ```csharp
 private void SetDamageMultiplied()
 ```
-#INC
 
 
 ### SetDamageMultiplied(int)
 ```csharp
 public void SetDamageMultiplied(int count)
 ```
-#INC
 
 
 #### Parameters
@@ -341,14 +312,12 @@ public void SetDamageMultiplied(int count)
 ```csharp
 public void StartEffect()
 ```
-#INC
 
 
 ### UpdateEffect(float)
 ```csharp
 public void UpdateEffect(float rate)
 ```
-#INC
 
 
 #### Parameters
@@ -358,4 +327,5 @@ public void UpdateEffect(float rate)
 
 ## Inherited Members
 [_closeEffectTime](/api/Global/Misc/SefiraBossBase#closeeffecttime), [_defaultDescFreq](/api/Global/Misc/SefiraBossBase#defaultdescfreq), [_descAppearProb](/api/Global/Misc/SefiraBossBase#descappearprob), [generalScript](/api/Global/Misc/SefiraBossBase#generalscript), [generalAnim](/api/Global/Misc/SefiraBossBase#generalanim), [bgmSoundPrefix](/api/Global/Misc/SefiraBossBase#bgmsoundprefix), [currentCloseEffectParam](/api/Global/Misc/SefiraBossBase#currentcloseeffectparam), [modelList](/api/Global/Misc/SefiraBossBase#modellist), [sefiraEnum](/api/Global/Misc/SefiraBossBase#sefiraenum), [closeEffectType](/api/Global/Misc/SefiraBossBase#closeeffecttype), [DefaultDamageInfo](/api/Global/Misc/SefiraBossBase#defaultdamageinfo), [DefaultDefenseInfo](/api/Global/Misc/SefiraBossBase#defaultdefenseinfo), [_closeTimer](/api/Global/Misc/SefiraBossBase#closetimer), [_closeEffectMethod](/api/Global/Misc/SefiraBossBase#closeeffectmethod), [_cameraDescTimer](/api/Global/Misc/SefiraBossBase#cameradesctimer), [descList](/api/Global/Misc/SefiraBossBase#desclist), [OnRemoveDesc(SefiraBossDescUI)](/api/Global/Misc/SefiraBossBase#onremovedesc-sefirabossdescui), [Update()](/api/Global/Misc/SefiraBossBase#update), [DefaultClearEffect(params object[])](/api/Global/Misc/SefiraBossBase#defaultcleareffect-params-object), [OnDestroy()](/api/Global/Misc/SefiraBossBase#ondestroy), [IsReadyToClose()](/api/Global/Misc/SefiraBossBase#isreadytoclose), [GetDamageInfo()](/api/Global/Misc/SefiraBossBase#getdamageinfo), [GetDefenseInfo()](/api/Global/Misc/SefiraBossBase#getdefenseinfo), [GetDescType(float)](/api/Global/Misc/SefiraBossBase#getdesctype-float), [GetDescFreq()](/api/Global/Misc/SefiraBossBase#getdescfreq), [ClearDescTexts()](/api/Global/Misc/SefiraBossBase#cleardesctexts), [MakeSound(string)](/api/Global/Misc/SefiraBossBase#makesound-string), [MakeSoundAttachCamera(string)](/api/Global/Misc/SefiraBossBase#makesoundattachcamera-string), [IsStartEmergencyBgm()](/api/Global/Misc/SefiraBossBase#isstartemergencybgm), [QliphothOverloadLevel](/api/Global/Misc/SefiraBossBase#qliphothoverloadlevel), [Sefira](/api/Global/Misc/SefiraBossBase#sefira), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

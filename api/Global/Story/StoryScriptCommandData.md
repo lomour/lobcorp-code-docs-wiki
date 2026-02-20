@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptCommandData
 canonical_path: /api/Global/Story/StoryScriptCommandData
@@ -11,10 +12,12 @@ canonical_path: /api/Global/Story/StoryScriptCommandData
 ```csharp
 public class StoryScriptCommandData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for story commands, for doing actions from the script.
 
-#INC 
-#code-generated
+
 
 
 ## Inheritance
@@ -32,4 +35,5 @@ public StoryScriptCommandData()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

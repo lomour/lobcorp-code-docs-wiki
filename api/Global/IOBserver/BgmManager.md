@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BgmManager
 canonical_path: /api/Global/IOBserver/BgmManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/IOBserver/BgmManager
 ```csharp
 public class BgmManager : MonoBehaviour, IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Handles background music and emergency level score reduction. See also .
 
@@ -34,7 +38,6 @@ public BgmManager()
 ```csharp
 private AudioClip _bossClip
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private AudioClip _bossClip
 ```csharp
 private float _currentDangerScore
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private float _currentDangerScore
 ```csharp
 private static BgmManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private static BgmManager _instance
 ```csharp
 private bool _isUnique
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ private bool _isUnique
 ```csharp
 private AudioSource _src
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private AudioSource _src
 ```csharp
 private const string alarmBeep = "alertBeep"
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ private const string alarmBeep = "alertBeep"
 ```csharp
 public bool canRecover
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ public bool canRecover
 ```csharp
 private int currentAgent
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ private int currentAgent
 ```csharp
 public float currentBgmVolume
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public float currentBgmVolume
 ```csharp
 private EmergencyLevel currentLevel
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ private EmergencyLevel currentLevel
 ```csharp
 public Text currentLevelDisplay
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +137,6 @@ public Text currentLevelDisplay
 ```csharp
 public float currentMasterVolume
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +146,6 @@ public float currentMasterVolume
 ```csharp
 public float delayMin
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +164,6 @@ public float delayTime
 ```csharp
 private float elapsed
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +197,6 @@ public BgmManager.AudioClipList emergencyLevel_3
 ```csharp
 private float fadeElap
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +206,6 @@ private float fadeElap
 ```csharp
 private bool fadeEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -243,7 +231,6 @@ public BgmManager.FadeEffectEvent fadeOutEvent
 ```csharp
 public float fadeTime
 ```
-#INC
 
 
 #### Field Value
@@ -253,7 +240,6 @@ public float fadeTime
 ```csharp
 private bool isFadeIn
 ```
-#INC
 
 
 #### Field Value
@@ -263,7 +249,6 @@ private bool isFadeIn
 ```csharp
 private bool isTimerRunning
 ```
-#INC
 
 
 #### Field Value
@@ -281,7 +266,6 @@ public BgmManager.AudioClipList normal
 ```csharp
 public bool PlayingState
 ```
-#INC
 
 
 #### Field Value
@@ -291,7 +275,6 @@ public bool PlayingState
 ```csharp
 private Timer randTimer
 ```
-#INC
 
 
 #### Field Value
@@ -301,7 +284,6 @@ private Timer randTimer
 ```csharp
 private const float recoverBlockTime = 30
 ```
-#INC
 
 
 #### Field Value
@@ -311,7 +293,6 @@ private const float recoverBlockTime = 30
 ```csharp
 private Timer recoverBlockTimer
 ```
-#INC
 
 
 #### Field Value
@@ -321,7 +302,6 @@ private Timer recoverBlockTimer
 ```csharp
 private float recoveryTime
 ```
-#INC
 
 
 #### Field Value
@@ -331,7 +311,6 @@ private float recoveryTime
 ```csharp
 public Text ScoreDisplay
 ```
-#INC
 
 
 #### Field Value
@@ -341,7 +320,6 @@ public Text ScoreDisplay
 ```csharp
 public Text SoundPlayTime
 ```
-#INC
 
 
 #### Field Value
@@ -351,7 +329,6 @@ public Text SoundPlayTime
 ```csharp
 private int stageAgentMax
 ```
-#INC
 
 
 #### Field Value
@@ -421,43 +398,36 @@ private float recoverMult { get; }
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### BGMForcelyStop()
 ```csharp
 public void BGMForcelyStop()
 ```
-#INC
 
 
 ### BlockRecover()
 ```csharp
 public void BlockRecover()
 ```
-#INC
 
 
 ### BlockRecoverInf()
 ```csharp
 public void BlockRecoverInf()
 ```
-#INC
 
 
 ### ClearUniqueBgm()
 ```csharp
 public void ClearUniqueBgm()
 ```
-#INC
 
 
 ### FadeIn()
 ```csharp
 public bool FadeIn()
 ```
-#INC
 
 
 #### Returns
@@ -467,7 +437,6 @@ public bool FadeIn()
 ```csharp
 public bool FadeOut()
 ```
-#INC
 
 
 #### Returns
@@ -477,14 +446,12 @@ public bool FadeOut()
 ```csharp
 private void FixedUpdate()
 ```
-#INC
 
 
 ### GetBossClip()
 ```csharp
 public AudioClip GetBossClip()
 ```
-#INC
 
 
 #### Returns
@@ -494,7 +461,6 @@ public AudioClip GetBossClip()
 ```csharp
 private AudioClip GetClip(EmergencyLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -522,7 +488,6 @@ public BgmManager.AudioClipList GetClipList(EmergencyLevel level)
 ```csharp
 private AudioClip GetCurrentClip(EmergencyLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -537,14 +502,12 @@ private AudioClip GetCurrentClip(EmergencyLevel level)
 ```csharp
 public void Halt()
 ```
-#INC
 
 
 ### InitVolume(float, float)
 ```csharp
 public void InitVolume(float master, float bgm)
 ```
-#INC
 
 
 #### Parameters
@@ -557,7 +520,6 @@ public void InitVolume(float master, float bgm)
 ```csharp
 public void LoadUniqueBgm(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -569,7 +531,6 @@ public void LoadUniqueBgm(string src)
 ```csharp
 public void OnClick(string level)
 ```
-#INC
 
 
 #### Parameters
@@ -581,14 +542,12 @@ public void OnClick(string level)
 ```csharp
 public void OnManagementStart()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -601,14 +560,12 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ### PlayBgm(AudioClip)
 ```csharp
 private void PlayBgm(AudioClip clip)
 ```
-#INC
 
 
 #### Parameters
@@ -620,28 +577,24 @@ private void PlayBgm(AudioClip clip)
 ```csharp
 public void ReleaseRecoverBlock()
 ```
-#INC
 
 
 ### ResetBgm()
 ```csharp
 public void ResetBgm()
 ```
-#INC
 
 
 ### Resume()
 ```csharp
 public void Resume()
 ```
-#INC
 
 
 ### SetBgm(EmergencyLevel)
 ```csharp
 public void SetBgm(EmergencyLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -653,7 +606,6 @@ public void SetBgm(EmergencyLevel level)
 ```csharp
 public void SetBgmSoundVolume(float val)
 ```
-#INC
 
 
 #### Parameters
@@ -665,14 +617,12 @@ public void SetBgmSoundVolume(float val)
 ```csharp
 public void SetBossClip()
 ```
-#INC
 
 
 ### SetBossClip(string)
 ```csharp
 public void SetBossClip(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -684,7 +634,6 @@ public void SetBossClip(string src)
 ```csharp
 public void SetMasterSoundVolume(float val)
 ```
-#INC
 
 
 #### Parameters
@@ -696,23 +645,21 @@ public void SetMasterSoundVolume(float val)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### SubAgent()
 ```csharp
 public void SubAgent()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

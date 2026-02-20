@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SkillType
 canonical_path: /api/Global/Type/SkillType
@@ -29,4 +30,5 @@ SPECIAL = 1
 
 #### Field Value
 **Type:** Global.SkillType
+
 

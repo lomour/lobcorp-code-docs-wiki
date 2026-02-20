@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AngelaMessageState
 canonical_path: /api/Global/State/AngelaMessageState
@@ -213,4 +214,5 @@ WORK_SUCCESS = 5
 
 #### Field Value
 **Type:** Global.AngelaMessageState
+
 

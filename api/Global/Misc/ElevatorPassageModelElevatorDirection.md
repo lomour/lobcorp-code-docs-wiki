@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ElevatorPassageModel.ElevatorDirection
 canonical_path: /api/Global/Misc/ElevatorPassageModelElevatorDirection
@@ -37,4 +38,5 @@ UP = 1
 
 #### Field Value
 **Type:** Global.ElevatorPassageModel.ElevatorDirection
+
 

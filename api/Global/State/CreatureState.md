@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureState
 canonical_path: /api/Global/State/CreatureState
@@ -85,4 +86,5 @@ WORKING_SCENE = 4
 
 #### Field Value
 **Type:** Global.CreatureState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.SubCategory
 canonical_path: /api/Manual/SubCategory
@@ -11,8 +12,11 @@ canonical_path: /api/Manual/SubCategory
 ```csharp
 public class SubCategory : Category
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#INC 
+
+
 
 
 ## Inheritance
@@ -24,7 +28,6 @@ public class SubCategory : Category
 ```csharp
 public SubCategory(string id, int index)
 ```
-#INC
 
 
 #### Parameters
@@ -39,7 +42,6 @@ public SubCategory(string id, int index)
 ```csharp
 private bool _isOnlyOne
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +51,6 @@ private bool _isOnlyOne
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +60,6 @@ public int index
 ```csharp
 public const string localizeTextFormat = "Manual_SubCategory_{0}"
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ public const string localizeTextFormat = "Manual_SubCategory_{0}"
 ```csharp
 public List<NodeCategory> nodeCategories
 ```
-#INC
 
 
 #### Field Value
@@ -91,10 +90,9 @@ public bool IsOnlyOne { get; set; }
 ```csharp
 public override void LoadText()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [id](/api/Manual/Category#id), [title](/api/Manual/Category#title), [prev](/api/Manual/Category#prev), [next](/api/Manual/Category#next), [parent](/api/Manual/Category#parent), [Reload()](/api/Manual/Category#reload), [Title](/api/Manual/Category#title), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

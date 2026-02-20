@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird.OtherBirdState
 canonical_path: /api/Global/State/BossBirdOtherBirdState
@@ -29,4 +30,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.BossBird.OtherBirdState
+
 

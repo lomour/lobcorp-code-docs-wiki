@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusBoomer
 canonical_path: /api/Global/Misc/CircusBoomer
@@ -11,10 +12,16 @@ canonical_path: /api/Global/Misc/CircusBoomer
 ```csharp
 public class CircusBoomer : BoomerCircusScript
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 old red dawn, I guess
 
-#unused 
+
 
 
 ## Inheritance
@@ -49,7 +56,6 @@ private CircusBoomer.BoomerPhase _phase
 ```csharp
 public CircusBoomerAnim animScript
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +65,6 @@ public CircusBoomerAnim animScript
 ```csharp
 private bool appearEffectMake
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +74,6 @@ private bool appearEffectMake
 ```csharp
 public const float boomFreq = 2
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +83,6 @@ public const float boomFreq = 2
 ```csharp
 public const float boomRange = 7
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +92,6 @@ public const float boomRange = 7
 ```csharp
 public Timer boomTimer
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +101,6 @@ public Timer boomTimer
 ```csharp
 public bool canTakeDmg
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +110,6 @@ public bool canTakeDmg
 ```csharp
 public SoundEffectPlayer defaultSound
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +119,6 @@ public SoundEffectPlayer defaultSound
 ```csharp
 public const float detectRange = 3.25
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +128,6 @@ public const float detectRange = 3.25
 ```csharp
 private const int dmg = 50
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +137,6 @@ private const int dmg = 50
 ```csharp
 public const float dmgPerClick = 30
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +146,6 @@ public const float dmgPerClick = 30
 ```csharp
 public Timer enableDelay
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +155,6 @@ public Timer enableDelay
 ```csharp
 private DamageInfo explosionDmg
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +164,6 @@ private DamageInfo explosionDmg
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +173,6 @@ public int index
 ```csharp
 public float indexZ
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +182,6 @@ public float indexZ
 ```csharp
 public const float moveSpeed = 3
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +191,6 @@ public const float moveSpeed = 3
 ```csharp
 public bool readyToBomb
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +200,6 @@ public bool readyToBomb
 ```csharp
 public Text textUI
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +209,6 @@ public Text textUI
 ```csharp
 public const float yValueFix = -18
 ```
-#INC
 
 
 #### Field Value
@@ -231,14 +220,12 @@ public const float yValueFix = -18
 ```csharp
 private void AppearEffect()
 ```
-#INC
 
 
 ### CanRangeInCamera()
 ```csharp
 public bool CanRangeInCamera()
 ```
-#INC
 
 
 #### Returns
@@ -248,7 +235,6 @@ public bool CanRangeInCamera()
 ```csharp
 public override bool CanTakePhsyicalDamage(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -263,7 +249,6 @@ public override bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public void DelayedEnable(float delay)
 ```
-#INC
 
 
 #### Parameters
@@ -283,7 +268,6 @@ public CircusBoomer.BoomerPhase GetPhase()
 ```csharp
 public void GiveDamageInRange(float range)
 ```
-#INC
 
 
 #### Parameters
@@ -295,14 +279,12 @@ public void GiveDamageInRange(float range)
 ```csharp
 public override void Init()
 ```
-#INC
 
 
 ### IsActive()
 ```csharp
 public override bool IsActive()
 ```
-#INC
 
 
 #### Returns
@@ -312,7 +294,6 @@ public override bool IsActive()
 ```csharp
 public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```
-#INC
 
 
 #### Parameters
@@ -326,7 +307,6 @@ public void MakeExplodeEffect(UnitDirection dir, WorkerModel target, float size)
 ```csharp
 public void MakeExplodeEffect(Vector3 pos, float size)
 ```
-#INC
 
 
 #### Parameters
@@ -339,28 +319,24 @@ public void MakeExplodeEffect(Vector3 pos, float size)
 ```csharp
 public void Move()
 ```
-#INC
 
 
 ### OnBreakDown()
 ```csharp
 public override void OnBreakDown()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 public void OnEnable()
 ```
-#INC
 
 
 ### OnFixedUpdate(StandingItemModel)
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -372,7 +348,6 @@ public override void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public override void OnTakePhyisclaDamage(float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -384,7 +359,6 @@ public override void OnTakePhyisclaDamage(float damage)
 ```csharp
 public override void SetActive(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -396,8 +370,6 @@ public override void SetActive(bool state)
 ```csharp
 public override void SetEvent(BoomerCircusEvent bce)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -419,7 +391,6 @@ public void SetPhase(CircusBoomer.BoomerPhase phase)
 ```csharp
 public bool TargetInRage(float range)
 ```
-#INC
 
 
 #### Parameters
@@ -432,4 +403,5 @@ public bool TargetInRage(float range)
 
 ## Inherited Members
 [randomEvent](/api/Global/Script/BoomerCircusScript#randomevent), [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [IsAttackable()](/api/Global/Standing/StandingItemScriptBase#isattackable), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [GetName()](/api/Global/Standing/StandingItemScriptBase#getname), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [HasName()](/api/Global/Standing/StandingItemScriptBase#hasname), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

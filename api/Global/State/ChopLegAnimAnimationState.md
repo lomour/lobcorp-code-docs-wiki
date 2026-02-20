@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChopLegAnim.AnimationState
 canonical_path: /api/Global/State/ChopLegAnimAnimationState
@@ -37,4 +38,5 @@ Down = 1
 
 #### Field Value
 **Type:** Global.ChopLegAnim.AnimationState
+
 

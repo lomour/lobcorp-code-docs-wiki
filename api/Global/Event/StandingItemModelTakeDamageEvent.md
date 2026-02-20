@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingItemModel.TakeDamageEvent
 canonical_path: /api/Global/Event/StandingItemModelTakeDamageEvent
@@ -69,4 +70,5 @@ public virtual bool Invoke(UnitModel target, float damage)
 
 #### Returns
 **Type:** System.Boolean
+
 

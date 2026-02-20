@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SmallBird.AttackPattern
 canonical_path: /api/Global/Misc/SmallBirdAttackPattern
@@ -37,4 +38,5 @@ NORMAL = 1
 
 #### Field Value
 **Type:** Global.SmallBird.AttackPattern
+
 

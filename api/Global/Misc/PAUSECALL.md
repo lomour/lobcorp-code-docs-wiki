@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PAUSECALL
 canonical_path: /api/Global/Misc/PAUSECALL
@@ -77,4 +78,5 @@ TUTORIAL = 7
 
 #### Field Value
 **Type:** Global.PAUSECALL
+
 

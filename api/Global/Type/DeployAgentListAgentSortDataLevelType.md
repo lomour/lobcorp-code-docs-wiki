@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployAgentList.AgentSortData.LevelType
 canonical_path: /api/Global/Type/DeployAgentListAgentSortDataLevelType
@@ -29,4 +30,5 @@ DESCENDING = 0
 
 #### Field Value
 **Type:** Global.DeployAgentList.AgentSortData.LevelType
+
 

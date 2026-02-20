@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CheckPointUI.EndEvnet
 canonical_path: /api/Global/Misc/CheckPointUIEndEvnet
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

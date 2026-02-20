@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryAgentSlot.OnClickEvent
 canonical_path: /api/Inventory/InventoryAgentSlot/OnClickEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

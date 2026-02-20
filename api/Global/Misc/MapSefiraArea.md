@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapSefiraArea
 canonical_path: /api/Global/Misc/MapSefiraArea
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/MapSefiraArea
 ```csharp
 public class MapSefiraArea
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A list of [rooms](/api/Global/Model/PassageObjectModel) and [nodes](/api/Global/Misc/MapNode) for a given department.
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ A list of [rooms](/api/Global/Model/PassageObjectModel) and [nodes](/api/Global/
 ```csharp
 public MapSefiraArea()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ public MapSefiraArea()
 ```csharp
 private List<MapNode> nodeList
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private List<MapNode> nodeList
 ```csharp
 private List<PassageObjectModel> passageObjects
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private List<PassageObjectModel> passageObjects
 ```csharp
 public string sefiraName
 ```
-#INC
 
 
 #### Field Value
@@ -67,14 +66,12 @@ public string sefiraName
 ```csharp
 public void ActivateArea()
 ```
-#INC
 
 
 ### ActivateArea(string)
 ```csharp
 public void ActivateArea(string passageGroupName)
 ```
-#INC
 
 
 #### Parameters
@@ -86,7 +83,6 @@ public void ActivateArea(string passageGroupName)
 ```csharp
 public void AddNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -98,7 +94,6 @@ public void AddNode(MapNode node)
 ```csharp
 public void AddPassage(PassageObjectModel passage)
 ```
-#INC
 
 
 #### Parameters
@@ -110,14 +105,12 @@ public void AddPassage(PassageObjectModel passage)
 ```csharp
 public void DeactivateArea()
 ```
-#INC
 
 
 ### GetActivatedAreas()
 ```csharp
 public List<string> GetActivatedAreas()
 ```
-#INC
 
 
 #### Returns
@@ -127,7 +120,6 @@ public List<string> GetActivatedAreas()
 ```csharp
 public int GetHorror()
 ```
-#INC
 
 
 #### Returns
@@ -137,7 +129,6 @@ public int GetHorror()
 ```csharp
 public MapNode[] GetNodeList()
 ```
-#INC
 
 
 #### Returns
@@ -147,7 +138,6 @@ public MapNode[] GetNodeList()
 ```csharp
 public PassageObjectModel[] GetRoamingPassageList()
 ```
-#INC
 
 
 #### Returns
@@ -157,16 +147,15 @@ public PassageObjectModel[] GetRoamingPassageList()
 ```csharp
 public void InitActivates()
 ```
-#INC
 
 
 ### SetHorror()
 ```csharp
 public void SetHorror()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

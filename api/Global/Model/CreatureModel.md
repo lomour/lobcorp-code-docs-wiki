@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureModel
 canonical_path: /api/Global/Model/CreatureModel
@@ -11,10 +12,12 @@ canonical_path: /api/Global/Model/CreatureModel
 ```csharp
 public class CreatureModel : UnitModel, IObserver, ISerializablePlayData, IMouseCommandTargetModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents an abnormality, together with its unit, its script, and [CreatureUnit](/api/Global/Unit/CreatureUnit) (if applicable).
 
-#inc
 
 
 ## Inheritance
@@ -32,7 +35,6 @@ Represents an abnormality, together with its unit, its script, and [CreatureUnit
 ```csharp
 public CreatureModel(long instanceId)
 ```
-#INC
 
 
 #### Parameters
@@ -46,7 +48,6 @@ public CreatureModel(long instanceId)
 ```csharp
 private bool _activated
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +57,6 @@ private bool _activated
 ```csharp
 private UseSkill _currentSkill
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +66,6 @@ private UseSkill _currentSkill
 ```csharp
 private int _probReductionCounter
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +75,6 @@ private int _probReductionCounter
 ```csharp
 private int _probReductionValue
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +84,6 @@ private int _probReductionValue
 ```csharp
 private int _qliphothCounter
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +93,6 @@ private int _qliphothCounter
 ```csharp
 protected CreatureState _state
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +102,6 @@ protected CreatureState _state
 ```csharp
 protected CreatureUnit _unit
 ```
-#INC
 
 
 #### Field Value
@@ -116,7 +111,6 @@ protected CreatureUnit _unit
 ```csharp
 public Vector2 basePosition
 ```
-#INC
 
 
 #### Field Value
@@ -126,7 +120,6 @@ public Vector2 basePosition
 ```csharp
 public bool canBeSuppressed
 ```
-#INC
 
 
 #### Field Value
@@ -136,7 +129,6 @@ public bool canBeSuppressed
 ```csharp
 public static string[] careTakingRegion
 ```
-#INC
 
 
 #### Field Value
@@ -146,7 +138,6 @@ public static string[] careTakingRegion
 ```csharp
 private long childInst
 ```
-#INC
 
 
 #### Field Value
@@ -156,7 +147,6 @@ private long childInst
 ```csharp
 private List<ChildCreatureModel> childs
 ```
-#INC
 
 
 #### Field Value
@@ -174,7 +164,6 @@ public CreatureCommandQueue commandQueue
 ```csharp
 private static int counter
 ```
-#INC
 
 
 #### Field Value
@@ -184,7 +173,6 @@ private static int counter
 ```csharp
 public float currentOverloadMaxTime
 ```
-#INC
 
 
 #### Field Value
@@ -194,7 +182,6 @@ public float currentOverloadMaxTime
 ```csharp
 private MapNode customNode
 ```
-#INC
 
 
 #### Field Value
@@ -204,7 +191,6 @@ private MapNode customNode
 ```csharp
 private string defenseId
 ```
-#INC
 
 
 #### Field Value
@@ -214,7 +200,6 @@ private string defenseId
 ```csharp
 public MapNode entryNode
 ```
-#INC
 
 
 #### Field Value
@@ -224,7 +209,6 @@ public MapNode entryNode
 ```csharp
 public string entryNodeId
 ```
-#INC
 
 
 #### Field Value
@@ -234,7 +218,6 @@ public string entryNodeId
 ```csharp
 public CreatureFeelingState feelingState
 ```
-#INC
 
 
 #### Field Value
@@ -244,7 +227,6 @@ public CreatureFeelingState feelingState
 ```csharp
 public float feelingStateRemainTime
 ```
-#INC
 
 
 #### Field Value
@@ -254,7 +236,6 @@ public float feelingStateRemainTime
 ```csharp
 public SefiraIsolate isolateRoomData
 ```
-#INC
 
 
 #### Field Value
@@ -264,7 +245,6 @@ public SefiraIsolate isolateRoomData
 ```csharp
 public bool isOverloaded
 ```
-#INC
 
 
 #### Field Value
@@ -274,7 +254,6 @@ public bool isOverloaded
 ```csharp
 public AgentModel kitEquipOwner
 ```
-#INC
 
 
 #### Field Value
@@ -284,7 +263,6 @@ public AgentModel kitEquipOwner
 ```csharp
 public long metadataId
 ```
-#INC
 
 
 #### Field Value
@@ -294,7 +272,6 @@ public long metadataId
 ```csharp
 public CreatureTypeInfo metaInfo
 ```
-#INC
 
 
 #### Field Value
@@ -304,7 +281,6 @@ public CreatureTypeInfo metaInfo
 ```csharp
 public float movementScale
 ```
-#INC
 
 
 #### Field Value
@@ -314,7 +290,6 @@ public float movementScale
 ```csharp
 public List<string> narrationList
 ```
-#INC
 
 
 #### Field Value
@@ -324,7 +299,6 @@ public List<string> narrationList
 ```csharp
 public CreatureObserveInfoModel observeInfo
 ```
-#INC
 
 
 #### Field Value
@@ -334,7 +308,6 @@ public CreatureObserveInfoModel observeInfo
 ```csharp
 public int overloadLevel
 ```
-#INC
 
 
 #### Field Value
@@ -344,7 +317,6 @@ public int overloadLevel
 ```csharp
 public const float overloadTime = 60
 ```
-#INC
 
 
 #### Field Value
@@ -354,7 +326,6 @@ public const float overloadTime = 60
 ```csharp
 public float overloadTimer
 ```
-#INC
 
 
 #### Field Value
@@ -364,7 +335,6 @@ public float overloadTimer
 ```csharp
 public OverloadType overloadType
 ```
-#INC
 
 
 #### Field Value
@@ -374,7 +344,6 @@ public OverloadType overloadType
 ```csharp
 public static string[] regionName
 ```
-#INC
 
 
 #### Field Value
@@ -384,7 +353,6 @@ public static string[] regionName
 ```csharp
 public MapNode roomNode
 ```
-#INC
 
 
 #### Field Value
@@ -394,7 +362,6 @@ public MapNode roomNode
 ```csharp
 public CreatureBase script
 ```
-#INC
 
 
 #### Field Value
@@ -404,7 +371,6 @@ public CreatureBase script
 ```csharp
 public Sefira sefira
 ```
-#INC
 
 
 #### Field Value
@@ -414,7 +380,6 @@ public Sefira sefira
 ```csharp
 public string sefiraNum
 ```
-#INC
 
 
 #### Field Value
@@ -424,7 +389,6 @@ public string sefiraNum
 ```csharp
 public Sefira sefiraOrigin
 ```
-#INC
 
 
 #### Field Value
@@ -434,7 +398,6 @@ public Sefira sefiraOrigin
 ```csharp
 public IsolatePos specialSkillPos
 ```
-#INC
 
 
 #### Field Value
@@ -444,7 +407,6 @@ public IsolatePos specialSkillPos
 ```csharp
 public float suppressReturnTimer
 ```
-#INC
 
 
 #### Field Value
@@ -454,7 +416,6 @@ public float suppressReturnTimer
 ```csharp
 public int workCount
 ```
-#INC
 
 
 #### Field Value
@@ -464,7 +425,6 @@ public int workCount
 ```csharp
 private MapNode workspaceNode
 ```
-#INC
 
 
 #### Field Value
@@ -500,7 +460,6 @@ public override DefenseInfo defense { get; }
 ```csharp
 public Guid InstanceID { get; private set; }
 ```
-#INC
 
 
 #### Property Value
@@ -572,7 +531,6 @@ public void ActivateOverload(int level, float iOverloadTime = 60, OverloadType o
 ```csharp
 public long AddChildCreatureModel()
 ```
-#INC
 
 
 #### Returns
@@ -582,7 +540,6 @@ public long AddChildCreatureModel()
 ```csharp
 public long AddChildCreatureModel(string childScriptBase, string childPrefab)
 ```
-#INC
 
 
 #### Parameters
@@ -598,7 +555,6 @@ public long AddChildCreatureModel(string childScriptBase, string childPrefab)
 ```csharp
 public void AddCreatureSuccessCube(int count)
 ```
-#INC
 
 
 #### Parameters
@@ -610,35 +566,30 @@ public void AddCreatureSuccessCube(int count)
 ```csharp
 public void AddObservationLevel()
 ```
-#INC
 
 
 ### AddProbReductionCounter()
 ```csharp
 public void AddProbReductionCounter()
 ```
-#INC
 
 
 ### AddQliphothCounter()
 ```csharp
 public void AddQliphothCounter()
 ```
-#INC
 
 
 ### AddWorkCount()
 ```csharp
 public void AddWorkCount()
 ```
-#INC
 
 
 ### AttackTarget(AttackCommand_creature)
 ```csharp
 public void AttackTarget(AttackCommand_creature cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -650,14 +601,12 @@ public void AttackTarget(AttackCommand_creature cmd)
 ```csharp
 public void CancelOverload()
 ```
-#INC
 
 
 ### CanPurhcase(int)
 ```csharp
 public bool CanPurhcase(int cost)
 ```
-#INC
 
 
 #### Parameters
@@ -672,7 +621,6 @@ public bool CanPurhcase(int cost)
 ```csharp
 public void ChangePos(CreatureModel changed)
 ```
-#INC
 
 
 #### Parameters
@@ -684,21 +632,18 @@ public void ChangePos(CreatureModel changed)
 ```csharp
 public void ClearCommand()
 ```
-#INC
 
 
 ### ClearProbReduction()
 ```csharp
 public void ClearProbReduction()
 ```
-#INC
 
 
 ### ConvertCodeIDToName(string)
 ```csharp
 public string ConvertCodeIDToName(string origin)
 ```
-#INC
 
 
 #### Parameters
@@ -713,7 +658,6 @@ public string ConvertCodeIDToName(string origin)
 ```csharp
 public string ConvertCodeIDToNameForcely(string origin)
 ```
-#INC
 
 
 #### Parameters
@@ -728,14 +672,12 @@ public string ConvertCodeIDToNameForcely(string origin)
 ```csharp
 public void ConvertNarrationCodeIDToName()
 ```
-#INC
 
 
 ### CopyNodeData(CreatureModel)
 ```csharp
 public void CopyNodeData(CreatureModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -747,7 +689,6 @@ public void CopyNodeData(CreatureModel target)
 ```csharp
 public void DeleteChildCreatureModel(long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -759,14 +700,12 @@ public void DeleteChildCreatureModel(long instId)
 ```csharp
 public virtual void Escape()
 ```
-#INC
 
 
 ### EscapeWithoutIsolateRoom()
 ```csharp
 public virtual void EscapeWithoutIsolateRoom()
 ```
-#INC
 
 
 ### ExplodeOverload()
@@ -778,21 +717,18 @@ public void ExplodeOverload()
 ```csharp
 public void FinishReturn()
 ```
-#INC
 
 
 ### ForcelyCancelSuppress()
 ```csharp
 public void ForcelyCancelSuppress()
 ```
-#INC
 
 
 ### GetAliveChilds()
 ```csharp
 public List<ChildCreatureModel> GetAliveChilds()
 ```
-#INC
 
 
 #### Returns
@@ -802,7 +738,6 @@ public List<ChildCreatureModel> GetAliveChilds()
 ```csharp
 public CreatureAnimScript GetAnimScript()
 ```
-#INC
 
 
 #### Returns
@@ -812,7 +747,6 @@ public CreatureAnimScript GetAnimScript()
 ```csharp
 public override int GetAttackLevel()
 ```
-#INC
 
 
 #### Returns
@@ -822,7 +756,6 @@ public override int GetAttackLevel()
 ```csharp
 public ChildCreatureModel GetChildCreatureModel(long instID)
 ```
-#INC
 
 
 #### Parameters
@@ -837,7 +770,6 @@ public ChildCreatureModel GetChildCreatureModel(long instID)
 ```csharp
 public UnitModel GetConnectedUnitModel()
 ```
-#INC
 
 
 #### Returns
@@ -847,7 +779,6 @@ public UnitModel GetConnectedUnitModel()
 ```csharp
 public CreatureCommand GetCreatureCurrentCmd()
 ```
-#INC
 
 
 #### Returns
@@ -857,7 +788,6 @@ public CreatureCommand GetCreatureCurrentCmd()
 ```csharp
 public float GetCubeSpeed()
 ```
-#INC
 
 
 #### Returns
@@ -867,7 +797,6 @@ public float GetCubeSpeed()
 ```csharp
 public virtual CreatureCommand GetCurrentCommand()
 ```
-#INC
 
 
 #### Returns
@@ -877,7 +806,6 @@ public virtual CreatureCommand GetCurrentCommand()
 ```csharp
 public int GetCurrentCumlatvieCube()
 ```
-#INC
 
 
 #### Returns
@@ -887,7 +815,6 @@ public int GetCurrentCumlatvieCube()
 ```csharp
 public virtual MapEdge GetCurrentEdge()
 ```
-#INC
 
 
 #### Returns
@@ -897,7 +824,6 @@ public virtual MapEdge GetCurrentEdge()
 ```csharp
 public virtual MapNode GetCurrentNode()
 ```
-#INC
 
 
 #### Returns
@@ -907,7 +833,6 @@ public virtual MapNode GetCurrentNode()
 ```csharp
 public MapNode GetCustomNode()
 ```
-#INC
 
 
 #### Returns
@@ -917,7 +842,6 @@ public MapNode GetCustomNode()
 ```csharp
 public override int GetDefenseLevel()
 ```
-#INC
 
 
 #### Returns
@@ -927,7 +851,6 @@ public override int GetDefenseLevel()
 ```csharp
 public UnitDirection GetDirection()
 ```
-#INC
 
 
 #### Returns
@@ -937,7 +860,6 @@ public UnitDirection GetDirection()
 ```csharp
 public MapNode GetEntryNode()
 ```
-#INC
 
 
 #### Returns
@@ -947,7 +869,6 @@ public MapNode GetEntryNode()
 ```csharp
 public float GetFeelingPercent()
 ```
-#INC
 
 
 #### Returns
@@ -957,7 +878,6 @@ public float GetFeelingPercent()
 ```csharp
 public CreatureFeelingState GetFeelingState()
 ```
-#INC
 
 
 #### Returns
@@ -967,7 +887,6 @@ public CreatureFeelingState GetFeelingState()
 ```csharp
 public int GetMaxWorkCount()
 ```
-#INC
 
 
 #### Returns
@@ -977,7 +896,6 @@ public int GetMaxWorkCount()
 ```csharp
 public int GetMaxWorkCountView()
 ```
-#INC
 
 
 #### Returns
@@ -987,7 +905,6 @@ public int GetMaxWorkCountView()
 ```csharp
 public List<WorkerModel> GetNearWorkerEncounted()
 ```
-#INC
 
 
 #### Returns
@@ -997,7 +914,6 @@ public List<WorkerModel> GetNearWorkerEncounted()
 ```csharp
 public int GetNeedObservePoint()
 ```
-#INC
 
 
 #### Returns
@@ -1007,7 +923,6 @@ public int GetNeedObservePoint()
 ```csharp
 public int GetObservationConditionPoint()
 ```
-#INC
 
 
 #### Returns
@@ -1017,7 +932,6 @@ public int GetObservationConditionPoint()
 ```csharp
 public int GetObservationLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1027,7 +941,6 @@ public int GetObservationLevel()
 ```csharp
 public int GetObserveBonusProb()
 ```
-#INC
 
 
 #### Returns
@@ -1037,7 +950,6 @@ public int GetObserveBonusProb()
 ```csharp
 public int GetObserveBonusSpeed()
 ```
-#INC
 
 
 #### Returns
@@ -1047,7 +959,6 @@ public int GetObserveBonusSpeed()
 ```csharp
 public int GetRedusedWorkProbByCounter()
 ```
-#INC
 
 
 #### Returns
@@ -1057,7 +968,6 @@ public int GetRedusedWorkProbByCounter()
 ```csharp
 public override int GetRiskLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1067,7 +977,6 @@ public override int GetRiskLevel()
 ```csharp
 public MapNode GetRoomNode()
 ```
-#INC
 
 
 #### Returns
@@ -1077,7 +986,6 @@ public MapNode GetRoomNode()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -1087,8 +995,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public override string GetUnitName()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -1098,7 +1004,6 @@ public override string GetUnitName()
 ```csharp
 public static string GetUnitName(CreatureTypeInfo metaInfo, CreatureObserveInfoModel observeInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -1114,7 +1019,6 @@ public static string GetUnitName(CreatureTypeInfo metaInfo, CreatureObserveInfoM
 ```csharp
 public MapNode GetWorkspaceNode()
 ```
-#INC
 
 
 #### Returns
@@ -1124,7 +1028,6 @@ public MapNode GetWorkspaceNode()
 ```csharp
 public float GetWorkSuccessProb(AgentModel actor, SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1140,7 +1043,6 @@ public float GetWorkSuccessProb(AgentModel actor, SkillTypeInfo skill)
 ```csharp
 public override void InteractWithDoor(DoorObjectModel door)
 ```
-#INC
 
 
 #### Parameters
@@ -1152,7 +1054,6 @@ public override void InteractWithDoor(DoorObjectModel door)
 ```csharp
 public override bool IsAttackTargetable()
 ```
-#INC
 
 
 #### Returns
@@ -1162,7 +1063,6 @@ public override bool IsAttackTargetable()
 ```csharp
 public bool IsEscaped()
 ```
-#INC
 
 
 #### Returns
@@ -1172,7 +1072,6 @@ public bool IsEscaped()
 ```csharp
 public bool IsEscapedOnlyEscape()
 ```
-#INC
 
 
 #### Returns
@@ -1182,7 +1081,6 @@ public bool IsEscapedOnlyEscape()
 ```csharp
 public override bool IsHostile(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1197,7 +1095,6 @@ public override bool IsHostile(UnitModel target)
 ```csharp
 public bool isPrevMaxObserve()
 ```
-#INC
 
 
 #### Returns
@@ -1207,7 +1104,6 @@ public bool isPrevMaxObserve()
 ```csharp
 public bool IsWorkCountFull()
 ```
-#INC
 
 
 #### Returns
@@ -1217,7 +1113,6 @@ public bool IsWorkCountFull()
 ```csharp
 public bool IsWorkingState()
 ```
-#INC
 
 
 #### Returns
@@ -1227,7 +1122,6 @@ public bool IsWorkingState()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -1239,14 +1133,12 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void MakeSpatteredBlood()
 ```
-#INC
 
 
 ### MoveToMovable(MovableObjectNode)
 ```csharp
 public void MoveToMovable(MovableObjectNode movable)
 ```
-#INC
 
 
 #### Parameters
@@ -1258,7 +1150,6 @@ public void MoveToMovable(MovableObjectNode movable)
 ```csharp
 public void MoveToNode(MapNode mapNode)
 ```
-#INC
 
 
 #### Parameters
@@ -1270,42 +1161,36 @@ public void MoveToNode(MapNode mapNode)
 ```csharp
 public void OnActivateAgentDeadPenalty()
 ```
-#INC
 
 
 ### OnChangeProbReduectionCounter()
 ```csharp
 private void OnChangeProbReduectionCounter()
 ```
-#INC
 
 
 ### OnComplexAttackInWork()
 ```csharp
 public void OnComplexAttackInWork()
 ```
-#INC
 
 
 ### OnEscapeUpdate()
 ```csharp
 public virtual void OnEscapeUpdate()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 public virtual void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnFixedUpdateInKitEquip(AgentModel)
 ```csharp
 public void OnFixedUpdateInKitEquip(AgentModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -1317,21 +1202,18 @@ public void OnFixedUpdateInKitEquip(AgentModel actor)
 ```csharp
 public virtual void OnGameInit()
 ```
-#INC
 
 
 ### OnMentalAttackInWork()
 ```csharp
 public void OnMentalAttackInWork()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1344,21 +1226,18 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnObservationLevelChanged()
 ```
-#INC
 
 
 ### OnPhysicsAttackInWork()
 ```csharp
 public void OnPhysicsAttackInWork()
 ```
-#INC
 
 
 ### OnRevealSpecialSkillTip(string, params object[])
 ```csharp
 public void OnRevealSpecialSkillTip(string key, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1371,28 +1250,24 @@ public void OnRevealSpecialSkillTip(string key, params object[] param)
 ```csharp
 public virtual void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public virtual void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public virtual void OnStageStart()
 ```
-#INC
 
 
 ### OnStopMovableByShield(AgentModel)
 ```csharp
 public override void OnStopMovableByShield(AgentModel shielder)
 ```
-#INC
 
 
 #### Parameters
@@ -1404,14 +1279,12 @@ public override void OnStopMovableByShield(AgentModel shielder)
 ```csharp
 public override void OnSuperArmorBreak()
 ```
-#INC
 
 
 ### PlayAttackAnimation(string)
 ```csharp
 protected override void PlayAttackAnimation(string animationName)
 ```
-#INC
 
 
 #### Parameters
@@ -1423,7 +1296,6 @@ protected override void PlayAttackAnimation(string animationName)
 ```csharp
 public virtual void PursueWorker(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1435,7 +1307,6 @@ public virtual void PursueWorker(WorkerModel target)
 ```csharp
 public virtual void PursueWorkerAlter(WorkerModel target, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -1448,7 +1319,6 @@ public virtual void PursueWorkerAlter(WorkerModel target, float damage)
 ```csharp
 public virtual void PursueWorkerAlter(WorkerModel target, RwbpType dmgType, int dmgMin, int dmgMax)
 ```
-#INC
 
 
 #### Parameters
@@ -1463,14 +1333,12 @@ public virtual void PursueWorkerAlter(WorkerModel target, RwbpType dmgType, int 
 ```csharp
 public void ResetAttackDelay()
 ```
-#INC
 
 
 ### ResetAttackDelay(float)
 ```csharp
 public void ResetAttackDelay(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -1482,28 +1350,24 @@ public void ResetAttackDelay(float value)
 ```csharp
 public void ResetProbReductionCounter()
 ```
-#INC
 
 
 ### ResetQliphothCounter()
 ```csharp
 public void ResetQliphothCounter()
 ```
-#INC
 
 
 ### ResetWorkCount()
 ```csharp
 public void ResetWorkCount()
 ```
-#INC
 
 
 ### SendAnimMessage(string)
 ```csharp
 public virtual void SendAnimMessage(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -1515,7 +1379,6 @@ public virtual void SendAnimMessage(string name)
 ```csharp
 public void SetActivatedState(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -1527,7 +1390,6 @@ public void SetActivatedState(bool state)
 ```csharp
 public virtual void SetCurrentNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1539,7 +1401,6 @@ public virtual void SetCurrentNode(MapNode node)
 ```csharp
 public void SetCustomNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1551,7 +1412,6 @@ public void SetCustomNode(MapNode node)
 ```csharp
 public void SetDefenseId(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -1563,7 +1423,6 @@ public void SetDefenseId(string id)
 ```csharp
 public override void SetFaction(FactionTypeInfo type)
 ```
-#INC
 
 
 #### Parameters
@@ -1575,7 +1434,6 @@ public override void SetFaction(FactionTypeInfo type)
 ```csharp
 public override void SetFaction(string factionCode)
 ```
-#INC
 
 
 #### Parameters
@@ -1587,7 +1445,6 @@ public override void SetFaction(string factionCode)
 ```csharp
 public void SetFeelingStateInWork(CreatureFeelingState state)
 ```
-#INC
 
 
 #### Parameters
@@ -1599,7 +1456,6 @@ public void SetFeelingStateInWork(CreatureFeelingState state)
 ```csharp
 public virtual void SetMoveAnimState(bool b)
 ```
-#INC
 
 
 #### Parameters
@@ -1611,7 +1467,6 @@ public virtual void SetMoveAnimState(bool b)
 ```csharp
 public virtual void SetPursueWorkerCommand(WorkerModel target, CreatureCommand pursueCommand)
 ```
-#INC
 
 
 #### Parameters
@@ -1624,7 +1479,6 @@ public virtual void SetPursueWorkerCommand(WorkerModel target, CreatureCommand p
 ```csharp
 public void SetQliphothCounter(int value)
 ```
-#INC
 
 
 #### Parameters
@@ -1636,7 +1490,6 @@ public void SetQliphothCounter(int value)
 ```csharp
 public void SetRoomNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1648,7 +1501,6 @@ public void SetRoomNode(MapNode node)
 ```csharp
 public void SetUnit(CreatureUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -1660,7 +1512,6 @@ public void SetUnit(CreatureUnit unit)
 ```csharp
 public void SetWorkspaceNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1672,7 +1523,6 @@ public void SetWorkspaceNode(MapNode node)
 ```csharp
 public void ShowCreatureSpeech(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -1684,7 +1534,6 @@ public void ShowCreatureSpeech(string key)
 ```csharp
 public void ShowCreatureSpeech(string key, float time)
 ```
-#INC
 
 
 #### Parameters
@@ -1697,7 +1546,6 @@ public void ShowCreatureSpeech(string key, float time)
 ```csharp
 public void ShowCreatureSpeechDirect(string desc)
 ```
-#INC
 
 
 #### Parameters
@@ -1709,7 +1557,6 @@ public void ShowCreatureSpeechDirect(string desc)
 ```csharp
 public void ShowCreatureSpeechDirect(string desc, float time)
 ```
-#INC
 
 
 #### Parameters
@@ -1722,7 +1569,6 @@ public void ShowCreatureSpeechDirect(string desc, float time)
 ```csharp
 public void ShowNarrationForcely(string desc)
 ```
-#INC
 
 
 #### Parameters
@@ -1734,7 +1580,6 @@ public void ShowNarrationForcely(string desc)
 ```csharp
 public string ShowNarrationText(string narrationKey, bool roomEffect, params string[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1751,7 +1596,6 @@ public string ShowNarrationText(string narrationKey, bool roomEffect, params str
 ```csharp
 public string ShowNarrationText(string narrationKey, params string[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1767,7 +1611,6 @@ public string ShowNarrationText(string narrationKey, params string[] param)
 ```csharp
 public void ShowProcessNarrationText(string narrationKey, params string[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1780,7 +1623,6 @@ public void ShowProcessNarrationText(string narrationKey, params string[] param)
 ```csharp
 public void ShowTextOutside(CreatureOutsideTextLayout layoutType, string textKey)
 ```
-#INC
 
 
 #### Parameters
@@ -1793,14 +1635,12 @@ public void ShowTextOutside(CreatureOutsideTextLayout layoutType, string textKey
 ```csharp
 public void SpecialSkillActivated()
 ```
-#INC
 
 
 ### SubCreatureSuccessCube(int)
 ```csharp
 public void SubCreatureSuccessCube(int count)
 ```
-#INC
 
 
 #### Parameters
@@ -1812,21 +1652,18 @@ public void SubCreatureSuccessCube(int count)
 ```csharp
 public void SubQliphothCounter()
 ```
-#INC
 
 
 ### Suppressed()
 ```csharp
 public virtual void Suppressed()
 ```
-#INC
 
 
 ### TakeDamage(UnitModel, DamageInfo)
 ```csharp
 public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -1839,7 +1676,6 @@ public override void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```csharp
 public bool TransactionCube(int cost)
 ```
-#INC
 
 
 #### Parameters
@@ -1854,16 +1690,15 @@ public bool TransactionCube(int cost)
 ```csharp
 private void UpdateQliphothCounter()
 ```
-#INC
 
 
 ### WorkParamInit()
 ```csharp
 public void WorkParamInit()
 ```
-#INC
 
 
 ## Inherited Members
 [stunCriteria](/api/Global/Model/UnitModel#stuncriteria), [defaultStunEffectSrc](/api/Global/Model/UnitModel#defaultstuneffectsrc), [instanceId](/api/Global/Model/UnitModel#instanceid), [movableNode](/api/Global/Model/UnitModel#movablenode), [shield](/api/Global/Model/UnitModel#shield), [_equipment](/api/Global/Model/UnitModel#equipment), [tempAnim](/api/Global/Model/UnitModel#tempanim), [factionTypeInfo](/api/Global/Model/UnitModel#factiontypeinfo), [stunTimer](/api/Global/Model/UnitModel#stuntimer), [hp](/api/Global/Model/UnitModel#hp), [mental](/api/Global/Model/UnitModel#mental), [baseMaxHp](/api/Global/Model/UnitModel#basemaxhp), [baseMaxMental](/api/Global/Model/UnitModel#basemaxmental), [baseMovement](/api/Global/Model/UnitModel#basemovement), [baseRegeneration](/api/Global/Model/UnitModel#baseregeneration), [baseRegenerationDelay](/api/Global/Model/UnitModel#baseregenerationdelay), [additionalDef](/api/Global/Model/UnitModel#additionaldef), [superArmorMax](/api/Global/Model/UnitModel#superarmormax), [superArmor](/api/Global/Model/UnitModel#superarmor), [superArmorDefense](/api/Global/Model/UnitModel#superarmordefense), [remainMoveDelay](/api/Global/Model/UnitModel#remainmovedelay), [remainAttackDelay](/api/Global/Model/UnitModel#remainattackdelay), [isStun](/api/Global/Model/UnitModel#isstun), [damageTransform](/api/Global/Model/UnitModel#damagetransform), [basePhysicalDefense](/api/Global/Model/UnitModel#basephysicaldefense), [baseMentalDefense](/api/Global/Model/UnitModel#basementaldefense), [encounteredWorker](/api/Global/Model/UnitModel#encounteredworker), [_bufList](/api/Global/Model/UnitModel#buflist), [_statBufList](/api/Global/Model/UnitModel#statbuflist), [_barrierBufList](/api/Global/Model/UnitModel#barrierbuflist), [CanOpenDoor()](/api/Global/Model/UnitModel#canopendoor), [GetMovableNode()](/api/Global/Model/UnitModel#getmovablenode), [GetCurrentViewPosition()](/api/Global/Model/UnitModel#getcurrentviewposition), [SetWeapon(WeaponModel)](/api/Global/Model/UnitModel#setweapon-weaponmodel), [ReleaseWeaponV2()](/api/Global/Model/UnitModel#releaseweaponv2), [SetArmor(ArmorModel)](/api/Global/Model/UnitModel#setarmor-armormodel), [ReleaseArmor()](/api/Global/Model/UnitModel#releasearmor), [AttachEGOgift(EGOgiftModel)](/api/Global/Model/UnitModel#attachegogift-egogiftmodel), [ReleaseEGOgift(EGOgiftModel)](/api/Global/Model/UnitModel#releaseegogift-egogiftmodel), [ReleaseEGOGift(int)](/api/Global/Model/UnitModel#releaseegogift-int), [SetGiftDisplayState(EGOgiftModel, bool)](/api/Global/Model/UnitModel#setgiftdisplaystate-egogiftmodel-bool), [GetGiftDisplayState(EGOgiftModel)](/api/Global/Model/UnitModel#getgiftdisplaystate-egogiftmodel), [SetGiftLockState(EGOgiftModel, bool)](/api/Global/Model/UnitModel#setgiftlockstate-egogiftmodel-bool), [SetKitCreature(CreatureModel)](/api/Global/Model/UnitModel#setkitcreature-creaturemodel), [ReleaseKitCreature(bool)](/api/Global/Model/UnitModel#releasekitcreature-bool), [OnSetWeapon()](/api/Global/Model/UnitModel#onsetweapon), [OnReleaseWeapon()](/api/Global/Model/UnitModel#onreleaseweapon), [OnSetArmor()](/api/Global/Model/UnitModel#onsetarmor), [OnReleaseArmor()](/api/Global/Model/UnitModel#onreleasearmor), [OnChangeGift()](/api/Global/Model/UnitModel#onchangegift), [OnSetKitCreature()](/api/Global/Model/UnitModel#onsetkitcreature), [OnReleaseKitCreature()](/api/Global/Model/UnitModel#onreleasekitcreature), [GetWeaponSpriteSrc()](/api/Global/Model/UnitModel#getweaponspritesrc), [GetWeaponSprite()](/api/Global/Model/UnitModel#getweaponsprite), [PrepareWeapon()](/api/Global/Model/UnitModel#prepareweapon), [CancelWeapon()](/api/Global/Model/UnitModel#cancelweapon), [Attack(UnitModel)](/api/Global/Model/UnitModel#attack-unitmodel), [IsAttackState()](/api/Global/Model/UnitModel#isattackstate), [InWeaponRange(UnitModel)](/api/Global/Model/UnitModel#inweaponrange-unitmodel), [StopAttack()](/api/Global/Model/UnitModel#stopattack), [OnGiveDamageByWeapon()](/api/Global/Model/UnitModel#ongivedamagebyweapon), [GetDamageFactorByEquipment()](/api/Global/Model/UnitModel#getdamagefactorbyequipment), [GetDamageFactorBySefiraAbility()](/api/Global/Model/UnitModel#getdamagefactorbysefiraability), [OnEndAttackCycle()](/api/Global/Model/UnitModel#onendattackcycle), [EndAttackAnimation()](/api/Global/Model/UnitModel#endattackanimation), [GetEGObonus()](/api/Global/Model/UnitModel#getegobonus), [HasEquipment(int)](/api/Global/Model/UnitModel#hasequipment-int), [AddSuperArmorMax(float)](/api/Global/Model/UnitModel#addsuperarmormax-float), [SubSuperArmorMax(float)](/api/Global/Model/UnitModel#subsuperarmormax-float), [TakeDamage(DamageInfo)](/api/Global/Model/UnitModel#takedamage-damageinfo), [TakeDamageWithoutEffect(UnitModel, DamageInfo)](/api/Global/Model/UnitModel#takedamagewithouteffect-unitmodel-damageinfo), [MakeDamageEffect(RwbpType, float, Type)](/api/Global/Model/UnitModel#makedamageeffect-rwbptype-float-type), [UnderAttack(UnitModel)](/api/Global/Model/UnitModel#underattack-unitmodel), [ClearWorkerEncounting()](/api/Global/Model/UnitModel#clearworkerencounting), [CheckNearWorkerEncounting()](/api/Global/Model/UnitModel#checknearworkerencounting), [IsStunned()](/api/Global/Model/UnitModel#isstunned), [SetMoveDelay(float)](/api/Global/Model/UnitModel#setmovedelay-float), [SetAttackDelay()](/api/Global/Model/UnitModel#setattackdelay), [SetAttackDelay(float)](/api/Global/Model/UnitModel#setattackdelay-float), [UpdateBufState()](/api/Global/Model/UnitModel#updatebufstate), [AddUnitBuf(UnitBuf)](/api/Global/Model/UnitModel#addunitbuf-unitbuf), [HasUnitBuf(UnitBufType)](/api/Global/Model/UnitModel#hasunitbuf-unitbuftype), [GetUnitBufByType(UnitBufType)](/api/Global/Model/UnitModel#getunitbufbytype-unitbuftype), [RemoveUnitBuf(UnitBuf)](/api/Global/Model/UnitModel#removeunitbuf-unitbuf), [GetMaxHpBuf()](/api/Global/Model/UnitModel#getmaxhpbuf), [GetMaxMentalBuf()](/api/Global/Model/UnitModel#getmaxmentalbuf), [GetCubeSpeedBuf()](/api/Global/Model/UnitModel#getcubespeedbuf), [GetWorkProbBuf()](/api/Global/Model/UnitModel#getworkprobbuf), [GetAttackSpeedBuf()](/api/Global/Model/UnitModel#getattackspeedbuf), [GetMovementBuf()](/api/Global/Model/UnitModel#getmovementbuf), [GetPrimaryStatBuf()](/api/Global/Model/UnitModel#getprimarystatbuf), [GetMovementScaleByBuf()](/api/Global/Model/UnitModel#getmovementscalebybuf), [GetFaction()](/api/Global/Model/UnitModel#getfaction), [SetFactionForcely(string)](/api/Global/Model/UnitModel#setfactionforcely-string), [OnStun(float)](/api/Global/Model/UnitModel#onstun-float), [OnStunEnd()](/api/Global/Model/UnitModel#onstunend), [GetDmgMultiplierByEgoLevel(int, int)](/api/Global/Model/UnitModel#getdmgmultiplierbyegolevel-int-int), [GetBufDamageMultiplier(UnitModel, DamageInfo)](/api/Global/Model/UnitModel#getbufdamagemultiplier-unitmodel-damageinfo), [GetUnitBufByName(string)](/api/Global/Model/UnitModel#getunitbufbyname-string), [GetUnitBufList()](/api/Global/Model/UnitModel#getunitbuflist), [Equipment](/api/Global/Model/UnitModel#equipment), [maxHp](/api/Global/Model/UnitModel#maxhp), [maxMental](/api/Global/Model/UnitModel#maxmental), [movement](/api/Global/Model/UnitModel#movement), [regeneration](/api/Global/Model/UnitModel#regeneration), [regenerationDelay](/api/Global/Model/UnitModel#regenerationdelay), [attackSpeed](/api/Global/Model/UnitModel#attackspeed), [damage](/api/Global/Model/UnitModel#damage), [physicalDefense](/api/Global/Model/UnitModel#physicaldefense), [mentalDefense](/api/Global/Model/UnitModel#mentaldefense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

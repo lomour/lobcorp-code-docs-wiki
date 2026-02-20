@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LyricTypeNew
 canonical_path: /api/Global/Misc/LyricTypeNew
@@ -53,4 +54,5 @@ PANIC = 2
 
 #### Field Value
 **Type:** Global.LyricTypeNew
+
 

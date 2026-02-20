@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpriteInfo
 canonical_path: /api/Global/Info/SpriteInfo
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Info/SpriteInfo
 ```csharp
 public class SpriteInfo
 ```
-Holds information about a sprite. Used only by workers (see [WorkerSpriteManager](/api/Global/Worker/WorkerSpriteManager) #verify ).
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#INC 
+Holds information about a sprite. Used only by workers (see [WorkerSpriteManager](/api/Global/Worker/WorkerSpriteManager) ^\[verify\]^).
+
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Holds information about a sprite. Used only by workers (see [WorkerSpriteManager
 ```csharp
 public SpriteInfo(string path, Sprite sprite)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public SpriteInfo(string path, Sprite sprite)
 ```csharp
 public bool isCustom
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public bool isCustom
 ```csharp
 public string path
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public string path
 ```csharp
 public Sprite sprite
 ```
-#INC
 
 
 #### Field Value
@@ -69,4 +68,5 @@ public Sprite sprite
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

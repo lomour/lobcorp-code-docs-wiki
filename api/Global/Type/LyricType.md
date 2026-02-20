@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LyricType
 canonical_path: /api/Global/Type/LyricType
@@ -117,4 +118,5 @@ TIRED = 8
 
 #### Field Value
 **Type:** Global.LyricType
+
 

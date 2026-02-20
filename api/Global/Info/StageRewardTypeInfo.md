@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StageRewardTypeInfo
 canonical_path: /api/Global/Info/StageRewardTypeInfo
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Info/StageRewardTypeInfo
 ```csharp
 public class StageRewardTypeInfo
 ```
-Stores the LOB reward for the day and which agents were promoted #verify .
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Stores the LOB reward for the day and which agents were promoted ^\[verify\]^.
 
 
 ## Inheritance
@@ -23,8 +27,6 @@ Stores the LOB reward for the day and which agents were promoted #verify .
 ```csharp
 public StageRewardTypeInfo()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -41,7 +43,6 @@ public List<StageRewardTypeInfo.AgentRewardInfo> agentList
 ```csharp
 public int day
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public int day
 ```csharp
 public int money
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public int money
 ```csharp
 public int rankLimit
 ```
-#INC
 
 
 #### Field Value
@@ -73,14 +72,12 @@ public int rankLimit
 ```csharp
 public void GenerateRankLimit()
 ```
-#INC
 
 
 ### GetLimitTime(StageRank)
 ```csharp
 public float GetLimitTime(StageRank rank)
 ```
-#INC
 
 
 #### Parameters
@@ -95,7 +92,6 @@ public float GetLimitTime(StageRank rank)
 ```csharp
 public int GetRewardMoney(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -110,7 +106,6 @@ public int GetRewardMoney(float time)
 ```csharp
 public StageRank GetStageRank(float time)
 ```
-#INC
 
 
 #### Parameters
@@ -125,7 +120,6 @@ public StageRank GetStageRank(float time)
 ```csharp
 public static StageRewardTypeInfo MakeChallengeModeReward()
 ```
-#INC
 
 
 #### Returns
@@ -133,4 +127,5 @@ public static StageRewardTypeInfo MakeChallengeModeReward()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

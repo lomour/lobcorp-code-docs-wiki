@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpaceObjectType
 canonical_path: /api/Global/Type/SpaceObjectType
@@ -85,4 +86,5 @@ SEFIRAMAIN = 7
 
 #### Field Value
 **Type:** Global.SpaceObjectType
+
 

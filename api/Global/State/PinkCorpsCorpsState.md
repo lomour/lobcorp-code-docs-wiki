@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PinkCorps.CorpsState
 canonical_path: /api/Global/State/PinkCorpsCorpsState
@@ -45,4 +46,5 @@ Patrol = 1
 
 #### Field Value
 **Type:** Global.PinkCorps.CorpsState
+
 

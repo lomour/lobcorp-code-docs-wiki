@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventManager
 canonical_path: /api/Global/IOBserver/RandomEventManager
@@ -11,8 +12,14 @@ canonical_path: /api/Global/IOBserver/RandomEventManager
 ```csharp
 public class RandomEventManager : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#unused 
+> This class is not used.
+{.is-info}
+
+
+
 
 
 ## Inheritance
@@ -34,7 +41,6 @@ public RandomEventManager()
 ```csharp
 private static RandomEventManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +50,6 @@ private static RandomEventManager _instance
 ```csharp
 private bool _isLoadedInfo
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +59,6 @@ private bool _isLoadedInfo
 ```csharp
 private RandomEventRank _todayMax
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +68,6 @@ private RandomEventRank _todayMax
 ```csharp
 private List<RandomEventBase> checkEvents
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +77,6 @@ private List<RandomEventBase> checkEvents
 ```csharp
 private List<RandomEventBase> checkRemove
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +86,6 @@ private List<RandomEventBase> checkRemove
 ```csharp
 private long currentInst
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +95,6 @@ private long currentInst
 ```csharp
 private int currentTimeIndex
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +104,6 @@ private int currentTimeIndex
 ```csharp
 public const string descPatch = "Desc"
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +113,6 @@ public const string descPatch = "Desc"
 ```csharp
 private const int enableDay = 20
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +122,6 @@ private const int enableDay = 20
 ```csharp
 private List<RandomEventBase> enabledEvents
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +131,6 @@ private List<RandomEventBase> enabledEvents
 ```csharp
 private bool GameStarted
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +140,6 @@ private bool GameStarted
 ```csharp
 private List<RandomEventBase> generatedEvents
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +149,6 @@ private List<RandomEventBase> generatedEvents
 ```csharp
 private Dictionary<long, RandomEventInfo> infoTable
 ```
-#INC
 
 
 #### Field Value
@@ -164,7 +158,6 @@ private Dictionary<long, RandomEventInfo> infoTable
 ```csharp
 private RandomEventBase midnight
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +175,6 @@ public RandomEventManager.RandomEventTime[] randomEventTime
 ```csharp
 private List<RandomEventBase> removedFromEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +184,6 @@ private List<RandomEventBase> removedFromEnabled
 ```csharp
 private Dictionary<RandomEventRank, List<RandomEventInfo>> table
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +193,6 @@ private Dictionary<RandomEventRank, List<RandomEventInfo>> table
 ```csharp
 private Timer timer
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +202,6 @@ private Timer timer
 ```csharp
 private float todayMaxEnergy
 ```
-#INC
 
 
 #### Field Value
@@ -266,7 +255,6 @@ public RandomEventRank TodayMax { get; }
 ```csharp
 private bool CheckDuplicatable(long metaId)
 ```
-#INC
 
 
 #### Parameters
@@ -281,7 +269,6 @@ private bool CheckDuplicatable(long metaId)
 ```csharp
 private bool CheckEnabledDuplicate(RandomEventBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -296,21 +283,18 @@ private bool CheckEnabledDuplicate(RandomEventBase script)
 ```csharp
 public void CheckEnableEvent()
 ```
-#INC
 
 
 ### CheckEnergy()
 ```csharp
 private void CheckEnergy()
 ```
-#INC
 
 
 ### ConvertRank(RandomEventRank)
 ```csharp
 public static string ConvertRank(RandomEventRank rank)
 ```
-#INC
 
 
 #### Parameters
@@ -325,7 +309,6 @@ public static string ConvertRank(RandomEventRank rank)
 ```csharp
 public static RandomEventRank ConvertRank(string rank)
 ```
-#INC
 
 
 #### Parameters
@@ -340,7 +323,6 @@ public static RandomEventRank ConvertRank(string rank)
 ```csharp
 public static RandomEventRank ConvertRankFromInt(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -355,7 +337,6 @@ public static RandomEventRank ConvertRankFromInt(int index)
 ```csharp
 public static int ConvertRankToInt(RandomEventRank rank)
 ```
-#INC
 
 
 #### Parameters
@@ -370,14 +351,12 @@ public static int ConvertRankToInt(RandomEventRank rank)
 ```csharp
 private void DisabledRemoveFromExecute()
 ```
-#INC
 
 
 ### DisableRandomEvent(long)
 ```csharp
 public bool DisableRandomEvent(long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -392,7 +371,6 @@ public bool DisableRandomEvent(long instId)
 ```csharp
 public bool DisableRandomEvent(RandomEventBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -407,14 +385,12 @@ public bool DisableRandomEvent(RandomEventBase script)
 ```csharp
 private void EnabledRemoveFromCheck()
 ```
-#INC
 
 
 ### EnableRandomEvent(long)
 ```csharp
 public bool EnableRandomEvent(long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -429,7 +405,6 @@ public bool EnableRandomEvent(long instId)
 ```csharp
 public bool EnableRandomEvent(RandomEventBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -444,14 +419,12 @@ public bool EnableRandomEvent(RandomEventBase script)
 ```csharp
 private void Execute()
 ```
-#INC
 
 
 ### GenerateRandomEvent(long, ref RandomEventBase, ref long)
 ```csharp
 public bool GenerateRandomEvent(long eventId, ref RandomEventBase output, ref long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -468,7 +441,6 @@ public bool GenerateRandomEvent(long eventId, ref RandomEventBase output, ref lo
 ```csharp
 public List<RandomEventInfo> GetAllEventInfo()
 ```
-#INC
 
 
 #### Returns
@@ -478,7 +450,6 @@ public List<RandomEventInfo> GetAllEventInfo()
 ```csharp
 public float GetMidnightTime()
 ```
-#INC
 
 
 #### Returns
@@ -488,7 +459,6 @@ public float GetMidnightTime()
 ```csharp
 public bool GetRandomEventInfo(long eventId, out RandomEventInfo info)
 ```
-#INC
 
 
 #### Parameters
@@ -504,7 +474,6 @@ public bool GetRandomEventInfo(long eventId, out RandomEventInfo info)
 ```csharp
 public RandomEventBase GetScriptInEnabled(long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -519,7 +488,6 @@ public RandomEventBase GetScriptInEnabled(long instId)
 ```csharp
 public RandomEventBase GetScriptInGenerated(long instId)
 ```
-#INC
 
 
 #### Parameters
@@ -534,8 +502,6 @@ public RandomEventBase GetScriptInGenerated(long instId)
 ```csharp
 public void InfoInit(Dictionary<long, RandomEventInfo> data)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -547,7 +513,6 @@ public void InfoInit(Dictionary<long, RandomEventInfo> data)
 ```csharp
 public void MakeTimeTypo(string time)
 ```
-#INC
 
 
 #### Parameters
@@ -559,14 +524,12 @@ public void MakeTimeTypo(string time)
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -579,28 +542,24 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### OnUpdate()
 ```csharp
 public void OnUpdate()
 ```
-#INC
 
 
 ### Prob(float)
 ```csharp
 public bool Prob(float val)
 ```
-#INC
 
 
 #### Parameters
@@ -615,14 +574,12 @@ public bool Prob(float val)
 ```csharp
 public void SetAllocateUIText()
 ```
-#INC
 
 
 ### SetDayEventRank(RandomEventRank)
 ```csharp
 public void SetDayEventRank(RandomEventRank maxRank)
 ```
-#INC
 
 
 #### Parameters
@@ -634,23 +591,21 @@ public void SetDayEventRank(RandomEventRank maxRank)
 ```csharp
 private void SetTodayMaxEnergy()
 ```
-#INC
 
 
 ### UpdateDay()
 ```csharp
 public void UpdateDay()
 ```
-#INC
 
 
 ### UpdatedEvents()
 ```csharp
 public void UpdatedEvents()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

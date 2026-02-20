@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FontType
 canonical_path: /api/Global/Type/FontType
@@ -45,4 +46,5 @@ TITLE = 0
 
 #### Field Value
 **Type:** Global.FontType
+
 

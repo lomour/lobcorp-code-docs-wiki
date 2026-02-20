@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryItemType
 canonical_path: /api/Inventory/InventoryItemType
@@ -29,4 +30,5 @@ WEAPON = 0
 
 #### Field Value
 **Type:** Inventory.InventoryItemType
+
 

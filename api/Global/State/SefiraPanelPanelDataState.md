@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraPanel.PanelDataState
 canonical_path: /api/Global/State/SefiraPanelPanelDataState
@@ -45,4 +46,5 @@ RESEARCH = 1
 
 #### Field Value
 **Type:** Global.SefiraPanel.PanelDataState
+
 

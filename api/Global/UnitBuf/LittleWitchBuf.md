@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LittleWitchBuf
 canonical_path: /api/Global/UnitBuf/LittleWitchBuf
@@ -11,10 +12,13 @@ canonical_path: /api/Global/UnitBuf/LittleWitchBuf
 ```csharp
 public class LittleWitchBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Buff for [Laetitia](/api/Global/Misc/LittleWitch)'s gift; starts a timer when this agent is assigned to someone else, and turns them into [Little Witch's Friend](/api/Global/Misc/LittleWitchMonster) if it isn't canceled.
 
-#INC 
+
 
 
 ## Inheritance
@@ -26,7 +30,6 @@ Buff for [Laetitia](/api/Global/Misc/LittleWitch)'s gift; starts a timer when th
 ```csharp
 public LittleWitchBuf(LittleWitch witch)
 ```
-#INC
 
 
 #### Parameters
@@ -40,7 +43,6 @@ public LittleWitchBuf(LittleWitch witch)
 ```csharp
 private Timer _activateTimer
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private Timer _activateTimer
 ```csharp
 private const float _max = 10
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private const float _max = 10
 ```csharp
 private const float _min = 5
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private const float _min = 5
 ```csharp
 private LittleWitch _witch
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ private LittleWitch _witch
 ```csharp
 private const string animParam = "Speed"
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ private const string animParam = "Speed"
 ```csharp
 private static Vector2 bodyPosFix
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ private static Vector2 bodyPosFix
 ```csharp
 private Sprite brokenSprite
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +106,6 @@ private Sprite brokenSprite
 ```csharp
 private const string BrokenSrc = "Sprites/CreatureSprite/LittleWitch/HeartBroken"
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ private const string BrokenSrc = "Sprites/CreatureSprite/LittleWitch/HeartBroken
 ```csharp
 private GameObject Effect
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +124,6 @@ private GameObject Effect
 ```csharp
 private Animator EffectAnimator
 ```
-#INC
 
 
 #### Field Value
@@ -140,7 +133,6 @@ private Animator EffectAnimator
 ```csharp
 private const string EffectSrc = "Effect/Creature/LittleWitch/LittleWitch_BufEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +142,6 @@ private const string EffectSrc = "Effect/Creature/LittleWitch/LittleWitch_BufEff
 ```csharp
 private const float multiplier = 2
 ```
-#INC
 
 
 #### Field Value
@@ -160,7 +151,6 @@ private const float multiplier = 2
 ```csharp
 private const string NormalSrc = "Sprites/CreatureSprite/LittleWitch/HeartNormal"
 ```
-#INC
 
 
 #### Field Value
@@ -170,7 +160,6 @@ private const string NormalSrc = "Sprites/CreatureSprite/LittleWitch/HeartNormal
 ```csharp
 private Sprite originalSprite
 ```
-#INC
 
 
 #### Field Value
@@ -180,7 +169,6 @@ private Sprite originalSprite
 ```csharp
 private const float startFreq = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -202,22 +190,18 @@ private AgentModel Agent { get; }
 ```csharp
 private void BreakHeart()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -229,16 +213,15 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### ResetHeart()
 ```csharp
 private void ResetHeart()
 ```
-#INC
 
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

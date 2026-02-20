@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EGOgiftAttachType
 canonical_path: /api/Global/Type/EGOgiftAttachType
@@ -37,4 +38,5 @@ SPECIAL_ADD = 2
 
 #### Field Value
 **Type:** Global.EGOgiftAttachType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahEventCalled
 canonical_path: /api/GeburahBoss/GeburahEventCalled
@@ -61,4 +62,5 @@ public virtual void Invoke(int i)
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
+
 

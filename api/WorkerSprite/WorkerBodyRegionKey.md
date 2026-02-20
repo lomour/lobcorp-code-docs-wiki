@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerBodyRegionKey
 canonical_path: /api/WorkerSprite/WorkerBodyRegionKey
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerBodyRegionKey
 ```csharp
 public static class WorkerBodyRegionKey
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Strings associated with each body region
 
 
@@ -23,7 +27,6 @@ Strings associated with each body region
 ```csharp
 public static string Body
 ```
-#INC
 
 
 #### Field Value
@@ -33,7 +36,6 @@ public static string Body
 ```csharp
 public static string Body_Down
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +45,6 @@ public static string Body_Down
 ```csharp
 public static string Body_Up
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public static string Body_Up
 ```csharp
 public static string Coat_Back
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public static string Coat_Back
 ```csharp
 public static string Coat_Left
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public static string Coat_Left
 ```csharp
 public static string Coat_Right
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public static string Coat_Right
 ```csharp
 public static string[] keys
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public static string[] keys
 ```csharp
 public static string L_Arm_Down
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public static string L_Arm_Down
 ```csharp
 public static string L_Arm_Up
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public static string L_Arm_Up
 ```csharp
 public static string L_Hand
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +117,6 @@ public static string L_Hand
 ```csharp
 public static string L_Leg_Down
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +126,6 @@ public static string L_Leg_Down
 ```csharp
 public static string L_Leg_Up
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +135,6 @@ public static string L_Leg_Up
 ```csharp
 public static string R_Arm_Down
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +144,6 @@ public static string R_Arm_Down
 ```csharp
 public static string R_Arm_Up
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +153,6 @@ public static string R_Arm_Up
 ```csharp
 public static string R_Hand
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +162,6 @@ public static string R_Hand
 ```csharp
 public static string R_Leg_Down
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +171,6 @@ public static string R_Leg_Down
 ```csharp
 public static string R_Leg_Up
 ```
-#INC
 
 
 #### Field Value
@@ -195,8 +182,6 @@ public static string R_Leg_Up
 ```csharp
 public static bool GetKey(BodySpriteRegion region, out string slot, out string attach)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -211,4 +196,5 @@ public static bool GetKey(BodySpriteRegion region, out string slot, out string a
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

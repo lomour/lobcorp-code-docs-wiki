@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BlockSlider.OnClickEvent
 canonical_path: /api/Global/Event/BlockSliderOnClickEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(float rate)
 | Name | Type | Description |
 | --- | --- | --- |
 | `rate` | `System.Single` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingCmdType
 canonical_path: /api/Global/Type/StandingCmdType
@@ -37,4 +38,5 @@ STANDING = 2
 
 #### Field Value
 **Type:** Global.StandingCmdType
+
 

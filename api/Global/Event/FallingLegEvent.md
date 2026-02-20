@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FallingLegEvent
 canonical_path: /api/Global/Event/FallingLegEvent
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Event/FallingLegEvent
 ```csharp
 public class FallingLegEvent : RandomEventBase
 ```
-#unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -30,7 +37,6 @@ public FallingLegEvent()
 ```csharp
 private const string animSrc = "StandingItem/ChopLeg"
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +46,6 @@ private const string animSrc = "StandingItem/ChopLeg"
 ```csharp
 private const string animSrcA = "StandingItem/ChopLegA"
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +55,6 @@ private const string animSrcA = "StandingItem/ChopLegA"
 ```csharp
 private const string animSrcB = "StandingItem/ChopLegB"
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +64,6 @@ private const string animSrcB = "StandingItem/ChopLegB"
 ```csharp
 private const string animSrcC = "StandingItem/ChopLegC"
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +73,6 @@ private const string animSrcC = "StandingItem/ChopLegC"
 ```csharp
 public const float AttackFreq = 3
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +82,6 @@ public const float AttackFreq = 3
 ```csharp
 private bool disableCheck
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +91,6 @@ private bool disableCheck
 ```csharp
 private const float disableTime = 120
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +100,6 @@ private const float disableTime = 120
 ```csharp
 public Timer disableTimer
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +109,6 @@ public Timer disableTimer
 ```csharp
 private const long legId = 1002
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +118,6 @@ private const long legId = 1002
 ```csharp
 private List<StandingItemModel> legs
 ```
-#INC
 
 
 #### Field Value
@@ -140,14 +137,12 @@ public List<FallingLegEvent.SefiraManagement> management
 ```csharp
 private void DelayedDisable()
 ```
-#INC
 
 
 ### DisableLeb(string)
 ```csharp
 public void DisableLeb(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -159,7 +154,6 @@ public void DisableLeb(string sefira)
 ```csharp
 public void EnableLeg(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -171,7 +165,6 @@ public void EnableLeg(string sefira)
 ```csharp
 public ChopLeg.LegType GetLegType()
 ```
-#INC
 
 
 #### Returns
@@ -194,7 +187,6 @@ public FallingLegEvent.SefiraManagement GetSefiraManagement(string sefira)
 ```csharp
 public GameObject LoadLeg(out ChopLeg leg)
 ```
-#INC
 
 
 #### Parameters
@@ -209,31 +201,27 @@ public GameObject LoadLeg(out ChopLeg leg)
 ```csharp
 public override void OnDisable()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 public override void OnEnable()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 public override void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnInit()
 ```csharp
 public override void OnInit()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [rootObjectSrc](/api/Global/Misc/RandomEventBase#rootobjectsrc), [rootObjectId](/api/Global/Misc/RandomEventBase#rootobjectid), [type](/api/Global/Misc/RandomEventBase#type), [rank](/api/Global/Misc/RandomEventBase#rank), [metaInfo](/api/Global/Misc/RandomEventBase#metainfo), [rootGameObject](/api/Global/Misc/RandomEventBase#rootgameobject), [rootStanding](/api/Global/Misc/RandomEventBase#rootstanding), [enableCheckConditions](/api/Global/Misc/RandomEventBase#enablecheckconditions), [instanceId](/api/Global/Misc/RandomEventBase#instanceid), [_isEnabled](/api/Global/Misc/RandomEventBase#isenabled), [GenerateCondition()](/api/Global/Misc/RandomEventBase#generatecondition), [GenerateCondition(ConditionInfo, ref List<int>)](/api/Global/Misc/RandomEventBase#generatecondition-conditioninfo-ref-list-int), [OnDestroy()](/api/Global/Misc/RandomEventBase#ondestroy), [OnEnd()](/api/Global/Misc/RandomEventBase#onend), [IsDuplicatable()](/api/Global/Misc/RandomEventBase#isduplicatable), [CheckEquivalent(string)](/api/Global/Misc/RandomEventBase#checkequivalent-string), [CheckCondition()](/api/Global/Misc/RandomEventBase#checkcondition), [ManualDisable()](/api/Global/Misc/RandomEventBase#manualdisable), [ManualDisable(string)](/api/Global/Misc/RandomEventBase#manualdisable-string), [GenerateTypo(TypoType, string)](/api/Global/Misc/RandomEventBase#generatetypo-typotype-string), [GenerateTypo(TypoType)](/api/Global/Misc/RandomEventBase#generatetypo-typotype), [GenerateTypo(string)](/api/Global/Misc/RandomEventBase#generatetypo-string), [OnUpdate()](/api/Global/Misc/RandomEventBase#onupdate), [GetCondition(string)](/api/Global/Misc/RandomEventBase#getcondition-string), [MakeRootObject()](/api/Global/Misc/RandomEventBase#makerootobject), [GetTimerCondition()](/api/Global/Misc/RandomEventBase#gettimercondition), [SetTimerConditionTime(float)](/api/Global/Misc/RandomEventBase#settimerconditiontime-float), [RootTransform](/api/Global/Misc/RandomEventBase#roottransform), [HasRootObject](/api/Global/Misc/RandomEventBase#hasrootobject), [MetaDataId](/api/Global/Misc/RandomEventBase#metadataid), [IsEnabled](/api/Global/Misc/RandomEventBase#isenabled), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

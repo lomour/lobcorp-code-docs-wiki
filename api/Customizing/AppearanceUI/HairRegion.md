@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.AppearanceUI.HairRegion
 canonical_path: /api/Customizing/AppearanceUI/HairRegion
@@ -29,4 +30,5 @@ REAR = 1
 
 #### Field Value
 **Type:** Customizing.AppearanceUI.HairRegion
+
 

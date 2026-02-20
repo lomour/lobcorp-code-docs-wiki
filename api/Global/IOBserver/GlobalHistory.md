@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GlobalHistory
 canonical_path: /api/Global/IOBserver/GlobalHistory
@@ -11,6 +12,9 @@ canonical_path: /api/Global/IOBserver/GlobalHistory
 ```csharp
 public class GlobalHistory : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Keeps track of events during the day:
 - Worker panic
@@ -35,8 +39,6 @@ For the [results screen](/api/Global/IANimatorEventCalled/ResultScreen) and some
 ```csharp
 public GlobalHistory()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -45,7 +47,6 @@ public GlobalHistory()
 ```csharp
 private List<AgentModel> _deadAgents
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +56,6 @@ private List<AgentModel> _deadAgents
 ```csharp
 private float _endTime
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +65,6 @@ private float _endTime
 ```csharp
 private float _firstQuarter
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +74,6 @@ private float _firstQuarter
 ```csharp
 private List<History> _histories
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +83,6 @@ private List<History> _histories
 ```csharp
 private static GlobalHistory _instance
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +92,6 @@ private static GlobalHistory _instance
 ```csharp
 private List<History> _ordsAndEmers
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +101,6 @@ private List<History> _ordsAndEmers
 ```csharp
 private float _secondQuarter
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +110,6 @@ private float _secondQuarter
 ```csharp
 private float _startTime
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +119,6 @@ private float _startTime
 ```csharp
 private float _thirdQuarter
 ```
-#INC
 
 
 #### Field Value
@@ -147,7 +140,6 @@ public static GlobalHistory instance { get; }
 ```csharp
 public void AddOrdsAndEmers(History history)
 ```
-#INC
 
 
 #### Parameters
@@ -159,7 +151,6 @@ public void AddOrdsAndEmers(History history)
 ```csharp
 public float GetCurrentTime()
 ```
-#INC
 
 
 #### Returns
@@ -169,7 +160,6 @@ public float GetCurrentTime()
 ```csharp
 public List<History> GetHistory()
 ```
-#INC
 
 
 #### Returns
@@ -179,7 +169,6 @@ public List<History> GetHistory()
 ```csharp
 public List<History> GetOrdsAndEmers()
 ```
-#INC
 
 
 #### Returns
@@ -189,7 +178,6 @@ public List<History> GetOrdsAndEmers()
 ```csharp
 public List<Result> GetResults()
 ```
-#INC
 
 
 #### Returns
@@ -199,7 +187,6 @@ public List<Result> GetResults()
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -212,9 +199,9 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

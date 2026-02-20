@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EquipmentTypeList
 canonical_path: /api/Global/List/EquipmentTypeList
@@ -11,8 +12,11 @@ canonical_path: /api/Global/List/EquipmentTypeList
 ```csharp
 public class EquipmentTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 List of all [EGO](/api/Global/List/EquipmentTypeList). Loaded by [EquipmentDataLoader](/api/Global/Loader/EquipmentDataLoader).
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ List of all [EGO](/api/Global/List/EquipmentTypeList). Loaded by [EquipmentDataL
 ```csharp
 private EquipmentTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -34,7 +36,6 @@ private EquipmentTypeList()
 ```csharp
 private Dictionary<int, EquipmentTypeInfo> _dic
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +45,6 @@ private Dictionary<int, EquipmentTypeInfo> _dic
 ```csharp
 private static EquipmentTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +54,6 @@ private static EquipmentTypeList _instance
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ public bool loaded { get; }
 ```csharp
 public List<EquipmentTypeInfo> GetAllData()
 ```
-#INC
 
 
 #### Returns
@@ -94,7 +92,6 @@ public List<EquipmentTypeInfo> GetAllData()
 ```csharp
 public EquipmentTypeInfo GetData(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -109,7 +106,6 @@ public EquipmentTypeInfo GetData(int id)
 ```csharp
 public void Init(Dictionary<int, EquipmentTypeInfo> info)
 ```
-#INC
 
 
 #### Parameters
@@ -119,4 +115,5 @@ public void Init(Dictionary<int, EquipmentTypeInfo> info)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureObserveBonusData.BonusType
 canonical_path: /api/Global/Type/CreatureObserveBonusDataBonusType
@@ -29,4 +30,5 @@ SPEED = 0
 
 #### Field Value
 **Type:** Global.CreatureObserveBonusData.BonusType
+
 

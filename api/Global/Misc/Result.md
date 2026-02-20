@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Result
 canonical_path: /api/Global/Misc/Result
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Misc/Result
 ```csharp
 public class Result
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds a list of notable events during each quarter, mainly abnormality escapes and dead/panicked workers. Not sure how it works yet, but used by [ResultScreen](/api/Global/IANimatorEventCalled/ResultScreen)'s Report.
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ Holds a list of notable events during each quarter, mainly abnormality escapes a
 ```csharp
 public Result(float start, float end)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -40,7 +42,6 @@ public Result(float start, float end)
 ```csharp
 public List<CreatureModel> checkedCreatures
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +51,6 @@ public List<CreatureModel> checkedCreatures
 ```csharp
 public List<WorkerModel> checkedWorkers
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +60,6 @@ public List<WorkerModel> checkedWorkers
 ```csharp
 public int[] creatureEscape
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +69,6 @@ public int[] creatureEscape
 ```csharp
 public float time
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +78,6 @@ public float time
 ```csharp
 public int workerDie
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +87,6 @@ public int workerDie
 ```csharp
 public int workerPanic
 ```
-#INC
 
 
 #### Field Value
@@ -98,4 +94,5 @@ public int workerPanic
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

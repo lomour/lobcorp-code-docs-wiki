@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IEffectSoundPlayer
 canonical_path: /api/Global/Misc/IEffectSoundPlayer
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Misc/IEffectSoundPlayer
 ```csharp
 public interface IEffectSoundPlayer
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Interface for things which can play sound effects. Unused.
 
-#unused 
+
 
 
 ## Methods
@@ -22,8 +29,6 @@ Interface for things which can play sound effects. Unused.
 ```csharp
 void PlayEffectSound(EffectSoundType type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -35,7 +40,6 @@ void PlayEffectSound(EffectSoundType type)
 ```csharp
 void PlayEffectSound(EffectSoundType type, float volume)
 ```
-#INC
 
 
 #### Parameters
@@ -43,4 +47,5 @@ void PlayEffectSound(EffectSoundType type, float volume)
 | --- | --- | --- |
 | `type` | `Global.EffectSoundType` |  |
 | `volume` | `System.Single` |  |
+
 

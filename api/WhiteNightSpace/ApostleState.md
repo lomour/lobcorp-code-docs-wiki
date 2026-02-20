@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.ApostleState
 canonical_path: /api/WhiteNightSpace/ApostleState
@@ -45,4 +46,5 @@ SUPPRESSED = 2
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TutorialState
 canonical_path: /api/Global/State/TutorialState
@@ -53,4 +54,5 @@ SKIPPED = 0
 
 #### Field Value
 **Type:** Global.TutorialState
+
 

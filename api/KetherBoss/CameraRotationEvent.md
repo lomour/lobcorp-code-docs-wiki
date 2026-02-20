@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.CameraRotationEvent
 canonical_path: /api/KetherBoss/CameraRotationEvent
@@ -11,10 +12,13 @@ canonical_path: /api/KetherBoss/CameraRotationEvent
 ```csharp
 public class CameraRotationEvent : KetherLastEffectBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 effect that rotates the camera during day 50. I assume
 
-#INC 
+
 
 
 ## Inheritance
@@ -26,7 +30,6 @@ effect that rotates the camera during day 50. I assume
 ```csharp
 public CameraRotationEvent(KetherLastBossBase bossBase)
 ```
-#INC
 
 
 #### Parameters
@@ -40,7 +43,6 @@ public CameraRotationEvent(KetherLastBossBase bossBase)
 ```csharp
 private GameObject _effect
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private GameObject _effect
 ```csharp
 private float _rotationTime
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private float _rotationTime
 ```csharp
 private UnscaledTimer _rotationTimer
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private UnscaledTimer _rotationTimer
 ```csharp
 private MinMax _rotationValue
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ private MinMax _rotationValue
 ```csharp
 private AnimationCurve curve
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ private AnimationCurve curve
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 private const string effectName = "CameraDust"
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +106,6 @@ private const string effectName = "CameraDust"
 ```csharp
 private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ private const string effectSrc = "Effect/SefiraBoss/DustCameraAttachedEffect"
 ```csharp
 private const float rotationValue = 36
 ```
-#INC
 
 
 #### Field Value
@@ -132,15 +126,12 @@ private const float rotationValue = 36
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ### SetCameraRotation(float)
 ```csharp
 public void SetCameraRotation(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -152,7 +143,6 @@ public void SetCameraRotation(float value)
 ```csharp
 public void StartRotation(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -164,9 +154,9 @@ public void StartRotation(int level)
 ```csharp
 public override void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [FixedUpdate()](/api/KetherBoss/KetherLastEffectBase#fixedupdate), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

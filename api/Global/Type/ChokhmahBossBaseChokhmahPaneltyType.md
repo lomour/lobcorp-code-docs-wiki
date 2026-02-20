@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChokhmahBossBase.ChokhmahPaneltyType
 canonical_path: /api/Global/Type/ChokhmahBossBaseChokhmahPaneltyType
@@ -29,4 +30,5 @@ PANIC = 1
 
 #### Field Value
 **Type:** Global.ChokhmahBossBase.ChokhmahPaneltyType
+
 

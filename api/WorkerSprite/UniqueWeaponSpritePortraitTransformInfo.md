@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.UniqueWeaponSpritePortraitTransformInfo
 canonical_path: /api/WorkerSprite/UniqueWeaponSpritePortraitTransformInfo
@@ -11,9 +12,12 @@ canonical_path: /api/WorkerSprite/UniqueWeaponSpritePortraitTransformInfo
 ```csharp
 public class UniqueWeaponSpritePortraitTransformInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 ????? has... some... transformation data???
 
-#INC 
+
 
 
 ## Inheritance
@@ -41,8 +45,6 @@ public int childIndex
 ```csharp
 public Vector3 localPosition
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public Vector3 localPosition
 ```csharp
 public Vector3 localRotation
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public Vector3 localRotation
 ```csharp
 public Vector3 localScale
 ```
-#INC
 
 
 #### Field Value
@@ -80,4 +80,5 @@ public UniqueWeaponSpritePortraitTransformInfo GetCopy()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OrdealLevel
 canonical_path: /api/Global/Level/OrdealLevel
@@ -45,4 +46,5 @@ NOON = 1
 
 #### Field Value
 **Type:** Global.OrdealLevel
+
 

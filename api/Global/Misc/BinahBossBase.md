@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BinahBossBase
 canonical_path: /api/Global/Misc/BinahBossBase
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/BinahBossBase
 ```csharp
 public class BinahBossBase : SefiraBossBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 extends [SefiraBossBase](/api/Global/Misc/SefiraBossBase)
 
@@ -26,7 +30,6 @@ Binah's core suppression(s).
 ```csharp
 public BinahBossBase()
 ```
-#INC
 
 
 ## Fields
@@ -35,7 +38,6 @@ public BinahBossBase()
 ```csharp
 private bool _blizzard
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +47,6 @@ private bool _blizzard
 ```csharp
 private UnscaledTimer _blizzardTimer
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +56,6 @@ private UnscaledTimer _blizzardTimer
 ```csharp
 private Timer _delayTimer
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +113,6 @@ private static BinahBossBase.MovieValue _endMovie
 ```csharp
 private UnscaledTimer _filterTimer
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +122,6 @@ private UnscaledTimer _filterTimer
 ```csharp
 private bool _isInit
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +131,6 @@ private bool _isInit
 ```csharp
 private bool _movie
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +140,6 @@ private bool _movie
 ```csharp
 private int _phase
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +165,6 @@ private static BinahBossBase.MovieValue _startMovie
 ```csharp
 private const string animSrc = "BinahCoreAnim"
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +174,6 @@ private const string animSrc = "BinahCoreAnim"
 ```csharp
 private const string bgm1 = "Binah/1_Jukai"
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +183,6 @@ private const string bgm1 = "Binah/1_Jukai"
 ```csharp
 private const string bgm2 = "Binah/2_Haunted Streets_1"
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +192,6 @@ private const string bgm2 = "Binah/2_Haunted Streets_1"
 ```csharp
 private const string binahBase = "BinahCoreScript"
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +201,6 @@ private const string binahBase = "BinahCoreScript"
 ```csharp
 private CameraFilterPack_Blizzard blizzard
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +210,6 @@ private CameraFilterPack_Blizzard blizzard
 ```csharp
 private float blizzardTransTime
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +219,6 @@ private float blizzardTransTime
 ```csharp
 private float FilterTransTime
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +228,6 @@ private float FilterTransTime
 ```csharp
 private const long metaId = 400002
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +237,6 @@ private const long metaId = 400002
 ```csharp
 public SefiraBossCreatureModel model
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +246,6 @@ public SefiraBossCreatureModel model
 ```csharp
 private CameraFilterPack_TV_Old_Movie_2 movie
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +255,6 @@ private CameraFilterPack_TV_Old_Movie_2 movie
 ```csharp
 private const string startNode = "sefira-binah-5"
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +264,6 @@ private const string startNode = "sefira-binah-5"
 ```csharp
 private static int[] textIds
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +273,6 @@ private static int[] textIds
 ```csharp
 private CameraFilterPack_TV_Vignetting vignetting
 ```
-#INC
 
 
 #### Field Value
@@ -311,7 +294,6 @@ public BinahCoreScript Script { get; }
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### GetDescType(float)
@@ -331,14 +313,12 @@ public override SefiraBossDescType GetDescType(float defaultProb = 0.5)
 ```csharp
 public void InitModel()
 ```
-#INC
 
 
 ### IsCleared()
 ```csharp
 public override bool IsCleared()
 ```
-#INC
 
 
 #### Returns
@@ -348,7 +328,6 @@ public override bool IsCleared()
 ```csharp
 public override bool IsReadyToClose()
 ```
-#INC
 
 
 #### Returns
@@ -358,36 +337,30 @@ public override bool IsReadyToClose()
 ```csharp
 public override void OnChangePhase()
 ```
-#INC
 
 
 ### OnCleared()
 ```csharp
 public override void OnCleared()
 ```
-#INC
 
 
 ### OnKetherStart()
 ```csharp
 public override void OnKetherStart()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
-#code-generated
 
 
 ### StartBlizzardEffect()
 ```csharp
 public void StartBlizzardEffect()
 ```
-#INC
 
 
 ### StartBlizzardEffect(BlizzardEffect)
@@ -404,23 +377,21 @@ public void StartBlizzardEffect(BinahBossBase.BlizzardEffect type)
 ```csharp
 private void StartCameraMoveEndFirst()
 ```
-#INC
 
 
 ### StartMovieEffect()
 ```csharp
 public void StartMovieEffect()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public override void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [_closeEffectTime](/api/Global/Misc/SefiraBossBase#closeeffecttime), [_defaultDescFreq](/api/Global/Misc/SefiraBossBase#defaultdescfreq), [_descAppearProb](/api/Global/Misc/SefiraBossBase#descappearprob), [generalScript](/api/Global/Misc/SefiraBossBase#generalscript), [generalAnim](/api/Global/Misc/SefiraBossBase#generalanim), [bgmSoundPrefix](/api/Global/Misc/SefiraBossBase#bgmsoundprefix), [currentCloseEffectParam](/api/Global/Misc/SefiraBossBase#currentcloseeffectparam), [modelList](/api/Global/Misc/SefiraBossBase#modellist), [sefiraEnum](/api/Global/Misc/SefiraBossBase#sefiraenum), [closeEffectType](/api/Global/Misc/SefiraBossBase#closeeffecttype), [DefaultDamageInfo](/api/Global/Misc/SefiraBossBase#defaultdamageinfo), [DefaultDefenseInfo](/api/Global/Misc/SefiraBossBase#defaultdefenseinfo), [_closeTimer](/api/Global/Misc/SefiraBossBase#closetimer), [_closeEffectMethod](/api/Global/Misc/SefiraBossBase#closeeffectmethod), [_cameraDescTimer](/api/Global/Misc/SefiraBossBase#cameradesctimer), [descList](/api/Global/Misc/SefiraBossBase#desclist), [OnStageEnd()](/api/Global/Misc/SefiraBossBase#onstageend), [OnRemoveDesc(SefiraBossDescUI)](/api/Global/Misc/SefiraBossBase#onremovedesc-sefirabossdescui), [DefaultClearEffect(params object[])](/api/Global/Misc/SefiraBossBase#defaultcleareffect-params-object), [OnOverloadActivated(int)](/api/Global/Misc/SefiraBossBase#onoverloadactivated-int), [OnDestroy()](/api/Global/Misc/SefiraBossBase#ondestroy), [GetDamageInfo()](/api/Global/Misc/SefiraBossBase#getdamageinfo), [GetDefenseInfo()](/api/Global/Misc/SefiraBossBase#getdefenseinfo), [GetDescFreq()](/api/Global/Misc/SefiraBossBase#getdescfreq), [ClearDescTexts()](/api/Global/Misc/SefiraBossBase#cleardesctexts), [MakeSound(string)](/api/Global/Misc/SefiraBossBase#makesound-string), [MakeSoundAttachCamera(string)](/api/Global/Misc/SefiraBossBase#makesoundattachcamera-string), [IsStartEmergencyBgm()](/api/Global/Misc/SefiraBossBase#isstartemergencybgm), [QliphothOverloadLevel](/api/Global/Misc/SefiraBossBase#qliphothoverloadlevel), [Sefira](/api/Global/Misc/SefiraBossBase#sefira), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

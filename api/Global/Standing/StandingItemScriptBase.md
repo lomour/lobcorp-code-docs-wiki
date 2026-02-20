@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingItemScriptBase
 canonical_path: /api/Global/Standing/StandingItemScriptBase
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Standing/StandingItemScriptBase
 ```csharp
 public class StandingItemScriptBase
 ```
-#unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -33,7 +40,6 @@ public StandingItemScriptBase()
 ```csharp
 protected StandingItemAnim _animScript
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +49,6 @@ protected StandingItemAnim _animScript
 ```csharp
 protected float _defense
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +58,6 @@ protected float _defense
 ```csharp
 public int _maxHp
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +75,6 @@ protected StandingItemScriptBase.StandingItemState _state
 ```csharp
 protected StandingItemModel model
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +84,6 @@ protected StandingItemModel model
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +93,6 @@ public string name
 ```csharp
 public const float soundDistDobule = 30
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +154,6 @@ public StandingItemScriptBase.StandingItemState State { get; }
 ```csharp
 public virtual bool CanTakePhsyicalDamage(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -168,7 +168,6 @@ public virtual bool CanTakePhsyicalDamage(UnitModel target)
 ```csharp
 public bool CheckCameraRange()
 ```
-#INC
 
 
 #### Returns
@@ -178,7 +177,6 @@ public bool CheckCameraRange()
 ```csharp
 public bool CheckCameraRange(float range)
 ```
-#INC
 
 
 #### Parameters
@@ -193,7 +191,6 @@ public bool CheckCameraRange(float range)
 ```csharp
 public virtual string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -203,7 +200,6 @@ public virtual string GetName()
 ```csharp
 public virtual List<UnitModel> GetNearUnit()
 ```
-#INC
 
 
 #### Returns
@@ -213,7 +209,6 @@ public virtual List<UnitModel> GetNearUnit()
 ```csharp
 public virtual bool HasName()
 ```
-#INC
 
 
 #### Returns
@@ -223,14 +218,12 @@ public virtual bool HasName()
 ```csharp
 public virtual void Init()
 ```
-#INC
 
 
 ### IsAttackable()
 ```csharp
 public virtual bool IsAttackable()
 ```
-#INC
 
 
 #### Returns
@@ -240,7 +233,6 @@ public virtual bool IsAttackable()
 ```csharp
 public virtual bool IsInRange(UnitModel target, float range)
 ```
-#INC
 
 
 #### Parameters
@@ -256,21 +248,18 @@ public virtual bool IsInRange(UnitModel target, float range)
 ```csharp
 public virtual void OnBreakDown()
 ```
-#INC
 
 
 ### OnDestroyStandingItem()
 ```csharp
 public virtual void OnDestroyStandingItem()
 ```
-#INC
 
 
 ### OnFixedUpdate(StandingItemModel)
 ```csharp
 public virtual void OnFixedUpdate(StandingItemModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -282,7 +271,6 @@ public virtual void OnFixedUpdate(StandingItemModel model)
 ```csharp
 public virtual bool OnIgnoreDamage(UnitModel attacker)
 ```
-#INC
 
 
 #### Parameters
@@ -297,7 +285,6 @@ public virtual bool OnIgnoreDamage(UnitModel attacker)
 ```csharp
 public virtual void OnNearUnitArrived(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -309,7 +296,6 @@ public virtual void OnNearUnitArrived(List<UnitModel> near)
 ```csharp
 public virtual void OnTakePhyisclaDamage(float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -321,7 +307,6 @@ public virtual void OnTakePhyisclaDamage(float damage)
 ```csharp
 public bool Prob(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -336,7 +321,6 @@ public bool Prob(float value)
 ```csharp
 public bool Prob(int value)
 ```
-#INC
 
 
 #### Parameters
@@ -351,7 +335,6 @@ public bool Prob(int value)
 ```csharp
 public virtual void SetAnimScript(StandingItemAnim anim)
 ```
-#INC
 
 
 #### Parameters
@@ -363,8 +346,6 @@ public virtual void SetAnimScript(StandingItemAnim anim)
 ```csharp
 public void SetModel(StandingItemModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -376,7 +357,6 @@ public void SetModel(StandingItemModel model)
 ```csharp
 public virtual void SetName(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -386,4 +366,5 @@ public virtual void SetName(string str)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

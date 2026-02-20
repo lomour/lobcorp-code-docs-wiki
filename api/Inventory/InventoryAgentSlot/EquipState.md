@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryAgentSlot.EquipState
 canonical_path: /api/Inventory/InventoryAgentSlot/EquipState
@@ -29,4 +30,5 @@ EMPTY = 0
 
 #### Field Value
 **Type:** Inventory.InventoryAgentSlot.EquipState
+
 

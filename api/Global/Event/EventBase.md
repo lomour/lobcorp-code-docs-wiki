@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EventBase
 canonical_path: /api/Global/Event/EventBase
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Event/EventBase
 ```csharp
 public class EventBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Base for events except there's only [Apocalypse Bird](/api/Global/Misc/BossBird).
 
-#INC 
+
 
 
 ## Inheritance
@@ -43,7 +47,6 @@ protected EventBase.EventType _type
 ```csharp
 public bool isStarted
 ```
-#INC
 
 
 #### Field Value
@@ -65,22 +68,18 @@ public EventBase.EventType type { get; }
 ```csharp
 public virtual void EventEnd()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public virtual void FixedUpdate()
 ```
-#INC
 
 
 ### IsStartable()
 ```csharp
 public virtual bool IsStartable()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -90,23 +89,21 @@ public virtual bool IsStartable()
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnEventStart()
 ```csharp
 public virtual void OnEventStart()
 ```
-#INC
 
 
 ### OnGameInit()
 ```csharp
 public virtual void OnGameInit()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

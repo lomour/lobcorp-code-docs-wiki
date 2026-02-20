@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptValue.ValueType
 canonical_path: /api/Global/Type/StoryScriptValueValueType
@@ -29,4 +30,5 @@ VARIABLE = 0
 
 #### Field Value
 **Type:** Global.StoryScriptValue.ValueType
+
 

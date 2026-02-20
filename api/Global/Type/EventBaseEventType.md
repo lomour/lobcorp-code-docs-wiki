@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EventBase.EventType
 canonical_path: /api/Global/Type/EventBaseEventType
@@ -29,4 +30,5 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.EventBase.EventType
+
 

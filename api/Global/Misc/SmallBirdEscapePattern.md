@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SmallBird.EscapePattern
 canonical_path: /api/Global/Misc/SmallBirdEscapePattern
@@ -29,4 +30,5 @@ PANIC = 0
 
 #### Field Value
 **Type:** Global.SmallBird.EscapePattern
+
 

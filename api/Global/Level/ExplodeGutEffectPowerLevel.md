@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ExplodeGutEffect.PowerLevel
 canonical_path: /api/Global/Level/ExplodeGutEffectPowerLevel
@@ -53,4 +54,5 @@ WEAK = 0
 
 #### Field Value
 **Type:** Global.ExplodeGutEffect.PowerLevel
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitEquipSpace
 canonical_path: /api/Global/Misc/UnitEquipSpace
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/UnitEquipSpace
 ```csharp
 public class UnitEquipSpace
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds and manages the equipment of a [unit](/api/Global/Model/UnitModel).
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public UnitEquipSpace()
 ```csharp
 public ArmorModel armor
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public ArmorModel armor
 ```csharp
 public UnitEGOgiftSpace gifts
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public UnitEGOgiftSpace gifts
 ```csharp
 public CreatureModel kitCreature
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public CreatureModel kitCreature
 ```csharp
 public WeaponModel weapon
 ```
-#INC
 
 
 #### Field Value
@@ -74,8 +74,6 @@ public WeaponModel weapon
 ```csharp
 public EGObonusInfo GetBonus(UnitModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -90,7 +88,6 @@ public EGObonusInfo GetBonus(UnitModel actor)
 ```csharp
 public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -106,7 +103,6 @@ public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
 ```csharp
 public bool HasEquipment(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -119,4 +115,5 @@ public bool HasEquipment(int id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

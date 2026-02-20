@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DoorObjectModel
 canonical_path: /api/Global/Model/DoorObjectModel
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Model/DoorObjectModel
 ```csharp
 public class DoorObjectModel : ObjectModelBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A door between two [rooms](/api/Global/Model/PassageObjectModel).
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ A door between two [rooms](/api/Global/Model/PassageObjectModel).
 ```csharp
 public DoorObjectModel(string id, string type, PassageObjectModel passage, MapNode node)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -42,7 +44,6 @@ public DoorObjectModel(string id, string type, PassageObjectModel passage, MapNo
 ```csharp
 private float autoCloseCount
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +53,6 @@ private float autoCloseCount
 ```csharp
 private bool closed
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ private bool closed
 ```csharp
 private DoorObjectModel connectedDoor
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +71,6 @@ private DoorObjectModel connectedDoor
 ```csharp
 public int hp
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +80,6 @@ public int hp
 ```csharp
 private string id
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +89,6 @@ private string id
 ```csharp
 public MapNode node
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +98,6 @@ public MapNode node
 ```csharp
 public bool openMotion
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +107,6 @@ public bool openMotion
 ```csharp
 private float openProgress
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +116,6 @@ private float openProgress
 ```csharp
 private PassageObjectModel passage
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +125,6 @@ private PassageObjectModel passage
 ```csharp
 private float tryOpenCounter
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +134,6 @@ private float tryOpenCounter
 ```csharp
 public string type
 ```
-#INC
 
 
 #### Field Value
@@ -154,14 +145,12 @@ public string type
 ```csharp
 public void Close()
 ```
-#INC
 
 
 ### Connect(DoorObjectModel)
 ```csharp
 public void Connect(DoorObjectModel door)
 ```
-#INC
 
 
 #### Parameters
@@ -173,14 +162,12 @@ public void Connect(DoorObjectModel door)
 ```csharp
 public void FixedUpdate()
 ```
-#INC
 
 
 ### GetId()
 ```csharp
 public string GetId()
 ```
-#INC
 
 
 #### Returns
@@ -190,7 +177,6 @@ public string GetId()
 ```csharp
 public bool IsClosed()
 ```
-#INC
 
 
 #### Returns
@@ -200,23 +186,21 @@ public bool IsClosed()
 ```csharp
 public void OnObjectPassed()
 ```
-#INC
 
 
 ### Open()
 ```csharp
 public void Open()
 ```
-#INC
 
 
 ### TryOpen()
 ```csharp
 public void TryOpen()
 ```
-#INC
 
 
 ## Inherited Members
 [position](/api/Global/Object/ObjectModelBase#position), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

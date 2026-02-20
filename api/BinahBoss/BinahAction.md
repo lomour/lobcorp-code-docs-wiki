@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahAction
 canonical_path: /api/BinahBoss/BinahAction
@@ -11,7 +12,10 @@ canonical_path: /api/BinahBoss/BinahAction
 ```csharp
 public class BinahAction
 ```
-#INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+
 
 
 ## Inheritance
@@ -26,8 +30,6 @@ public class BinahAction
 ```csharp
 public BinahAction(BinahCoreScript binah)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public BinahAction(BinahCoreScript binah)
 ```csharp
 private BinahAction _interrupt
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ private BinahAction _interrupt
 ```csharp
 public BinahActionState actionState
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public BinahActionState actionState
 ```csharp
 public BinahCoreScript binah
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +106,6 @@ public MovableObjectNode Movable { get; }
 ```csharp
 public virtual bool CanTakeDamage()
 ```
-#INC
 
 
 #### Returns
@@ -117,21 +115,18 @@ public virtual bool CanTakeDamage()
 ```csharp
 public virtual void EndAction()
 ```
-#INC
 
 
 ### Interrupt()
 ```csharp
 public virtual void Interrupt()
 ```
-#INC
 
 
 ### OnAnimEventCalled(int)
 ```csharp
 public virtual void OnAnimEventCalled(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -143,56 +138,48 @@ public virtual void OnAnimEventCalled(int index)
 ```csharp
 public virtual void OnAttackEnd()
 ```
-#INC
 
 
 ### OnEnd()
 ```csharp
 public virtual void OnEnd()
 ```
-#INC
 
 
 ### OnExecute()
 ```csharp
 public virtual void OnExecute()
 ```
-#INC
 
 
 ### OnGiveDamage()
 ```csharp
 public virtual void OnGiveDamage()
 ```
-#INC
 
 
 ### OnInterrupt()
 ```csharp
 public virtual void OnInterrupt()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public virtual void OnStart()
 ```
-#INC
 
 
 ### ParamInit()
 ```csharp
 public virtual void ParamInit()
 ```
-#INC
 
 
 ### SetInterruptAction(BinahAction)
 ```csharp
 public virtual void SetInterruptAction(BinahAction action)
 ```
-#INC
 
 
 #### Parameters
@@ -202,4 +189,5 @@ public virtual void SetInterruptAction(BinahAction action)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

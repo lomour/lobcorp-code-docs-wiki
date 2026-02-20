@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBadWolf.WolfActionState
 canonical_path: /api/Global/State/BigBadWolfWolfActionState
@@ -37,4 +38,5 @@ RAMPAGE = 2
 
 #### Field Value
 **Type:** Global.BigBadWolf.WolfActionState
+
 

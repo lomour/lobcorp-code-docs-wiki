@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryScriptDirectionEnum
 canonical_path: /api/Global/Misc/StoryScriptDirectionEnum
@@ -37,4 +38,5 @@ RIGHT = 2
 
 #### Field Value
 **Type:** Global.StoryScriptDirectionEnum
+
 

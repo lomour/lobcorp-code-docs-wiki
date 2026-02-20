@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ShockwaveEffect.State
 canonical_path: /api/Global/State/ShockwaveEffectState
@@ -37,4 +38,5 @@ Pause = 0
 
 #### Field Value
 **Type:** Global.ShockwaveEffect.State
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.KetherUpperBossBase.KetherUpperPhase
 canonical_path: /api/KetherBoss/KetherUpperBossBase/KetherUpperPhase
@@ -37,4 +38,5 @@ THIRD = 2
 
 #### Field Value
 **Type:** KetherBoss.KetherUpperBossBase.KetherUpperPhase
+
 

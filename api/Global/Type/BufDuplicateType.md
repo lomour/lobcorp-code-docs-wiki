@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BufDuplicateType
 canonical_path: /api/Global/Type/BufDuplicateType
@@ -29,4 +30,5 @@ UNLIMIT = 0
 
 #### Field Value
 **Type:** Global.BufDuplicateType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StageRank
 canonical_path: /api/Global/Misc/StageRank
@@ -61,4 +62,5 @@ S = 0
 
 #### Field Value
 **Type:** Global.StageRank
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ConditionCategory
 canonical_path: /api/Global/Misc/ConditionCategory
@@ -53,4 +54,5 @@ WORK_CONDITION = 0
 
 #### Field Value
 **Type:** Global.ConditionCategory
+
 

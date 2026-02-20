@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BgmManager.FadeEffectEvent
 canonical_path: /api/Global/Event/BgmManagerFadeEffectEvent
@@ -61,4 +62,5 @@ public virtual bool Invoke()
 
 #### Returns
 **Type:** System.Boolean
+
 

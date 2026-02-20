@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusBoomer.BoomerPhase
 canonical_path: /api/Global/Phase/CircusBoomerBoomerPhase
@@ -37,4 +38,5 @@ MOVE = 1
 
 #### Field Value
 **Type:** Global.CircusBoomer.BoomerPhase
+
 

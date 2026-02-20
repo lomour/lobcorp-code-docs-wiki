@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GrandmaBug.AnimationState
 canonical_path: /api/Global/State/GrandmaBugAnimationState
@@ -45,4 +46,5 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.GrandmaBug.AnimationState
+
 

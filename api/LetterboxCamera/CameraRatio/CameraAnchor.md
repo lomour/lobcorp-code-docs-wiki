@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: LetterboxCamera.CameraRatio.CameraAnchor
 canonical_path: /api/LetterboxCamera/CameraRatio/CameraAnchor
@@ -85,4 +86,5 @@ TopRight = 6
 
 #### Field Value
 **Type:** LetterboxCamera.CameraRatio.CameraAnchor
+
 

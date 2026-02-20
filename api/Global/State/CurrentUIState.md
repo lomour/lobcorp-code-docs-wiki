@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CurrentUIState
 canonical_path: /api/Global/State/CurrentUIState
@@ -29,4 +30,5 @@ UNIT_WINDOW = 1
 
 #### Field Value
 **Type:** Global.CurrentUIState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBadWolf.FilterType
 canonical_path: /api/Global/Type/BigBadWolfFilterType
@@ -29,4 +30,5 @@ VOMIT = 1
 
 #### Field Value
 **Type:** Global.BigBadWolf.FilterType
+
 

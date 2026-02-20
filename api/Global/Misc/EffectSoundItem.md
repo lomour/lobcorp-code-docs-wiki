@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EffectSoundItem
 canonical_path: /api/Global/Misc/EffectSoundItem
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/EffectSoundItem
 ```csharp
 public class EffectSoundItem
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 An individual sound effect to be played, with a [type](/api/Global/Type/EffectSoundType).
 
 
@@ -31,8 +35,6 @@ public EffectSoundItem()
 ```csharp
 public AudioClip clip
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -42,7 +44,6 @@ public AudioClip clip
 ```csharp
 public EffectSoundType type
 ```
-#INC
 
 
 #### Field Value
@@ -50,4 +51,5 @@ public EffectSoundType type
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

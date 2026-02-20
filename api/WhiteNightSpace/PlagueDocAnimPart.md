@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.PlagueDocAnimPart
 canonical_path: /api/WhiteNightSpace/PlagueDocAnimPart
@@ -101,4 +102,5 @@ WING_4 = 3
 
 #### Field Value
 **Type:** WhiteNightSpace.PlagueDocAnimPart
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CustomizingType
 canonical_path: /api/Global/Type/CustomizingType
@@ -29,4 +30,5 @@ REVISE = 1
 
 #### Field Value
 **Type:** Global.CustomizingType
+
 

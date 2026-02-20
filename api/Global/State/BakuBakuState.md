@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Baku.BakuState
 canonical_path: /api/Global/State/BakuBakuState
@@ -29,4 +30,5 @@ SHEEP = 0
 
 #### Field Value
 **Type:** Global.Baku.BakuState
+
 

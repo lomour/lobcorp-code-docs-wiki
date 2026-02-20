@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: InGameUI.AgentUI.UIAgentState
 canonical_path: /api/InGameUI/AgentUI/UIAgentState
@@ -45,4 +46,5 @@ UNCON = 3
 
 #### Field Value
 **Type:** InGameUI.AgentUI.UIAgentState
+
 

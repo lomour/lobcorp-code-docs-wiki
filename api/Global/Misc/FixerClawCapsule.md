@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FixerClaw.Capsule
 canonical_path: /api/Global/Misc/FixerClawCapsule
@@ -53,4 +54,5 @@ ORANGE = 1
 
 #### Field Value
 **Type:** Global.FixerClaw.Capsule
+
 

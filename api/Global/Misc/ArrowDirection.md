@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ArrowDirection
 canonical_path: /api/Global/Misc/ArrowDirection
@@ -45,4 +46,5 @@ UP = 2
 
 #### Field Value
 **Type:** Global.ArrowDirection
+
 

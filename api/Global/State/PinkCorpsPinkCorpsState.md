@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PinkCorps.PinkCorpsState
 canonical_path: /api/Global/State/PinkCorpsPinkCorpsState
@@ -29,4 +30,5 @@ Pink = 0
 
 #### Field Value
 **Type:** Global.PinkCorps.PinkCorpsState
+
 

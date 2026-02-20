@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureDefenseTable
 canonical_path: /api/Global/Misc/CreatureDefenseTable
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/CreatureDefenseTable
 ```csharp
 public class CreatureDefenseTable
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores an abnormality's defenses.
 
 Loaded by [CreatureDataLoader](/api/Global/Loader/CreatureDataLoader).
@@ -32,7 +36,6 @@ public CreatureDefenseTable()
 ```csharp
 private Dictionary<string, DefenseInfo> _defenseTable
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private Dictionary<string, DefenseInfo> _defenseTable
 ```csharp
 public DefenseInfo GetDefenseInfo()
 ```
-#INC
 
 
 #### Returns
@@ -54,7 +56,6 @@ public DefenseInfo GetDefenseInfo()
 ```csharp
 public DefenseInfo GetDefenseInfo(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -69,7 +70,6 @@ public DefenseInfo GetDefenseInfo(string id)
 ```csharp
 public List<DefenseInfo> GetDefenseInfoList()
 ```
-#INC
 
 
 #### Returns
@@ -79,8 +79,6 @@ public List<DefenseInfo> GetDefenseInfoList()
 ```csharp
 public void Init(Dictionary<string, DefenseInfo> dic)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -90,4 +88,5 @@ public void Init(Dictionary<string, DefenseInfo> dic)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

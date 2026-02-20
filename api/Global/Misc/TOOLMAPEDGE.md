@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TOOL_MAP_EDGE
 canonical_path: /api/Global/Misc/TOOLMAPEDGE
@@ -29,4 +30,5 @@ road = 1
 
 #### Field Value
 **Type:** Global.TOOL_MAP_EDGE
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBirdAttractBuf.Phase
 canonical_path: /api/Global/Phase/BigBirdAttractBufPhase
@@ -37,4 +38,5 @@ THIRD = 2
 
 #### Field Value
 **Type:** Global.BigBirdAttractBuf.Phase
+
 

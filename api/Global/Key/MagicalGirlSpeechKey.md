@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MagicalGirl.SpeechKey
 canonical_path: /api/Global/Key/MagicalGirlSpeechKey
@@ -189,4 +190,5 @@ SUPPRESS_GREED = 11
 
 #### Field Value
 **Type:** Global.MagicalGirl.SpeechKey
+
 

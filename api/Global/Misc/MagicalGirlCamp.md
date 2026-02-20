@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MagicalGirl.Camp
 canonical_path: /api/Global/Misc/MagicalGirlCamp
@@ -37,4 +38,5 @@ VILLAIN = 2
 
 #### Field Value
 **Type:** Global.MagicalGirl.Camp
+
 

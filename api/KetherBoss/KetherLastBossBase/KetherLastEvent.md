@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.KetherLastBossBase.KetherLastEvent
 canonical_path: /api/KetherBoss/KetherLastBossBase/KetherLastEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

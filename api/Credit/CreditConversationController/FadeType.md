@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Credit.CreditConversationController.FadeType
 canonical_path: /api/Credit/CreditConversationController/FadeType
@@ -29,4 +30,5 @@ OUT = 1
 
 #### Field Value
 **Type:** Credit.CreditConversationController.FadeType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BlueStarAttackEffect.State
 canonical_path: /api/Global/State/BlueStarAttackEffectState
@@ -37,4 +38,5 @@ Pause = 0
 
 #### Field Value
 **Type:** Global.BlueStarAttackEffect.State
+
 

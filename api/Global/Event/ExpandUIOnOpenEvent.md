@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ExpandUI.OnOpenEvent
 canonical_path: /api/Global/Event/ExpandUIOnOpenEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

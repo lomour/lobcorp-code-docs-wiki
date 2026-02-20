@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SlimeGirl.State
 canonical_path: /api/Global/State/SlimeGirlState
@@ -29,4 +30,5 @@ ENRAGE = 1
 
 #### Field Value
 **Type:** Global.SlimeGirl.State
+
 

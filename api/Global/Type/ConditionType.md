@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ConditionType
 canonical_path: /api/Global/Type/ConditionType
@@ -221,4 +222,5 @@ WORK_TYPE = 1
 
 #### Field Value
 **Type:** Global.ConditionType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CommandWindow.SefiraMovement
 canonical_path: /api/CommandWindow/SefiraMovement
@@ -11,6 +12,9 @@ canonical_path: /api/CommandWindow/SefiraMovement
 ```csharp
 public class SefiraMovement
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 UI element for showing and changing the department in the management and suppression windows.
 
 Used by [CommandWindow](/api/CommandWindow)
@@ -32,7 +36,6 @@ public SefiraMovement()
 ```csharp
 public GameObject ActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public GameObject ActiveControl
 ```csharp
 public Text AreaName
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public Text AreaName
 ```csharp
 public Image FrameControl
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public Image FrameControl
 ```csharp
 public Image LeftArrow
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public Image LeftArrow
 ```csharp
 private int Max
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ private int Max
 ```csharp
 private List<SefiraEnum> Opened
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ private List<SefiraEnum> Opened
 ```csharp
 public Image RightArrow
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public Image RightArrow
 ```csharp
 public List<Image> SefiraColor
 ```
-#INC
 
 
 #### Field Value
@@ -114,14 +110,12 @@ public List<Image> SefiraColor
 ```csharp
 public void AreaInit()
 ```
-#INC
 
 
 ### CheckContains(SefiraEnum)
 ```csharp
 public bool CheckContains(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -136,7 +130,6 @@ public bool CheckContains(SefiraEnum sefira)
 ```csharp
 public bool MoveNextSefira(SefiraEnum current, out SefiraEnum moved)
 ```
-#INC
 
 
 #### Parameters
@@ -152,7 +145,6 @@ public bool MoveNextSefira(SefiraEnum current, out SefiraEnum moved)
 ```csharp
 public bool MovePrevSefira(SefiraEnum current, out SefiraEnum moved)
 ```
-#INC
 
 
 #### Parameters
@@ -168,8 +160,6 @@ public bool MovePrevSefira(SefiraEnum current, out SefiraEnum moved)
 ```csharp
 public void SetCurrentSefira(SefiraEnum current)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -179,4 +169,5 @@ public void SetCurrentSefira(SefiraEnum current)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RabbitCommandQueue
 canonical_path: /api/Global/Misc/RabbitCommandQueue
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/RabbitCommandQueue
 ```csharp
 public class RabbitCommandQueue
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds a list of commands for a [rabbit](/api/Global/Model/RabbitModel).
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Holds a list of commands for a [rabbit](/api/Global/Model/RabbitModel).
 ```csharp
 public RabbitCommandQueue(UnitModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -40,7 +42,6 @@ public RabbitCommandQueue(UnitModel actor)
 ```csharp
 private UnitModel _actor
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +51,6 @@ private UnitModel _actor
 ```csharp
 private LinkedList<UnitCommand> queue
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ private LinkedList<UnitCommand> queue
 ```csharp
 public void AddFirst(UnitCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -74,7 +73,6 @@ public void AddFirst(UnitCommand cmd)
 ```csharp
 public void AddLast(UnitCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -86,14 +84,12 @@ public void AddLast(UnitCommand cmd)
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### Execute(UnitModel)
 ```csharp
 public void Execute(UnitModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -105,7 +101,6 @@ public void Execute(UnitModel actor)
 ```csharp
 public UnitCommand GetCurrentCmd()
 ```
-#INC
 
 
 #### Returns
@@ -115,7 +110,6 @@ public UnitCommand GetCurrentCmd()
 ```csharp
 public void SetCommand(UnitCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -125,4 +119,5 @@ public void SetCommand(UnitCommand cmd)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

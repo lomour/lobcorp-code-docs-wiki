@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Legacy.OverlayScript.OverlayPos
 canonical_path: /api/Legacy/OverlayScript/OverlayPos
@@ -53,4 +54,5 @@ RIGHTUP = 1
 
 #### Field Value
 **Type:** Legacy.OverlayScript.OverlayPos
+
 

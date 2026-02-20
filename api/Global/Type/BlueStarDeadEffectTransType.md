@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BlueStarDeadEffect.TransType
 canonical_path: /api/Global/Type/BlueStarDeadEffectTransType
@@ -37,4 +38,5 @@ VERTICAL = 0
 
 #### Field Value
 **Type:** Global.BlueStarDeadEffect.TransType
+
 

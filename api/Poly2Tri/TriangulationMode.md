@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.TriangulationMode
 canonical_path: /api/Poly2Tri/TriangulationMode
@@ -37,4 +38,5 @@ Unconstrained = 0
 
 #### Field Value
 **Type:** Poly2Tri.TriangulationMode
+
 

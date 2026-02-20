@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LocalizeTextDataModel
 canonical_path: /api/Global/Model/LocalizeTextDataModel
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Model/LocalizeTextDataModel
 ```csharp
 public class LocalizeTextDataModel
 ```
-Used for getting text which changes between languages by key. #INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Used for getting text which changes between languages by key. 
 
 
 ## Inheritance
@@ -23,8 +27,6 @@ Used for getting text which changes between languages by key. #INC
 ```csharp
 public LocalizeTextDataModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -33,7 +35,6 @@ public LocalizeTextDataModel()
 ```csharp
 private static LocalizeTextDataModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +44,6 @@ private static LocalizeTextDataModel _instance
 ```csharp
 private Dictionary<string, string> _list
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +53,6 @@ private Dictionary<string, string> _list
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +62,6 @@ private bool _loaded
 ```csharp
 public const string Failed = "UNKNOWN"
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ public bool loaded { get; }
 ```csharp
 public string GetText(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -108,7 +105,6 @@ public string GetText(string id)
 ```csharp
 public string GetTextAppend(params string[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -123,7 +119,6 @@ public string GetTextAppend(params string[] ids)
 ```csharp
 public string GetTextAppendFailEmpty(params string[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -138,7 +133,6 @@ public string GetTextAppendFailEmpty(params string[] ids)
 ```csharp
 public void Init(Dictionary<string, string> data)
 ```
-#INC
 
 
 #### Parameters
@@ -148,4 +142,5 @@ public void Init(Dictionary<string, string> data)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

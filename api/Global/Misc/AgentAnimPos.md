@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentAnimPos
 canonical_path: /api/Global/Misc/AgentAnimPos
@@ -109,4 +110,5 @@ SYMBOL = 11
 
 #### Field Value
 **Type:** Global.AgentAnimPos
+
 

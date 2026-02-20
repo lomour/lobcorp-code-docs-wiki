@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryVariablesModel.PredefinedVar
 canonical_path: /api/Global/Misc/StoryVariablesModelPredefinedVar
@@ -61,4 +62,5 @@ public virtual int Invoke()
 
 #### Returns
 **Type:** System.Int32
+
 

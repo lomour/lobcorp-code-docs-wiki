@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryItemController
 canonical_path: /api/Inventory/InventoryItemController
@@ -11,9 +12,12 @@ canonical_path: /api/Inventory/InventoryItemController
 ```csharp
 public class InventoryItemController : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 The UI that shows the list of EGO Weapons or Suits on the [E.G.O List screen](/api/Inventory/InventoryUI).
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public InventoryItemController()
 ```csharp
 private const string _armorSlot = "UIComponent/Inventory/EquipmentSlot_Armor"
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private const string _armorSlot = "UIComponent/Inventory/EquipmentSlot_Armor"
 ```csharp
 private int _currentDetail
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private int _currentDetail
 ```csharp
 private InventoryItemType _currentWeaponType
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private InventoryItemType _currentWeaponType
 ```csharp
 private const string _weaponSlot = "UIComponent/Inventory/EquipmentSlot_Weapon"
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ private const string _weaponSlot = "UIComponent/Inventory/EquipmentSlot_Weapon"
 ```csharp
 public Button ArmorButton
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public Button ArmorButton
 ```csharp
 public RectTransform ArmorControl
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public RectTransform ArmorControl
 ```csharp
 private Dictionary<long, InventoryArmorSlot> armorDic
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ private Dictionary<long, InventoryArmorSlot> armorDic
 ```csharp
 public RectTransform ArmorListParent
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +108,6 @@ public RectTransform ArmorListParent
 ```csharp
 public ScrollRect ArmorScroll
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +117,6 @@ public ScrollRect ArmorScroll
 ```csharp
 private List<InventorySlot> CurrentDisplayed
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +144,6 @@ public Color[] gradeColor
 ```csharp
 public GameObject MiddleActive
 ```
-#INC
 
 
 #### Field Value
@@ -160,7 +153,6 @@ public GameObject MiddleActive
 ```csharp
 public InventoryRankButton[] rankButton
 ```
-#INC
 
 
 #### Field Value
@@ -170,7 +162,6 @@ public InventoryRankButton[] rankButton
 ```csharp
 private int selectedLevel
 ```
-#INC
 
 
 #### Field Value
@@ -180,7 +171,6 @@ private int selectedLevel
 ```csharp
 private Dictionary<int, InventorySlot> slotDic
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +189,6 @@ public Button[] sortButton
 ```csharp
 public Text Tooltip_Middle
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +198,6 @@ public Text Tooltip_Middle
 ```csharp
 public RectTransform ToolTipControl
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +207,6 @@ public RectTransform ToolTipControl
 ```csharp
 public Text TooltipDesc
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +216,6 @@ public Text TooltipDesc
 ```csharp
 public RectTransform tooltipRect
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +225,6 @@ public RectTransform tooltipRect
 ```csharp
 public Text TooltipTitle_ItemName
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +234,6 @@ public Text TooltipTitle_ItemName
 ```csharp
 public Button WeaponButton
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +243,6 @@ public Button WeaponButton
 ```csharp
 public RectTransform WeaponControl
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +252,6 @@ public RectTransform WeaponControl
 ```csharp
 private Dictionary<long, InventoryWeaponSlot> weaponDic
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +261,6 @@ private Dictionary<long, InventoryWeaponSlot> weaponDic
 ```csharp
 public RectTransform WeaponListParent
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +270,6 @@ public RectTransform WeaponListParent
 ```csharp
 public ScrollRect WeaponScroll
 ```
-#INC
 
 
 #### Field Value
@@ -311,15 +291,12 @@ public Color NormalEquip { get; }
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### CheckAgentContains(AgentModel, Color)
 ```csharp
 public void CheckAgentContains(AgentModel target, Color c)
 ```
-#INC
 
 
 #### Parameters
@@ -332,21 +309,18 @@ public void CheckAgentContains(AgentModel target, Color c)
 ```csharp
 private void ClearButtonRankColor()
 ```
-#INC
 
 
 ### CloseTooltip()
 ```csharp
 public void CloseTooltip()
 ```
-#INC
 
 
 ### ForcelyRelaseEquipment(EquipmentModel, AgentModel)
 ```csharp
 public void ForcelyRelaseEquipment(EquipmentModel equipment, AgentModel owner)
 ```
-#INC
 
 
 #### Parameters
@@ -359,7 +333,6 @@ public void ForcelyRelaseEquipment(EquipmentModel equipment, AgentModel owner)
 ```csharp
 private RiskLevel GetRiskLevel(InventorySlot slot)
 ```
-#INC
 
 
 #### Parameters
@@ -374,7 +347,6 @@ private RiskLevel GetRiskLevel(InventorySlot slot)
 ```csharp
 public int GetSelectedIndex()
 ```
-#INC
 
 
 #### Returns
@@ -384,7 +356,6 @@ public int GetSelectedIndex()
 ```csharp
 public bool GetSlot(EquipmentModel equipment, out InventorySlot slot)
 ```
-#INC
 
 
 #### Parameters
@@ -400,7 +371,6 @@ public bool GetSlot(EquipmentModel equipment, out InventorySlot slot)
 ```csharp
 public bool GetSlot(EquipmentTypeInfo info, out InventorySlot slot)
 ```
-#INC
 
 
 #### Parameters
@@ -416,14 +386,12 @@ public bool GetSlot(EquipmentTypeInfo info, out InventorySlot slot)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### IsSelectedRank()
 ```csharp
 public bool IsSelectedRank()
 ```
-#INC
 
 
 #### Returns
@@ -433,7 +401,6 @@ public bool IsSelectedRank()
 ```csharp
 public void OnClickButton(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -445,7 +412,6 @@ public void OnClickButton(int index)
 ```csharp
 public void OnClickDetailInfo(EquipmentModel equipment)
 ```
-#INC
 
 
 #### Parameters
@@ -457,7 +423,6 @@ public void OnClickDetailInfo(EquipmentModel equipment)
 ```csharp
 public void OnClickDetailInfo(EquipmentTypeInfo info)
 ```
-#INC
 
 
 #### Parameters
@@ -469,7 +434,6 @@ public void OnClickDetailInfo(EquipmentTypeInfo info)
 ```csharp
 public void OnClickSort(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -481,7 +445,6 @@ public void OnClickSort(int i)
 ```csharp
 public void OnClickSort(int i, bool changedType)
 ```
-#INC
 
 
 #### Parameters
@@ -494,7 +457,6 @@ public void OnClickSort(int i, bool changedType)
 ```csharp
 public void OnEquipAction(AgentModel agent, EquipmentModel equipment)
 ```
-#INC
 
 
 #### Parameters
@@ -507,7 +469,6 @@ public void OnEquipAction(AgentModel agent, EquipmentModel equipment)
 ```csharp
 public void OnEquipAction(EquipmentModel equipment)
 ```
-#INC
 
 
 #### Parameters
@@ -519,7 +480,6 @@ public void OnEquipAction(EquipmentModel equipment)
 ```csharp
 public void OnEquipAction(EquipmentModel equipment, AgentModel agent = null)
 ```
-#INC
 
 
 #### Parameters
@@ -532,14 +492,12 @@ public void OnEquipAction(EquipmentModel equipment, AgentModel agent = null)
 ```csharp
 private void SetButtonRankColor()
 ```
-#INC
 
 
 ### SetGradeText(int, Text)
 ```csharp
 public void SetGradeText(int grade, Text target)
 ```
-#INC
 
 
 #### Parameters
@@ -552,7 +510,6 @@ public void SetGradeText(int grade, Text target)
 ```csharp
 public static void SetGradeText(RiskLevel level, Text target)
 ```
-#INC
 
 
 #### Parameters
@@ -565,14 +522,12 @@ public static void SetGradeText(RiskLevel level, Text target)
 ```csharp
 public void SetList()
 ```
-#INC
 
 
 ### SortList(List<InventorySlot>)
 ```csharp
 private void SortList(List<InventorySlot> sorted)
 ```
-#INC
 
 
 #### Parameters
@@ -584,9 +539,9 @@ private void SortList(List<InventorySlot> sorted)
 ```csharp
 public void TooltipPosSet()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

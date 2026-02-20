@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpecialActionOfficerCommand
 canonical_path: /api/Global/Worker/SpecialActionOfficerCommand
@@ -11,10 +12,16 @@ canonical_path: /api/Global/Worker/SpecialActionOfficerCommand
 ```csharp
 public class SpecialActionOfficerCommand : WorkerCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Old version of clerks' actions.
 
-#unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -26,7 +33,6 @@ Old version of clerks' actions.
 ```csharp
 public SpecialActionOfficerCommand(OfficerSpecialAction action)
 ```
-#INC
 
 
 #### Parameters
@@ -40,7 +46,6 @@ public SpecialActionOfficerCommand(OfficerSpecialAction action)
 ```csharp
 private OfficerSpecialAction action
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +55,6 @@ private OfficerSpecialAction action
 ```csharp
 private long animatorId
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +64,6 @@ private long animatorId
 ```csharp
 private bool arrival
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +73,6 @@ private bool arrival
 ```csharp
 private int cnt
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +82,6 @@ private int cnt
 ```csharp
 private int cntMax
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +91,6 @@ private int cntMax
 ```csharp
 private float elapsedTime
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +100,6 @@ private float elapsedTime
 ```csharp
 private bool endMotion
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +109,6 @@ private bool endMotion
 ```csharp
 private Vector3 initialPos
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +118,6 @@ private Vector3 initialPos
 ```csharp
 private Vector3 initialScale
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +127,6 @@ private Vector3 initialScale
 ```csharp
 private float motionTime
 ```
-#INC
 
 
 #### Field Value
@@ -140,7 +136,6 @@ private float motionTime
 ```csharp
 private bool moveAnim
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +145,6 @@ private bool moveAnim
 ```csharp
 private bool moveZ
 ```
-#INC
 
 
 #### Field Value
@@ -160,7 +154,6 @@ private bool moveZ
 ```csharp
 private Vector3 reference
 ```
-#INC
 
 
 #### Field Value
@@ -170,7 +163,6 @@ private Vector3 reference
 ```csharp
 private bool scaling
 ```
-#INC
 
 
 #### Field Value
@@ -180,7 +172,6 @@ private bool scaling
 ```csharp
 private bool small
 ```
-#INC
 
 
 #### Field Value
@@ -190,7 +181,6 @@ private bool small
 ```csharp
 private bool startReturnAction
 ```
-#INC
 
 
 #### Field Value
@@ -200,7 +190,6 @@ private bool startReturnAction
 ```csharp
 private bool startSpecialAction
 ```
-#INC
 
 
 #### Field Value
@@ -210,7 +199,6 @@ private bool startSpecialAction
 ```csharp
 private float unitScale
 ```
-#INC
 
 
 #### Field Value
@@ -222,21 +210,18 @@ private float unitScale
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### Loop()
 ```csharp
 private void Loop()
 ```
-#INC
 
 
 ### MannualMoving(Vector3, bool, bool, bool, bool)
 ```csharp
 private void MannualMoving(Vector3 pos, bool moveZ, bool moveAnim, bool scaling, bool small)
 ```
-#INC
 
 
 #### Parameters
@@ -252,15 +237,12 @@ private void MannualMoving(Vector3 pos, bool moveZ, bool moveAnim, bool scaling,
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnInit(WorkerModel)
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -272,16 +254,15 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
-#INC
 
 
 ### OnStop()
 ```csharp
 public override void OnStop()
 ```
-#INC
 
 
 ## Inherited Members
 [MakeManageCreature(CreatureModel, AgentModel, SkillTypeInfo, Sprite)](/api/Global/Misc/WorkerCommand#makemanagecreature-creaturemodel-agentmodel-skilltypeinfo-sprite), [MakeReturnCreature(CreatureModel)](/api/Global/Misc/WorkerCommand#makereturncreature-creaturemodel), [MakeSuppressCommand(UnitModel)](/api/Global/Misc/WorkerCommand#makesuppresscommand-unitmodel), [MakeMove(MapNode)](/api/Global/Misc/WorkerCommand#makemove-mapnode), [MakeMove(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makemove-movableobjectnode), [MakePanicPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makepanicpursueagent-unitmodel), [MakeUnconPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makeunconpursueagent-unitmodel), [MakeFollowAgent(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makefollowagent-movableobjectnode), [MakeOfficerSpecialAction(OfficerSpecialAction)](/api/Global/Misc/WorkerCommand#makeofficerspecialaction-officerspecialaction), [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

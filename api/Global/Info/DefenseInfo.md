@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DefenseInfo
 canonical_path: /api/Global/Info/DefenseInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/DefenseInfo
 ```csharp
 public class DefenseInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Calculates and stores multipliers for each damage type, and provides some helper functions for getting them.
 
 
@@ -30,7 +34,6 @@ public DefenseInfo()
 ```csharp
 public float B
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public float B
 ```csharp
 public float P
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public float P
 ```csharp
 public float R
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public float R
 ```csharp
 public float W
 ```
-#INC
 
 
 #### Field Value
@@ -82,8 +82,6 @@ public static DefenseInfo zero { get; }
 ```csharp
 public DefenseInfo Copy()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -119,7 +117,6 @@ public DefenseInfo.Type GetDefenseType(RwbpType type)
 ```csharp
 public float GetMultiplier(RwbpType rwbpType)
 ```
-#INC
 
 
 #### Parameters
@@ -132,4 +129,5 @@ public float GetMultiplier(RwbpType rwbpType)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

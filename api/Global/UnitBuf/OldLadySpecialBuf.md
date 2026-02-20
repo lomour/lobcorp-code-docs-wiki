@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OldLadySpecialBuf
 canonical_path: /api/Global/UnitBuf/OldLadySpecialBuf
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/OldLadySpecialBuf
 ```csharp
 public class OldLadySpecialBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Effect given to 'solitude' employees after working with an upset [Old Lady](/api/Global/IOBserver/OldLady).
 
@@ -27,7 +31,6 @@ Removes control of the agent, moves them to the entrance to Old Lady's containme
 ```csharp
 public OldLadySpecialBuf(OldLady oldLady)
 ```
-#INC
 
 
 #### Parameters
@@ -41,7 +44,6 @@ public OldLadySpecialBuf(OldLady oldLady)
 ```csharp
 private const float defaultRemainTime = 30
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +53,6 @@ private const float defaultRemainTime = 30
 ```csharp
 private const float defaultTickTime = 6
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +62,6 @@ private const float defaultTickTime = 6
 ```csharp
 private GameObject effect
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +71,6 @@ private GameObject effect
 ```csharp
 private OldLady oldLady
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +80,6 @@ private OldLady oldLady
 ```csharp
 private float tickTime
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +89,6 @@ private float tickTime
 ```csharp
 private const float whiteDmgMax = 6
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +98,6 @@ private const float whiteDmgMax = 6
 ```csharp
 private const float whiteDmgMin = 4
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +107,6 @@ private const float whiteDmgMin = 4
 ```csharp
 private WorkerModel worker
 ```
-#INC
 
 
 #### Field Value
@@ -133,22 +128,18 @@ private static float whiteDmg { get; }
 ```csharp
 public override void Destroy()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -158,4 +149,5 @@ public override void Init(UnitModel model)
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [OnDestroy()](/api/Global/Misc/UnitBuf#ondestroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraIsolate
 canonical_path: /api/Global/Misc/SefiraIsolate
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SefiraIsolate
 ```csharp
 public class SefiraIsolate
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Represents a place in the map for a [containment unit](/api/Global/IOBserver/IsolateRoom) in some [department](/api/Global/Misc/Sefira).
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public SefiraIsolate()
 ```csharp
 public long creatureId
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public long creatureId
 ```csharp
 public List<long> exclusiveID
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public List<long> exclusiveID
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public int index
 ```csharp
 public bool isUsed
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public bool isUsed
 ```csharp
 public string nodeId
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public string nodeId
 ```csharp
 public IsolatePos pos
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public IsolatePos pos
 ```csharp
 public float x
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public float x
 ```csharp
 public float y
 ```
-#INC
 
 
 #### Field Value
@@ -114,8 +110,6 @@ public float y
 ```csharp
 public bool isExclusive(long target)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -128,4 +122,5 @@ public bool isExclusive(long target)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerFaceType
 canonical_path: /api/WorkerSprite/WorkerFaceType
@@ -45,4 +46,5 @@ PANIC = 2
 
 #### Field Value
 **Type:** WorkerSprite.WorkerFaceType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SilentOrchestraAnim.UI.TypoState
 canonical_path: /api/Global/State/SilentOrchestraAnimUITypoState
@@ -45,4 +46,5 @@ IDLE = 0
 
 #### Field Value
 **Type:** Global.SilentOrchestraAnim.UI.TypoState
+
 

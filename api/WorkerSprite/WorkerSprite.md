@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerSprite
 canonical_path: /api/WorkerSprite/WorkerSprite
@@ -11,9 +12,12 @@ canonical_path: /api/WorkerSprite/WorkerSprite
 ```csharp
 public class WorkerSprite
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores a sprite for each part of a worker?
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public WorkerSprite()
 ```csharp
 private Sprite _eye
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private Sprite _eye
 ```csharp
 private Sprite _mouth
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private Sprite _mouth
 ```csharp
 public WorkerAmrorSet Armor
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public WorkerAmrorSet Armor
 ```csharp
 public Color ArmorColor
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public Color ArmorColor
 ```csharp
 public Sprite AttachmentHair
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public Sprite AttachmentHair
 ```csharp
 public Sprite BattleEyeBrow
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public Sprite BattleEyeBrow
 ```csharp
 public Sprite BattleMouth
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public Sprite BattleMouth
 ```csharp
 public Sprite EyeBrow
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +108,6 @@ public Sprite EyeBrow
 ```csharp
 public Sprite EyeClose
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +117,6 @@ public Sprite EyeClose
 ```csharp
 public Color EyeColor
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +126,6 @@ public Color EyeColor
 ```csharp
 public Sprite EyeDead
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +135,6 @@ public Sprite EyeDead
 ```csharp
 public Sprite EyePanic
 ```
-#INC
 
 
 #### Field Value
@@ -152,7 +144,6 @@ public Sprite EyePanic
 ```csharp
 public Sprite FrontHair
 ```
-#INC
 
 
 #### Field Value
@@ -162,7 +153,6 @@ public Sprite FrontHair
 ```csharp
 public Color HairColor
 ```
-#INC
 
 
 #### Field Value
@@ -172,7 +162,6 @@ public Color HairColor
 ```csharp
 public Sprite LeftHand
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +171,6 @@ public Sprite LeftHand
 ```csharp
 public Sprite LeftWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +180,6 @@ public Sprite LeftWeapon
 ```csharp
 public Sprite MainWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +189,6 @@ public Sprite MainWeapon
 ```csharp
 public Sprite PanicEyeBrow
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +198,6 @@ public Sprite PanicEyeBrow
 ```csharp
 public Sprite PanicMouth
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +207,6 @@ public Sprite PanicMouth
 ```csharp
 public Sprite RearHair
 ```
-#INC
 
 
 #### Field Value
@@ -240,7 +224,6 @@ public WorkerSprite.ReplacedAttachment replaced
 ```csharp
 public Sprite RightHand
 ```
-#INC
 
 
 #### Field Value
@@ -250,8 +233,6 @@ public Sprite RightHand
 ```csharp
 public WorkerSpriteSaveData saveData
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -261,7 +242,6 @@ public WorkerSpriteSaveData saveData
 ```csharp
 public bool SetArmorColor
 ```
-#INC
 
 
 #### Field Value
@@ -271,7 +251,6 @@ public bool SetArmorColor
 ```csharp
 public Sprite Symbol
 ```
-#INC
 
 
 #### Field Value
@@ -297,4 +276,5 @@ public Sprite Mouth { get; set; }
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

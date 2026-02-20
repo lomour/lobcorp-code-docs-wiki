@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentEventEnum
 canonical_path: /api/Global/Misc/AgentEventEnum
@@ -37,4 +38,5 @@ OnFinishWork = 2
 
 #### Field Value
 **Type:** Global.AgentEventEnum
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventLayer.TypoEvent
 canonical_path: /api/Global/Event/RandomEventLayerTypoEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

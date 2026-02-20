@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AttackCommand
 canonical_path: /api/Global/Worker/AttackCommand
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Worker/AttackCommand
 ```csharp
 public class AttackCommand : WorkerCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents a command to an employee to suppress something.
 
@@ -24,7 +28,6 @@ Represents a command to an employee to suppress something.
 ```csharp
 public AttackCommand(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -38,7 +41,6 @@ public AttackCommand(UnitModel target)
 ```csharp
 private int damage
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +50,6 @@ private int damage
 ```csharp
 private float postDelay
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +59,6 @@ private float postDelay
 ```csharp
 private float preDelay
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +68,6 @@ private float preDelay
 ```csharp
 private float range
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +77,6 @@ private float range
 ```csharp
 private bool retreat
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +86,6 @@ private bool retreat
 ```csharp
 private float retreatDelay
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +95,6 @@ private float retreatDelay
 ```csharp
 private float retreatDuration
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +104,6 @@ private float retreatDuration
 ```csharp
 private UnitModel target
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ private UnitModel target
 ```csharp
 private bool CheckRange()
 ```
-#INC
 
 
 #### Returns
@@ -130,29 +124,24 @@ private bool CheckRange()
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### GiveDamage()
 ```csharp
 public void GiveDamage()
 ```
-#INC
 
 
 ### OnDestroy()
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnInit(WorkerModel)
 ```csharp
 public override void OnInit(WorkerModel agent)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -164,9 +153,9 @@ public override void OnInit(WorkerModel agent)
 ```csharp
 public override void OnStart()
 ```
-#INC
 
 
 ## Inherited Members
 [MakeManageCreature(CreatureModel, AgentModel, SkillTypeInfo, Sprite)](/api/Global/Misc/WorkerCommand#makemanagecreature-creaturemodel-agentmodel-skilltypeinfo-sprite), [MakeReturnCreature(CreatureModel)](/api/Global/Misc/WorkerCommand#makereturncreature-creaturemodel), [MakeSuppressCommand(UnitModel)](/api/Global/Misc/WorkerCommand#makesuppresscommand-unitmodel), [MakeMove(MapNode)](/api/Global/Misc/WorkerCommand#makemove-mapnode), [MakeMove(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makemove-movableobjectnode), [MakePanicPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makepanicpursueagent-unitmodel), [MakeUnconPursueAgent(UnitModel)](/api/Global/Misc/WorkerCommand#makeunconpursueagent-unitmodel), [MakeFollowAgent(MovableObjectNode)](/api/Global/Misc/WorkerCommand#makefollowagent-movableobjectnode), [MakeOfficerSpecialAction(OfficerSpecialAction)](/api/Global/Misc/WorkerCommand#makeofficerspecialaction-officerspecialaction), [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [Finish()](/api/Global/Misc/UnitCommand#finish), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

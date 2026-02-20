@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventLayer.TypoSet
 canonical_path: /api/Global/Misc/RandomEventLayerTypoSet
@@ -29,4 +30,5 @@ TIME = 0
 
 #### Field Value
 **Type:** Global.RandomEventLayer.TypoSet
+
 

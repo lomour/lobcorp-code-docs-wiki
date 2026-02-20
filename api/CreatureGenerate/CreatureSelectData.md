@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureSelectData
 canonical_path: /api/CreatureGenerate/CreatureSelectData
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureGenerate/CreatureSelectData
 ```csharp
 public class CreatureSelectData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the data for a given day of abnormality selection, including the probabilities of each risk level and the action of to allow/ban abnormalities.
 
 
@@ -35,7 +39,6 @@ public CreatureSelectData(int day)
 ```csharp
 private List<long> actionParam
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ private List<long> actionParam
 ```csharp
 private GenerateCommonAction actionType
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ private GenerateCommonAction actionType
 ```csharp
 private float[] d1
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ private float[] d1
 ```csharp
 private float[] d2
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ private float[] d2
 ```csharp
 private float[] d3
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ private float[] d3
 ```csharp
 public static float[] zeroAry
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +95,6 @@ public static float[] zeroAry
 ```csharp
 public int Day { get; private set; }
 ```
-#INC
 
 
 #### Property Value
@@ -109,7 +106,6 @@ public int Day { get; private set; }
 ```csharp
 public List<long> GetCreature()
 ```
-#INC
 
 
 #### Returns
@@ -119,7 +115,6 @@ public List<long> GetCreature()
 ```csharp
 private bool GetRiskLevel(float[] d, out RiskLevel level, params RiskLevel[] reduced)
 ```
-#INC
 
 
 #### Parameters
@@ -136,8 +131,6 @@ private bool GetRiskLevel(float[] d, out RiskLevel level, params RiskLevel[] red
 ```csharp
 private long PickCreature(RiskLevel risk)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -152,7 +145,6 @@ private long PickCreature(RiskLevel risk)
 ```csharp
 public void SetActionType(GenerateCommonAction action, params long[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -165,7 +157,6 @@ public void SetActionType(GenerateCommonAction action, params long[] ids)
 ```csharp
 public void SetProb(List<float> d1, List<float> d2, List<float> d3)
 ```
-#INC
 
 
 #### Parameters
@@ -177,4 +168,5 @@ public void SetProb(List<float> d1, List<float> d2, List<float> d3)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

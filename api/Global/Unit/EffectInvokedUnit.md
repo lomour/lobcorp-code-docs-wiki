@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EffectInvokedUnit
 canonical_path: /api/Global/Unit/EffectInvokedUnit
@@ -29,4 +30,5 @@ VICTIM = 1
 
 #### Field Value
 **Type:** Global.EffectInvokedUnit
+
 

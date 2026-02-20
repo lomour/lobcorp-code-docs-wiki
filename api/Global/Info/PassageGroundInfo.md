@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PassageGroundInfo
 canonical_path: /api/Global/Info/PassageGroundInfo
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Info/PassageGroundInfo
 ```csharp
 public class PassageGroundInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the height of the ground and the sprites on the floor of a [room](/api/Global/Model/PassageObjectModel).
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Holds the height of the ground and the sprites on the floor of a [room](/api/Glo
 ```csharp
 public PassageGroundInfo()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ public PassageGroundInfo()
 ```csharp
 public List<Sprite> alterSprites
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ public List<Sprite> alterSprites
 ```csharp
 public List<Sprite> bloodSprites
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ public List<Sprite> bloodSprites
 ```csharp
 public float height
 ```
-#INC
 
 
 #### Field Value
@@ -63,4 +62,5 @@ public float height
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

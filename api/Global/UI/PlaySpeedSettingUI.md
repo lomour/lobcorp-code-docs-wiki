@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PlaySpeedSettingUI
 canonical_path: /api/Global/UI/PlaySpeedSettingUI
@@ -11,10 +12,13 @@ canonical_path: /api/Global/UI/PlaySpeedSettingUI
 ```csharp
 public class PlaySpeedSettingUI : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Controls changing the speed during management.
 
-#INC 
+
 
 
 ## Inheritance
@@ -33,7 +37,6 @@ public PlaySpeedSettingUI()
 ```csharp
 private bool _available
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ private bool _available
 ```csharp
 private static PlaySpeedSettingUI _instance
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private static PlaySpeedSettingUI _instance
 ```csharp
 private List<CreatureBase> blockedCaller
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private List<CreatureBase> blockedCaller
 ```csharp
 private Dictionary<PlaySpeedSettingBlockType, PlaySpeedSettingBlockedUI> blockedDictionary
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ private Dictionary<PlaySpeedSettingBlockType, PlaySpeedSettingBlockedUI> blocked
 ```csharp
 public Image blockedImage
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +99,6 @@ private PlaySpeedSettingUI.BlockedUIEvent blockEvent
 ```csharp
 public Button NormalSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +108,6 @@ public Button NormalSpeed
 ```csharp
 public Image observeFilter
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +117,6 @@ public Image observeFilter
 ```csharp
 public Sprite observeSprite
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +126,6 @@ public Sprite observeSprite
 ```csharp
 public Button OneHalfSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -140,7 +135,6 @@ public Button OneHalfSpeed
 ```csharp
 public Button PauseButton
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +144,6 @@ public Button PauseButton
 ```csharp
 public Sprite pauseDefSprite
 ```
-#INC
 
 
 #### Field Value
@@ -160,7 +153,6 @@ public Sprite pauseDefSprite
 ```csharp
 public Image pauseFilter
 ```
-#INC
 
 
 #### Field Value
@@ -170,7 +162,6 @@ public Image pauseFilter
 ```csharp
 public Image pauseImage
 ```
-#INC
 
 
 #### Field Value
@@ -188,7 +179,6 @@ private List<PlaySpeedSettingUI.SpaceEvent> spaceCalled
 ```csharp
 public Image speed1Image
 ```
-#INC
 
 
 #### Field Value
@@ -198,7 +188,6 @@ public Image speed1Image
 ```csharp
 public Image speed2Image
 ```
-#INC
 
 
 #### Field Value
@@ -208,7 +197,6 @@ public Image speed2Image
 ```csharp
 public Image speed3Image
 ```
-#INC
 
 
 #### Field Value
@@ -218,7 +206,6 @@ public Image speed3Image
 ```csharp
 public Image speedBlockMask
 ```
-#INC
 
 
 #### Field Value
@@ -228,7 +215,6 @@ public Image speedBlockMask
 ```csharp
 private bool timeMultiplierEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -238,7 +224,6 @@ private bool timeMultiplierEnabled
 ```csharp
 public Button TwiceSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -276,7 +261,6 @@ public static PlaySpeedSettingUI instance { get; }
 ```csharp
 public void AddBlockedEvent(PlaySpeedSettingBlockType blockType, PlaySpeedSettingBlockedUI script)
 ```
-#INC
 
 
 #### Parameters
@@ -299,15 +283,12 @@ public void AddSpaceEvent(PlaySpeedSettingUI.SpaceEvent newEvent)
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### BlockImageSetActivate(bool)
 ```csharp
 public void BlockImageSetActivate(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -319,7 +300,6 @@ public void BlockImageSetActivate(bool state)
 ```csharp
 public void BlockSetting(CreatureBase caller)
 ```
-#INC
 
 
 #### Parameters
@@ -331,7 +311,6 @@ public void BlockSetting(CreatureBase caller)
 ```csharp
 public void CallBlockEvent(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -343,7 +322,6 @@ public void CallBlockEvent(int index)
 ```csharp
 private void CheckAction(PlaySpeedSettingBlockFunction function)
 ```
-#INC
 
 
 #### Parameters
@@ -355,7 +333,6 @@ private void CheckAction(PlaySpeedSettingBlockFunction function)
 ```csharp
 private bool CheckEscapeBlocked()
 ```
-#INC
 
 
 #### Returns
@@ -365,7 +342,6 @@ private bool CheckEscapeBlocked()
 ```csharp
 private bool CheckManaulBlocked()
 ```
-#INC
 
 
 #### Returns
@@ -375,7 +351,6 @@ private bool CheckManaulBlocked()
 ```csharp
 public bool CheckPlaySpeedUI()
 ```
-#INC
 
 
 #### Returns
@@ -385,7 +360,6 @@ public bool CheckPlaySpeedUI()
 ```csharp
 private bool CheckTimeMultiplierBlocked()
 ```
-#INC
 
 
 #### Returns
@@ -395,7 +369,6 @@ private bool CheckTimeMultiplierBlocked()
 ```csharp
 private bool CheckTimeStopBlocked(bool isRelease)
 ```
-#INC
 
 
 #### Parameters
@@ -410,63 +383,54 @@ private bool CheckTimeStopBlocked(bool isRelease)
 ```csharp
 public void ClearBlockEvent()
 ```
-#INC
 
 
 ### ForcelyPlay()
 ```csharp
 public void ForcelyPlay()
 ```
-#INC
 
 
 ### ForcleyReleaseSetting()
 ```csharp
 public void ForcleyReleaseSetting()
 ```
-#INC
 
 
 ### OnClickPause()
 ```csharp
 public void OnClickPause()
 ```
-#INC
 
 
 ### OnClickResume()
 ```csharp
 public void OnClickResume()
 ```
-#INC
 
 
 ### OnClickSpeed1()
 ```csharp
 public void OnClickSpeed1()
 ```
-#INC
 
 
 ### OnClickSpeed2()
 ```csharp
 public void OnClickSpeed2()
 ```
-#INC
 
 
 ### OnClickSpeed3()
 ```csharp
 public void OnClickSpeed3()
 ```
-#INC
 
 
 ### OnPause(PAUSECALL)
 ```csharp
 public void OnPause(PAUSECALL caller)
 ```
-#INC
 
 
 #### Parameters
@@ -478,7 +442,6 @@ public void OnPause(PAUSECALL caller)
 ```csharp
 public void OnResume(PAUSECALL caller)
 ```
-#INC
 
 
 #### Parameters
@@ -490,14 +453,12 @@ public void OnResume(PAUSECALL caller)
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### ReleaseSetting(CreatureBase)
 ```csharp
 public void ReleaseSetting(CreatureBase caller)
 ```
-#INC
 
 
 #### Parameters
@@ -509,7 +470,6 @@ public void ReleaseSetting(CreatureBase caller)
 ```csharp
 public void RemoveBlockedEvent(PlaySpeedSettingBlockType blockType)
 ```
-#INC
 
 
 #### Parameters
@@ -541,14 +501,12 @@ public void SetBlockEvent(PlaySpeedSettingUI.BlockedUIEvent blockEvent)
 ```csharp
 public void SetNormalSpeedForcely()
 ```
-#INC
 
 
 ### SetTimeMultiplierEnable(bool)
 ```csharp
 public void SetTimeMultiplierEnable(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -560,23 +518,21 @@ public void SetTimeMultiplierEnable(bool state)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### UpdateButton()
 ```csharp
 public void UpdateButton()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

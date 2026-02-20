@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryStaticDataModel
 canonical_path: /api/Global/Model/StoryStaticDataModel
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Model/StoryStaticDataModel
 ```csharp
 public class StoryStaticDataModel
 ```
-Holds the story scenes after loading. #verify 
-#INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Holds the story scenes after loading. ^\[verify\]^
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ Holds the story scenes after loading. #verify
 ```csharp
 private StoryStaticDataModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -34,7 +36,6 @@ private StoryStaticDataModel()
 ```csharp
 private static StoryStaticDataModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +45,6 @@ private static StoryStaticDataModel _instance
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +54,6 @@ private bool _loaded
 ```csharp
 private Dictionary<string, StoryScriptScene> _scenes
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ public bool loaded { get; }
 ```csharp
 public StoryScriptScene GetSceneData(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -99,7 +97,6 @@ public StoryScriptScene GetSceneData(string id)
 ```csharp
 public StoryScriptScene[] GetSceneList()
 ```
-#INC
 
 
 #### Returns
@@ -109,7 +106,6 @@ public StoryScriptScene[] GetSceneList()
 ```csharp
 public void Init(Dictionary<string, StoryScriptScene> data)
 ```
-#INC
 
 
 #### Parameters
@@ -119,4 +115,5 @@ public void Init(Dictionary<string, StoryScriptScene> data)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

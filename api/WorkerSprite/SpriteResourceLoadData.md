@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.SpriteResourceLoadData
 canonical_path: /api/WorkerSprite/SpriteResourceLoadData
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSprite/SpriteResourceLoadData
 ```csharp
 public class SpriteResourceLoadData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Information required to find and load a sprite resource
 
 
@@ -33,7 +37,6 @@ public SpriteResourceLoadData()
 ```csharp
 public int count
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +46,6 @@ public int count
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ public int id
 ```csharp
 public bool isCredit
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ public bool isCredit
 ```csharp
 public bool isCustom
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ public bool isCustom
 ```csharp
 public string src
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ public string src
 ```csharp
 public SpriteResourceType type
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public SpriteResourceType type
 ```csharp
 public virtual Sprite GetRandomSprite()
 ```
-#INC
 
 
 #### Returns
@@ -105,7 +102,6 @@ public virtual Sprite GetRandomSprite()
 ```csharp
 public virtual Sprite GetSprite(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -120,10 +116,9 @@ public virtual Sprite GetSprite(int index)
 ```csharp
 public virtual void LoadSprite()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

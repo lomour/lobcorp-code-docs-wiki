@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahActionMethod
 canonical_path: /api/GeburahBoss/GeburahActionMethod
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

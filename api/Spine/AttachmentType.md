@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.AttachmentType
 canonical_path: /api/Spine/AttachmentType
@@ -69,4 +70,5 @@ Region = 0
 
 #### Field Value
 **Type:** Spine.AttachmentType
+
 

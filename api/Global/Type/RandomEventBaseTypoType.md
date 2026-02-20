@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventBase.TypoType
 canonical_path: /api/Global/Type/RandomEventBaseTypoType
@@ -37,4 +38,5 @@ START = 0
 
 #### Field Value
 **Type:** Global.RandomEventBase.TypoType
+
 

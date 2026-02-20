@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployAgentList
 canonical_path: /api/Global/List/DeployAgentList
@@ -11,10 +12,13 @@ canonical_path: /api/Global/List/DeployAgentList
 ```csharp
 public class DeployAgentList : MonoBehaviour, IScrollMessageReciever
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 UI element displaying unassigned agents on the deployment screen.
 
-May touch other things... #INC 
+May touch other things... 
 
 (Also, seems they had intended it to be able to sort, though this is not present in the game.)
 
@@ -39,7 +43,6 @@ public DeployAgentList()
 ```csharp
 private int _currentLinePos
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +52,6 @@ private int _currentLinePos
 ```csharp
 private PersonalityType _currentPersonality
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +61,6 @@ private PersonalityType _currentPersonality
 ```csharp
 private List<DeployAgentSlot> _disabledList
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +70,6 @@ private List<DeployAgentSlot> _disabledList
 ```csharp
 private const int _minimumScrollLineCount = 4
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +79,6 @@ private const int _minimumScrollLineCount = 4
 ```csharp
 private const int _slotsPerLine = 3
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +88,6 @@ private const int _slotsPerLine = 3
 ```csharp
 private const string _slotSrc = "UIComponent/DeployAgentSlot"
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +97,6 @@ private const string _slotSrc = "UIComponent/DeployAgentSlot"
 ```csharp
 public List<AgentModel> agentList
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +106,6 @@ public List<AgentModel> agentList
 ```csharp
 public Button Customizing
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +115,6 @@ public Button Customizing
 ```csharp
 public Text CustomizingText
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +124,6 @@ public Text CustomizingText
 ```csharp
 public RectTransform disableParent
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +133,6 @@ public RectTransform disableParent
 ```csharp
 private bool enterLeft
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +142,6 @@ private bool enterLeft
 ```csharp
 private bool enterRight
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +151,6 @@ private bool enterRight
 ```csharp
 public Button HireButton
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +160,6 @@ public Button HireButton
 ```csharp
 public Text HireText
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +169,6 @@ public Text HireText
 ```csharp
 public RectTransform listParent
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +178,6 @@ public RectTransform listParent
 ```csharp
 public GameObject LowerArrow
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +187,6 @@ public GameObject LowerArrow
 ```csharp
 private List<AgentModel> originalList
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +196,6 @@ private List<AgentModel> originalList
 ```csharp
 public ScaleSetter[] OverlayScaleSetter
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +205,6 @@ public ScaleSetter[] OverlayScaleSetter
 ```csharp
 public ScrollExchanger scroll
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +214,6 @@ public ScrollExchanger scroll
 ```csharp
 public ScrollRect scrollRect
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +223,6 @@ public ScrollRect scrollRect
 ```csharp
 public List<DeployAgentSlot> slotList
 ```
-#INC
 
 
 #### Field Value
@@ -257,7 +240,6 @@ public DeployAgentList.AgentSortData sortData
 ```csharp
 public Vector2 Spacing
 ```
-#INC
 
 
 #### Field Value
@@ -267,7 +249,6 @@ public Vector2 Spacing
 ```csharp
 public Vector2 UnitSize
 ```
-#INC
 
 
 #### Field Value
@@ -277,7 +258,6 @@ public Vector2 UnitSize
 ```csharp
 public GameObject UpperArrow
 ```
-#INC
 
 
 #### Field Value
@@ -307,7 +287,6 @@ public int LineUnit { get; }
 ```csharp
 public void AddAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -319,14 +298,12 @@ public void AddAgent(AgentModel agent)
 ```csharp
 private void CheckArrow()
 ```
-#INC
 
 
 ### DeployAgent(AgentModel)
 ```csharp
 public bool DeployAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -341,7 +318,6 @@ public bool DeployAgent(AgentModel agent)
 ```csharp
 private Dictionary<int, List<AgentModel>> DivByLevel(List<AgentModel> original)
 ```
-#INC
 
 
 #### Parameters
@@ -356,7 +332,6 @@ private Dictionary<int, List<AgentModel>> DivByLevel(List<AgentModel> original)
 ```csharp
 private List<AgentModel>[] DivideByValue(List<AgentModel> original)
 ```
-#INC
 
 
 #### Parameters
@@ -371,7 +346,6 @@ private List<AgentModel>[] DivideByValue(List<AgentModel> original)
 ```csharp
 private List<AgentModel>[] DivideListByGender(List<AgentModel> original)
 ```
-#INC
 
 
 #### Parameters
@@ -386,7 +360,6 @@ private List<AgentModel>[] DivideListByGender(List<AgentModel> original)
 ```csharp
 private DeployAgentSlot GenSlot(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -401,7 +374,6 @@ private DeployAgentSlot GenSlot(AgentModel agent)
 ```csharp
 private List<AgentModel> GetCopiedList()
 ```
-#INC
 
 
 #### Returns
@@ -411,7 +383,6 @@ private List<AgentModel> GetCopiedList()
 ```csharp
 private DeployAgentSlot GetDisabledSlot(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -426,7 +397,6 @@ private DeployAgentSlot GetDisabledSlot(AgentModel agent)
 ```csharp
 private DeployAgentSlot GetSlot(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -441,8 +411,6 @@ private DeployAgentSlot GetSlot(AgentModel agent)
 ```csharp
 public void Init(IList<AgentModel> spareAgents)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -454,14 +422,12 @@ public void Init(IList<AgentModel> spareAgents)
 ```csharp
 private void InitArrow()
 ```
-#INC
 
 
 ### LifeStyleFix(bool)
 ```csharp
 private void LifeStyleFix(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -473,21 +439,18 @@ private void LifeStyleFix(bool state)
 ```csharp
 private void ListInit()
 ```
-#INC
 
 
 ### ListSort()
 ```csharp
 public void ListSort()
 ```
-#INC
 
 
 ### MainSort()
 ```csharp
 private List<AgentModel> MainSort()
 ```
-#INC
 
 
 #### Returns
@@ -497,42 +460,36 @@ private List<AgentModel> MainSort()
 ```csharp
 public void MoveLower()
 ```
-#INC
 
 
 ### MoveUpper()
 ```csharp
 public void MoveUpper()
 ```
-#INC
 
 
 ### OnClickGenderSort()
 ```csharp
 public void OnClickGenderSort()
 ```
-#INC
 
 
 ### OnClickLevelSort()
 ```csharp
 public void OnClickLevelSort()
 ```
-#INC
 
 
 ### OnClickValueSort()
 ```csharp
 public void OnClickValueSort()
 ```
-#INC
 
 
 ### OnEnterButton(int)
 ```csharp
 public void OnEnterButton(int buttonIndexer)
 ```
-#INC
 
 
 #### Parameters
@@ -544,7 +501,6 @@ public void OnEnterButton(int buttonIndexer)
 ```csharp
 public void OnExitButton(int buttonIndexer)
 ```
-#INC
 
 
 #### Parameters
@@ -556,7 +512,6 @@ public void OnExitButton(int buttonIndexer)
 ```csharp
 public void OnPointerDown(int button)
 ```
-#INC
 
 
 #### Parameters
@@ -568,7 +523,6 @@ public void OnPointerDown(int button)
 ```csharp
 public void OnPointerUp(int button)
 ```
-#INC
 
 
 #### Parameters
@@ -580,7 +534,6 @@ public void OnPointerUp(int button)
 ```csharp
 public void OnScroll(PointerEventData eventData)
 ```
-#INC
 
 
 #### Parameters
@@ -592,7 +545,6 @@ public void OnScroll(PointerEventData eventData)
 ```csharp
 public void OnScrolled(PointerEventData pData)
 ```
-#INC
 
 
 #### Parameters
@@ -604,7 +556,6 @@ public void OnScrolled(PointerEventData pData)
 ```csharp
 public void OnScrolled(Vector2 scrollDelta)
 ```
-#INC
 
 
 #### Parameters
@@ -616,7 +567,6 @@ public void OnScrolled(Vector2 scrollDelta)
 ```csharp
 public void OnSortClick(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -628,7 +578,6 @@ public void OnSortClick(int index)
 ```csharp
 public void OnSortEnter(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -640,28 +589,24 @@ public void OnSortEnter(int index)
 ```csharp
 private void SetList()
 ```
-#INC
 
 
 ### SetSortUI()
 ```csharp
 private void SetSortUI()
 ```
-#INC
 
 
 ### SetSortUIColor()
 ```csharp
 private void SetSortUIColor()
 ```
-#INC
 
 
 ### SortByLevel(List<AgentModel>, bool)
 ```csharp
 private List<AgentModel> SortByLevel(List<AgentModel> sorted, bool isAscending)
 ```
-#INC
 
 
 #### Parameters
@@ -677,16 +622,15 @@ private List<AgentModel> SortByLevel(List<AgentModel> sorted, bool isAscending)
 ```csharp
 private void SortInverse()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

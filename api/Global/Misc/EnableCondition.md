@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EnableCondition
 canonical_path: /api/Global/Misc/EnableCondition
@@ -53,4 +54,5 @@ TIMER = 1
 
 #### Field Value
 **Type:** Global.EnableCondition
+
 

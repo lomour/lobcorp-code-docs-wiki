@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CameraFilterPack_Colors_Adjust_PreFilters.filters
 canonical_path: /api/Global/Camera/Filter/CameraFilterPackColorsAdjustPreFiltersfilters
@@ -269,4 +270,5 @@ YellowSunSet = 10
 
 #### Field Value
 **Type:** Global.CameraFilterPack_Colors_Adjust_PreFilters.filters
+
 

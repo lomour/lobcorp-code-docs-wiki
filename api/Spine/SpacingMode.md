@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.SpacingMode
 canonical_path: /api/Spine/SpacingMode
@@ -37,4 +38,5 @@ Percent = 2
 
 #### Field Value
 **Type:** Spine.SpacingMode
+
 

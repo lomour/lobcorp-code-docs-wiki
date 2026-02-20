@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IsolateColor
 canonical_path: /api/Global/Misc/IsolateColor
@@ -37,4 +38,5 @@ NONE = 0
 
 #### Field Value
 **Type:** Global.IsolateColor
+
 

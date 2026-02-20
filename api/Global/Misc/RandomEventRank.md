@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventRank
 canonical_path: /api/Global/Misc/RandomEventRank
@@ -45,4 +46,5 @@ NOON = 1
 
 #### Field Value
 **Type:** Global.RandomEventRank
+
 

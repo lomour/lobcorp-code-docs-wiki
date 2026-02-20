@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentStatType
 canonical_path: /api/Global/Type/AgentStatType
@@ -53,4 +54,5 @@ WORK = 3
 
 #### Field Value
 **Type:** Global.AgentStatType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CommandType
 canonical_path: /api/Global/Type/CommandType
@@ -37,4 +38,5 @@ Suppress = 0
 
 #### Field Value
 **Type:** Global.CommandType
+
 

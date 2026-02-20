@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchItemTypeList
 canonical_path: /api/Global/List/ResearchItemTypeList
@@ -11,9 +12,12 @@ canonical_path: /api/Global/List/ResearchItemTypeList
 ```csharp
 public class ResearchItemTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads and holds [types of research](/api/Global/Info/ResearchItemTypeInfo).
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Loads and holds [types of research](/api/Global/Info/ResearchItemTypeInfo).
 ```csharp
 private ResearchItemTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private ResearchItemTypeList()
 ```csharp
 private Dictionary<int, ResearchItemTypeInfo> _dic
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ private Dictionary<int, ResearchItemTypeInfo> _dic
 ```csharp
 private static ResearchItemTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private static ResearchItemTypeList _instance
 ```csharp
 private List<ResearchItemTypeInfo> _list
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +64,6 @@ private List<ResearchItemTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public bool loaded { get; }
 ```csharp
 public ResearchItemTypeInfo GetData(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -110,7 +107,6 @@ public ResearchItemTypeInfo GetData(int id)
 ```csharp
 public List<ResearchItemTypeInfo> GetDataBySefira(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -125,7 +121,6 @@ public List<ResearchItemTypeInfo> GetDataBySefira(string sefira)
 ```csharp
 public ReadOnlyCollection<ResearchItemTypeInfo> GetList()
 ```
-#INC
 
 
 #### Returns
@@ -135,7 +130,6 @@ public ReadOnlyCollection<ResearchItemTypeInfo> GetList()
 ```csharp
 public void Init(ReadOnlyCollection<ResearchItemTypeInfo> list)
 ```
-#INC
 
 
 #### Parameters
@@ -145,4 +139,5 @@ public void Init(ReadOnlyCollection<ResearchItemTypeInfo> list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

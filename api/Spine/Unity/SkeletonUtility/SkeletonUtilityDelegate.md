@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.SkeletonUtility.SkeletonUtilityDelegate
 canonical_path: /api/Spine/Unity/SkeletonUtility/SkeletonUtilityDelegate
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

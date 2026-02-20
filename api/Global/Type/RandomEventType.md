@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventType
 canonical_path: /api/Global/Type/RandomEventType
@@ -69,4 +70,5 @@ WRATH = 2
 
 #### Field Value
 **Type:** Global.RandomEventType
+
 

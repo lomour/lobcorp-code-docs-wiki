@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ArmorCreature.GiftState
 canonical_path: /api/Global/State/ArmorCreatureGiftState
@@ -53,4 +54,5 @@ RED = 4
 
 #### Field Value
 **Type:** Global.ArmorCreature.GiftState
+
 

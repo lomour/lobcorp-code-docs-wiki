@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EffectSoundType
 canonical_path: /api/Global/Type/EffectSoundType
@@ -77,4 +78,5 @@ START = 5
 
 #### Field Value
 **Type:** Global.EffectSoundType
+
 

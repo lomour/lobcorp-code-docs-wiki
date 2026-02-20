@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird.AttackType
 canonical_path: /api/Global/Type/BossBirdAttackType
@@ -53,4 +54,5 @@ ULTIMATE = 4
 
 #### Field Value
 **Type:** Global.BossBird.AttackType
+
 

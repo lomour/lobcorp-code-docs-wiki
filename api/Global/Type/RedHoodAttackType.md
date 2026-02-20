@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RedHood.AttackType
 canonical_path: /api/Global/Type/RedHoodAttackType
@@ -61,4 +62,5 @@ THROWING = 12
 
 #### Field Value
 **Type:** Global.RedHood.AttackType
+
 

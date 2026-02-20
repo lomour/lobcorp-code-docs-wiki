@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.ProjectileType
 canonical_path: /api/GeburahBoss/ProjectileType
@@ -53,4 +54,5 @@ ORCHESTRA = 0
 
 #### Field Value
 **Type:** GeburahBoss.ProjectileType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.HitType
 canonical_path: /api/Global/Type/HitType
@@ -21,4 +22,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.HitType
+
 

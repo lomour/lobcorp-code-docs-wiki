@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ActivatableObjectPos
 canonical_path: /api/Global/Misc/ActivatableObjectPos
@@ -53,4 +54,5 @@ RIGHTUPPER = 0
 
 #### Field Value
 **Type:** Global.ActivatableObjectPos
+
 

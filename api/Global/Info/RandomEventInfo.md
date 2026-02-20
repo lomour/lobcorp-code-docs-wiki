@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RandomEventInfo
 canonical_path: /api/Global/Info/RandomEventInfo
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Info/RandomEventInfo
 ```csharp
 public class RandomEventInfo
 ```
-#unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -30,7 +37,6 @@ public RandomEventInfo()
 ```csharp
 public Dictionary<string, string> clearLib
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +46,6 @@ public Dictionary<string, string> clearLib
 ```csharp
 public string color
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +63,6 @@ public List<RandomEventInfo.ConditionInfo> conditions
 ```csharp
 public Dictionary<string, string> descLib
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +72,6 @@ public Dictionary<string, string> descLib
 ```csharp
 public Dictionary<string, string> endTitleLib
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +81,6 @@ public Dictionary<string, string> endTitleLib
 ```csharp
 public long id
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +90,6 @@ public long id
 ```csharp
 public bool independentCondition
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +99,6 @@ public bool independentCondition
 ```csharp
 public Dictionary<string, string> nameLib
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +108,6 @@ public Dictionary<string, string> nameLib
 ```csharp
 public string rank
 ```
-#INC
 
 
 #### Field Value
@@ -118,7 +117,6 @@ public string rank
 ```csharp
 public string script
 ```
-#INC
 
 
 #### Field Value
@@ -128,7 +126,6 @@ public string script
 ```csharp
 public string type
 ```
-#INC
 
 
 #### Field Value
@@ -138,7 +135,6 @@ public string type
 ```csharp
 public Dictionary<string, string> typeLib
 ```
-#INC
 
 
 #### Field Value
@@ -160,15 +156,12 @@ public static string currentLanguage { get; }
 ```csharp
 public void DefaultCondition()
 ```
-#INC
-#code-generated
 
 
 ### GetClearMessage()
 ```csharp
 public string GetClearMessage()
 ```
-#INC
 
 
 #### Returns
@@ -191,7 +184,6 @@ public RandomEventInfo.ConditionInfo GetConditionInfo(int index)
 ```csharp
 public string GetDesc()
 ```
-#INC
 
 
 #### Returns
@@ -201,7 +193,6 @@ public string GetDesc()
 ```csharp
 public string GetEndTitle()
 ```
-#INC
 
 
 #### Returns
@@ -211,7 +202,6 @@ public string GetEndTitle()
 ```csharp
 public string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -221,7 +211,6 @@ public string GetName()
 ```csharp
 public string GetTypeString()
 ```
-#INC
 
 
 #### Returns
@@ -229,4 +218,5 @@ public string GetTypeString()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

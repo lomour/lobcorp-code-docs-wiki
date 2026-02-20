@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MissionTypeInfo
 canonical_path: /api/Global/Info/MissionTypeInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/MissionTypeInfo
 ```csharp
 public class MissionTypeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds information about a mission type. Used to construct a [Mission](/api/Global/Misc/Mission).
 
 Includes:
@@ -21,7 +25,7 @@ Includes:
 
 See also [MissionTypeList](/api/Global/List/MissionTypeList)
 
-#INC 
+
 
 
 ## Inheritance
@@ -33,8 +37,6 @@ See also [MissionTypeList](/api/Global/List/MissionTypeList)
 ```csharp
 public MissionTypeInfo()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -43,7 +45,6 @@ public MissionTypeInfo()
 ```csharp
 public string clear
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public string clear
 ```csharp
 public List<MissionConditionTypeInfo> conditions
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public List<MissionConditionTypeInfo> conditions
 ```csharp
 public string desc
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public string desc
 ```csharp
 public string diag
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public string diag
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public int id
 ```csharp
 public string intro
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public string intro
 ```csharp
 public bool isGlobal
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public bool isGlobal
 ```csharp
 public List<MissionPrerequisite> requires
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +117,6 @@ public List<MissionPrerequisite> requires
 ```csharp
 public SefiraEnum sefira
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +126,6 @@ public SefiraEnum sefira
 ```csharp
 public int sefira_Level
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +135,6 @@ public int sefira_Level
 ```csharp
 public string sefira_Name
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +144,6 @@ public string sefira_Name
 ```csharp
 public string shortDesc
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +153,6 @@ public string shortDesc
 ```csharp
 public string title
 ```
-#INC
 
 
 #### Field Value
@@ -171,4 +160,5 @@ public string title
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FactionTypeInfo
 canonical_path: /api/Global/Info/FactionTypeInfo
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Info/FactionTypeInfo
 ```csharp
 public class FactionTypeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Contains a layer of units which are considered in the same group for targetting, e.g., workers, or idle creatures, or panicked workers.
 
 Contains a list of factions which are considered hostile.
 
-#INC 
+
 
 
 ## Inheritance
@@ -34,7 +38,6 @@ public FactionTypeInfo()
 ```csharp
 public string code
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +55,6 @@ public FactionTypeInfo.ExceptType except
 ```csharp
 public Dictionary<string, FactionActionType> lib
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +64,6 @@ public Dictionary<string, FactionActionType> lib
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +73,6 @@ public string name
 ```csharp
 public string type
 ```
-#INC
 
 
 #### Field Value
@@ -84,8 +84,6 @@ public string type
 ```csharp
 public FactionActionType Check(UnitModel unit)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -98,4 +96,5 @@ public FactionActionType Check(UnitModel unit)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

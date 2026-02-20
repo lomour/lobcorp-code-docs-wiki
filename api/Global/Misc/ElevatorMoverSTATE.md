@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ElevatorMover.STATE
 canonical_path: /api/Global/Misc/ElevatorMoverSTATE
@@ -45,4 +46,5 @@ STOP = 2
 
 #### Field Value
 **Type:** Global.ElevatorMover.STATE
+
 

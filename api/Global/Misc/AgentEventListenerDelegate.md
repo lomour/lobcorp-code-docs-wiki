@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentEventListenerDelegate
 canonical_path: /api/Global/Misc/AgentEventListenerDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 

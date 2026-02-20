@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateData
 canonical_path: /api/CreatureGenerate/CreatureGenerateData
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateData
 ```csharp
 public class CreatureGenerateData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class with some helper functions for reading in day info (from CreatureGenInfo, in resources).
 
 See [CreatureGenerateModel](/api/CreatureGenerate/CreatureGenerateModel)
@@ -43,7 +47,6 @@ public CreatureGenerateData.ActionData commonAction
 ```csharp
 public static char[] split
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +56,6 @@ public static char[] split
 ```csharp
 public static string uniqueText
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +67,6 @@ public static string uniqueText
 ```csharp
 public static bool IsCommonAction(string parsed, out GenerateCommonAction action)
 ```
-#INC
 
 
 #### Parameters
@@ -81,7 +82,6 @@ public static bool IsCommonAction(string parsed, out GenerateCommonAction action
 ```csharp
 public static bool IsUniqueAction(string parsed)
 ```
-#INC
 
 
 #### Parameters
@@ -96,7 +96,6 @@ public static bool IsUniqueAction(string parsed)
 ```csharp
 public virtual void OnlyAction(params object[] ids)
 ```
-#INC
 
 
 #### Parameters
@@ -122,8 +121,6 @@ public bool ParseAction(ref string origin, out CreatureGenerateData.ActionData o
 ```csharp
 public virtual void RemoveAction(params object[] ids)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -133,4 +130,5 @@ public virtual void RemoveAction(params object[] ids)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SnowQueenBuf
 canonical_path: /api/Global/UnitBuf/SnowQueenBuf
@@ -11,12 +12,18 @@ canonical_path: /api/Global/UnitBuf/SnowQueenBuf
 ```csharp
 public class SnowQueenBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 
 Old version of [The Snow Queen](/api/Global/Misc/SnowQueen)'s first kiss effect.
 
-Does nothing, but when destroyed sets the agent's maximum HP and SP to what it was when this was originally given. #verify 
+Does nothing, but when destroyed sets the agent's maximum HP and SP to what it was when this was originally given. ^\[verify\]^
 
-#unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -28,7 +35,6 @@ Does nothing, but when destroyed sets the agent's maximum HP and SP to what it w
 ```csharp
 public SnowQueenBuf(SnowQueen sq)
 ```
-#INC
 
 
 #### Parameters
@@ -42,7 +48,6 @@ public SnowQueenBuf(SnowQueen sq)
 ```csharp
 private AgentModel _agentModel
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +57,6 @@ private AgentModel _agentModel
 ```csharp
 private SnowQueen _snowQueen
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +66,6 @@ private SnowQueen _snowQueen
 ```csharp
 private readonly int BUF_CONSTANT
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +75,6 @@ private readonly int BUF_CONSTANT
 ```csharp
 private int defaultMaxHp
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +84,6 @@ private int defaultMaxHp
 ```csharp
 private int defaultMaxMental
 ```
-#INC
 
 
 #### Field Value
@@ -94,15 +95,12 @@ private int defaultMaxMental
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -114,9 +112,9 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

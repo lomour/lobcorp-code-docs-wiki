@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.BackGroundMoveEffect.ChangeBackgournd
 canonical_path: /api/KetherBoss/BackGroundMoveEffect/ChangeBackgournd
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

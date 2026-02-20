@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureSelectUI
 canonical_path: /api/Global/IANimatorEventCalled/CreatureSelectUI
@@ -11,6 +12,9 @@ canonical_path: /api/Global/IANimatorEventCalled/CreatureSelectUI
 ```csharp
 public class CreatureSelectUI : MonoBehaviour, IAnimatorEventCalled
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Abnormality selection screen.
 
@@ -34,7 +38,6 @@ public CreatureSelectUI()
 ```csharp
 private static CreatureSelectUI _instance
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private static CreatureSelectUI _instance
 ```csharp
 private bool _reExtracted
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private bool _reExtracted
 ```csharp
 private bool _skip
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private bool _skip
 ```csharp
 private bool _tiperethRunned
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ private bool _tiperethRunned
 ```csharp
 public UIController Block
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ public UIController Block
 ```csharp
 public AudioClip clip
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public AudioClip clip
 ```csharp
 private AudioClip clipSaved
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ private AudioClip clipSaved
 ```csharp
 private List<long> CurrentCreatures
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ private List<long> CurrentCreatures
 ```csharp
 public const long deathangel = 100015
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public const long deathangel = 100015
 ```csharp
 private bool effectRunned
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ private bool effectRunned
 ```csharp
 private Timer EffectTimer
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +137,6 @@ private Timer EffectTimer
 ```csharp
 private Timer FadeoutEffectTimer
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +146,6 @@ private Timer FadeoutEffectTimer
 ```csharp
 public CameraFilterPack_TV_80 filter
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +173,6 @@ public RectTransform Index_Normal
 ```csharp
 public RectTransform Index_Select
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +182,6 @@ public RectTransform Index_Select
 ```csharp
 public const long plagueDoctor = 100014
 ```
-#INC
 
 
 #### Field Value
@@ -211,7 +200,6 @@ public UIController reExtractController
 ```csharp
 public GameObject RootObject
 ```
-#INC
 
 
 #### Field Value
@@ -221,7 +209,6 @@ public GameObject RootObject
 ```csharp
 public const int SelectEndDay = 51
 ```
-#INC
 
 
 #### Field Value
@@ -231,7 +218,6 @@ public const int SelectEndDay = 51
 ```csharp
 public const int SelectStartDay = 0
 ```
-#INC
 
 
 #### Field Value
@@ -241,7 +227,6 @@ public const int SelectStartDay = 0
 ```csharp
 private float startVolume
 ```
-#INC
 
 
 #### Field Value
@@ -260,7 +245,6 @@ public UIController TextBoxController
 ```csharp
 public Text TextBoxText
 ```
-#INC
 
 
 #### Field Value
@@ -270,7 +254,6 @@ public Text TextBoxText
 ```csharp
 private int threshold
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +272,6 @@ public CreatureSelectUnit[] Units
 ```csharp
 public const long yang = 300109
 ```
-#INC
 
 
 #### Field Value
@@ -299,7 +281,6 @@ public const long yang = 300109
 ```csharp
 public const long yin = 100104
 ```
-#INC
 
 
 #### Field Value
@@ -345,21 +326,18 @@ private bool ReExtractResearchCompleted { get; }
 ```csharp
 public void AgentReset()
 ```
-#INC
 
 
 ### AnimatorEventInit()
 ```csharp
 public void AnimatorEventInit()
 ```
-#INC
 
 
 ### AttackCalled(int)
 ```csharp
 public void AttackCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -371,22 +349,18 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
-#INC
 
 
 ### Awake()
 ```csharp
 private void Awake()
 ```
-#INC
-#code-generated
 
 
 ### CheckCreatureExisting(long)
 ```csharp
 public static bool CheckCreatureExisting(long targetId)
 ```
-#INC
 
 
 #### Parameters
@@ -401,14 +375,12 @@ public static bool CheckCreatureExisting(long targetId)
 ```csharp
 private void CheckKitGeneration()
 ```
-#INC
 
 
 ### CheckUIActivateCondition()
 ```csharp
 private bool CheckUIActivateCondition()
 ```
-#INC
 
 
 #### Returns
@@ -418,14 +390,12 @@ private bool CheckUIActivateCondition()
 ```csharp
 private void CheckYinAndYang()
 ```
-#INC
 
 
 ### CreatureAnimCall(int, CreatureBase)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -448,14 +418,12 @@ public void FadeoutEffect(float time = 3)
 ```csharp
 private void FixedUpdate()
 ```
-#INC
 
 
 ### GetCreatureList(bool)
 ```csharp
 private void GetCreatureList(bool setEmpty = true)
 ```
-#INC
 
 
 #### Parameters
@@ -467,14 +435,12 @@ private void GetCreatureList(bool setEmpty = true)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### IsInteractable()
 ```csharp
 public bool IsInteractable()
 ```
-#INC
 
 
 #### Returns
@@ -484,14 +450,12 @@ public bool IsInteractable()
 ```csharp
 public void OnCalled()
 ```
-#INC
 
 
 ### OnCalled(int)
 ```csharp
 public void OnCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -503,14 +467,12 @@ public void OnCalled(int i)
 ```csharp
 public void OnClickReExtract()
 ```
-#INC
 
 
 ### OnClickUnit(CreatureSelectUnit)
 ```csharp
 public void OnClickUnit(CreatureSelectUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -522,7 +484,6 @@ public void OnClickUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnEnterUnit(CreatureSelectUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -534,7 +495,6 @@ public void OnEnterUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnExitUnit(CreatureSelectUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -546,14 +506,12 @@ public void OnExitUnit(CreatureSelectUnit unit)
 ```csharp
 public void OnUIActionEnd()
 ```
-#INC
 
 
 ### SetSlotInit(bool)
 ```csharp
 private void SetSlotInit(bool setEmpty = true)
 ```
-#INC
 
 
 #### Parameters
@@ -565,14 +523,12 @@ private void SetSlotInit(bool setEmpty = true)
 ```csharp
 public void SimpleReset()
 ```
-#INC
 
 
 ### SoundMake(string)
 ```csharp
 public void SoundMake(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -584,9 +540,9 @@ public void SoundMake(string src)
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

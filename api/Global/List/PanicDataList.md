@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PanicDataList
 canonical_path: /api/Global/List/PanicDataList
@@ -11,6 +12,9 @@ canonical_path: /api/Global/List/PanicDataList
 ```csharp
 public class PanicDataList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads [PanicData](/api/Global/Misc/PanicData). Should be unused (see [PanicData](/api/Global/Misc/PanicData)'s footnote), but [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) loads it anyway.
 
 
@@ -30,7 +34,6 @@ public PanicDataList()
 ```csharp
 private static PanicDataList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ private static PanicDataList _instance
 ```csharp
 private bool isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private bool isLoaded
 ```csharp
 private List<PanicData> list
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +81,6 @@ public static PanicDataList instance { get; }
 ```csharp
 public PanicData GetPanicData(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -95,7 +95,6 @@ public PanicData GetPanicData(int id)
 ```csharp
 public PanicData GetPanicData(string lifeStyle)
 ```
-#INC
 
 
 #### Parameters
@@ -110,7 +109,6 @@ public PanicData GetPanicData(string lifeStyle)
 ```csharp
 public PanicData GetPanicData(WorkerModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -125,7 +123,6 @@ public PanicData GetPanicData(WorkerModel model)
 ```csharp
 public PanicData GetRandomPanicData(string lifeStyle)
 ```
-#INC
 
 
 #### Parameters
@@ -140,7 +137,6 @@ public PanicData GetRandomPanicData(string lifeStyle)
 ```csharp
 public void Init(PanicData[] ary)
 ```
-#INC
 
 
 #### Parameters
@@ -152,8 +148,6 @@ public void Init(PanicData[] ary)
 ```csharp
 public bool IsLoaded()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -161,4 +155,5 @@ public bool IsLoaded()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

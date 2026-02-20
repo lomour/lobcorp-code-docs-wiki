@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Legacy.DeathAngelClockUI.EndCalled
 canonical_path: /api/Legacy/DeathAngelClockUI/EndCalled
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

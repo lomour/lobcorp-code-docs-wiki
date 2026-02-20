@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FactionTypeList
 canonical_path: /api/Global/List/FactionTypeList
@@ -11,6 +12,9 @@ canonical_path: /api/Global/List/FactionTypeList
 ```csharp
 public class FactionTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Maintains a list of [factions](/api/Global/Info/FactionTypeInfo).
 
 
@@ -30,7 +34,6 @@ public FactionTypeList()
 ```csharp
 private static FactionTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ private static FactionTypeList _instance
 ```csharp
 private Dictionary<string, FactionTypeInfo> factions
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private Dictionary<string, FactionTypeInfo> factions
 ```csharp
 private bool isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +81,6 @@ public bool IsLoaded { get; }
 ```csharp
 public FactionTypeInfo GetFaction(string code)
 ```
-#INC
 
 
 #### Parameters
@@ -95,7 +95,6 @@ public FactionTypeInfo GetFaction(string code)
 ```csharp
 public FactionTypeInfo GetFactionByName(string factionName)
 ```
-#INC
 
 
 #### Parameters
@@ -110,8 +109,6 @@ public FactionTypeInfo GetFactionByName(string factionName)
 ```csharp
 public void Init(ReadOnlyCollection<FactionTypeInfo> factions)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -121,4 +118,5 @@ public void Init(ReadOnlyCollection<FactionTypeInfo> factions)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

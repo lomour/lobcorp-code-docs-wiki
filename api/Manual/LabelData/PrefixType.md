@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.LabelData.PrefixType
 canonical_path: /api/Manual/LabelData/PrefixType
@@ -37,4 +38,5 @@ NUMERIC = 2
 
 #### Field Value
 **Type:** Manual.LabelData.PrefixType
+
 

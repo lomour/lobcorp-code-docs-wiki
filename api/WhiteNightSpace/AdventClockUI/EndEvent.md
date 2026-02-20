@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.AdventClockUI.EndEvent
 canonical_path: /api/WhiteNightSpace/AdventClockUI/EndEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

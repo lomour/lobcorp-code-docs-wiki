@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureSpecialSkillTipTable
 canonical_path: /api/Global/Misc/CreatureSpecialSkillTipTable
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Misc/CreatureSpecialSkillTipTable
 ```csharp
 public class CreatureSpecialSkillTipTable
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores these [CreatureSpecialSkillDesc](/api/Global/Misc/CreatureSpecialSkillDesc) objects...
-#INC 
+
 
 
 ## Inheritance
@@ -24,8 +28,6 @@ Stores these [CreatureSpecialSkillDesc](/api/Global/Misc/CreatureSpecialSkillDes
 ```csharp
 public CreatureSpecialSkillTipTable(long creatureTypeId)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -39,7 +41,6 @@ public CreatureSpecialSkillTipTable(long creatureTypeId)
 ```csharp
 public long creatureTypeId
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +50,6 @@ public long creatureTypeId
 ```csharp
 public List<CreatureSpecialSkillDesc> descList
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ public List<CreatureSpecialSkillDesc> descList
 ```csharp
 public void ActivateDesc(CreatureModel model, string key, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -75,7 +74,6 @@ public void ActivateDesc(CreatureModel model, string key, params object[] param)
 ```csharp
 public CreatureSpecialSkillTipTable GetCopy()
 ```
-#INC
 
 
 #### Returns
@@ -85,7 +83,6 @@ public CreatureSpecialSkillTipTable GetCopy()
 ```csharp
 public CreatureSpecialSkillDesc GetDesc(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -100,7 +97,6 @@ public CreatureSpecialSkillDesc GetDesc(string key)
 ```csharp
 public Dictionary<string, object> GetSaveGlobalData()
 ```
-#INC
 
 
 #### Returns
@@ -110,14 +106,12 @@ public Dictionary<string, object> GetSaveGlobalData()
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### LoadGlobalData(Dictionary<string, object>, int)
 ```csharp
 public void LoadGlobalData(Dictionary<string, object> dic, int count)
 ```
-#INC
 
 
 #### Parameters
@@ -130,7 +124,6 @@ public void LoadGlobalData(Dictionary<string, object> dic, int count)
 ```csharp
 public void OnCreatureNameRevealed(CreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -140,4 +133,5 @@ public void OnCreatureNameRevealed(CreatureModel model)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UIEffectType
 canonical_path: /api/Global/Type/UIEffectType
@@ -45,4 +46,5 @@ FLASH = 0
 
 #### Field Value
 **Type:** Global.UIEffectType
+
 

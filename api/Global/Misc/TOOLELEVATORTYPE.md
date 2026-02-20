@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TOOL_ELEVATOR_TYPE
 canonical_path: /api/Global/Misc/TOOLELEVATORTYPE
@@ -37,4 +38,5 @@ SHORT = 1
 
 #### Field Value
 **Type:** Global.TOOL_ELEVATOR_TYPE
+
 

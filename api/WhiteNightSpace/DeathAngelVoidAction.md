@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.DeathAngelVoidAction
 canonical_path: /api/WhiteNightSpace/DeathAngelVoidAction
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

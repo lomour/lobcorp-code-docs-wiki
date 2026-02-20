@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.PolygonUtil.PolyUnionError
 canonical_path: /api/Poly2Tri/PolygonUtil/PolyUnionError
@@ -45,4 +46,5 @@ Poly1InsidePoly2 = 2
 
 #### Field Value
 **Type:** Poly2Tri.PolygonUtil.PolyUnionError
+
 

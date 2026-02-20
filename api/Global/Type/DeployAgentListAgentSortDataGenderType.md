@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeployAgentList.AgentSortData.GenderType
 canonical_path: /api/Global/Type/DeployAgentListAgentSortDataGenderType
@@ -29,4 +30,5 @@ MALE = 0
 
 #### Field Value
 **Type:** Global.DeployAgentList.AgentSortData.GenderType
+
 

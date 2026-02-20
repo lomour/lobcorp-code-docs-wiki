@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChopLeg.LegPhase
 canonical_path: /api/Global/Phase/ChopLegLegPhase
@@ -53,4 +54,5 @@ RETURN = 3
 
 #### Field Value
 **Type:** Global.ChopLeg.LegPhase
+
 

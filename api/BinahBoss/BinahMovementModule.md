@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahMovementModule
 canonical_path: /api/BinahBoss/BinahMovementModule
@@ -11,6 +12,9 @@ canonical_path: /api/BinahBoss/BinahMovementModule
 ```csharp
 public class BinahMovementModule
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Handles [An Arbiter](/api/Global/Script/BinahCoreScript)'s pathing and meltdowns
 
 See also: [BinahMovement](/api/BinahBoss/BinahMovement)
@@ -25,8 +29,6 @@ See also: [BinahMovement](/api/BinahBoss/BinahMovement)
 ```csharp
 public BinahMovementModule(BinahCoreScript coreScript)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -40,7 +42,6 @@ public BinahMovementModule(BinahCoreScript coreScript)
 ```csharp
 private bool _actionBlocked
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +51,6 @@ private bool _actionBlocked
 ```csharp
 private BinahVoidAction _arrivedAction
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +60,6 @@ private BinahVoidAction _arrivedAction
 ```csharp
 private BinahCoreScript _coreScript
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +69,6 @@ private BinahCoreScript _coreScript
 ```csharp
 private BinahMoveState _currentMoveState
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +78,6 @@ private BinahMoveState _currentMoveState
 ```csharp
 private Timer _stopMovetimer
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +87,6 @@ private Timer _stopMovetimer
 ```csharp
 private SefiraEnum currentDestSefira
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +96,6 @@ private SefiraEnum currentDestSefira
 ```csharp
 private List<SefiraEnum> movableSefira
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +105,6 @@ private List<SefiraEnum> movableSefira
 ```csharp
 private Queue<SefiraEnum> movementQueue
 ```
-#INC
 
 
 #### Field Value
@@ -156,14 +150,12 @@ private MovableObjectNode Movable { get; }
 ```csharp
 public void Arrived()
 ```
-#INC
 
 
 ### CheckArrived()
 ```csharp
 private bool CheckArrived()
 ```
-#INC
 
 
 #### Returns
@@ -173,14 +165,12 @@ private bool CheckArrived()
 ```csharp
 public void Execute()
 ```
-#INC
 
 
 ### GetCurrentDestNode()
 ```csharp
 private MapNode GetCurrentDestNode()
 ```
-#INC
 
 
 #### Returns
@@ -190,42 +180,36 @@ private MapNode GetCurrentDestNode()
 ```csharp
 private void Init()
 ```
-#INC
 
 
 ### Move()
 ```csharp
 public void Move()
 ```
-#INC
 
 
 ### RelaseMovement()
 ```csharp
 public void RelaseMovement()
 ```
-#INC
 
 
 ### Stop()
 ```csharp
 private void Stop()
 ```
-#INC
 
 
 ### StopByAction()
 ```csharp
 public void StopByAction()
 ```
-#INC
 
 
 ### StopByTime(float)
 ```csharp
 public void StopByTime(float stopTime)
 ```
-#INC
 
 
 #### Parameters
@@ -235,4 +219,5 @@ public void StopByTime(float stopTime)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

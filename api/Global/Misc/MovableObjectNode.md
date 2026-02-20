@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MovableObjectNode
 canonical_path: /api/Global/Misc/MovableObjectNode
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/MovableObjectNode
 ```csharp
 public class MovableObjectNode
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Represents an object which can move, for example:
 - [Units](/api/Global/Model/UnitModel) (abnormalities, workers, rabbits, projectiles, sephirah bosses, ordeal creatures...)
 - Possibly other things, too
@@ -25,8 +29,6 @@ Represents an object which can move, for example:
 ```csharp
 public MovableObjectNode(bool active)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -38,7 +40,6 @@ public MovableObjectNode(bool active)
 ```csharp
 public MovableObjectNode(UnitModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -52,7 +53,6 @@ public MovableObjectNode(UnitModel model)
 ```csharp
 private MapEdge _currentEdge
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ private MapEdge _currentEdge
 ```csharp
 private MapNode _currentNode
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +71,6 @@ private MapNode _currentNode
 ```csharp
 private PassageObjectModel _currentPassage
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +80,6 @@ private PassageObjectModel _currentPassage
 ```csharp
 private float _elevatorWaitElapsedTime
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +89,6 @@ private float _elevatorWaitElapsedTime
 ```csharp
 public const float _elevatorWaitTime = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +98,6 @@ public const float _elevatorWaitTime = 0.5
 ```csharp
 private bool _isActive
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +107,6 @@ private bool _isActive
 ```csharp
 private bool _isNextElevator
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +116,6 @@ private bool _isNextElevator
 ```csharp
 private bool _teleportable
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +125,6 @@ private bool _teleportable
 ```csharp
 public float blockedTimer
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +134,6 @@ public float blockedTimer
 ```csharp
 private ElevatorPassageModel currentElevator
 ```
-#INC
 
 
 #### Field Value
@@ -152,7 +143,6 @@ private ElevatorPassageModel currentElevator
 ```csharp
 public float currentScale
 ```
-#INC
 
 
 #### Field Value
@@ -162,7 +152,6 @@ public float currentScale
 ```csharp
 public float currentZValue
 ```
-#INC
 
 
 #### Field Value
@@ -172,7 +161,6 @@ public float currentZValue
 ```csharp
 private MapNode destinationNode
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +170,6 @@ private MapNode destinationNode
 ```csharp
 private MovableObjectNode destinationNode2
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +179,6 @@ private MovableObjectNode destinationNode2
 ```csharp
 public EdgeDirection edgeDirection
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +188,6 @@ public EdgeDirection edgeDirection
 ```csharp
 public float edgePosRate
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +197,6 @@ public float edgePosRate
 ```csharp
 private float edgePosRateGoal
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +206,6 @@ private float edgePosRateGoal
 ```csharp
 public bool isIgnoreZValue
 ```
-#INC
 
 
 #### Field Value
@@ -232,7 +215,6 @@ public bool isIgnoreZValue
 ```csharp
 private MapNode lastNode
 ```
-#INC
 
 
 #### Field Value
@@ -242,7 +224,6 @@ private MapNode lastNode
 ```csharp
 private UnitModel model
 ```
-#INC
 
 
 #### Field Value
@@ -252,7 +233,6 @@ private UnitModel model
 ```csharp
 private float moveDistance
 ```
-#INC
 
 
 #### Field Value
@@ -262,7 +242,6 @@ private float moveDistance
 ```csharp
 private PassageObjectModel notNullPassage
 ```
-#INC
 
 
 #### Field Value
@@ -272,7 +251,6 @@ private PassageObjectModel notNullPassage
 ```csharp
 private object passageChangedParam
 ```
-#INC
 
 
 #### Field Value
@@ -282,7 +260,6 @@ private object passageChangedParam
 ```csharp
 private int pathIndex
 ```
-#INC
 
 
 #### Field Value
@@ -292,7 +269,6 @@ private int pathIndex
 ```csharp
 private PathResult pathInfo
 ```
-#INC
 
 
 #### Field Value
@@ -302,7 +278,6 @@ private PathResult pathInfo
 ```csharp
 private PathMoveBy pathMoveBy
 ```
-#INC
 
 
 #### Field Value
@@ -312,7 +287,6 @@ private PathMoveBy pathMoveBy
 ```csharp
 private MovableState state
 ```
-#INC
 
 
 #### Field Value
@@ -322,7 +296,6 @@ private MovableState state
 ```csharp
 private UnitDirection unitDirection
 ```
-#INC
 
 
 #### Field Value
@@ -332,7 +305,6 @@ private UnitDirection unitDirection
 ```csharp
 private List<PassType> unpassableList
 ```
-#INC
 
 
 #### Field Value
@@ -342,7 +314,6 @@ private List<PassType> unpassableList
 ```csharp
 private Vector3 viewPosition
 ```
-#INC
 
 
 #### Field Value
@@ -352,7 +323,6 @@ private Vector3 viewPosition
 ```csharp
 private bool viewPositionSet
 ```
-#INC
 
 
 #### Field Value
@@ -414,7 +384,6 @@ public bool IsNextElevator { get; }
 ```csharp
 public void AddUnpassableType(PassType pass)
 ```
-#INC
 
 
 #### Parameters
@@ -426,7 +395,6 @@ public void AddUnpassableType(PassType pass)
 ```csharp
 public void Assign(MovableObjectNode src)
 ```
-#INC
 
 
 #### Parameters
@@ -438,7 +406,6 @@ public void Assign(MovableObjectNode src)
 ```csharp
 public bool CanMoveBy(UnitDirection direction)
 ```
-#INC
 
 
 #### Parameters
@@ -453,7 +420,6 @@ public bool CanMoveBy(UnitDirection direction)
 ```csharp
 public static bool CheckConnectedInPassage(MovableObjectNode n1, MovableObjectNode n2)
 ```
-#INC
 
 
 #### Parameters
@@ -469,7 +435,6 @@ public static bool CheckConnectedInPassage(MovableObjectNode n1, MovableObjectNo
 ```csharp
 public bool CheckInRange(MovableObjectNode other)
 ```
-#INC
 
 
 #### Parameters
@@ -484,7 +449,6 @@ public bool CheckInRange(MovableObjectNode other)
 ```csharp
 public bool CheckInRange(MovableObjectNode other, float range)
 ```
-#INC
 
 
 #### Parameters
@@ -500,7 +464,6 @@ public bool CheckInRange(MovableObjectNode other, float range)
 ```csharp
 private bool CheckPassable(MapEdge edge, EdgeDirection edgeDir, float oldEdgePosRate, float newEdgePosRate)
 ```
-#INC
 
 
 #### Parameters
@@ -518,7 +481,6 @@ private bool CheckPassable(MapEdge edge, EdgeDirection edgeDir, float oldEdgePos
 ```csharp
 private bool CheckPassInNode()
 ```
-#INC
 
 
 #### Returns
@@ -528,14 +490,12 @@ private bool CheckPassInNode()
 ```csharp
 public void DisablePositionSetter()
 ```
-#INC
 
 
 ### EnablePositionSetter(Vector3)
 ```csharp
 public void EnablePositionSetter(Vector3 position)
 ```
-#INC
 
 
 #### Parameters
@@ -547,7 +507,6 @@ public void EnablePositionSetter(Vector3 position)
 ```csharp
 public void EnterElevator(MapNode elevatorNode, MapNode nextNode)
 ```
-#INC
 
 
 #### Parameters
@@ -560,7 +519,6 @@ public void EnterElevator(MapNode elevatorNode, MapNode nextNode)
 ```csharp
 public bool Equal(MovableObjectNode src)
 ```
-#INC
 
 
 #### Parameters
@@ -575,7 +533,6 @@ public bool Equal(MovableObjectNode src)
 ```csharp
 public bool EqualPosition(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -590,7 +547,6 @@ public bool EqualPosition(MapNode node)
 ```csharp
 public void ExitElevator(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -602,7 +558,6 @@ public void ExitElevator(MapNode node)
 ```csharp
 public MapEdge GetCurrentEdge()
 ```
-#INC
 
 
 #### Returns
@@ -612,7 +567,6 @@ public MapEdge GetCurrentEdge()
 ```csharp
 public MapNode GetCurrentNode()
 ```
-#INC
 
 
 #### Returns
@@ -622,7 +576,6 @@ public MapNode GetCurrentNode()
 ```csharp
 public Sefira GetCurrentStandingSefira()
 ```
-#INC
 
 
 #### Returns
@@ -632,7 +585,6 @@ public Sefira GetCurrentStandingSefira()
 ```csharp
 public Vector3 GetCurrentViewPosition()
 ```
-#INC
 
 
 #### Returns
@@ -642,7 +594,6 @@ public Vector3 GetCurrentViewPosition()
 ```csharp
 public UnitDirection GetDirection()
 ```
-#INC
 
 
 #### Returns
@@ -652,7 +603,6 @@ public UnitDirection GetDirection()
 ```csharp
 public float GetDistance(MapNode other, float limit)
 ```
-#INC
 
 
 #### Parameters
@@ -668,7 +618,6 @@ public float GetDistance(MapNode other, float limit)
 ```csharp
 public float GetDistance(MovableObjectNode other, float limit)
 ```
-#INC
 
 
 #### Parameters
@@ -684,7 +633,6 @@ public float GetDistance(MovableObjectNode other, float limit)
 ```csharp
 public static float GetDistance(MovableObjectNode node1, MovableObjectNode node2)
 ```
-#INC
 
 
 #### Parameters
@@ -700,7 +648,6 @@ public static float GetDistance(MovableObjectNode node1, MovableObjectNode node2
 ```csharp
 public float GetDistanceDouble(MovableObjectNode mov)
 ```
-#INC
 
 
 #### Parameters
@@ -715,7 +662,6 @@ public float GetDistanceDouble(MovableObjectNode mov)
 ```csharp
 public EdgeDirection GetEdgeDirection()
 ```
-#INC
 
 
 #### Returns
@@ -725,7 +671,6 @@ public EdgeDirection GetEdgeDirection()
 ```csharp
 public PassageObjectModel GetPassage()
 ```
-#INC
 
 
 #### Returns
@@ -735,7 +680,6 @@ public PassageObjectModel GetPassage()
 ```csharp
 public PassageObjectModel GetPassageCheckPrev()
 ```
-#INC
 
 
 #### Returns
@@ -745,7 +689,6 @@ public PassageObjectModel GetPassageCheckPrev()
 ```csharp
 public MovableObjectNode GetSideMovableNode(UnitDirection direction, float distance)
 ```
-#INC
 
 
 #### Parameters
@@ -761,7 +704,6 @@ public MovableObjectNode GetSideMovableNode(UnitDirection direction, float dista
 ```csharp
 public MovableState GetState()
 ```
-#INC
 
 
 #### Returns
@@ -771,7 +713,6 @@ public MovableState GetState()
 ```csharp
 public UnitModel GetUnit()
 ```
-#INC
 
 
 #### Returns
@@ -781,7 +722,6 @@ public UnitModel GetUnit()
 ```csharp
 public static Vector3 GetViewPositionInEdge(MapEdge edge, EdgeDirection edgeDirection, float edgePosRate)
 ```
-#INC
 
 
 #### Parameters
@@ -798,7 +738,6 @@ public static Vector3 GetViewPositionInEdge(MapEdge edge, EdgeDirection edgeDire
 ```csharp
 public bool InElevator()
 ```
-#INC
 
 
 #### Returns
@@ -808,7 +747,6 @@ public bool InElevator()
 ```csharp
 private void InteractWithDoor(DoorObjectModel door)
 ```
-#INC
 
 
 #### Parameters
@@ -820,7 +758,6 @@ private void InteractWithDoor(DoorObjectModel door)
 ```csharp
 public bool IsMoving()
 ```
-#INC
 
 
 #### Returns
@@ -830,7 +767,6 @@ public bool IsMoving()
 ```csharp
 public void MoveBy(UnitDirection direction, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -843,7 +779,6 @@ public void MoveBy(UnitDirection direction, float value)
 ```csharp
 private static MapEdge MoveBy_GetNextEdge(MapNode node, UnitDirection direction)
 ```
-#INC
 
 
 #### Parameters
@@ -859,7 +794,6 @@ private static MapEdge MoveBy_GetNextEdge(MapNode node, UnitDirection direction)
 ```csharp
 public void MoveToMovableNode(MovableObjectNode targetNode, bool checkRabbit = false)
 ```
-#INC
 
 
 #### Parameters
@@ -872,7 +806,6 @@ public void MoveToMovableNode(MovableObjectNode targetNode, bool checkRabbit = f
 ```csharp
 public void MoveToNode(MapNode targetNode, bool checkRabbit = false)
 ```
-#INC
 
 
 #### Parameters
@@ -885,7 +818,6 @@ public void MoveToNode(MapNode targetNode, bool checkRabbit = false)
 ```csharp
 private void ProcessMoveByDistance(float distance)
 ```
-#INC
 
 
 #### Parameters
@@ -897,7 +829,6 @@ private void ProcessMoveByDistance(float distance)
 ```csharp
 public void ProcessMoveNode(float movement)
 ```
-#INC
 
 
 #### Parameters
@@ -909,7 +840,6 @@ public void ProcessMoveNode(float movement)
 ```csharp
 public void RemoveUnpassableType(PassType pass)
 ```
-#INC
 
 
 #### Parameters
@@ -921,14 +851,12 @@ public void RemoveUnpassableType(PassType pass)
 ```csharp
 public void ReportUnitName()
 ```
-#INC
 
 
 ### SetActive(bool)
 ```csharp
 public void SetActive(bool active)
 ```
-#INC
 
 
 #### Parameters
@@ -940,7 +868,6 @@ public void SetActive(bool active)
 ```csharp
 public void SetCurrentEdge(MapEdge srcEdge, float srcEdgePosRate, EdgeDirection srcDirection)
 ```
-#INC
 
 
 #### Parameters
@@ -954,7 +881,6 @@ public void SetCurrentEdge(MapEdge srcEdge, float srcEdgePosRate, EdgeDirection 
 ```csharp
 public void SetCurrentEdge(MovableObjectNode mov)
 ```
-#INC
 
 
 #### Parameters
@@ -966,7 +892,6 @@ public void SetCurrentEdge(MovableObjectNode mov)
 ```csharp
 public void SetCurrentNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -978,7 +903,6 @@ public void SetCurrentNode(MapNode node)
 ```csharp
 public void SetDirection(UnitDirection direction)
 ```
-#INC
 
 
 #### Parameters
@@ -990,7 +914,6 @@ public void SetDirection(UnitDirection direction)
 ```csharp
 public void SetPassageChangedParam(object target)
 ```
-#INC
 
 
 #### Parameters
@@ -1002,7 +925,6 @@ public void SetPassageChangedParam(object target)
 ```csharp
 public void SetTeleportable(bool b)
 ```
-#INC
 
 
 #### Parameters
@@ -1014,14 +936,12 @@ public void SetTeleportable(bool b)
 ```csharp
 public void StopMoving()
 ```
-#INC
 
 
 ### TrySetCurrentNode(MapNode)
 ```csharp
 private void TrySetCurrentNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1033,14 +953,12 @@ private void TrySetCurrentNode(MapNode node)
 ```csharp
 private void UpdateCurrentPassage()
 ```
-#INC
 
 
 ### UpdateNodeEdge(MapNode, MapEdge)
 ```csharp
 private void UpdateNodeEdge(MapNode node, MapEdge edge)
 ```
-#INC
 
 
 #### Parameters
@@ -1053,9 +971,9 @@ private void UpdateNodeEdge(MapNode node, MapEdge edge)
 ```csharp
 public void Wait()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

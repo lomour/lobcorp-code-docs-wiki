@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentManager
 canonical_path: /api/Global/IOBserver/AgentManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/IOBserver/AgentManager
 ```csharp
 public class AgentManager : IObserver, ISerializablePlayData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Maintains the lists of abstract [agents](/api/Global/Worker/AgentModel), including saving, loading, adding, removing, buying, and deleting.
 
 Also, has a helper function to calculate survival rate. Also also, has a helper function to remove backer equipment.
@@ -30,8 +34,6 @@ See also [AgentLayer](/api/Global/IOBserver/AgentLayer), which manages [AgentUni
 ```csharp
 public AgentManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -40,7 +42,6 @@ public AgentManager()
 ```csharp
 private static AgentManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +51,6 @@ private static AgentManager _instance
 ```csharp
 private List<AgentModel> agentList
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +60,6 @@ private List<AgentModel> agentList
 ```csharp
 public List<AgentModel> agentListSpare
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +69,6 @@ public List<AgentModel> agentListSpare
 ```csharp
 public const int agentMaxCount = 50
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +94,6 @@ public List<AgentManager.PermanetlyDeletedAgent> deletedAgent
 ```csharp
 private int nextInstId
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +139,6 @@ public static AgentManager instance { get; }
 ```csharp
 private void ActivateAgent(AgentModel unit)
 ```
-#INC
 
 
 #### Parameters
@@ -154,7 +150,6 @@ private void ActivateAgent(AgentModel unit)
 ```csharp
 public AgentModel AddAgentModelCustom(AgentData genData)
 ```
-#INC
 
 
 #### Parameters
@@ -182,7 +177,6 @@ public AgentManager.CustomizedAgentData AddCustomAgent(AgentModel agent)
 ```csharp
 public void AddPermantelyDeleteAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -194,7 +188,6 @@ public void AddPermantelyDeleteAgent(AgentModel agent)
 ```csharp
 public AgentModel AddSpareAgentModel()
 ```
-#INC
 
 
 #### Returns
@@ -204,7 +197,6 @@ public AgentModel AddSpareAgentModel()
 ```csharp
 public AgentModel BuyAgent()
 ```
-#INC
 
 
 #### Returns
@@ -214,14 +206,12 @@ public AgentModel BuyAgent()
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### DeactivateAgent(AgentModel)
 ```csharp
 private void DeactivateAgent(AgentModel unit)
 ```
-#INC
 
 
 #### Parameters
@@ -233,7 +223,6 @@ private void DeactivateAgent(AgentModel unit)
 ```csharp
 public void DeleteAgentPermanently(ref Dictionary<string, object> dic, AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -246,7 +235,6 @@ public void DeleteAgentPermanently(ref Dictionary<string, object> dic, AgentMode
 ```csharp
 public bool DeletedContain(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -261,7 +249,6 @@ public bool DeletedContain(long id)
 ```csharp
 public AgentModel GetAgent(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -276,7 +263,6 @@ public AgentModel GetAgent(long id)
 ```csharp
 public IList<AgentModel> GetAgentList()
 ```
-#INC
 
 
 #### Returns
@@ -286,7 +272,6 @@ public IList<AgentModel> GetAgentList()
 ```csharp
 public IList<AgentModel> GetAgentSpareList()
 ```
-#INC
 
 
 #### Returns
@@ -296,7 +281,6 @@ public IList<AgentModel> GetAgentSpareList()
 ```csharp
 public int GetAllAgentCount()
 ```
-#INC
 
 
 #### Returns
@@ -319,7 +303,6 @@ public AgentManager.CustomizedAgentData GetCustomAgentData(long instId)
 ```csharp
 public AgentModel[] GetNearAgents(MovableObjectNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -334,7 +317,6 @@ public AgentModel[] GetNearAgents(MovableObjectNode node)
 ```csharp
 private static AgentName GetRandomAgentName()
 ```
-#INC
 
 
 #### Returns
@@ -344,7 +326,6 @@ private static AgentName GetRandomAgentName()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -354,7 +335,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public AgentModel GetSpareAgent(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -369,7 +349,6 @@ public AgentModel GetSpareAgent(long id)
 ```csharp
 public float GetSurvivalRate()
 ```
-#INC
 
 
 #### Returns
@@ -379,7 +358,6 @@ public float GetSurvivalRate()
 ```csharp
 private bool HasSavedataTargetAgent(long id, List<Dictionary<string, object>> agentDataList, out Dictionary<string, object> agentData)
 ```
-#INC
 
 
 #### Parameters
@@ -396,28 +374,24 @@ private bool HasSavedataTargetAgent(long id, List<Dictionary<string, object>> ag
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InitValues()
 ```csharp
 private void InitValues()
 ```
-#INC
 
 
 ### LoadCustomAgentData()
 ```csharp
 public void LoadCustomAgentData()
 ```
-#INC
 
 
 ### LoadData(Dictionary<string, object>)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -429,14 +403,12 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void LoadDelAgentData()
 ```
-#INC
 
 
 ### OnChangeAgentSefira(AgentModel, string)
 ```csharp
 private void OnChangeAgentSefira(AgentModel agentModel, string oldSefira)
 ```
-#INC
 
 
 #### Parameters
@@ -449,14 +421,12 @@ private void OnChangeAgentSefira(AgentModel agentModel, string oldSefira)
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -469,28 +439,24 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### RemoveAgent(AgentModel)
 ```csharp
 private void RemoveAgent(AgentModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -502,7 +468,6 @@ private void RemoveAgent(AgentModel model)
 ```csharp
 public void RemoveAgent(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -514,7 +479,6 @@ public void RemoveAgent(long id)
 ```csharp
 public bool RemoveAllDlcEquipment()
 ```
-#INC
 
 
 #### Returns
@@ -524,35 +488,30 @@ public bool RemoveAllDlcEquipment()
 ```csharp
 public void RemoveCustomAgentData()
 ```
-#INC
 
 
 ### RemoveDelAgentData()
 ```csharp
 public void RemoveDelAgentData()
 ```
-#INC
 
 
 ### SaveCustomAgentData()
 ```csharp
 private void SaveCustomAgentData()
 ```
-#INC
 
 
 ### SaveDelAgentData()
 ```csharp
 private void SaveDelAgentData()
 ```
-#INC
 
 
 ### TryGetValue<T>(Dictionary<string, object>, string, ref T)
 ```csharp
 private static bool TryGetValue<T>(Dictionary<string, object> dic, string name, ref T field)
 ```
-#INC
 
 
 #### Parameters
@@ -567,4 +526,5 @@ private static bool TryGetValue<T>(Dictionary<string, object> dic, string name, 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

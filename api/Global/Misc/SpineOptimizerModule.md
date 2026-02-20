@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpineOptimizerModule
 canonical_path: /api/Global/Misc/SpineOptimizerModule
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SpineOptimizerModule
 ```csharp
 public class SpineOptimizerModule
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Keeps track of whether this animated thing is in the camera, and sets the optimization level of the renderer depending on how big this is in the screen.
 
-#INC 
+
 
 
 ## Inheritance
@@ -39,7 +43,6 @@ public SpineOptimizerModule(SkeletonRenderer spineRenderer, UnitModel target, fl
 ```csharp
 private bool _inCamera
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +52,6 @@ private bool _inCamera
 ```csharp
 private float _loosenessLevel
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +61,6 @@ private float _loosenessLevel
 ```csharp
 private SkeletonRenderer _spineRenderer
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +70,6 @@ private SkeletonRenderer _spineRenderer
 ```csharp
 private UnitModel _targetModel
 ```
-#INC
 
 
 #### Field Value
@@ -93,23 +93,21 @@ public void Init(SkeletonRenderer spineRenderer, UnitModel target, float scale =
 ```csharp
 public void Update()
 ```
-#INC
 
 
 ### UpdateAnimationQuality()
 ```csharp
 public void UpdateAnimationQuality()
 ```
-#INC
 
 
 ### UpdateCheckInCamera()
 ```csharp
 public void UpdateCheckInCamera()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

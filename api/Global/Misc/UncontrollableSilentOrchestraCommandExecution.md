@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Uncontrollable_SilentOrchestra.CommandExecution
 canonical_path: /api/Global/Misc/UncontrollableSilentOrchestraCommandExecution
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

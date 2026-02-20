@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Rabbit.RabbitSpeech
 canonical_path: /api/Rabbit/RabbitSpeech
@@ -11,6 +12,9 @@ canonical_path: /api/Rabbit/RabbitSpeech
 ```csharp
 public class RabbitSpeech
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 For [rabbit](/api/Global/Model/RabbitModel) speech during the Rabbit Protocol.
 
 See also [RabbitConversationType](/api/Rabbit/RabbitConversationType).
@@ -32,7 +36,6 @@ public RabbitSpeech()
 ```csharp
 private RabbitUnit _unit
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private RabbitUnit _unit
 ```csharp
 public float currentSpeechProb
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public float currentSpeechProb
 ```csharp
 public VerticalLayoutGroup layout
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public VerticalLayoutGroup layout
 ```csharp
 public GameObject rootActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public GameObject rootActiveControl
 ```csharp
 public Image speechBg
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public Image speechBg
 ```csharp
 public Text speechText
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public Text speechText
 ```csharp
 public Timer speechTimer
 ```
-#INC
 
 
 #### Field Value
@@ -104,15 +101,12 @@ public Timer speechTimer
 ```csharp
 public void Execute()
 ```
-#INC
 
 
 ### Init(RabbitUnit)
 ```csharp
 public void Init(RabbitUnit unit)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -124,7 +118,6 @@ public void Init(RabbitUnit unit)
 ```csharp
 public void SetSpeechProb(float prob)
 ```
-#INC
 
 
 #### Parameters
@@ -145,4 +138,5 @@ public void Speech(string text, float speechTime = 3)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

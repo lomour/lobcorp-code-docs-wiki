@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentHistory
 canonical_path: /api/Global/Misc/AgentHistory
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/AgentHistory
 ```csharp
 public class AgentHistory
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores a list of statistics about an [agent](/api/Global/Worker/AgentModel) -- damage taken, works succeeded, deaths and panics witnessed. This is odd, because I'm pretty sure the only one of these that would ever get used are the damages...
 
 There seems to be an unused 'promotionVal' thing which may have served as EXP?
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ There seems to be an unused 'promotionVal' thing which may have served as EXP?
 ```csharp
 public AgentHistory()
 ```
-#INC
-#code-generated
 
 
 ## Properties
@@ -69,7 +71,6 @@ public AgentHistory.History Total { get; }
 ```csharp
 private int workDay { get; set; }
 ```
-#INC
 
 
 #### Property Value
@@ -89,14 +90,12 @@ public int WorkDay { get; }
 ```csharp
 public void AddPanic()
 ```
-#INC
 
 
 ### AddWorkCubeCount(RwbpType, int)
 ```csharp
 public void AddWorkCubeCount(RwbpType type, int val)
 ```
-#INC
 
 
 #### Parameters
@@ -109,28 +108,24 @@ public void AddWorkCubeCount(RwbpType type, int val)
 ```csharp
 public void AddWorkDay()
 ```
-#INC
 
 
 ### AddWorkFail()
 ```csharp
 public void AddWorkFail()
 ```
-#INC
 
 
 ### AddWorkSuccess()
 ```csharp
 public void AddWorkSuccess()
 ```
-#INC
 
 
 ### CreatureAttack(int)
 ```csharp
 public void CreatureAttack(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -142,21 +137,18 @@ public void CreatureAttack(int damage)
 ```csharp
 public void Disposition()
 ```
-#INC
 
 
 ### EndOneDay()
 ```csharp
 public void EndOneDay()
 ```
-#INC
 
 
 ### GetSaveData()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -166,7 +158,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -178,7 +169,6 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void MentalDamage(float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -190,7 +180,6 @@ public void MentalDamage(float damage)
 ```csharp
 public void PanicWorkerAttack(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -202,7 +191,6 @@ public void PanicWorkerAttack(int damage)
 ```csharp
 public void PhysicalDamage(float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -214,21 +202,18 @@ public void PhysicalDamage(float damage)
 ```csharp
 public void SuccessCreatureSuppress()
 ```
-#INC
 
 
 ### SuccessWorkerSuppress()
 ```csharp
 public void SuccessWorkerSuppress()
 ```
-#INC
 
 
 ### Suppress(int)
 ```csharp
 public void Suppress(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -240,28 +225,24 @@ public void Suppress(int damage)
 ```csharp
 public void WitnessDeathByCreature()
 ```
-#INC
 
 
 ### WitnessDeathByWorker()
 ```csharp
 public void WitnessDeathByWorker()
 ```
-#INC
 
 
 ### WitnessPanicByCreature()
 ```csharp
 public void WitnessPanicByCreature()
 ```
-#INC
 
 
 ### WorkerAttack(int)
 ```csharp
 public void WorkerAttack(int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -271,4 +252,5 @@ public void WorkerAttack(int damage)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

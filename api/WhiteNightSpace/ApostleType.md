@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.ApostleType
 canonical_path: /api/WhiteNightSpace/ApostleType
@@ -45,4 +46,5 @@ WAND = 2
 
 #### Field Value
 **Type:** WhiteNightSpace.ApostleType
+
 

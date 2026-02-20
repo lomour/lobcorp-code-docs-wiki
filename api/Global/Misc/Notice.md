@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Notice
 canonical_path: /api/Global/Misc/Notice
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/Notice
 ```csharp
 public class Notice
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Class for registering, de-registering, and notifying [observers](/api/Global/Misc/IObserver) of various kinds.
 
 
@@ -24,8 +28,6 @@ Class for registering, de-registering, and notifying [observers](/api/Global/Mis
 ```csharp
 private Notice()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -34,7 +36,6 @@ private Notice()
 ```csharp
 private static Notice _instance
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +45,6 @@ private static Notice _instance
 ```csharp
 private int lastNoticeId
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +54,6 @@ private int lastNoticeId
 ```csharp
 private Dictionary<string, List<IObserver>> noticeList
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +75,6 @@ public static Notice instance { get; }
 ```csharp
 public void Observe(string notice, IObserver observer)
 ```
-#INC
 
 
 #### Parameters
@@ -89,7 +87,6 @@ public void Observe(string notice, IObserver observer)
 ```csharp
 public int Observe(string notice, NoticeReciever observer)
 ```
-#INC
 
 
 #### Parameters
@@ -105,7 +102,6 @@ public int Observe(string notice, NoticeReciever observer)
 ```csharp
 public void Remove(string notice, int noticeId)
 ```
-#INC
 
 
 #### Parameters
@@ -118,7 +114,6 @@ public void Remove(string notice, int noticeId)
 ```csharp
 public void Remove(string notice, IObserver observer)
 ```
-#INC
 
 
 #### Parameters
@@ -131,7 +126,6 @@ public void Remove(string notice, IObserver observer)
 ```csharp
 public void Send(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -142,4 +136,5 @@ public void Send(string notice, params object[] param)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

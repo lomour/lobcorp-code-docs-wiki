@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MultipleEvent.State
 canonical_path: /api/Global/State/MultipleEventState
@@ -45,4 +46,5 @@ POINTER_ENTER = 1
 
 #### Field Value
 **Type:** Global.MultipleEvent.State
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapEdge
 canonical_path: /api/Global/Misc/MapEdge
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/MapEdge
 ```csharp
 public class MapEdge
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A connection between [MapNode](/api/Global/Misc/MapNode)s on the map.
 
 Represents a connection between rooms.
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ Represents a connection between rooms.
 ```csharp
 public MapEdge(MapNode node1, MapNode node2, string type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -42,7 +44,6 @@ public MapEdge(MapNode node1, MapNode node2, string type)
 ```csharp
 public MapEdge(MapNode node1, MapNode node2, string type, float cost)
 ```
-#INC
 
 
 #### Parameters
@@ -59,7 +60,6 @@ public MapEdge(MapNode node1, MapNode node2, string type, float cost)
 ```csharp
 public bool activated
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ public bool activated
 ```csharp
 public float cost
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +78,6 @@ public float cost
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +87,6 @@ public string name
 ```csharp
 public MapNode node1
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +96,6 @@ public MapNode node1
 ```csharp
 public MapNode node2
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +105,6 @@ public MapNode node2
 ```csharp
 public string type
 ```
-#INC
 
 
 #### Field Value
@@ -121,14 +116,12 @@ public string type
 ```csharp
 public void AddEdgeInNode()
 ```
-#INC
 
 
 ### ConnectedNode(MapNode)
 ```csharp
 public MapNode ConnectedNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -143,7 +136,6 @@ public MapNode ConnectedNode(MapNode node)
 ```csharp
 public MapNode ConnectedNodeIgoreActivate(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -158,7 +150,6 @@ public MapNode ConnectedNodeIgoreActivate(MapNode node)
 ```csharp
 public MapNode GetGoalNode(EdgeDirection direction)
 ```
-#INC
 
 
 #### Parameters
@@ -171,4 +162,5 @@ public MapNode GetGoalNode(EdgeDirection direction)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

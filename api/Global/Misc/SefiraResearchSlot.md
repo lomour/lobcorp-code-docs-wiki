@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraResearchSlot
 canonical_path: /api/Global/Misc/SefiraResearchSlot
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SefiraResearchSlot
 ```csharp
 public class SefiraResearchSlot
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A spot for a [SefiraResearchPanel](/api/Global/Misc/SefiraResearchPanel) on the research tab on the deployment screen.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public SefiraResearchSlot()
 ```csharp
 public string desc
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public string desc
 ```csharp
 public Image Frame
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public Image Frame
 ```csharp
 public Image Icon
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public Image Icon
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public int index
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public string name
 ```csharp
 public GameObject RootObject
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public GameObject RootObject
 ```csharp
 public Image Texture
 ```
-#INC
 
 
 #### Field Value
@@ -104,17 +101,15 @@ public Image Texture
 ```csharp
 public void OnDePicked()
 ```
-#INC
 
 
 ### OnPicked()
 ```csharp
 public void OnPicked()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

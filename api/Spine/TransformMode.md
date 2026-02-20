@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.TransformMode
 canonical_path: /api/Spine/TransformMode
@@ -60,4 +61,5 @@ OnlyTranslation = NoRotationOrReflection | NoScaleOrReflection
 
 #### Field Value
 **Type:** Spine.TransformMode
+
 

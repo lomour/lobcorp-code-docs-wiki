@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MotherBug.MotherPhase
 canonical_path: /api/Global/Phase/MotherBugMotherPhase
@@ -45,4 +46,5 @@ Teleporting = 1
 
 #### Field Value
 **Type:** Global.MotherBug.MotherPhase
+
 

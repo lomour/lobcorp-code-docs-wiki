@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Format
 canonical_path: /api/Spine/Format
@@ -69,4 +70,5 @@ RGBA8888 = 6
 
 #### Field Value
 **Type:** Spine.Format
+
 

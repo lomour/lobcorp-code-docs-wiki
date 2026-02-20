@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerPrimaryStatExp
 canonical_path: /api/Global/Misc/WorkerPrimaryStatExp
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/WorkerPrimaryStatExp
 ```csharp
 public class WorkerPrimaryStatExp
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the stat experience for each stat, for training [agents](/api/Global/Worker/AgentModel).
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public WorkerPrimaryStatExp()
 ```csharp
 public float battle
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public float battle
 ```csharp
 public float hp
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public float hp
 ```csharp
 public float mental
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public float mental
 ```csharp
 public float work
 ```
-#INC
 
 
 #### Field Value
@@ -74,10 +74,9 @@ public float work
 ```csharp
 public void Init()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ManageWorkIconState
 canonical_path: /api/Global/State/ManageWorkIconState
@@ -37,4 +38,5 @@ DEFAULT = 1
 
 #### Field Value
 **Type:** Global.ManageWorkIconState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GrandmaBug.GrandmaPhase
 canonical_path: /api/Global/Phase/GrandmaBugGrandmaPhase
@@ -37,4 +38,5 @@ Teleporting = 2
 
 #### Field Value
 **Type:** Global.GrandmaBug.GrandmaPhase
+
 

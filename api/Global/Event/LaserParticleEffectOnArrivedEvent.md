@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LaserParticleEffect.OnArrivedEvent
 canonical_path: /api/Global/Event/LaserParticleEffectOnArrivedEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(BossBird.LaserAttackTargetData data)
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `Global.BossBird.LaserAttackTargetData` |  |
+
 

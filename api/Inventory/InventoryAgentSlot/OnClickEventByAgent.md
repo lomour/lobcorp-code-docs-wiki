@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryAgentSlot.OnClickEventByAgent
 canonical_path: /api/Inventory/InventoryAgentSlot/OnClickEventByAgent
@@ -61,4 +62,5 @@ public virtual void Invoke(InventoryAgentSlot slot)
 | Name | Type | Description |
 | --- | --- | --- |
 | `slot` | `Inventory.InventoryAgentSlot` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ViscusSnakeBuf.Level
 canonical_path: /api/Global/Level/ViscusSnakeBufLevel
@@ -37,4 +38,5 @@ THIRED = 2
 
 #### Field Value
 **Type:** Global.ViscusSnakeBuf.Level
+
 

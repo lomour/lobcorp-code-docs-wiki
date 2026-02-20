@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.UpdateBonesDelegate
 canonical_path: /api/Spine/Unity/UpdateBonesDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(ISkeletonAnimation animated)
 | Name | Type | Description |
 | --- | --- | --- |
 | `animated` | `Spine.Unity.ISkeletonAnimation` |  |
+
 

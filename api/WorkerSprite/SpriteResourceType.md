@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.SpriteResourceType
 canonical_path: /api/WorkerSprite/SpriteResourceType
@@ -29,4 +30,5 @@ SPRITE = 1
 
 #### Field Value
 **Type:** WorkerSprite.SpriteResourceType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Ppodae.PpodaeState
 canonical_path: /api/Global/State/PpodaePpodaeState
@@ -53,4 +54,5 @@ RETURNING = 3
 
 #### Field Value
 **Type:** Global.Ppodae.PpodaeState
+
 

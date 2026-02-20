@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentModel
 canonical_path: /api/Global/Worker/AgentModel
@@ -11,11 +12,13 @@ canonical_path: /api/Global/Worker/AgentModel
 ```csharp
 public class AgentModel : WorkerModel, IObserver, IMouseCommandTargetModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 An agent, abstractly. Managed by [AgentManager](/api/Global/IOBserver/AgentManager).
 
-Maintains stats, levels, EXP, continuous service, some sprite info, [AI state](/api/Global/State/AgentAIState), a [history](/api/Global/Misc/AgentHistory), and some other stuff. #inc
-
+Maintains stats, levels, EXP, continuous service, some sprite info, [AI state](/api/Global/State/AgentAIState), a [history](/api/Global/Misc/AgentHistory), and some other stuff. 
 See also [AgentUnit](/api/Global/Worker/AgentUnit) for how agents appear in-game.
 
 
@@ -31,7 +34,6 @@ See also [AgentUnit](/api/Global/Worker/AgentUnit) for how agents appear in-game
 ```csharp
 public AgentModel(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -45,7 +47,6 @@ public AgentModel(long id)
 ```csharp
 public AgentName _agentName
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +56,6 @@ public AgentName _agentName
 ```csharp
 private RwbpType _bestRwbp
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +65,6 @@ private RwbpType _bestRwbp
 ```csharp
 private UseSkill _currentSkill
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +74,6 @@ private UseSkill _currentSkill
 ```csharp
 private PassageObjectModel _currentWaitingPassage
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +83,6 @@ private PassageObjectModel _currentWaitingPassage
 ```csharp
 private AgentModelEventHandler _eventHandler
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +92,6 @@ private AgentModelEventHandler _eventHandler
 ```csharp
 private bool _isAutoSuppressing
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +101,6 @@ private bool _isAutoSuppressing
 ```csharp
 private AgentAIState _state
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +118,6 @@ private AgentModel.CheckCommandState _suppressCommand
 ```csharp
 private AgentUnit _unit
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +135,6 @@ private AgentModel.CheckCommandState _workCommand
 ```csharp
 public bool activated
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +144,6 @@ public bool activated
 ```csharp
 public bool cannotBeAttackTargetable
 ```
-#INC
 
 
 #### Field Value
@@ -161,7 +153,6 @@ public bool cannotBeAttackTargetable
 ```csharp
 public int continuousServiceDay
 ```
-#INC
 
 
 #### Field Value
@@ -171,7 +162,6 @@ public int continuousServiceDay
 ```csharp
 public bool counterAttackEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -181,7 +171,6 @@ public bool counterAttackEnabled
 ```csharp
 private bool deadInit
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +196,6 @@ private static AgentModel.CheckCommandState f__mgcache1
 ```csharp
 public RwbpType forcelyPanicType
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +205,6 @@ public RwbpType forcelyPanicType
 ```csharp
 public AgentHistory history
 ```
-#INC
 
 
 #### Field Value
@@ -227,7 +214,6 @@ public AgentHistory history
 ```csharp
 public bool isAce
 ```
-#INC
 
 
 #### Field Value
@@ -237,7 +223,6 @@ public bool isAce
 ```csharp
 public bool iscustom
 ```
-#INC
 
 
 #### Field Value
@@ -247,7 +232,6 @@ public bool iscustom
 ```csharp
 public bool isUniqueCredit
 ```
-#INC
 
 
 #### Field Value
@@ -257,7 +241,6 @@ public bool isUniqueCredit
 ```csharp
 public string lastServiceSefira
 ```
-#INC
 
 
 #### Field Value
@@ -267,7 +250,6 @@ public string lastServiceSefira
 ```csharp
 public ValueInfo levelSetting
 ```
-#INC
 
 
 #### Field Value
@@ -277,7 +259,6 @@ public ValueInfo levelSetting
 ```csharp
 public const int MaxLevel = 5
 ```
-#INC
 
 
 #### Field Value
@@ -287,7 +268,6 @@ public const int MaxLevel = 5
 ```csharp
 public const int MinLevel = 1
 ```
-#INC
 
 
 #### Field Value
@@ -297,7 +277,6 @@ public const int MinLevel = 1
 ```csharp
 private SkillTypeInfo oldWork
 ```
-#INC
 
 
 #### Field Value
@@ -307,7 +286,6 @@ private SkillTypeInfo oldWork
 ```csharp
 private bool panicReport
 ```
-#INC
 
 
 #### Field Value
@@ -317,7 +295,6 @@ private bool panicReport
 ```csharp
 private AgentTitleTypeInfo prefix
 ```
-#INC
 
 
 #### Field Value
@@ -327,7 +304,6 @@ private AgentTitleTypeInfo prefix
 ```csharp
 public WorkerPrimaryStat primaryStat
 ```
-#INC
 
 
 #### Field Value
@@ -337,7 +313,6 @@ public WorkerPrimaryStat primaryStat
 ```csharp
 public WorkerPrimaryStatExp primaryStatExp
 ```
-#INC
 
 
 #### Field Value
@@ -347,7 +322,6 @@ public WorkerPrimaryStatExp primaryStatExp
 ```csharp
 public string[] randomLevel
 ```
-#INC
 
 
 #### Field Value
@@ -357,7 +331,6 @@ public string[] randomLevel
 ```csharp
 public string[] randomOverlay
 ```
-#INC
 
 
 #### Field Value
@@ -367,7 +340,6 @@ public string[] randomOverlay
 ```csharp
 private SkillTypeInfo recentWork
 ```
-#INC
 
 
 #### Field Value
@@ -377,7 +349,6 @@ private SkillTypeInfo recentWork
 ```csharp
 private CreatureModel recentWorkedCreature
 ```
-#INC
 
 
 #### Field Value
@@ -387,7 +358,6 @@ private CreatureModel recentWorkedCreature
 ```csharp
 private const string reloadSound = "Agent/Weapon/Reload_Pistol"
 ```
-#INC
 
 
 #### Field Value
@@ -405,7 +375,6 @@ private List<AgentModel.SkillInfo> skillInfos
 ```csharp
 public Sprite[] StatusSprites
 ```
-#INC
 
 
 #### Field Value
@@ -415,7 +384,6 @@ public Sprite[] StatusSprites
 ```csharp
 private AgentTitleTypeInfo suffix
 ```
-#INC
 
 
 #### Field Value
@@ -425,7 +393,6 @@ private AgentTitleTypeInfo suffix
 ```csharp
 public SpriteInfo tempFaceSpriteInfo
 ```
-#INC
 
 
 #### Field Value
@@ -435,7 +402,6 @@ public SpriteInfo tempFaceSpriteInfo
 ```csharp
 public SpriteInfo tempHairSpriteInfo
 ```
-#INC
 
 
 #### Field Value
@@ -445,7 +411,6 @@ public SpriteInfo tempHairSpriteInfo
 ```csharp
 public bool uiActivated
 ```
-#INC
 
 
 #### Field Value
@@ -455,7 +420,6 @@ public bool uiActivated
 ```csharp
 public int uniqueScriptIndex
 ```
-#INC
 
 
 #### Field Value
@@ -465,7 +429,6 @@ public int uniqueScriptIndex
 ```csharp
 public bool workEndReaction
 ```
-#INC
 
 
 #### Field Value
@@ -823,7 +786,6 @@ public int Wstat { get; }
 ```csharp
 public void AddSkill(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -835,7 +797,6 @@ public void AddSkill(long id)
 ```csharp
 public void AddSpecialSkill(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -847,7 +808,6 @@ public void AddSpecialSkill(long id)
 ```csharp
 public void AddSpecialSkill(SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -859,7 +819,6 @@ public void AddSpecialSkill(SkillTypeInfo skill)
 ```csharp
 public int calc(int value, int standard)
 ```
-#INC
 
 
 #### Parameters
@@ -875,7 +834,6 @@ public int calc(int value, int standard)
 ```csharp
 public static int CalculateStatLevel(int stat)
 ```
-#INC
 
 
 #### Parameters
@@ -890,7 +848,6 @@ public static int CalculateStatLevel(int stat)
 ```csharp
 public static int CalculateStatLevelForCustomizing(int stat)
 ```
-#INC
 
 
 #### Parameters
@@ -905,14 +862,12 @@ public static int CalculateStatLevelForCustomizing(int stat)
 ```csharp
 public override void CancelWeapon()
 ```
-#INC
 
 
 ### CannotControll()
 ```csharp
 public override bool CannotControll()
 ```
-#INC
 
 
 #### Returns
@@ -922,7 +877,6 @@ public override bool CannotControll()
 ```csharp
 public bool CanObserveCreature(CreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -937,7 +891,6 @@ public bool CanObserveCreature(CreatureModel model)
 ```csharp
 public override void ChangeHairSprite(SpriteInfo spriteInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -949,7 +902,6 @@ public override void ChangeHairSprite(SpriteInfo spriteInfo)
 ```csharp
 public override WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -964,7 +916,6 @@ public override WorkerDeadScript ChangePuppetAnimToDie(string src)
 ```csharp
 public override void ChangePuppetAnimToUncon(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -976,28 +927,24 @@ public override void ChangePuppetAnimToUncon(string src)
 ```csharp
 private void CheckAutoSuppressing()
 ```
-#INC
 
 
 ### ClearEffect()
 ```csharp
 public override void ClearEffect()
 ```
-#INC
 
 
 ### ClearUnconCommand()
 ```csharp
 public override void ClearUnconCommand()
 ```
-#INC
 
 
 ### CompareByBattle(AgentModel, AgentModel)
 ```csharp
 public static int CompareByBattle(AgentModel x, AgentModel y)
 ```
-#INC
 
 
 #### Parameters
@@ -1013,7 +960,6 @@ public static int CompareByBattle(AgentModel x, AgentModel y)
 ```csharp
 public static int CompareByID(AgentModel x, AgentModel y)
 ```
-#INC
 
 
 #### Parameters
@@ -1029,7 +975,6 @@ public static int CompareByID(AgentModel x, AgentModel y)
 ```csharp
 public static int CompareByLevel(AgentModel x, AgentModel y)
 ```
-#INC
 
 
 #### Parameters
@@ -1045,7 +990,6 @@ public static int CompareByLevel(AgentModel x, AgentModel y)
 ```csharp
 public static int CompareBySefira(AgentModel x, AgentModel y)
 ```
-#INC
 
 
 #### Parameters
@@ -1061,7 +1005,6 @@ public static int CompareBySefira(AgentModel x, AgentModel y)
 ```csharp
 public void CreatureActionSpeechByAnim(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -1073,7 +1016,6 @@ public void CreatureActionSpeechByAnim(string key)
 ```csharp
 public void DebugDamage(RwbpType type, int damage)
 ```
-#INC
 
 
 #### Parameters
@@ -1086,7 +1028,6 @@ public void DebugDamage(RwbpType type, int damage)
 ```csharp
 public static bool DummyCheckCommand()
 ```
-#INC
 
 
 #### Returns
@@ -1096,7 +1037,6 @@ public static bool DummyCheckCommand()
 ```csharp
 public void EncounterCreature(CreatureModel encounteredCreature, AgentModel infected)
 ```
-#INC
 
 
 #### Parameters
@@ -1109,7 +1049,6 @@ public void EncounterCreature(CreatureModel encounteredCreature, AgentModel infe
 ```csharp
 public override void EncounterCreature(UnitModel encounteredCreature)
 ```
-#INC
 
 
 #### Parameters
@@ -1121,7 +1060,6 @@ public override void EncounterCreature(UnitModel encounteredCreature)
 ```csharp
 public override void EncounterStandingItem(StandingItemModel standing)
 ```
-#INC
 
 
 #### Parameters
@@ -1133,49 +1071,42 @@ public override void EncounterStandingItem(StandingItemModel standing)
 ```csharp
 public void FinishManage()
 ```
-#INC
 
 
 ### FinishObserve()
 ```csharp
 public void FinishObserve()
 ```
-#INC
 
 
 ### FinishOpenIolateRoom()
 ```csharp
 public void FinishOpenIolateRoom()
 ```
-#INC
 
 
 ### FinishPursueAgent()
 ```csharp
 public void FinishPursueAgent()
 ```
-#INC
 
 
 ### FinishReturnCreature()
 ```csharp
 public void FinishReturnCreature()
 ```
-#INC
 
 
 ### FinishReturnKitCreature()
 ```csharp
 public void FinishReturnKitCreature()
 ```
-#INC
 
 
 ### FinishSuppress()
 ```csharp
 public void FinishSuppress()
 ```
-#INC
 
 
 ### FollowMovable(MovableObjectNode)
@@ -1192,21 +1123,18 @@ public void FollowMovable(MovableObjectNode node)
 ```csharp
 public void ForcelyCancelSuppress()
 ```
-#INC
 
 
 ### ForcelyCancelWork()
 ```csharp
 public void ForcelyCancelWork()
 ```
-#INC
 
 
 ### ForcelyPanic(RwbpType)
 ```csharp
 public void ForcelyPanic(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -1218,7 +1146,6 @@ public void ForcelyPanic(RwbpType type)
 ```csharp
 public static Sprite[] GetAgentSkillSprite(AgentModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -1233,7 +1160,6 @@ public static Sprite[] GetAgentSkillSprite(AgentModel model)
 ```csharp
 public List<EGOgiftModel> GetAllGifts()
 ```
-#INC
 
 
 #### Returns
@@ -1243,7 +1169,6 @@ public List<EGOgiftModel> GetAllGifts()
 ```csharp
 public override int GetAttackLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1253,7 +1178,6 @@ public override int GetAttackLevel()
 ```csharp
 public int GetAttackSpeedBufBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1263,7 +1187,6 @@ public int GetAttackSpeedBufBySefiraAbility()
 ```csharp
 public int GetContinuousServiceLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1273,14 +1196,12 @@ public int GetContinuousServiceLevel()
 ```csharp
 public override void GetControl()
 ```
-#INC
 
 
 ### GetCurrentSefira()
 ```csharp
 public override Sefira GetCurrentSefira()
 ```
-#INC
 
 
 #### Returns
@@ -1290,7 +1211,6 @@ public override Sefira GetCurrentSefira()
 ```csharp
 public override float GetDamageFactorBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1300,7 +1220,6 @@ public override float GetDamageFactorBySefiraAbility()
 ```csharp
 public static int GetDefaultLevel1Stat()
 ```
-#INC
 
 
 #### Returns
@@ -1310,7 +1229,6 @@ public static int GetDefaultLevel1Stat()
 ```csharp
 public static WorkerPrimaryStat GetDefaultStat()
 ```
-#INC
 
 
 #### Returns
@@ -1320,7 +1238,6 @@ public static WorkerPrimaryStat GetDefaultStat()
 ```csharp
 public override int GetDefenseLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1330,7 +1247,6 @@ public override int GetDefenseLevel()
 ```csharp
 public int GetFortitudeStatBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1340,7 +1256,6 @@ public int GetFortitudeStatBySefiraAbility()
 ```csharp
 public int GetJusticeStatBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1350,7 +1265,6 @@ public int GetJusticeStatBySefiraAbility()
 ```csharp
 public static string GetLevelGradeText(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1365,7 +1279,6 @@ public static string GetLevelGradeText(AgentModel target)
 ```csharp
 public static string GetLevelGradeText(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -1380,7 +1293,6 @@ public static string GetLevelGradeText(int level)
 ```csharp
 public static string GetLifeStyleEnumToString(PersonalityType type)
 ```
-#INC
 
 
 #### Parameters
@@ -1395,7 +1307,6 @@ public static string GetLifeStyleEnumToString(PersonalityType type)
 ```csharp
 public int GetMovementBufBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1405,7 +1316,6 @@ public int GetMovementBufBySefiraAbility()
 ```csharp
 public float GetMovementValue()
 ```
-#INC
 
 
 #### Returns
@@ -1423,7 +1333,6 @@ public AgentModel.SkillInfo[] GetNormalSKill()
 ```csharp
 public SkillTypeInfo GetOldWork()
 ```
-#INC
 
 
 #### Returns
@@ -1433,7 +1342,6 @@ public SkillTypeInfo GetOldWork()
 ```csharp
 public static Sprite GetPanicIcon()
 ```
-#INC
 
 
 #### Returns
@@ -1443,7 +1351,6 @@ public static Sprite GetPanicIcon()
 ```csharp
 public static PersonalityType GetPersonalityType(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -1458,7 +1365,6 @@ public static PersonalityType GetPersonalityType(int index)
 ```csharp
 public int GetPrudenceStatBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1468,7 +1374,6 @@ public int GetPrudenceStatBySefiraAbility()
 ```csharp
 public SkillTypeInfo GetRecentWork()
 ```
-#INC
 
 
 #### Returns
@@ -1478,7 +1383,6 @@ public SkillTypeInfo GetRecentWork()
 ```csharp
 public CreatureModel GetRecentWorkedCreature()
 ```
-#INC
 
 
 #### Returns
@@ -1488,7 +1392,6 @@ public CreatureModel GetRecentWorkedCreature()
 ```csharp
 public Sprite GetRecentWorkIcon()
 ```
-#INC
 
 
 #### Returns
@@ -1498,7 +1401,6 @@ public Sprite GetRecentWorkIcon()
 ```csharp
 public override int GetRiskLevel()
 ```
-#INC
 
 
 #### Returns
@@ -1508,7 +1410,6 @@ public override int GetRiskLevel()
 ```csharp
 public override Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -1526,7 +1427,6 @@ public AgentModel.SkillInfo[] GetSkillInfos()
 ```csharp
 public AgentAIState GetState()
 ```
-#INC
 
 
 #### Returns
@@ -1536,7 +1436,6 @@ public AgentAIState GetState()
 ```csharp
 public int GetTemperanceStatBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1546,7 +1445,6 @@ public int GetTemperanceStatBySefiraAbility()
 ```csharp
 public string GetTitle()
 ```
-#INC
 
 
 #### Returns
@@ -1556,7 +1454,6 @@ public string GetTitle()
 ```csharp
 public string GetTitle(out string pre, out string post)
 ```
-#INC
 
 
 #### Parameters
@@ -1572,7 +1469,6 @@ public string GetTitle(out string pre, out string post)
 ```csharp
 public AgentUnit GetUnit()
 ```
-#INC
 
 
 #### Returns
@@ -1582,7 +1478,6 @@ public AgentUnit GetUnit()
 ```csharp
 public override string GetUnitName()
 ```
-#INC
 
 
 #### Returns
@@ -1592,7 +1487,6 @@ public override string GetUnitName()
 ```csharp
 public override WorkerUnit GetWorkerUnit()
 ```
-#INC
 
 
 #### Returns
@@ -1602,7 +1496,6 @@ public override WorkerUnit GetWorkerUnit()
 ```csharp
 public static int GetWorkIconId(SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1617,7 +1510,6 @@ public static int GetWorkIconId(SkillTypeInfo skill)
 ```csharp
 public int GetWorkProbBufBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -1627,7 +1519,6 @@ public int GetWorkProbBufBySefiraAbility()
 ```csharp
 public bool HasSkill(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -1642,7 +1533,6 @@ public bool HasSkill(long id)
 ```csharp
 public bool HasSkill(SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1657,7 +1547,6 @@ public bool HasSkill(SkillTypeInfo skill)
 ```csharp
 public void HorrorDamage(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1669,7 +1558,6 @@ public void HorrorDamage(UnitModel target)
 ```csharp
 public void HorrorDamageByDead(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1681,7 +1569,6 @@ public void HorrorDamageByDead(AgentModel target)
 ```csharp
 public void HorrorDamageByPanic(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1693,21 +1580,18 @@ public void HorrorDamageByPanic(AgentModel target)
 ```csharp
 public void IconAllocated()
 ```
-#INC
 
 
 ### Init()
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InitialEncounteredCreature(RiskLevel)
 ```csharp
 public override void InitialEncounteredCreature(RiskLevel level)
 ```
-#INC
 
 
 #### Parameters
@@ -1719,7 +1603,6 @@ public override void InitialEncounteredCreature(RiskLevel level)
 ```csharp
 public override void InitialEncounteredCreature(UnitModel encountered)
 ```
-#INC
 
 
 #### Parameters
@@ -1731,14 +1614,12 @@ public override void InitialEncounteredCreature(UnitModel encountered)
 ```csharp
 public void InitSkills()
 ```
-#INC
 
 
 ### InitSkills(params SkillTypeInfo[])
 ```csharp
 public void InitSkills(params SkillTypeInfo[] skills)
 ```
-#INC
 
 
 #### Parameters
@@ -1750,14 +1631,12 @@ public void InitSkills(params SkillTypeInfo[] skills)
 ```csharp
 public void InitTitle()
 ```
-#INC
 
 
 ### IsAttackTargetable()
 ```csharp
 public override bool IsAttackTargetable()
 ```
-#INC
 
 
 #### Returns
@@ -1767,7 +1646,6 @@ public override bool IsAttackTargetable()
 ```csharp
 public override bool IsCrazy()
 ```
-#INC
 
 
 #### Returns
@@ -1777,7 +1655,6 @@ public override bool IsCrazy()
 ```csharp
 public bool IsIdle()
 ```
-#INC
 
 
 #### Returns
@@ -1787,7 +1664,6 @@ public bool IsIdle()
 ```csharp
 public override bool IsPanic()
 ```
-#INC
 
 
 #### Returns
@@ -1797,7 +1673,6 @@ public override bool IsPanic()
 ```csharp
 public bool IsShieldBlock()
 ```
-#INC
 
 
 #### Returns
@@ -1807,7 +1682,6 @@ public bool IsShieldBlock()
 ```csharp
 public bool IsSuppressing()
 ```
-#INC
 
 
 #### Returns
@@ -1817,7 +1691,6 @@ public bool IsSuppressing()
 ```csharp
 public override void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -1829,14 +1702,12 @@ public override void LoadData(Dictionary<string, object> dic)
 ```csharp
 public override void LoseControl()
 ```
-#INC
 
 
 ### MakeCreatureEffect(long)
 ```csharp
 public override GameObject MakeCreatureEffect(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -1851,7 +1722,6 @@ public override GameObject MakeCreatureEffect(long id)
 ```csharp
 public override GameObject MakeCreatureEffectHead(CreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -1866,7 +1736,6 @@ public override GameObject MakeCreatureEffectHead(CreatureModel model)
 ```csharp
 public override GameObject MakeCreatureEffectHead(CreatureModel model, bool addlist)
 ```
-#INC
 
 
 #### Parameters
@@ -1882,7 +1751,6 @@ public override GameObject MakeCreatureEffectHead(CreatureModel model, bool addl
 ```csharp
 public void MakeRecoverEffect(bool isPhyiscal)
 ```
-#INC
 
 
 #### Parameters
@@ -1894,7 +1762,6 @@ public void MakeRecoverEffect(bool isPhyiscal)
 ```csharp
 public void ManageCreature(CreatureModel target, SkillTypeInfo skill, Sprite skillSprite)
 ```
-#INC
 
 
 #### Parameters
@@ -1908,7 +1775,6 @@ public void ManageCreature(CreatureModel target, SkillTypeInfo skill, Sprite ski
 ```csharp
 public void ManageKitCreature(CreatureModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1920,7 +1786,6 @@ public void ManageKitCreature(CreatureModel target)
 ```csharp
 public void ObserveCreature(CreatureModel target, Sprite skillSprite)
 ```
-#INC
 
 
 #### Parameters
@@ -1933,28 +1798,24 @@ public void ObserveCreature(CreatureModel target, Sprite skillSprite)
 ```csharp
 protected override void OnChangeGift()
 ```
-#INC
 
 
 ### OnClick()
 ```csharp
 public void OnClick()
 ```
-#INC
 
 
 ### OnDie()
 ```csharp
 public override void OnDie()
 ```
-#INC
 
 
 ### OnEnterRoom(UseSkill)
 ```csharp
 public void OnEnterRoom(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1966,14 +1827,12 @@ public void OnEnterRoom(UseSkill skill)
 ```csharp
 public override void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public override void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1986,84 +1845,72 @@ public override void OnNotice(string notice, params object[] param)
 ```csharp
 protected override void OnReleaseArmor()
 ```
-#INC
 
 
 ### OnReleaseKitCreature()
 ```csharp
 protected override void OnReleaseKitCreature()
 ```
-#INC
 
 
 ### OnReleaseWeapon()
 ```csharp
 protected override void OnReleaseWeapon()
 ```
-#INC
 
 
 ### OnResurrect()
 ```csharp
 public override void OnResurrect()
 ```
-#INC
 
 
 ### OnSetArmor()
 ```csharp
 protected override void OnSetArmor()
 ```
-#INC
 
 
 ### OnSetKitCreature()
 ```csharp
 protected override void OnSetKitCreature()
 ```
-#INC
 
 
 ### OnSetWeapon()
 ```csharp
 protected override void OnSetWeapon()
 ```
-#INC
 
 
 ### OnStageEnd()
 ```csharp
 public override void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public override void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
 
 
 ### Panic()
 ```csharp
 public override void Panic()
 ```
-#INC
 
 
 ### PanicByCreature(CreatureModel, SkillTypeInfo)
 ```csharp
 public void PanicByCreature(CreatureModel creature, SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -2076,35 +1923,30 @@ public void PanicByCreature(CreatureModel creature, SkillTypeInfo skill)
 ```csharp
 public override void PanicReadyComplete()
 ```
-#INC
 
 
 ### PanicSuppressed()
 ```csharp
 public void PanicSuppressed()
 ```
-#INC
 
 
 ### PrepareWeapon()
 ```csharp
 public override void PrepareWeapon()
 ```
-#INC
 
 
 ### ProcessAction()
 ```csharp
 public override void ProcessAction()
 ```
-#INC
 
 
 ### PursueAgent(UnitModel)
 ```csharp
 public void PursueAgent(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -2116,7 +1958,6 @@ public void PursueAgent(UnitModel target)
 ```csharp
 public override void PursueUnconAgent(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -2128,7 +1969,6 @@ public override void PursueUnconAgent(UnitModel target)
 ```csharp
 public override void RecentlyAttackedCreature(CreatureModel creatureModel)
 ```
-#INC
 
 
 #### Parameters
@@ -2140,7 +1980,6 @@ public override void RecentlyAttackedCreature(CreatureModel creatureModel)
 ```csharp
 public override void RecoverHP(float amount)
 ```
-#INC
 
 
 #### Parameters
@@ -2152,7 +1991,6 @@ public override void RecoverHP(float amount)
 ```csharp
 public override void RecoverMental(float amount)
 ```
-#INC
 
 
 #### Parameters
@@ -2164,7 +2002,6 @@ public override void RecoverMental(float amount)
 ```csharp
 public void RemoveSkill(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -2176,7 +2013,6 @@ public void RemoveSkill(long id)
 ```csharp
 public void RemoveSkill(SkillTypeInfo skill)
 ```
-#INC
 
 
 #### Parameters
@@ -2188,35 +2024,30 @@ public void RemoveSkill(SkillTypeInfo skill)
 ```csharp
 public void RemoveSkillAll()
 ```
-#INC
 
 
 ### ResetAnimator()
 ```csharp
 public override void ResetAnimator()
 ```
-#INC
 
 
 ### ResetWaitingPassage()
 ```csharp
 public void ResetWaitingPassage()
 ```
-#INC
 
 
 ### ReturnCancelKitCreature()
 ```csharp
 public void ReturnCancelKitCreature()
 ```
-#INC
 
 
 ### ReturnCreature(CreatureModel)
 ```csharp
 public void ReturnCreature(CreatureModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -2228,14 +2059,12 @@ public void ReturnCreature(CreatureModel target)
 ```csharp
 public void ReturnKitCreature()
 ```
-#INC
 
 
 ### SetCurrentSefira(string)
 ```csharp
 public void SetCurrentSefira(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -2247,7 +2076,6 @@ public void SetCurrentSefira(string sefira)
 ```csharp
 public static void SetPortraitSprite(AgentModel target, Image face, Image hair)
 ```
-#INC
 
 
 #### Parameters
@@ -2261,7 +2089,6 @@ public static void SetPortraitSprite(AgentModel target, Image face, Image hair)
 ```csharp
 public void SetSprite()
 ```
-#INC
 
 
 ### SetSuppressCommandCheckEvent(CheckCommandState)
@@ -2278,14 +2105,12 @@ public void SetSuppressCommandCheckEvent(AgentModel.CheckCommandState check)
 ```csharp
 public void SetToAce()
 ```
-#INC
 
 
 ### SetUncontrollableAction(UncontrollableAction)
 ```csharp
 public override void SetUncontrollableAction(UncontrollableAction uncon)
 ```
-#INC
 
 
 #### Parameters
@@ -2297,7 +2122,6 @@ public override void SetUncontrollableAction(UncontrollableAction uncon)
 ```csharp
 public void SetUnit(AgentUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -2309,7 +2133,6 @@ public void SetUnit(AgentUnit unit)
 ```csharp
 public void SetWaitingPassage(PassageObjectModel passage)
 ```
-#INC
 
 
 #### Parameters
@@ -2331,7 +2154,6 @@ public void SetWorkCommandCheckEvnet(AgentModel.CheckCommandState check)
 ```csharp
 public override void ShowCreatureActionSpeech(long creatureId, string key)
 ```
-#INC
 
 
 #### Parameters
@@ -2344,7 +2166,6 @@ public override void ShowCreatureActionSpeech(long creatureId, string key)
 ```csharp
 public int StatLevel(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -2359,28 +2180,24 @@ public int StatLevel(RwbpType type)
 ```csharp
 public override void StopAction()
 ```
-#INC
 
 
 ### StopPanic()
 ```csharp
 public override void StopPanic()
 ```
-#INC
 
 
 ### StopPanicWithoutStun()
 ```csharp
 public override void StopPanicWithoutStun()
 ```
-#INC
 
 
 ### Suppress(UnitModel, bool)
 ```csharp
 public void Suppress(UnitModel target, bool isAuto = false)
 ```
-#INC
 
 
 #### Parameters
@@ -2393,7 +2210,6 @@ public void Suppress(UnitModel target, bool isAuto = false)
 ```csharp
 public void SuppressStandingObject(StandingItemModel standing)
 ```
-#INC
 
 
 #### Parameters
@@ -2405,7 +2221,6 @@ public void SuppressStandingObject(StandingItemModel standing)
 ```csharp
 private void TakeMentalCalculate(float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -2417,7 +2232,6 @@ private void TakeMentalCalculate(float damage)
 ```csharp
 public override void UnderAttack(UnitModel attacker)
 ```
-#INC
 
 
 #### Parameters
@@ -2429,14 +2243,12 @@ public override void UnderAttack(UnitModel attacker)
 ```csharp
 private void UpdateBestRwbp()
 ```
-#INC
 
 
 ### UpdatePrefixTitle_reset(int)
 ```csharp
 public void UpdatePrefixTitle_reset(int oldLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -2448,7 +2260,6 @@ public void UpdatePrefixTitle_reset(int oldLevel)
 ```csharp
 public WorkerPrimaryStatBonus UpdatePrimaryStat()
 ```
-#INC
 
 
 #### Returns
@@ -2458,7 +2269,6 @@ public WorkerPrimaryStatBonus UpdatePrimaryStat()
 ```csharp
 public void UpdateSuffixTitle_reset(int oldLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -2470,7 +2280,6 @@ public void UpdateSuffixTitle_reset(int oldLevel)
 ```csharp
 public void UpdateTitle(int oldLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -2482,23 +2291,21 @@ public void UpdateTitle(int oldLevel)
 ```csharp
 public void UpdateWeaponLevel()
 ```
-#INC
 
 
 ### WorkAnimPlayed()
 ```csharp
 public void WorkAnimPlayed()
 ```
-#INC
 
 
 ### WorkEndReaction()
 ```csharp
 public void WorkEndReaction()
 ```
-#INC
 
 
 ## Inherited Members
 [commandQueue](/api/Global/Model/WorkerModel#commandqueue), [workerClass](/api/Global/Model/WorkerModel#workerclass), [isRealWorker](/api/Global/Model/WorkerModel#isrealworker), [name](/api/Global/Model/WorkerModel#name), [gender](/api/Global/Model/WorkerModel#gender), [_currentSefira](/api/Global/Model/WorkerModel#currentsefira), [currentSefiraEnum](/api/Global/Model/WorkerModel#currentsefiraenum), [_revivalHp](/api/Global/Model/WorkerModel#revivalhp), [_revivalMental](/api/Global/Model/WorkerModel#revivalmental), [_revivaledHp](/api/Global/Model/WorkerModel#revivaledhp), [_revivaledMental](/api/Global/Model/WorkerModel#revivaledmental), [revivalProb](/api/Global/Model/WorkerModel#revivalprob), [movementMul](/api/Global/Model/WorkerModel#movementmul), [panicValue](/api/Global/Model/WorkerModel#panicvalue), [invincible](/api/Global/Model/WorkerModel#invincible), [blockRecover](/api/Global/Model/WorkerModel#blockrecover), [stunTime](/api/Global/Model/WorkerModel#stuntime), [haltUpdate](/api/Global/Model/WorkerModel#haltupdate), [returnPanic](/api/Global/Model/WorkerModel#returnpanic), [willDead](/api/Global/Model/WorkerModel#willdead), [_isDead](/api/Global/Model/WorkerModel#isdead), [speechTable](/api/Global/Model/WorkerModel#speechtable), [target](/api/Global/Model/WorkerModel#target), [targetWorker](/api/Global/Model/WorkerModel#targetworker), [targetObject](/api/Global/Model/WorkerModel#targetobject), [currentPanicAction](/api/Global/Model/WorkerModel#currentpanicaction), [unconAction](/api/Global/Model/WorkerModel#unconaction), [_recentlyAttacked](/api/Global/Model/WorkerModel#recentlyattacked), [animationMessageRecevied](/api/Global/Model/WorkerModel#animationmessagerecevied), [visible](/api/Global/Model/WorkerModel#visible), [waitTimer](/api/Global/Model/WorkerModel#waittimer), [OnWorkEndFlag](/api/Global/Model/WorkerModel#onworkendflag), [puppetChanged](/api/Global/Model/WorkerModel#puppetchanged), [lastestMoveTarget](/api/Global/Model/WorkerModel#lastestmovetarget), [_attackTargetWorker](/api/Global/Model/WorkerModel#attacktargetworker), [_specialDeadScene](/api/Global/Model/WorkerModel#specialdeadscene), [deadSceneName](/api/Global/Model/WorkerModel#deadscenename), [seperator](/api/Global/Model/WorkerModel#seperator), [hasUniqueFace](/api/Global/Model/WorkerModel#hasuniqueface), [hairSprite](/api/Global/Model/WorkerModel#hairsprite), [faceSprite](/api/Global/Model/WorkerModel#facesprite), [stunEffect](/api/Global/Model/WorkerModel#stuneffect), [spriteData](/api/Global/Model/WorkerModel#spritedata), [_panicData](/api/Global/Model/WorkerModel#panicdata), [isChangeableAnimator](/api/Global/Model/WorkerModel#ischangeableanimator), [_deadType](/api/Global/Model/WorkerModel#deadtype), [TryGetValue<T>(Dictionary<string, object>, string, ref T)](Global.WorkerModel.html#WorkerModel_TryGetValue__1_System_Collections_Generic_Dictionary_System_String_System_Object__System_String___0__), [HaltUpdate()](/api/Global/Model/WorkerModel#haltupdate), [ReleaseUpdate()](/api/Global/Model/WorkerModel#releaseupdate), [ResetSprite()](/api/Global/Model/WorkerModel#resetsprite), [GetCurrentNode()](/api/Global/Model/WorkerModel#getcurrentnode), [SetCurrentNode(MapNode)](/api/Global/Model/WorkerModel#setcurrentnode-mapnode), [GetCurrentEdge()](/api/Global/Model/WorkerModel#getcurrentedge), [GetEdgeDirection()](/api/Global/Model/WorkerModel#getedgedirection), [GetCurrentCommand()](/api/Global/Model/WorkerModel#getcurrentcommand), [ReturnToSefira()](/api/Global/Model/WorkerModel#returntosefira), [MoveToNode(MapNode)](/api/Global/Model/WorkerModel#movetonode-mapnode), [MoveToNode(MapNode, bool)](/api/Global/Model/WorkerModel#movetonode-mapnode-bool), [MoveToMovable(MovableObjectNode)](/api/Global/Model/WorkerModel#movetomovable-movableobjectnode), [MoveFromNullPassage()](/api/Global/Model/WorkerModel#movefromnullpassage), [MoveToMovable(MovableObjectNode, bool)](/api/Global/Model/WorkerModel#movetomovable-movableobjectnode-bool), [MoveToNode(string)](/api/Global/Model/WorkerModel#movetonode-string), [IsDead()](/api/Global/Model/WorkerModel#isdead), [GetConnectedNode()](/api/Global/Model/WorkerModel#getconnectednode), [TakeDamageWithoutEffect(UnitModel, DamageInfo)](/api/Global/Model/WorkerModel#takedamagewithouteffect-unitmodel-damageinfo), [TakeDamage(UnitModel, DamageInfo)](/api/Global/Model/WorkerModel#takedamage-unitmodel-damageinfo), [CreatePhysicalDamagedEffect(float)](/api/Global/Model/WorkerModel#createphysicaldamagedeffect-float), [CreateMentalDamagedEffect(float)](/api/Global/Model/WorkerModel#creatementaldamagedeffect-float), [IsHostile(UnitModel)](/api/Global/Model/WorkerModel#ishostile-unitmodel), [TakeMentalDamage(float, MentalDamageOption)](/api/Global/Model/WorkerModel#takementaldamage-float-mentaldamageoption), [TakeMentalDamage(float)](/api/Global/Model/WorkerModel#takementaldamage-float), [MakeSpatteredBlood()](/api/Global/Model/WorkerModel#makespatteredblood), [SetInvincible(bool)](/api/Global/Model/WorkerModel#setinvincible-bool), [Stun(float)](/api/Global/Model/WorkerModel#stun-float), [StopStun()](/api/Global/Model/WorkerModel#stopstun), [OnAttackWorker(WorkerModel)](/api/Global/Model/WorkerModel#onattackworker-workermodel), [IsSuppable()](/api/Global/Model/WorkerModel#issuppable), [SetCustsomCommand(WorkerCommand)](/api/Global/Model/WorkerModel#setcustsomcommand-workercommand), [Die()](/api/Global/Model/WorkerModel#die), [AfterDeadAnim()](/api/Global/Model/WorkerModel#afterdeadanim), [InteractWithDoor(DoorObjectModel)](/api/Global/Model/WorkerModel#interactwithdoor-doorobjectmodel), [CompareByName(WorkerModel, WorkerModel)](/api/Global/Model/WorkerModel#comparebyname-workermodel-workermodel), [IsInSefira()](/api/Global/Model/WorkerModel#isinsefira), [SetSpecialDeadScene(string)](/api/Global/Model/WorkerModel#setspecialdeadscene-string), [SetSpecialDeadScene(string, bool)](/api/Global/Model/WorkerModel#setspecialdeadscene-string-bool), [SetSpecialDeadScene(string, bool, bool)](/api/Global/Model/WorkerModel#setspecialdeadscene-string-bool-bool), [ResetSpecialDeadScene()](/api/Global/Model/WorkerModel#resetspecialdeadscene), [CompareByID(WorkerModel, WorkerModel)](/api/Global/Model/WorkerModel#comparebyid-workermodel-workermodel), [CompareBySefira(WorkerModel, WorkerModel)](/api/Global/Model/WorkerModel#comparebysefira-workermodel-workermodel), [ShowUnconSpeech(string)](/api/Global/Model/WorkerModel#showunconspeech-string), [MakeCreatureEffect(CreatureModel)](/api/Global/Model/WorkerModel#makecreatureeffect-creaturemodel), [SetWorkerFaceType(WorkerFaceType)](/api/Global/Model/WorkerModel#setworkerfacetype-workerfacetype), [PlayAttackAnimation(string)](/api/Global/Model/WorkerModel#playattackanimation-string), [ShowSpeech(string)](/api/Global/Model/WorkerModel#showspeech-string), [ChangePuppet(string)](/api/Global/Model/WorkerModel#changepuppet-string), [SetAgentCommand(WorkerCommand)](/api/Global/Model/WorkerModel#setagentcommand-workercommand), [SetDeadType(DeadType)](/api/Global/Model/WorkerModel#setdeadtype-deadtype), [SetPanicAnim(bool)](/api/Global/Model/WorkerModel#setpanicanim-bool), [OnStun(float)](/api/Global/Model/WorkerModel#onstun-float), [OnStunEffectDestroied()](/api/Global/Model/WorkerModel#onstuneffectdestroied), [CheckEGOGift()](/api/Global/Model/WorkerModel#checkegogift), [GetWeaponSprite()](/api/Global/Model/WorkerModel#getweaponsprite), [SpecialAttackDamage(TrackEntry, Event)](/api/Global/Model/WorkerModel#specialattackdamage-trackentry-event), [SpecialAttackEnd(TrackEntry)](/api/Global/Model/WorkerModel#specialattackend-trackentry), [currentSefira](/api/Global/Model/WorkerModel#currentsefira), [CurrentPanicAction](/api/Global/Model/WorkerModel#currentpanicaction), [recentlyAttacked](/api/Global/Model/WorkerModel#recentlyattacked), [attackTargetWorker](/api/Global/Model/WorkerModel#attacktargetworker), [specialDeadScene](/api/Global/Model/WorkerModel#specialdeadscene), [workerAnimator](/api/Global/Model/WorkerModel#workeranimator), [panicData](/api/Global/Model/WorkerModel#panicdata), [DeadType](/api/Global/Model/WorkerModel#deadtype), [stunCriteria](/api/Global/Model/UnitModel#stuncriteria), [defaultStunEffectSrc](/api/Global/Model/UnitModel#defaultstuneffectsrc), [instanceId](/api/Global/Model/UnitModel#instanceid), [movableNode](/api/Global/Model/UnitModel#movablenode), [shield](/api/Global/Model/UnitModel#shield), [_equipment](/api/Global/Model/UnitModel#equipment), [tempAnim](/api/Global/Model/UnitModel#tempanim), [factionTypeInfo](/api/Global/Model/UnitModel#factiontypeinfo), [stunTimer](/api/Global/Model/UnitModel#stuntimer), [hp](/api/Global/Model/UnitModel#hp), [mental](/api/Global/Model/UnitModel#mental), [baseMaxHp](/api/Global/Model/UnitModel#basemaxhp), [baseMaxMental](/api/Global/Model/UnitModel#basemaxmental), [baseMovement](/api/Global/Model/UnitModel#basemovement), [baseRegeneration](/api/Global/Model/UnitModel#baseregeneration), [baseRegenerationDelay](/api/Global/Model/UnitModel#baseregenerationdelay), [additionalDef](/api/Global/Model/UnitModel#additionaldef), [superArmorMax](/api/Global/Model/UnitModel#superarmormax), [superArmor](/api/Global/Model/UnitModel#superarmor), [superArmorDefense](/api/Global/Model/UnitModel#superarmordefense), [remainMoveDelay](/api/Global/Model/UnitModel#remainmovedelay), [remainAttackDelay](/api/Global/Model/UnitModel#remainattackdelay), [isStun](/api/Global/Model/UnitModel#isstun), [damageTransform](/api/Global/Model/UnitModel#damagetransform), [basePhysicalDefense](/api/Global/Model/UnitModel#basephysicaldefense), [baseMentalDefense](/api/Global/Model/UnitModel#basementaldefense), [encounteredWorker](/api/Global/Model/UnitModel#encounteredworker), [_bufList](/api/Global/Model/UnitModel#buflist), [_statBufList](/api/Global/Model/UnitModel#statbuflist), [_barrierBufList](/api/Global/Model/UnitModel#barrierbuflist), [CanOpenDoor()](/api/Global/Model/UnitModel#canopendoor), [OnStopMovableByShield(AgentModel)](/api/Global/Model/UnitModel#onstopmovablebyshield-agentmodel), [GetMovableNode()](/api/Global/Model/UnitModel#getmovablenode), [GetCurrentViewPosition()](/api/Global/Model/UnitModel#getcurrentviewposition), [SetWeapon(WeaponModel)](/api/Global/Model/UnitModel#setweapon-weaponmodel), [ReleaseWeaponV2()](/api/Global/Model/UnitModel#releaseweaponv2), [SetArmor(ArmorModel)](/api/Global/Model/UnitModel#setarmor-armormodel), [ReleaseArmor()](/api/Global/Model/UnitModel#releasearmor), [AttachEGOgift(EGOgiftModel)](/api/Global/Model/UnitModel#attachegogift-egogiftmodel), [ReleaseEGOgift(EGOgiftModel)](/api/Global/Model/UnitModel#releaseegogift-egogiftmodel), [ReleaseEGOGift(int)](/api/Global/Model/UnitModel#releaseegogift-int), [SetGiftDisplayState(EGOgiftModel, bool)](/api/Global/Model/UnitModel#setgiftdisplaystate-egogiftmodel-bool), [GetGiftDisplayState(EGOgiftModel)](/api/Global/Model/UnitModel#getgiftdisplaystate-egogiftmodel), [SetGiftLockState(EGOgiftModel, bool)](/api/Global/Model/UnitModel#setgiftlockstate-egogiftmodel-bool), [SetKitCreature(CreatureModel)](/api/Global/Model/UnitModel#setkitcreature-creaturemodel), [ReleaseKitCreature(bool)](/api/Global/Model/UnitModel#releasekitcreature-bool), [GetWeaponSpriteSrc()](/api/Global/Model/UnitModel#getweaponspritesrc), [Attack(UnitModel)](/api/Global/Model/UnitModel#attack-unitmodel), [IsAttackState()](/api/Global/Model/UnitModel#isattackstate), [InWeaponRange(UnitModel)](/api/Global/Model/UnitModel#inweaponrange-unitmodel), [StopAttack()](/api/Global/Model/UnitModel#stopattack), [OnGiveDamageByWeapon()](/api/Global/Model/UnitModel#ongivedamagebyweapon), [GetDamageFactorByEquipment()](/api/Global/Model/UnitModel#getdamagefactorbyequipment), [OnEndAttackCycle()](/api/Global/Model/UnitModel#onendattackcycle), [EndAttackAnimation()](/api/Global/Model/UnitModel#endattackanimation), [GetEGObonus()](/api/Global/Model/UnitModel#getegobonus), [HasEquipment(int)](/api/Global/Model/UnitModel#hasequipment-int), [AddSuperArmorMax(float)](/api/Global/Model/UnitModel#addsuperarmormax-float), [SubSuperArmorMax(float)](/api/Global/Model/UnitModel#subsuperarmormax-float), [TakeDamage(DamageInfo)](/api/Global/Model/UnitModel#takedamage-damageinfo), [MakeDamageEffect(RwbpType, float, Type)](/api/Global/Model/UnitModel#makedamageeffect-rwbptype-float-type), [ClearWorkerEncounting()](/api/Global/Model/UnitModel#clearworkerencounting), [CheckNearWorkerEncounting()](/api/Global/Model/UnitModel#checknearworkerencounting), [IsStunned()](/api/Global/Model/UnitModel#isstunned), [OnSuperArmorBreak()](/api/Global/Model/UnitModel#onsuperarmorbreak), [SetMoveDelay(float)](/api/Global/Model/UnitModel#setmovedelay-float), [SetAttackDelay()](/api/Global/Model/UnitModel#setattackdelay), [SetAttackDelay(float)](/api/Global/Model/UnitModel#setattackdelay-float), [UpdateBufState()](/api/Global/Model/UnitModel#updatebufstate), [AddUnitBuf(UnitBuf)](/api/Global/Model/UnitModel#addunitbuf-unitbuf), [HasUnitBuf(UnitBufType)](/api/Global/Model/UnitModel#hasunitbuf-unitbuftype), [GetUnitBufByType(UnitBufType)](/api/Global/Model/UnitModel#getunitbufbytype-unitbuftype), [RemoveUnitBuf(UnitBuf)](/api/Global/Model/UnitModel#removeunitbuf-unitbuf), [GetMaxHpBuf()](/api/Global/Model/UnitModel#getmaxhpbuf), [GetMaxMentalBuf()](/api/Global/Model/UnitModel#getmaxmentalbuf), [GetCubeSpeedBuf()](/api/Global/Model/UnitModel#getcubespeedbuf), [GetWorkProbBuf()](/api/Global/Model/UnitModel#getworkprobbuf), [GetAttackSpeedBuf()](/api/Global/Model/UnitModel#getattackspeedbuf), [GetMovementBuf()](/api/Global/Model/UnitModel#getmovementbuf), [GetPrimaryStatBuf()](/api/Global/Model/UnitModel#getprimarystatbuf), [GetMovementScaleByBuf()](/api/Global/Model/UnitModel#getmovementscalebybuf), [SetFaction(FactionTypeInfo)](/api/Global/Model/UnitModel#setfaction-factiontypeinfo), [SetFaction(string)](/api/Global/Model/UnitModel#setfaction-string), [GetFaction()](/api/Global/Model/UnitModel#getfaction), [SetFactionForcely(string)](/api/Global/Model/UnitModel#setfactionforcely-string), [OnStunEnd()](/api/Global/Model/UnitModel#onstunend), [GetDmgMultiplierByEgoLevel(int, int)](/api/Global/Model/UnitModel#getdmgmultiplierbyegolevel-int-int), [GetBufDamageMultiplier(UnitModel, DamageInfo)](/api/Global/Model/UnitModel#getbufdamagemultiplier-unitmodel-damageinfo), [GetUnitBufByName(string)](/api/Global/Model/UnitModel#getunitbufbyname-string), [GetUnitBufList()](/api/Global/Model/UnitModel#getunitbuflist), [Equipment](/api/Global/Model/UnitModel#equipment), [radius](/api/Global/Model/UnitModel#radius), [damage](/api/Global/Model/UnitModel#damage), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

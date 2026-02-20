@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.DefaultTwoHandedType
 canonical_path: /api/WorkerSpine/DefaultTwoHandedType
@@ -61,4 +62,5 @@ SPEAR = 1
 
 #### Field Value
 **Type:** WorkerSpine.DefaultTwoHandedType
+
 

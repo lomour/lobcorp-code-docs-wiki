@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DamageOption
 canonical_path: /api/Global/Misc/DamageOption
@@ -37,4 +38,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.DamageOption
+
 

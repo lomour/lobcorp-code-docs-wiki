@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LocalizeTextDataLoader
 canonical_path: /api/Global/Loader/LocalizeTextDataLoader
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Loader/LocalizeTextDataLoader
 ```csharp
 public class LocalizeTextDataLoader
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads language change information, and hence most text in the game.
 
 See also [LocalizeTextDataModel](/api/Global/Model/LocalizeTextDataModel)
@@ -25,8 +29,6 @@ See also [LocalizeTextDataModel](/api/Global/Model/LocalizeTextDataModel)
 ```csharp
 public LocalizeTextDataLoader(string lang)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -61,7 +63,6 @@ public void CheckDirText(DirectoryInfo dir, Dictionary<string, string> dic)
 ```csharp
 private string[] GetLocalizeList()
 ```
-#INC
 
 
 #### Returns
@@ -71,7 +72,6 @@ private string[] GetLocalizeList()
 ```csharp
 public void LoadLocalizeTextData()
 ```
-#INC
 
 
 ### LoadText(XmlDocument)
@@ -89,4 +89,5 @@ public Dictionary<string, string> LoadText(XmlDocument document)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

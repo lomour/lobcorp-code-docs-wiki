@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraCharacterModel
 canonical_path: /api/Global/Model/SefiraCharacterModel
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Model/SefiraCharacterModel
 ```csharp
 public class SefiraCharacterModel
 ```
-Represents a Sephirah and whether their department is open. #INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Represents a Sephirah and whether their department is open. 
 
 
 ## Inheritance
@@ -23,8 +27,6 @@ Represents a Sephirah and whether their department is open. #INC
 ```csharp
 public SefiraCharacterModel(SefiraEnum sefira)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -38,7 +40,6 @@ public SefiraCharacterModel(SefiraEnum sefira)
 ```csharp
 public bool bInit
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +49,6 @@ public bool bInit
 ```csharp
 public int level
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +58,6 @@ public int level
 ```csharp
 public SefiraEnum sefira
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +69,6 @@ public SefiraEnum sefira
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -80,7 +78,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -92,9 +89,9 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnOpenSefira()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

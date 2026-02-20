@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OfficerSpecialAction
 canonical_path: /api/Global/Action/OfficerSpecialAction
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Action/OfficerSpecialAction
 ```csharp
 public class OfficerSpecialAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Not used.
 
 Holds information for a [clerk](/api/Global/Worker/OfficerUnit) to move around.
@@ -43,7 +47,6 @@ Creates a new clerk action with the given parameters.
 ```csharp
 public string animParam
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +56,6 @@ public string animParam
 ```csharp
 public int animVal
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +65,6 @@ public int animVal
 ```csharp
 private MapNode excutedPos
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +74,6 @@ private MapNode excutedPos
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +83,6 @@ public int id
 ```csharp
 public string nodeId
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +100,6 @@ public List<OfficerSpecialAction.PosData> posData
 ```csharp
 public bool shouldMove
 ```
-#INC
 
 
 #### Field Value
@@ -129,4 +127,5 @@ public OfficerSpecialAction.PosData GetPos()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

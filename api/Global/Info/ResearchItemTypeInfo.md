@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchItemTypeInfo
 canonical_path: /api/Global/Info/ResearchItemTypeInfo
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Info/ResearchItemTypeInfo
 ```csharp
 public class ResearchItemTypeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds information about a type of [research](/api/Global/Model/ResearchItemModel).
 
 See also [ResearchItemTypeList](/api/Global/List/ResearchItemTypeList)
 
-#INC 
+
 
 
 ## Inheritance
@@ -34,7 +38,6 @@ public ResearchItemTypeInfo()
 ```csharp
 public string atlas
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ public string atlas
 ```csharp
 public int[] cost
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ public int[] cost
 ```csharp
 public Dictionary<string, ResearchItemDesc> desc
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ public Dictionary<string, ResearchItemDesc> desc
 ```csharp
 public string icon
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ public string icon
 ```csharp
 private const string iconDefSrc = "Sprites/UI/Icons/Research/"
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private const string iconDefSrc = "Sprites/UI/Icons/Research/"
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public int id
 ```csharp
 public int maxLevel
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ public int maxLevel
 ```csharp
 public List<int> prevResearch
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ public List<int> prevResearch
 ```csharp
 public string sephira
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public string sephira
 ```csharp
 public ResearchType type
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ public ResearchType type
 ```csharp
 public ResearchUpgradeInfo[] upgradeInfos
 ```
-#INC
 
 
 #### Field Value
@@ -146,8 +139,6 @@ public ResearchUpgradeInfo[] upgradeInfos
 ```csharp
 public static int CompareById(ResearchItemTypeInfo a, ResearchItemTypeInfo b)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -163,7 +154,6 @@ public static int CompareById(ResearchItemTypeInfo a, ResearchItemTypeInfo b)
 ```csharp
 public ResearchItemDesc GetDesc()
 ```
-#INC
 
 
 #### Returns
@@ -173,7 +163,6 @@ public ResearchItemDesc GetDesc()
 ```csharp
 public Sprite GetIcon()
 ```
-#INC
 
 
 #### Returns
@@ -181,4 +170,5 @@ public Sprite GetIcon()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

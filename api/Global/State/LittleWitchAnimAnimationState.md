@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LittleWitchAnim.AnimationState
 canonical_path: /api/Global/State/LittleWitchAnimAnimationState
@@ -37,4 +38,5 @@ WORK = 1
 
 #### Field Value
 **Type:** Global.LittleWitchAnim.AnimationState
+
 

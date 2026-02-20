@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MotherBug.AnimationState
 canonical_path: /api/Global/State/MotherBugAnimationState
@@ -61,4 +62,5 @@ SPAWN = 3
 
 #### Field Value
 **Type:** Global.MotherBug.AnimationState
+
 

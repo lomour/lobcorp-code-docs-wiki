@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SkillTrigger
 canonical_path: /api/Global/Misc/SkillTrigger
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SkillTrigger
 ```csharp
 public class SkillTrigger
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores the event to call when called by [SkillTriggerCheck](/api/Global/Misc/SkillTriggerCheck).
 
-#INC 
+
 
 
 ## Inheritance
@@ -59,7 +63,6 @@ public List<SkillTrigger.CalledEvent> calledEvent
 ```csharp
 public bool check
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +72,6 @@ public bool check
 ```csharp
 public bool clearOnActivated
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +81,6 @@ public bool clearOnActivated
 ```csharp
 public bool clearOnFalse
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +98,6 @@ public List<SkillTrigger.CalledEvent> commonClearEvent
 ```csharp
 public int currentCount
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +107,6 @@ public int currentCount
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +116,6 @@ public int index
 ```csharp
 public int maxCount
 ```
-#INC
 
 
 #### Field Value
@@ -129,15 +127,12 @@ public int maxCount
 ```csharp
 public virtual void Init()
 ```
-#INC
 
 
 ### isActivated(object)
 ```csharp
 public virtual bool isActivated(object checkedTarget)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -152,9 +147,9 @@ public virtual bool isActivated(object checkedTarget)
 ```csharp
 public virtual void OnSkillActivated()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

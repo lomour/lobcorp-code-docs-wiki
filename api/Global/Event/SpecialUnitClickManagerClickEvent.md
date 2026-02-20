@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SpecialUnitClickManager.ClickEvent
 canonical_path: /api/Global/Event/SpecialUnitClickManagerClickEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(Vector3 pos)
 | Name | Type | Description |
 | --- | --- | --- |
 | `pos` | `UnityEngine.Vector3` |  |
+
 

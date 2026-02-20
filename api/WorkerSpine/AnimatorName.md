@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.AnimatorName
 canonical_path: /api/WorkerSpine/AnimatorName
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSpine/AnimatorName
 ```csharp
 public class AnimatorName
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 List of strings and IDs associated to each 'Animator' (i.e., animation)
 
 
@@ -30,7 +34,6 @@ public AnimatorName()
 ```csharp
 public static string AgentPanic
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public static string AgentPanic
 ```csharp
 public static string AlriuneAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public static string AlriuneAgentDead
 ```csharp
 public static string ArmorCreatureDead
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public static string ArmorCreatureDead
 ```csharp
 public static string BakuAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ public static string BakuAgentDead
 ```csharp
 public static string BeautyBeastAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ public static string BeautyBeastAgentDead
 ```csharp
 public static string BigBirdAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ public static string BigBirdAgentDead
 ```csharp
 public static string BlackCorpsAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ public static string BlackCorpsAgentCTRL
 ```csharp
 public static string BlueStarAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +106,6 @@ public static string BlueStarAgentDead
 ```csharp
 public static string ButterflyAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ public static string ButterflyAgentDead
 ```csharp
 public static string FairyAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +124,6 @@ public static string FairyAgentDead
 ```csharp
 public static string FireBirdAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -140,7 +133,6 @@ public static string FireBirdAgentDead
 ```csharp
 public static string GreedWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +142,6 @@ public static string GreedWeapon
 ```csharp
 public static string HappyTeddyAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -160,7 +151,6 @@ public static string HappyTeddyAgentDead
 ```csharp
 public static string HealthBraceletDead
 ```
-#INC
 
 
 #### Field Value
@@ -170,7 +160,6 @@ public static string HealthBraceletDead
 ```csharp
 public static string HelperWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -180,7 +169,6 @@ public static string HelperWeapon
 ```csharp
 public static string JusticeReceiverAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -190,7 +178,6 @@ public static string JusticeReceiverAgentDead
 ```csharp
 public static string KnightOfDespairDead
 ```
-#INC
 
 
 #### Field Value
@@ -200,7 +187,6 @@ public static string KnightOfDespairDead
 ```csharp
 public static string LongBirdAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -210,7 +196,6 @@ public static string LongBirdAgentDead
 ```csharp
 public static string LongBirdWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -220,7 +205,6 @@ public static string LongBirdWeapon
 ```csharp
 public static string MachineDawnAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -230,7 +214,6 @@ public static string MachineDawnAgentDead
 ```csharp
 public static string NamelessFetusAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -240,7 +223,6 @@ public static string NamelessFetusAgentDead
 ```csharp
 public static string OrchestraAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -250,7 +232,6 @@ public static string OrchestraAgentDead
 ```csharp
 public static string OtherWorldPortrait
 ```
-#INC
 
 
 #### Field Value
@@ -260,7 +241,6 @@ public static string OtherWorldPortrait
 ```csharp
 public static string OtherWorldPortraitDead
 ```
-#INC
 
 
 #### Field Value
@@ -270,7 +250,6 @@ public static string OtherWorldPortraitDead
 ```csharp
 public static string PianoAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -280,7 +259,6 @@ public static string PianoAgentCTRL
 ```csharp
 public static string PianoAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -290,7 +268,6 @@ public static string PianoAgentDead
 ```csharp
 public static string PinkCorpsAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -300,7 +277,6 @@ public static string PinkCorpsAgentCTRL
 ```csharp
 public static string PlagueDoctorAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -310,7 +286,6 @@ public static string PlagueDoctorAgentCTRL
 ```csharp
 public static string PorccuAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -320,7 +295,6 @@ public static string PorccuAgentDead
 ```csharp
 public static string ProphecyOfSkinDead
 ```
-#INC
 
 
 #### Field Value
@@ -330,7 +304,6 @@ public static string ProphecyOfSkinDead
 ```csharp
 public static string RedShoesAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -340,7 +313,6 @@ public static string RedShoesAgentCTRL
 ```csharp
 public static string RedShoesAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -350,7 +322,6 @@ public static string RedShoesAgentDead
 ```csharp
 public static string SakuraAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -360,7 +331,6 @@ public static string SakuraAgentDead
 ```csharp
 public static string ScarecrowAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -370,7 +340,6 @@ public static string ScarecrowAgentDead
 ```csharp
 public static string SilentOrchestraWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -380,7 +349,6 @@ public static string SilentOrchestraWeapon
 ```csharp
 public static string SingingMachineAttackerAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -390,7 +358,6 @@ public static string SingingMachineAttackerAgentCTRL
 ```csharp
 public static string SingingMachineDieAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -400,7 +367,6 @@ public static string SingingMachineDieAgentCTRL
 ```csharp
 public static string SlimeGirlAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -410,7 +376,6 @@ public static string SlimeGirlAgentDead
 ```csharp
 public static string SnowQueenAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -420,7 +385,6 @@ public static string SnowQueenAgentCTRL
 ```csharp
 public static string SnowWhiteAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -430,7 +394,6 @@ public static string SnowWhiteAgentDead
 ```csharp
 public static string SpiderMomAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -440,7 +403,6 @@ public static string SpiderMomAgentDead
 ```csharp
 public static string TheresiaUse
 ```
-#INC
 
 
 #### Field Value
@@ -450,7 +412,6 @@ public static string TheresiaUse
 ```csharp
 public static string ViscusSnakeAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -460,7 +421,6 @@ public static string ViscusSnakeAgentDead
 ```csharp
 public static string WellcheersAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -470,7 +430,6 @@ public static string WellcheersAgentCTRL
 ```csharp
 public static string YggdrasilAgentCTRL
 ```
-#INC
 
 
 #### Field Value
@@ -480,7 +439,6 @@ public static string YggdrasilAgentCTRL
 ```csharp
 public static string YggdrasilAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -490,7 +448,6 @@ public static string YggdrasilAgentDead
 ```csharp
 public static string YoungPrinceAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -498,4 +455,5 @@ public static string YoungPrinceAgentDead
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.YoungPrince.YoungPricePhase
 canonical_path: /api/Global/Phase/YoungPrinceYoungPricePhase
@@ -37,4 +38,5 @@ DEFAULT = 0
 
 #### Field Value
 **Type:** Global.YoungPrince.YoungPricePhase
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureEscapeType
 canonical_path: /api/Global/Type/CreatureEscapeType
@@ -45,4 +46,5 @@ WANDER = 3
 
 #### Field Value
 **Type:** Global.CreatureEscapeType
+
 

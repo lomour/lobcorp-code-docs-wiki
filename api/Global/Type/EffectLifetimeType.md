@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EffectLifetimeType
 canonical_path: /api/Global/Type/EffectLifetimeType
@@ -29,4 +30,5 @@ UNSCALED = 1
 
 #### Field Value
 **Type:** Global.EffectLifetimeType
+
 

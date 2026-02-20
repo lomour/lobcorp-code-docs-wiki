@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SplashInfo
 canonical_path: /api/Global/Info/SplashInfo
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Info/SplashInfo
 ```csharp
 public class SplashInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the [type of splash damage](/api/Global/Type/SplashType) and range of a given attack.
 
 
@@ -30,7 +34,6 @@ public SplashInfo()
 ```csharp
 public bool iff
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public bool iff
 ```csharp
 public float range
 ```
-#INC
 
 
 #### Field Value
@@ -50,8 +52,6 @@ public float range
 ```csharp
 public SplashType type
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -59,4 +59,5 @@ public SplashType type
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

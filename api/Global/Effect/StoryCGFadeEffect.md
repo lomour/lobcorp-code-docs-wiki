@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryCGFadeEffect
 canonical_path: /api/Global/Effect/StoryCGFadeEffect
@@ -61,4 +62,5 @@ NONE = 1
 
 #### Field Value
 **Type:** Global.StoryCGFadeEffect
+
 

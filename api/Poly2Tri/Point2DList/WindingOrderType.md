@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.Point2DList.WindingOrderType
 canonical_path: /api/Poly2Tri/Point2DList/WindingOrderType
@@ -45,4 +46,5 @@ Unknown = 2
 
 #### Field Value
 **Type:** Poly2Tri.Point2DList.WindingOrderType
+
 

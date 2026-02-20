@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ThrowScript.ThrowEnded
 canonical_path: /api/Global/Misc/ThrowScriptThrowEnded
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

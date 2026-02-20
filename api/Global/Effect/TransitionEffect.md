@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TransitionEffect
 canonical_path: /api/Global/Effect/TransitionEffect
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Effect/TransitionEffect
 ```csharp
 public class TransitionEffect
 ```
-#unused #maybe_unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -30,7 +37,6 @@ public TransitionEffect()
 ```csharp
 private bool _isBigger
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +46,6 @@ private bool _isBigger
 ```csharp
 public float bicScale
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +55,6 @@ public float bicScale
 ```csharp
 public float smallScale
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +64,6 @@ public float smallScale
 ```csharp
 public AnimationCurve TransitionCurve
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +73,6 @@ public AnimationCurve TransitionCurve
 ```csharp
 public float TransitionTime
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +82,6 @@ public float TransitionTime
 ```csharp
 public Timer TransitionTimer
 ```
-#INC
 
 
 #### Field Value
@@ -110,8 +111,6 @@ public bool IsTrans { get; }
 ```csharp
 public void StartTransition(bool isBigger)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -123,9 +122,9 @@ public void StartTransition(bool isBigger)
 ```csharp
 public void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

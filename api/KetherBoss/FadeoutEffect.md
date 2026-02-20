@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.FadeoutEffect
 canonical_path: /api/KetherBoss/FadeoutEffect
@@ -11,8 +12,11 @@ canonical_path: /api/KetherBoss/FadeoutEffect
 ```csharp
 public class FadeoutEffect : KetherLastEffectBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#INC 
+
+
 
 
 ## Inheritance
@@ -24,7 +28,6 @@ public class FadeoutEffect : KetherLastEffectBase
 ```csharp
 public FadeoutEffect(KetherLastBossBase bossBase)
 ```
-#INC
 
 
 #### Parameters
@@ -38,7 +41,6 @@ public FadeoutEffect(KetherLastBossBase bossBase)
 ```csharp
 private static MinMax _bloom_amount
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +50,6 @@ private static MinMax _bloom_amount
 ```csharp
 private static MinMax _bloom_glow
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +59,6 @@ private static MinMax _bloom_glow
 ```csharp
 private static MinMax _brightness
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +68,6 @@ private static MinMax _brightness
 ```csharp
 private Camera _cam
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +77,6 @@ private Camera _cam
 ```csharp
 private Timer _lifeTimer
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +86,6 @@ private Timer _lifeTimer
 ```csharp
 private CameraFilterPack_Blur_Bloom bloom
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +95,6 @@ private CameraFilterPack_Blur_Bloom bloom
 ```csharp
 private CameraFilterPack_Colors_Brightness brightness
 ```
-#INC
 
 
 #### Field Value
@@ -120,17 +116,15 @@ public Camera Camera { get; }
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

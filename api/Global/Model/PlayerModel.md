@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PlayerModel
 canonical_path: /api/Global/Model/PlayerModel
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Model/PlayerModel
 ```csharp
 public class PlayerModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds some state for the current playthrough.
 
 Responsible for:
@@ -29,8 +33,7 @@ Also, has the EmergencyController in it, which controls the current trumpet.
 ### Core
 
 #### void Init()
-Resets game-overs, memory repository, sets day to 0, and clears the queue of waiting creatures[^1]. #inc
-
+Resets game-overs, memory repository, sets day to 0, and clears the queue of waiting creatures[^1]. 
 [^1]: Does not use InitAddingCreatures
 #### public Dictionary\<string, object> GetSaveData()
 Returns a dictionary with one key, "day", with the value of the current day.
@@ -39,7 +42,7 @@ Unflags the Day 47-49 game over flag (and the unused memoryInit flag), then read
 ### Abnormality Queue
 
 #### public void InitAddingCreatures()
-Clears the queue of waiting abnormalities. Used by title Day 1 resets and total resets. #INC 
+Clears the queue of waiting abnormalities. Used by title Day 1 resets and total resets. 
 #### public void AddWaitingCreature(long id)
 Queues the abnormality with the given id.
 Used by the [abnormality extraction UI](/api/Global/IANimatorEventCalled/CreatureSelectUI), [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) (to load save data), and [ConsoleCommand](/api/Global/Misc/ConsoleCommand) for the fifo command.
@@ -89,8 +92,6 @@ Debug tool to open Asiyah and Briah with abnormalities in them. Not used.
 ```csharp
 private PlayerModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -99,7 +100,6 @@ private PlayerModel()
 ```csharp
 private static PlayerModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +109,6 @@ private static PlayerModel _instance
 ```csharp
 private bool _ketherGameOver
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +118,6 @@ private bool _ketherGameOver
 ```csharp
 private bool _memoryInit
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +127,6 @@ private bool _memoryInit
 ```csharp
 public Queue<long> addedCreature
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +136,6 @@ public Queue<long> addedCreature
 ```csharp
 public EmergencyLevel currentEmergencyLevel
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +145,6 @@ public EmergencyLevel currentEmergencyLevel
 ```csharp
 private int day
 ```
-#INC
 
 
 #### Field Value
@@ -167,7 +162,6 @@ public static PlayerModel.EmergencyController emergencyController
 ```csharp
 private const int First = 10
 ```
-#INC
 
 
 #### Field Value
@@ -177,7 +171,6 @@ private const int First = 10
 ```csharp
 private const long nullcreature = 100005
 ```
-#INC
 
 
 #### Field Value
@@ -187,7 +180,6 @@ private const long nullcreature = 100005
 ```csharp
 private const long orchestra = 100019
 ```
-#INC
 
 
 #### Field Value
@@ -197,7 +189,6 @@ private const long orchestra = 100019
 ```csharp
 public Vector3 playerSpot
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +198,6 @@ public Vector3 playerSpot
 ```csharp
 private const int Second = 20
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +207,6 @@ private const int Second = 20
 ```csharp
 private const int Third = 30
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +244,6 @@ public bool memoryInit { get; }
 ```csharp
 public void AddWaitingCreature(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -267,7 +255,6 @@ public void AddWaitingCreature(long id)
 ```csharp
 public List<long> CopyWaitingCreatures()
 ```
-#INC
 
 
 #### Returns
@@ -277,7 +264,6 @@ public List<long> CopyWaitingCreatures()
 ```csharp
 public int GetDay()
 ```
-#INC
 
 
 #### Returns
@@ -287,7 +273,6 @@ public int GetDay()
 ```csharp
 public int GetOpenedAreaCount()
 ```
-#INC
 
 
 #### Returns
@@ -297,7 +282,6 @@ public int GetOpenedAreaCount()
 ```csharp
 public Sefira[] GetOpenedAreaList()
 ```
-#INC
 
 
 #### Returns
@@ -307,7 +291,6 @@ public Sefira[] GetOpenedAreaList()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -317,7 +300,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public bool GetWaitingCreature(out long id)
 ```
-#INC
 
 
 #### Parameters
@@ -332,21 +314,18 @@ public bool GetWaitingCreature(out long id)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InitAddingCreatures()
 ```csharp
 public void InitAddingCreatures()
 ```
-#INC
 
 
 ### IsWaitingCreature(long)
 ```csharp
 public bool IsWaitingCreature(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -361,7 +340,6 @@ public bool IsWaitingCreature(long id)
 ```csharp
 public bool IsWaitingCreatureExist()
 ```
-#INC
 
 
 #### Returns
@@ -371,7 +349,6 @@ public bool IsWaitingCreatureExist()
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -383,21 +360,18 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void Nextday()
 ```
-#INC
 
 
 ### Remember()
 ```csharp
 public void Remember()
 ```
-#INC
 
 
 ### SetDay(int)
 ```csharp
 public void SetDay(int day)
 ```
-#INC
 
 
 #### Parameters
@@ -409,21 +383,18 @@ public void SetDay(int day)
 ```csharp
 public void SetKetherGameOver()
 ```
-#INC
 
 
 ### TempMakeCreature()
 ```csharp
 private void TempMakeCreature()
 ```
-#INC
 
 
 ### UnlimitMode(string)
 ```csharp
 public void UnlimitMode(string saveVer)
 ```
-#INC
 
 
 #### Parameters
@@ -433,4 +404,5 @@ public void UnlimitMode(string saveVer)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

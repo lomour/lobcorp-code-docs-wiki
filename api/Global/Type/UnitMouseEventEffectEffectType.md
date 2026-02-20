@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitMouseEventEffect.EffectType
 canonical_path: /api/Global/Type/UnitMouseEventEffectEffectType
@@ -29,4 +30,5 @@ OVERLAY = 0
 
 #### Field Value
 **Type:** Global.UnitMouseEventEffect.EffectType
+
 

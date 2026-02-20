@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GeburahProjectile.MovementType
 canonical_path: /api/Global/Type/GeburahProjectileMovementType
@@ -29,4 +30,5 @@ QUEUE = 1
 
 #### Field Value
 **Type:** Global.GeburahProjectile.MovementType
+
 

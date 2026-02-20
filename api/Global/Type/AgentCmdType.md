@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentCmdType
 canonical_path: /api/Global/Type/AgentCmdType
@@ -45,4 +46,5 @@ UNKNOWN = 1
 
 #### Field Value
 **Type:** Global.AgentCmdType
+
 

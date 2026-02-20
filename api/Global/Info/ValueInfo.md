@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ValueInfo
 canonical_path: /api/Global/Info/ValueInfo
@@ -11,7 +12,13 @@ canonical_path: /api/Global/Info/ValueInfo
 ```csharp
 public class ValueInfo
 ```
-#unused #maybe_unused 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
+
 
 
 ## Inheritance
@@ -23,8 +30,6 @@ public class ValueInfo
 ```csharp
 public ValueInfo(int hp, int mental, int workspeed, int movement)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +46,6 @@ public ValueInfo(int hp, int mental, int workspeed, int movement)
 ```csharp
 public int hp
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +55,6 @@ public int hp
 ```csharp
 public int mental
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +64,6 @@ public int mental
 ```csharp
 public int movementSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +73,6 @@ public int movementSpeed
 ```csharp
 public int[] stats
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +82,6 @@ public int[] stats
 ```csharp
 public int workSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +93,6 @@ public int workSpeed
 ```csharp
 public static ValueInfo getAverage()
 ```
-#INC
 
 
 #### Returns
@@ -103,7 +102,6 @@ public static ValueInfo getAverage()
 ```csharp
 public void SetVal(int hp, int mental, int workSpeed, int movement)
 ```
-#INC
 
 
 #### Parameters
@@ -116,4 +114,5 @@ public void SetVal(int hp, int mental, int workSpeed, int movement)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateInfoManager
 canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager
 ```csharp
 public class CreatureGenerateInfoManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Main class of this area.
 
 Holds a lot of data and helper functions for abnormality extraction.
@@ -38,7 +42,6 @@ public CreatureGenerateInfoManager()
 ```csharp
 private int _genDay
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +51,6 @@ private int _genDay
 ```csharp
 private bool _genKit
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +60,6 @@ private bool _genKit
 ```csharp
 private static CreatureGenerateInfoManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +69,6 @@ private static CreatureGenerateInfoManager _instance
 ```csharp
 private bool _isInitiated
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +78,6 @@ private bool _isInitiated
 ```csharp
 private bool _isLoadedDayData
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +87,6 @@ private bool _isLoadedDayData
 ```csharp
 public Dictionary<RiskLevel, ActivateStateList> activateStateDic
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +96,6 @@ public Dictionary<RiskLevel, ActivateStateList> activateStateDic
 ```csharp
 public Dictionary<RiskLevel, List<long>> CreatureList
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +105,6 @@ public Dictionary<RiskLevel, List<long>> CreatureList
 ```csharp
 public Dictionary<int, CreatureGenerateModel> dayGenInfoDic
 ```
-#INC
 
 
 #### Field Value
@@ -118,7 +114,6 @@ public Dictionary<int, CreatureGenerateModel> dayGenInfoDic
 ```csharp
 private const string DebugPrefix = "<color=#FF2323>[CreatureGenerate]</color> "
 ```
-#INC
 
 
 #### Field Value
@@ -128,7 +123,6 @@ private const string DebugPrefix = "<color=#FF2323>[CreatureGenerate]</color> "
 ```csharp
 public List<string> GenerateCommonActionList
 ```
-#INC
 
 
 #### Field Value
@@ -138,7 +132,6 @@ public List<string> GenerateCommonActionList
 ```csharp
 public static readonly string[] GenerateCommonActionString
 ```
-#INC
 
 
 #### Field Value
@@ -148,7 +141,6 @@ public static readonly string[] GenerateCommonActionString
 ```csharp
 public Dictionary<int, CreatureSelectData> SelectData
 ```
-#INC
 
 
 #### Field Value
@@ -158,7 +150,6 @@ public Dictionary<int, CreatureSelectData> SelectData
 ```csharp
 private const string XMLFileSrc = "xml/CreatureGenInfo"
 ```
-#INC
 
 
 #### Field Value
@@ -212,21 +203,18 @@ public bool IsloadedDayData { get; }
 ```csharp
 public void CalculateDay()
 ```
-#INC
 
 
 ### CheckCreatureUseState()
 ```csharp
 private void CheckCreatureUseState()
 ```
-#INC
 
 
 ### CheckGenerationIgnore(long)
 ```csharp
 private bool CheckGenerationIgnore(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -241,7 +229,6 @@ private bool CheckGenerationIgnore(long id)
 ```csharp
 public bool CheckKitCreatureRemains()
 ```
-#INC
 
 
 #### Returns
@@ -251,7 +238,6 @@ public bool CheckKitCreatureRemains()
 ```csharp
 public void DebugCheck(int day)
 ```
-#INC
 
 
 #### Parameters
@@ -263,7 +249,6 @@ public void DebugCheck(int day)
 ```csharp
 public List<long> GetCreature()
 ```
-#INC
 
 
 #### Returns
@@ -273,7 +258,6 @@ public List<long> GetCreature()
 ```csharp
 public List<long> GetCreatureNew()
 ```
-#INC
 
 
 #### Returns
@@ -283,7 +267,6 @@ public List<long> GetCreatureNew()
 ```csharp
 public bool GetCreatureState(RiskLevel risk, out ActivateStateList list)
 ```
-#INC
 
 
 #### Parameters
@@ -299,7 +282,6 @@ public bool GetCreatureState(RiskLevel risk, out ActivateStateList list)
 ```csharp
 public bool HasUniqueAction(string[] split, out int index)
 ```
-#INC
 
 
 #### Parameters
@@ -315,21 +297,18 @@ public bool HasUniqueAction(string[] split, out int index)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InitCreatureList()
 ```csharp
 public void InitCreatureList()
 ```
-#INC
 
 
 ### IsUsedCreature(long)
 ```csharp
 private bool IsUsedCreature(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -344,7 +323,6 @@ private bool IsUsedCreature(long id)
 ```csharp
 private bool LoadDoor(string parsed, out CreatureGenerateDoor door)
 ```
-#INC
 
 
 #### Parameters
@@ -360,7 +338,6 @@ private bool LoadDoor(string parsed, out CreatureGenerateDoor door)
 ```csharp
 private bool LoadStaticData()
 ```
-#INC
 
 
 #### Returns
@@ -370,8 +347,6 @@ private bool LoadStaticData()
 ```csharp
 public static void Log(string text, bool isError = false)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -384,14 +359,12 @@ public static void Log(string text, bool isError = false)
 ```csharp
 public void OnDayChanged()
 ```
-#INC
 
 
 ### OnUsed(long)
 ```csharp
 public void OnUsed(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -403,7 +376,6 @@ public void OnUsed(long id)
 ```csharp
 private List<float> ParseDoor(string text)
 ```
-#INC
 
 
 #### Parameters
@@ -418,14 +390,12 @@ private List<float> ParseDoor(string text)
 ```csharp
 public void Print()
 ```
-#INC
 
 
 ### RemoveAction(long)
 ```csharp
 public void RemoveAction(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -435,4 +405,5 @@ public void RemoveAction(long id)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

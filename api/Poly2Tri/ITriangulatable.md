@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.ITriangulatable
 canonical_path: /api/Poly2Tri/ITriangulatable
@@ -146,4 +147,5 @@ void Prepare(TriangulationContext tcx)
 | Name | Type | Description |
 | --- | --- | --- |
 | `tcx` | `Poly2Tri.TriangulationContext` |  |
+
 

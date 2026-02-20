@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Assets.Scripts.UI.Utils.EnumTextConverter
 canonical_path: /api/Assets/Scripts/UI/Utils/EnumTextConverter
@@ -11,6 +12,9 @@ canonical_path: /api/Assets/Scripts/UI/Utils/EnumTextConverter
 ```csharp
 public static class EnumTextConverter
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Convert certain enums to readable text, and vice versa.
 
 Vulnerabilities -> text, damage types -> text, and damage type text -> damage type enum.
@@ -25,8 +29,6 @@ Vulnerabilities -> text, damage types -> text, and damage type text -> damage ty
 ```csharp
 public static string GetDefenseType(DefenseInfo.Type type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public static string GetDefenseType(DefenseInfo.Type type)
 ```csharp
 public static string GetRwbpType(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -56,7 +57,6 @@ public static string GetRwbpType(RwbpType type)
 ```csharp
 public static RwbpType GetRwbpType(string type)
 ```
-#INC
 
 
 #### Parameters
@@ -69,4 +69,5 @@ public static RwbpType GetRwbpType(string type)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IMouseOnSelectListener
 canonical_path: /api/Global/Misc/IMouseOnSelectListener
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/IMouseOnSelectListener
 ```csharp
 public interface IMouseOnSelectListener
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface for listeners of being selected by the mouse (presumably, by clicking).
 
 Implemented by:
@@ -34,8 +38,6 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
 ```csharp
 bool IsSelectable()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -45,13 +47,12 @@ bool IsSelectable()
 ```csharp
 void OnSelect()
 ```
-#INC
 
 
 ### OnUnselect()
 ```csharp
 void OnUnselect()
 ```
-#INC
+
 
 

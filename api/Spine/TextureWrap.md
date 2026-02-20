@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.TextureWrap
 canonical_path: /api/Spine/TextureWrap
@@ -37,4 +38,5 @@ Repeat = 2
 
 #### Field Value
 **Type:** Spine.TextureWrap
+
 

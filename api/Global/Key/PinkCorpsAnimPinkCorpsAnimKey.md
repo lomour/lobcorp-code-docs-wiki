@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PinkCorpsAnim.PinkCorpsAnimKey
 canonical_path: /api/Global/Key/PinkCorpsAnimPinkCorpsAnimKey
@@ -61,4 +62,5 @@ RecoverAnimPlayed = 3
 
 #### Field Value
 **Type:** Global.PinkCorpsAnim.PinkCorpsAnimKey
+
 

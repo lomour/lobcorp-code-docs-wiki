@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSpine.WorkerSpineAnimatorData
 canonical_path: /api/WorkerSpine/WorkerSpineAnimatorData
@@ -11,9 +12,12 @@ canonical_path: /api/WorkerSpine/WorkerSpineAnimatorData
 ```csharp
 public class WorkerSpineAnimatorData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 stores an animation source, and loads it?
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,15 +29,12 @@ stores an animation source, and loads it?
 ```csharp
 public WorkerSpineAnimatorData()
 ```
-#INC
-#code-generated
 
 
 ### WorkerSpineAnimatorData(int, string)
 ```csharp
 public WorkerSpineAnimatorData(int id, string name)
 ```
-#INC
 
 
 #### Parameters
@@ -46,7 +47,6 @@ public WorkerSpineAnimatorData(int id, string name)
 ```csharp
 public WorkerSpineAnimatorData(int id, string name, string animatorSrc, string skeletonSrc)
 ```
-#INC
 
 
 #### Parameters
@@ -63,7 +63,6 @@ public WorkerSpineAnimatorData(int id, string name, string animatorSrc, string s
 ```csharp
 private bool _isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ private bool _isLoaded
 ```csharp
 public RuntimeAnimatorController animator
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public RuntimeAnimatorController animator
 ```csharp
 public string animatorSrc
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public string animatorSrc
 ```csharp
 public int id
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public int id
 ```csharp
 public string name
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public string name
 ```csharp
 public SkeletonDataAsset skeletonData
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +117,6 @@ public SkeletonDataAsset skeletonData
 ```csharp
 public string skeletonSrc
 ```
-#INC
 
 
 #### Field Value
@@ -145,14 +138,12 @@ public bool IsLoaded { get; }
 ```csharp
 public void LoadData()
 ```
-#INC
 
 
 ### MakeDefault(RuntimeAnimatorController, SkeletonDataAsset)
 ```csharp
 public static WorkerSpineAnimatorData MakeDefault(RuntimeAnimatorController animator, SkeletonDataAsset dataAsset)
 ```
-#INC
 
 
 #### Parameters
@@ -166,4 +157,5 @@ public static WorkerSpineAnimatorData MakeDefault(RuntimeAnimatorController anim
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

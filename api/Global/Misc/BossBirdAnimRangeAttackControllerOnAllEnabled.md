@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdAnim.RangeAttackController.OnAllEnabled
 canonical_path: /api/Global/Misc/BossBirdAnimRangeAttackControllerOnAllEnabled
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

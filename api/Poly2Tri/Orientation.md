@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Poly2Tri.Orientation
 canonical_path: /api/Poly2Tri/Orientation
@@ -37,4 +38,5 @@ CW = 0
 
 #### Field Value
 **Type:** Poly2Tri.Orientation
+
 

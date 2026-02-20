@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ChopLeg.LegType
 canonical_path: /api/Global/Type/ChopLegLegType
@@ -29,4 +30,5 @@ B = 1
 
 #### Field Value
 **Type:** Global.ChopLeg.LegType
+
 

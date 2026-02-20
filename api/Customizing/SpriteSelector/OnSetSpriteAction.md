@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.SpriteSelector.OnSetSpriteAction
 canonical_path: /api/Customizing/SpriteSelector/OnSetSpriteAction
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

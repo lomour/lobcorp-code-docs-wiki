@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TOOL_MAP_NODE
 canonical_path: /api/Global/Misc/TOOLMAPNODE
@@ -37,4 +38,5 @@ sefira = 1
 
 #### Field Value
 **Type:** Global.TOOL_MAP_NODE
+
 

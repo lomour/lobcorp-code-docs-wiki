@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MissionConditionTypeInfo
 canonical_path: /api/Global/Info/MissionConditionTypeInfo
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Info/MissionConditionTypeInfo
 ```csharp
 public class MissionConditionTypeInfo
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds all the information for a mission completion condition.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,8 +36,6 @@ public MissionConditionTypeInfo()
 ```csharp
 public ConditionCategory condition_Category
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -43,7 +45,6 @@ public ConditionCategory condition_Category
 ```csharp
 public ConditionType condition_Type
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public ConditionType condition_Type
 ```csharp
 public int goal
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public int goal
 ```csharp
 public GoalType goal_Type
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public GoalType goal_Type
 ```csharp
 public int index
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public int index
 ```csharp
 public int minimumSecond
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public int minimumSecond
 ```csharp
 public int stat
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public int stat
 ```csharp
 public float var1
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public float var1
 ```csharp
 public float var2
 ```
-#INC
 
 
 #### Field Value
@@ -121,4 +115,5 @@ public float var2
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OfficerSpecialActionList
 canonical_path: /api/Global/List/OfficerSpecialActionList
@@ -11,6 +12,9 @@ canonical_path: /api/Global/List/OfficerSpecialActionList
 ```csharp
 public class OfficerSpecialActionList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Not used.
 
 Maintains a list of all [clerk actions](/api/Global/Action/OfficerSpecialAction), and a list of currently available clerk actions.
@@ -37,7 +41,6 @@ public OfficerSpecialActionList()
 ```csharp
 private List<OfficerSpecialAction> _list
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +50,6 @@ private List<OfficerSpecialAction> _list
 ```csharp
 public List<OfficerSpecialAction> currentAvaialbe
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +59,6 @@ public List<OfficerSpecialAction> currentAvaialbe
 ```csharp
 public int sefira
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +80,6 @@ public List<OfficerSpecialAction> list { get; }
 ```csharp
 public void AddList(OfficerSpecialAction osa)
 ```
-#INC
 
 
 #### Parameters
@@ -91,7 +91,6 @@ public void AddList(OfficerSpecialAction osa)
 ```csharp
 public OfficerSpecialAction GetRandomAction()
 ```
-#INC
 
 
 #### Returns
@@ -101,7 +100,6 @@ public OfficerSpecialAction GetRandomAction()
 ```csharp
 public void ResetAction(OfficerSpecialAction osa)
 ```
-#INC
 
 
 #### Parameters
@@ -113,9 +111,9 @@ public void ResetAction(OfficerSpecialAction osa)
 ```csharp
 public void ResetActionAll()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryFadeUI.StoryFadeEnd
 canonical_path: /api/Global/Misc/StoryFadeUIStoryFadeEnd
@@ -61,4 +62,5 @@ public virtual void Invoke(string nextStory)
 | Name | Type | Description |
 | --- | --- | --- |
 | `nextStory` | `System.String` |  |
+
 

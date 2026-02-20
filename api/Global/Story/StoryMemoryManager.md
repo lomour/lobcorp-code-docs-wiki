@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryMemoryManager
 canonical_path: /api/Global/Story/StoryMemoryManager
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Story/StoryMemoryManager
 ```csharp
 public class StoryMemoryManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Keeps track of which stories should be unlocked on this save file, for the story viewer.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public StoryMemoryManager()
 ```csharp
 private const string _filename = "saveStory.dat"
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private const string _filename = "saveStory.dat"
 ```csharp
 private static StoryMemoryManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private static StoryMemoryManager _instance
 ```csharp
 private const string _saveVer = "story1"
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private const string _saveVer = "story1"
 ```csharp
 private HashSet<string> _unlockedStorySet
 ```
-#INC
 
 
 #### Field Value
@@ -92,8 +92,6 @@ private string saveFileName { get; }
 ```csharp
 public List<string> GetUnlockedDayStoryList()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -103,7 +101,6 @@ public List<string> GetUnlockedDayStoryList()
 ```csharp
 public List<string> GetUnlockedSeedStoryList()
 ```
-#INC
 
 
 #### Returns
@@ -113,7 +110,6 @@ public List<string> GetUnlockedSeedStoryList()
 ```csharp
 public List<string> GetUnlockedSefiraStoryList(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -126,4 +122,5 @@ public List<string> GetUnlockedSefiraStoryList(SefiraEnum sefira)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

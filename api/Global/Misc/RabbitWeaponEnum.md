@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RabbitWeaponEnum
 canonical_path: /api/Global/Misc/RabbitWeaponEnum
@@ -29,4 +30,5 @@ RIFLE = 1
 
 #### Field Value
 **Type:** Global.RabbitWeaponEnum
+
 

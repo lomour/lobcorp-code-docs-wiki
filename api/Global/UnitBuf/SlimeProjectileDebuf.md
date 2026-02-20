@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SlimeProjectileDebuf
 canonical_path: /api/Global/UnitBuf/SlimeProjectileDebuf
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/SlimeProjectileDebuf
 ```csharp
 public class SlimeProjectileDebuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 DOT debuff applied by [Melting Love's projectile](/api/Global/Misc/SlimeGirlProjectile).
 
@@ -26,7 +30,6 @@ Does 2-3 black damage every 2 seconds for 10 seconds.
 ```csharp
 public SlimeProjectileDebuf(WorkerModel worker, SlimeGirl script)
 ```
-#INC
 
 
 #### Parameters
@@ -41,7 +44,6 @@ public SlimeProjectileDebuf(WorkerModel worker, SlimeGirl script)
 ```csharp
 private const int _dmgMax = 3
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +53,6 @@ private const int _dmgMax = 3
 ```csharp
 private const int _dmgMin = 2
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +62,6 @@ private const int _dmgMin = 2
 ```csharp
 private const float _dmgTickTime = 2
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +71,6 @@ private const float _dmgTickTime = 2
 ```csharp
 private const RwbpType _dmgType = B
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +80,6 @@ private const RwbpType _dmgType = B
 ```csharp
 private const float _remainTime = 10
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +89,6 @@ private const float _remainTime = 10
 ```csharp
 private Timer dmgTickTimer
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +98,6 @@ private Timer dmgTickTimer
 ```csharp
 private GameObject effect
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +107,6 @@ private GameObject effect
 ```csharp
 private SlimeGirl script
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +116,6 @@ private SlimeGirl script
 ```csharp
 private WorkerModel worker
 ```
-#INC
 
 
 #### Field Value
@@ -143,14 +137,12 @@ private static DamageInfo Dmg { get; }
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -162,17 +154,15 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnUnitDie()
 ```csharp
 public override void OnUnitDie()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

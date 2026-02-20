@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Assets.Scripts.UI.Isolate.DescController
 canonical_path: /api/Assets/Scripts/UI/Isolate/DescController
@@ -11,6 +12,9 @@ canonical_path: /api/Assets/Scripts/UI/Isolate/DescController
 ```csharp
 public class DescController
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Controller for one side of the containment unit, for displaying [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription)s.
 
 See also [IsolateDescManager](/api/Global/Misc/IsolateDescManager).
@@ -32,7 +36,6 @@ public DescController()
 ```csharp
 private IsolateDescController ctrl
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private IsolateDescController ctrl
 ```csharp
 public List<IsolateDescription> descList
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public List<IsolateDescription> descList
 ```csharp
 private List<IsolateDescription> disabled
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private List<IsolateDescription> disabled
 ```csharp
 private List<IsolateDescription> enabled
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ private List<IsolateDescription> enabled
 ```csharp
 public int maxmimumFont
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public int maxmimumFont
 ```csharp
 public int minimumFont
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public int minimumFont
 ```csharp
 public float minimumSpacing
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public float minimumSpacing
 ```csharp
 public RectTransform pivot
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +120,6 @@ public bool IsAvailable { get; }
 ```csharp
 public void Init(IsolateDescController ctrl)
 ```
-#INC
 
 
 #### Parameters
@@ -136,7 +131,6 @@ public void Init(IsolateDescController ctrl)
 ```csharp
 public void OnDisplay(string str, int id)
 ```
-#INC
 
 
 #### Parameters
@@ -149,7 +143,6 @@ public void OnDisplay(string str, int id)
 ```csharp
 public void OnDisplayEnd(IsolateDescription i)
 ```
-#INC
 
 
 #### Parameters
@@ -161,10 +154,9 @@ public void OnDisplayEnd(IsolateDescription i)
 ```csharp
 public void Terminal()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryOptionUI.DelegateEvent
 canonical_path: /api/Global/Event/StoryOptionUIDelegateEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

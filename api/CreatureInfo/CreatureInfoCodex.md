@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureInfo.CreatureInfoCodex
 canonical_path: /api/CreatureInfo/CreatureInfoCodex
@@ -11,6 +12,9 @@ canonical_path: /api/CreatureInfo/CreatureInfoCodex
 ```csharp
 public class CreatureInfoCodex : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Container for the whole codex (known abnormalities and such)
 
 
@@ -30,7 +34,6 @@ public CreatureInfoCodex()
 ```csharp
 public GameObject _activeControl
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public GameObject _activeControl
 ```csharp
 public GameObject _creditSlot
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public GameObject _creditSlot
 ```csharp
 public RectTransform _disabledLayout
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public RectTransform _disabledLayout
 ```csharp
 private int _dontouchmeCount
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private int _dontouchmeCount
 ```csharp
 public RectTransform _layout
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ public RectTransform _layout
 ```csharp
 private float _scrollElap
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ private float _scrollElap
 ```csharp
 public GameObject _slot
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ public GameObject _slot
 ```csharp
 private List<MonoBehaviour> allocateFilters
 ```
-#INC
 
 
 #### Field Value
@@ -110,7 +106,6 @@ private List<MonoBehaviour> allocateFilters
 ```csharp
 public Text Code
 ```
-#INC
 
 
 #### Field Value
@@ -120,7 +115,6 @@ public Text Code
 ```csharp
 private int currentDisplayIndex
 ```
-#INC
 
 
 #### Field Value
@@ -130,7 +124,6 @@ private int currentDisplayIndex
 ```csharp
 private const int displayCount = 15
 ```
-#INC
 
 
 #### Field Value
@@ -140,7 +133,6 @@ private const int displayCount = 15
 ```csharp
 private List<long> displayList
 ```
-#INC
 
 
 #### Field Value
@@ -150,7 +142,6 @@ private List<long> displayList
 ```csharp
 private const char div = '-'
 ```
-#INC
 
 
 #### Field Value
@@ -168,7 +159,6 @@ private static Comparison<CreatureInfoCodex.SortData> f__mg_cache0
 ```csharp
 public Button LowerArrow
 ```
-#INC
 
 
 #### Field Value
@@ -178,7 +168,6 @@ public Button LowerArrow
 ```csharp
 private int maxDisplayIndex
 ```
-#INC
 
 
 #### Field Value
@@ -188,7 +177,6 @@ private int maxDisplayIndex
 ```csharp
 public Text Name
 ```
-#INC
 
 
 #### Field Value
@@ -198,7 +186,6 @@ public Text Name
 ```csharp
 public Text Observation_Percent
 ```
-#INC
 
 
 #### Field Value
@@ -208,7 +195,6 @@ public Text Observation_Percent
 ```csharp
 public Text Observation_Title
 ```
-#INC
 
 
 #### Field Value
@@ -218,7 +204,6 @@ public Text Observation_Title
 ```csharp
 public Image Portrait
 ```
-#INC
 
 
 #### Field Value
@@ -228,7 +213,6 @@ public Image Portrait
 ```csharp
 public Text Risk
 ```
-#INC
 
 
 #### Field Value
@@ -238,7 +222,6 @@ public Text Risk
 ```csharp
 public Color[] riskColor
 ```
-#INC
 
 
 #### Field Value
@@ -248,7 +231,6 @@ public Color[] riskColor
 ```csharp
 public float ScrollDelay
 ```
-#INC
 
 
 #### Field Value
@@ -267,7 +249,6 @@ public GameObject SimpleStat
 ```csharp
 private Dictionary<long, GameObject> slotDic
 ```
-#INC
 
 
 #### Field Value
@@ -277,7 +258,6 @@ private Dictionary<long, GameObject> slotDic
 ```csharp
 private static long[] uniqueId
 ```
-#INC
 
 
 #### Field Value
@@ -287,7 +267,6 @@ private static long[] uniqueId
 ```csharp
 public Button UpperArrow
 ```
-#INC
 
 
 #### Field Value
@@ -317,7 +296,6 @@ private bool Scrollable { get; }
 ```csharp
 public bool CheckIdValidation(long metaId)
 ```
-#INC
 
 
 #### Parameters
@@ -332,7 +310,6 @@ public bool CheckIdValidation(long metaId)
 ```csharp
 private void CheckUniqueAction(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -360,14 +337,12 @@ private bool CheckUniqueGeneration(long id, List<CreatureInfoCodex.SortData> lis
 ```csharp
 private void Clear()
 ```
-#INC
 
 
 ### DontTouchMe()
 ```csharp
 private void DontTouchMe()
 ```
-#INC
 
 
 ### GenerateSlot(List<SortData>, CreatureObserveInfoModel, CreatureTypeInfo, int)
@@ -387,7 +362,6 @@ private void GenerateSlot(List<CreatureInfoCodex.SortData> sort, CreatureObserve
 ```csharp
 private int GetCurrentDisplayedIndex()
 ```
-#INC
 
 
 #### Returns
@@ -397,7 +371,6 @@ private int GetCurrentDisplayedIndex()
 ```csharp
 public Color GetRiskLevelColor(RiskLevel risk)
 ```
-#INC
 
 
 #### Parameters
@@ -412,49 +385,42 @@ public Color GetRiskLevelColor(RiskLevel risk)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### MoveDown()
 ```csharp
 public void MoveDown()
 ```
-#INC
 
 
 ### MoveEnabledToDisable()
 ```csharp
 private void MoveEnabledToDisable()
 ```
-#INC
 
 
 ### MoveNext()
 ```csharp
 public void MoveNext()
 ```
-#INC
 
 
 ### MovePrev()
 ```csharp
 public void MovePrev()
 ```
-#INC
 
 
 ### MoveUp()
 ```csharp
 public void MoveUp()
 ```
-#INC
 
 
 ### OnClickCodexUnit(CreatureTypeInfo)
 ```csharp
 public void OnClickCodexUnit(CreatureTypeInfo metaInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -466,14 +432,12 @@ public void OnClickCodexUnit(CreatureTypeInfo metaInfo)
 ```csharp
 public void OnMetaClose()
 ```
-#INC
 
 
 ### OnOeverlayEnter(CreatureTypeInfo)
 ```csharp
 public void OnOeverlayEnter(CreatureTypeInfo typeInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -485,21 +449,18 @@ public void OnOeverlayEnter(CreatureTypeInfo typeInfo)
 ```csharp
 public void OnOpen()
 ```
-#INC
 
 
 ### OnOverlayExit()
 ```csharp
 public void OnOverlayExit()
 ```
-#INC
 
 
 ### SetList(int)
 ```csharp
 public void SetList(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -511,22 +472,18 @@ public void SetList(int index)
 ```csharp
 public void SetPercentage()
 ```
-#INC
 
 
 ### Start()
 ```csharp
 private void Start()
 ```
-#INC
-#code-generated
 
 
 ### TryParse(string, out int)
 ```csharp
 private bool TryParse(string code, out int index)
 ```
-#INC
 
 
 #### Parameters
@@ -542,14 +499,12 @@ private bool TryParse(string code, out int index)
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### UpdateArrow(int)
 ```csharp
 private void UpdateArrow(int current)
 ```
-#INC
 
 
 #### Parameters
@@ -559,4 +514,5 @@ private void UpdateArrow(int current)
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureLyrics
 canonical_path: /api/Global/Misc/CreatureLyrics
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/CreatureLyrics
 ```csharp
 public class CreatureLyrics
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Text for abnormalities which yap. Like Queen of Hatred.
 
 See [CreatureSpeech](/api/Global/Misc/CreatureSpeech)
@@ -32,7 +36,6 @@ public CreatureLyrics()
 ```csharp
 private static CreatureLyrics _instance
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +96,6 @@ public CreatureLyrics.CreatureLyricList GetCreatureLyricList(long id)
 ```csharp
 public string GetRandomLyricByKey(long creatureId, string key)
 ```
-#INC
 
 
 #### Parameters
@@ -117,4 +119,5 @@ public void Init(CreatureLyrics.CreatureLyricList[] ary)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

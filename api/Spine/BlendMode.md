@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.BlendMode
 canonical_path: /api/Spine/BlendMode
@@ -45,4 +46,5 @@ Screen = 3
 
 #### Field Value
 **Type:** Spine.BlendMode
+
 

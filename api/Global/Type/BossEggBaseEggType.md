@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossEggBase.EggType
 canonical_path: /api/Global/Type/BossEggBaseEggType
@@ -37,4 +38,5 @@ SMALL = 0
 
 #### Field Value
 **Type:** Global.BossEggBase.EggType
+
 

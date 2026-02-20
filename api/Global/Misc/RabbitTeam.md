@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RabbitTeam
 canonical_path: /api/Global/Misc/RabbitTeam
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/RabbitTeam
 ```csharp
 public class RabbitTeam
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A collection of a few [rabbits](/api/Global/Model/RabbitModel) spawned together in a [RabbitSquad](/api/Global/Misc/RabbitSquad).
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public RabbitTeam()
 ```csharp
 private Timer _aiTimer
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private Timer _aiTimer
 ```csharp
 private RabbitOperationArea _area
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private RabbitOperationArea _area
 ```csharp
 private bool _cleared
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private bool _cleared
 ```csharp
 private Timer _clearTimer
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ private Timer _clearTimer
 ```csharp
 private PassageObjectModel _currentTargetPassage
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ private PassageObjectModel _currentTargetPassage
 ```csharp
 private const float aiFreq = 1
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ private const float aiFreq = 1
 ```csharp
 private const float closeFreq = 10
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ private const float closeFreq = 10
 ```csharp
 public List<RabbitModel> rabbits
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +108,6 @@ public List<RabbitModel> rabbits
 ```csharp
 public SefiraEnum sefira
 ```
-#INC
 
 
 #### Field Value
@@ -134,14 +129,12 @@ public bool IsCleared { get; }
 ```csharp
 public void ClearOperation()
 ```
-#INC
 
 
 ### ExistsTargetPassage()
 ```csharp
 public bool ExistsTargetPassage()
 ```
-#INC
 
 
 #### Returns
@@ -151,7 +144,6 @@ public bool ExistsTargetPassage()
 ```csharp
 private UnitModel GetRabbitsTarget(PassageObjectModel p)
 ```
-#INC
 
 
 #### Parameters
@@ -166,8 +158,6 @@ private UnitModel GetRabbitsTarget(PassageObjectModel p)
 ```csharp
 public void Init(RabbitOperationArea area)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -179,7 +169,6 @@ public void Init(RabbitOperationArea area)
 ```csharp
 public bool IsDeadAll()
 ```
-#INC
 
 
 #### Returns
@@ -189,16 +178,15 @@ public bool IsDeadAll()
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### UpdateTargetPassage()
 ```csharp
 private void UpdateTargetPassage()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

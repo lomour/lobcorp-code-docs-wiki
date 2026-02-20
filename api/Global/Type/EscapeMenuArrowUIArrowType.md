@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.EscapeMenuArrowUI.ArrowType
 canonical_path: /api/Global/Type/EscapeMenuArrowUIArrowType
@@ -37,4 +38,5 @@ RETRY = 1
 
 #### Field Value
 **Type:** Global.EscapeMenuArrowUI.ArrowType
+
 

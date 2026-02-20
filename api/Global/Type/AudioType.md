@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AudioType
 canonical_path: /api/Global/Type/AudioType
@@ -77,4 +78,5 @@ TAPOVER = 2
 
 #### Field Value
 **Type:** Global.AudioType
+
 

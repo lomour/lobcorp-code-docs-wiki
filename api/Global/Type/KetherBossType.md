@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.KetherBossType
 canonical_path: /api/Global/Type/KetherBossType
@@ -53,4 +54,5 @@ E4 = 4
 
 #### Field Value
 **Type:** Global.KetherBossType
+
 

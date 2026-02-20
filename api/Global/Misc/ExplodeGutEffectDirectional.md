@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ExplodeGutEffect.Directional
 canonical_path: /api/Global/Misc/ExplodeGutEffectDirectional
@@ -37,4 +38,5 @@ VECTOR = 1
 
 #### Field Value
 **Type:** Global.ExplodeGutEffect.Directional
+
 

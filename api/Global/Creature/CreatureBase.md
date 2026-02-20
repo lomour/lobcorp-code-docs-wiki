@@ -1,4 +1,5 @@
  
+ 
 ---
 title: CreatureBase
 description: 
@@ -16,13 +17,15 @@ dateCreated: 2026-01-06T03:45:21.997Z
 ```csharp
 public class CreatureBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for all abnormalities, and I think a few other things too.
 
 Handles some timers, behavior on work success/failure, work damage, behavior on entry, release, and work finish, escape behavior, effects, end-of-day behavior, observation level changes, room and work sprites, behavior on opening UI, loading and saving creature data, making sounds, qliphoth counters, making child abnos, and a MILLION OTHER THINGS TOO.
 
 All of these implementations are virtual and are intended to be overridden by the abnormalities that use them.
 
-#inc
 
 
 ## Inheritance
@@ -44,7 +47,6 @@ public CreatureBase()
 ```csharp
 private AgentModel _allocatedAgent
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private AgentModel _allocatedAgent
 ```csharp
 private SkillTriggerCheck _check
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private SkillTriggerCheck _check
 ```csharp
 public int damage
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ public int damage
 ```csharp
 public bool hasUniqueEscapeLogic
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ public bool hasUniqueEscapeLogic
 ```csharp
 public const string isolateSpriteSrc = "Sprites/CreatureSprite/Isolate/"
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public const string isolateSpriteSrc = "Sprites/CreatureSprite/Isolate/"
 ```csharp
 public bool isWorkAllocated
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +109,6 @@ public CreatureBase.KitEquipEventListener kitEvent
 ```csharp
 public CreatureModel model
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +118,6 @@ public CreatureModel model
 ```csharp
 public List<string> OnReleaseSpecialTip
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +127,6 @@ public List<string> OnReleaseSpecialTip
 ```csharp
 public CreatureSpecialSkill skill
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +196,6 @@ public CreatureUnit Unit { get; }
 ```csharp
 public virtual void ActivateQliphothCounter()
 ```
-#INC
 
 
 ### AddedQliphothCounter()
@@ -217,7 +210,6 @@ Called when the qliphoth counter is increased or reset.
 ```csharp
 public virtual void AgentAnimCalled(int i, WorkerModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -230,7 +222,6 @@ public virtual void AgentAnimCalled(int i, WorkerModel actor)
 ```csharp
 public virtual bool AttackProcess(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -245,7 +236,6 @@ public virtual bool AttackProcess(UnitModel target)
 ```csharp
 public virtual bool AutoFeelingDown()
 ```
-#INC
 
 
 #### Returns
@@ -255,7 +245,6 @@ public virtual bool AutoFeelingDown()
 ```csharp
 public virtual bool CanEnterRoom()
 ```
-#INC
 
 
 #### Returns
@@ -265,7 +254,6 @@ public virtual bool CanEnterRoom()
 ```csharp
 public virtual bool CanObservedByAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -296,7 +284,6 @@ Called when the abnormality would take damage. If false, the damage is canceled.
 ```csharp
 public virtual void DelayAttackMotion(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -308,14 +295,12 @@ public virtual void DelayAttackMotion(float value)
 ```csharp
 public virtual void Escape()
 ```
-#INC
 
 
 ### ExistSaveData()
 ```csharp
 public bool ExistSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -356,7 +341,6 @@ Called every time a cube is generated during the work. If true, a PE box will be
 ```csharp
 public virtual bool GenPursueCommandAlter(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -402,7 +386,6 @@ Called every time an agent gets an NE box during work and takes work damage. The
 ```csharp
 public virtual string GetDebugText()
 ```
-#INC
 
 
 #### Returns
@@ -412,7 +395,6 @@ public virtual string GetDebugText()
 ```csharp
 public virtual float GetKitCreatureProcessTime()
 ```
-#INC
 
 
 #### Returns
@@ -422,7 +404,6 @@ public virtual float GetKitCreatureProcessTime()
 ```csharp
 public virtual int GetMaxWorkCountView()
 ```
-#INC
 
 
 #### Returns
@@ -432,7 +413,6 @@ public virtual int GetMaxWorkCountView()
 ```csharp
 public virtual bool GetMentalDamage(out float dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -447,7 +427,6 @@ public virtual bool GetMentalDamage(out float dmg)
 ```csharp
 public virtual string GetName()
 ```
-#INC
 
 
 #### Returns
@@ -457,7 +436,6 @@ public virtual string GetName()
 ```csharp
 public virtual bool GetPhysicalDamage(out float dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -472,7 +450,6 @@ public virtual bool GetPhysicalDamage(out float dmg)
 ```csharp
 public virtual int GetQliphothCounterMax()
 ```
-#INC
 
 
 #### Returns
@@ -482,7 +459,6 @@ public virtual int GetQliphothCounterMax()
 ```csharp
 public virtual float GetRadius()
 ```
-#INC
 
 
 #### Returns
@@ -492,7 +468,6 @@ public virtual float GetRadius()
 ```csharp
 public virtual UnitModel[] GetRealTargets()
 ```
-#INC
 
 
 #### Returns
@@ -502,7 +477,6 @@ public virtual UnitModel[] GetRealTargets()
 ```csharp
 public virtual string GetRiskLevel()
 ```
-#INC
 
 
 #### Returns
@@ -512,7 +486,6 @@ public virtual string GetRiskLevel()
 ```csharp
 public virtual Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -522,7 +495,6 @@ public virtual Dictionary<string, object> GetSaveData()
 ```csharp
 public virtual SkillTypeInfo GetSpecialSkill()
 ```
-#INC
 
 
 #### Returns
@@ -532,7 +504,6 @@ public virtual SkillTypeInfo GetSpecialSkill()
 ```csharp
 public virtual bool HasEscapeUI()
 ```
-#INC
 
 
 #### Returns
@@ -542,7 +513,6 @@ public virtual bool HasEscapeUI()
 ```csharp
 public virtual bool HasRoomCounter()
 ```
-#INC
 
 
 #### Returns
@@ -552,7 +522,6 @@ public virtual bool HasRoomCounter()
 ```csharp
 public virtual bool HasScriptSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -562,7 +531,6 @@ public virtual bool HasScriptSaveData()
 ```csharp
 public virtual bool HasUniqueAttackDealy()
 ```
-#INC
 
 
 #### Returns
@@ -572,7 +540,6 @@ public virtual bool HasUniqueAttackDealy()
 ```csharp
 public virtual bool HasUniqueCollectionCost(string areaName, out string text)
 ```
-#INC
 
 
 #### Parameters
@@ -588,7 +555,6 @@ public virtual bool HasUniqueCollectionCost(string areaName, out string text)
 ```csharp
 public virtual bool HasUniqueCommandAction(int workType)
 ```
-#INC
 
 
 #### Parameters
@@ -603,7 +569,6 @@ public virtual bool HasUniqueCommandAction(int workType)
 ```csharp
 public virtual bool hasUniqueDeadScene()
 ```
-#INC
 
 
 #### Returns
@@ -613,7 +578,6 @@ public virtual bool hasUniqueDeadScene()
 ```csharp
 public virtual bool HasUniqueFaction()
 ```
-#INC
 
 
 #### Returns
@@ -623,7 +587,6 @@ public virtual bool HasUniqueFaction()
 ```csharp
 public virtual bool HasUniqueMaxObservationFinish()
 ```
-#INC
 
 
 #### Returns
@@ -633,7 +596,6 @@ public virtual bool HasUniqueMaxObservationFinish()
 ```csharp
 public virtual bool HasUniqueName()
 ```
-#INC
 
 
 #### Returns
@@ -643,7 +605,6 @@ public virtual bool HasUniqueName()
 ```csharp
 public virtual bool HasUniqueProcessWorkNarration()
 ```
-#INC
 
 
 #### Returns
@@ -653,7 +614,6 @@ public virtual bool HasUniqueProcessWorkNarration()
 ```csharp
 public virtual int HasUniqueWorkSelect(int workId)
 ```
-#INC
 
 
 #### Parameters
@@ -668,7 +628,6 @@ public virtual int HasUniqueWorkSelect(int workId)
 ```csharp
 public virtual bool IsActivatedWorkDesc()
 ```
-#INC
 
 
 #### Returns
@@ -678,7 +637,6 @@ public virtual bool IsActivatedWorkDesc()
 ```csharp
 public virtual bool isAttackInWorkProcess()
 ```
-#INC
 
 
 #### Returns
@@ -688,7 +646,6 @@ public virtual bool isAttackInWorkProcess()
 ```csharp
 public virtual bool IsAttackTargetable()
 ```
-#INC
 
 
 #### Returns
@@ -698,7 +655,6 @@ public virtual bool IsAttackTargetable()
 ```csharp
 public virtual bool IsAutoSuppressable()
 ```
-#INC
 
 
 #### Returns
@@ -708,7 +664,6 @@ public virtual bool IsAutoSuppressable()
 ```csharp
 public virtual bool IsIndirectSuppressable()
 ```
-#INC
 
 
 #### Returns
@@ -728,7 +683,6 @@ Abnormalities will cause graphical effects indicating that they are in a passage
 ```csharp
 public virtual bool IsSuppressable()
 ```
-#INC
 
 
 #### Returns
@@ -738,7 +692,6 @@ public virtual bool IsSuppressable()
 ```csharp
 public virtual bool IsSuppressableByRoom()
 ```
-#INC
 
 
 #### Returns
@@ -748,7 +701,6 @@ public virtual bool IsSuppressableByRoom()
 ```csharp
 public virtual bool IsWorkable()
 ```
-#INC
 
 
 #### Returns
@@ -758,7 +710,6 @@ public virtual bool IsWorkable()
 ```csharp
 public virtual void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -770,14 +721,12 @@ public virtual void LoadData(Dictionary<string, object> dic)
 ```csharp
 public virtual void LoadScriptData()
 ```
-#INC
 
 
 ### MakeChildCreature(UnitModel)
 ```csharp
 public virtual ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```
-#INC
 
 
 #### Parameters
@@ -792,7 +741,6 @@ public virtual ChildCreatureModel MakeChildCreature(UnitModel origin)
 ```csharp
 public virtual void MakeEffect(IsolateRoom room, int currentSkillResult)
 ```
-#INC
 
 
 #### Parameters
@@ -805,7 +753,6 @@ public virtual void MakeEffect(IsolateRoom room, int currentSkillResult)
 ```csharp
 public void MakeEffectAlter(IsolateRoom room, int result)
 ```
-#INC
 
 
 #### Parameters
@@ -818,7 +765,6 @@ public void MakeEffectAlter(IsolateRoom room, int result)
 ```csharp
 public virtual GameObject MakeEffectAttachedToHead(string effectSrc)
 ```
-#INC
 
 
 #### Parameters
@@ -833,7 +779,6 @@ public virtual GameObject MakeEffectAttachedToHead(string effectSrc)
 ```csharp
 public virtual GameObject MakeEffectGlobalPos(string src, Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -849,7 +794,6 @@ public virtual GameObject MakeEffectGlobalPos(string src, Vector3 pos)
 ```csharp
 public virtual GameObject MakeEffectGlobalPosNonTrans(string src, Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -865,7 +809,6 @@ public virtual GameObject MakeEffectGlobalPosNonTrans(string src, Vector3 pos)
 ```csharp
 public virtual SoundEffectPlayer MakeSound(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -880,7 +823,6 @@ public virtual SoundEffectPlayer MakeSound(string src)
 ```csharp
 public virtual SoundEffectPlayer MakeSound(string src, AudioRolloffMode mode)
 ```
-#INC
 
 
 #### Parameters
@@ -896,7 +838,6 @@ public virtual SoundEffectPlayer MakeSound(string src, AudioRolloffMode mode)
 ```csharp
 public virtual SoundEffectPlayer MakeSound(string src, float pitch)
 ```
-#INC
 
 
 #### Parameters
@@ -912,7 +853,6 @@ public virtual SoundEffectPlayer MakeSound(string src, float pitch)
 ```csharp
 public virtual SoundEffectPlayer MakeSoundLoop(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -927,7 +867,6 @@ public virtual SoundEffectPlayer MakeSoundLoop(string src)
 ```csharp
 public virtual SoundEffectPlayer MakeSoundQueue(params string[] fileName)
 ```
-#INC
 
 
 #### Parameters
@@ -942,7 +881,6 @@ public virtual SoundEffectPlayer MakeSoundQueue(params string[] fileName)
 ```csharp
 public virtual void MakingEffect(string effect, float effectLength)
 ```
-#INC
 
 
 #### Parameters
@@ -955,7 +893,6 @@ public virtual void MakingEffect(string effect, float effectLength)
 ```csharp
 public virtual void MakingEffect(string effect, float effectLength, string sound, Transform parent, int recoil)
 ```
-#INC
 
 
 #### Parameters
@@ -971,7 +908,6 @@ public virtual void MakingEffect(string effect, float effectLength, string sound
 ```csharp
 public virtual void MakingEffect(string effect, float effectLength, string sound, Vector3 pos, int recoil)
 ```
-#INC
 
 
 #### Parameters
@@ -987,14 +923,12 @@ public virtual void MakingEffect(string effect, float effectLength, string sound
 ```csharp
 public void ObserveLevelChangeForSpecialSkillTip()
 ```
-#INC
 
 
 ### OnAfterSuppressed()
 ```csharp
 public virtual bool OnAfterSuppressed()
 ```
-#INC
 
 
 #### Returns
@@ -1004,7 +938,6 @@ public virtual bool OnAfterSuppressed()
 ```csharp
 public virtual void OnAgentAllocateWork(AgentModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -1016,14 +949,12 @@ public virtual void OnAgentAllocateWork(AgentModel actor)
 ```csharp
 public virtual void OnAgentAnimatorReseted()
 ```
-#INC
 
 
 ### OnAgentWorkEndAnimationPlayed(UseSkill)
 ```csharp
 public virtual void OnAgentWorkEndAnimationPlayed(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1035,7 +966,6 @@ public virtual void OnAgentWorkEndAnimationPlayed(UseSkill skill)
 ```csharp
 public virtual void OnAllocatedWork(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -1047,7 +977,6 @@ public virtual void OnAllocatedWork(AgentModel agent)
 ```csharp
 public virtual void OnAttackInWorkProcess(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1059,7 +988,6 @@ public virtual void OnAttackInWorkProcess(UseSkill skill)
 ```csharp
 public virtual int OnBonusWorkProb()
 ```
-#INC
 
 
 #### Returns
@@ -1069,7 +997,6 @@ public virtual int OnBonusWorkProb()
 ```csharp
 public virtual void OnChildSuppressed(ChildCreatureModel child)
 ```
-#INC
 
 
 #### Parameters
@@ -1081,14 +1008,12 @@ public virtual void OnChildSuppressed(ChildCreatureModel child)
 ```csharp
 public virtual void OnElevatorStuck()
 ```
-#INC
 
 
 ### OnEnterRoom(UseSkill)
 ```csharp
 public virtual void OnEnterRoom(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1100,14 +1025,12 @@ public virtual void OnEnterRoom(UseSkill skill)
 ```csharp
 public virtual void OnFeverTimeOver()
 ```
-#INC
 
 
 ### OnFinishWork(UseSkill)
 ```csharp
 public virtual void OnFinishWork(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1119,7 +1042,6 @@ public virtual void OnFinishWork(UseSkill skill)
 ```csharp
 public virtual void OnFixedUpdate(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -1131,7 +1053,6 @@ public virtual void OnFixedUpdate(CreatureModel creature)
 ```csharp
 public virtual void OnFixedUpdateInSkill(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1143,7 +1064,6 @@ public virtual void OnFixedUpdateInSkill(UseSkill skill)
 ```csharp
 public virtual void OnForceSpecialSkillTipReveal(string key, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1156,28 +1076,24 @@ public virtual void OnForceSpecialSkillTipReveal(string key, params object[] par
 ```csharp
 public virtual void OnGamemanagerInit()
 ```
-#INC
 
 
 ### OnInit()
 ```csharp
 public virtual void OnInit()
 ```
-#INC
 
 
 ### OnInitialBuild()
 ```csharp
 public virtual void OnInitialBuild()
 ```
-#INC
 
 
 ### OnKillWorker(WorkerModel)
 ```csharp
 public virtual bool OnKillWorker(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -1192,7 +1108,6 @@ public virtual bool OnKillWorker(WorkerModel target)
 ```csharp
 public virtual bool OnLoadCreatureName(ref string nameOut)
 ```
-#INC
 
 
 #### Parameters
@@ -1207,14 +1122,12 @@ public virtual bool OnLoadCreatureName(ref string nameOut)
 ```csharp
 public virtual void OnObserveLevelChanged()
 ```
-#INC
 
 
 ### OnOpenCollectionWindow()
 ```csharp
 public virtual bool OnOpenCollectionWindow()
 ```
-#INC
 
 
 #### Returns
@@ -1224,7 +1137,6 @@ public virtual bool OnOpenCollectionWindow()
 ```csharp
 public virtual void OnOpenCommandWindow(Button[] buttons)
 ```
-#INC
 
 
 #### Parameters
@@ -1236,7 +1148,6 @@ public virtual void OnOpenCommandWindow(Button[] buttons)
 ```csharp
 public virtual bool OnOpenObserveWindow()
 ```
-#INC
 
 
 #### Returns
@@ -1246,7 +1157,6 @@ public virtual bool OnOpenObserveWindow()
 ```csharp
 public virtual bool OnOpenWorkWindow()
 ```
-#INC
 
 
 #### Returns
@@ -1256,7 +1166,6 @@ public virtual bool OnOpenWorkWindow()
 ```csharp
 public virtual bool OnOverlayIsolateObserve()
 ```
-#INC
 
 
 #### Returns
@@ -1266,7 +1175,6 @@ public virtual bool OnOverlayIsolateObserve()
 ```csharp
 public virtual bool OnOverlayIsolateWork()
 ```
-#INC
 
 
 #### Returns
@@ -1276,7 +1184,6 @@ public virtual bool OnOverlayIsolateWork()
 ```csharp
 public virtual void OnReleaseWork(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1288,21 +1195,18 @@ public virtual void OnReleaseWork(UseSkill skill)
 ```csharp
 public virtual void OnReleaseWorkAllocated()
 ```
-#INC
 
 
 ### OnReturn()
 ```csharp
 public virtual void OnReturn()
 ```
-#INC
 
 
 ### OnSelectMaxObservation(int)
 ```csharp
 public virtual void OnSelectMaxObservation(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -1314,7 +1218,6 @@ public virtual void OnSelectMaxObservation(int index)
 ```csharp
 public virtual void OnSkillFailWorkTick(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1326,7 +1229,6 @@ public virtual void OnSkillFailWorkTick(UseSkill skill)
 ```csharp
 public virtual void OnSkillGoalComplete(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1338,7 +1240,6 @@ public virtual void OnSkillGoalComplete(UseSkill skill)
 ```csharp
 public virtual void OnSkillSuccessWorkTick(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1350,7 +1251,6 @@ public virtual void OnSkillSuccessWorkTick(UseSkill skill)
 ```csharp
 public virtual void OnSkillTickUpdate(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1362,42 +1262,36 @@ public virtual void OnSkillTickUpdate(UseSkill skill)
 ```csharp
 public virtual void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public virtual void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public virtual void OnStageStart()
 ```
-#INC
 
 
 ### OnSuperArmorBreak()
 ```csharp
 public virtual void OnSuperArmorBreak()
 ```
-#INC
 
 
 ### OnSuppressed()
 ```csharp
 public virtual void OnSuppressed()
 ```
-#INC
 
 
 ### OnTakeDamage(UnitModel, DamageInfo, float)
 ```csharp
 public virtual void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```
-#INC
 
 
 #### Parameters
@@ -1411,7 +1305,6 @@ public virtual void OnTakeDamage(UnitModel actor, DamageInfo dmg, float value)
 ```csharp
 public virtual void OnTakePhysicalDamage(UnitModel attacker, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -1424,21 +1317,18 @@ public virtual void OnTakePhysicalDamage(UnitModel attacker, float damage)
 ```csharp
 public virtual void OnTimerEnd()
 ```
-#INC
 
 
 ### OnViewDestroy()
 ```csharp
 public virtual void OnViewDestroy()
 ```
-#INC
 
 
 ### OnViewInit(CreatureUnit)
 ```csharp
 public virtual void OnViewInit(CreatureUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -1450,7 +1340,6 @@ public virtual void OnViewInit(CreatureUnit unit)
 ```csharp
 public void OnViewInitPrev(CreatureUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -1462,7 +1351,6 @@ public void OnViewInitPrev(CreatureUnit unit)
 ```csharp
 public virtual void OnWorkAllocated(SkillTypeInfo skill, AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -1475,7 +1363,6 @@ public virtual void OnWorkAllocated(SkillTypeInfo skill, AgentModel agent)
 ```csharp
 public virtual void OnWorkClosed(UseSkill skill, int successCount)
 ```
-#INC
 
 
 #### Parameters
@@ -1488,7 +1375,6 @@ public virtual void OnWorkClosed(UseSkill skill, int successCount)
 ```csharp
 public virtual void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```
-#INC
 
 
 #### Parameters
@@ -1500,7 +1386,6 @@ public virtual void OnWorkCoolTimeEnd(CreatureFeelingState oldState)
 ```csharp
 public virtual bool OnWorkerPanic(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -1515,7 +1400,6 @@ public virtual bool OnWorkerPanic(WorkerModel worker)
 ```csharp
 public virtual void OnWorkReleaseSpeicalSkillTipReveal(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -1527,7 +1411,6 @@ public virtual void OnWorkReleaseSpeicalSkillTipReveal(string key)
 ```csharp
 public virtual void OnWorkReleaseTipUpdate(params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -1539,7 +1422,6 @@ public virtual void OnWorkReleaseTipUpdate(params object[] param)
 ```csharp
 public virtual void OnWorkWindowSkillClicked(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -1551,14 +1433,12 @@ public virtual void OnWorkWindowSkillClicked(long id)
 ```csharp
 public virtual void ParamInit()
 ```
-#INC
 
 
 ### PermitCancelCurrentWork()
 ```csharp
 public virtual bool PermitCancelCurrentWork()
 ```
-#INC
 
 
 #### Returns
@@ -1568,7 +1448,6 @@ public virtual bool PermitCancelCurrentWork()
 ```csharp
 public virtual bool Prob(int probability)
 ```
-#INC
 
 
 #### Parameters
@@ -1583,21 +1462,18 @@ public virtual bool Prob(int probability)
 ```csharp
 public virtual void ReducedQliphothCounter()
 ```
-#INC
 
 
 ### RemoveSaveData()
 ```csharp
 public void RemoveSaveData()
 ```
-#INC
 
 
 ### ReplaceCommand(CreatureModel)
 ```csharp
 public void ReplaceCommand(CreatureModel replaced)
 ```
-#INC
 
 
 #### Parameters
@@ -1616,70 +1492,60 @@ Increases qliphoth counter to its maximum by adding 1 to it until it is at its m
 ```csharp
 public virtual void RoomCounterInit()
 ```
-#INC
 
 
 ### RoomEscapeSpriteOff()
 ```csharp
 public virtual void RoomEscapeSpriteOff()
 ```
-#INC
 
 
 ### RoomEscapeSpriteOn()
 ```csharp
 public virtual void RoomEscapeSpriteOn()
 ```
-#INC
 
 
 ### RoomSkillSpriteOff()
 ```csharp
 public virtual void RoomSkillSpriteOff()
 ```
-#INC
 
 
 ### RoomSkillSpriteOn()
 ```csharp
 public virtual void RoomSkillSpriteOn()
 ```
-#INC
 
 
 ### RoomSpriteInit()
 ```csharp
 public virtual void RoomSpriteInit()
 ```
-#INC
 
 
 ### RoomStateSpriteOff()
 ```csharp
 public virtual void RoomStateSpriteOff()
 ```
-#INC
 
 
 ### RoomStateSpriteOn()
 ```csharp
 public virtual void RoomStateSpriteOn()
 ```
-#INC
 
 
 ### SaveScriptData()
 ```csharp
 public virtual void SaveScriptData()
 ```
-#INC
 
 
 ### SetCastingSlider(Slider)
 ```csharp
 public virtual bool SetCastingSlider(Slider castingSlider)
 ```
-#INC
 
 
 #### Parameters
@@ -1694,7 +1560,6 @@ public virtual bool SetCastingSlider(Slider castingSlider)
 ```csharp
 public virtual bool SetHpSlider(Slider slider)
 ```
-#INC
 
 
 #### Parameters
@@ -1709,8 +1574,6 @@ public virtual bool SetHpSlider(Slider slider)
 ```csharp
 public virtual void SetModel(CreatureModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -1722,7 +1585,6 @@ public virtual void SetModel(CreatureModel model)
 ```csharp
 public virtual float SpecialEnergyTick()
 ```
-#INC
 
 
 #### Returns
@@ -1732,7 +1594,6 @@ public virtual float SpecialEnergyTick()
 ```csharp
 public virtual float TranformWorkProb(float originWorkProb)
 ```
-#INC
 
 
 #### Parameters
@@ -1747,7 +1608,6 @@ public virtual float TranformWorkProb(float originWorkProb)
 ```csharp
 public virtual bool TryRabbitTeleport(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -1762,14 +1622,12 @@ public virtual bool TryRabbitTeleport(MapNode node)
 ```csharp
 public virtual void UniqueEscape()
 ```
-#INC
 
 
 ### UniqueMaxObservationFinish(Desc)
 ```csharp
 public virtual bool UniqueMaxObservationFinish(CreatureMaxObserve.Desc desc)
 ```
-#INC
 
 
 #### Parameters
@@ -1784,7 +1642,6 @@ public virtual bool UniqueMaxObservationFinish(CreatureMaxObserve.Desc desc)
 ```csharp
 public virtual bool UniqueMoveControl()
 ```
-#INC
 
 
 #### Returns
@@ -1794,7 +1651,6 @@ public virtual bool UniqueMoveControl()
 ```csharp
 public virtual void UniqueProcessWorkNarration(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -1806,7 +1662,6 @@ public virtual void UniqueProcessWorkNarration(UseSkill skill)
 ```csharp
 public virtual bool UniqueStunEffect()
 ```
-#INC
 
 
 #### Returns
@@ -1816,7 +1671,6 @@ public virtual bool UniqueStunEffect()
 ```csharp
 public virtual bool UseDefaultDamageIgnoreMessage(DamageTextEffect damageScript)
 ```
-#INC
 
 
 #### Parameters
@@ -1829,4 +1683,5 @@ public virtual bool UseDefaultDamageIgnoreMessage(DamageTextEffect damageScript)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

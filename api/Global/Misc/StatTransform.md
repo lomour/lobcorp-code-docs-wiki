@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StatTransform
 canonical_path: /api/Global/Misc/StatTransform
@@ -11,10 +12,16 @@ canonical_path: /api/Global/Misc/StatTransform
 ```csharp
 public interface StatTransform
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 An interface with one method, which takes in a float and returns a transformed version of that float.
 
 Implemented by a few classes, but all of them are unused.
-#unused 
+
 
 #### Method
 float FloatToFloat(float v)
@@ -26,8 +33,6 @@ float FloatToFloat(float v)
 ```csharp
 float FloatToFloat(float v)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -37,4 +42,5 @@ float FloatToFloat(float v)
 
 #### Returns
 **Type:** System.Single
+
 

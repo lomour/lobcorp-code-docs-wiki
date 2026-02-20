@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RedShoesAttractedWeapon
 canonical_path: /api/Global/Weapon/RedShoesAttractedWeapon
@@ -11,12 +12,15 @@ canonical_path: /api/Global/Weapon/RedShoesAttractedWeapon
 ```csharp
 public class RedShoesAttractedWeapon : EquipmentScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Weapon given to the employee attracted by [Red Shoes](/api/Global/Misc/RedShoes).
 
 Multiplies max HP by 4.5, restores all HP, and has a special death scene and kill animation.
-Does a special attack at a 30% chance #verify .
-#INC 
+Does a special attack at a 30% chance ^\[verify\]^.
+
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public RedShoesAttractedWeapon()
 ```csharp
 private bool isDead
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ private bool isDead
 ```csharp
 private const float maxHpRatio = 4.5
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ private const float maxHpRatio = 4.5
 ```csharp
 private const float pattern2_prob = 0.3
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +68,6 @@ private const float pattern2_prob = 0.3
 ```csharp
 public override void OnAttackEnd(UnitModel actor, UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -94,8 +94,6 @@ public override EquipmentScriptBase.WeaponDamageInfo OnAttackStart(UnitModel act
 ```csharp
 public override void OnEquip(UnitModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -107,7 +105,6 @@ public override void OnEquip(UnitModel actor)
 ```csharp
 public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -124,7 +121,6 @@ public override bool OnGiveDamage(UnitModel actor, UnitModel target, ref DamageI
 ```csharp
 public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -136,4 +132,5 @@ public override void OnGiveDamageAfter(UnitModel actor, UnitModel target, Damage
 
 ## Inherited Members
 [_model](/api/Global/Misc/EquipmentScriptBase#model), [_reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [MAX_REINFORCEMENT_LEVEL](/api/Global/Misc/EquipmentScriptBase#max-reinforcement-level), [SetModel(EquipmentModel)](/api/Global/Misc/EquipmentScriptBase#setmodel-equipmentmodel), [OnRelease()](/api/Global/Misc/EquipmentScriptBase#onrelease), [OnStageStart()](/api/Global/Misc/EquipmentScriptBase#onstagestart), [OnStageRelease()](/api/Global/Misc/EquipmentScriptBase#onstagerelease), [OnPrepareWeapon(UnitModel)](/api/Global/Misc/EquipmentScriptBase#onprepareweapon-unitmodel), [OnCancelWeapon(UnitModel)](/api/Global/Misc/EquipmentScriptBase#oncancelweapon-unitmodel), [OnKillMainTarget(UnitModel, UnitModel)](/api/Global/Misc/EquipmentScriptBase#onkillmaintarget-unitmodel-unitmodel), [OnTakeDamage(UnitModel, ref DamageInfo)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-unitmodel-ref-damageinfo), [OnTakeDamage_After(float, RwbpType)](/api/Global/Misc/EquipmentScriptBase#ontakedamage-after-float-rwbptype), [GetReinforcementDmg()](/api/Global/Misc/EquipmentScriptBase#getreinforcementdmg), [AddReinforcementLevel(int)](/api/Global/Misc/EquipmentScriptBase#addreinforcementlevel-int), [GetDefense(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdefense-unitmodel), [GetDamageFactor()](/api/Global/Misc/EquipmentScriptBase#getdamagefactor), [GetDamage(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getdamage-unitmodel), [OnFixedUpdate()](/api/Global/Misc/EquipmentScriptBase#onfixedupdate), [GetBonus(UnitModel)](/api/Global/Misc/EquipmentScriptBase#getbonus-unitmodel), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/EquipmentScriptBase#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OwnerHeal(bool, ref float)](/api/Global/Misc/EquipmentScriptBase#ownerheal-bool-ref-float), [model](/api/Global/Misc/EquipmentScriptBase#model), [reinforcementLevel](/api/Global/Misc/EquipmentScriptBase#reinforcementlevel), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventoryRequireLayout
 canonical_path: /api/Inventory/InventoryRequireLayout
@@ -11,6 +12,9 @@ canonical_path: /api/Inventory/InventoryRequireLayout
 ```csharp
 public class InventoryRequireLayout
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Layout for formatting the [EGO requirement text](/api/Global/Unit/InventoryRequireUnit) in the assignment slot on the [list of EGO Suits and Weapons](/api/Inventory/InventoryItemController).
 
 
@@ -30,7 +34,6 @@ public InventoryRequireLayout()
 ```csharp
 public GameObject ActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public GameObject ActiveControl
 ```csharp
 public RectTransform parent
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public RectTransform parent
 ```csharp
 private static string[] statName
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private static string[] statName
 ```csharp
 public GameObject unit
 ```
-#INC
 
 
 #### Field Value
@@ -72,8 +72,6 @@ public GameObject unit
 ```csharp
 public void Init(EquipmentTypeInfo info)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -83,4 +81,5 @@ public void Init(EquipmentTypeInfo info)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

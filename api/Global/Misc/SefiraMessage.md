@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraMessage
 canonical_path: /api/Global/Misc/SefiraMessage
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/SefiraMessage
 ```csharp
 public class SefiraMessage
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 A single unit of Sephirah yap.
 
 Holds a type and a text field.
@@ -27,15 +31,12 @@ See [Conversation](/api/Global/Misc/Conversation)
 ```csharp
 public SefiraMessage()
 ```
-#INC
 
 
 ### SefiraMessage(int, int, string)
 ```csharp
 public SefiraMessage(int t, int d, string s)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -51,7 +52,6 @@ public SefiraMessage(int t, int d, string s)
 ```csharp
 private string _desc
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ private string _desc
 ```csharp
 private int _descId
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ private int _descId
 ```csharp
 private int _type
 ```
-#INC
 
 
 #### Field Value
@@ -101,9 +99,9 @@ public int type { get; }
 ```csharp
 public void PrintFields()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

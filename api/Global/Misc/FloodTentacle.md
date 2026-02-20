@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FloodTentacle
 canonical_path: /api/Global/Misc/FloodTentacle
@@ -11,8 +12,14 @@ canonical_path: /api/Global/Misc/FloodTentacle
 ```csharp
 public class FloodTentacle : StandingItemScriptBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#unused 
+> This class is not used.
+{.is-info}
+
+
+
 
 
 ## Inheritance
@@ -55,7 +62,6 @@ private FloodTentacle.TentacleType _type
 ```csharp
 public string allocatedSefira
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +71,6 @@ public string allocatedSefira
 ```csharp
 public FloodRestTentacleAnim animScript
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +80,6 @@ public FloodRestTentacleAnim animScript
 ```csharp
 public const string appearEffect = "Effect/RandomEvent/TentacleAppear"
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +89,6 @@ public const string appearEffect = "Effect/RandomEvent/TentacleAppear"
 ```csharp
 private bool appearEffectMake
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +98,6 @@ private bool appearEffectMake
 ```csharp
 public Timer attackDelay
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +107,6 @@ public Timer attackDelay
 ```csharp
 public float attackDelayTime
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +116,6 @@ public float attackDelayTime
 ```csharp
 public float attackRange
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +125,6 @@ public float attackRange
 ```csharp
 public const string AtypeHit = "Effect/RandomEvent/ATypeHit"
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +134,6 @@ public const string AtypeHit = "Effect/RandomEvent/ATypeHit"
 ```csharp
 public const string BtypeHit = "Effect/RandomEvent/BTypeHit"
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +143,6 @@ public const string BtypeHit = "Effect/RandomEvent/BTypeHit"
 ```csharp
 public const string CtypeHit = "Effect/RandomEvent/CTypeHit"
 ```
-#INC
 
 
 #### Field Value
@@ -155,7 +152,6 @@ public const string CtypeHit = "Effect/RandomEvent/CTypeHit"
 ```csharp
 public float damage
 ```
-#INC
 
 
 #### Field Value
@@ -165,7 +161,6 @@ public float damage
 ```csharp
 public Timer enableDelay
 ```
-#INC
 
 
 #### Field Value
@@ -175,7 +170,6 @@ public Timer enableDelay
 ```csharp
 public const float initialRange = 2.5
 ```
-#INC
 
 
 #### Field Value
@@ -185,7 +179,6 @@ public const float initialRange = 2.5
 ```csharp
 public const float initialScale = 0.5
 ```
-#INC
 
 
 #### Field Value
@@ -195,7 +188,6 @@ public const float initialScale = 0.5
 ```csharp
 public FloodRestArmEvent randomEvent
 ```
-#INC
 
 
 #### Field Value
@@ -205,7 +197,6 @@ public FloodRestArmEvent randomEvent
 ```csharp
 public const string rootEffect = "Effect/RandomEvent/RootNear"
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +206,6 @@ public const string rootEffect = "Effect/RandomEvent/RootNear"
 ```csharp
 public float ScaleFactor
 ```
-#INC
 
 
 #### Field Value
@@ -225,7 +215,6 @@ public float ScaleFactor
 ```csharp
 public Text textUI
 ```
-#INC
 
 
 #### Field Value
@@ -247,14 +236,12 @@ private float current { get; }
 ```csharp
 private void AppearEffect()
 ```
-#INC
 
 
 ### CheckInRange(UnitModel, float)
 ```csharp
 public bool CheckInRange(UnitModel target, float range)
 ```
-#INC
 
 
 #### Parameters
@@ -270,7 +257,6 @@ public bool CheckInRange(UnitModel target, float range)
 ```csharp
 public void DelayedEnable(float delay)
 ```
-#INC
 
 
 #### Parameters
@@ -282,7 +268,6 @@ public void DelayedEnable(float delay)
 ```csharp
 private List<UnitModel> GetDirectionTarget(List<UnitModel> targets)
 ```
-#INC
 
 
 #### Parameters
@@ -297,7 +282,6 @@ private List<UnitModel> GetDirectionTarget(List<UnitModel> targets)
 ```csharp
 public List<UnitModel> GetNearUnitInRange()
 ```
-#INC
 
 
 #### Returns
@@ -315,14 +299,12 @@ public FloodTentacle.TentaclePhase GetPhase()
 ```csharp
 public void GiveDamage()
 ```
-#INC
 
 
 ### GiveDamage(UnitModel, float)
 ```csharp
 private void GiveDamage(UnitModel target, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -335,15 +317,12 @@ private void GiveDamage(UnitModel target, float damage)
 ```csharp
 public override void Init()
 ```
-#INC
-#code-generated
 
 
 ### IsActive()
 ```csharp
 public bool IsActive()
 ```
-#INC
 
 
 #### Returns
@@ -353,7 +332,6 @@ public bool IsActive()
 ```csharp
 public GameObject MakeEffect(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -368,7 +346,6 @@ public GameObject MakeEffect(string src)
 ```csharp
 public GameObject MakeEffect(string src, Vector2 positionSet)
 ```
-#INC
 
 
 #### Parameters
@@ -384,7 +361,6 @@ public GameObject MakeEffect(string src, Vector2 positionSet)
 ```csharp
 public void MakeEffect(string src, Vector2 positionSet, Vector3 targetPos, Vector3 rotEuler)
 ```
-#INC
 
 
 #### Parameters
@@ -410,28 +386,24 @@ private void Multiple(List<UnitModel> targets, FloodTentacle.DamageEvent e)
 ```csharp
 public void OnAttackEnd()
 ```
-#INC
 
 
 ### OnBreakDown()
 ```csharp
 public override void OnBreakDown()
 ```
-#INC
 
 
 ### OnEnable()
 ```csharp
 public void OnEnable()
 ```
-#INC
 
 
 ### OnFixedUpdate(StandingItemModel)
 ```csharp
 public override void OnFixedUpdate(StandingItemModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -454,7 +426,6 @@ private void OnlyOne(List<UnitModel> targets, FloodTentacle.DamageEvent e)
 ```csharp
 public void OnStartAttack(UnitModel mainTarget)
 ```
-#INC
 
 
 #### Parameters
@@ -466,7 +437,6 @@ public void OnStartAttack(UnitModel mainTarget)
 ```csharp
 public void SetActive(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -478,7 +448,6 @@ public void SetActive(bool state)
 ```csharp
 public void SetEvent(FloodRestArmEvent fra)
 ```
-#INC
 
 
 #### Parameters
@@ -490,7 +459,6 @@ public void SetEvent(FloodRestArmEvent fra)
 ```csharp
 public void SetScaleFactor(float factor)
 ```
-#INC
 
 
 #### Parameters
@@ -512,7 +480,6 @@ public void SetType(FloodTentacle.TentacleType type)
 ```csharp
 public bool TentalceGiveDamage(UnitModel target, float damage)
 ```
-#INC
 
 
 #### Parameters
@@ -534,4 +501,5 @@ public FloodTentacle.TentacleType Type()
 
 ## Inherited Members
 [soundDistDobule](/api/Global/Standing/StandingItemScriptBase#sounddistdobule), [model](/api/Global/Standing/StandingItemScriptBase#model), [_animScript](/api/Global/Standing/StandingItemScriptBase#animscript), [_state](/api/Global/Standing/StandingItemScriptBase#state), [name](/api/Global/Standing/StandingItemScriptBase#name), [_maxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [_defense](/api/Global/Standing/StandingItemScriptBase#defense), [SetModel(StandingItemModel)](/api/Global/Standing/StandingItemScriptBase#setmodel-standingitemmodel), [OnNearUnitArrived(List<UnitModel>)](/api/Global/Standing/StandingItemScriptBase#onnearunitarrived-list-unitmodel), [SetAnimScript(StandingItemAnim)](/api/Global/Standing/StandingItemScriptBase#setanimscript-standingitemanim), [GetNearUnit()](/api/Global/Standing/StandingItemScriptBase#getnearunit), [IsInRange(UnitModel, float)](/api/Global/Standing/StandingItemScriptBase#isinrange-unitmodel-float), [CanTakePhsyicalDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#cantakephsyicaldamage-unitmodel), [IsAttackable()](/api/Global/Standing/StandingItemScriptBase#isattackable), [OnIgnoreDamage(UnitModel)](/api/Global/Standing/StandingItemScriptBase#onignoredamage-unitmodel), [OnDestroyStandingItem()](/api/Global/Standing/StandingItemScriptBase#ondestroystandingitem), [OnTakePhyisclaDamage(float)](/api/Global/Standing/StandingItemScriptBase#ontakephyiscladamage-float), [GetName()](/api/Global/Standing/StandingItemScriptBase#getname), [SetName(string)](/api/Global/Standing/StandingItemScriptBase#setname-string), [HasName()](/api/Global/Standing/StandingItemScriptBase#hasname), [Prob(float)](/api/Global/Standing/StandingItemScriptBase#prob-float), [Prob(int)](/api/Global/Standing/StandingItemScriptBase#prob-int), [CheckCameraRange()](/api/Global/Standing/StandingItemScriptBase#checkcamerarange), [CheckCameraRange(float)](/api/Global/Standing/StandingItemScriptBase#checkcamerarange-float), [Model](/api/Global/Standing/StandingItemScriptBase#model), [Movable](/api/Global/Standing/StandingItemScriptBase#movable), [Passage](/api/Global/Standing/StandingItemScriptBase#passage), [State](/api/Global/Standing/StandingItemScriptBase#state), [MaxHp](/api/Global/Standing/StandingItemScriptBase#maxhp), [Defense](/api/Global/Standing/StandingItemScriptBase#defense), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

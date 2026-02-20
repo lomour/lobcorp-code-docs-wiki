@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StandingCommand
 canonical_path: /api/Global/Misc/StandingCommand
@@ -11,8 +12,14 @@ canonical_path: /api/Global/Misc/StandingCommand
 ```csharp
 public class StandingCommand : UnitCommand
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-#unused 
+> This class is not used.
+{.is-info}
+
+
+
 
 
 ## Inheritance
@@ -49,7 +56,6 @@ public virtual void Finish()
 ```csharp
 public static MoveItemCommand MoveCommand(MapNode mapNode)
 ```
-#INC
 
 
 #### Parameters
@@ -78,8 +84,6 @@ public static MoveItemCommand MoveCommand(MapNode mapNode, StandingCommand.OnCom
 ```csharp
 public static MoveItemCommand MoveCommand(MovableObjectNode movable)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -116,4 +120,5 @@ public virtual void SetEndCommand(StandingCommand.OnCommandEnd cmd)
 
 ## Inherited Members
 [actor](/api/Global/Misc/UnitCommand#actor), [isFinished](/api/Global/Misc/UnitCommand#isfinished), [isRemoved](/api/Global/Misc/UnitCommand#isremoved), [OnInit(WorkerModel)](/api/Global/Misc/UnitCommand#oninit-workermodel), [OnInit(UnitModel)](/api/Global/Misc/UnitCommand#oninit-unitmodel), [OnInit(StandingItemModel)](/api/Global/Misc/UnitCommand#oninit-standingitemmodel), [OnStart()](/api/Global/Misc/UnitCommand#onstart), [Execute()](/api/Global/Misc/UnitCommand#execute), [OnStop()](/api/Global/Misc/UnitCommand#onstop), [OnDestroy()](/api/Global/Misc/UnitCommand#ondestroy), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DaughterBug.AnimationState
 canonical_path: /api/Global/State/DaughterBugAnimationState
@@ -69,4 +70,5 @@ MOVE = 0
 
 #### Field Value
 **Type:** Global.DaughterBug.AnimationState
+
 

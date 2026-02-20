@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TastyBug.BugState
 canonical_path: /api/Global/State/TastyBugBugState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.TastyBug.BugState
+
 

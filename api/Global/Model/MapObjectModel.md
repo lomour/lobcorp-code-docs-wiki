@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapObjectModel
 canonical_path: /api/Global/Model/MapObjectModel
@@ -11,10 +12,12 @@ canonical_path: /api/Global/Model/MapObjectModel
 ```csharp
 public class MapObjectModel : ObjectModelBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents an object which is part of a room now. Seems to only be used by [BloodMapObjectModel](/api/Global/Model/BloodMapObjectModel).
 
-#INC
 
 
 ## Inheritance
@@ -36,7 +39,6 @@ public MapObjectModel()
 ```csharp
 public int horrorPoint
 ```
-#INC
 
 
 #### Field Value
@@ -46,8 +48,6 @@ public int horrorPoint
 ```csharp
 public MapObjectTypeInfo metaInfo
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -57,7 +57,6 @@ public MapObjectTypeInfo metaInfo
 ```csharp
 public PassageObjectModel passage
 ```
-#INC
 
 
 #### Field Value
@@ -65,4 +64,5 @@ public PassageObjectModel passage
 
 ## Inherited Members
 [position](/api/Global/Object/ObjectModelBase#position), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

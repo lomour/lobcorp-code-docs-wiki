@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahPhaseExectuion
 canonical_path: /api/GeburahBoss/GeburahPhaseExectuion
@@ -11,6 +12,9 @@ canonical_path: /api/GeburahBoss/GeburahPhaseExectuion
 ```csharp
 public abstract class GeburahPhaseExectuion
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s phases.
 
 
@@ -26,8 +30,6 @@ Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s phases.
 ```csharp
 public GeburahPhaseExectuion(GeburahCoreScript geburah)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public GeburahPhaseExectuion(GeburahCoreScript geburah)
 ```csharp
 public GeburahCoreScript geburah
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public GeburahCoreScript geburah
 ```csharp
 public bool isPrevAttack
 ```
-#INC
 
 
 #### Field Value
@@ -63,14 +63,12 @@ public bool isPrevAttack
 ```csharp
 public abstract void FixedUpdate()
 ```
-#INC
 
 
 ### GetNextAction(List<UnitModel>)
 ```csharp
 public abstract GeburahAction GetNextAction(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -85,7 +83,6 @@ public abstract GeburahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public virtual MapNode GetRandomMoveNode()
 ```
-#INC
 
 
 #### Returns
@@ -95,7 +92,6 @@ public virtual MapNode GetRandomMoveNode()
 ```csharp
 public virtual MapNode GetRandomNode()
 ```
-#INC
 
 
 #### Returns
@@ -105,16 +101,15 @@ public virtual MapNode GetRandomNode()
 ```csharp
 public virtual void OnPrevSuppressed()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public abstract void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

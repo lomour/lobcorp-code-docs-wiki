@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.TextureLoader
 canonical_path: /api/Spine/TextureLoader
@@ -34,4 +35,5 @@ void Unload(object texture)
 | Name | Type | Description |
 | --- | --- | --- |
 | `texture` | `System.Object` |  |
+
 

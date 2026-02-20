@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GeburahAction
 canonical_path: /api/GeburahBoss/GeburahAction
@@ -11,8 +12,11 @@ canonical_path: /api/GeburahBoss/GeburahAction
 ```csharp
 public class GeburahAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s actions
-#parent 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ Parent class for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s actions
 ```csharp
 public GeburahAction(GeburahCoreScript geburah)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -42,7 +44,6 @@ public GeburahAction(GeburahCoreScript geburah)
 ```csharp
 private GeburahAction _interrupt
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +53,6 @@ private GeburahAction _interrupt
 ```csharp
 public GeburahActionState actionState
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ public GeburahActionState actionState
 ```csharp
 public GeburahCoreScript geburah
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +107,6 @@ public MovableObjectNode Movable { get; }
 ```csharp
 public virtual bool CanTakeDamage()
 ```
-#INC
 
 
 #### Returns
@@ -118,49 +116,42 @@ public virtual bool CanTakeDamage()
 ```csharp
 public virtual void EndAction()
 ```
-#INC
 
 
 ### Interrupt()
 ```csharp
 public virtual void Interrupt()
 ```
-#INC
 
 
 ### OnEnd()
 ```csharp
 public virtual void OnEnd()
 ```
-#INC
 
 
 ### OnExecute()
 ```csharp
 public virtual void OnExecute()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public virtual void OnStart()
 ```
-#INC
 
 
 ### ParamInit()
 ```csharp
 public virtual void ParamInit()
 ```
-#INC
 
 
 ### SetInterruptAction(GeburahAction)
 ```csharp
 public virtual void SetInterruptAction(GeburahAction action)
 ```
-#INC
 
 
 #### Parameters
@@ -170,4 +161,5 @@ public virtual void SetInterruptAction(GeburahAction action)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraConversationController.ConversationType
 canonical_path: /api/Global/Type/SefiraConversationControllerConversationType
@@ -45,4 +46,5 @@ PANIC = 0
 
 #### Field Value
 **Type:** Global.SefiraConversationController.ConversationType
+
 

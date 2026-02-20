@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerSpriteManager
 canonical_path: /api/Global/Worker/WorkerSpriteManager
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Worker/WorkerSpriteManager
 ```csharp
 public class WorkerSpriteManager : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Manages worker sprites. #INC 
-#INC 
+
+Manages worker sprites. 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public WorkerSpriteManager()
 ```csharp
 private static WorkerSpriteManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private static WorkerSpriteManager _instance
 ```csharp
 private Dictionary<string, UniqueWeaponSpriteUnit> _uniqueWeaponDic
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +63,6 @@ public WorkerBasicSpriteController basicData
 ```csharp
 public const string bothHairPath = "Sprites/Agent/Hair/Both"
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +72,6 @@ public const string bothHairPath = "Sprites/Agent/Hair/Both"
 ```csharp
 private static float custom_128
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +81,6 @@ private static float custom_128
 ```csharp
 private static float custom_256
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +90,6 @@ private static float custom_256
 ```csharp
 private static float custom_512
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +99,6 @@ private static float custom_512
 ```csharp
 private const float custom_x_std_face = 256
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +108,6 @@ private const float custom_x_std_face = 256
 ```csharp
 private const float custom_x_std_hair = 256
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +117,6 @@ private const float custom_x_std_hair = 256
 ```csharp
 public WorkerEquipmentSpriteController equipData
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +126,6 @@ public WorkerEquipmentSpriteController equipData
 ```csharp
 public const string facePath = "Sprites/Agent/Face"
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +135,6 @@ public const string facePath = "Sprites/Agent/Face"
 ```csharp
 public const string femaleHairPath = "Sprites/Agent/Hair/Female"
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +144,6 @@ public const string femaleHairPath = "Sprites/Agent/Hair/Female"
 ```csharp
 public const string maleHairPath = "Sprites/Agent/Hair/Male"
 ```
-#INC
 
 
 #### Field Value
@@ -177,7 +169,6 @@ public List<int> Modifys
 ```csharp
 public List<Sprite> PanicShadow
 ```
-#INC
 
 
 #### Field Value
@@ -187,7 +178,6 @@ public List<Sprite> PanicShadow
 ```csharp
 private static Vector2 pivot
 ```
-#INC
 
 
 #### Field Value
@@ -197,7 +187,6 @@ private static Vector2 pivot
 ```csharp
 public Sprite righthand
 ```
-#INC
 
 
 #### Field Value
@@ -207,7 +196,6 @@ public Sprite righthand
 ```csharp
 public List<Sprite> SefiraSymbol
 ```
-#INC
 
 
 #### Field Value
@@ -217,7 +205,6 @@ public List<Sprite> SefiraSymbol
 ```csharp
 public List<Sprite> SefiraSymbol2
 ```
-#INC
 
 
 #### Field Value
@@ -227,7 +214,6 @@ public List<Sprite> SefiraSymbol2
 ```csharp
 public List<Sprite> SefiraSymbol3
 ```
-#INC
 
 
 #### Field Value
@@ -237,7 +223,6 @@ public List<Sprite> SefiraSymbol3
 ```csharp
 public List<Sprite> SefiraSymbol4
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +240,6 @@ public static Sprite Special_Basic
 ```csharp
 public List<Sprite> UniqueWeapon
 ```
-#INC
 
 
 #### Field Value
@@ -274,7 +258,6 @@ public List<UniqueWeaponSpriteUnit> uniqueWeaponSprites
 ```csharp
 public List<WorkerColorPreset> workerColor
 ```
-#INC
 
 
 #### Field Value
@@ -284,7 +267,6 @@ public List<WorkerColorPreset> workerColor
 ```csharp
 public List<Sprite> WorkNote
 ```
-#INC
 
 
 #### Field Value
@@ -410,8 +392,6 @@ public static WorkerSpriteManager instance { get; }
 ```csharp
 public void Awake()
 ```
-#INC
-#code-generated
 
 
 ### GetAgentArmor(ref WorkerSprite)
@@ -439,7 +419,6 @@ public void GetArmorData(int id, ref WorkerSprite set)
 ```csharp
 public Sprite GetAttachmentSprite(EGOgiftAttachRegion region, string name)
 ```
-#INC
 
 
 #### Parameters
@@ -455,7 +434,6 @@ public Sprite GetAttachmentSprite(EGOgiftAttachRegion region, string name)
 ```csharp
 public SpriteResourceLoadData GetClothesSet(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -470,7 +448,6 @@ public SpriteResourceLoadData GetClothesSet(int id)
 ```csharp
 public Sprite[] GetFistSprite(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -485,7 +462,6 @@ public Sprite[] GetFistSprite(int id)
 ```csharp
 private int GetOfficerArmor(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -511,7 +487,6 @@ public void GetOfficerArmror(ref WorkerSprite set, SefiraEnum sefira)
 ```csharp
 public Sprite GetPanicShadow(RwbpType type)
 ```
-#INC
 
 
 #### Parameters
@@ -537,7 +512,6 @@ public void GetRandomBasicData(WorkerSprite set, bool containCustoms = true)
 ```csharp
 public Color GetRandomColor()
 ```
-#INC
 
 
 #### Returns
@@ -547,7 +521,6 @@ public Color GetRandomColor()
 ```csharp
 public Sprite GetSefiraSymbol(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -562,7 +535,6 @@ public Sprite GetSefiraSymbol(AgentModel agent)
 ```csharp
 public Sprite GetSefiraSymbol(SefiraEnum sefira, int level = 1)
 ```
-#INC
 
 
 #### Parameters
@@ -589,7 +561,6 @@ public void GetUniqueBasicData(WorkerSprite set, UniqueCreditAgentInfo info)
 ```csharp
 public bool GetUniqueWeaponSpriteInfo(string name, out UniqueWeaponSpriteUnit unit)
 ```
-#INC
 
 
 #### Parameters
@@ -605,7 +576,6 @@ public bool GetUniqueWeaponSpriteInfo(string name, out UniqueWeaponSpriteUnit un
 ```csharp
 public Sprite GetWeaponSprite(WeaponClassType type, string name)
 ```
-#INC
 
 
 #### Parameters
@@ -621,7 +591,6 @@ public Sprite GetWeaponSprite(WeaponClassType type, string name)
 ```csharp
 public Sprite GetWorkNoteSprite(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -636,7 +605,6 @@ public Sprite GetWorkNoteSprite(int id)
 ```csharp
 public Sprite LoadBasicData(BasicSpriteRegion region, WorkerSpriteSaveData.Pair pair)
 ```
-#INC
 
 
 #### Parameters
@@ -664,14 +632,12 @@ public void LoadCustomSprite(DirectoryInfo di, BasicSpriteRegion region, WorkerS
 ```csharp
 public void LoadCustomSprites()
 ```
-#INC
 
 
 ### LoadSpineData()
 ```csharp
 private void LoadSpineData()
 ```
-#INC
 
 
 ### LoadWorkerSpriteSetBySaveData(WorkerSprite)
@@ -702,7 +668,6 @@ public void MakeNewUniqueWeaponSpriteUnit(string name, UniqueWeaponSpriteUnit un
 ```csharp
 public static Texture2D ScaleTexture(Texture2D source, int targetWidth, int targetHeight, bool mipmap = true)
 ```
-#INC
 
 
 #### Parameters
@@ -744,4 +709,5 @@ public bool SpecialFindDir_Texture(string name, ref DirectoryInfo info, ref Text
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

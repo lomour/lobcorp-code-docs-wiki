@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.GreedyThrow
 canonical_path: /api/GeburahBoss/GreedyThrow
@@ -11,6 +12,9 @@ canonical_path: /api/GeburahBoss/GreedyThrow
 ```csharp
 public class GreedyThrow : GeburahAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [The Red Mist](/api/Global/Script/GeburahCoreScript)'s action for her Gold Rush attack which throws it out ahead of her. Used in [phase 4](/api/GeburahBoss/FourthPhase).
 
@@ -24,7 +28,6 @@ public class GreedyThrow : GeburahAction
 ```csharp
 public GreedyThrow(GeburahCoreScript geburah, int passageCount)
 ```
-#INC
 
 
 #### Parameters
@@ -39,7 +42,6 @@ public GreedyThrow(GeburahCoreScript geburah, int passageCount)
 ```csharp
 private Timer _delayTimer
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +51,6 @@ private Timer _delayTimer
 ```csharp
 private bool _isAttacking
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +60,6 @@ private bool _isAttacking
 ```csharp
 private bool _isLastArrived
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ private bool _isLastArrived
 ```csharp
 private const float animClipTime = 1
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +78,6 @@ private const float animClipTime = 1
 ```csharp
 private MovementBuf buf
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +87,6 @@ private MovementBuf buf
 ```csharp
 private List<UnitModel> currentDamageTargets
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +96,6 @@ private List<UnitModel> currentDamageTargets
 ```csharp
 private MovementInfo currentInfo
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +105,6 @@ private MovementInfo currentInfo
 ```csharp
 private int moveCount
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +114,6 @@ private int moveCount
 ```csharp
 private int moveMax
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +123,6 @@ private int moveMax
 ```csharp
 private Queue<MovementInfo> movementInfo
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +132,6 @@ private Queue<MovementInfo> movementInfo
 ```csharp
 private List<MovementInfo> movementInfoList
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +141,6 @@ private List<MovementInfo> movementInfoList
 ```csharp
 private int PassageCount
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +150,6 @@ private int PassageCount
 ```csharp
 private List<Animator> portalAnim
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +159,6 @@ private List<Animator> portalAnim
 ```csharp
 private const string portalSrc = "Portal"
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +168,6 @@ private const string portalSrc = "Portal"
 ```csharp
 private float speedFactor
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +177,6 @@ private float speedFactor
 ```csharp
 public const float speedValue = 32
 ```
-#INC
 
 
 #### Field Value
@@ -211,14 +198,12 @@ private float Freq { get; }
 ```csharp
 private void ExecuteNextInfo()
 ```
-#INC
 
 
 ### MakePortal(Vector3)
 ```csharp
 public Animator MakePortal(Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
@@ -233,28 +218,24 @@ public Animator MakePortal(Vector3 pos)
 ```csharp
 private void MakeProjectile()
 ```
-#INC
 
 
 ### OnAttackEnd()
 ```csharp
 public void OnAttackEnd()
 ```
-#INC
 
 
 ### OnEnd()
 ```csharp
 public override void OnEnd()
 ```
-#INC
 
 
 ### OnEventCalled(int)
 ```csharp
 public void OnEventCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -266,28 +247,24 @@ public void OnEventCalled(int i)
 ```csharp
 public override void OnExecute()
 ```
-#INC
 
 
 ### OnExecuteEnd()
 ```csharp
 private void OnExecuteEnd()
 ```
-#INC
 
 
 ### OnGiveDamage()
 ```csharp
 public void OnGiveDamage()
 ```
-#INC
 
 
 ### OnReadyForRun(MovementInfo)
 ```csharp
 private void OnReadyForRun(MovementInfo info)
 ```
-#INC
 
 
 #### Parameters
@@ -299,17 +276,15 @@ private void OnReadyForRun(MovementInfo info)
 ```csharp
 public override void OnStart()
 ```
-#INC
 
 
 ### ParamInit()
 ```csharp
 public override void ParamInit()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [CanTakeDamage()](/api/GeburahBoss/GeburahAction#cantakedamage), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

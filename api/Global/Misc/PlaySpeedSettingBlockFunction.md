@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PlaySpeedSettingBlockFunction
 canonical_path: /api/Global/Misc/PlaySpeedSettingBlockFunction
@@ -69,4 +70,5 @@ TIMESTOP_RESUME = 1
 
 #### Field Value
 **Type:** Global.PlaySpeedSettingBlockFunction
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FengYunAnim.CURSTATE
 canonical_path: /api/Global/Misc/FengYunAnimCURSTATE
@@ -93,4 +94,5 @@ TRANSFORM = 1
 
 #### Field Value
 **Type:** Global.FengYunAnim.CURSTATE
+
 

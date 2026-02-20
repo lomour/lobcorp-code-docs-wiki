@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraEnum
 canonical_path: /api/Global/Misc/SefiraEnum
@@ -117,4 +118,5 @@ YESOD = 1
 
 #### Field Value
 **Type:** Global.SefiraEnum
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdAnim.NarrationUI.FadeOutEvent
 canonical_path: /api/Global/Event/BossBirdAnimNarrationUIFadeOutEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

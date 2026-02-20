@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Assets.Scripts.UI.Utils.LocalizeTextLoadScript.OnSetText
 canonical_path: /api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript/OnSetText
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

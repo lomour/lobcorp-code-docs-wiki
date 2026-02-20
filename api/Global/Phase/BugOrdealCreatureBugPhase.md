@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BugOrdealCreature.BugPhase
 canonical_path: /api/Global/Phase/BugOrdealCreatureBugPhase
@@ -53,4 +54,5 @@ Teleporting = 1
 
 #### Field Value
 **Type:** Global.BugOrdealCreature.BugPhase
+
 

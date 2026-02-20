@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureFeelingPreferScript.FeelingPrefer
 canonical_path: /api/Global/Creature/CreatureFeelingPreferScriptFeelingPrefer
@@ -61,4 +62,5 @@ VERYGOOD = 0
 
 #### Field Value
 **Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
+
 

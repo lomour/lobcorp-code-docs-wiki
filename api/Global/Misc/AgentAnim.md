@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentAnim
 canonical_path: /api/Global/Misc/AgentAnim
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Misc/AgentAnim
 ```csharp
 public class AgentAnim : AnimScript, IAnimatorEventCalled
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Animates [agents](/api/Global/Worker/AgentUnit) <3
 
-#INC 
+
 
 
 ## Inheritance
@@ -36,7 +40,6 @@ public AgentAnim()
 ```csharp
 private WorkerSpriteSet _spriteSet
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +57,6 @@ public AgentAnim.AfterResetEvent afterReset
 ```csharp
 public SpriteRenderer B_hand
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +66,6 @@ public SpriteRenderer B_hand
 ```csharp
 public SpriteRenderer B_low_arm
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +75,6 @@ public SpriteRenderer B_low_arm
 ```csharp
 public SpriteRenderer B_low_leg
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +84,6 @@ public SpriteRenderer B_low_leg
 ```csharp
 public SpriteRenderer B_up_arm
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +93,6 @@ public SpriteRenderer B_up_arm
 ```csharp
 public SpriteRenderer B_up_leg
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +102,6 @@ public SpriteRenderer B_up_leg
 ```csharp
 private bool bFlip
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +111,6 @@ private bool bFlip
 ```csharp
 public SpriteRenderer body
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +120,6 @@ public SpriteRenderer body
 ```csharp
 public Sprite currentFaceSprite
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +129,6 @@ public Sprite currentFaceSprite
 ```csharp
 private Sprite defaultFace
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +138,6 @@ private Sprite defaultFace
 ```csharp
 private float elapsed
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +147,6 @@ private float elapsed
 ```csharp
 public SpriteRenderer F_hand
 ```
-#INC
 
 
 #### Field Value
@@ -164,7 +156,6 @@ public SpriteRenderer F_hand
 ```csharp
 public SpriteRenderer F_low_arm
 ```
-#INC
 
 
 #### Field Value
@@ -174,7 +165,6 @@ public SpriteRenderer F_low_arm
 ```csharp
 public SpriteRenderer F_low_leg
 ```
-#INC
 
 
 #### Field Value
@@ -184,7 +174,6 @@ public SpriteRenderer F_low_leg
 ```csharp
 public SpriteRenderer F_up_arm
 ```
-#INC
 
 
 #### Field Value
@@ -194,7 +183,6 @@ public SpriteRenderer F_up_arm
 ```csharp
 public SpriteRenderer F_up_leg
 ```
-#INC
 
 
 #### Field Value
@@ -204,7 +192,6 @@ public SpriteRenderer F_up_leg
 ```csharp
 public SpriteRenderer face
 ```
-#INC
 
 
 #### Field Value
@@ -214,7 +201,6 @@ public SpriteRenderer face
 ```csharp
 private bool faceChanaged
 ```
-#INC
 
 
 #### Field Value
@@ -224,7 +210,6 @@ private bool faceChanaged
 ```csharp
 public Sprite[] faceSprites
 ```
-#INC
 
 
 #### Field Value
@@ -234,7 +219,6 @@ public Sprite[] faceSprites
 ```csharp
 public Transform GunFlamePos
 ```
-#INC
 
 
 #### Field Value
@@ -244,7 +228,6 @@ public Transform GunFlamePos
 ```csharp
 private const string gunFlameSrc = "Effect/Agent/GunFlame"
 ```
-#INC
 
 
 #### Field Value
@@ -254,7 +237,6 @@ private const string gunFlameSrc = "Effect/Agent/GunFlame"
 ```csharp
 public SpriteRenderer hair
 ```
-#INC
 
 
 #### Field Value
@@ -264,7 +246,6 @@ public SpriteRenderer hair
 ```csharp
 private bool haltDirectionUpdate
 ```
-#INC
 
 
 #### Field Value
@@ -274,7 +255,6 @@ private bool haltDirectionUpdate
 ```csharp
 private bool isLookingLeft
 ```
-#INC
 
 
 #### Field Value
@@ -284,7 +264,6 @@ private bool isLookingLeft
 ```csharp
 private float maxTime
 ```
-#INC
 
 
 #### Field Value
@@ -294,7 +273,6 @@ private float maxTime
 ```csharp
 public SpriteRenderer Melee
 ```
-#INC
 
 
 #### Field Value
@@ -304,7 +282,6 @@ public SpriteRenderer Melee
 ```csharp
 private const string mentalFace = "Sprites/Agent/face_something/attacked_mind"
 ```
-#INC
 
 
 #### Field Value
@@ -314,7 +291,6 @@ private const string mentalFace = "Sprites/Agent/face_something/attacked_mind"
 ```csharp
 private WorkerModel model
 ```
-#INC
 
 
 #### Field Value
@@ -324,7 +300,6 @@ private WorkerModel model
 ```csharp
 public SpriteRenderer panicDefFace
 ```
-#INC
 
 
 #### Field Value
@@ -334,7 +309,6 @@ public SpriteRenderer panicDefFace
 ```csharp
 private Sprite panicFaceLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -344,7 +318,6 @@ private Sprite panicFaceLoaded
 ```csharp
 public SpriteRenderer panicMouth1
 ```
-#INC
 
 
 #### Field Value
@@ -354,7 +327,6 @@ public SpriteRenderer panicMouth1
 ```csharp
 public SpriteRenderer panicMouth2
 ```
-#INC
 
 
 #### Field Value
@@ -364,7 +336,6 @@ public SpriteRenderer panicMouth2
 ```csharp
 private const string phyiscalFace = "Sprites/Agent/face_something/attacked_physical"
 ```
-#INC
 
 
 #### Field Value
@@ -374,7 +345,6 @@ private const string phyiscalFace = "Sprites/Agent/face_something/attacked_physi
 ```csharp
 public SpriteRenderer Ranged
 ```
-#INC
 
 
 #### Field Value
@@ -384,7 +354,6 @@ public SpriteRenderer Ranged
 ```csharp
 public SpriteRenderer Symbol
 ```
-#INC
 
 
 #### Field Value
@@ -430,42 +399,36 @@ public WorkerSpriteSet spriteSet { get; }
 ```csharp
 public void AfterDeadAnimPlayed()
 ```
-#INC
 
 
 ### AfterResetGetControl()
 ```csharp
 public void AfterResetGetControl()
 ```
-#INC
 
 
 ### AgentReset()
 ```csharp
 public void AgentReset()
 ```
-#INC
 
 
 ### AgentResetIgnoreFileCheck()
 ```csharp
 public void AgentResetIgnoreFileCheck()
 ```
-#INC
 
 
 ### AnimatorEventInit()
 ```csharp
 public void AnimatorEventInit()
 ```
-#INC
 
 
 ### AttackCalled(int)
 ```csharp
 public void AttackCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -477,14 +440,12 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
-#INC
 
 
 ### AttackedEffect(AgentAnimPos, string)
 ```csharp
 public void AttackedEffect(AgentAnimPos pos, string src)
 ```
-#INC
 
 
 #### Parameters
@@ -497,7 +458,6 @@ public void AttackedEffect(AgentAnimPos pos, string src)
 ```csharp
 public void AttackedEffectByRandomPos(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -509,7 +469,6 @@ public void AttackedEffectByRandomPos(string src)
 ```csharp
 public GameObject AttackedEffectHeadPos(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -524,7 +483,6 @@ public GameObject AttackedEffectHeadPos(string src)
 ```csharp
 public GameObject AttackedEffectInBodyPos(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -539,14 +497,12 @@ public GameObject AttackedEffectInBodyPos(string src)
 ```csharp
 private void Awake()
 ```
-#INC
 
 
 ### ChangeFaceSprite(Sprite)
 ```csharp
 public void ChangeFaceSprite(Sprite s)
 ```
-#INC
 
 
 #### Parameters
@@ -558,14 +514,12 @@ public void ChangeFaceSprite(Sprite s)
 ```csharp
 public void ChangeFaceToDefault()
 ```
-#INC
 
 
 ### CreatureAnimCall(int, CreatureBase)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -578,7 +532,6 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void EffectMakeInCurrentPos(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -590,7 +543,6 @@ public void EffectMakeInCurrentPos(string src)
 ```csharp
 public void EffectMakeInCurrentPosGlobal(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -602,14 +554,12 @@ public void EffectMakeInCurrentPosGlobal(string src)
 ```csharp
 private void FlipCall()
 ```
-#INC
 
 
 ### FlipDirection(bool)
 ```csharp
 public void FlipDirection(bool b)
 ```
-#INC
 
 
 #### Parameters
@@ -621,8 +571,6 @@ public void FlipDirection(bool b)
 ```csharp
 public Transform GetBodyPos(AgentAnimPos animPos)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -637,7 +585,6 @@ public Transform GetBodyPos(AgentAnimPos animPos)
 ```csharp
 public bool GetFlipDirection()
 ```
-#INC
 
 
 #### Returns
@@ -647,7 +594,6 @@ public bool GetFlipDirection()
 ```csharp
 public bool GetHaltDirectionUpdate()
 ```
-#INC
 
 
 #### Returns
@@ -657,7 +603,6 @@ public bool GetHaltDirectionUpdate()
 ```csharp
 public bool GetIsLookingLeft()
 ```
-#INC
 
 
 #### Returns
@@ -667,7 +612,6 @@ public bool GetIsLookingLeft()
 ```csharp
 public void Init(WorkerModel am)
 ```
-#INC
 
 
 #### Parameters
@@ -679,7 +623,6 @@ public void Init(WorkerModel am)
 ```csharp
 public bool IsAttackMotion()
 ```
-#INC
 
 
 #### Returns
@@ -689,63 +632,54 @@ public bool IsAttackMotion()
 ```csharp
 private void LateUpdate()
 ```
-#INC
 
 
 ### LoadWeaponSprite()
 ```csharp
 public void LoadWeaponSprite()
 ```
-#INC
 
 
 ### LookLeft()
 ```csharp
 public void LookLeft()
 ```
-#INC
 
 
 ### LookRight()
 ```csharp
 public void LookRight()
 ```
-#INC
 
 
 ### MakeGunFlame()
 ```csharp
 public void MakeGunFlame()
 ```
-#INC
 
 
 ### MakeScreamer()
 ```csharp
 public void MakeScreamer()
 ```
-#INC
 
 
 ### OffPanicFace()
 ```csharp
 public void OffPanicFace()
 ```
-#INC
 
 
 ### OnCalled()
 ```csharp
 public void OnCalled()
 ```
-#INC
 
 
 ### OnCalled(int)
 ```csharp
 public void OnCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -757,21 +691,18 @@ public void OnCalled(int i)
 ```csharp
 public void OnDead()
 ```
-#INC
 
 
 ### OnDieAnimCheck()
 ```csharp
 public void OnDieAnimCheck()
 ```
-#INC
 
 
 ### PanicActionEventCalled(int)
 ```csharp
 public void PanicActionEventCalled(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -783,7 +714,6 @@ public void PanicActionEventCalled(int index)
 ```csharp
 public void ParamResetToZero(string pName)
 ```
-#INC
 
 
 #### Parameters
@@ -795,7 +725,6 @@ public void ParamResetToZero(string pName)
 ```csharp
 public void PlaySound(string src, string key, bool isLoop)
 ```
-#INC
 
 
 #### Parameters
@@ -809,7 +738,6 @@ public void PlaySound(string src, string key, bool isLoop)
 ```csharp
 public void PlaySoundOneShot(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -821,7 +749,6 @@ public void PlaySoundOneShot(string src)
 ```csharp
 public void PresetPanicFaceByRandom(string dir, int range)
 ```
-#INC
 
 
 #### Parameters
@@ -834,21 +761,18 @@ public void PresetPanicFaceByRandom(string dir, int range)
 ```csharp
 public void ReleaseFlip()
 ```
-#INC
 
 
 ### ResetAnimator()
 ```csharp
 public void ResetAnimator()
 ```
-#INC
 
 
 ### SetFace(Sprite)
 ```csharp
 public void SetFace(Sprite sprite)
 ```
-#INC
 
 
 #### Parameters
@@ -860,7 +784,6 @@ public void SetFace(Sprite sprite)
 ```csharp
 public void SetHair(Sprite sprite)
 ```
-#INC
 
 
 #### Parameters
@@ -872,14 +795,12 @@ public void SetHair(Sprite sprite)
 ```csharp
 public void SetPanicFace()
 ```
-#INC
 
 
 ### SetParameterForSecond(string, bool, float)
 ```csharp
 public void SetParameterForSecond(string pname, bool value, float time)
 ```
-#INC
 
 
 #### Parameters
@@ -893,7 +814,6 @@ public void SetParameterForSecond(string pname, bool value, float time)
 ```csharp
 public void SetParameterForSecond(string pname, int value, float time)
 ```
-#INC
 
 
 #### Parameters
@@ -907,7 +827,6 @@ public void SetParameterForSecond(string pname, int value, float time)
 ```csharp
 public void SetWorkerSprite(WorkerSpriteSet spriteSet)
 ```
-#INC
 
 
 #### Parameters
@@ -919,7 +838,6 @@ public void SetWorkerSprite(WorkerSpriteSet spriteSet)
 ```csharp
 public void ShortInit(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -931,7 +849,6 @@ public void ShortInit(WorkerModel worker)
 ```csharp
 public void ShowCreatureActionSpeech(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -943,7 +860,6 @@ public void ShowCreatureActionSpeech(string key)
 ```csharp
 public void ShowUnconActionSpeech(string key)
 ```
-#INC
 
 
 #### Parameters
@@ -955,14 +871,12 @@ public void ShowUnconActionSpeech(string key)
 ```csharp
 public void SimpleReset()
 ```
-#INC
 
 
 ### SoundMake(string)
 ```csharp
 public void SoundMake(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -974,9 +888,9 @@ public void SoundMake(string src)
 ```csharp
 public void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [animator](/api/Global/Script/AnimScript#animator), [motionDelay](/api/Global/Script/AnimScript#motiondelay), [defaultSpeed](/api/Global/Script/AnimScript#defaultspeed), [FixedUpdate()](/api/Global/Script/AnimScript#fixedupdate), [SetSpeed(float)](/api/Global/Script/AnimScript#setspeed-float), [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

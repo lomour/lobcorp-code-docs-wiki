@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TastyBug.BugType
 canonical_path: /api/Global/Type/TastyBugBugType
@@ -29,4 +30,5 @@ B = 1
 
 #### Field Value
 **Type:** Global.TastyBug.BugType
+
 

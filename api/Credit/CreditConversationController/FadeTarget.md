@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Credit.CreditConversationController.FadeTarget
 canonical_path: /api/Credit/CreditConversationController/FadeTarget
@@ -29,4 +30,5 @@ TEXT = 20
 
 #### Field Value
 **Type:** Credit.CreditConversationController.FadeTarget
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PersonalityType
 canonical_path: /api/Global/Type/PersonalityType
@@ -45,4 +46,5 @@ S = 2
 
 #### Field Value
 **Type:** Global.PersonalityType
+
 

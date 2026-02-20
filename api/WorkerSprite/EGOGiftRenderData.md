@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.EGOGiftRenderData
 canonical_path: /api/WorkerSprite/EGOGiftRenderData
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSprite/EGOGiftRenderData
 ```csharp
 public class EGOGiftRenderData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores information for rendering an EGO gift
 
 
@@ -30,7 +34,6 @@ public EGOGiftRenderData()
 ```csharp
 public string attachmentName
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public string attachmentName
 ```csharp
 public EGOgiftAttachType attachType
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ public EGOgiftAttachType attachType
 ```csharp
 public string DataName
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public string DataName
 ```csharp
 public long metaId
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ public long metaId
 ```csharp
 public EGOgiftAttachRegion region
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ public EGOgiftAttachRegion region
 ```csharp
 public SpriteRenderer renderer
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ public SpriteRenderer renderer
 ```csharp
 public string slot
 ```
-#INC
 
 
 #### Field Value
@@ -100,8 +97,6 @@ public string slot
 ```csharp
 public Sprite Sprite
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -109,4 +104,5 @@ public Sprite Sprite
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

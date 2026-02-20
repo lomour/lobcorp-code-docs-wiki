@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.KetherLastEffectType
 canonical_path: /api/KetherBoss/KetherLastEffectType
@@ -85,4 +86,5 @@ WHITEFADE = 2
 
 #### Field Value
 **Type:** KetherBoss.KetherLastEffectType
+
 

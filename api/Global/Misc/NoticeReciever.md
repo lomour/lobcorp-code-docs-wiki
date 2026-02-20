@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.NoticeReciever
 canonical_path: /api/Global/Misc/NoticeReciever
@@ -61,4 +62,5 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 

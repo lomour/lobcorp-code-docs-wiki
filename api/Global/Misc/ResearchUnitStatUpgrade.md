@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchUnitStatUpgrade
 canonical_path: /api/Global/Misc/ResearchUnitStatUpgrade
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/ResearchUnitStatUpgrade
 ```csharp
 public class ResearchUnitStatUpgrade
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Research for Netzach's 'Regenerator Mk2' (increased HP healing) and 'Mental Corruption Neutralizing Gas' (increased SP healing).
 
 See [ResearchDataModel](/api/Global/Model/ResearchDataModel)
@@ -32,8 +36,6 @@ public ResearchUnitStatUpgrade()
 ```csharp
 public int hp
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -43,7 +45,6 @@ public int hp
 ```csharp
 public int mental
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public int mental
 ```csharp
 public int mentalDefense
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public int mentalDefense
 ```csharp
 public float movement
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public float movement
 ```csharp
 public int physicalDefense
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public int physicalDefense
 ```csharp
 public int regeneration
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public int regeneration
 ```csharp
 public float regenerationDelay
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +99,6 @@ public float regenerationDelay
 ```csharp
 public int regenerationMental
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +108,6 @@ public int regenerationMental
 ```csharp
 public float regenerationMentalDelay
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +117,6 @@ public float regenerationMentalDelay
 ```csharp
 public int resistHorror
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +126,6 @@ public int resistHorror
 ```csharp
 public float workEnergy
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +135,6 @@ public float workEnergy
 ```csharp
 public float workProb
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +144,6 @@ public float workProb
 ```csharp
 public float workSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -161,4 +151,5 @@ public float workSpeed
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

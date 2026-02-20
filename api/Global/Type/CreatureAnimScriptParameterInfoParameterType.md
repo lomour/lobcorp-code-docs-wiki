@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureAnimScript.ParameterInfo.ParameterType
 canonical_path: /api/Global/Type/CreatureAnimScriptParameterInfoParameterType
@@ -37,4 +38,5 @@ INT = 0
 
 #### Field Value
 **Type:** Global.CreatureAnimScript.ParameterInfo.ParameterType
+
 

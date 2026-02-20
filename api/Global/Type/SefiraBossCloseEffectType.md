@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraBossCloseEffectType
 canonical_path: /api/Global/Type/SefiraBossCloseEffectType
@@ -21,4 +22,5 @@ DEFAULT = 0
 
 #### Field Value
 **Type:** Global.SefiraBossCloseEffectType
+
 

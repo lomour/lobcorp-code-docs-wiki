@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RecoilEffect
 canonical_path: /api/Global/Effect/RecoilEffect
@@ -11,8 +12,14 @@ canonical_path: /api/Global/Effect/RecoilEffect
 ```csharp
 public class RecoilEffect
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Unused recoil effect
-#unused 
+
 
 
 ## Inheritance
@@ -34,7 +41,6 @@ public RecoilEffect()
 ```csharp
 public float maxTime
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +50,6 @@ public float maxTime
 ```csharp
 public int recoilCount
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +59,6 @@ public int recoilCount
 ```csharp
 public float scale
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +68,6 @@ public float scale
 ```csharp
 public Transform targetTransform
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +79,6 @@ public Transform targetTransform
 ```csharp
 public static RecoilArrow GetArrow(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -91,7 +93,6 @@ public static RecoilArrow GetArrow(int index)
 ```csharp
 public static Vector2 GetVector(RecoilArrow arrow, Vector2 initial, float scale)
 ```
-#INC
 
 
 #### Parameters
@@ -108,7 +109,6 @@ public static Vector2 GetVector(RecoilArrow arrow, Vector2 initial, float scale)
 ```csharp
 public static Vector3 GetVector(RecoilArrow arrow, Vector3 initial, float scale)
 ```
-#INC
 
 
 #### Parameters
@@ -125,8 +125,6 @@ public static Vector3 GetVector(RecoilArrow arrow, Vector3 initial, float scale)
 ```csharp
 public static List<RecoilArrow> MakeRecoilArrow(int level)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -139,4 +137,5 @@ public static List<RecoilArrow> MakeRecoilArrow(int level)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

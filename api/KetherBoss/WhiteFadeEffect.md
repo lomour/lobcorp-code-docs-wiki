@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.WhiteFadeEffect
 canonical_path: /api/KetherBoss/WhiteFadeEffect
@@ -11,7 +12,10 @@ canonical_path: /api/KetherBoss/WhiteFadeEffect
 ```csharp
 public class WhiteFadeEffect : KetherLastEffectBase
 ```
-#INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+
 
 
 ## Inheritance
@@ -23,7 +27,6 @@ public class WhiteFadeEffect : KetherLastEffectBase
 ```csharp
 public WhiteFadeEffect(KetherLastBossBase bossBase)
 ```
-#INC
 
 
 #### Parameters
@@ -37,7 +40,6 @@ public WhiteFadeEffect(KetherLastBossBase bossBase)
 ```csharp
 private bool _arrived
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +49,6 @@ private bool _arrived
 ```csharp
 private float _effectTime
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +58,6 @@ private float _effectTime
 ```csharp
 private Timer _timer
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +67,6 @@ private Timer _timer
 ```csharp
 private CameraFilterPack_Colors_Brightness brightness
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +76,6 @@ private CameraFilterPack_Colors_Brightness brightness
 ```csharp
 private AnimationCurve curve
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +85,6 @@ private AnimationCurve curve
 ```csharp
 private bool terminateMovement
 ```
-#INC
 
 
 #### Field Value
@@ -99,24 +96,21 @@ private bool terminateMovement
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### OnStart()
 ```csharp
 public override void OnStart()
 ```
-#INC
-#code-generated
 
 
 ### StartEffect()
 ```csharp
 public void StartEffect()
 ```
-#INC
 
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [Update()](/api/KetherBoss/KetherLastEffectBase#update), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

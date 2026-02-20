@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StorySelectionUI.OnSelectCallback
 canonical_path: /api/Global/Misc/StorySelectionUIOnSelectCallback
@@ -61,4 +62,5 @@ public virtual void Invoke(int index)
 | Name | Type | Description |
 | --- | --- | --- |
 | `index` | `System.Int32` |  |
+
 

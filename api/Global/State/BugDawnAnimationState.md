@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BugDawn.AnimationState
 canonical_path: /api/Global/State/BugDawnAnimationState
@@ -61,4 +62,5 @@ MOVE = 0
 
 #### Field Value
 **Type:** Global.BugDawn.AnimationState
+
 

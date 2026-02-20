@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerCmdState
 canonical_path: /api/Global/State/WorkerCmdState
@@ -11,4 +12,5 @@ canonical_path: /api/Global/State/WorkerCmdState
 ```csharp
 public enum WorkerCmdState
 ```
+
 

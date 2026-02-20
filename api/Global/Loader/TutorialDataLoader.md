@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.TutorialDataLoader
 canonical_path: /api/Global/Loader/TutorialDataLoader
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Loader/TutorialDataLoader
 ```csharp
 public class TutorialDataLoader
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Loads tutorial data from XML for the current language, or english by default.
 
-#INC 
+
 
 
 ## Inheritance
@@ -32,7 +36,6 @@ public TutorialDataLoader()
 ```csharp
 private static TutorialDataLoader _instance
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private static TutorialDataLoader _instance
 ```csharp
 private string currentLn
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private string currentLn
 ```csharp
 private string documentSrc
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private string documentSrc
 ```csharp
 private TutorialData tutorialData
 ```
-#INC
 
 
 #### Field Value
@@ -92,15 +92,12 @@ public TutorialData TutorialData { get; }
 ```csharp
 public void Load()
 ```
-#INC
 
 
 ### LoadDoc(string)
 ```csharp
 private XmlDocument LoadDoc(string currentLn)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -113,4 +110,5 @@ private XmlDocument LoadDoc(string currentLn)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

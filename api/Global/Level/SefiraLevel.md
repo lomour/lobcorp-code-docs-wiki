@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraLevel
 canonical_path: /api/Global/Level/SefiraLevel
@@ -37,4 +38,5 @@ UP = 0
 
 #### Field Value
 **Type:** Global.SefiraLevel
+
 

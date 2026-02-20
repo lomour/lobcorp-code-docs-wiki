@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahMoveState
 canonical_path: /api/BinahBoss/BinahMoveState
@@ -37,4 +38,5 @@ MOVING = 1
 
 #### Field Value
 **Type:** BinahBoss.BinahMoveState
+
 

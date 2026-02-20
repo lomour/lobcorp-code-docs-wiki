@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GlobalBullet.GlobalBulletManager
 canonical_path: /api/GlobalBullet/GlobalBulletManager
@@ -11,6 +12,9 @@ canonical_path: /api/GlobalBullet/GlobalBulletManager
 ```csharp
 public class GlobalBulletManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Manager for how many bullets there are, when they're reloaded, when they're activated, and bullet effects
 
@@ -25,8 +29,6 @@ Manager for how many bullets there are, when they're reloaded, when they're acti
 ```csharp
 private GlobalBulletManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -43,7 +45,6 @@ private Dictionary<GlobalBulletType, GlobalBulletManager.BulletFunc> _funcs
 ```csharp
 private static GlobalBulletManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ private static GlobalBulletManager _instance
 ```csharp
 public float coolTime
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public float coolTime
 ```csharp
 public int currentBullet
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public int currentBullet
 ```csharp
 public float elapsedCoolTime
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public float elapsedCoolTime
 ```csharp
 public int initialMaxBullet
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public int initialMaxBullet
 ```csharp
 public int maxBullet
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +111,6 @@ public static GlobalBulletManager instance { get; }
 ```csharp
 public bool ActivateBullet(GlobalBulletType type, List<UnitModel> targets)
 ```
-#INC
 
 
 #### Parameters
@@ -131,7 +126,6 @@ public bool ActivateBullet(GlobalBulletType type, List<UnitModel> targets)
 ```csharp
 private void ExcuteBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -143,28 +137,24 @@ private void ExcuteBullet(UnitModel target)
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### RecoverHPBullet(UnitModel)
 ```csharp
 private void RecoverHPBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -176,7 +166,6 @@ private void RecoverHPBullet(UnitModel target)
 ```csharp
 private void RecoverMentalBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -188,14 +177,12 @@ private void RecoverMentalBullet(UnitModel target)
 ```csharp
 public void Reload()
 ```
-#INC
 
 
 ### ResistBBullet(UnitModel)
 ```csharp
 private void ResistBBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -207,7 +194,6 @@ private void ResistBBullet(UnitModel target)
 ```csharp
 private void ResistPBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -219,7 +205,6 @@ private void ResistPBullet(UnitModel target)
 ```csharp
 private void ResistRBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -231,7 +216,6 @@ private void ResistRBullet(UnitModel target)
 ```csharp
 private void ResistWBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -243,7 +227,6 @@ private void ResistWBullet(UnitModel target)
 ```csharp
 public void SetMaxBullet(int max)
 ```
-#INC
 
 
 #### Parameters
@@ -255,7 +238,6 @@ public void SetMaxBullet(int max)
 ```csharp
 private void SlowBullet(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -267,16 +249,15 @@ private void SlowBullet(UnitModel target)
 ```csharp
 public void UpdateMaxBullet()
 ```
-#INC
 
 
 ### UpdateUI()
 ```csharp
 private void UpdateUI()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

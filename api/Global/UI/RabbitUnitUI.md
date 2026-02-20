@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RabbitUnitUI
 canonical_path: /api/Global/UI/RabbitUnitUI
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UI/RabbitUnitUI
 ```csharp
 public class RabbitUnitUI
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Shows grade, HP, SP, and name below the [rabbit](/api/Global/Unit/RabbitUnit).
 
@@ -31,7 +35,6 @@ public RabbitUnitUI()
 ```csharp
 public bool Activated
 ```
-#INC
 
 
 #### Field Value
@@ -41,7 +44,6 @@ public bool Activated
 ```csharp
 public Text Name
 ```
-#INC
 
 
 #### Field Value
@@ -53,8 +55,6 @@ public Text Name
 ```csharp
 public void activateUI(RabbitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -66,9 +66,9 @@ public void activateUI(RabbitModel model)
 ```csharp
 public void DeactivateAllUI()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

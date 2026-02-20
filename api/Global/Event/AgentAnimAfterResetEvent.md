@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentAnim.AfterResetEvent
 canonical_path: /api/Global/Event/AgentAnimAfterResetEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

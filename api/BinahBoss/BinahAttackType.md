@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahAttackType
 canonical_path: /api/BinahBoss/BinahAttackType
@@ -45,4 +46,5 @@ THIRD_COLUMN = 2
 
 #### Field Value
 **Type:** BinahBoss.BinahAttackType
+
 

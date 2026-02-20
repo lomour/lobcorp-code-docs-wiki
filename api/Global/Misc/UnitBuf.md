@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitBuf
 canonical_path: /api/Global/Misc/UnitBuf
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/UnitBuf
 ```csharp
 public class UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for buffs, debuffs, and effects applied to workers and abnormalities.
 
-#INC 
+
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public UnitBuf()
 ```csharp
 public BufDuplicateType duplicateType
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ public BufDuplicateType duplicateType
 ```csharp
 public string effectSrc
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ public string effectSrc
 ```csharp
 public UnitModel model
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ public UnitModel model
 ```csharp
 public float remainTime
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ public float remainTime
 ```csharp
 public UnitBufType type
 ```
-#INC
 
 
 #### Field Value
@@ -87,14 +86,12 @@ public UnitBufType type
 ```csharp
 public virtual void Destroy()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public virtual void FixedUpdate()
 ```
-#INC
 
 
 ### GetDamageFactor()
@@ -137,8 +134,6 @@ public virtual float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skil
 ```csharp
 public virtual void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -150,7 +145,6 @@ public virtual void Init(UnitModel model)
 ```csharp
 public virtual float MovementScale()
 ```
-#INC
 
 
 #### Returns
@@ -160,7 +154,6 @@ public virtual float MovementScale()
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)
@@ -194,14 +187,12 @@ public virtual void OnGiveDamageAfter(UnitModel actor, UnitModel target, DamageI
 ```csharp
 public virtual void OnStageRelease()
 ```
-#INC
 
 
 ### OnTakeDamage(UnitModel, DamageInfo)
 ```csharp
 public virtual float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```
-#INC
 
 
 #### Parameters
@@ -217,16 +208,15 @@ public virtual float OnTakeDamage(UnitModel attacker, DamageInfo damageInfo)
 ```csharp
 public virtual void OnUnitDie()
 ```
-#INC
 
 
 ### OnUnitPanic()
 ```csharp
 public virtual void OnUnitPanic()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

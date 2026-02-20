@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.IUpdatable
 canonical_path: /api/Spine/IUpdatable
@@ -18,4 +19,5 @@ public interface IUpdatable
 ```csharp
 void Update()
 ```
+
 

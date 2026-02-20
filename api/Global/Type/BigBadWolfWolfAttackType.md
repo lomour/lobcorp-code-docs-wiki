@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BigBadWolf.WolfAttackType
 canonical_path: /api/Global/Type/BigBadWolfWolfAttackType
@@ -45,4 +46,5 @@ SCRATCH = 0
 
 #### Field Value
 **Type:** Global.BigBadWolf.WolfAttackType
+
 

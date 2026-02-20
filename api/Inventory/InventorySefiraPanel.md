@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Inventory.InventorySefiraPanel
 canonical_path: /api/Inventory/InventorySefiraPanel
@@ -11,6 +12,9 @@ canonical_path: /api/Inventory/InventorySefiraPanel
 ```csharp
 public class InventorySefiraPanel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 UI element for displaying the agents in a department on the [E.G.O List screen](/api/Inventory/InventoryUI).
 
 See [InventorySefiraController](/api/Inventory/InventorySefiraController)
@@ -32,7 +36,6 @@ public InventorySefiraPanel()
 ```csharp
 private Sefira _currentSefira
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ private Sefira _currentSefira
 ```csharp
 public GameObject ActiveControl
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public GameObject ActiveControl
 ```csharp
 public Text AreaNameText
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public Text AreaNameText
 ```csharp
 public Image SefiraAreaFill
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public Image SefiraAreaFill
 ```csharp
 public List<InventoryAgentSlot> slots
 ```
-#INC
 
 
 #### Field Value
@@ -94,22 +93,18 @@ public Sefira CurrentSefira { get; }
 ```csharp
 public void AwakeAction()
 ```
-#INC
 
 
 ### Init()
 ```csharp
 public void Init()
 ```
-#INC
-#code-generated
 
 
 ### SetAgentList(SefiraUIColor)
 ```csharp
 public void SetAgentList(SefiraUIColor color)
 ```
-#INC
 
 
 #### Parameters
@@ -121,7 +116,6 @@ public void SetAgentList(SefiraUIColor color)
 ```csharp
 public void SetSefira(Sefira current)
 ```
-#INC
 
 
 #### Parameters
@@ -131,4 +125,5 @@ public void SetSefira(Sefira current)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

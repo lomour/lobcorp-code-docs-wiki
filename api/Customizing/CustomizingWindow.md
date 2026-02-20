@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.CustomizingWindow
 canonical_path: /api/Customizing/CustomizingWindow
@@ -11,6 +12,9 @@ canonical_path: /api/Customizing/CustomizingWindow
 ```csharp
 public class CustomizingWindow : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 UI for customizing agents.
 
 
@@ -30,7 +34,6 @@ public CustomizingWindow()
 ```csharp
 private AgentModel _currentAgent
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ private AgentModel _currentAgent
 ```csharp
 private static CustomizingWindow _currentWindow
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private static CustomizingWindow _currentWindow
 ```csharp
 private CustomizingType _currentWindowType
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private CustomizingType _currentWindowType
 ```csharp
 private bool _isEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private bool _isEnabled
 ```csharp
 public GameObject appearanceBlock
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ public GameObject appearanceBlock
 ```csharp
 public Text AppearanceCostText
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ public Text AppearanceCostText
 ```csharp
 public const int AppearanceCustomCost = 1
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +106,6 @@ public AppearanceUI appearanceUI
 ```csharp
 public Text BattleEyebrowTitle
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +115,6 @@ public Text BattleEyebrowTitle
 ```csharp
 public Text BattleEyeTitle
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +124,6 @@ public Text BattleEyeTitle
 ```csharp
 public Text BattleMouthTitle
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +133,6 @@ public Text BattleMouthTitle
 ```csharp
 public Text BlockText
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +142,6 @@ public Text BlockText
 ```csharp
 public Color Blue
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +151,6 @@ public Color Blue
 ```csharp
 public GameObject buttonControl
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +160,6 @@ public GameObject buttonControl
 ```csharp
 public Button CancelButton
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +169,6 @@ public Button CancelButton
 ```csharp
 public Text CancelButtonText
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +178,6 @@ public Text CancelButtonText
 ```csharp
 public Button ConfirmButton
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +187,6 @@ public Button ConfirmButton
 ```csharp
 public Text ConfirmText
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +196,6 @@ public Text ConfirmText
 ```csharp
 public Text CostTitle
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +205,6 @@ public Text CostTitle
 ```csharp
 public Text CurrentCost
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +214,6 @@ public Text CurrentCost
 ```csharp
 public Text CurrentCostPrefix
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +223,6 @@ public Text CurrentCostPrefix
 ```csharp
 public AgentData CurrentData
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +232,6 @@ public AgentData CurrentData
 ```csharp
 public Text CurrentLobPoint
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +241,6 @@ public Text CurrentLobPoint
 ```csharp
 public Text CurrentPointTitle
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +250,6 @@ public Text CurrentPointTitle
 ```csharp
 public Text EyebrowTitle
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +259,6 @@ public Text EyebrowTitle
 ```csharp
 public Text EyeTitle
 ```
-#INC
 
 
 #### Field Value
@@ -298,7 +277,6 @@ public Text FaceTitle
 ```csharp
 public Text FrontHairTitle
 ```
-#INC
 
 
 #### Field Value
@@ -308,7 +286,6 @@ public Text FrontHairTitle
 ```csharp
 public Text MouthTitle
 ```
-#INC
 
 
 #### Field Value
@@ -318,7 +295,6 @@ public Text MouthTitle
 ```csharp
 public const int NameCustomCost = 0
 ```
-#INC
 
 
 #### Field Value
@@ -328,7 +304,6 @@ public const int NameCustomCost = 0
 ```csharp
 public Text NameTitle
 ```
-#INC
 
 
 #### Field Value
@@ -338,7 +313,6 @@ public Text NameTitle
 ```csharp
 public Color Normal
 ```
-#INC
 
 
 #### Field Value
@@ -348,7 +322,6 @@ public Color Normal
 ```csharp
 public Text PanicEyebrowTitle
 ```
-#INC
 
 
 #### Field Value
@@ -358,7 +331,6 @@ public Text PanicEyebrowTitle
 ```csharp
 public Text PanicEyeTitle
 ```
-#INC
 
 
 #### Field Value
@@ -368,7 +340,6 @@ public Text PanicEyeTitle
 ```csharp
 public WorkerPortraitSetter portrait
 ```
-#INC
 
 
 #### Field Value
@@ -378,7 +349,6 @@ public WorkerPortraitSetter portrait
 ```csharp
 public Text RearHairTitle
 ```
-#INC
 
 
 #### Field Value
@@ -397,7 +367,6 @@ public Color Red
 ```csharp
 public GameObject rootObject
 ```
-#INC
 
 
 #### Field Value
@@ -407,7 +376,6 @@ public GameObject rootObject
 ```csharp
 public StatUI statUI
 ```
-#INC
 
 
 #### Field Value
@@ -453,63 +421,54 @@ public bool IsEnabled { get; set; }
 ```csharp
 public void AgentInfoWindowInit()
 ```
-#INC
 
 
 ### Awake()
 ```csharp
 private void Awake()
 ```
-#INC
 
 
 ### Cancel()
 ```csharp
 public void Cancel()
 ```
-#INC
 
 
 ### CloseWindow()
 ```csharp
 public static void CloseWindow()
 ```
-#INC
 
 
 ### Confirm()
 ```csharp
 public void Confirm()
 ```
-#INC
 
 
 ### CostUpdate()
 ```csharp
 private void CostUpdate()
 ```
-#INC
 
 
 ### GenerationWindow()
 ```csharp
 public static void GenerationWindow()
 ```
-#INC
 
 
 ### GenOpenAction()
 ```csharp
 private void GenOpenAction()
 ```
-#INC
 
 
 ### GenRandomFaceSpriteSet(ref AgentData)
 ```csharp
 public void GenRandomFaceSpriteSet(ref AgentData data)
 ```
-#INC
 
 
 #### Parameters
@@ -521,7 +480,6 @@ public void GenRandomFaceSpriteSet(ref AgentData data)
 ```csharp
 public void GenRandomHairSpriteSet(ref AgentData data)
 ```
-#INC
 
 
 #### Parameters
@@ -533,7 +491,6 @@ public void GenRandomHairSpriteSet(ref AgentData data)
 ```csharp
 public void GenRandomSpriteSet(ref AgentData data)
 ```
-#INC
 
 
 #### Parameters
@@ -545,7 +502,6 @@ public void GenRandomSpriteSet(ref AgentData data)
 ```csharp
 public void GenUniqueSpriteSet(UniqueCreditAgentInfo info, ref AgentData data)
 ```
-#INC
 
 
 #### Parameters
@@ -558,7 +514,6 @@ public void GenUniqueSpriteSet(UniqueCreditAgentInfo info, ref AgentData data)
 ```csharp
 private int GetCost()
 ```
-#INC
 
 
 #### Returns
@@ -568,22 +523,18 @@ private int GetCost()
 ```csharp
 private void OpenAction()
 ```
-#INC
-#code-generated
 
 
 ### OpenAppearanceWindow()
 ```csharp
 public void OpenAppearanceWindow()
 ```
-#INC
 
 
 ### ReviseOpenAction(AgentModel)
 ```csharp
 private void ReviseOpenAction(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -595,7 +546,6 @@ private void ReviseOpenAction(AgentModel agent)
 ```csharp
 public static void ReviseWindow(AgentModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -607,7 +557,6 @@ public static void ReviseWindow(AgentModel target)
 ```csharp
 public void SetAgentStatBonus(AgentModel agent, AgentData data)
 ```
-#INC
 
 
 #### Parameters
@@ -620,7 +569,6 @@ public void SetAgentStatBonus(AgentModel agent, AgentData data)
 ```csharp
 public int SetRandomStatValue(int original, int currentLevel, int bounusLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -637,30 +585,27 @@ public int SetRandomStatValue(int original, int currentLevel, int bounusLevel)
 ```csharp
 private void SetText()
 ```
-#INC
 
 
 ### Start()
 ```csharp
 private void Start()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### UpdatePortrait()
 ```csharp
 public void UpdatePortrait()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

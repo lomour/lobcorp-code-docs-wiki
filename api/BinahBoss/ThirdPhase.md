@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.ThirdPhase
 canonical_path: /api/BinahBoss/ThirdPhase
@@ -11,6 +12,9 @@ canonical_path: /api/BinahBoss/ThirdPhase
 ```csharp
 public class ThirdPhase : BinahPhaseExecution
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [An Arbiter](/api/Global/Script/BinahCoreScript)'s third phase behavior.
 
@@ -28,7 +32,6 @@ If someone is near her, she will randomly choose to either use her [Blade Wave](
 ```csharp
 public ThirdPhase(BinahCoreScript binah)
 ```
-#INC
 
 
 #### Parameters
@@ -42,7 +45,6 @@ public ThirdPhase(BinahCoreScript binah)
 ```csharp
 private Timer columnTimer
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ private Timer columnTimer
 ```csharp
 private const float forcelyRunTime = 70
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ private const float forcelyRunTime = 70
 ```csharp
 private Timer forcelyTimer
 ```
-#INC
 
 
 #### Field Value
@@ -74,15 +74,12 @@ private Timer forcelyTimer
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
-#code-generated
 
 
 ### GetNextAction(List<UnitModel>)
 ```csharp
 public override BinahAction GetNextAction(List<UnitModel> near)
 ```
-#INC
 
 
 #### Parameters
@@ -97,16 +94,15 @@ public override BinahAction GetNextAction(List<UnitModel> near)
 ```csharp
 public override void OnPrevSuppressed()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 public override void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [binah](/api/BinahBoss/BinahPhaseExecution#binah), [overloadActivated](/api/BinahBoss/BinahPhaseExecution#overloadactivated), [overloadTimer](/api/BinahBoss/BinahPhaseExecution#overloadtimer), [overloadTypeList](/api/BinahBoss/BinahPhaseExecution#overloadtypelist), [HaltOverload()](/api/BinahBoss/BinahPhaseExecution#haltoverload), [StartTimer(float)](/api/BinahBoss/BinahPhaseExecution#starttimer-float), [GetOverloadType()](/api/BinahBoss/BinahPhaseExecution#getoverloadtype), [OnOverloadEnd()](/api/BinahBoss/BinahPhaseExecution#onoverloadend), [ToString()](/api/BinahBoss/BinahPhaseExecution#tostring), [BinahHasOverload](/api/BinahBoss/BinahPhaseExecution#binahhasoverload), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

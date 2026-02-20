@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureOverloadManager
 canonical_path: /api/Global/Creature/CreatureOverloadManager
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Creature/CreatureOverloadManager
 ```csharp
 public class CreatureOverloadManager
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Manages Qliphoth overloads for each day. Also, sets the [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)'s maximum number of bullets.
 
 
@@ -30,7 +34,6 @@ public CreatureOverloadManager()
 ```csharp
 private static CreatureOverloadManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ private static CreatureOverloadManager _instance
 ```csharp
 private OrdealBase _nextOrdeal
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +52,6 @@ private OrdealBase _nextOrdeal
 ```csharp
 private int _qliphothOverloadMax
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ private int _qliphothOverloadMax
 ```csharp
 private HashSet<SefiraEnum> clearedBossMissions
 ```
-#INC
 
 
 #### Field Value
@@ -70,7 +70,6 @@ private HashSet<SefiraEnum> clearedBossMissions
 ```csharp
 private readonly int[] overflowValue
 ```
-#INC
 
 
 #### Field Value
@@ -80,7 +79,6 @@ private readonly int[] overflowValue
 ```csharp
 private int qliphothOverloadGauge
 ```
-#INC
 
 
 #### Field Value
@@ -90,7 +88,6 @@ private int qliphothOverloadGauge
 ```csharp
 private int qliphothOverloadIsolateNum
 ```
-#INC
 
 
 #### Field Value
@@ -100,7 +97,6 @@ private int qliphothOverloadIsolateNum
 ```csharp
 private int qliphothOverloadLevel
 ```
-#INC
 
 
 #### Field Value
@@ -130,14 +126,12 @@ public int qliphothOverloadMax { get; }
 ```csharp
 private void ActivateOverload()
 ```
-#INC
 
 
 ### ActivateOverload(int, OverloadType, float, bool, bool, bool, params long[])
 ```csharp
 public List<CreatureModel> ActivateOverload(int overloadCount, OverloadType type, float overloadTime, bool ignoreWork = false, bool ignoreBossReward = false, bool ignoreDefaultOverload = false, params long[] ignoredCreatureMetaId)
 ```
-#INC
 
 
 #### Parameters
@@ -158,14 +152,12 @@ public List<CreatureModel> ActivateOverload(int overloadCount, OverloadType type
 ```csharp
 public void AddOverloadGague()
 ```
-#INC
 
 
 ### CheckOrdealActivate(int)
 ```csharp
 private bool CheckOrdealActivate(int currentLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -180,7 +172,6 @@ private bool CheckOrdealActivate(int currentLevel)
 ```csharp
 public int GetQliphothOverloadLevel()
 ```
-#INC
 
 
 #### Returns
@@ -190,22 +181,18 @@ public int GetQliphothOverloadLevel()
 ```csharp
 public void OnStageRelease()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
-#code-generated
 
 
 ### SetQliphothOverloadLevel(int)
 ```csharp
 private void SetQliphothOverloadLevel(int level)
 ```
-#INC
 
 
 #### Parameters
@@ -215,4 +202,5 @@ private void SetQliphothOverloadLevel(int level)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

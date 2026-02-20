@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.AttachmentLoader
 canonical_path: /api/Spine/AttachmentLoader
@@ -99,4 +100,5 @@ RegionAttachment NewRegionAttachment(Skin skin, string name, string path)
 
 #### Returns
 **Type:** Spine.RegionAttachment
+
 

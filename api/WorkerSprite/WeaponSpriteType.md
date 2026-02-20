@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WeaponSpriteType
 canonical_path: /api/WorkerSprite/WeaponSpriteType
@@ -85,4 +86,5 @@ UNIQUE = 8
 
 #### Field Value
 **Type:** WorkerSprite.WeaponSpriteType
+
 

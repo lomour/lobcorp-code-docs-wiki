@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Rabbit.SlotState
 canonical_path: /api/Rabbit/SlotState
@@ -37,4 +38,5 @@ NOTOPENED = 1
 
 #### Field Value
 **Type:** Rabbit.SlotState
+
 

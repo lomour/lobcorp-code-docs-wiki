@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RiskLevel
 canonical_path: /api/Global/Level/RiskLevel
@@ -53,4 +54,5 @@ ZAYIN = 0
 
 #### Field Value
 **Type:** Global.RiskLevel
+
 

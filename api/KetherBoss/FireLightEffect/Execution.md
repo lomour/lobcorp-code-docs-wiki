@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.FireLightEffect.Execution
 canonical_path: /api/KetherBoss/FireLightEffect/Execution
@@ -45,4 +46,5 @@ GLOW = 0
 
 #### Field Value
 **Type:** KetherBoss.FireLightEffect.Execution
+
 

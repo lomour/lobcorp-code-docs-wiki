@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SupportedLanguage
 canonical_path: /api/Global/Misc/SupportedLanguage
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SupportedLanguage
 ```csharp
 public static class SupportedLanguage
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds the supported languages and the names to display in the language drop-down.
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,7 +29,6 @@ Holds the supported languages and the names to display in the language drop-down
 ```csharp
 public const string bg = "bg"
 ```
-#INC
 
 
 #### Field Value
@@ -35,7 +38,6 @@ public const string bg = "bg"
 ```csharp
 public const string bg_Name = "български"
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +47,6 @@ public const string bg_Name = "български"
 ```csharp
 public const string cn = "cn"
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +56,6 @@ public const string cn = "cn"
 ```csharp
 public const string cn_Name = "中文(简体)"
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +65,6 @@ public const string cn_Name = "中文(简体)"
 ```csharp
 public const string cn_tr = "cn_tr"
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +74,6 @@ public const string cn_tr = "cn_tr"
 ```csharp
 public const string cn_tr_Name = "中文(繁體)"
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +83,6 @@ public const string cn_tr_Name = "中文(繁體)"
 ```csharp
 public const string en = "en"
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +92,6 @@ public const string en = "en"
 ```csharp
 public const string en_Name = "English"
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +117,6 @@ public const string es_Name = "Español Latinoamérica"
 ```csharp
 public const string jp = "jp"
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +126,6 @@ public const string jp = "jp"
 ```csharp
 public const string jp_Name = "日本語"
 ```
-#INC
 
 
 #### Field Value
@@ -141,7 +135,6 @@ public const string jp_Name = "日本語"
 ```csharp
 public const string kr = "kr"
 ```
-#INC
 
 
 #### Field Value
@@ -151,7 +144,6 @@ public const string kr = "kr"
 ```csharp
 public const string kr_Name = "한국어"
 ```
-#INC
 
 
 #### Field Value
@@ -161,7 +153,6 @@ public const string kr_Name = "한국어"
 ```csharp
 public const string ru = "ru"
 ```
-#INC
 
 
 #### Field Value
@@ -171,7 +162,6 @@ public const string ru = "ru"
 ```csharp
 public const string ru_Name = "русский"
 ```
-#INC
 
 
 #### Field Value
@@ -181,7 +171,6 @@ public const string ru_Name = "русский"
 ```csharp
 public const string vn = "vn"
 ```
-#INC
 
 
 #### Field Value
@@ -191,7 +180,6 @@ public const string vn = "vn"
 ```csharp
 public const string vn_Name = "Tiếng Việt"
 ```
-#INC
 
 
 #### Field Value
@@ -203,7 +191,6 @@ public const string vn_Name = "Tiếng Việt"
 ```csharp
 public static string GetCurrentLanguageName(string language)
 ```
-#INC
 
 
 #### Parameters
@@ -218,7 +205,6 @@ public static string GetCurrentLanguageName(string language)
 ```csharp
 public static string GetCurrentLanguageName(SystemLanguage language)
 ```
-#INC
 
 
 #### Parameters
@@ -233,8 +219,6 @@ public static string GetCurrentLanguageName(SystemLanguage language)
 ```csharp
 public static List<string> GetSupprotedList()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -242,4 +226,5 @@ public static List<string> GetSupprotedList()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

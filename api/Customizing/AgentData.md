@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.AgentData
 canonical_path: /api/Customizing/AgentData
@@ -11,11 +12,14 @@ canonical_path: /api/Customizing/AgentData
 ```csharp
 public class AgentData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores a (potential?) agent's name, stats, and appearance (possibly customized).
 
 Has a section for copying appearance? o_o
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,8 +31,6 @@ Has a section for copying appearance? o_o
 ```csharp
 public AgentData()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -37,7 +39,6 @@ public AgentData()
 ```csharp
 public AgentName agentName
 ```
-#INC
 
 
 #### Field Value
@@ -47,7 +48,6 @@ public AgentName agentName
 ```csharp
 public Appearance appearance
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +57,6 @@ public Appearance appearance
 ```csharp
 public string CustomName
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +66,6 @@ public string CustomName
 ```csharp
 public bool isCustomAppearance
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +75,6 @@ public bool isCustomAppearance
 ```csharp
 public bool isCustomName
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +84,6 @@ public bool isCustomName
 ```csharp
 public bool isStatBonusAdded
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +93,6 @@ public bool isStatBonusAdded
 ```csharp
 public bool isUniqueCredit
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +102,6 @@ public bool isUniqueCredit
 ```csharp
 public AgentModel originalModel
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +111,6 @@ public AgentModel originalModel
 ```csharp
 public WorkerPrimaryStat stat
 ```
-#INC
 
 
 #### Field Value
@@ -127,7 +120,6 @@ public WorkerPrimaryStat stat
 ```csharp
 public StatBonus statBonus
 ```
-#INC
 
 
 #### Field Value
@@ -137,7 +129,6 @@ public StatBonus statBonus
 ```csharp
 public int uniqueScriptIndex
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +174,6 @@ public int WLevel { get; }
 ```csharp
 public void AppearCopy(AgentData copied)
 ```
-#INC
 
 
 #### Parameters
@@ -195,7 +185,6 @@ public void AppearCopy(AgentData copied)
 ```csharp
 public int GetVanliaLevel()
 ```
-#INC
 
 
 #### Returns
@@ -203,4 +192,5 @@ public int GetVanliaLevel()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

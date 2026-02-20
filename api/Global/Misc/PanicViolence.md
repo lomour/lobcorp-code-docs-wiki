@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PanicViolence
 canonical_path: /api/Global/Misc/PanicViolence
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/PanicViolence
 ```csharp
 public class PanicViolence : PanicAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to indiscriminately attack employees around them.
-#INC 
+
 
 
 ## Inheritance
@@ -25,7 +29,6 @@ Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to indiscriminatel
 ```csharp
 public PanicViolence(AgentModel actor)
 ```
-#INC
 
 
 #### Parameters
@@ -39,7 +42,6 @@ public PanicViolence(AgentModel actor)
 ```csharp
 private AgentModel actor
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +51,6 @@ private AgentModel actor
 ```csharp
 private const int suicideCooltime = 60
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +60,6 @@ private const int suicideCooltime = 60
 ```csharp
 private Timer suicideTimer
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ private Timer suicideTimer
 ```csharp
 private UnitModel target
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +78,6 @@ private UnitModel target
 ```csharp
 private AgentUnit unit
 ```
-#INC
 
 
 #### Field Value
@@ -91,14 +89,12 @@ private AgentUnit unit
 ```csharp
 public override void Execute()
 ```
-#INC
 
 
 ### GetAttackSpeedMultiplier()
 ```csharp
 public override float GetAttackSpeedMultiplier()
 ```
-#INC
 
 
 #### Returns
@@ -108,10 +104,9 @@ public override float GetAttackSpeedMultiplier()
 ```csharp
 public override void Init()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [OnDie()](/api/Global/Action/PanicAction#ondie), [PanicEnd()](/api/Global/Action/PanicAction#panicend), [GetMovementMultiplier()](/api/Global/Action/PanicAction#getmovementmultiplier), [GetDefenseMultiplier()](/api/Global/Action/PanicAction#getdefensemultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

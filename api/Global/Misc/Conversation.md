@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Conversation
 canonical_path: /api/Global/Misc/Conversation
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/Conversation
 ```csharp
 public class Conversation
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds sephirah yapping messages, for displaying in-game (e.g. upon agent death, abnormality escape...).
 
 Loaded by [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) from ExternalData/xml/Language/en/SefiraDesc_en.xml, or the appropriate language xml.
@@ -25,8 +29,6 @@ Loaded by [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) from E
 ```csharp
 private Conversation()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +37,6 @@ private Conversation()
 ```csharp
 public Dictionary<int, List<SefiraMessage>> _dic
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +46,6 @@ public Dictionary<int, List<SefiraMessage>> _dic
 ```csharp
 private static Conversation _instance
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +55,6 @@ private static Conversation _instance
 ```csharp
 private bool _isLoaded
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public bool isLoaded { get; }
 ```csharp
 public SefiraMessage GetSefiraMessage(int key, int type, bool isRobot)
 ```
-#INC
 
 
 #### Parameters
@@ -102,7 +100,6 @@ public SefiraMessage GetSefiraMessage(int key, int type, bool isRobot)
 ```csharp
 public SefiraMessage GetSefiraMessage(int key, int type, int tiphType, bool isRobot)
 ```
-#INC
 
 
 #### Parameters
@@ -120,7 +117,6 @@ public SefiraMessage GetSefiraMessage(int key, int type, int tiphType, bool isRo
 ```csharp
 public void Init(Dictionary<int, List<SefiraMessage>> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -130,4 +126,5 @@ public void Init(Dictionary<int, List<SefiraMessage>> dic)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

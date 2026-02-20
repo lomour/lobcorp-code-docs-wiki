@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AudioSliderType
 canonical_path: /api/Global/Type/AudioSliderType
@@ -29,4 +30,5 @@ MASTER = 0
 
 #### Field Value
 **Type:** Global.AudioSliderType
+
 

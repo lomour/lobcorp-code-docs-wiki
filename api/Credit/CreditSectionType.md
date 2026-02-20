@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Credit.CreditSectionType
 canonical_path: /api/Credit/CreditSectionType
@@ -37,4 +38,5 @@ SUPPORT = 1
 
 #### Field Value
 **Type:** Credit.CreditSectionType
+
 

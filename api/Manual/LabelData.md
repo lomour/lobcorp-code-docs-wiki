@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.LabelData
 canonical_path: /api/Manual/LabelData
@@ -11,7 +12,10 @@ canonical_path: /api/Manual/LabelData
 ```csharp
 public class LabelData
 ```
-#INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+
 
 
 ## Inheritance
@@ -30,7 +34,6 @@ public LabelData()
 ```csharp
 public int globalFontSize
 ```
-#INC
 
 
 #### Field Value
@@ -40,7 +43,6 @@ public int globalFontSize
 ```csharp
 public float globalHeight
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +68,6 @@ public LabelData.PrefixType prefix
 ```csharp
 public Rect rect
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +77,6 @@ public Rect rect
 ```csharp
 public float space
 ```
-#INC
 
 
 #### Field Value
@@ -122,8 +122,6 @@ public float y { get; set; }
 ```csharp
 public static LabelData Parse(string idPrefix, XmlNode node)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -137,4 +135,5 @@ public static LabelData Parse(string idPrefix, XmlNode node)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: CreatureGenerate.CreatureGenerateData.Action
 canonical_path: /api/CreatureGenerate/CreatureGenerateData/Action
@@ -61,4 +62,5 @@ public virtual void Invoke(params object[] param)
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
 

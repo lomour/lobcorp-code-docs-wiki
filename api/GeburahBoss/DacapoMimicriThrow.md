@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.DacapoMimicriThrow
 canonical_path: /api/GeburahBoss/DacapoMimicriThrow
@@ -11,6 +12,9 @@ canonical_path: /api/GeburahBoss/DacapoMimicriThrow
 ```csharp
 public class DacapoMimicriThrow : GeburahAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Action for when [The Red Mist](/api/Global/Script/GeburahCoreScript) throws [Da Capo](/api/Global/Misc/SilentOrchestra) and [Mimicry](/api/Global/Weapon/NothingWeapon) at the start of phase 3.
 
@@ -24,7 +28,6 @@ Action for when [The Red Mist](/api/Global/Script/GeburahCoreScript) throws [Da 
 ```csharp
 public DacapoMimicriThrow(GeburahCoreScript geburah)
 ```
-#INC
 
 
 #### Parameters
@@ -38,7 +41,6 @@ public DacapoMimicriThrow(GeburahCoreScript geburah)
 ```csharp
 public static DamageInfo _r_damage
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +50,6 @@ public static DamageInfo _r_damage
 ```csharp
 public static DamageInfo _w_damage
 ```
-#INC
 
 
 #### Field Value
@@ -60,7 +61,6 @@ public static DamageInfo _w_damage
 ```csharp
 public override bool CanTakeDamage()
 ```
-#INC
 
 
 #### Returns
@@ -70,7 +70,6 @@ public override bool CanTakeDamage()
 ```csharp
 private void MakeProjectile(ProjectileType type, Transform tr, UnitDirection direction, DamageInfo damage, Vector2 size, Vector3 rotation)
 ```
-#INC
 
 
 #### Parameters
@@ -87,14 +86,12 @@ private void MakeProjectile(ProjectileType type, Transform tr, UnitDirection dir
 ```csharp
 private void MakeWeaponAppear()
 ```
-#INC
 
 
 ### OnAnimEventCalled(int)
 ```csharp
 public void OnAnimEventCalled(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -106,24 +103,21 @@ public void OnAnimEventCalled(int index)
 ```csharp
 public override void OnEnd()
 ```
-#INC
 
 
 ### OnThrow()
 ```csharp
 public void OnThrow()
 ```
-#INC
 
 
 ### ParamInit()
 ```csharp
 public override void ParamInit()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [OnStart()](/api/GeburahBoss/GeburahAction#onstart), [OnExecute()](/api/GeburahBoss/GeburahAction#onexecute), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BoomerCircusScript.CircusType
 canonical_path: /api/Global/Type/BoomerCircusScriptCircusType
@@ -29,4 +30,5 @@ TENT = 0
 
 #### Field Value
 **Type:** Global.BoomerCircusScript.CircusType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LongBird.BirdState
 canonical_path: /api/Global/State/LongBirdBirdState
@@ -37,4 +38,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.LongBird.BirdState
+
 

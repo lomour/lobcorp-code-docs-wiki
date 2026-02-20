@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Manual.TextType
 canonical_path: /api/Manual/TextType
@@ -29,4 +30,5 @@ TITLE = 1
 
 #### Field Value
 **Type:** Manual.TextType
+
 

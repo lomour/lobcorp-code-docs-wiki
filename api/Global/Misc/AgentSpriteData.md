@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.AgentSpriteData
 canonical_path: /api/Global/Misc/AgentSpriteData
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/AgentSpriteData
 ```csharp
 public class AgentSpriteData
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores sprite information about an [agent](/api/Global/Worker/AgentUnit).
 
 Used by [AgentPortrait](/api/Global/Misc/AgentPortrait)
@@ -32,7 +36,6 @@ public AgentSpriteData()
 ```csharp
 public AgentModel agent
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public AgentModel agent
 ```csharp
 public WorkerSpriteSet Sets
 ```
-#INC
 
 
 #### Field Value
@@ -72,8 +74,6 @@ public Sprite Hair { get; }
 ```csharp
 public void Init(AgentModel agent)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -83,4 +83,5 @@ public void Init(AgentModel agent)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

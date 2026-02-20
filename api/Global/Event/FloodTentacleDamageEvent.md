@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FloodTentacle.DamageEvent
 canonical_path: /api/Global/Event/FloodTentacleDamageEvent
@@ -61,4 +62,5 @@ public virtual void Invoke(UnitModel target)
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.UnitModel` |  |
+
 

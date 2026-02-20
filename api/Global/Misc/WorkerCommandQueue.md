@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WorkerCommandQueue
 canonical_path: /api/Global/Misc/WorkerCommandQueue
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/WorkerCommandQueue
 ```csharp
 public class WorkerCommandQueue
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Holds a list of [worker commands](/api/Global/Misc/WorkerCommand) to be completed.
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Holds a list of [worker commands](/api/Global/Misc/WorkerCommand) to be complete
 ```csharp
 public WorkerCommandQueue(WorkerModel actor)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -40,7 +42,6 @@ public WorkerCommandQueue(WorkerModel actor)
 ```csharp
 private WorkerModel actor
 ```
-#INC
 
 
 #### Field Value
@@ -50,7 +51,6 @@ private WorkerModel actor
 ```csharp
 private LinkedList<WorkerCommand> queue
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +62,6 @@ private LinkedList<WorkerCommand> queue
 ```csharp
 public void AddFirst(WorkerCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -74,7 +73,6 @@ public void AddFirst(WorkerCommand cmd)
 ```csharp
 public void AddLast(WorkerCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -86,14 +84,12 @@ public void AddLast(WorkerCommand cmd)
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### ClearQueue(List<WorkerCommand>)
 ```csharp
 private void ClearQueue(List<WorkerCommand> copied)
 ```
-#INC
 
 
 #### Parameters
@@ -105,7 +101,6 @@ private void ClearQueue(List<WorkerCommand> copied)
 ```csharp
 public void Execute(WorkerModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -117,7 +112,6 @@ public void Execute(WorkerModel agent)
 ```csharp
 public WorkerCommand GetCurrentCmd()
 ```
-#INC
 
 
 #### Returns
@@ -127,7 +121,6 @@ public WorkerCommand GetCurrentCmd()
 ```csharp
 public void SetAgentCommand(WorkerCommand cmd)
 ```
-#INC
 
 
 #### Parameters
@@ -137,4 +130,5 @@ public void SetAgentCommand(WorkerCommand cmd)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

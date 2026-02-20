@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.OverloadType
 canonical_path: /api/Global/Type/OverloadType
@@ -53,4 +54,5 @@ WAVE = 3
 
 #### Field Value
 **Type:** Global.OverloadType
+
 

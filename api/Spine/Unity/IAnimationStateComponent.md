@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.IAnimationStateComponent
 canonical_path: /api/Spine/Unity/IAnimationStateComponent
@@ -21,4 +22,5 @@ AnimationState AnimationState { get; }
 
 #### Property Value
 **Type:** Spine.AnimationState
+
 

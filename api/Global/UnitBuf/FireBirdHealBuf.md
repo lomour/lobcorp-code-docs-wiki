@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FireBirdHealBuf
 canonical_path: /api/Global/UnitBuf/FireBirdHealBuf
@@ -11,6 +12,9 @@ canonical_path: /api/Global/UnitBuf/FireBirdHealBuf
 ```csharp
 public class FireBirdHealBuf : UnitBuf
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [The Firebird](/api/Global/IOBserver/FireBird)'s heal buff (for when its Qliphoth Counter is 1, or an agent has <20% of max HP at the end of work).
 
@@ -24,7 +28,6 @@ public class FireBirdHealBuf : UnitBuf
 ```csharp
 public FireBirdHealBuf(FireBird script)
 ```
-#INC
 
 
 #### Parameters
@@ -38,7 +41,6 @@ public FireBirdHealBuf(FireBird script)
 ```csharp
 private const float _healValueHpMax = 5
 ```
-#INC
 
 
 #### Field Value
@@ -48,7 +50,6 @@ private const float _healValueHpMax = 5
 ```csharp
 private const float _healValueHpMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -58,7 +59,6 @@ private const float _healValueHpMin = 5
 ```csharp
 private const float _healValueMpMax = 5
 ```
-#INC
 
 
 #### Field Value
@@ -68,7 +68,6 @@ private const float _healValueMpMax = 5
 ```csharp
 private const float _healValueMpMin = 5
 ```
-#INC
 
 
 #### Field Value
@@ -78,7 +77,6 @@ private const float _healValueMpMin = 5
 ```csharp
 private AgentModel agent
 ```
-#INC
 
 
 #### Field Value
@@ -88,7 +86,6 @@ private AgentModel agent
 ```csharp
 private const float defaultRemain = 60
 ```
-#INC
 
 
 #### Field Value
@@ -98,7 +95,6 @@ private const float defaultRemain = 60
 ```csharp
 private GameObject effect
 ```
-#INC
 
 
 #### Field Value
@@ -108,7 +104,6 @@ private GameObject effect
 ```csharp
 private const float healTickTime = 5
 ```
-#INC
 
 
 #### Field Value
@@ -118,7 +113,6 @@ private const float healTickTime = 5
 ```csharp
 private Timer healTickTimer
 ```
-#INC
 
 
 #### Field Value
@@ -128,7 +122,6 @@ private Timer healTickTimer
 ```csharp
 private FireBird script
 ```
-#INC
 
 
 #### Field Value
@@ -158,36 +151,30 @@ private static float HealValueMp { get; }
 ```csharp
 public override void Destroy()
 ```
-#INC
 
 
 ### DestroyEffect()
 ```csharp
 private void DestroyEffect()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### Heal()
 ```csharp
 private void Heal()
 ```
-#INC
 
 
 ### Init(UnitModel)
 ```csharp
 public override void Init(UnitModel model)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -199,16 +186,15 @@ public override void Init(UnitModel model)
 ```csharp
 public override void OnDestroy()
 ```
-#INC
 
 
 ### OnUnitDie()
 ```csharp
 public override void OnUnitDie()
 ```
-#INC
 
 
 ## Inherited Members
 [type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

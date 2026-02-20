@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SingingMachineSkill
 canonical_path: /api/Global/Creature/SingingMachineSkill
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Creature/SingingMachineSkill
 ```csharp
 public class SingingMachineSkill : CreatureSpecialSkill, IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-Old version of [Singing Machine](/api/Global/Machine/SingingMachine)'s uncontrollable action. #verify 
+
+Old version of [Singing Machine](/api/Global/Machine/SingingMachine)'s uncontrollable action. ^\[verify\]^
 
 See .
 
@@ -29,7 +33,6 @@ See .
 ```csharp
 public SingingMachineSkill(CreatureModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -43,7 +46,6 @@ public SingingMachineSkill(CreatureModel model)
 ```csharp
 private List<UnitModel> attackTargets
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +55,6 @@ private List<UnitModel> attackTargets
 ```csharp
 private bool Attracted
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +64,6 @@ private bool Attracted
 ```csharp
 public List<WorkerModel> attractTarget
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +73,6 @@ public List<WorkerModel> attractTarget
 ```csharp
 private float elapsed
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +82,6 @@ private float elapsed
 ```csharp
 private const float frequency = 5
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ private const float frequency = 5
 ```csharp
 private GameObject machineNote
 ```
-#INC
 
 
 #### Field Value
@@ -103,7 +100,6 @@ private GameObject machineNote
 ```csharp
 private Vector3 machinePos
 ```
-#INC
 
 
 #### Field Value
@@ -113,7 +109,6 @@ private Vector3 machinePos
 ```csharp
 private float musicDuration
 ```
-#INC
 
 
 #### Field Value
@@ -123,7 +118,6 @@ private float musicDuration
 ```csharp
 private float musicTimer
 ```
-#INC
 
 
 #### Field Value
@@ -133,7 +127,6 @@ private float musicTimer
 ```csharp
 private string NoteEffect
 ```
-#INC
 
 
 #### Field Value
@@ -143,7 +136,6 @@ private string NoteEffect
 ```csharp
 private PassageObjectModel passageModel
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +145,6 @@ private PassageObjectModel passageModel
 ```csharp
 private MapNode passageNode
 ```
-#INC
 
 
 #### Field Value
@@ -163,7 +154,6 @@ private MapNode passageNode
 ```csharp
 private GameObject passageNote
 ```
-#INC
 
 
 #### Field Value
@@ -173,7 +163,6 @@ private GameObject passageNote
 ```csharp
 private bool PlayingMusic
 ```
-#INC
 
 
 #### Field Value
@@ -183,7 +172,6 @@ private bool PlayingMusic
 ```csharp
 private const string speech_attract = "attract"
 ```
-#INC
 
 
 #### Field Value
@@ -193,7 +181,6 @@ private const string speech_attract = "attract"
 ```csharp
 private List<WorkerModel> targetList
 ```
-#INC
 
 
 #### Field Value
@@ -203,7 +190,6 @@ private List<WorkerModel> targetList
 ```csharp
 public const string tip_attractAttack = "attractAttack"
 ```
-#INC
 
 
 #### Field Value
@@ -213,7 +199,6 @@ public const string tip_attractAttack = "attractAttack"
 ```csharp
 public const string tip_attractKillMusic = "attractKillMusic"
 ```
-#INC
 
 
 #### Field Value
@@ -223,7 +208,6 @@ public const string tip_attractKillMusic = "attractKillMusic"
 ```csharp
 public const string tip_ifDeadAttract = "ifDeadAttract"
 ```
-#INC
 
 
 #### Field Value
@@ -233,7 +217,6 @@ public const string tip_ifDeadAttract = "ifDeadAttract"
 ```csharp
 public const string tip_manyAttract = "manyAttract"
 ```
-#INC
 
 
 #### Field Value
@@ -243,7 +226,6 @@ public const string tip_manyAttract = "manyAttract"
 ```csharp
 public const string tip_panicShake = "panicShake"
 ```
-#INC
 
 
 #### Field Value
@@ -253,7 +235,6 @@ public const string tip_panicShake = "panicShake"
 ```csharp
 private bool waitForAgentWorkEnd
 ```
-#INC
 
 
 #### Field Value
@@ -263,7 +244,6 @@ private bool waitForAgentWorkEnd
 ```csharp
 private List<AgentModel> workedList
 ```
-#INC
 
 
 #### Field Value
@@ -273,7 +253,6 @@ private List<AgentModel> workedList
 ```csharp
 private bool Working
 ```
-#INC
 
 
 #### Field Value
@@ -283,7 +262,6 @@ private bool Working
 ```csharp
 private AgentModel workingAttracted
 ```
-#INC
 
 
 #### Field Value
@@ -295,7 +273,6 @@ private AgentModel workingAttracted
 ```csharp
 public void AddAttackTarget(UnitModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -307,7 +284,6 @@ public void AddAttackTarget(UnitModel worker)
 ```csharp
 public void Attract(List<WorkerModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -319,7 +295,6 @@ public void Attract(List<WorkerModel> list)
 ```csharp
 public void AttractInitialMovement(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -331,7 +306,6 @@ public void AttractInitialMovement(WorkerModel target)
 ```csharp
 private void AttractOneWorker(WorkerModel wm)
 ```
-#INC
 
 
 #### Parameters
@@ -343,7 +317,6 @@ private void AttractOneWorker(WorkerModel wm)
 ```csharp
 public void AttractSkillActivate(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -355,14 +328,12 @@ public void AttractSkillActivate(WorkerModel target)
 ```csharp
 public void CheckAgentInRange()
 ```
-#INC
 
 
 ### CheckTargetState(List<WorkerModel>)
 ```csharp
 public void CheckTargetState(List<WorkerModel> list)
 ```
-#INC
 
 
 #### Parameters
@@ -374,7 +345,6 @@ public void CheckTargetState(List<WorkerModel> list)
 ```csharp
 public bool ContainsAttackTarget(UnitModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -389,7 +359,6 @@ public bool ContainsAttackTarget(UnitModel worker)
 ```csharp
 public bool ContainsAttractedTargets(WorkerModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -404,21 +373,18 @@ public bool ContainsAttractedTargets(WorkerModel worker)
 ```csharp
 public override void DeActivate()
 ```
-#INC
 
 
 ### FixedUpdate()
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### FreeAttractedAgent(WorkerModel)
 ```csharp
 public void FreeAttractedAgent(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -430,7 +396,6 @@ public void FreeAttractedAgent(WorkerModel target)
 ```csharp
 void IObserver.OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -443,14 +408,12 @@ void IObserver.OnNotice(string notice, params object[] param)
 ```csharp
 public void MakeNote()
 ```
-#INC
 
 
 ### OnAttractedTargetTerminated(WorkerModel)
 ```csharp
 public void OnAttractedTargetTerminated(WorkerModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -462,29 +425,24 @@ public void OnAttractedTargetTerminated(WorkerModel target)
 ```csharp
 public override void OnObserveLevelChanged()
 ```
-#INC
 
 
 ### OnStageRelease()
 ```csharp
 public override void OnStageRelease()
 ```
-#INC
-#code-generated
 
 
 ### OnStageStart()
 ```csharp
 public override void OnStageStart()
 ```
-#INC
 
 
 ### RemoveAttackTarget(UnitModel)
 ```csharp
 public void RemoveAttackTarget(UnitModel worker)
 ```
-#INC
 
 
 #### Parameters
@@ -496,14 +454,12 @@ public void RemoveAttackTarget(UnitModel worker)
 ```csharp
 public void SetSuppressed()
 ```
-#INC
 
 
 ### SetTargetState(WorkerModel)
 ```csharp
 public void SetTargetState(WorkerModel wm)
 ```
-#INC
 
 
 #### Parameters
@@ -515,7 +471,6 @@ public void SetTargetState(WorkerModel wm)
 ```csharp
 public override void SkillActivate(WorkerModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -527,7 +482,6 @@ public override void SkillActivate(WorkerModel agent)
 ```csharp
 private void SpecialSkill(WorkerModel target, int type)
 ```
-#INC
 
 
 #### Parameters
@@ -540,9 +494,9 @@ private void SpecialSkill(WorkerModel target, int type)
 ```csharp
 public void StopNote()
 ```
-#INC
 
 
 ## Inherited Members
 [model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate()](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

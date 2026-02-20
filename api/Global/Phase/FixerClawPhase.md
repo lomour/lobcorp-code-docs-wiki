@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FixerClaw.Phase
 canonical_path: /api/Global/Phase/FixerClawPhase
@@ -125,4 +126,5 @@ SKILL_ORANGE = 6
 
 #### Field Value
 **Type:** Global.FixerClaw.Phase
+
 

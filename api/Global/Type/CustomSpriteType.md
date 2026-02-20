@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CustomSpriteType
 canonical_path: /api/Global/Type/CustomSpriteType
@@ -29,4 +30,5 @@ AGENT_HAIR = 0
 
 #### Field Value
 **Type:** Global.CustomSpriteType
+
 

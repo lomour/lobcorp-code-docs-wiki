@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FloodTentacle.TentacleState
 canonical_path: /api/Global/State/FloodTentacleTentacleState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.FloodTentacle.TentacleState
+
 

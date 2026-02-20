@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.LightsHammer.HammerFilterState
 canonical_path: /api/Global/State/LightsHammerHammerFilterState
@@ -37,4 +38,5 @@ USABLE = 2
 
 #### Field Value
 **Type:** Global.LightsHammer.HammerFilterState
+
 

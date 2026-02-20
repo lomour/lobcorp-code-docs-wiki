@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SkillTriggerCheck
 canonical_path: /api/Global/Misc/SkillTriggerCheck
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Misc/SkillTriggerCheck
 ```csharp
 public class SkillTriggerCheck
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Activates [SkillTrigger](/api/Global/Misc/SkillTrigger)s on entering a room.
 
-Seems like they intended to have it check on room exit as well, but since this whole system is only "used" by [Beauty and the Beast](/api/Global/Misc/BeautyBeast), I guess they never implemented that. #weird 
+Seems like they intended to have it check on room exit as well, but since this whole system is only "used" by [Beauty and the Beast](/api/Global/Misc/BeautyBeast), I guess they never implemented that. ^\[weird\]^
 
 
 
@@ -26,8 +30,6 @@ Seems like they intended to have it check on room exit as well, but since this w
 ```csharp
 public SkillTriggerCheck()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -36,7 +38,6 @@ public SkillTriggerCheck()
 ```csharp
 private Type creatureBaseType
 ```
-#INC
 
 
 #### Field Value
@@ -46,7 +47,6 @@ private Type creatureBaseType
 ```csharp
 public List<SkillTrigger> onEnterRoom
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +56,6 @@ public List<SkillTrigger> onEnterRoom
 ```csharp
 public List<SkillTrigger> onExitRoom
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +65,6 @@ public List<SkillTrigger> onExitRoom
 ```csharp
 private CreatureBase script
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +74,6 @@ private CreatureBase script
 ```csharp
 public List<SkillTrigger> total
 ```
-#INC
 
 
 #### Field Value
@@ -88,14 +85,12 @@ public List<SkillTrigger> total
 ```csharp
 public void OnActivated()
 ```
-#INC
 
 
 ### roomEnterCheck(UseSkill)
 ```csharp
 public void roomEnterCheck(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -107,7 +102,6 @@ public void roomEnterCheck(UseSkill skill)
 ```csharp
 public void SetScript(CreatureBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -117,4 +111,5 @@ public void SetScript(CreatureBase script)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

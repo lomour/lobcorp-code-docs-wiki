@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.SefiraManager
 canonical_path: /api/Global/IOBserver/SefiraManager
@@ -11,12 +12,15 @@ canonical_path: /api/Global/IOBserver/SefiraManager
 ```csharp
 public class SefiraManager : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Manages the facility.
 
 Responsible for checking if the game is over, resetting all departments, and other stuff.
 
-#INC 
+
 
 
 ## Inheritance
@@ -31,8 +35,6 @@ Responsible for checking if the game is over, resetting all departments, and oth
 ```csharp
 private SefiraManager()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -41,7 +43,6 @@ private SefiraManager()
 ```csharp
 private Dictionary<string, SefiraEnum> _GenNodeSefiraTable
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ private Dictionary<string, SefiraEnum> _GenNodeSefiraTable
 ```csharp
 private static SefiraManager _instance
 ```
-#INC
 
 
 #### Field Value
@@ -61,7 +61,6 @@ private static SefiraManager _instance
 ```csharp
 private Dictionary<SefiraEnum, Sefira> _sefiraDic
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ private Dictionary<SefiraEnum, Sefira> _sefiraDic
 ```csharp
 private List<Sefira> activatedSefira
 ```
-#INC
 
 
 #### Field Value
@@ -81,7 +79,6 @@ private List<Sefira> activatedSefira
 ```csharp
 public bool isLoadedOfficerSpecialAction
 ```
-#INC
 
 
 #### Field Value
@@ -91,7 +88,6 @@ public bool isLoadedOfficerSpecialAction
 ```csharp
 public bool isLoadedSefiaIsolateData
 ```
-#INC
 
 
 #### Field Value
@@ -101,7 +97,6 @@ public bool isLoadedSefiaIsolateData
 ```csharp
 public const string SefiraCharacterSpritePosfix = "_portrait"
 ```
-#INC
 
 
 #### Field Value
@@ -111,7 +106,6 @@ public const string SefiraCharacterSpritePosfix = "_portrait"
 ```csharp
 public const string SefiraCharacterSpritePrefix = "Sprites/Sefira/Character/"
 ```
-#INC
 
 
 #### Field Value
@@ -121,7 +115,6 @@ public const string SefiraCharacterSpritePrefix = "Sprites/Sefira/Character/"
 ```csharp
 public int sefiraIndexMax
 ```
-#INC
 
 
 #### Field Value
@@ -131,7 +124,6 @@ public int sefiraIndexMax
 ```csharp
 public List<Sefira> sefiraList
 ```
-#INC
 
 
 #### Field Value
@@ -153,7 +145,6 @@ public static SefiraManager instance { get; }
 ```csharp
 public void AddActivatedSefira(Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -165,7 +156,6 @@ public void AddActivatedSefira(Sefira sefira)
 ```csharp
 private CreatureModel AddCreature(long metadataId, SefiraIsolate sefiraIsolateData, string sefiraNum)
 ```
-#INC
 
 
 #### Parameters
@@ -182,7 +172,6 @@ private CreatureModel AddCreature(long metadataId, SefiraIsolate sefiraIsolateDa
 ```csharp
 private void AddCreature(long[] list, Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -195,7 +184,6 @@ private void AddCreature(long[] list, Sefira sefira)
 ```csharp
 private void AddCreature_Debug(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -207,7 +195,6 @@ private void AddCreature_Debug(SefiraEnum sefiraEnum)
 ```csharp
 public bool CheckEscapedState()
 ```
-#INC
 
 
 #### Returns
@@ -217,35 +204,30 @@ public bool CheckEscapedState()
 ```csharp
 private void CheckGameState()
 ```
-#INC
 
 
 ### Clear()
 ```csharp
 public void Clear()
 ```
-#INC
 
 
 ### ClearOfficer()
 ```csharp
 public void ClearOfficer()
 ```
-#INC
 
 
 ### ClearUnitData()
 ```csharp
 public void ClearUnitData()
 ```
-#INC
 
 
 ### DisabledSefira(Sefira)
 ```csharp
 public void DisabledSefira(Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -257,7 +239,6 @@ public void DisabledSefira(Sefira sefira)
 ```csharp
 public bool GameOverCheck()
 ```
-#INC
 
 
 #### Returns
@@ -267,7 +248,6 @@ public bool GameOverCheck()
 ```csharp
 public Sefira[] GetActivatedSefiras()
 ```
-#INC
 
 
 #### Returns
@@ -277,7 +257,6 @@ public Sefira[] GetActivatedSefiras()
 ```csharp
 private long[] GetCreatureGenerationList(int openLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -292,7 +271,6 @@ private long[] GetCreatureGenerationList(int openLevel)
 ```csharp
 private long[] GetCreatureGenerationList(SefiraEnum sefiraEnum, int openLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -308,7 +286,6 @@ private long[] GetCreatureGenerationList(SefiraEnum sefiraEnum, int openLevel)
 ```csharp
 public List<CreatureModel> GetEscapedCreatures()
 ```
-#INC
 
 
 #### Returns
@@ -318,7 +295,6 @@ public List<CreatureModel> GetEscapedCreatures()
 ```csharp
 public int GetOfficerAliveLevel(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -333,7 +309,6 @@ public int GetOfficerAliveLevel(SefiraEnum sefira)
 ```csharp
 public Sefira[] GetOpendSefiraList()
 ```
-#INC
 
 
 #### Returns
@@ -343,7 +318,6 @@ public Sefira[] GetOpendSefiraList()
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -353,7 +327,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public Sefira GetSefira(int index)
 ```
-#INC
 
 
 #### Parameters
@@ -368,7 +341,6 @@ public Sefira GetSefira(int index)
 ```csharp
 public Sefira GetSefira(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -383,7 +355,6 @@ public Sefira GetSefira(SefiraEnum sefira)
 ```csharp
 public Sefira GetSefira(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -398,7 +369,6 @@ public Sefira GetSefira(string str)
 ```csharp
 public bool GetSefiraByGenNodeId(string id, out Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -414,7 +384,6 @@ public bool GetSefiraByGenNodeId(string id, out Sefira sefira)
 ```csharp
 public SefiraLevel GetSefiraLevel(SefiraEnum sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -429,7 +398,6 @@ public SefiraLevel GetSefiraLevel(SefiraEnum sefira)
 ```csharp
 public int GetSefiraOpenLevel(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -444,14 +412,12 @@ public int GetSefiraOpenLevel(SefiraEnum sefiraEnum)
 ```csharp
 private void Init()
 ```
-#INC
 
 
 ### IsOpened(SefiraEnum)
 ```csharp
 public bool IsOpened(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -466,7 +432,6 @@ public bool IsOpened(SefiraEnum sefiraEnum)
 ```csharp
 public bool IsOpened(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -481,7 +446,6 @@ public bool IsOpened(string str)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -493,7 +457,6 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public Sprite LoadSefiraSprite(SefiraEnum targetSefira)
 ```
-#INC
 
 
 #### Parameters
@@ -508,21 +471,18 @@ public Sprite LoadSefiraSprite(SefiraEnum targetSefira)
 ```csharp
 public void MakeTutorialCreature()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 private void OnFixedUpdate()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -535,14 +495,12 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public void OnStageStart_first()
 ```
-#INC
 
 
 ### OpenSefira(SefiraEnum)
 ```csharp
 public void OpenSefira(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -554,7 +512,6 @@ public void OpenSefira(SefiraEnum sefiraEnum)
 ```csharp
 public void OpenSefiraWithCreature(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -566,7 +523,6 @@ public void OpenSefiraWithCreature(SefiraEnum sefiraEnum)
 ```csharp
 public void OpenSefiraWithCreatureDebug(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -578,14 +534,12 @@ public void OpenSefiraWithCreatureDebug(SefiraEnum sefiraEnum)
 ```csharp
 public void ResetPassageData()
 ```
-#INC
 
 
 ### SefiraIsolateLoad(Dictionary<string, SefiraEnum>)
 ```csharp
 public void SefiraIsolateLoad(Dictionary<string, SefiraEnum> table)
 ```
-#INC
 
 
 #### Parameters
@@ -597,7 +551,6 @@ public void SefiraIsolateLoad(Dictionary<string, SefiraEnum> table)
 ```csharp
 public bool StartValidateCheck(ref Sefira notallocated)
 ```
-#INC
 
 
 #### Parameters
@@ -610,4 +563,5 @@ public bool StartValidateCheck(ref Sefira notallocated)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FactionActionType
 canonical_path: /api/Global/Type/FactionActionType
@@ -29,4 +30,5 @@ HOSTILE = 0
 
 #### Field Value
 **Type:** Global.FactionActionType
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdEvent
 canonical_path: /api/Global/Event/BossBirdEvent
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Event/BossBirdEvent
 ```csharp
 public class BossBirdEvent : EventBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Event for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight. Makes gates and eggs.
 
-#INC 
+
 
 
 ## Inheritance
@@ -26,8 +30,6 @@ Event for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight. Makes gates and 
 ```csharp
 public BossBirdEvent()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -36,7 +38,6 @@ public BossBirdEvent()
 ```csharp
 private EventCreatureModel bigEgg
 ```
-#INC
 
 
 #### Field Value
@@ -46,7 +47,6 @@ private EventCreatureModel bigEgg
 ```csharp
 private const long bigObjectID = 1000351
 ```
-#INC
 
 
 #### Field Value
@@ -56,7 +56,6 @@ private const long bigObjectID = 1000351
 ```csharp
 private EventCreatureModel gateWay
 ```
-#INC
 
 
 #### Field Value
@@ -66,7 +65,6 @@ private EventCreatureModel gateWay
 ```csharp
 private const long gateWayID = 1000350
 ```
-#INC
 
 
 #### Field Value
@@ -76,7 +74,6 @@ private const long gateWayID = 1000350
 ```csharp
 private EventCreatureModel longEgg
 ```
-#INC
 
 
 #### Field Value
@@ -86,7 +83,6 @@ private EventCreatureModel longEgg
 ```csharp
 private const long longObjectID = 1000353
 ```
-#INC
 
 
 #### Field Value
@@ -96,7 +92,6 @@ private const long longObjectID = 1000353
 ```csharp
 private EventCreatureModel smallEgg
 ```
-#INC
 
 
 #### Field Value
@@ -106,7 +101,6 @@ private EventCreatureModel smallEgg
 ```csharp
 private const long smallObjectID = 1000352
 ```
-#INC
 
 
 #### Field Value
@@ -118,7 +112,6 @@ private const long smallObjectID = 1000352
 ```csharp
 public EventCreatureModel MakeBigEgg(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -133,7 +126,6 @@ public EventCreatureModel MakeBigEgg(MapNode node)
 ```csharp
 public EventCreatureModel MakeGate()
 ```
-#INC
 
 
 #### Returns
@@ -143,7 +135,6 @@ public EventCreatureModel MakeGate()
 ```csharp
 public EventCreatureModel MakeLongEgg(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -158,7 +149,6 @@ public EventCreatureModel MakeLongEgg(MapNode node)
 ```csharp
 public EventCreatureModel MakeSmallEgg(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -171,4 +161,5 @@ public EventCreatureModel MakeSmallEgg(MapNode node)
 
 ## Inherited Members
 [isStarted](/api/Global/Event/EventBase#isstarted), [_type](/api/Global/Event/EventBase#type), [IsStartable()](/api/Global/Event/EventBase#isstartable), [OnGameInit()](/api/Global/Event/EventBase#ongameinit), [OnDestroy()](/api/Global/Event/EventBase#ondestroy), [OnEventStart()](/api/Global/Event/EventBase#oneventstart), [EventEnd()](/api/Global/Event/EventBase#eventend), [FixedUpdate()](/api/Global/Event/EventBase#fixedupdate), [type](/api/Global/Event/EventBase#type), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.RotateMode
 canonical_path: /api/Spine/RotateMode
@@ -37,4 +38,5 @@ Tangent = 0
 
 #### Field Value
 **Type:** Spine.RotateMode
+
 

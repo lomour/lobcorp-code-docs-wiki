@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResourceLoader
 canonical_path: /api/Global/Loader/ResourceLoader
@@ -11,9 +12,15 @@ canonical_path: /api/Global/Loader/ResourceLoader
 ```csharp
 public class ResourceLoader
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Unused helper for loading some sprites and prefabs.
 
-#unused #maybe_unused 
+
 ## Methods
 
 #### private static string GetLowQualityPath(string src)
@@ -40,8 +47,6 @@ public ResourceLoader()
 ```csharp
 private static string GetLowQualityPath(string src)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -56,7 +61,6 @@ private static string GetLowQualityPath(string src)
 ```csharp
 public static GameObject LoadPrefab(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -71,7 +75,6 @@ public static GameObject LoadPrefab(string src)
 ```csharp
 public static Sprite LoadSprite(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -84,4 +87,5 @@ public static Sprite LoadSprite(string src)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

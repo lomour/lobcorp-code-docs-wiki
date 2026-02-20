@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Mission
 canonical_path: /api/Global/Misc/Mission
@@ -11,11 +12,14 @@ canonical_path: /api/Global/Misc/Mission
 ```csharp
 public class Mission
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Represents a mission.
 
 See [MissionManager](/api/Global/IOBserver/MissionManager)
 
-#INC 
+
 
 
 ## Inheritance
@@ -27,15 +31,12 @@ See [MissionManager](/api/Global/IOBserver/MissionManager)
 ```csharp
 public Mission()
 ```
-#INC
-#code-generated
 
 
 ### Mission(MissionTypeInfo)
 ```csharp
 public Mission(MissionTypeInfo metadata)
 ```
-#INC
 
 
 #### Parameters
@@ -49,7 +50,6 @@ public Mission(MissionTypeInfo metadata)
 ```csharp
 public List<Condition> baseConditions
 ```
-#INC
 
 
 #### Field Value
@@ -59,7 +59,6 @@ public List<Condition> baseConditions
 ```csharp
 public List<object> checkedObjects
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +68,6 @@ public List<object> checkedObjects
 ```csharp
 public List<Condition> conditions
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +77,6 @@ public List<Condition> conditions
 ```csharp
 public List<bool> doneConditions
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +86,6 @@ public List<bool> doneConditions
 ```csharp
 public List<Condition> failConditions
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +95,6 @@ public List<Condition> failConditions
 ```csharp
 public bool isCleared
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +104,6 @@ public bool isCleared
 ```csharp
 public bool isInProcess
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +113,6 @@ public bool isInProcess
 ```csharp
 public MissionTypeInfo metaInfo
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +122,6 @@ public MissionTypeInfo metaInfo
 ```csharp
 public Condition successCondition
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +151,6 @@ public string sefira_Name { get; }
 ```csharp
 private bool CheckAgent(AgentModel agent)
 ```
-#INC
 
 
 #### Parameters
@@ -174,7 +165,6 @@ private bool CheckAgent(AgentModel agent)
 ```csharp
 public void CheckConditions(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -187,7 +177,6 @@ public void CheckConditions(string notice, params object[] param)
 ```csharp
 private bool CheckCreature(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -202,7 +191,6 @@ private bool CheckCreature(CreatureModel creature)
 ```csharp
 private bool CheckDefault(Condition condition)
 ```
-#INC
 
 
 #### Parameters
@@ -217,7 +205,6 @@ private bool CheckDefault(Condition condition)
 ```csharp
 private bool CheckEquipment(EquipmentModel equip)
 ```
-#INC
 
 
 #### Parameters
@@ -232,7 +219,6 @@ private bool CheckEquipment(EquipmentModel equip)
 ```csharp
 private bool CheckOrdeal(OrdealBase ordeal)
 ```
-#INC
 
 
 #### Parameters
@@ -247,7 +233,6 @@ private bool CheckOrdeal(OrdealBase ordeal)
 ```csharp
 private bool CheckSuccess()
 ```
-#INC
 
 
 #### Returns
@@ -257,7 +242,6 @@ private bool CheckSuccess()
 ```csharp
 private bool CheckWork(UseSkill skill)
 ```
-#INC
 
 
 #### Parameters
@@ -272,7 +256,6 @@ private bool CheckWork(UseSkill skill)
 ```csharp
 public Dictionary<string, object> GetSaveData()
 ```
-#INC
 
 
 #### Returns
@@ -282,7 +265,6 @@ public Dictionary<string, object> GetSaveData()
 ```csharp
 public void Init(MissionTypeInfo metadata)
 ```
-#INC
 
 
 #### Parameters
@@ -294,7 +276,6 @@ public void Init(MissionTypeInfo metadata)
 ```csharp
 public void LoadData(Dictionary<string, object> dic)
 ```
-#INC
 
 
 #### Parameters
@@ -306,16 +287,15 @@ public void LoadData(Dictionary<string, object> dic)
 ```csharp
 public void OnDisabled()
 ```
-#INC
 
 
 ### OnEnabled()
 ```csharp
 public void OnEnabled()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

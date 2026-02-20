@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeploySefiraAgentSlot.PanelState
 canonical_path: /api/Global/State/DeploySefiraAgentSlotPanelState
@@ -37,4 +38,5 @@ LOCKED = 2
 
 #### Field Value
 **Type:** Global.DeploySefiraAgentSlot.PanelState
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryVariablesModel
 canonical_path: /api/Global/Model/StoryVariablesModel
@@ -11,7 +12,10 @@ canonical_path: /api/Global/Model/StoryVariablesModel
 ```csharp
 public class StoryVariablesModel
 ```
-Holds variables used in the story. #INC 
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Holds variables used in the story. 
 
 
 ## Inheritance
@@ -23,8 +27,6 @@ Holds variables used in the story. #INC
 ```csharp
 private StoryVariablesModel()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -33,7 +35,6 @@ private StoryVariablesModel()
 ```csharp
 private Dictionary<string, int> _globalVariables
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +44,6 @@ private Dictionary<string, int> _globalVariables
 ```csharp
 private static StoryVariablesModel _instance
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +53,6 @@ private static StoryVariablesModel _instance
 ```csharp
 private Dictionary<string, int> _localVariables
 ```
-#INC
 
 
 #### Field Value
@@ -71,7 +70,6 @@ private Dictionary<string, StoryVariablesModel.PredefinedVar> _predefinedVariabl
 ```csharp
 public const string AGENT_DIE_COUNT = "AgentDieCount"
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +91,6 @@ public static StoryVariablesModel instance { get; }
 ```csharp
 public void AddVariable(string id, int operand)
 ```
-#INC
 
 
 #### Parameters
@@ -106,14 +103,12 @@ public void AddVariable(string id, int operand)
 ```csharp
 public void ClearLocalVariables()
 ```
-#INC
 
 
 ### GetVariable(string)
 ```csharp
 public int GetVariable(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -128,21 +123,18 @@ public int GetVariable(string id)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### LoadData()
 ```csharp
 public void LoadData()
 ```
-#INC
 
 
 ### SaveData()
 ```csharp
 public Dictionary<string, object> SaveData()
 ```
-#INC
 
 
 #### Returns
@@ -152,7 +144,6 @@ public Dictionary<string, object> SaveData()
 ```csharp
 public void SetLocalVariable(string id, int val)
 ```
-#INC
 
 
 #### Parameters
@@ -163,4 +154,5 @@ public void SetLocalVariable(string id, int val)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

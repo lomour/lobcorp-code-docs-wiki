@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CircusTent.TentState
 canonical_path: /api/Global/State/CircusTentTentState
@@ -29,4 +30,5 @@ DEACTIVATED = 1
 
 #### Field Value
 **Type:** Global.CircusTent.TentState
+
 

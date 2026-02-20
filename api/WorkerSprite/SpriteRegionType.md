@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.SpriteRegionType
 canonical_path: /api/WorkerSprite/SpriteRegionType
@@ -29,4 +30,5 @@ EQUIPMENT = 1
 
 #### Field Value
 **Type:** WorkerSprite.SpriteRegionType
+
 

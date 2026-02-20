@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.PassageObjectModel
 canonical_path: /api/Global/Model/PassageObjectModel
@@ -11,10 +12,13 @@ canonical_path: /api/Global/Model/PassageObjectModel
 ```csharp
 public class PassageObjectModel : ObjectModelBase, IMouseCommandTargetModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Represents a room, hallway, [containment unit](/api/Global/IOBserver/IsolateRoom), or elevator.
 
-#INC 
+
 
 
 ## Inheritance
@@ -29,7 +33,6 @@ Represents a room, hallway, [containment unit](/api/Global/IOBserver/IsolateRoom
 ```csharp
 public PassageObjectModel(string id, string sefiraName)
 ```
-#INC
 
 
 #### Parameters
@@ -42,8 +45,6 @@ public PassageObjectModel(string id, string sefiraName)
 ```csharp
 public PassageObjectModel(string id, string sefiraName, string prefabSrc)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -59,7 +60,6 @@ public PassageObjectModel(string id, string sefiraName, string prefabSrc)
 ```csharp
 private List<MapNode> _sortedList
 ```
-#INC
 
 
 #### Field Value
@@ -69,7 +69,6 @@ private List<MapNode> _sortedList
 ```csharp
 public MapNode centerNode
 ```
-#INC
 
 
 #### Field Value
@@ -79,7 +78,6 @@ public MapNode centerNode
 ```csharp
 private List<string> connectedSefira
 ```
-#INC
 
 
 #### Field Value
@@ -89,7 +87,6 @@ private List<string> connectedSefira
 ```csharp
 private List<MovableObjectNode> deletedUnitList
 ```
-#INC
 
 
 #### Field Value
@@ -99,7 +96,6 @@ private List<MovableObjectNode> deletedUnitList
 ```csharp
 private List<DoorObjectModel> doorObjectList
 ```
-#INC
 
 
 #### Field Value
@@ -109,7 +105,6 @@ private List<DoorObjectModel> doorObjectList
 ```csharp
 private List<ElevatorPassageModel> elevatorList
 ```
-#INC
 
 
 #### Field Value
@@ -119,7 +114,6 @@ private List<ElevatorPassageModel> elevatorList
 ```csharp
 private List<MovableObjectNode> enteredUnitList
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +123,6 @@ private List<MovableObjectNode> enteredUnitList
 ```csharp
 public PassageGroundInfo groundInfo
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +132,6 @@ public PassageGroundInfo groundInfo
 ```csharp
 public float height
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +141,6 @@ public float height
 ```csharp
 private string id
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +150,6 @@ private string id
 ```csharp
 public bool isActivate
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +159,6 @@ public bool isActivate
 ```csharp
 public bool isDynamic
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +168,6 @@ public bool isDynamic
 ```csharp
 private bool isIsolate
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +177,6 @@ private bool isIsolate
 ```csharp
 private List<MapNode> mapNodeList
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +186,6 @@ private List<MapNode> mapNodeList
 ```csharp
 public string passageGroup
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +195,6 @@ public string passageGroup
 ```csharp
 public string rabbitTeamGroup
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +204,6 @@ public string rabbitTeamGroup
 ```csharp
 public float scaleFactor
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +213,6 @@ public float scaleFactor
 ```csharp
 public bool sefiraDisabled
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +222,6 @@ public bool sefiraDisabled
 ```csharp
 private SefiraEnum sefiraEnum
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +231,6 @@ private SefiraEnum sefiraEnum
 ```csharp
 private string sefiraName
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +240,6 @@ private string sefiraName
 ```csharp
 private string src
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +249,6 @@ private string src
 ```csharp
 public PassageType type
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +258,6 @@ public PassageType type
 ```csharp
 public PassageWallInfo wallInfo
 ```
-#INC
 
 
 #### Field Value
@@ -291,14 +269,12 @@ public PassageWallInfo wallInfo
 ```csharp
 public void Activate()
 ```
-#INC
 
 
 ### AddAttachedSefira(string)
 ```csharp
 public void AddAttachedSefira(string sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -310,7 +286,6 @@ public void AddAttachedSefira(string sefira)
 ```csharp
 private void AddBloodMapObject(BloodMapObjectModel mapObject)
 ```
-#INC
 
 
 #### Parameters
@@ -322,7 +297,6 @@ private void AddBloodMapObject(BloodMapObjectModel mapObject)
 ```csharp
 public void AddDeletedUnit(MovableObjectNode unit)
 ```
-#INC
 
 
 #### Parameters
@@ -334,7 +308,6 @@ public void AddDeletedUnit(MovableObjectNode unit)
 ```csharp
 public void AddDoor(DoorObjectModel door)
 ```
-#INC
 
 
 #### Parameters
@@ -346,7 +319,6 @@ public void AddDoor(DoorObjectModel door)
 ```csharp
 public void AddElevator(ElevatorPassageModel elevator)
 ```
-#INC
 
 
 #### Parameters
@@ -358,7 +330,6 @@ public void AddElevator(ElevatorPassageModel elevator)
 ```csharp
 public void AddNode(MapNode node)
 ```
-#INC
 
 
 #### Parameters
@@ -370,7 +341,6 @@ public void AddNode(MapNode node)
 ```csharp
 public void AttachBloodObject(float posx)
 ```
-#INC
 
 
 #### Parameters
@@ -382,7 +352,6 @@ public void AttachBloodObject(float posx)
 ```csharp
 public void AttachBloodObjectAlter(float posx)
 ```
-#INC
 
 
 #### Parameters
@@ -394,28 +363,24 @@ public void AttachBloodObjectAlter(float posx)
 ```csharp
 public void AttachToConnetedSefira()
 ```
-#INC
 
 
 ### CheckCenter()
 ```csharp
 public void CheckCenter()
 ```
-#INC
 
 
 ### DisableSefira()
 ```csharp
 public void DisableSefira()
 ```
-#INC
 
 
 ### EnterUnit(MovableObjectNode)
 ```csharp
 public void EnterUnit(MovableObjectNode unit)
 ```
-#INC
 
 
 #### Parameters
@@ -427,7 +392,6 @@ public void EnterUnit(MovableObjectNode unit)
 ```csharp
 public void ExitUnit(MovableObjectNode unit)
 ```
-#INC
 
 
 #### Parameters
@@ -439,14 +403,12 @@ public void ExitUnit(MovableObjectNode unit)
 ```csharp
 public virtual void FixedUpdate()
 ```
-#INC
 
 
 ### GetDeletedUnits()
 ```csharp
 public MovableObjectNode[] GetDeletedUnits()
 ```
-#INC
 
 
 #### Returns
@@ -456,7 +418,6 @@ public MovableObjectNode[] GetDeletedUnits()
 ```csharp
 public DoorObjectModel[] GetDoorList()
 ```
-#INC
 
 
 #### Returns
@@ -466,7 +427,6 @@ public DoorObjectModel[] GetDoorList()
 ```csharp
 public ElevatorPassageModel[] GetElevatorList()
 ```
-#INC
 
 
 #### Returns
@@ -476,7 +436,6 @@ public ElevatorPassageModel[] GetElevatorList()
 ```csharp
 public ReadOnlyCollection<MovableObjectNode> GetEnteredTargets()
 ```
-#INC
 
 
 #### Returns
@@ -486,7 +445,6 @@ public ReadOnlyCollection<MovableObjectNode> GetEnteredTargets()
 ```csharp
 public MovableObjectNode[] GetEnteredTargets(MovableObjectNode exclude)
 ```
-#INC
 
 
 #### Parameters
@@ -501,7 +459,6 @@ public MovableObjectNode[] GetEnteredTargets(MovableObjectNode exclude)
 ```csharp
 public MovableObjectNode[] GetEnteredTargetsAsArray()
 ```
-#INC
 
 
 #### Returns
@@ -511,7 +468,6 @@ public MovableObjectNode[] GetEnteredTargetsAsArray()
 ```csharp
 public string GetId()
 ```
-#INC
 
 
 #### Returns
@@ -521,7 +477,6 @@ public string GetId()
 ```csharp
 public MapNode GetLeft()
 ```
-#INC
 
 
 #### Returns
@@ -531,7 +486,6 @@ public MapNode GetLeft()
 ```csharp
 public MapNode[] GetNodeList()
 ```
-#INC
 
 
 #### Returns
@@ -541,7 +495,6 @@ public MapNode[] GetNodeList()
 ```csharp
 public IList<MapNode> GetNodeListAsReadOnly()
 ```
-#INC
 
 
 #### Returns
@@ -551,7 +504,6 @@ public IList<MapNode> GetNodeListAsReadOnly()
 ```csharp
 public PassageType GetPassageType()
 ```
-#INC
 
 
 #### Returns
@@ -561,7 +513,6 @@ public PassageType GetPassageType()
 ```csharp
 public static PassageType GetPassageTypeByString(string str)
 ```
-#INC
 
 
 #### Parameters
@@ -576,7 +527,6 @@ public static PassageType GetPassageTypeByString(string str)
 ```csharp
 public MovableObjectNode GetRandomMovableNode()
 ```
-#INC
 
 
 #### Returns
@@ -586,7 +536,6 @@ public MovableObjectNode GetRandomMovableNode()
 ```csharp
 public MapNode GetRight()
 ```
-#INC
 
 
 #### Returns
@@ -596,7 +545,6 @@ public MapNode GetRight()
 ```csharp
 public float GetScaleFactor()
 ```
-#INC
 
 
 #### Returns
@@ -606,7 +554,6 @@ public float GetScaleFactor()
 ```csharp
 public Sefira GetSefira()
 ```
-#INC
 
 
 #### Returns
@@ -616,7 +563,6 @@ public Sefira GetSefira()
 ```csharp
 public SefiraEnum GetSefiraEnum()
 ```
-#INC
 
 
 #### Returns
@@ -626,7 +572,6 @@ public SefiraEnum GetSefiraEnum()
 ```csharp
 public string GetSefiraName()
 ```
-#INC
 
 
 #### Returns
@@ -636,7 +581,6 @@ public string GetSefiraName()
 ```csharp
 private List<MapNode> GetSortedList()
 ```
-#INC
 
 
 #### Returns
@@ -646,7 +590,6 @@ private List<MapNode> GetSortedList()
 ```csharp
 public MapNode[] GetSortedListAsAry()
 ```
-#INC
 
 
 #### Returns
@@ -656,7 +599,6 @@ public MapNode[] GetSortedListAsAry()
 ```csharp
 public string GetSrc()
 ```
-#INC
 
 
 #### Returns
@@ -666,7 +608,6 @@ public string GetSrc()
 ```csharp
 public void GetVerticalRange(ref float left, ref float right)
 ```
-#INC
 
 
 #### Parameters
@@ -679,7 +620,6 @@ public void GetVerticalRange(ref float left, ref float right)
 ```csharp
 public float GetWidth()
 ```
-#INC
 
 
 #### Returns
@@ -689,7 +629,6 @@ public float GetWidth()
 ```csharp
 public bool isAreaHasOtherMov(MovableObjectNode mov)
 ```
-#INC
 
 
 #### Parameters
@@ -704,7 +643,6 @@ public bool isAreaHasOtherMov(MovableObjectNode mov)
 ```csharp
 public bool IsIsolate()
 ```
-#INC
 
 
 #### Returns
@@ -714,7 +652,6 @@ public bool IsIsolate()
 ```csharp
 public bool isPassageEnteredAnyUnit()
 ```
-#INC
 
 
 #### Returns
@@ -724,21 +661,18 @@ public bool isPassageEnteredAnyUnit()
 ```csharp
 public void OnStageEnd()
 ```
-#INC
 
 
 ### OnStageStart()
 ```csharp
 public void OnStageStart()
 ```
-#INC
 
 
 ### RemoveDeletedUnit(MovableObjectNode)
 ```csharp
 public void RemoveDeletedUnit(MovableObjectNode unit)
 ```
-#INC
 
 
 #### Parameters
@@ -750,7 +684,6 @@ public void RemoveDeletedUnit(MovableObjectNode unit)
 ```csharp
 public void SetPassageType(PassageType type)
 ```
-#INC
 
 
 #### Parameters
@@ -762,9 +695,9 @@ public void SetPassageType(PassageType type)
 ```csharp
 public void SetToIsolate()
 ```
-#INC
 
 
 ## Inherited Members
 [position](/api/Global/Object/ObjectModelBase#position), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

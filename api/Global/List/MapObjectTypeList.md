@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapObjectTypeList
 canonical_path: /api/Global/List/MapObjectTypeList
@@ -11,9 +12,15 @@ canonical_path: /api/Global/List/MapObjectTypeList
 ```csharp
 public class MapObjectTypeList
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+> This class is not used.
+{.is-info}
+
 Manager for a list with one item: a [MapObject](/api/Global/Object/MapObject) prefab.
 
-#unused #maybe_unused 
+
 
 
 ## Inheritance
@@ -25,8 +32,6 @@ Manager for a list with one item: a [MapObject](/api/Global/Object/MapObject) pr
 ```csharp
 private MapObjectTypeList()
 ```
-#INC
-#code-generated
 
 
 ## Fields
@@ -35,7 +40,6 @@ private MapObjectTypeList()
 ```csharp
 private static MapObjectTypeList _instance
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +49,6 @@ private static MapObjectTypeList _instance
 ```csharp
 private List<MapObjectTypeInfo> _list
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +58,6 @@ private List<MapObjectTypeInfo> _list
 ```csharp
 private bool _loaded
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +87,6 @@ public bool loaded { get; }
 ```csharp
 public MapObjectTypeInfo GetData(long id)
 ```
-#INC
 
 
 #### Parameters
@@ -100,7 +101,6 @@ public MapObjectTypeInfo GetData(long id)
 ```csharp
 public MapObjectTypeInfo[] GetList()
 ```
-#INC
 
 
 #### Returns
@@ -110,7 +110,6 @@ public MapObjectTypeInfo[] GetList()
 ```csharp
 public void Init(MapObjectTypeInfo[] list)
 ```
-#INC
 
 
 #### Parameters
@@ -120,4 +119,5 @@ public void Init(MapObjectTypeInfo[] list)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

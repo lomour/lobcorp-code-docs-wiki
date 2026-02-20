@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.KetherMiddleBossBase.KetherMiddlePhase
 canonical_path: /api/KetherBoss/KetherMiddleBossBase/KetherMiddlePhase
@@ -29,4 +30,5 @@ SECOND = 1
 
 #### Field Value
 **Type:** KetherBoss.KetherMiddleBossBase.KetherMiddlePhase
+
 

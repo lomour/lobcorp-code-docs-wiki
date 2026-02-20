@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WorkerSprite.WorkerBasicRegionKey
 canonical_path: /api/WorkerSprite/WorkerBasicRegionKey
@@ -11,6 +12,9 @@ canonical_path: /api/WorkerSprite/WorkerBasicRegionKey
 ```csharp
 public static class WorkerBasicRegionKey
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Stores strings (keys) associated with each facial region, and a conversion from the enum to key
 
 
@@ -23,7 +27,6 @@ Stores strings (keys) associated with each facial region, and a conversion from 
 ```csharp
 public static string Eye
 ```
-#INC
 
 
 #### Field Value
@@ -33,7 +36,6 @@ public static string Eye
 ```csharp
 public static string EyeBrow
 ```
-#INC
 
 
 #### Field Value
@@ -43,7 +45,6 @@ public static string EyeBrow
 ```csharp
 public static string EyeClose
 ```
-#INC
 
 
 #### Field Value
@@ -53,7 +54,6 @@ public static string EyeClose
 ```csharp
 public static string HairBack
 ```
-#INC
 
 
 #### Field Value
@@ -63,7 +63,6 @@ public static string HairBack
 ```csharp
 public static string HairFront
 ```
-#INC
 
 
 #### Field Value
@@ -73,7 +72,6 @@ public static string HairFront
 ```csharp
 public static string Head
 ```
-#INC
 
 
 #### Field Value
@@ -83,7 +81,6 @@ public static string Head
 ```csharp
 public static string[] keys
 ```
-#INC
 
 
 #### Field Value
@@ -93,7 +90,6 @@ public static string[] keys
 ```csharp
 public static string Mouth
 ```
-#INC
 
 
 #### Field Value
@@ -105,8 +101,6 @@ public static string Mouth
 ```csharp
 public static bool GetKey(BasicSpriteRegion region, out string slot, out string attachment)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -121,4 +115,5 @@ public static bool GetKey(BasicSpriteRegion region, out string slot, out string 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

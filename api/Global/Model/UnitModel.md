@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.UnitModel
 canonical_path: /api/Global/Model/UnitModel
@@ -11,9 +12,12 @@ canonical_path: /api/Global/Model/UnitModel
 ```csharp
 public class UnitModel
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Represents a unit on the screen, such as workers, rabbits, or abnormalities.
 
-#INC (This one will be worth going through completely, I think.)
+(This one will be worth going through completely, I think.)
 
 
 ## Inheritance
@@ -35,7 +39,6 @@ public UnitModel()
 ```csharp
 protected List<BarrierBuf> _barrierBufList
 ```
-#INC
 
 
 #### Field Value
@@ -45,7 +48,6 @@ protected List<BarrierBuf> _barrierBufList
 ```csharp
 protected List<UnitBuf> _bufList
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +57,6 @@ protected List<UnitBuf> _bufList
 ```csharp
 protected UnitEquipSpace _equipment
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +66,6 @@ protected UnitEquipSpace _equipment
 ```csharp
 protected List<UnitStatBuf> _statBufList
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +75,6 @@ protected List<UnitStatBuf> _statBufList
 ```csharp
 public DefenseInfo additionalDef
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +84,6 @@ public DefenseInfo additionalDef
 ```csharp
 public int baseMaxHp
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +93,6 @@ public int baseMaxHp
 ```csharp
 public int baseMaxMental
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +102,6 @@ public int baseMaxMental
 ```csharp
 public int baseMentalDefense
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +111,6 @@ public int baseMentalDefense
 ```csharp
 public float baseMovement
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +120,6 @@ public float baseMovement
 ```csharp
 public int basePhysicalDefense
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +129,6 @@ public int basePhysicalDefense
 ```csharp
 public int baseRegeneration
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +138,6 @@ public int baseRegeneration
 ```csharp
 public float baseRegenerationDelay
 ```
-#INC
 
 
 #### Field Value
@@ -155,7 +147,6 @@ public float baseRegenerationDelay
 ```csharp
 public StatTransform damageTransform
 ```
-#INC
 
 
 #### Field Value
@@ -165,7 +156,6 @@ public StatTransform damageTransform
 ```csharp
 public const string defaultStunEffectSrc = "Effect/Stun"
 ```
-#INC
 
 
 #### Field Value
@@ -175,7 +165,6 @@ public const string defaultStunEffectSrc = "Effect/Stun"
 ```csharp
 public List<WorkerModel> encounteredWorker
 ```
-#INC
 
 
 #### Field Value
@@ -185,7 +174,6 @@ public List<WorkerModel> encounteredWorker
 ```csharp
 protected FactionTypeInfo factionTypeInfo
 ```
-#INC
 
 
 #### Field Value
@@ -195,7 +183,6 @@ protected FactionTypeInfo factionTypeInfo
 ```csharp
 public float hp
 ```
-#INC
 
 
 #### Field Value
@@ -205,7 +192,6 @@ public float hp
 ```csharp
 public long instanceId
 ```
-#INC
 
 
 #### Field Value
@@ -215,7 +201,6 @@ public long instanceId
 ```csharp
 protected bool isStun
 ```
-#INC
 
 
 #### Field Value
@@ -225,7 +210,6 @@ protected bool isStun
 ```csharp
 public float mental
 ```
-#INC
 
 
 #### Field Value
@@ -235,7 +219,6 @@ public float mental
 ```csharp
 protected MovableObjectNode movableNode
 ```
-#INC
 
 
 #### Field Value
@@ -245,7 +228,6 @@ protected MovableObjectNode movableNode
 ```csharp
 public float remainAttackDelay
 ```
-#INC
 
 
 #### Field Value
@@ -255,7 +237,6 @@ public float remainAttackDelay
 ```csharp
 public float remainMoveDelay
 ```
-#INC
 
 
 #### Field Value
@@ -265,7 +246,6 @@ public float remainMoveDelay
 ```csharp
 public UnitShieldEquipment shield
 ```
-#INC
 
 
 #### Field Value
@@ -275,7 +255,6 @@ public UnitShieldEquipment shield
 ```csharp
 public const float stunCriteria = 2
 ```
-#INC
 
 
 #### Field Value
@@ -285,7 +264,6 @@ public const float stunCriteria = 2
 ```csharp
 protected AutoTimer stunTimer
 ```
-#INC
 
 
 #### Field Value
@@ -295,7 +273,6 @@ protected AutoTimer stunTimer
 ```csharp
 public float superArmor
 ```
-#INC
 
 
 #### Field Value
@@ -305,7 +282,6 @@ public float superArmor
 ```csharp
 public float superArmorDefense
 ```
-#INC
 
 
 #### Field Value
@@ -315,7 +291,6 @@ public float superArmorDefense
 ```csharp
 public float superArmorMax
 ```
-#INC
 
 
 #### Field Value
@@ -433,7 +408,6 @@ public virtual float regenerationDelay { get; }
 ```csharp
 public void AddSuperArmorMax(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -445,7 +419,6 @@ public void AddSuperArmorMax(float value)
 ```csharp
 public UnitBuf AddUnitBuf(UnitBuf buf)
 ```
-#INC
 
 
 #### Parameters
@@ -460,7 +433,6 @@ public UnitBuf AddUnitBuf(UnitBuf buf)
 ```csharp
 public void AttachEGOgift(EGOgiftModel gift)
 ```
-#INC
 
 
 #### Parameters
@@ -472,7 +444,6 @@ public void AttachEGOgift(EGOgiftModel gift)
 ```csharp
 public virtual void Attack(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -484,15 +455,12 @@ public virtual void Attack(UnitModel target)
 ```csharp
 public virtual void CancelWeapon()
 ```
-#INC
 
 
 ### CanOpenDoor()
 ```csharp
 public virtual bool CanOpenDoor()
 ```
-#INC
-#code-generated
 
 
 #### Returns
@@ -502,28 +470,24 @@ public virtual bool CanOpenDoor()
 ```csharp
 public void CheckNearWorkerEncounting()
 ```
-#INC
 
 
 ### ClearWorkerEncounting()
 ```csharp
 public void ClearWorkerEncounting()
 ```
-#INC
 
 
 ### EndAttackAnimation()
 ```csharp
 protected virtual void EndAttackAnimation()
 ```
-#INC
 
 
 ### GetAttackLevel()
 ```csharp
 public virtual int GetAttackLevel()
 ```
-#INC
 
 
 #### Returns
@@ -533,7 +497,6 @@ public virtual int GetAttackLevel()
 ```csharp
 public float GetAttackSpeedBuf()
 ```
-#INC
 
 
 #### Returns
@@ -543,7 +506,6 @@ public float GetAttackSpeedBuf()
 ```csharp
 public virtual float GetBufDamageMultiplier(UnitModel attacker, DamageInfo damage)
 ```
-#INC
 
 
 #### Parameters
@@ -559,7 +521,6 @@ public virtual float GetBufDamageMultiplier(UnitModel attacker, DamageInfo damag
 ```csharp
 public int GetCubeSpeedBuf()
 ```
-#INC
 
 
 #### Returns
@@ -569,7 +530,6 @@ public int GetCubeSpeedBuf()
 ```csharp
 public virtual Vector3 GetCurrentViewPosition()
 ```
-#INC
 
 
 #### Returns
@@ -579,7 +539,6 @@ public virtual Vector3 GetCurrentViewPosition()
 ```csharp
 public float GetDamageFactorByEquipment()
 ```
-#INC
 
 
 #### Returns
@@ -589,7 +548,6 @@ public float GetDamageFactorByEquipment()
 ```csharp
 public virtual float GetDamageFactorBySefiraAbility()
 ```
-#INC
 
 
 #### Returns
@@ -599,7 +557,6 @@ public virtual float GetDamageFactorBySefiraAbility()
 ```csharp
 public virtual int GetDefenseLevel()
 ```
-#INC
 
 
 #### Returns
@@ -609,7 +566,6 @@ public virtual int GetDefenseLevel()
 ```csharp
 public static float GetDmgMultiplierByEgoLevel(int attackLevel, int defenseLevel)
 ```
-#INC
 
 
 #### Parameters
@@ -625,7 +581,6 @@ public static float GetDmgMultiplierByEgoLevel(int attackLevel, int defenseLevel
 ```csharp
 public EGObonusInfo GetEGObonus()
 ```
-#INC
 
 
 #### Returns
@@ -635,7 +590,6 @@ public EGObonusInfo GetEGObonus()
 ```csharp
 public FactionTypeInfo GetFaction()
 ```
-#INC
 
 
 #### Returns
@@ -645,7 +599,6 @@ public FactionTypeInfo GetFaction()
 ```csharp
 public bool GetGiftDisplayState(EGOgiftModel gift)
 ```
-#INC
 
 
 #### Parameters
@@ -660,7 +613,6 @@ public bool GetGiftDisplayState(EGOgiftModel gift)
 ```csharp
 public int GetMaxHpBuf()
 ```
-#INC
 
 
 #### Returns
@@ -670,7 +622,6 @@ public int GetMaxHpBuf()
 ```csharp
 public int GetMaxMentalBuf()
 ```
-#INC
 
 
 #### Returns
@@ -680,7 +631,6 @@ public int GetMaxMentalBuf()
 ```csharp
 public virtual MovableObjectNode GetMovableNode()
 ```
-#INC
 
 
 #### Returns
@@ -690,7 +640,6 @@ public virtual MovableObjectNode GetMovableNode()
 ```csharp
 public float GetMovementBuf()
 ```
-#INC
 
 
 #### Returns
@@ -700,7 +649,6 @@ public float GetMovementBuf()
 ```csharp
 public float GetMovementScaleByBuf()
 ```
-#INC
 
 
 #### Returns
@@ -710,7 +658,6 @@ public float GetMovementScaleByBuf()
 ```csharp
 public WorkerPrimaryStatBonus GetPrimaryStatBuf()
 ```
-#INC
 
 
 #### Returns
@@ -720,7 +667,6 @@ public WorkerPrimaryStatBonus GetPrimaryStatBuf()
 ```csharp
 public virtual int GetRiskLevel()
 ```
-#INC
 
 
 #### Returns
@@ -743,7 +689,6 @@ public UnitBuf GetUnitBufByName(string name)
 ```csharp
 public UnitBuf GetUnitBufByType(UnitBufType type)
 ```
-#INC
 
 
 #### Parameters
@@ -766,7 +711,6 @@ public List<UnitBuf> GetUnitBufList()
 ```csharp
 public virtual string GetUnitName()
 ```
-#INC
 
 
 #### Returns
@@ -776,7 +720,6 @@ public virtual string GetUnitName()
 ```csharp
 public virtual Sprite GetWeaponSprite()
 ```
-#INC
 
 
 #### Returns
@@ -786,7 +729,6 @@ public virtual Sprite GetWeaponSprite()
 ```csharp
 public string GetWeaponSpriteSrc()
 ```
-#INC
 
 
 #### Returns
@@ -796,7 +738,6 @@ public string GetWeaponSpriteSrc()
 ```csharp
 public int GetWorkProbBuf()
 ```
-#INC
 
 
 #### Returns
@@ -806,7 +747,6 @@ public int GetWorkProbBuf()
 ```csharp
 public bool HasEquipment(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -821,7 +761,6 @@ public bool HasEquipment(int id)
 ```csharp
 public bool HasUnitBuf(UnitBufType type)
 ```
-#INC
 
 
 #### Parameters
@@ -836,7 +775,6 @@ public bool HasUnitBuf(UnitBufType type)
 ```csharp
 public virtual void InteractWithDoor(DoorObjectModel door)
 ```
-#INC
 
 
 #### Parameters
@@ -848,7 +786,6 @@ public virtual void InteractWithDoor(DoorObjectModel door)
 ```csharp
 public virtual bool InWeaponRange(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -863,7 +800,6 @@ public virtual bool InWeaponRange(UnitModel target)
 ```csharp
 public virtual bool IsAttackState()
 ```
-#INC
 
 
 #### Returns
@@ -873,7 +809,6 @@ public virtual bool IsAttackState()
 ```csharp
 public virtual bool IsAttackTargetable()
 ```
-#INC
 
 
 #### Returns
@@ -883,7 +818,6 @@ public virtual bool IsAttackTargetable()
 ```csharp
 public virtual bool IsHostile(UnitModel target)
 ```
-#INC
 
 
 #### Parameters
@@ -898,7 +832,6 @@ public virtual bool IsHostile(UnitModel target)
 ```csharp
 public virtual bool IsStunned()
 ```
-#INC
 
 
 #### Returns
@@ -908,7 +841,6 @@ public virtual bool IsStunned()
 ```csharp
 public virtual void MakeDamageEffect(RwbpType type, float value, DefenseInfo.Type defense)
 ```
-#INC
 
 
 #### Parameters
@@ -922,70 +854,60 @@ public virtual void MakeDamageEffect(RwbpType type, float value, DefenseInfo.Typ
 ```csharp
 protected virtual void OnChangeGift()
 ```
-#INC
 
 
 ### OnEndAttackCycle()
 ```csharp
 public void OnEndAttackCycle()
 ```
-#INC
 
 
 ### OnGiveDamageByWeapon()
 ```csharp
 public void OnGiveDamageByWeapon()
 ```
-#INC
 
 
 ### OnReleaseArmor()
 ```csharp
 protected virtual void OnReleaseArmor()
 ```
-#INC
 
 
 ### OnReleaseKitCreature()
 ```csharp
 protected virtual void OnReleaseKitCreature()
 ```
-#INC
 
 
 ### OnReleaseWeapon()
 ```csharp
 protected virtual void OnReleaseWeapon()
 ```
-#INC
 
 
 ### OnSetArmor()
 ```csharp
 protected virtual void OnSetArmor()
 ```
-#INC
 
 
 ### OnSetKitCreature()
 ```csharp
 protected virtual void OnSetKitCreature()
 ```
-#INC
 
 
 ### OnSetWeapon()
 ```csharp
 protected virtual void OnSetWeapon()
 ```
-#INC
 
 
 ### OnStopMovableByShield(AgentModel)
 ```csharp
 public virtual void OnStopMovableByShield(AgentModel shielder)
 ```
-#INC
 
 
 #### Parameters
@@ -997,7 +919,6 @@ public virtual void OnStopMovableByShield(AgentModel shielder)
 ```csharp
 public virtual void OnStun(float stunVal)
 ```
-#INC
 
 
 #### Parameters
@@ -1009,21 +930,18 @@ public virtual void OnStun(float stunVal)
 ```csharp
 public virtual void OnStunEnd()
 ```
-#INC
 
 
 ### OnSuperArmorBreak()
 ```csharp
 public virtual void OnSuperArmorBreak()
 ```
-#INC
 
 
 ### PlayAttackAnimation(string)
 ```csharp
 protected virtual void PlayAttackAnimation(string animationName)
 ```
-#INC
 
 
 #### Parameters
@@ -1035,21 +953,18 @@ protected virtual void PlayAttackAnimation(string animationName)
 ```csharp
 public virtual void PrepareWeapon()
 ```
-#INC
 
 
 ### ReleaseArmor()
 ```csharp
 public void ReleaseArmor()
 ```
-#INC
 
 
 ### ReleaseEGOgift(EGOgiftModel)
 ```csharp
 public void ReleaseEGOgift(EGOgiftModel model)
 ```
-#INC
 
 
 #### Parameters
@@ -1061,7 +976,6 @@ public void ReleaseEGOgift(EGOgiftModel model)
 ```csharp
 public bool ReleaseEGOGift(int id)
 ```
-#INC
 
 
 #### Parameters
@@ -1076,7 +990,6 @@ public bool ReleaseEGOGift(int id)
 ```csharp
 public void ReleaseKitCreature(bool stageEnd)
 ```
-#INC
 
 
 #### Parameters
@@ -1088,14 +1001,12 @@ public void ReleaseKitCreature(bool stageEnd)
 ```csharp
 public void ReleaseWeaponV2()
 ```
-#INC
 
 
 ### RemoveUnitBuf(UnitBuf)
 ```csharp
 public void RemoveUnitBuf(UnitBuf buf)
 ```
-#INC
 
 
 #### Parameters
@@ -1107,7 +1018,6 @@ public void RemoveUnitBuf(UnitBuf buf)
 ```csharp
 public void SetArmor(ArmorModel armor)
 ```
-#INC
 
 
 #### Parameters
@@ -1119,14 +1029,12 @@ public void SetArmor(ArmorModel armor)
 ```csharp
 public void SetAttackDelay()
 ```
-#INC
 
 
 ### SetAttackDelay(float)
 ```csharp
 public void SetAttackDelay(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -1138,7 +1046,6 @@ public void SetAttackDelay(float value)
 ```csharp
 public virtual void SetFaction(FactionTypeInfo type)
 ```
-#INC
 
 
 #### Parameters
@@ -1150,7 +1057,6 @@ public virtual void SetFaction(FactionTypeInfo type)
 ```csharp
 public virtual void SetFaction(string factionCode)
 ```
-#INC
 
 
 #### Parameters
@@ -1162,7 +1068,6 @@ public virtual void SetFaction(string factionCode)
 ```csharp
 public void SetFactionForcely(string factionCode)
 ```
-#INC
 
 
 #### Parameters
@@ -1174,7 +1079,6 @@ public void SetFactionForcely(string factionCode)
 ```csharp
 public void SetGiftDisplayState(EGOgiftModel model, bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -1187,7 +1091,6 @@ public void SetGiftDisplayState(EGOgiftModel model, bool state)
 ```csharp
 public void SetGiftLockState(EGOgiftModel model, bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -1200,7 +1103,6 @@ public void SetGiftLockState(EGOgiftModel model, bool state)
 ```csharp
 public void SetKitCreature(CreatureModel kitCreature)
 ```
-#INC
 
 
 #### Parameters
@@ -1212,7 +1114,6 @@ public void SetKitCreature(CreatureModel kitCreature)
 ```csharp
 public void SetMoveDelay(float moveDelay)
 ```
-#INC
 
 
 #### Parameters
@@ -1224,7 +1125,6 @@ public void SetMoveDelay(float moveDelay)
 ```csharp
 public void SetWeapon(WeaponModel weapon)
 ```
-#INC
 
 
 #### Parameters
@@ -1236,14 +1136,12 @@ public void SetWeapon(WeaponModel weapon)
 ```csharp
 public void StopAttack()
 ```
-#INC
 
 
 ### SubSuperArmorMax(float)
 ```csharp
 public void SubSuperArmorMax(float value)
 ```
-#INC
 
 
 #### Parameters
@@ -1255,7 +1153,6 @@ public void SubSuperArmorMax(float value)
 ```csharp
 public void TakeDamage(DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -1267,7 +1164,6 @@ public void TakeDamage(DamageInfo dmg)
 ```csharp
 public virtual void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -1280,7 +1176,6 @@ public virtual void TakeDamage(UnitModel actor, DamageInfo dmg)
 ```csharp
 public virtual void TakeDamageWithoutEffect(UnitModel actor, DamageInfo dmg)
 ```
-#INC
 
 
 #### Parameters
@@ -1293,7 +1188,6 @@ public virtual void TakeDamageWithoutEffect(UnitModel actor, DamageInfo dmg)
 ```csharp
 public virtual void UnderAttack(UnitModel attacker)
 ```
-#INC
 
 
 #### Parameters
@@ -1305,9 +1199,9 @@ public virtual void UnderAttack(UnitModel attacker)
 ```csharp
 public virtual void UpdateBufState()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Customizing.AppearanceUI.OnCloseAction
 canonical_path: /api/Customizing/AppearanceUI/OnCloseAction
@@ -61,4 +62,5 @@ public virtual void Invoke(AgentData data)
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `Customizing.AgentData` |  |
+
 

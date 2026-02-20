@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IScrollMessageReciever
 canonical_path: /api/Global/Misc/IScrollMessageReciever
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/IScrollMessageReciever
 ```csharp
 public interface IScrollMessageReciever
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface for things which listen to mouse scroll events.
 
 
@@ -20,12 +24,11 @@ Interface for things which listen to mouse scroll events.
 ```csharp
 void OnScroll(PointerEventData eventData)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
 | `eventData` | `UnityEngine.EventSystems.PointerEventData` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.SkeletonRenderer.SkeletonRendererDelegate
 canonical_path: /api/Spine/Unity/SkeletonRenderer/SkeletonRendererDelegate
@@ -61,4 +62,5 @@ public virtual void Invoke(SkeletonRenderer skeletonRenderer)
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeletonRenderer` | `Spine.Unity.SkeletonRenderer` |  |
+
 

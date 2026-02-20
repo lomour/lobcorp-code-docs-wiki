@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MentalDamageOption
 canonical_path: /api/Global/Misc/MentalDamageOption
@@ -29,4 +30,5 @@ NORMAL = 0
 
 #### Field Value
 **Type:** Global.MentalDamageOption
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdGutScript.HalfEvent
 canonical_path: /api/Global/Event/BossBirdGutScriptHalfEvent
@@ -55,4 +56,5 @@ public virtual void EndInvoke(IAsyncResult result)
 ```csharp
 public virtual void Invoke()
 ```
+
 

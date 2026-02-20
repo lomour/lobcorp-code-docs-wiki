@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahProjectileType
 canonical_path: /api/BinahBoss/BinahProjectileType
@@ -37,4 +38,5 @@ WAVE = 1
 
 #### Field Value
 **Type:** BinahBoss.BinahProjectileType
+
 

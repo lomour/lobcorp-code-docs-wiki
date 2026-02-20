@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBirdAnim.NarrationUI.NarrationDisplayState
 canonical_path: /api/Global/State/BossBirdAnimNarrationUINarrationDisplayState
@@ -37,4 +38,5 @@ FADEOUT = 2
 
 #### Field Value
 **Type:** Global.BossBirdAnim.NarrationUI.NarrationDisplayState
+
 

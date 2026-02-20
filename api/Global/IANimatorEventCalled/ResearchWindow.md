@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ResearchWindow
 canonical_path: /api/Global/IANimatorEventCalled/ResearchWindow
@@ -11,8 +12,11 @@ canonical_path: /api/Global/IANimatorEventCalled/ResearchWindow
 ```csharp
 public class ResearchWindow : MonoBehaviour, IAnimatorEventCalled
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
 
-The researching UI. #INC 
+
+The researching UI. 
 
 
 ## Inheritance
@@ -34,7 +38,6 @@ public ResearchWindow()
 ```csharp
 private bool _bossState
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +47,6 @@ private bool _bossState
 ```csharp
 private Sefira _currentSefira
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +56,6 @@ private Sefira _currentSefira
 ```csharp
 private bool _isDragging
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +65,6 @@ private bool _isDragging
 ```csharp
 private const int _researchMaxPerArea = 4
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +74,6 @@ private const int _researchMaxPerArea = 4
 ```csharp
 private SefiraUIColor _uiColor
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +83,6 @@ private SefiraUIColor _uiColor
 ```csharp
 public Text Areaname
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +92,6 @@ public Text Areaname
 ```csharp
 public Image backGround
 ```
-#INC
 
 
 #### Field Value
@@ -104,7 +101,6 @@ public Image backGround
 ```csharp
 public RectTransform ButtonArea
 ```
-#INC
 
 
 #### Field Value
@@ -114,7 +110,6 @@ public RectTransform ButtonArea
 ```csharp
 public ColorMultiplier[] buttonColorMultiplier
 ```
-#INC
 
 
 #### Field Value
@@ -124,7 +119,6 @@ public ColorMultiplier[] buttonColorMultiplier
 ```csharp
 public List<MaskableGraphic> coloredTargets
 ```
-#INC
 
 
 #### Field Value
@@ -134,7 +128,6 @@ public List<MaskableGraphic> coloredTargets
 ```csharp
 public UIController controller
 ```
-#INC
 
 
 #### Field Value
@@ -144,7 +137,6 @@ public UIController controller
 ```csharp
 public Text Conversation
 ```
-#INC
 
 
 #### Field Value
@@ -154,7 +146,6 @@ public Text Conversation
 ```csharp
 public RectTransform disableParent
 ```
-#INC
 
 
 #### Field Value
@@ -164,7 +155,6 @@ public RectTransform disableParent
 ```csharp
 public Image dropArea
 ```
-#INC
 
 
 #### Field Value
@@ -174,7 +164,6 @@ public Image dropArea
 ```csharp
 public RectTransform DropFeildPivot
 ```
-#INC
 
 
 #### Field Value
@@ -184,7 +173,6 @@ public RectTransform DropFeildPivot
 ```csharp
 public Drop dropHandler
 ```
-#INC
 
 
 #### Field Value
@@ -194,7 +182,6 @@ public Drop dropHandler
 ```csharp
 private bool gray
 ```
-#INC
 
 
 #### Field Value
@@ -204,7 +191,6 @@ private bool gray
 ```csharp
 public float grayFactor
 ```
-#INC
 
 
 #### Field Value
@@ -214,7 +200,6 @@ public float grayFactor
 ```csharp
 public RectTransform HelpArea
 ```
-#INC
 
 
 #### Field Value
@@ -224,7 +209,6 @@ public RectTransform HelpArea
 ```csharp
 public ColorMultiplier[] instructions
 ```
-#INC
 
 
 #### Field Value
@@ -234,7 +218,6 @@ public ColorMultiplier[] instructions
 ```csharp
 public float instTime
 ```
-#INC
 
 
 #### Field Value
@@ -244,7 +227,6 @@ public float instTime
 ```csharp
 private UnscaledTimer instTimer
 ```
-#INC
 
 
 #### Field Value
@@ -254,7 +236,6 @@ private UnscaledTimer instTimer
 ```csharp
 public RectTransform layoutParent
 ```
-#INC
 
 
 #### Field Value
@@ -264,7 +245,6 @@ public RectTransform layoutParent
 ```csharp
 public RectTransform LowerArea
 ```
-#INC
 
 
 #### Field Value
@@ -274,7 +254,6 @@ public RectTransform LowerArea
 ```csharp
 public List<ResearchPanel> panels
 ```
-#INC
 
 
 #### Field Value
@@ -284,7 +263,6 @@ public List<ResearchPanel> panels
 ```csharp
 public Image Portrait
 ```
-#INC
 
 
 #### Field Value
@@ -294,7 +272,6 @@ public Image Portrait
 ```csharp
 public static float[,] positionFactor
 ```
-#INC
 
 
 #### Field Value
@@ -313,7 +290,6 @@ public GameObject researchPanelArea
 ```csharp
 public AudioClipPlayer ResearchSound
 ```
-#INC
 
 
 #### Field Value
@@ -323,7 +299,6 @@ public AudioClipPlayer ResearchSound
 ```csharp
 public GameObject rootObject
 ```
-#INC
 
 
 #### Field Value
@@ -333,7 +308,6 @@ public GameObject rootObject
 ```csharp
 public RectTransform sefiraBoss_ListParent
 ```
-#INC
 
 
 #### Field Value
@@ -343,7 +317,6 @@ public RectTransform sefiraBoss_ListParent
 ```csharp
 public Text sefiraBoss_Prefix
 ```
-#INC
 
 
 #### Field Value
@@ -353,7 +326,6 @@ public Text sefiraBoss_Prefix
 ```csharp
 public GameObject sefiraBossButton
 ```
-#INC
 
 
 #### Field Value
@@ -363,7 +335,6 @@ public GameObject sefiraBossButton
 ```csharp
 public GameObject sefiraBossRoot
 ```
-#INC
 
 
 #### Field Value
@@ -373,7 +344,6 @@ public GameObject sefiraBossRoot
 ```csharp
 public GameObject sefiraTextUnit
 ```
-#INC
 
 
 #### Field Value
@@ -383,7 +353,6 @@ public GameObject sefiraTextUnit
 ```csharp
 public Image selectedEffectImage
 ```
-#INC
 
 
 #### Field Value
@@ -393,7 +362,6 @@ public Image selectedEffectImage
 ```csharp
 public ResearchPanel selectedPanel
 ```
-#INC
 
 
 #### Field Value
@@ -403,7 +371,6 @@ public ResearchPanel selectedPanel
 ```csharp
 public Text title
 ```
-#INC
 
 
 #### Field Value
@@ -457,21 +424,18 @@ public SefiraUIColor UIColor { get; }
 ```csharp
 public void AgentReset()
 ```
-#INC
 
 
 ### AnimatorEventInit()
 ```csharp
 public void AnimatorEventInit()
 ```
-#INC
 
 
 ### AttackCalled(int)
 ```csharp
 public void AttackCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -483,14 +447,12 @@ public void AttackCalled(int i)
 ```csharp
 public void AttackDamageTimeCalled()
 ```
-#INC
 
 
 ### CreatureAnimCall(int, CreatureBase)
 ```csharp
 public void CreatureAnimCall(int i, CreatureBase script)
 ```
-#INC
 
 
 #### Parameters
@@ -503,8 +465,6 @@ public void CreatureAnimCall(int i, CreatureBase script)
 ```csharp
 public void Init(Sefira sefira)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -516,7 +476,6 @@ public void Init(Sefira sefira)
 ```csharp
 public void MakeSefiraBossReward(SefiraEnum sefiraEnum)
 ```
-#INC
 
 
 #### Parameters
@@ -528,7 +487,6 @@ public void MakeSefiraBossReward(SefiraEnum sefiraEnum)
 ```csharp
 public void OnBeginDrag(ResearchPanel panel)
 ```
-#INC
 
 
 #### Parameters
@@ -540,14 +498,12 @@ public void OnBeginDrag(ResearchPanel panel)
 ```csharp
 public void OnCalled()
 ```
-#INC
 
 
 ### OnCalled(int)
 ```csharp
 public void OnCalled(int i)
 ```
-#INC
 
 
 #### Parameters
@@ -559,21 +515,18 @@ public void OnCalled(int i)
 ```csharp
 public void OnConfirm()
 ```
-#INC
 
 
 ### OnDiscard()
 ```csharp
 public void OnDiscard()
 ```
-#INC
 
 
 ### OnDropEvent(params object[])
 ```csharp
 public bool OnDropEvent(params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -588,14 +541,12 @@ public bool OnDropEvent(params object[] param)
 ```csharp
 public void OnEndDrag()
 ```
-#INC
 
 
 ### OnEnter(BaseEventData)
 ```csharp
 public void OnEnter(BaseEventData bpData)
 ```
-#INC
 
 
 #### Parameters
@@ -607,7 +558,6 @@ public void OnEnter(BaseEventData bpData)
 ```csharp
 public void OnExit(BaseEventData pData)
 ```
-#INC
 
 
 #### Parameters
@@ -619,21 +569,18 @@ public void OnExit(BaseEventData pData)
 ```csharp
 public void OnPanelEnter()
 ```
-#INC
 
 
 ### OnPanelExit()
 ```csharp
 public void OnPanelExit()
 ```
-#INC
 
 
 ### OnSetPanel(bool)
 ```csharp
 public void OnSetPanel(bool isSet)
 ```
-#INC
 
 
 #### Parameters
@@ -645,7 +592,6 @@ public void OnSetPanel(bool isSet)
 ```csharp
 private int ResearchDataInit()
 ```
-#INC
 
 
 #### Returns
@@ -655,7 +601,6 @@ private int ResearchDataInit()
 ```csharp
 public void SetActive(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -667,14 +612,12 @@ public void SetActive(bool state)
 ```csharp
 private void SetColor()
 ```
-#INC
 
 
 ### SetInst(float)
 ```csharp
 public void SetInst(float factor)
 ```
-#INC
 
 
 #### Parameters
@@ -686,7 +629,6 @@ public void SetInst(float factor)
 ```csharp
 public void SetPanelActivate(ResearchPanel panel, bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -699,7 +641,6 @@ public void SetPanelActivate(ResearchPanel panel, bool state)
 ```csharp
 private void SetPanelController(bool state)
 ```
-#INC
 
 
 #### Parameters
@@ -711,7 +652,6 @@ private void SetPanelController(bool state)
 ```csharp
 private void SetPanelPosition(int max)
 ```
-#INC
 
 
 #### Parameters
@@ -723,14 +663,12 @@ private void SetPanelPosition(int max)
 ```csharp
 public void SimpleReset()
 ```
-#INC
 
 
 ### SoundMake(string)
 ```csharp
 public void SoundMake(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -742,14 +680,12 @@ public void SoundMake(string src)
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ### Upgrade(ResearchItemModel)
 ```csharp
 private void Upgrade(ResearchItemModel data)
 ```
-#INC
 
 
 #### Parameters
@@ -759,4 +695,5 @@ private void Upgrade(ResearchItemModel data)
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

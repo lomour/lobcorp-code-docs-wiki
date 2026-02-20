@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.FloodTentacle.TentaclePhase
 canonical_path: /api/Global/Phase/FloodTentacleTentaclePhase
@@ -37,4 +38,5 @@ IDLE = 1
 
 #### Field Value
 **Type:** Global.FloodTentacle.TentaclePhase
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Legacy.AnchorPivotPos
 canonical_path: /api/Legacy/AnchorPivotPos
@@ -93,4 +94,5 @@ UP_RIGHT = 2
 
 #### Field Value
 **Type:** Legacy.AnchorPivotPos
+
 

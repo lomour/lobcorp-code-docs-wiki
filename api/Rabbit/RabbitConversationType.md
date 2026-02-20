@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Rabbit.RabbitConversationType
 canonical_path: /api/Rabbit/RabbitConversationType
@@ -93,4 +94,5 @@ START = 0
 
 #### Field Value
 **Type:** Rabbit.RabbitConversationType
+
 

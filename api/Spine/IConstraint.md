@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.IConstraint
 canonical_path: /api/Spine/IConstraint
@@ -24,4 +25,5 @@ int Order { get; }
 
 ## Inherited Members
 [Update()](/api/Spine/IUpdatable#update)
+
 

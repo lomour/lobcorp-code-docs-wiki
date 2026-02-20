@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: WhiteNightSpace.PlagueDoctorRegionName
 canonical_path: /api/WhiteNightSpace/PlagueDoctorRegionName
@@ -11,8 +12,11 @@ canonical_path: /api/WhiteNightSpace/PlagueDoctorRegionName
 ```csharp
 public static class PlagueDoctorRegionName
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Static names for [Plague Doctor](/api/Legacy/PlagueDoctor)'s parts
-#INC 
+
 
 
 ## Inheritance
@@ -24,7 +28,6 @@ Static names for [Plague Doctor](/api/Legacy/PlagueDoctor)'s parts
 ```csharp
 public static string Coat
 ```
-#INC
 
 
 #### Field Value
@@ -34,7 +37,6 @@ public static string Coat
 ```csharp
 public static string Hat
 ```
-#INC
 
 
 #### Field Value
@@ -44,7 +46,6 @@ public static string Hat
 ```csharp
 public static string Head_Beak
 ```
-#INC
 
 
 #### Field Value
@@ -54,7 +55,6 @@ public static string Head_Beak
 ```csharp
 public static string LeftDownWing
 ```
-#INC
 
 
 #### Field Value
@@ -64,7 +64,6 @@ public static string LeftDownWing
 ```csharp
 public static string LeftFrontWing
 ```
-#INC
 
 
 #### Field Value
@@ -74,7 +73,6 @@ public static string LeftFrontWing
 ```csharp
 public static string LeftMiddleDownWing
 ```
-#INC
 
 
 #### Field Value
@@ -84,7 +82,6 @@ public static string LeftMiddleDownWing
 ```csharp
 public static string LeftMiddleWing
 ```
-#INC
 
 
 #### Field Value
@@ -94,7 +91,6 @@ public static string LeftMiddleWing
 ```csharp
 public static string LeftUpWing
 ```
-#INC
 
 
 #### Field Value
@@ -104,8 +100,6 @@ public static string LeftUpWing
 ```csharp
 public static string RightDownWing
 ```
-#INC
-#code-generated
 
 
 #### Field Value
@@ -115,7 +109,6 @@ public static string RightDownWing
 ```csharp
 public static string RightFrontWing
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +118,6 @@ public static string RightFrontWing
 ```csharp
 public static string RightMiddleDownWing
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +127,6 @@ public static string RightMiddleDownWing
 ```csharp
 public static string RightMiddleWing
 ```
-#INC
 
 
 #### Field Value
@@ -145,7 +136,6 @@ public static string RightMiddleWing
 ```csharp
 public static string RightUpWing
 ```
-#INC
 
 
 #### Field Value
@@ -153,4 +143,5 @@ public static string RightUpWing
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

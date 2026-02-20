@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BloodBath.BloodHandState
 canonical_path: /api/Global/State/BloodBathBloodHandState
@@ -45,4 +46,5 @@ ZERO = 0
 
 #### Field Value
 **Type:** Global.BloodBath.BloodHandState
+
 

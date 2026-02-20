@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.MapGraph
 canonical_path: /api/Global/IOBserver/MapGraph
@@ -11,12 +12,15 @@ canonical_path: /api/Global/IOBserver/MapGraph
 ```csharp
 public class MapGraph : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 The map.
 
 Stores information about the locations of:
 - Main rooms
-- #INC 
+- 
 
 
 
@@ -61,8 +65,7 @@ passage (rooms)
 		- dept -- room
 		- isolateroom -- containment unit
 - Children:
-	- connected -- if this connects to another department? #inc
-	- ground -- see [PassageGroundInfo](/api/Global/Info/PassageGroundInfo)
+	- connected -- if this connects to another department? 	- ground -- see [PassageGroundInfo](/api/Global/Info/PassageGroundInfo)
 		- height -- how high the ground is
 	- wall -- see [PassageWallInfo](/api/Global/Info/PassageWallInfo)
 		- height -- how high the wall is
@@ -74,9 +77,9 @@ node (place in a room)
 	- id -- this node's name
 	- x, y -- position
 	- rabbitUnpassable -- unused
-	- type -- #INC 
+	- type -- 
 	- elevator -- prefab path for this elevator (see [ElevatorPassageModel](/api/Global/Model/ElevatorPassageModel))
-		- NOTE: makes 5 more nodes in weird places! #INC 
+		- NOTE: makes 5 more nodes in weird places! 
 	- pos:
 		- center -- marks a node as the center of its room
 			- (this is otherwise automatically calculated by [PassageObjectModel](/api/Global/Model/PassageObjectModel))
@@ -119,7 +122,6 @@ public MapGraph()
 ```csharp
 private static MapGraph _instance
 ```
-#INC
 
 
 #### Field Value
@@ -129,7 +131,6 @@ private static MapGraph _instance
 ```csharp
 private Dictionary<string, List<MapNode>> additionalSefiraTable
 ```
-#INC
 
 
 #### Field Value
@@ -139,7 +140,6 @@ private Dictionary<string, List<MapNode>> additionalSefiraTable
 ```csharp
 private Dictionary<string, List<List<MapNode>>> deptNodeTable
 ```
-#INC
 
 
 #### Field Value
@@ -149,7 +149,6 @@ private Dictionary<string, List<List<MapNode>>> deptNodeTable
 ```csharp
 private List<MapEdge> edges
 ```
-#INC
 
 
 #### Field Value
@@ -159,7 +158,6 @@ private List<MapEdge> edges
 ```csharp
 private List<ElevatorPassageModel> elevatorList
 ```
-#INC
 
 
 #### Field Value
@@ -169,7 +167,6 @@ private List<ElevatorPassageModel> elevatorList
 ```csharp
 private Dictionary<string, MapNode> graphNodes
 ```
-#INC
 
 
 #### Field Value
@@ -179,7 +176,6 @@ private Dictionary<string, MapNode> graphNodes
 ```csharp
 private Dictionary<string, MapSefiraArea> mapAreaTable
 ```
-#INC
 
 
 #### Field Value
@@ -189,7 +185,6 @@ private Dictionary<string, MapSefiraArea> mapAreaTable
 ```csharp
 private Dictionary<string, PassageObjectModel> passageTable
 ```
-#INC
 
 
 #### Field Value
@@ -199,7 +194,6 @@ private Dictionary<string, PassageObjectModel> passageTable
 ```csharp
 private Dictionary<string, List<PassageObjectModel>> rabbitTeamGroupTable
 ```
-#INC
 
 
 #### Field Value
@@ -209,7 +203,6 @@ private Dictionary<string, List<PassageObjectModel>> rabbitTeamGroupTable
 ```csharp
 private Dictionary<string, List<MapNode>> sefiraContainsTable
 ```
-#INC
 
 
 #### Field Value
@@ -219,7 +212,6 @@ private Dictionary<string, List<MapNode>> sefiraContainsTable
 ```csharp
 private Dictionary<string, List<MapNode>> sefiraCoreNodesTable
 ```
-#INC
 
 
 #### Field Value
@@ -229,7 +221,6 @@ private Dictionary<string, List<MapNode>> sefiraCoreNodesTable
 ```csharp
 private Dictionary<string, List<MapNode>> sefiraPassageTable
 ```
-#INC
 
 
 #### Field Value
@@ -239,7 +230,6 @@ private Dictionary<string, List<MapNode>> sefiraPassageTable
 ```csharp
 private Dictionary<string, List<MapNode>> sefiraRoamingNodesTable
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +249,6 @@ public static MapGraph instance { get; }
 ```csharp
 public bool loaded { get; private set; }
 ```
-#INC
 
 
 #### Property Value
@@ -271,7 +260,6 @@ public bool loaded { get; private set; }
 ```csharp
 public void ActivateArea(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -283,7 +271,6 @@ public void ActivateArea(string name)
 ```csharp
 public void ActivateArea(string name, string passageGroupName)
 ```
-#INC
 
 
 #### Parameters
@@ -296,14 +283,12 @@ public void ActivateArea(string name, string passageGroupName)
 ```csharp
 public void DeactivateAll()
 ```
-#INC
 
 
 ### DeactivateArea(string)
 ```csharp
 public void DeactivateArea(string name)
 ```
-#INC
 
 
 #### Parameters
@@ -315,14 +300,12 @@ public void DeactivateArea(string name)
 ```csharp
 private void FixedUpdate()
 ```
-#INC
 
 
 ### GetActivatedAreaList()
 ```csharp
 public Dictionary<string, List<string>> GetActivatedAreaList()
 ```
-#INC
 
 
 #### Returns
@@ -332,7 +315,6 @@ public Dictionary<string, List<string>> GetActivatedAreaList()
 ```csharp
 public MapNode[] GetAdditionalSefira(Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -347,7 +329,6 @@ public MapNode[] GetAdditionalSefira(Sefira sefira)
 ```csharp
 public MapNode[] GetAdditionalSefira(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -362,7 +343,6 @@ public MapNode[] GetAdditionalSefira(string area)
 ```csharp
 public MapNode GetCreatureRoamingPoint()
 ```
-#INC
 
 
 #### Returns
@@ -372,7 +352,6 @@ public MapNode GetCreatureRoamingPoint()
 ```csharp
 public ElevatorPassageModel[] GetElevatorPassageList()
 ```
-#INC
 
 
 #### Returns
@@ -382,7 +361,6 @@ public ElevatorPassageModel[] GetElevatorPassageList()
 ```csharp
 public MapEdge[] GetGraphEdges()
 ```
-#INC
 
 
 #### Returns
@@ -392,7 +370,6 @@ public MapEdge[] GetGraphEdges()
 ```csharp
 public MapNode[] GetGraphNodes()
 ```
-#INC
 
 
 #### Returns
@@ -402,8 +379,6 @@ public MapNode[] GetGraphNodes()
 ```csharp
 public MapNode GetNodeById(string id)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -418,7 +393,6 @@ public MapNode GetNodeById(string id)
 ```csharp
 public List<PassageObjectModel> GetPassageListByRabbitGroup(string id)
 ```
-#INC
 
 
 #### Parameters
@@ -433,7 +407,6 @@ public List<PassageObjectModel> GetPassageListByRabbitGroup(string id)
 ```csharp
 public PassageObjectModel[] GetPassageObjectList()
 ```
-#INC
 
 
 #### Returns
@@ -443,7 +416,6 @@ public PassageObjectModel[] GetPassageObjectList()
 ```csharp
 public MapNode GetRoamingNodeByRandom()
 ```
-#INC
 
 
 #### Returns
@@ -453,7 +425,6 @@ public MapNode GetRoamingNodeByRandom()
 ```csharp
 public MapNode GetRoamingNodeByRandom(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -468,7 +439,6 @@ public MapNode GetRoamingNodeByRandom(string area)
 ```csharp
 public MapNode[] GetSefiraAllNodes(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -483,7 +453,6 @@ public MapNode[] GetSefiraAllNodes(string area)
 ```csharp
 public MapNode GetSefiraAndDeptByRandom(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -498,7 +467,6 @@ public MapNode GetSefiraAndDeptByRandom(string area)
 ```csharp
 public MovableObjectNode GetSefiraMovableNodeByRandom(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -513,7 +481,6 @@ public MovableObjectNode GetSefiraMovableNodeByRandom(string area)
 ```csharp
 public MapNode[] GetSefiraNodes(Sefira sefira)
 ```
-#INC
 
 
 #### Parameters
@@ -528,7 +495,6 @@ public MapNode[] GetSefiraNodes(Sefira sefira)
 ```csharp
 public MapNode[] GetSefiraNodes(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -543,7 +509,6 @@ public MapNode[] GetSefiraNodes(string area)
 ```csharp
 public PassageObjectModel GetSefiraPassage(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -558,7 +523,6 @@ public PassageObjectModel GetSefiraPassage(string area)
 ```csharp
 public MapNode[] GetSefiraPassagePointNode(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -573,7 +537,6 @@ public MapNode[] GetSefiraPassagePointNode(string area)
 ```csharp
 public MapNode GetSepiraNodeByRandom(string area)
 ```
-#INC
 
 
 #### Parameters
@@ -588,14 +551,12 @@ public MapNode GetSepiraNodeByRandom(string area)
 ```csharp
 public void LoadMap()
 ```
-#INC
 
 
 ### LoadMap(XmlNode, XmlNode)
 ```csharp
 public void LoadMap(XmlNode nodeRoot, XmlNode edgeRoot)
 ```
-#INC
 
 
 #### Parameters
@@ -643,7 +604,6 @@ public void LoadModMap_Replace(Dictionary<string, XmlNode> nodeRoot, XmlNode edg
 ```csharp
 public void OnNotice(string name, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -656,7 +616,6 @@ public void OnNotice(string name, params object[] param)
 ```csharp
 public void RegisterPassage(PassageObjectModel passage)
 ```
-#INC
 
 
 #### Parameters
@@ -668,16 +627,15 @@ public void RegisterPassage(PassageObjectModel passage)
 ```csharp
 public void Reset()
 ```
-#INC
 
 
 ### StageEnd()
 ```csharp
 private void StageEnd()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

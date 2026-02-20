@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DeadType
 canonical_path: /api/Global/Type/DeadType
@@ -61,4 +62,5 @@ SPECIAL = 5
 
 #### Field Value
 **Type:** Global.DeadType
+
 

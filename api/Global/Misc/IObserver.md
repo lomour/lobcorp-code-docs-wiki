@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.IObserver
 canonical_path: /api/Global/Misc/IObserver
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/IObserver
 ```csharp
 public interface IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface for all things which listen for events.
 
 Note: *some* events will have additional information, which needs to be grabbed from param.
@@ -21,7 +25,7 @@ void OnNotice(string notice, params object[] param)
 
 %% An aside: This should probably not be implemented this way. %%
 
-#exclude-from-graph 
+
 
 
 ## Methods
@@ -30,8 +34,6 @@ void OnNotice(string notice, params object[] param)
 ```csharp
 void OnNotice(string notice, params object[] param)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -39,4 +41,5 @@ void OnNotice(string notice, params object[] param)
 | --- | --- | --- |
 | `notice` | `System.String` |  |
 | `param` | `System.Object[]` |  |
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Unity.ISkeletonComponent
 canonical_path: /api/Spine/Unity/ISkeletonComponent
@@ -29,4 +30,5 @@ SkeletonDataAsset SkeletonDataAsset { get; }
 
 #### Property Value
 **Type:** Spine.Unity.SkeletonDataAsset
+
 

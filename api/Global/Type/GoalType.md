@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.GoalType
 canonical_path: /api/Global/Type/GoalType
@@ -37,4 +38,5 @@ SAME = 2
 
 #### Field Value
 **Type:** Global.GoalType
+
 

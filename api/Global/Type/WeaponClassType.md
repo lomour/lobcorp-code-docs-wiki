@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.WeaponClassType
 canonical_path: /api/Global/Type/WeaponClassType
@@ -117,4 +118,5 @@ SPECIAL = 11
 
 #### Field Value
 **Type:** Global.WeaponClassType
+
 

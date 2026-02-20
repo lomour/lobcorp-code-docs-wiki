@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.CreatureKitType
 canonical_path: /api/Global/Type/CreatureKitType
@@ -45,4 +46,5 @@ ONESHOT = 3
 
 #### Field Value
 **Type:** Global.CreatureKitType
+
 

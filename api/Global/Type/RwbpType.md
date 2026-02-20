@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.RwbpType
 canonical_path: /api/Global/Type/RwbpType
@@ -61,4 +62,5 @@ W = 2
 
 #### Field Value
 **Type:** Global.RwbpType
+
 

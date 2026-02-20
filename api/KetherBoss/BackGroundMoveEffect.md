@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: KetherBoss.BackGroundMoveEffect
 canonical_path: /api/KetherBoss/BackGroundMoveEffect
@@ -11,9 +12,12 @@ canonical_path: /api/KetherBoss/BackGroundMoveEffect
 ```csharp
 public class BackGroundMoveEffect : KetherLastEffectBase
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 Moves the background during day 50
-#INC 
+
 
 
 ## Inheritance
@@ -25,7 +29,6 @@ Moves the background during day 50
 ```csharp
 public BackGroundMoveEffect(KetherLastBossBase bossBase)
 ```
-#INC
 
 
 #### Parameters
@@ -47,7 +50,6 @@ public BackGroundMoveEffect.ChangeBackgournd _changeAction
 ```csharp
 private float _initalSpeed
 ```
-#INC
 
 
 #### Field Value
@@ -57,7 +59,6 @@ private float _initalSpeed
 ```csharp
 private const float _maxY = 50000
 ```
-#INC
 
 
 #### Field Value
@@ -67,7 +68,6 @@ private const float _maxY = 50000
 ```csharp
 private float _speed
 ```
-#INC
 
 
 #### Field Value
@@ -77,7 +77,6 @@ private float _speed
 ```csharp
 private const float _speedFactor = 5
 ```
-#INC
 
 
 #### Field Value
@@ -87,7 +86,6 @@ private const float _speedFactor = 5
 ```csharp
 private Transform _transform
 ```
-#INC
 
 
 #### Field Value
@@ -97,7 +95,6 @@ private Transform _transform
 ```csharp
 private CameraFilterPack_FX_EarthQuake earthQuake
 ```
-#INC
 
 
 #### Field Value
@@ -107,7 +104,6 @@ private CameraFilterPack_FX_EarthQuake earthQuake
 ```csharp
 private Vector3 endPosition
 ```
-#INC
 
 
 #### Field Value
@@ -117,7 +113,6 @@ private Vector3 endPosition
 ```csharp
 private const float eqLifetime = 2
 ```
-#INC
 
 
 #### Field Value
@@ -127,7 +122,6 @@ private const float eqLifetime = 2
 ```csharp
 private Timer speedTimer
 ```
-#INC
 
 
 #### Field Value
@@ -137,7 +131,6 @@ private Timer speedTimer
 ```csharp
 private Vector3 startPosition
 ```
-#INC
 
 
 #### Field Value
@@ -147,7 +140,6 @@ private Vector3 startPosition
 ```csharp
 private Timer timer
 ```
-#INC
 
 
 #### Field Value
@@ -179,14 +171,12 @@ public void ApplyFrameChangeEvent(BackGroundMoveEffect.ChangeBackgournd changeBa
 ```csharp
 public override void FixedUpdate()
 ```
-#INC
 
 
 ### StartVertiaclMovement(float, bool)
 ```csharp
 public void StartVertiaclMovement(float speed, bool eqEanble = false)
 ```
-#INC
 
 
 #### Parameters
@@ -199,10 +189,9 @@ public void StartVertiaclMovement(float speed, bool eqEanble = false)
 ```csharp
 public override void Update()
 ```
-#INC
-#code-generated
 
 
 ## Inherited Members
 [bossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [type](/api/KetherBoss/KetherLastEffectBase#type), [OnStart()](/api/KetherBoss/KetherLastEffectBase#onstart), [OnDestroy()](/api/KetherBoss/KetherLastEffectBase#ondestroy), [Terminate()](/api/KetherBoss/KetherLastEffectBase#terminate), [BossBase](/api/KetherBoss/KetherLastEffectBase#bossbase), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Spine.Pool`1.IPoolable
 canonical_path: /api/Spine/Pool-T/IPoolable
@@ -18,4 +19,5 @@ public interface Pool<T>.IPoolable
 ```csharp
 void Reset()
 ```
+
 

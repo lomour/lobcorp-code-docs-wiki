@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.NoticeName
 canonical_path: /api/Global/Misc/NoticeName
@@ -11,6 +12,9 @@ canonical_path: /api/Global/Misc/NoticeName
 ```csharp
 public class NoticeName
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Contains a list of all notice types, for use with [Notice](/api/Global/Misc/Notice) and [IObserver](/api/Global/Misc/IObserver).
 
 Essentially, a list of all events.
@@ -32,7 +36,6 @@ public NoticeName()
 ```csharp
 public static string AddBloodMapObject
 ```
-#INC
 
 
 #### Field Value
@@ -42,7 +45,6 @@ public static string AddBloodMapObject
 ```csharp
 public static string AddCreature
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +54,6 @@ public static string AddCreature
 ```csharp
 public static string AddEtcUnit
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +63,6 @@ public static string AddEtcUnit
 ```csharp
 public static string AddEventCreature
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +72,6 @@ public static string AddEventCreature
 ```csharp
 public static string AddExternalWorker
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +81,6 @@ public static string AddExternalWorker
 ```csharp
 public static string AddNarrationLog
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +90,6 @@ public static string AddNarrationLog
 ```csharp
 public static string AddNewAgent
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +99,6 @@ public static string AddNewAgent
 ```csharp
 public static string AddOfficer
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +108,6 @@ public static string AddOfficer
 ```csharp
 public static string AddOrdealCreature
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +117,6 @@ public static string AddOrdealCreature
 ```csharp
 public static string AddPassageObject
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +126,6 @@ public static string AddPassageObject
 ```csharp
 public static string AddPlayerLog
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +135,6 @@ public static string AddPlayerLog
 ```csharp
 public static string AddRabbit
 ```
-#INC
 
 
 #### Field Value
@@ -152,7 +144,6 @@ public static string AddRabbit
 ```csharp
 public static string AddSefiraBossCreature
 ```
-#INC
 
 
 #### Field Value
@@ -162,7 +153,6 @@ public static string AddSefiraBossCreature
 ```csharp
 public static string AddSystemLog
 ```
-#INC
 
 
 #### Field Value
@@ -172,7 +162,6 @@ public static string AddSystemLog
 ```csharp
 public static string AreaOpenUpdate
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +171,6 @@ public static string AreaOpenUpdate
 ```csharp
 public static string AutoSaveTimer
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +180,6 @@ public static string AutoSaveTimer
 ```csharp
 public static string ChangeAgentSefira
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +189,6 @@ public static string ChangeAgentSefira
 ```csharp
 public static string ChangeAgentState
 ```
-#INC
 
 
 #### Field Value
@@ -212,7 +198,6 @@ public static string ChangeAgentState
 ```csharp
 public static string ChangeKetherImage
 ```
-#INC
 
 
 #### Field Value
@@ -222,7 +207,6 @@ public static string ChangeKetherImage
 ```csharp
 public static string ClearAgent
 ```
-#INC
 
 
 #### Field Value
@@ -232,7 +216,6 @@ public static string ClearAgent
 ```csharp
 public static string ClearCreature
 ```
-#INC
 
 
 #### Field Value
@@ -242,7 +225,6 @@ public static string ClearCreature
 ```csharp
 public static string ClearEtcUnit
 ```
-#INC
 
 
 #### Field Value
@@ -252,7 +234,6 @@ public static string ClearEtcUnit
 ```csharp
 public static string ClearEventCreature
 ```
-#INC
 
 
 #### Field Value
@@ -262,7 +243,6 @@ public static string ClearEventCreature
 ```csharp
 public static string ClearOfficer
 ```
-#INC
 
 
 #### Field Value
@@ -272,7 +252,6 @@ public static string ClearOfficer
 ```csharp
 public static string ClearOrdealCreature
 ```
-#INC
 
 
 #### Field Value
@@ -282,7 +261,6 @@ public static string ClearOrdealCreature
 ```csharp
 public static string ClearRabbit
 ```
-#INC
 
 
 #### Field Value
@@ -292,7 +270,6 @@ public static string ClearRabbit
 ```csharp
 public static string CreatureObserveLevelAdded
 ```
-#INC
 
 
 #### Field Value
@@ -302,7 +279,6 @@ public static string CreatureObserveLevelAdded
 ```csharp
 public static string CreatureSuppressCancel
 ```
-#INC
 
 
 #### Field Value
@@ -312,7 +288,6 @@ public static string CreatureSuppressCancel
 ```csharp
 public static string DeployAgent
 ```
-#INC
 
 
 #### Field Value
@@ -322,7 +297,6 @@ public static string DeployAgent
 ```csharp
 public static string EnergyTimer
 ```
-#INC
 
 
 #### Field Value
@@ -332,7 +306,6 @@ public static string EnergyTimer
 ```csharp
 public static string EscapeCreature
 ```
-#INC
 
 
 #### Field Value
@@ -342,7 +315,6 @@ public static string EscapeCreature
 ```csharp
 public static string FixedUpdate
 ```
-#INC
 
 
 #### Field Value
@@ -352,7 +324,6 @@ public static string FixedUpdate
 ```csharp
 public static string HorrorDamage
 ```
-#INC
 
 
 #### Field Value
@@ -362,7 +333,6 @@ public static string HorrorDamage
 ```csharp
 public static string InitAgent
 ```
-#INC
 
 
 #### Field Value
@@ -372,7 +342,6 @@ public static string InitAgent
 ```csharp
 public static string InitResearchItem
 ```
-#INC
 
 
 #### Field Value
@@ -382,7 +351,6 @@ public static string InitResearchItem
 ```csharp
 public static string KetherConversation
 ```
-#INC
 
 
 #### Field Value
@@ -392,7 +360,6 @@ public static string KetherConversation
 ```csharp
 public static string LanaguageChange
 ```
-#INC
 
 
 #### Field Value
@@ -402,7 +369,6 @@ public static string LanaguageChange
 ```csharp
 public static string LoadMapGraphComplete
 ```
-#INC
 
 
 #### Field Value
@@ -412,7 +378,6 @@ public static string LoadMapGraphComplete
 ```csharp
 public static string MakeEquipment
 ```
-#INC
 
 
 #### Field Value
@@ -422,7 +387,6 @@ public static string MakeEquipment
 ```csharp
 public static string ManageCancel
 ```
-#INC
 
 
 #### Field Value
@@ -432,7 +396,6 @@ public static string ManageCancel
 ```csharp
 public static string MoveUpdate
 ```
-#INC
 
 
 #### Field Value
@@ -442,7 +405,6 @@ public static string MoveUpdate
 ```csharp
 public static string OnAgentDead
 ```
-#INC
 
 
 #### Field Value
@@ -452,7 +414,6 @@ public static string OnAgentDead
 ```csharp
 public static string OnAgentHairChanged
 ```
-#INC
 
 
 #### Field Value
@@ -462,7 +423,6 @@ public static string OnAgentHairChanged
 ```csharp
 public static string OnAgentMoveCommand
 ```
-#INC
 
 
 #### Field Value
@@ -472,7 +432,6 @@ public static string OnAgentMoveCommand
 ```csharp
 public static string OnAgentPanic
 ```
-#INC
 
 
 #### Field Value
@@ -482,7 +441,6 @@ public static string OnAgentPanic
 ```csharp
 public static string OnAgentPanicReturn
 ```
-#INC
 
 
 #### Field Value
@@ -492,7 +450,6 @@ public static string OnAgentPanicReturn
 ```csharp
 public static string OnAgentPromote
 ```
-#INC
 
 
 #### Field Value
@@ -502,7 +459,6 @@ public static string OnAgentPromote
 ```csharp
 public static string OnChangeCameraSize
 ```
-#INC
 
 
 #### Field Value
@@ -512,7 +468,6 @@ public static string OnChangeCameraSize
 ```csharp
 public static string OnChangeGift
 ```
-#INC
 
 
 #### Field Value
@@ -522,7 +477,6 @@ public static string OnChangeGift
 ```csharp
 public static string OnChangeInventoryTap
 ```
-#INC
 
 
 #### Field Value
@@ -532,7 +486,6 @@ public static string OnChangeInventoryTap
 ```csharp
 public static string OnClickNextDayAcceptInResult
 ```
-#INC
 
 
 #### Field Value
@@ -542,7 +495,6 @@ public static string OnClickNextDayAcceptInResult
 ```csharp
 public static string OnClickRecallButton
 ```
-#INC
 
 
 #### Field Value
@@ -552,7 +504,6 @@ public static string OnClickRecallButton
 ```csharp
 public static string OnClickStartGame
 ```
-#INC
 
 
 #### Field Value
@@ -562,7 +513,6 @@ public static string OnClickStartGame
 ```csharp
 public static string OnCommandSuppress
 ```
-#INC
 
 
 #### Field Value
@@ -572,7 +522,6 @@ public static string OnCommandSuppress
 ```csharp
 public static string OnCreatureComplexAttack
 ```
-#INC
 
 
 #### Field Value
@@ -582,7 +531,6 @@ public static string OnCreatureComplexAttack
 ```csharp
 public static string OnCreatureFeverStart
 ```
-#INC
 
 
 #### Field Value
@@ -592,7 +540,6 @@ public static string OnCreatureFeverStart
 ```csharp
 public static string OnCreatureMentalAttack
 ```
-#INC
 
 
 #### Field Value
@@ -602,7 +549,6 @@ public static string OnCreatureMentalAttack
 ```csharp
 public static string OnCreaturePhysicsAttack
 ```
-#INC
 
 
 #### Field Value
@@ -612,7 +558,6 @@ public static string OnCreaturePhysicsAttack
 ```csharp
 public static string OnCreatureSuppressed
 ```
-#INC
 
 
 #### Field Value
@@ -622,7 +567,6 @@ public static string OnCreatureSuppressed
 ```csharp
 public static string OnDestroyBossCore
 ```
-#INC
 
 
 #### Field Value
@@ -632,7 +576,6 @@ public static string OnDestroyBossCore
 ```csharp
 public static string OnDestroyBufEffect
 ```
-#INC
 
 
 #### Field Value
@@ -642,7 +585,6 @@ public static string OnDestroyBufEffect
 ```csharp
 public static string OnDragStart
 ```
-#INC
 
 
 #### Field Value
@@ -652,7 +594,6 @@ public static string OnDragStart
 ```csharp
 public static string OnEmergencyLevelChanged
 ```
-#INC
 
 
 #### Field Value
@@ -662,7 +603,6 @@ public static string OnEmergencyLevelChanged
 ```csharp
 public static string OnEscape
 ```
-#INC
 
 
 #### Field Value
@@ -672,7 +612,6 @@ public static string OnEscape
 ```csharp
 public static string OnEventTimeReached
 ```
-#INC
 
 
 #### Field Value
@@ -682,7 +621,6 @@ public static string OnEventTimeReached
 ```csharp
 public static string OnFailStage
 ```
-#INC
 
 
 #### Field Value
@@ -700,7 +638,6 @@ public static string OnGetEGOgift
 ```csharp
 public static string OnInitBufEffect
 ```
-#INC
 
 
 #### Field Value
@@ -710,7 +647,6 @@ public static string OnInitBufEffect
 ```csharp
 public static string OnInitGameManager
 ```
-#INC
 
 
 #### Field Value
@@ -720,7 +656,6 @@ public static string OnInitGameManager
 ```csharp
 public static string OnInventoryAgentChanged
 ```
-#INC
 
 
 #### Field Value
@@ -730,7 +665,6 @@ public static string OnInventoryAgentChanged
 ```csharp
 public static string OnIsolateOverloadCanceled
 ```
-#INC
 
 
 #### Field Value
@@ -740,7 +674,6 @@ public static string OnIsolateOverloadCanceled
 ```csharp
 public static string OnIsolateOverloaded
 ```
-#INC
 
 
 #### Field Value
@@ -750,7 +683,6 @@ public static string OnIsolateOverloaded
 ```csharp
 public static string OnLateUpdateCamera
 ```
-#INC
 
 
 #### Field Value
@@ -760,7 +692,6 @@ public static string OnLateUpdateCamera
 ```csharp
 public static string OnLoadingEnd
 ```
-#INC
 
 
 #### Field Value
@@ -770,7 +701,6 @@ public static string OnLoadingEnd
 ```csharp
 public static string OnMaxObserveSuccess
 ```
-#INC
 
 
 #### Field Value
@@ -780,7 +710,6 @@ public static string OnMaxObserveSuccess
 ```csharp
 public static string OnMissionProgressed
 ```
-#INC
 
 
 #### Field Value
@@ -790,7 +719,6 @@ public static string OnMissionProgressed
 ```csharp
 public static string OnNextDay
 ```
-#INC
 
 
 #### Field Value
@@ -800,7 +728,6 @@ public static string OnNextDay
 ```csharp
 public static string OnOfficerDie
 ```
-#INC
 
 
 #### Field Value
@@ -810,7 +737,6 @@ public static string OnOfficerDie
 ```csharp
 public static string OnOfficerPanic
 ```
-#INC
 
 
 #### Field Value
@@ -820,7 +746,6 @@ public static string OnOfficerPanic
 ```csharp
 public static string OnOrdealActivated
 ```
-#INC
 
 
 #### Field Value
@@ -830,7 +755,6 @@ public static string OnOrdealActivated
 ```csharp
 public static string OnOrdealStarted
 ```
-#INC
 
 
 #### Field Value
@@ -840,7 +764,6 @@ public static string OnOrdealStarted
 ```csharp
 public static string OnProcessWorkTick
 ```
-#INC
 
 
 #### Field Value
@@ -850,7 +773,6 @@ public static string OnProcessWorkTick
 ```csharp
 public static string OnQliphothOverloadLevelChanged
 ```
-#INC
 
 
 #### Field Value
@@ -860,7 +782,6 @@ public static string OnQliphothOverloadLevelChanged
 ```csharp
 public static string OnReleaseGameManager
 ```
-#INC
 
 
 #### Field Value
@@ -870,7 +791,6 @@ public static string OnReleaseGameManager
 ```csharp
 public static string OnReleaseWork
 ```
-#INC
 
 
 #### Field Value
@@ -880,7 +800,6 @@ public static string OnReleaseWork
 ```csharp
 public static string OnResearchEnd
 ```
-#INC
 
 
 #### Field Value
@@ -890,7 +809,6 @@ public static string OnResearchEnd
 ```csharp
 public static string OnResearchPanelDropped
 ```
-#INC
 
 
 #### Field Value
@@ -900,7 +818,6 @@ public static string OnResearchPanelDropped
 ```csharp
 public static string OnStageEnd
 ```
-#INC
 
 
 #### Field Value
@@ -910,7 +827,6 @@ public static string OnStageEnd
 ```csharp
 public static string OnStageStart
 ```
-#INC
 
 
 #### Field Value
@@ -920,7 +836,6 @@ public static string OnStageStart
 ```csharp
 public static string OnTutorialCreatureArrived
 ```
-#INC
 
 
 #### Field Value
@@ -930,7 +845,6 @@ public static string OnTutorialCreatureArrived
 ```csharp
 public static string OnWorkCoolTimeEnd
 ```
-#INC
 
 
 #### Field Value
@@ -940,7 +854,6 @@ public static string OnWorkCoolTimeEnd
 ```csharp
 public static string OnWorkerReinforcementAccepted
 ```
-#INC
 
 
 #### Field Value
@@ -950,7 +863,6 @@ public static string OnWorkerReinforcementAccepted
 ```csharp
 public static string OnWorkStart
 ```
-#INC
 
 
 #### Field Value
@@ -960,7 +872,6 @@ public static string OnWorkStart
 ```csharp
 public static string OpenArea
 ```
-#INC
 
 
 #### Field Value
@@ -970,7 +881,6 @@ public static string OpenArea
 ```csharp
 public static string OrdealEnd
 ```
-#INC
 
 
 #### Field Value
@@ -980,7 +890,6 @@ public static string OrdealEnd
 ```csharp
 public static string PassageAlpha
 ```
-#INC
 
 
 #### Field Value
@@ -990,7 +899,6 @@ public static string PassageAlpha
 ```csharp
 public static string PassageBlackOut
 ```
-#INC
 
 
 #### Field Value
@@ -1000,7 +908,6 @@ public static string PassageBlackOut
 ```csharp
 public static string PassageWhitle
 ```
-#INC
 
 
 #### Field Value
@@ -1010,7 +917,6 @@ public static string PassageWhitle
 ```csharp
 public static string RabbitCaptainConversation
 ```
-#INC
 
 
 #### Field Value
@@ -1020,7 +926,6 @@ public static string RabbitCaptainConversation
 ```csharp
 public static string RabbitProtocolActivated
 ```
-#INC
 
 
 #### Field Value
@@ -1030,7 +935,6 @@ public static string RabbitProtocolActivated
 ```csharp
 public static string RemoveAgent
 ```
-#INC
 
 
 #### Field Value
@@ -1040,7 +944,6 @@ public static string RemoveAgent
 ```csharp
 public static string RemoveCreature
 ```
-#INC
 
 
 #### Field Value
@@ -1050,7 +953,6 @@ public static string RemoveCreature
 ```csharp
 public static string RemoveEquipment
 ```
-#INC
 
 
 #### Field Value
@@ -1060,7 +962,6 @@ public static string RemoveEquipment
 ```csharp
 public static string RemoveEtcUnit
 ```
-#INC
 
 
 #### Field Value
@@ -1070,7 +971,6 @@ public static string RemoveEtcUnit
 ```csharp
 public static string RemoveEventCreature
 ```
-#INC
 
 
 #### Field Value
@@ -1080,7 +980,6 @@ public static string RemoveEventCreature
 ```csharp
 public static string RemoveExternalWorker
 ```
-#INC
 
 
 #### Field Value
@@ -1090,7 +989,6 @@ public static string RemoveExternalWorker
 ```csharp
 public static string RemoveOfficer
 ```
-#INC
 
 
 #### Field Value
@@ -1100,7 +998,6 @@ public static string RemoveOfficer
 ```csharp
 public static string RemoveOrdealCreature
 ```
-#INC
 
 
 #### Field Value
@@ -1110,7 +1007,6 @@ public static string RemoveOrdealCreature
 ```csharp
 public static string RemoveRabbit
 ```
-#INC
 
 
 #### Field Value
@@ -1120,7 +1016,6 @@ public static string RemoveRabbit
 ```csharp
 public static string RemoveSefiraBossCreature
 ```
-#INC
 
 
 #### Field Value
@@ -1130,7 +1025,6 @@ public static string RemoveSefiraBossCreature
 ```csharp
 public static string RemoveTeleportNode
 ```
-#INC
 
 
 #### Field Value
@@ -1140,7 +1034,6 @@ public static string RemoveTeleportNode
 ```csharp
 public static string ReportAgentSuccess
 ```
-#INC
 
 
 #### Field Value
@@ -1150,7 +1043,6 @@ public static string ReportAgentSuccess
 ```csharp
 public static string ResetMapGraph
 ```
-#INC
 
 
 #### Field Value
@@ -1160,7 +1052,6 @@ public static string ResetMapGraph
 ```csharp
 public static string SefiraDisabled
 ```
-#INC
 
 
 #### Field Value
@@ -1170,7 +1061,6 @@ public static string SefiraDisabled
 ```csharp
 public static string SefiraEnabled
 ```
-#INC
 
 
 #### Field Value
@@ -1180,7 +1070,6 @@ public static string SefiraEnabled
 ```csharp
 public static string SetTeleportNode
 ```
-#INC
 
 
 #### Field Value
@@ -1190,7 +1079,6 @@ public static string SetTeleportNode
 ```csharp
 public static string TurnOffUI
 ```
-#INC
 
 
 #### Field Value
@@ -1200,7 +1088,6 @@ public static string TurnOffUI
 ```csharp
 public static string TurnOnUI
 ```
-#INC
 
 
 #### Field Value
@@ -1210,7 +1097,6 @@ public static string TurnOnUI
 ```csharp
 public static string TutorialElementDisable
 ```
-#INC
 
 
 #### Field Value
@@ -1220,7 +1106,6 @@ public static string TutorialElementDisable
 ```csharp
 public static string TutorialElementEnable
 ```
-#INC
 
 
 #### Field Value
@@ -1230,7 +1115,6 @@ public static string TutorialElementEnable
 ```csharp
 public static string UnconWorkerDead
 ```
-#INC
 
 
 #### Field Value
@@ -1240,7 +1124,6 @@ public static string UnconWorkerDead
 ```csharp
 public static string UnmuteSefiraConversation
 ```
-#INC
 
 
 #### Field Value
@@ -1250,7 +1133,6 @@ public static string UnmuteSefiraConversation
 ```csharp
 public static string Update
 ```
-#INC
 
 
 #### Field Value
@@ -1260,7 +1142,6 @@ public static string Update
 ```csharp
 public static string UpdateAgentState
 ```
-#INC
 
 
 #### Field Value
@@ -1270,7 +1151,6 @@ public static string UpdateAgentState
 ```csharp
 public static string UpdateDay
 ```
-#INC
 
 
 #### Field Value
@@ -1280,7 +1160,6 @@ public static string UpdateDay
 ```csharp
 public static string UpdateEnergy
 ```
-#INC
 
 
 #### Field Value
@@ -1290,7 +1169,6 @@ public static string UpdateEnergy
 ```csharp
 public static string UpdateResearchItem
 ```
-#INC
 
 
 #### Field Value
@@ -1300,7 +1178,6 @@ public static string UpdateResearchItem
 ```csharp
 public static string WorkEndReport
 ```
-#INC
 
 
 #### Field Value
@@ -1310,7 +1187,6 @@ public static string WorkEndReport
 ```csharp
 public static string WorkerAttackEnd
 ```
-#INC
 
 
 #### Field Value
@@ -1320,7 +1196,6 @@ public static string WorkerAttackEnd
 ```csharp
 public static string WorkToOverloaded
 ```
-#INC
 
 
 #### Field Value
@@ -1332,8 +1207,6 @@ public static string WorkToOverloaded
 ```csharp
 public static string MakeName(string noticeName, params string[] param)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -1347,4 +1220,5 @@ public static string MakeName(string noticeName, params string[] param)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

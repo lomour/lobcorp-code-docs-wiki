@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.DummyAttackAnimator
 canonical_path: /api/Global/Animator/DummyAttackAnimator
@@ -11,8 +12,11 @@ canonical_path: /api/Global/Animator/DummyAttackAnimator
 ```csharp
 public class DummyAttackAnimator
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Default animator for attacking?
-#INC 
+
 
 
 ## Inheritance
@@ -39,7 +43,6 @@ private DummyAttackAnimator.Callback _animationEndCallback
 ```csharp
 private float _attackDuration
 ```
-#INC
 
 
 #### Field Value
@@ -49,7 +52,6 @@ private float _attackDuration
 ```csharp
 private Timer timer
 ```
-#INC
 
 
 #### Field Value
@@ -61,21 +63,18 @@ private Timer timer
 ```csharp
 public void EndAttack()
 ```
-#INC
 
 
 ### EndAttackCycle()
 ```csharp
 private void EndAttackCycle()
 ```
-#INC
 
 
 ### OnFixedUpdate()
 ```csharp
 public void OnFixedUpdate()
 ```
-#INC
 
 
 ### PlayAttackAnimation(Callback)
@@ -92,8 +91,6 @@ public void PlayAttackAnimation(DummyAttackAnimator.Callback animationEndCallbac
 ```csharp
 public void SetAttackDuraction(int duration)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -103,4 +100,5 @@ public void SetAttackDuraction(int duration)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.BossBird.NarrationState
 canonical_path: /api/Global/State/BossBirdNarrationState
@@ -85,4 +86,5 @@ SUPPRESSED = 8
 
 #### Field Value
 **Type:** Global.BossBird.NarrationState
+
 

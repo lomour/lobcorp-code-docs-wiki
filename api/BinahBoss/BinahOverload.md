@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: BinahBoss.BinahOverload
 canonical_path: /api/BinahBoss/BinahOverload
@@ -11,6 +12,9 @@ canonical_path: /api/BinahBoss/BinahOverload
 ```csharp
 public class BinahOverload : IObserver
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Parent class for [Binah](/api/Global/Misc/BinahBossBase)'s special meltdowns
 
 
@@ -29,8 +33,6 @@ Parent class for [Binah](/api/Global/Misc/BinahBossBase)'s special meltdowns
 ```csharp
 public BinahOverload(BinahCoreScript binah, OverloadType type)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -45,7 +47,6 @@ public BinahOverload(BinahCoreScript binah, OverloadType type)
 ```csharp
 private DefenseInfo _defenseInfo
 ```
-#INC
 
 
 #### Field Value
@@ -55,7 +56,6 @@ private DefenseInfo _defenseInfo
 ```csharp
 public BinahCoreScript binah
 ```
-#INC
 
 
 #### Field Value
@@ -65,7 +65,6 @@ public BinahCoreScript binah
 ```csharp
 public GameObject BinahAttachedEffect
 ```
-#INC
 
 
 #### Field Value
@@ -75,7 +74,6 @@ public GameObject BinahAttachedEffect
 ```csharp
 public BinahAction FailureAction
 ```
-#INC
 
 
 #### Field Value
@@ -85,7 +83,6 @@ public BinahAction FailureAction
 ```csharp
 public float IsolatePercent
 ```
-#INC
 
 
 #### Field Value
@@ -95,7 +92,6 @@ public float IsolatePercent
 ```csharp
 public List<CreatureModel> overloadedCreatures
 ```
-#INC
 
 
 #### Field Value
@@ -105,7 +101,6 @@ public List<CreatureModel> overloadedCreatures
 ```csharp
 public OverloadType overloadType
 ```
-#INC
 
 
 #### Field Value
@@ -115,7 +110,6 @@ public OverloadType overloadType
 ```csharp
 public int ProbReductionValue
 ```
-#INC
 
 
 #### Field Value
@@ -125,7 +119,6 @@ public int ProbReductionValue
 ```csharp
 public BinahAction SuccessAction
 ```
-#INC
 
 
 #### Field Value
@@ -135,7 +128,6 @@ public BinahAction SuccessAction
 ```csharp
 public float TimeLimit
 ```
-#INC
 
 
 #### Field Value
@@ -189,14 +181,12 @@ public MovableObjectNode Movable { get; }
 ```csharp
 public virtual void CastOverload()
 ```
-#INC
 
 
 ### GetCreatureCount()
 ```csharp
 public int GetCreatureCount()
 ```
-#INC
 
 
 #### Returns
@@ -206,7 +196,6 @@ public int GetCreatureCount()
 ```csharp
 public static int GetOverloadTargetCount(BinahOverload overload)
 ```
-#INC
 
 
 #### Parameters
@@ -221,14 +210,12 @@ public static int GetOverloadTargetCount(BinahOverload overload)
 ```csharp
 public virtual void Interrupt()
 ```
-#INC
 
 
 ### LoadBinahAttachedEffect(string)
 ```csharp
 public virtual GameObject LoadBinahAttachedEffect(string src)
 ```
-#INC
 
 
 #### Parameters
@@ -243,28 +230,24 @@ public virtual GameObject LoadBinahAttachedEffect(string src)
 ```csharp
 public virtual void OnDestroy()
 ```
-#INC
 
 
 ### OnExecute()
 ```csharp
 public virtual void OnExecute()
 ```
-#INC
 
 
 ### OnFail()
 ```csharp
 public virtual void OnFail()
 ```
-#INC
 
 
 ### OnNotice(string, params object[])
 ```csharp
 public void OnNotice(string notice, params object[] param)
 ```
-#INC
 
 
 #### Parameters
@@ -277,7 +260,6 @@ public void OnNotice(string notice, params object[] param)
 ```csharp
 public virtual void OnParticleArrived(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -289,7 +271,6 @@ public virtual void OnParticleArrived(CreatureModel creature)
 ```csharp
 public virtual void OnReducedCreature(CreatureModel creature)
 ```
-#INC
 
 
 #### Parameters
@@ -301,9 +282,9 @@ public virtual void OnReducedCreature(CreatureModel creature)
 ```csharp
 public virtual void OnSuccess()
 ```
-#INC
 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

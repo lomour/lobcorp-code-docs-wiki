@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: GeburahBoss.DamageRange
 canonical_path: /api/GeburahBoss/DamageRange
@@ -11,9 +12,12 @@ canonical_path: /api/GeburahBoss/DamageRange
 ```csharp
 public class DamageRange
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Has 'rear' and 'front', for how far an attack extends ahead and behind [The Red Mist](/api/Global/Script/GeburahCoreScript).
 
-#INC 
+
 
 
 ## Inheritance
@@ -25,8 +29,6 @@ Has 'rear' and 'front', for how far an attack extends ahead and behind [The Red 
 ```csharp
 public DamageRange(float front, float rear)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -41,7 +43,6 @@ public DamageRange(float front, float rear)
 ```csharp
 public float front
 ```
-#INC
 
 
 #### Field Value
@@ -51,7 +52,6 @@ public float front
 ```csharp
 public float rear
 ```
-#INC
 
 
 #### Field Value
@@ -59,4 +59,5 @@ public float rear
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

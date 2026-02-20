@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.StoryUI.CommandFunc
 canonical_path: /api/Global/Misc/StoryUICommandFunc
@@ -67,4 +68,5 @@ public virtual bool Invoke(StoryUI.StoryScriptCommandEventEnum e)
 
 #### Returns
 **Type:** System.Boolean
+
 

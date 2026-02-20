@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.Wellcheers.WellcheersColor
 canonical_path: /api/Global/Misc/WellcheersWellcheersColor
@@ -37,4 +38,5 @@ RED = 0
 
 #### Field Value
 **Type:** Global.Wellcheers.WellcheersColor
+
 

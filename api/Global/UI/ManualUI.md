@@ -1,4 +1,5 @@
  
+ 
 ---
 uid: Global.ManualUI
 canonical_path: /api/Global/UI/ManualUI
@@ -11,10 +12,13 @@ canonical_path: /api/Global/UI/ManualUI
 ```csharp
 public class ManualUI : MonoBehaviour
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 The manual.
 
-#INC 
+
 
 
 ## Inheritance
@@ -42,7 +46,6 @@ private UnscaledTimer _actionTImer
 ```csharp
 private int _currentIndex
 ```
-#INC
 
 
 #### Field Value
@@ -52,7 +55,6 @@ private int _currentIndex
 ```csharp
 private CategorySlot _currentMain
 ```
-#INC
 
 
 #### Field Value
@@ -62,7 +64,6 @@ private CategorySlot _currentMain
 ```csharp
 private CategorySlot _currentRender
 ```
-#INC
 
 
 #### Field Value
@@ -72,7 +73,6 @@ private CategorySlot _currentRender
 ```csharp
 private CategorySlot _currentSub
 ```
-#INC
 
 
 #### Field Value
@@ -82,7 +82,6 @@ private CategorySlot _currentSub
 ```csharp
 private static ManualUI _instance
 ```
-#INC
 
 
 #### Field Value
@@ -92,7 +91,6 @@ private static ManualUI _instance
 ```csharp
 private bool _isActivated
 ```
-#INC
 
 
 #### Field Value
@@ -102,7 +100,6 @@ private bool _isActivated
 ```csharp
 public Color _normalColor
 ```
-#INC
 
 
 #### Field Value
@@ -112,7 +109,6 @@ public Color _normalColor
 ```csharp
 public Color _selectedColor
 ```
-#INC
 
 
 #### Field Value
@@ -122,7 +118,6 @@ public Color _selectedColor
 ```csharp
 public float actionDelay
 ```
-#INC
 
 
 #### Field Value
@@ -132,7 +127,6 @@ public float actionDelay
 ```csharp
 public UIController controller
 ```
-#INC
 
 
 #### Field Value
@@ -142,7 +136,6 @@ public UIController controller
 ```csharp
 public RectTransform dataParent
 ```
-#INC
 
 
 #### Field Value
@@ -152,7 +145,6 @@ public RectTransform dataParent
 ```csharp
 public RectTransform disabledNodeCategoryParent
 ```
-#INC
 
 
 #### Field Value
@@ -162,7 +154,6 @@ public RectTransform disabledNodeCategoryParent
 ```csharp
 public RectTransform disabledSubCategoryParent
 ```
-#INC
 
 
 #### Field Value
@@ -172,7 +163,6 @@ public RectTransform disabledSubCategoryParent
 ```csharp
 private string documentSrcFormat
 ```
-#INC
 
 
 #### Field Value
@@ -182,7 +172,6 @@ private string documentSrcFormat
 ```csharp
 private const string imageSrc = "Sprites/UI/Manual/{0}/{1}"
 ```
-#INC
 
 
 #### Field Value
@@ -192,7 +181,6 @@ private const string imageSrc = "Sprites/UI/Manual/{0}/{1}"
 ```csharp
 public GameObject labelSlot
 ```
-#INC
 
 
 #### Field Value
@@ -202,7 +190,6 @@ public GameObject labelSlot
 ```csharp
 public LocalizeTextLoadScript loadScript
 ```
-#INC
 
 
 #### Field Value
@@ -230,7 +217,6 @@ public Image mainTexture
 ```csharp
 public List<CategorySlot> nodeCategorySlots
 ```
-#INC
 
 
 #### Field Value
@@ -249,7 +235,6 @@ public GameObject nodeObject
 ```csharp
 public RectTransform NodeParent
 ```
-#INC
 
 
 #### Field Value
@@ -259,7 +244,6 @@ public RectTransform NodeParent
 ```csharp
 public Canvas rootCanvas
 ```
-#INC
 
 
 #### Field Value
@@ -269,7 +253,6 @@ public Canvas rootCanvas
 ```csharp
 public float scrollAbs
 ```
-#INC
 
 
 #### Field Value
@@ -279,7 +262,6 @@ public float scrollAbs
 ```csharp
 private const string structureXMLsrc = "xml/ManualStructure"
 ```
-#INC
 
 
 #### Field Value
@@ -289,7 +271,6 @@ private const string structureXMLsrc = "xml/ManualStructure"
 ```csharp
 public RectTransform subCategoryParent
 ```
-#INC
 
 
 #### Field Value
@@ -299,7 +280,6 @@ public RectTransform subCategoryParent
 ```csharp
 public List<CategorySlot> subCategorySlots
 ```
-#INC
 
 
 #### Field Value
@@ -318,7 +298,6 @@ public GameObject subOjbect
 ```csharp
 private static string[] supportedLanguage
 ```
-#INC
 
 
 #### Field Value
@@ -328,7 +307,6 @@ private static string[] supportedLanguage
 ```csharp
 public GameObject textSlot
 ```
-#INC
 
 
 #### Field Value
@@ -338,7 +316,6 @@ public GameObject textSlot
 ```csharp
 private CategoryTypeInfo typeInfo
 ```
-#INC
 
 
 #### Field Value
@@ -384,28 +361,24 @@ public bool IsActivated { get; set; }
 ```csharp
 private void Awake()
 ```
-#INC
 
 
 ### CloseManual()
 ```csharp
 public void CloseManual()
 ```
-#INC
 
 
 ### DestroyOld()
 ```csharp
 private void DestroyOld()
 ```
-#INC
 
 
 ### FindNext(out Category)
 ```csharp
 private bool FindNext(out Category category)
 ```
-#INC
 
 
 #### Parameters
@@ -420,7 +393,6 @@ private bool FindNext(out Category category)
 ```csharp
 private bool FindPrev(out Category category)
 ```
-#INC
 
 
 #### Parameters
@@ -435,7 +407,6 @@ private bool FindPrev(out Category category)
 ```csharp
 public CategorySlot GetMainSlot(Category category)
 ```
-#INC
 
 
 #### Parameters
@@ -450,21 +421,18 @@ public CategorySlot GetMainSlot(Category category)
 ```csharp
 public void Init()
 ```
-#INC
 
 
 ### InverseActivation()
 ```csharp
 public void InverseActivation()
 ```
-#INC
 
 
 ### LoadCategoryTextData(Category, XmlNode)
 ```csharp
 private NodeTextInfo LoadCategoryTextData(Category node, XmlNode rootNode)
 ```
-#INC
 
 
 #### Parameters
@@ -480,8 +448,6 @@ private NodeTextInfo LoadCategoryTextData(Category node, XmlNode rootNode)
 ```csharp
 private XmlDocument LoadDoc(string src, string currentLn)
 ```
-#INC
-#code-generated
 
 
 #### Parameters
@@ -497,7 +463,6 @@ private XmlDocument LoadDoc(string src, string currentLn)
 ```csharp
 private Sprite LoadSprite(string sprite)
 ```
-#INC
 
 
 #### Parameters
@@ -512,49 +477,42 @@ private Sprite LoadSprite(string sprite)
 ```csharp
 public void LoadStaticData()
 ```
-#INC
 
 
 ### MoveNext()
 ```csharp
 public void MoveNext()
 ```
-#INC
 
 
 ### MovePrev()
 ```csharp
 public void MovePrev()
 ```
-#INC
 
 
 ### OnControllerClosed()
 ```csharp
 public void OnControllerClosed()
 ```
-#INC
 
 
 ### OpenManual()
 ```csharp
 public void OpenManual()
 ```
-#INC
 
 
 ### Reload()
 ```csharp
 public void Reload()
 ```
-#INC
 
 
 ### SetMainCategory(CategorySlot)
 ```csharp
 public void SetMainCategory(CategorySlot mainCategory)
 ```
-#INC
 
 
 #### Parameters
@@ -566,7 +524,6 @@ public void SetMainCategory(CategorySlot mainCategory)
 ```csharp
 public void SetNodeCategory(CategorySlot nodeCategory)
 ```
-#INC
 
 
 #### Parameters
@@ -578,7 +535,6 @@ public void SetNodeCategory(CategorySlot nodeCategory)
 ```csharp
 public void SetNodeCategorySlots(CategorySlot categorySlot, List<CategorySlot> slots)
 ```
-#INC
 
 
 #### Parameters
@@ -591,7 +547,6 @@ public void SetNodeCategorySlots(CategorySlot categorySlot, List<CategorySlot> s
 ```csharp
 public void SetRender(NodeCategory nodeInfo, CategorySlot slot)
 ```
-#INC
 
 
 #### Parameters
@@ -604,7 +559,6 @@ public void SetRender(NodeCategory nodeInfo, CategorySlot slot)
 ```csharp
 public void SetSubCategory(CategorySlot subCategory)
 ```
-#INC
 
 
 #### Parameters
@@ -616,7 +570,6 @@ public void SetSubCategory(CategorySlot subCategory)
 ```csharp
 public void SetSubCategorySlots(CategorySlot categorySlot, List<CategorySlot> slots)
 ```
-#INC
 
 
 #### Parameters
@@ -629,16 +582,15 @@ public void SetSubCategorySlots(CategorySlot categorySlot, List<CategorySlot> sl
 ```csharp
 public void Start()
 ```
-#INC
 
 
 ### Update()
 ```csharp
 private void Update()
 ```
-#INC
 
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 
