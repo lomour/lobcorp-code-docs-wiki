@@ -1,5 +1,13 @@
- 
- 
+---
+title: ArmorCreatureAnim
+description: 
+published: true
+date: 2026-02-20T20:55:31.891Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:31:40.221Z
+---
+
 ---
 uid: Global.ArmorCreatureAnim
 canonical_path: /api/Global/Creature/ArmorCreatureAnim
