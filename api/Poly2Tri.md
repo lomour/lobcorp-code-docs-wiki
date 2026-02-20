@@ -1,4 +1,20 @@
+---
+title: Poly2Tri
+description: 
+published: true
+date: 2026-02-20T19:56:29.753Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T04:35:40.662Z
+---
 # Namespace Poly2Tri
+> This third-party library is no longer supported.
+{.is-info}
+
+Poly2Tri is a third-party library for triangulating polygons, most likely for meshes. This is not called by any scripts and may be unused in Lobotomy Corporation.
+
+A C# port of Poly2Tri can be found [here](https://github.com/MaulingMonkey/poly2tri-cs), though this is not the same library as the one found in the game's code.
+
 ## Classes
 ### [AdvancingFront](/api/Poly2Tri/AdvancingFront)
 ### [AdvancingFrontNode](/api/Poly2Tri/AdvancingFrontNode)

@@ -1,4 +1,20 @@
+---
+title: DistortionShaderPack
+description: 
+published: true
+date: 2026-02-20T19:57:13.418Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:27:06.908Z
+---
 # Namespace nightowl.DistortionShaderPack
+> This third-party Unity package is no longer supported.
+{.is-info}
+
+This namespace contains the code for the third-party Unity package Distortion Shader Pack 2 by Martin Reintges, which could formerly be found [here](https://assetstore.unity.com/packages/vfx/shaders/distortion-shader-pack-2-62426), but is no longer available.
+
+This code is not called directly by any script, but may still be used by some prefabs or other game objects.
+
 ## Classes
 ### [AnimatedNormalMap](/api/nightowl/DistortionShaderPack/AnimatedNormalMap)
 ### [BounceSphere](/api/nightowl/DistortionShaderPack/BounceSphere)

@@ -1,6 +1,11 @@
 ---
-uid: Global.ArmorCreatureAnim
-canonical_path: /api/Global/Creature/ArmorCreatureAnim
+title: ArmorCreatureAnim
+description: 
+published: true
+date: 2026-02-20T20:55:31.891Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:31:40.221Z
 ---
 # Class ArmorCreatureAnim
 **Namespace:** [Global](/api/Global)
@@ -13,7 +18,7 @@ public class ArmorCreatureAnim : CreatureAnimEventCalled, IAnimatorEventCalled
 {.is-warning}
 
 
-Presumably, the animations for [Crumbling Armor](/api/Global/IOBserver/ArmorCreature)...
+Animation handler for [Crumbling Armor](/api/Global/IOBserver/ArmorCreature).
 
 
 ## Inheritance
