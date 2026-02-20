@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace KetherBoss
 
 ## Classes
@@ -36,7 +39,6 @@
 
 ### [WhiteFadeEffect](/api/KetherBoss/WhiteFadeEffect)
 
-
 ## Enums
 
 ### [FireLightEffect.Execution](/api/KetherBoss/FireLightEffect/Execution)
@@ -47,9 +49,9 @@
 
 ### [KetherUpperBossBase.KetherUpperPhase](/api/KetherBoss/KetherUpperBossBase/KetherUpperPhase)
 
-
 ## Delegates
 
 ### [BackGroundMoveEffect.ChangeBackgournd](/api/KetherBoss/BackGroundMoveEffect/ChangeBackgournd)
 
 ### [KetherLastBossBase.KetherLastEvent](/api/KetherBoss/KetherLastBossBase/KetherLastEvent)
+

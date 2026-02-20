@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace Legacy
 
 ## Classes
@@ -68,7 +71,6 @@
 
 ### [Uncontrollable_PlagueDoctorAttract](/api/Legacy/Uncontrollable_PlagueDoctorAttract)
 
-
 ## Enums
 
 ### [AnchorPivotPos](/api/Legacy/AnchorPivotPos)
@@ -79,7 +81,6 @@
 
 ### [OverlayScript.Pos](/api/Legacy/OverlayScript/Pos)
 
-
 ## Delegates
 
 ### [DeathAngelClockUI.EndCalled](/api/Legacy/DeathAngelClockUI/EndCalled)
@@ -87,3 +88,4 @@
 ### [TutorialController.OnPause](/api/Legacy/TutorialController/OnPause)
 
 ### [TutorialController.OnResume](/api/Legacy/TutorialController/OnResume)
+

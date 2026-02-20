@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace Poly2Tri
 
 ## Classes
@@ -76,18 +79,15 @@
 
 ### [TriangulationUtil](/api/Poly2Tri/TriangulationUtil)
 
-
 ## Structs
 
 ### [FixedArray3<T>](/api/Poly2Tri/FixedArray3-T)
 
 ### [FixedBitArray3](/api/Poly2Tri/FixedBitArray3)
 
-
 ## Interfaces
 
 ### [ITriangulatable](/api/Poly2Tri/ITriangulatable)
-
 
 ## Enums
 
@@ -104,3 +104,4 @@
 ### [TriangulationAlgorithm](/api/Poly2Tri/TriangulationAlgorithm)
 
 ### [TriangulationMode](/api/Poly2Tri/TriangulationMode)
+

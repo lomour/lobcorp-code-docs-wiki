@@ -1,16 +1,20 @@
+ 
+ 
 ---
 uid: GeburahBoss.GreedyThrow
 canonical_path: /api/GeburahBoss/GreedyThrow
 ---
 
 # Class GreedyThrow
-
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
 
 ```csharp
 public class GreedyThrow : GeburahAction
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 
 [The Red Mist](/api/Global/Script/GeburahCoreScript)'s action for her Gold Rush attack which throws it out ahead of her. Used in [phase 4](/api/GeburahBoss/FourthPhase).
 
@@ -18,21 +22,15 @@ public class GreedyThrow : GeburahAction
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [GeburahAction](/api/GeburahBoss/GeburahAction) → GreedyThrow
 
-## Inherited Members
-[geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [CanTakeDamage()](/api/GeburahBoss/GeburahAction#cantakedamage), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### GreedyThrow(GeburahCoreScript, int)
-
 ```csharp
 public GreedyThrow(GeburahCoreScript geburah, int passageCount)
 ```
-#INC
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `geburah` | `Global.GeburahCoreScript` |  |
@@ -41,326 +39,252 @@ public GreedyThrow(GeburahCoreScript geburah, int passageCount)
 ## Fields
 
 ### _delayTimer
-
 ```csharp
 private Timer _delayTimer
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** Global.Timer
 
 ### _isAttacking
-
 ```csharp
 private bool _isAttacking
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### _isLastArrived
-
 ```csharp
 private bool _isLastArrived
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Boolean
 
 ### animClipTime
-
 ```csharp
 private const float animClipTime = 1
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### buf
-
 ```csharp
 private MovementBuf buf
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** GeburahBoss.MovementBuf
 
 ### currentDamageTargets
-
 ```csharp
 private List<UnitModel> currentDamageTargets
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{UnitModel}
 
 ### currentInfo
-
 ```csharp
 private MovementInfo currentInfo
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** GeburahBoss.MovementInfo
 
 ### moveCount
-
 ```csharp
 private int moveCount
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### moveMax
-
 ```csharp
 private int moveMax
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### movementInfo
-
 ```csharp
 private Queue<MovementInfo> movementInfo
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.Queue{GeburahBoss.MovementInfo}
 
 ### movementInfoList
-
 ```csharp
 private List<MovementInfo> movementInfoList
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{GeburahBoss.MovementInfo}
 
 ### PassageCount
-
 ```csharp
 private int PassageCount
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### portalAnim
-
 ```csharp
 private List<Animator> portalAnim
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Collections.Generic.List{UnityEngine.Animator}
 
 ### portalSrc
-
 ```csharp
 private const string portalSrc = "Portal"
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.String
 
 ### speedFactor
-
 ```csharp
 private float speedFactor
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ### speedValue
-
 ```csharp
 public const float speedValue = 32
 ```
-#INC
 
 
 #### Field Value
-
 **Type:** System.Single
 
 ## Properties
 
 ### Freq
-
 ```csharp
 private float Freq { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ## Methods
 
 ### ExecuteNextInfo()
-
 ```csharp
 private void ExecuteNextInfo()
 ```
-#INC
 
 
 ### MakePortal(Vector3)
-
 ```csharp
 public Animator MakePortal(Vector3 pos)
 ```
-#INC
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `pos` | `UnityEngine.Vector3` |  |
 
 #### Returns
-
 **Type:** UnityEngine.Animator
 
 ### MakeProjectile()
-
 ```csharp
 private void MakeProjectile()
 ```
-#INC
 
 
 ### OnAttackEnd()
-
 ```csharp
 public void OnAttackEnd()
 ```
-#INC
 
 
 ### OnEnd()
-
 ```csharp
 public override void OnEnd()
 ```
-#INC
 
 
 ### OnEventCalled(int)
-
 ```csharp
 public void OnEventCalled(int i)
 ```
-#INC
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `i` | `System.Int32` |  |
 
 ### OnExecute()
-
 ```csharp
 public override void OnExecute()
 ```
-#INC
 
 
 ### OnExecuteEnd()
-
 ```csharp
 private void OnExecuteEnd()
 ```
-#INC
 
 
 ### OnGiveDamage()
-
 ```csharp
 public void OnGiveDamage()
 ```
-#INC
 
 
 ### OnReadyForRun(MovementInfo)
-
 ```csharp
 private void OnReadyForRun(MovementInfo info)
 ```
-#INC
 
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `info` | `GeburahBoss.MovementInfo` |  |
 
 ### OnStart()
-
 ```csharp
 public override void OnStart()
 ```
-#INC
 
 
 ### ParamInit()
-
 ```csharp
 public override void ParamInit()
 ```
-#INC
-#code-generated
+
+
+## Inherited Members
+[geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [CanTakeDamage()](/api/GeburahBoss/GeburahAction#cantakedamage), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
 

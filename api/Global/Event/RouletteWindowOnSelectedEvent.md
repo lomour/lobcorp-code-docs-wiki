@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.RouletteWindow.OnSelectedEvent
 canonical_path: /api/Global/Event/RouletteWindowOnSelectedEvent
 ---
 
 # Delegate RouletteWindow.OnSelectedEvent
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,11 @@ public delegate void RouletteWindow.OnSelectedEvent(WorkerModel target)
 ## Constructors
 
 ### OnSelectedEvent(object, IntPtr)
-
 ```csharp
 public OnSelectedEvent(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,13 +29,11 @@ public OnSelectedEvent(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(WorkerModel, AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(WorkerModel target, AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
@@ -44,29 +41,26 @@ public virtual IAsyncResult BeginInvoke(WorkerModel target, AsyncCallback callba
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke(WorkerModel)
-
 ```csharp
 public virtual void Invoke(WorkerModel target)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `target` | `Global.WorkerModel` |  |
+
+

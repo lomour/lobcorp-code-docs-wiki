@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Spine.Unity.SkeletonRenderer.SkeletonRendererDelegate
 canonical_path: /api/Spine/Unity/SkeletonRenderer/SkeletonRendererDelegate
 ---
 
 # Delegate SkeletonRenderer.SkeletonRendererDelegate
-
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,11 @@ public delegate void SkeletonRenderer.SkeletonRendererDelegate(SkeletonRenderer 
 ## Constructors
 
 ### SkeletonRendererDelegate(object, IntPtr)
-
 ```csharp
 public SkeletonRendererDelegate(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,13 +29,11 @@ public SkeletonRendererDelegate(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(SkeletonRenderer, AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(SkeletonRenderer skeletonRenderer, AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeletonRenderer` | `Spine.Unity.SkeletonRenderer` |  |
@@ -44,29 +41,26 @@ public virtual IAsyncResult BeginInvoke(SkeletonRenderer skeletonRenderer, Async
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke(SkeletonRenderer)
-
 ```csharp
 public virtual void Invoke(SkeletonRenderer skeletonRenderer)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeletonRenderer` | `Spine.Unity.SkeletonRenderer` |  |
+
+

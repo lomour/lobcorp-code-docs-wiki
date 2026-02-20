@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.StoryCGFadeEffecter.FadeEndEventListener
 canonical_path: /api/Global/Misc/StoryCGFadeEffecterFadeEndEventListener
 ---
 
 # Delegate StoryCGFadeEffecter.FadeEndEventListener
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,11 @@ public delegate void StoryCGFadeEffecter.FadeEndEventListener()
 ## Constructors
 
 ### FadeEndEventListener(object, IntPtr)
-
 ```csharp
 public FadeEndEventListener(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,36 +29,32 @@ public FadeEndEventListener(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `callback` | `System.AsyncCallback` |  |
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke()
-
 ```csharp
 public virtual void Invoke()
 ```
+
+

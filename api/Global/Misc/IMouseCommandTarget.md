@@ -1,16 +1,20 @@
+ 
+ 
 ---
 uid: Global.IMouseCommandTarget
 canonical_path: /api/Global/Misc/IMouseCommandTarget
 ---
 
 # Interface IMouseCommandTarget
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
 ```csharp
 public interface IMouseCommandTarget
 ```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
 Interface with one method, which gets the [IMouseCommandTargetModel](/api/Global/Model/IMouseCommandTargetModel) user.
 
 For getting certain things which can be targeted with the mouse:
@@ -21,7 +25,7 @@ For getting certain things which can be targeted with the mouse:
 - [Passageways](/api/Global/Object/PassageObject)
 
 Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager) (for selection and ordering agents to move) and for [bullet research](/api/GlobalBullet/GlobalBulletWindow).
-#INC 
+
 
 #### Method
 	IMouseCommandTargetModel GetCommandTargetModel
@@ -30,14 +34,12 @@ Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager) (for sel
 ## Methods
 
 ### GetCommandTargetModel()
-
 ```csharp
 IMouseCommandTargetModel GetCommandTargetModel()
 ```
-#INC
-#code-generated
 
 
 #### Returns
-
 **Type:** Global.IMouseCommandTargetModel
+
+

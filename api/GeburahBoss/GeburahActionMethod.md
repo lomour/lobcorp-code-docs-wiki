@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: GeburahBoss.GeburahActionMethod
 canonical_path: /api/GeburahBoss/GeburahActionMethod
 ---
 
 # Delegate GeburahActionMethod
-
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,11 @@ public delegate void GeburahActionMethod()
 ## Constructors
 
 ### GeburahActionMethod(object, IntPtr)
-
 ```csharp
 public GeburahActionMethod(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,36 +29,32 @@ public GeburahActionMethod(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `callback` | `System.AsyncCallback` |  |
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke()
-
 ```csharp
 public virtual void Invoke()
 ```
+
+

@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace Credit
 
 ## Classes
@@ -20,7 +23,6 @@
 
 ### [CreditTextUnit](/api/Credit/CreditTextUnit)
 
-
 ## Enums
 
 ### [CreditConversationController.FadeTarget](/api/Credit/CreditConversationController/FadeTarget)
@@ -28,3 +30,4 @@
 ### [CreditConversationController.FadeType](/api/Credit/CreditConversationController/FadeType)
 
 ### [CreditSectionType](/api/Credit/CreditSectionType)
+

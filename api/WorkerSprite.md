@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace WorkerSprite
 
 ## Classes
@@ -66,7 +69,6 @@
 
 ### [WorkerWeaponSprite.WeaponDatabase](/api/WorkerSprite/WorkerWeaponSprite/WeaponDatabase)
 
-
 ## Enums
 
 ### [BasicSpriteRegion](/api/WorkerSprite/BasicSpriteRegion)
@@ -86,3 +88,4 @@
 ### [WeaponSpriteType](/api/WorkerSprite/WeaponSpriteType)
 
 ### [WorkerFaceType](/api/WorkerSprite/WorkerFaceType)
+

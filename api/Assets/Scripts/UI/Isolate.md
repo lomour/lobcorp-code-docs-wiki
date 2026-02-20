@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace Assets.Scripts.UI.Isolate
 
 ## Classes
@@ -8,12 +11,11 @@
 
 ### [IsolateDescription](/api/Assets/Scripts/UI/Isolate/IsolateDescription)
 
-
 ## Enums
 
 ### [DescPos](/api/Assets/Scripts/UI/Isolate/DescPos)
 
-
 ## Delegates
 
 ### [IsolateDescription.OnDisplayEnd](/api/Assets/Scripts/UI/Isolate/IsolateDescription/OnDisplayEnd)
+

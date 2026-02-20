@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.NoticeReciever
 canonical_path: /api/Global/Misc/NoticeReciever
 ---
 
 # Delegate NoticeReciever
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,11 @@ public delegate void NoticeReciever(params object[] param)
 ## Constructors
 
 ### NoticeReciever(object, IntPtr)
-
 ```csharp
 public NoticeReciever(object @object, IntPtr method)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `object` | `System.Object` |  |
@@ -30,13 +29,11 @@ public NoticeReciever(object @object, IntPtr method)
 ## Methods
 
 ### BeginInvoke(object[], AsyncCallback, object)
-
 ```csharp
 public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, object @object)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
@@ -44,29 +41,26 @@ public virtual IAsyncResult BeginInvoke(object[] param, AsyncCallback callback, 
 | `object` | `System.Object` |  |
 
 #### Returns
-
 **Type:** System.IAsyncResult
 
 ### EndInvoke(IAsyncResult)
-
 ```csharp
 public virtual void EndInvoke(IAsyncResult result)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `result` | `System.IAsyncResult` |  |
 
 ### Invoke(params object[])
-
 ```csharp
 public virtual void Invoke(params object[] param)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `param` | `System.Object[]` |  |
+
+

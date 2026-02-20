@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Spine.IkConstraint
 canonical_path: /api/Spine/IkConstraint
 ---
 
 # Class IkConstraint
-
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
 
@@ -18,19 +19,14 @@ public class IkConstraint : IConstraint, IUpdatable
 ## Implements
 [IConstraint](/api/Spine/IConstraint), [IUpdatable](/api/Spine/IUpdatable)
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### IkConstraint(IkConstraintData, Skeleton)
-
 ```csharp
 public IkConstraint(IkConstraintData data, Skeleton skeleton)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `data` | `Spine.IkConstraintData` |  |
@@ -39,133 +35,108 @@ public IkConstraint(IkConstraintData data, Skeleton skeleton)
 ## Fields
 
 ### bendDirection
-
 ```csharp
 internal int bendDirection
 ```
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### bones
-
 ```csharp
 internal ExposedList<Bone> bones
 ```
 
 #### Field Value
-
 **Type:** Spine.ExposedList{Spine.Bone}
 
 ### data
-
 ```csharp
 internal IkConstraintData data
 ```
 
 #### Field Value
-
 **Type:** Spine.IkConstraintData
 
 ### mix
-
 ```csharp
 internal float mix
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ### target
-
 ```csharp
 internal Bone target
 ```
 
 #### Field Value
-
 **Type:** Spine.Bone
 
 ## Properties
 
 ### BendDirection
-
 ```csharp
 public int BendDirection { get; set; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### Bones
-
 ```csharp
 public ExposedList<Bone> Bones { get; }
 ```
 
 #### Property Value
-
 **Type:** Spine.ExposedList{Spine.Bone}
 
 ### Data
-
 ```csharp
 public IkConstraintData Data { get; }
 ```
 
 #### Property Value
-
 **Type:** Spine.IkConstraintData
 
 ### Mix
-
 ```csharp
 public float Mix { get; set; }
 ```
 
 #### Property Value
-
 **Type:** System.Single
 
 ### Order
-
 ```csharp
 public int Order { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### Target
-
 ```csharp
 public Bone Target { get; set; }
 ```
 
 #### Property Value
-
 **Type:** Spine.Bone
 
 ## Methods
 
 ### Apply()
-
 ```csharp
 public void Apply()
 ```
 
 ### Apply(Bone, Bone, float, float, int, float)
-
 ```csharp
 public static void Apply(Bone parent, Bone child, float targetX, float targetY, int bendDir, float alpha)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `parent` | `Spine.Bone` |  |
@@ -176,13 +147,11 @@ public static void Apply(Bone parent, Bone child, float targetX, float targetY, 
 | `alpha` | `System.Single` |  |
 
 ### Apply(Bone, float, float, float)
-
 ```csharp
 public static void Apply(Bone bone, float targetX, float targetY, float alpha)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `bone` | `Spine.Bone` |  |
@@ -191,17 +160,19 @@ public static void Apply(Bone bone, float targetX, float targetY, float alpha)
 | `alpha` | `System.Single` |  |
 
 ### ToString()
-
 ```csharp
 public override string ToString()
 ```
 
 #### Returns
-
 **Type:** System.String
 
 ### Update()
-
 ```csharp
 public void Update()
 ```
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+

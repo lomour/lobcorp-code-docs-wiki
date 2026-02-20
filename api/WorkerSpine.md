@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace WorkerSpine
 
 ## Classes
@@ -24,7 +27,6 @@
 
 ### [WorkerWeaponChanger](/api/WorkerSpine/WorkerWeaponChanger)
 
-
 ## Enums
 
 ### [DefaultOneHandedType](/api/WorkerSpine/DefaultOneHandedType)
@@ -32,3 +34,4 @@
 ### [DefaultTwoHandedType](/api/WorkerSpine/DefaultTwoHandedType)
 
 ### [WeaponType](/api/WorkerSpine/WeaponType)
+

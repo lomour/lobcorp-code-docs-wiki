@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace DeadEffect
 
 ## Classes
@@ -18,7 +21,7 @@
 
 ### [WraithWorkerDeadScript](/api/DeadEffect/WraithWorkerDeadScript)
 
-
 ## Enums
 
 ### [BloodyTreeDeadScript.GeneratbleRegion](/api/DeadEffect/BloodyTreeDeadScript/GeneratbleRegion)
+

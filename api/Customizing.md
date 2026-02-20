@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace Customizing
 
 ## Classes
@@ -24,16 +27,15 @@
 
 ### [StatUI.StatController](/api/Customizing/StatUI/StatController)
 
-
 ## Enums
 
 ### [AppearanceUI.HairRegion](/api/Customizing/AppearanceUI/HairRegion)
 
 ### [SpriteSelectRegion](/api/Customizing/SpriteSelectRegion)
 
-
 ## Delegates
 
 ### [AppearanceUI.OnCloseAction](/api/Customizing/AppearanceUI/OnCloseAction)
 
 ### [SpriteSelector.OnSetSpriteAction](/api/Customizing/SpriteSelector/OnSetSpriteAction)
+

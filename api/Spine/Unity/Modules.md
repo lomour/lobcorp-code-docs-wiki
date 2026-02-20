@@ -1,7 +1,9 @@
+ 
+ 
+
 # Namespace Spine.Unity.Modules
 
 ## Namespaces
-
 - [Spine.Unity.Modules.AttachmentTools](/api/Spine/Unity/Modules/AttachmentTools)
 
 ## Classes
@@ -38,7 +40,6 @@
 
 ### [SpriteAttachmentExtensions](/api/Spine/Unity/Modules/SpriteAttachmentExtensions)
 
-
 ## Structs
 
 ### [SkeletonRendererCustomMaterials.AtlasMaterialOverride](/api/Spine/Unity/Modules/SkeletonRendererCustomMaterials/AtlasMaterialOverride)
@@ -48,3 +49,4 @@
 ### [SkeletonUtilityKinematicShadow.TransformPair](/api/Spine/Unity/Modules/SkeletonUtilityKinematicShadow/TransformPair)
 
 ### [SlotBlendModes.MaterialTexturePair](/api/Spine/Unity/Modules/SlotBlendModes/MaterialTexturePair)
+

@@ -1,3 +1,6 @@
+ 
+ 
+
 # Namespace CreatureInfo
 
 ## Classes
@@ -51,3 +54,4 @@
 ### [GiftSlot](/api/CreatureInfo/GiftSlot)
 
 ### [WeaponSlot](/api/CreatureInfo/WeaponSlot)
+

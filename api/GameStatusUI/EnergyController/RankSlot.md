@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: GameStatusUI.EnergyController.RankSlot
 canonical_path: /api/GameStatusUI/EnergyController/RankSlot
 ---
 
 # Class EnergyController.RankSlot
-
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,9 @@ public class EnergyController.RankSlot
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → EnergyController.RankSlot
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### RankSlot()
-
 ```csharp
 public RankSlot()
 ```
@@ -29,45 +26,42 @@ public RankSlot()
 ## Fields
 
 ### CrossImage
-
 ```csharp
 public Image CrossImage
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Image
 
 ### RankText
-
 ```csharp
 public Text RankText
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Text
 
 ### Texture
-
 ```csharp
 public Image Texture
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.UI.Image
 
 ## Methods
 
 ### SetState(RankState)
-
 ```csharp
 public void SetState(EnergyController.RankSlot.RankState state)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `state` | `GameStatusUI.EnergyController.RankSlot.RankState` |  |
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+

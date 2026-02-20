@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.GrandmaBug.GrandmaState
 canonical_path: /api/Global/State/GrandmaBugGrandmaState
 ---
 
 # Enum GrandmaBug.GrandmaState
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,21 +16,19 @@ public enum GrandmaBug.GrandmaState
 ## Fields
 
 ### ACTIVED
-
 ```csharp
 ACTIVED = 0
 ```
 
 #### Field Value
-
 **Type:** Global.GrandmaBug.GrandmaState
 
 ### DEACTIVATED
-
 ```csharp
 DEACTIVATED = 1
 ```
 
 #### Field Value
-
 **Type:** Global.GrandmaBug.GrandmaState
+
+

@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.TastyBug.BugState
 canonical_path: /api/Global/State/TastyBugBugState
 ---
 
 # Enum TastyBug.BugState
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,21 +16,19 @@ public enum TastyBug.BugState
 ## Fields
 
 ### ACTIVED
-
 ```csharp
 ACTIVED = 0
 ```
 
 #### Field Value
-
 **Type:** Global.TastyBug.BugState
 
 ### DEACTIVATED
-
 ```csharp
 DEACTIVATED = 1
 ```
 
 #### Field Value
-
 **Type:** Global.TastyBug.BugState
+
+

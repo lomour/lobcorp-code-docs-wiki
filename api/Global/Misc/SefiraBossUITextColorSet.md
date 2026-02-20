@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Global.SefiraBossUI.TextColorSet
 canonical_path: /api/Global/Misc/SefiraBossUITextColorSet
 ---
 
 # Class SefiraBossUI.TextColorSet
-
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
 
@@ -15,13 +16,9 @@ public class SefiraBossUI.TextColorSet
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → SefiraBossUI.TextColorSet
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### TextColorSet()
-
 ```csharp
 public TextColorSet()
 ```
@@ -29,31 +26,30 @@ public TextColorSet()
 ## Fields
 
 ### OutlineColor
-
 ```csharp
 public Color OutlineColor
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.Color
 
 ### sefira
-
 ```csharp
 public SefiraEnum sefira
 ```
 
 #### Field Value
-
 **Type:** Global.SefiraEnum
 
 ### TextColor
-
 ```csharp
 public Color TextColor
 ```
 
 #### Field Value
-
 **Type:** UnityEngine.Color
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+

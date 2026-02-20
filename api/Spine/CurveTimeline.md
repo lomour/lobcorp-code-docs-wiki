@@ -1,10 +1,11 @@
+ 
+ 
 ---
 uid: Spine.CurveTimeline
 canonical_path: /api/Spine/CurveTimeline
 ---
 
 # Class CurveTimeline
-
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
 
@@ -21,19 +22,14 @@ public abstract class CurveTimeline : Timeline
 ## Implements
 [Timeline](/api/Spine/Timeline)
 
-## Inherited Members
-[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
-
 ## Constructors
 
 ### CurveTimeline(int)
-
 ```csharp
 public CurveTimeline(int frameCount)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameCount` | `System.Int32` |  |
@@ -41,87 +37,71 @@ public CurveTimeline(int frameCount)
 ## Fields
 
 ### BEZIER
-
 ```csharp
 protected const float BEZIER = 2
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ### BEZIER_SIZE
-
 ```csharp
 protected const int BEZIER_SIZE = 19
 ```
 
 #### Field Value
-
 **Type:** System.Int32
 
 ### curves
-
 ```csharp
 private float[] curves
 ```
 
 #### Field Value
-
 **Type:** System.Single[]
 
 ### LINEAR
-
 ```csharp
 protected const float LINEAR = 0
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ### STEPPED
-
 ```csharp
 protected const float STEPPED = 1
 ```
 
 #### Field Value
-
 **Type:** System.Single
 
 ## Properties
 
 ### FrameCount
-
 ```csharp
 public int FrameCount { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ### PropertyId
-
 ```csharp
 public abstract int PropertyId { get; }
 ```
 
 #### Property Value
-
 **Type:** System.Int32
 
 ## Methods
 
 ### Apply(Skeleton, float, float, ExposedList<Event>, float, MixPose, MixDirection)
-
 ```csharp
 public abstract void Apply(Skeleton skeleton, float lastTime, float time, ExposedList<Event> firedEvents, float alpha, MixPose pose, MixDirection direction)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `skeleton` | `Spine.Skeleton` |  |
@@ -133,46 +113,38 @@ public abstract void Apply(Skeleton skeleton, float lastTime, float time, Expose
 | `direction` | `Spine.MixDirection` |  |
 
 ### GetCurvePercent(int, float)
-
 ```csharp
 public float GetCurvePercent(int frameIndex, float percent)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameIndex` | `System.Int32` |  |
 | `percent` | `System.Single` |  |
 
 #### Returns
-
 **Type:** System.Single
 
 ### GetCurveType(int)
-
 ```csharp
 public float GetCurveType(int frameIndex)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameIndex` | `System.Int32` |  |
 
 #### Returns
-
 **Type:** System.Single
 
 ### SetCurve(int, float, float, float, float)
-
 ```csharp
 public void SetCurve(int frameIndex, float cx1, float cy1, float cx2, float cy2)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameIndex` | `System.Int32` |  |
@@ -182,25 +154,26 @@ public void SetCurve(int frameIndex, float cx1, float cy1, float cx2, float cy2)
 | `cy2` | `System.Single` |  |
 
 ### SetLinear(int)
-
 ```csharp
 public void SetLinear(int frameIndex)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameIndex` | `System.Int32` |  |
 
 ### SetStepped(int)
-
 ```csharp
 public void SetStepped(int frameIndex)
 ```
 
 #### Parameters
-
 | Name | Type | Description |
 | --- | --- | --- |
 | `frameIndex` | `System.Int32` |  |
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
