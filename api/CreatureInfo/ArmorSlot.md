@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.ArmorSlot
-canonical_path: /api/CreatureInfo/ArmorSlot
+title: ArmorSlot
+description: 
+published: true
+date: 2026-02-23T23:22:51.141Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:52:43.854Z
 ---
+
 # Class ArmorSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll
@@ -14,26 +20,6 @@ public class ArmorSlot : EquipSlot
 
 
 Class for displaying the EGO Suit slot in the abnormality information screen.
-
-
-**Fields:**
-TooltipMouseOver MakeArmorTooltip: Tooltip for making? Text GradeText: Class? Text TypeText: Text RWBP_Defense: RWBP damage multipliers
-Text MakeCount: How many are made out of how many possible? WorkerPortraitSetter portrait: presumably, the sprite for displaying the armor
-Button BuildButton: button that makes the EGO
-int Cost: PE box cost for making EGO
-
-CreatureModel currentCreature: presumably, the parent abnormality
-
-
-**Methods:**
-void SetModel([EquipmentModel](/api/Global/Model/EquipmentModel) Model): Pseudo-constructor based on a more generic 'EquipmentModel'? 
-void SetModel([EquipmentTypeInfo](/api/Global/Info/EquipmentTypeInfo) info): Pseudo-constructor from EquipmentTypeInfo? 
-void CheckMakeCount(): Grabs and updates current count and max count from [InventoryModel](/api/Global/Model/InventoryModel).
-
-void OnEnter(): Changes the text to display buy message
-
-void OnExit(): Changes the text to display the cost
-
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [EquipSlot](/api/CreatureInfo/EquipSlot) → ArmorSlot
@@ -49,7 +35,7 @@ public ArmorSlot()
 ```csharp
 public Button BuildButton
 ```
-
+Button that buys the EGO.
 
 #### Field Value
 **Type:** UnityEngine.UI.Button
@@ -58,7 +44,7 @@ public Button BuildButton
 ```csharp
 public int Cost
 ```
-
+PE box cost of making the EGO.
 
 #### Field Value
 **Type:** System.Int32
@@ -76,7 +62,7 @@ private string cost
 ```csharp
 public CreatureModel currentCreature
 ```
-
+The abnormality whose information is being displayed.
 
 #### Field Value
 **Type:** Global.CreatureModel
@@ -85,7 +71,7 @@ public CreatureModel currentCreature
 ```csharp
 public Text GradeText
 ```
-
+Grade of the EGO.
 
 #### Field Value
 **Type:** UnityEngine.UI.Text
@@ -94,7 +80,7 @@ public Text GradeText
 ```csharp
 public TooltipMouseOver MakeArmorTooltip
 ```
-
+Tooltip for hovering over the build button.
 
 #### Field Value
 **Type:** Global.TooltipMouseOver
@@ -103,7 +89,7 @@ public TooltipMouseOver MakeArmorTooltip
 ```csharp
 public Text MakeCount
 ```
-
+Maximum amount of EGO allowed to be bought.
 
 #### Field Value
 **Type:** UnityEngine.UI.Text
@@ -112,7 +98,7 @@ public Text MakeCount
 ```csharp
 public WorkerPortraitSetter portrait
 ```
-
+Display window for showing the EGO suit.
 
 #### Field Value
 **Type:** Global.WorkerPortraitSetter
@@ -121,7 +107,7 @@ public WorkerPortraitSetter portrait
 ```csharp
 public Text[] RWBP_Defense
 ```
-
+List of defenses of the EGO suit.
 
 #### Field Value
 **Type:** UnityEngine.UI.Text[]
@@ -149,25 +135,25 @@ private ArmorModel ArmorModel { get; }
 ```csharp
 public void CheckMakeCount()
 ```
-
+Grabs and updates current count and max count from [InventoryModel](/api/Global/Model/InventoryModel).
 
 ### OnEnter()
 ```csharp
 public void OnEnter()
 ```
-
+Changes the text to display buy message.
 
 ### OnExit()
 ```csharp
 public void OnExit()
 ```
-
+Changes the text to display the cost.
 
 ### SetModel(EquipmentModel)
 ```csharp
 public override void SetModel(EquipmentModel Model)
 ```
-
+Pseudo-constructor based on a more generic 'EquipmentModel'? 
 
 #### Parameters
 | Name | Type | Description |
@@ -178,7 +164,7 @@ public override void SetModel(EquipmentModel Model)
 ```csharp
 public override void SetModel(EquipmentTypeInfo info)
 ```
-
+Pseudo-constructor from EquipmentTypeInfo?
 
 #### Parameters
 | Name | Type | Description |
