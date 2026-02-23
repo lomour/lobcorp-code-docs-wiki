@@ -1,4 +1,16 @@
+---
+title: Global
+description: 
+published: true
+date: 2026-02-23T23:26:54.869Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T04:05:58.186Z
+---
+
 # Namespace Global
+The global namespace contains the vast majority of code, and is not organized.
+
 ## Classes
 ### [_2DxFX](/api/Global/Misc/2DxFX)
 ### [_2dxFX_4Gradients](/api/Global/2dxfx/2dxFX4Gradients)
