@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/BakuBakuState
 private enum Baku.BakuState
 ```
 
-## Fields
-### CHICKEN
-```csharp
-CHICKEN = 1
-```
-
-#### Field Value
-**Type:** Global.Baku.BakuState
-
-### SHEEP
-```csharp
-SHEEP = 0
-```
-
-#### Field Value
-**Type:** Global.Baku.BakuState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SHEEP | 0 | |
+| CHICKEN | 1 | |
 

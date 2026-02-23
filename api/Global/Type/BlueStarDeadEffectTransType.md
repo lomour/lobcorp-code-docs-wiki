@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/BlueStarDeadEffectTransType
 private enum BlueStarDeadEffect.TransType
 ```
 
-## Fields
-### EQUAL
-```csharp
-EQUAL = 2
-```
-
-#### Field Value
-**Type:** Global.BlueStarDeadEffect.TransType
-
-### HORIZONTAL
-```csharp
-HORIZONTAL = 1
-```
-
-#### Field Value
-**Type:** Global.BlueStarDeadEffect.TransType
-
-### VERTICAL
-```csharp
-VERTICAL = 0
-```
-
-#### Field Value
-**Type:** Global.BlueStarDeadEffect.TransType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| VERTICAL | 0 | |
+| HORIZONTAL | 1 | |
+| EQUAL | 2 | |
 

@@ -10,30 +10,9 @@ canonical_path: /api/Spine/MixPose
 public enum MixPose
 ```
 
-## Fields
-### Current
-```csharp
-Current = 1
-```
-
-#### Field Value
-**Type:** Spine.MixPose
-
-### CurrentLayered
-```csharp
-CurrentLayered = 2
-```
-
-#### Field Value
-**Type:** Spine.MixPose
-
-### Setup
-```csharp
-Setup = 0
-```
-
-#### Field Value
-**Type:** Spine.MixPose
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Setup | 0 | |
+| Current | 1 | |
+| CurrentLayered | 2 | |
 

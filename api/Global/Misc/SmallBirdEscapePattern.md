@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/SmallBirdEscapePattern
 private enum SmallBird.EscapePattern
 ```
 
-## Fields
-### NORMAL
-```csharp
-NORMAL = 1
-```
-
-#### Field Value
-**Type:** Global.SmallBird.EscapePattern
-
-### PANIC
-```csharp
-PANIC = 0
-```
-
-#### Field Value
-**Type:** Global.SmallBird.EscapePattern
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| PANIC | 0 | |
+| NORMAL | 1 | |
 

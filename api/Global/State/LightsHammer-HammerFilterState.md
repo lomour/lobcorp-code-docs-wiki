@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/LightsHammerHammerFilterState
 private enum LightsHammer.HammerFilterState
 ```
 
-## Fields
-### LOCKED
-```csharp
-LOCKED = 0
-```
-
-#### Field Value
-**Type:** Global.LightsHammer.HammerFilterState
-
-### UNUSABLE
-```csharp
-UNUSABLE = 1
-```
-
-#### Field Value
-**Type:** Global.LightsHammer.HammerFilterState
-
-### USABLE
-```csharp
-USABLE = 2
-```
-
-#### Field Value
-**Type:** Global.LightsHammer.HammerFilterState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LOCKED | 0 | |
+| UNUSABLE | 1 | |
+| USABLE | 2 | |
 

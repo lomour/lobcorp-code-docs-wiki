@@ -10,46 +10,11 @@ canonical_path: /api/Global/State/ArmorCreatureGiftState
 private enum ArmorCreature.GiftState
 ```
 
-## Fields
-### BLUE_ONE
-```csharp
-BLUE_ONE = 1
-```
-
-#### Field Value
-**Type:** Global.ArmorCreature.GiftState
-
-### BLUE_TWO
-```csharp
-BLUE_TWO = 2
-```
-
-#### Field Value
-**Type:** Global.ArmorCreature.GiftState
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.ArmorCreature.GiftState
-
-### ORANGE
-```csharp
-ORANGE = 3
-```
-
-#### Field Value
-**Type:** Global.ArmorCreature.GiftState
-
-### RED
-```csharp
-RED = 4
-```
-
-#### Field Value
-**Type:** Global.ArmorCreature.GiftState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| BLUE_ONE | 1 | |
+| BLUE_TWO | 2 | |
+| ORANGE | 3 | |
+| RED | 4 | |
 

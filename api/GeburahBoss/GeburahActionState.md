@@ -10,30 +10,9 @@ canonical_path: /api/GeburahBoss/GeburahActionState
 public enum GeburahActionState
 ```
 
-## Fields
-### ENDED
-```csharp
-ENDED = 2
-```
-
-#### Field Value
-**Type:** GeburahBoss.GeburahActionState
-
-### EXECUTE
-```csharp
-EXECUTE = 1
-```
-
-#### Field Value
-**Type:** GeburahBoss.GeburahActionState
-
-### START
-```csharp
-START = 0
-```
-
-#### Field Value
-**Type:** GeburahBoss.GeburahActionState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| START | 0 | |
+| EXECUTE | 1 | |
+| ENDED | 2 | |
 

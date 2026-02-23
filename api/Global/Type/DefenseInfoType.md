@@ -10,54 +10,12 @@ canonical_path: /api/Global/Type/DefenseInfoType
 public enum DefenseInfo.Type
 ```
 
-## Fields
-### ENDURE
-```csharp
-ENDURE = 3
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-### IMMUNE
-```csharp
-IMMUNE = 5
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-### RESISTANCE
-```csharp
-RESISTANCE = 4
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-### SUPER_WEAKNESS
-```csharp
-SUPER_WEAKNESS = 2
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-### WEAKNESS
-```csharp
-WEAKNESS = 1
-```
-
-#### Field Value
-**Type:** Global.DefenseInfo.Type
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| WEAKNESS | 1 | |
+| SUPER_WEAKNESS | 2 | |
+| ENDURE | 3 | |
+| RESISTANCE | 4 | |
+| IMMUNE | 5 | |
 

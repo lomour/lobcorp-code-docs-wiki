@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/SplashType
 public enum SplashType
 ```
 
-## Fields
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.SplashType
-
-### PENETRATION
-```csharp
-PENETRATION = 2
-```
-
-#### Field Value
-**Type:** Global.SplashType
-
-### SPLASH
-```csharp
-SPLASH = 1
-```
-
-#### Field Value
-**Type:** Global.SplashType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| SPLASH | 1 | |
+| PENETRATION | 2 | |
 

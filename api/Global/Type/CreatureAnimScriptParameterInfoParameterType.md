@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/CreatureAnimScriptParameterInfoParameterType
 public enum CreatureAnimScript.ParameterInfo.ParameterType
 ```
 
-## Fields
-### BOOL
-```csharp
-BOOL = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureAnimScript.ParameterInfo.ParameterType
-
-### FLOAT
-```csharp
-FLOAT = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureAnimScript.ParameterInfo.ParameterType
-
-### INT
-```csharp
-INT = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureAnimScript.ParameterInfo.ParameterType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| INT | 0 | |
+| FLOAT | 1 | |
+| BOOL | 2 | |
 

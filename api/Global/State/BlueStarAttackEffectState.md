@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/BlueStarAttackEffectState
 private enum BlueStarAttackEffect.State
 ```
 
-## Fields
-### Explode
-```csharp
-Explode = 2
-```
-
-#### Field Value
-**Type:** Global.BlueStarAttackEffect.State
-
-### Implode
-```csharp
-Implode = 1
-```
-
-#### Field Value
-**Type:** Global.BlueStarAttackEffect.State
-
-### Pause
-```csharp
-Pause = 0
-```
-
-#### Field Value
-**Type:** Global.BlueStarAttackEffect.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Pause | 0 | |
+| Implode | 1 | |
+| Explode | 2 | |
 

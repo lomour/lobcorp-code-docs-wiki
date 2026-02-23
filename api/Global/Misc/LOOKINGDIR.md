@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/LOOKINGDIR
 public enum LOOKINGDIR
 ```
 
-## Fields
-### LEFT
-```csharp
-LEFT = 0
-```
-
-#### Field Value
-**Type:** Global.LOOKINGDIR
-
-### NOCARE
-```csharp
-NOCARE = 2
-```
-
-#### Field Value
-**Type:** Global.LOOKINGDIR
-
-### RIGHT
-```csharp
-RIGHT = 1
-```
-
-#### Field Value
-**Type:** Global.LOOKINGDIR
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFT | 0 | |
+| RIGHT | 1 | |
+| NOCARE | 2 | |
 

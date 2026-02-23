@@ -10,38 +10,10 @@ canonical_path: /api/Global/Level/OrdealLevel
 public enum OrdealLevel
 ```
 
-## Fields
-### DAWN
-```csharp
-DAWN = 0
-```
-
-#### Field Value
-**Type:** Global.OrdealLevel
-
-### DUSK
-```csharp
-DUSK = 2
-```
-
-#### Field Value
-**Type:** Global.OrdealLevel
-
-### MIDNIGHT
-```csharp
-MIDNIGHT = 3
-```
-
-#### Field Value
-**Type:** Global.OrdealLevel
-
-### NOON
-```csharp
-NOON = 1
-```
-
-#### Field Value
-**Type:** Global.OrdealLevel
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DAWN | 0 | |
+| NOON | 1 | |
+| DUSK | 2 | |
+| MIDNIGHT | 3 | |
 

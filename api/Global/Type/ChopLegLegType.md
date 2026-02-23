@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/ChopLegLegType
 public enum ChopLeg.LegType
 ```
 
-## Fields
-### A
-```csharp
-A = 0
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegType
-
-### B
-```csharp
-B = 1
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| A | 0 | |
+| B | 1 | |
 

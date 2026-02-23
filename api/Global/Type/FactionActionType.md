@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/FactionActionType
 public enum FactionActionType
 ```
 
-## Fields
-### FRIENDLY
-```csharp
-FRIENDLY = 1
-```
-
-#### Field Value
-**Type:** Global.FactionActionType
-
-### HOSTILE
-```csharp
-HOSTILE = 0
-```
-
-#### Field Value
-**Type:** Global.FactionActionType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HOSTILE | 0 | |
+| FRIENDLY | 1 | |
 

@@ -10,14 +10,7 @@ canonical_path: /api/Poly2Tri/TriangulationAlgorithm
 public enum TriangulationAlgorithm
 ```
 
-## Fields
-### DTSweep
-```csharp
-DTSweep = 0
-```
-
-#### Field Value
-**Type:** Poly2Tri.TriangulationAlgorithm
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DTSweep | 0 | |
 

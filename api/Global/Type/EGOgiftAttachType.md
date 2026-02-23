@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/EGOgiftAttachType
 public enum EGOgiftAttachType
 ```
 
-## Fields
-### ADD
-```csharp
-ADD = 0
-```
-
-#### Field Value
-**Type:** Global.EGOgiftAttachType
-
-### REPLACE
-```csharp
-REPLACE = 1
-```
-
-#### Field Value
-**Type:** Global.EGOgiftAttachType
-
-### SPECIAL_ADD
-```csharp
-SPECIAL_ADD = 2
-```
-
-#### Field Value
-**Type:** Global.EGOgiftAttachType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ADD | 0 | |
+| REPLACE | 1 | |
+| SPECIAL_ADD | 2 | |
 

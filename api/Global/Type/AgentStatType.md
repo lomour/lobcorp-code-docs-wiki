@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/AgentStatType
 public enum AgentStatType
 ```
 
-## Fields
-### DUMMY
-```csharp
-DUMMY = 4
-```
-
-#### Field Value
-**Type:** Global.AgentStatType
-
-### HEALTH
-```csharp
-HEALTH = 0
-```
-
-#### Field Value
-**Type:** Global.AgentStatType
-
-### MENTAL
-```csharp
-MENTAL = 1
-```
-
-#### Field Value
-**Type:** Global.AgentStatType
-
-### MOVE
-```csharp
-MOVE = 2
-```
-
-#### Field Value
-**Type:** Global.AgentStatType
-
-### WORK
-```csharp
-WORK = 3
-```
-
-#### Field Value
-**Type:** Global.AgentStatType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HEALTH | 0 | |
+| MENTAL | 1 | |
+| MOVE | 2 | |
+| WORK | 3 | |
+| DUMMY | 4 | |
 

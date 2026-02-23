@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/TastyBugBugState
 public enum TastyBug.BugState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.TastyBug.BugState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.TastyBug.BugState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

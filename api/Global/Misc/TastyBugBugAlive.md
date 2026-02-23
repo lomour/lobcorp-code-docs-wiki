@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/TastyBugBugAlive
 public enum TastyBug.BugAlive
 ```
 
-## Fields
-### ALIVE
-```csharp
-ALIVE = 0
-```
-
-#### Field Value
-**Type:** Global.TastyBug.BugAlive
-
-### DEAD
-```csharp
-DEAD = 1
-```
-
-#### Field Value
-**Type:** Global.TastyBug.BugAlive
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ALIVE | 0 | |
+| DEAD | 1 | |
 

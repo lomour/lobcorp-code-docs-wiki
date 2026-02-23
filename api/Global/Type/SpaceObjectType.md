@@ -10,78 +10,15 @@ canonical_path: /api/Global/Type/SpaceObjectType
 public enum SpaceObjectType
 ```
 
-## Fields
-### ELEVATORLONG
-```csharp
-ELEVATORLONG = 3
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### ELEVATORSHORT
-```csharp
-ELEVATORSHORT = 2
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### HALLWAY
-```csharp
-HALLWAY = 1
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### HUBLONG
-```csharp
-HUBLONG = 5
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### HUBSHORT
-```csharp
-HUBSHORT = 4
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### ISOLATE
-```csharp
-ISOLATE = 6
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### LONGHALLWAY
-```csharp
-LONGHALLWAY = 0
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### NONE
-```csharp
-NONE = 8
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-### SEFIRAMAIN
-```csharp
-SEFIRAMAIN = 7
-```
-
-#### Field Value
-**Type:** Global.SpaceObjectType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LONGHALLWAY | 0 | |
+| HALLWAY | 1 | |
+| ELEVATORSHORT | 2 | |
+| ELEVATORLONG | 3 | |
+| HUBSHORT | 4 | |
+| HUBLONG | 5 | |
+| ISOLATE | 6 | |
+| SEFIRAMAIN | 7 | |
+| NONE | 8 | |
 

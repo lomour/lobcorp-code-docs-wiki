@@ -10,70 +10,14 @@ canonical_path: /api/Global/Misc/RecoilArrow
 public enum RecoilArrow
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 5
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### LEFT
-```csharp
-LEFT = 7
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### LEFTDOWN
-```csharp
-LEFTDOWN = 6
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### LEFTUP
-```csharp
-LEFTUP = 0
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### RIGHT
-```csharp
-RIGHT = 3
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### RIGHTDOWN
-```csharp
-RIGHTDOWN = 4
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### RIGHTUP
-```csharp
-RIGHTUP = 2
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-### UP
-```csharp
-UP = 1
-```
-
-#### Field Value
-**Type:** Global.RecoilArrow
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFTUP | 0 | |
+| UP | 1 | |
+| RIGHTUP | 2 | |
+| RIGHT | 3 | |
+| RIGHTDOWN | 4 | |
+| DOWN | 5 | |
+| LEFTDOWN | 6 | |
+| LEFT | 7 | |
 

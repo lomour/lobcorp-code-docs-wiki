@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/BigBadWolfWolfAttackType
 public enum BigBadWolf.WolfAttackType
 ```
 
-## Fields
-### BITE
-```csharp
-BITE = 1
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.WolfAttackType
-
-### CASTING
-```csharp
-CASTING = 3
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.WolfAttackType
-
-### HOWLING
-```csharp
-HOWLING = 2
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.WolfAttackType
-
-### SCRATCH
-```csharp
-SCRATCH = 0
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.WolfAttackType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SCRATCH | 0 | |
+| BITE | 1 | |
+| HOWLING | 2 | |
+| CASTING | 3 | |
 

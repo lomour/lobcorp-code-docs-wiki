@@ -10,38 +10,10 @@ canonical_path: /api/BinahBoss/BinahAttackType
 public enum BinahAttackType
 ```
 
-## Fields
-### FIRST_BLADE
-```csharp
-FIRST_BLADE = 0
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahAttackType
-
-### FOURTH_EIGHTCOLUMN
-```csharp
-FOURTH_EIGHTCOLUMN = 3
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahAttackType
-
-### SECOND_BLACKTHORN
-```csharp
-SECOND_BLACKTHORN = 1
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahAttackType
-
-### THIRD_COLUMN
-```csharp
-THIRD_COLUMN = 2
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahAttackType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIRST_BLADE | 0 | |
+| SECOND_BLACKTHORN | 1 | |
+| THIRD_COLUMN | 2 | |
+| FOURTH_EIGHTCOLUMN | 3 | |
 

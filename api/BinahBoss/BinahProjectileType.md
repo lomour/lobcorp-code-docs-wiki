@@ -10,30 +10,9 @@ canonical_path: /api/BinahBoss/BinahProjectileType
 public enum BinahProjectileType
 ```
 
-## Fields
-### BLACKTHORN
-```csharp
-BLACKTHORN = 0
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahProjectileType
-
-### COLUMN
-```csharp
-COLUMN = 2
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahProjectileType
-
-### WAVE
-```csharp
-WAVE = 1
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahProjectileType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| BLACKTHORN | 0 | |
+| WAVE | 1 | |
+| COLUMN | 2 | |
 

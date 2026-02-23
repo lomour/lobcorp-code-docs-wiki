@@ -10,54 +10,12 @@ canonical_path: /api/Global/Type/DeadType
 public enum DeadType
 ```
 
-## Fields
-### EXECUTION
-```csharp
-EXECUTION = 4
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-### PANIC
-```csharp
-PANIC = 1
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-### PANIC_SUICIDE
-```csharp
-PANIC_SUICIDE = 2
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-### PANIC_SUICIDE_OFFICER
-```csharp
-PANIC_SUICIDE_OFFICER = 3
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-### SPECIAL
-```csharp
-SPECIAL = 5
-```
-
-#### Field Value
-**Type:** Global.DeadType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| PANIC | 1 | |
+| PANIC_SUICIDE | 2 | |
+| PANIC_SUICIDE_OFFICER | 3 | |
+| EXECUTION | 4 | |
+| SPECIAL | 5 | |
 

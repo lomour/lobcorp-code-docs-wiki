@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/CircusDawnState
 public enum CircusDawn.State
 ```
 
-## Fields
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.CircusDawn.State
-
-### MOVE
-```csharp
-MOVE = 1
-```
-
-#### Field Value
-**Type:** Global.CircusDawn.State
-
-### TELEPORT
-```csharp
-TELEPORT = 3
-```
-
-#### Field Value
-**Type:** Global.CircusDawn.State
-
-### TRICK
-```csharp
-TRICK = 2
-```
-
-#### Field Value
-**Type:** Global.CircusDawn.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| MOVE | 1 | |
+| TRICK | 2 | |
+| TELEPORT | 3 | |
 

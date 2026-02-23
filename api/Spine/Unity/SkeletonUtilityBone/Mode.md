@@ -10,22 +10,8 @@ canonical_path: /api/Spine/Unity/SkeletonUtilityBone/Mode
 public enum SkeletonUtilityBone.Mode
 ```
 
-## Fields
-### Follow
-```csharp
-Follow = 0
-```
-
-#### Field Value
-**Type:** Spine.Unity.SkeletonUtilityBone.Mode
-
-### Override
-```csharp
-Override = 1
-```
-
-#### Field Value
-**Type:** Spine.Unity.SkeletonUtilityBone.Mode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Follow | 0 | |
+| Override | 1 | |
 

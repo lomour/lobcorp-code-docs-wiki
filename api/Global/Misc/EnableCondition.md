@@ -10,46 +10,11 @@ canonical_path: /api/Global/Misc/EnableCondition
 public enum EnableCondition
 ```
 
-## Fields
-### AFTERTIMER
-```csharp
-AFTERTIMER = 4
-```
-
-#### Field Value
-**Type:** Global.EnableCondition
-
-### ENERGY
-```csharp
-ENERGY = 2
-```
-
-#### Field Value
-**Type:** Global.EnableCondition
-
-### MANUAL
-```csharp
-MANUAL = 0
-```
-
-#### Field Value
-**Type:** Global.EnableCondition
-
-### PROB
-```csharp
-PROB = 3
-```
-
-#### Field Value
-**Type:** Global.EnableCondition
-
-### TIMER
-```csharp
-TIMER = 1
-```
-
-#### Field Value
-**Type:** Global.EnableCondition
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MANUAL | 0 | |
+| TIMER | 1 | |
+| ENERGY | 2 | |
+| PROB | 3 | |
+| AFTERTIMER | 4 | |
 

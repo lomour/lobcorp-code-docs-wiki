@@ -10,102 +10,18 @@ canonical_path: /api/Global/Misc/AgentAnimPos
 public enum AgentAnimPos
 ```
 
-## Fields
-### BODY
-```csharp
-BODY = 10
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### FACE
-```csharp
-FACE = 1
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### HAIR
-```csharp
-HAIR = 0
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### LEFTDOWNARM
-```csharp
-LEFTDOWNARM = 3
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### LEFTDOWNLEG
-```csharp
-LEFTDOWNLEG = 7
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### LEFTUPARM
-```csharp
-LEFTUPARM = 2
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### LEFTUPLEG
-```csharp
-LEFTUPLEG = 6
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### RIGHTDOWNARM
-```csharp
-RIGHTDOWNARM = 5
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### RIGHTDOWNLEG
-```csharp
-RIGHTDOWNLEG = 9
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### RIGHTUPARM
-```csharp
-RIGHTUPARM = 4
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### RIGHTUPLEG
-```csharp
-RIGHTUPLEG = 8
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-### SYMBOL
-```csharp
-SYMBOL = 11
-```
-
-#### Field Value
-**Type:** Global.AgentAnimPos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HAIR | 0 | |
+| FACE | 1 | |
+| LEFTUPARM | 2 | |
+| LEFTDOWNARM | 3 | |
+| RIGHTUPARM | 4 | |
+| RIGHTDOWNARM | 5 | |
+| LEFTUPLEG | 6 | |
+| LEFTDOWNLEG | 7 | |
+| RIGHTUPLEG | 8 | |
+| RIGHTDOWNLEG | 9 | |
+| BODY | 10 | |
+| SYMBOL | 11 | |
 

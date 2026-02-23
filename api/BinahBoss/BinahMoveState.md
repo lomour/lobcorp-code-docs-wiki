@@ -10,30 +10,9 @@ canonical_path: /api/BinahBoss/BinahMoveState
 public enum BinahMoveState
 ```
 
-## Fields
-### ATTACKING
-```csharp
-ATTACKING = 2
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahMoveState
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahMoveState
-
-### MOVING
-```csharp
-MOVING = 1
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahMoveState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| MOVING | 1 | |
+| ATTACKING | 2 | |
 

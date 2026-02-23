@@ -10,62 +10,13 @@ canonical_path: /api/CommandWindow/AgentState
 public enum AgentState
 ```
 
-## Fields
-### DEAD
-```csharp
-DEAD = 0
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### IDLE
-```csharp
-IDLE = 6
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### MOVING
-```csharp
-MOVING = 5
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### PANIC
-```csharp
-PANIC = 1
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### SUPPRESSING
-```csharp
-SUPPRESSING = 4
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### UNCONTROLLABLE
-```csharp
-UNCONTROLLABLE = 2
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-### WORKING
-```csharp
-WORKING = 3
-```
-
-#### Field Value
-**Type:** CommandWindow.AgentState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEAD | 0 | |
+| PANIC | 1 | |
+| UNCONTROLLABLE | 2 | |
+| WORKING | 3 | |
+| SUPPRESSING | 4 | |
+| MOVING | 5 | |
+| IDLE | 6 | |
 

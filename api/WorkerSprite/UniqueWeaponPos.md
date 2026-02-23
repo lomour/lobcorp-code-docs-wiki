@@ -10,46 +10,11 @@ canonical_path: /api/WorkerSprite/UniqueWeaponPos
 public enum UniqueWeaponPos
 ```
 
-## Fields
-### BACK
-```csharp
-BACK = 1
-```
-
-#### Field Value
-**Type:** WorkerSprite.UniqueWeaponPos
-
-### FIST
-```csharp
-FIST = 4
-```
-
-#### Field Value
-**Type:** WorkerSprite.UniqueWeaponPos
-
-### LEFTHAND
-```csharp
-LEFTHAND = 2
-```
-
-#### Field Value
-**Type:** WorkerSprite.UniqueWeaponPos
-
-### LEFTWAIST
-```csharp
-LEFTWAIST = 0
-```
-
-#### Field Value
-**Type:** WorkerSprite.UniqueWeaponPos
-
-### RIGHTHAND
-```csharp
-RIGHTHAND = 3
-```
-
-#### Field Value
-**Type:** WorkerSprite.UniqueWeaponPos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFTWAIST | 0 | |
+| BACK | 1 | |
+| LEFTHAND | 2 | |
+| RIGHTHAND | 3 | |
+| FIST | 4 | |
 

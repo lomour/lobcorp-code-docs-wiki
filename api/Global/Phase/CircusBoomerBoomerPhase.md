@@ -10,30 +10,9 @@ canonical_path: /api/Global/Phase/CircusBoomerBoomerPhase
 public enum CircusBoomer.BoomerPhase
 ```
 
-## Fields
-### BOMB
-```csharp
-BOMB = 2
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.BoomerPhase
-
-### HIT
-```csharp
-HIT = 0
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.BoomerPhase
-
-### MOVE
-```csharp
-MOVE = 1
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.BoomerPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HIT | 0 | |
+| MOVE | 1 | |
+| BOMB | 2 | |
 

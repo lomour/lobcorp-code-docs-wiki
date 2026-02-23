@@ -10,22 +10,8 @@ canonical_path: /api/Inventory/InventoryAgentSlot/EquipState
 public enum InventoryAgentSlot.EquipState
 ```
 
-## Fields
-### CANNOT
-```csharp
-CANNOT = 1
-```
-
-#### Field Value
-**Type:** Inventory.InventoryAgentSlot.EquipState
-
-### EMPTY
-```csharp
-EMPTY = 0
-```
-
-#### Field Value
-**Type:** Inventory.InventoryAgentSlot.EquipState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| EMPTY | 0 | |
+| CANNOT | 1 | |
 

@@ -10,78 +10,15 @@ canonical_path: /api/LetterboxCamera/CameraRatio/CameraAnchor
 public enum CameraRatio.CameraAnchor
 ```
 
-## Fields
-### Bottom
-```csharp
-Bottom = 2
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### BottomLeft
-```csharp
-BottomLeft = 7
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### BottomRight
-```csharp
-BottomRight = 8
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### Center
-```csharp
-Center = 0
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### Left
-```csharp
-Left = 3
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### Right
-```csharp
-Right = 4
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### Top
-```csharp
-Top = 1
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### TopLeft
-```csharp
-TopLeft = 5
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-### TopRight
-```csharp
-TopRight = 6
-```
-
-#### Field Value
-**Type:** LetterboxCamera.CameraRatio.CameraAnchor
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Center | 0 | |
+| Top | 1 | |
+| Bottom | 2 | |
+| Left | 3 | |
+| Right | 4 | |
+| TopLeft | 5 | |
+| TopRight | 6 | |
+| BottomLeft | 7 | |
+| BottomRight | 8 | |
 

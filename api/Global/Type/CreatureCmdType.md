@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/CreatureCmdType
 public enum CreatureCmdType
 ```
 
-## Fields
-### MOVE
-```csharp
-MOVE = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureCmdType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureCmdType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| MOVE | 1 | |
 

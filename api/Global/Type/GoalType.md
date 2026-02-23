@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/GoalType
 public enum GoalType
 ```
 
-## Fields
-### MAX
-```csharp
-MAX = 0
-```
-
-#### Field Value
-**Type:** Global.GoalType
-
-### MIN
-```csharp
-MIN = 1
-```
-
-#### Field Value
-**Type:** Global.GoalType
-
-### SAME
-```csharp
-SAME = 2
-```
-
-#### Field Value
-**Type:** Global.GoalType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MAX | 0 | |
+| MIN | 1 | |
+| SAME | 2 | |
 

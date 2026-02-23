@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/StoryScriptValueValueType
 public enum StoryScriptValue.ValueType
 ```
 
-## Fields
-### CONSTANT
-```csharp
-CONSTANT = 1
-```
-
-#### Field Value
-**Type:** Global.StoryScriptValue.ValueType
-
-### VARIABLE
-```csharp
-VARIABLE = 0
-```
-
-#### Field Value
-**Type:** Global.StoryScriptValue.ValueType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| VARIABLE | 0 | |
+| CONSTANT | 1 | |
 

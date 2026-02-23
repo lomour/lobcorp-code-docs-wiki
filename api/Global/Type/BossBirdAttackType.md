@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/BossBirdAttackType
 public enum BossBird.AttackType
 ```
 
-## Fields
-### ATTRACT
-```csharp
-ATTRACT = 2
-```
-
-#### Field Value
-**Type:** Global.BossBird.AttackType
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.BossBird.AttackType
-
-### RANGED
-```csharp
-RANGED = 1
-```
-
-#### Field Value
-**Type:** Global.BossBird.AttackType
-
-### SCALE
-```csharp
-SCALE = 3
-```
-
-#### Field Value
-**Type:** Global.BossBird.AttackType
-
-### ULTIMATE
-```csharp
-ULTIMATE = 4
-```
-
-#### Field Value
-**Type:** Global.BossBird.AttackType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| RANGED | 1 | |
+| ATTRACT | 2 | |
+| SCALE | 3 | |
+| ULTIMATE | 4 | |
 

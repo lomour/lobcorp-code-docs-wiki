@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/DaughterBugDaughterState
 public enum DaughterBug.DaughterState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.DaughterBug.DaughterState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.DaughterBug.DaughterState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

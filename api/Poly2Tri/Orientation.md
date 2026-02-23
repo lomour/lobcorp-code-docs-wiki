@@ -10,30 +10,9 @@ canonical_path: /api/Poly2Tri/Orientation
 public enum Orientation
 ```
 
-## Fields
-### CCW
-```csharp
-CCW = 1
-```
-
-#### Field Value
-**Type:** Poly2Tri.Orientation
-
-### Collinear
-```csharp
-Collinear = 2
-```
-
-#### Field Value
-**Type:** Poly2Tri.Orientation
-
-### CW
-```csharp
-CW = 0
-```
-
-#### Field Value
-**Type:** Poly2Tri.Orientation
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| CW | 0 | |
+| CCW | 1 | |
+| Collinear | 2 | |
 

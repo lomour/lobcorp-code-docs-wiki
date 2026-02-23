@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/AngelaMessagePos
 public enum AngelaMessagePos
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 1
-```
-
-#### Field Value
-**Type:** Global.AngelaMessagePos
-
-### UP
-```csharp
-UP = 0
-```
-
-#### Field Value
-**Type:** Global.AngelaMessagePos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| UP | 0 | |
+| DOWN | 1 | |
 

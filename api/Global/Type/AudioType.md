@@ -10,70 +10,14 @@ canonical_path: /api/Global/Type/AudioType
 public enum AudioType
 ```
 
-## Fields
-### CANCEL
-```csharp
-CANCEL = 3
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### CHECK_CONFIRM
-```csharp
-CHECK_CONFIRM = 6
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### CHECK_OVER
-```csharp
-CHECK_OVER = 5
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### CLICK
-```csharp
-CLICK = 1
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### CONVERSATION
-```csharp
-CONVERSATION = 4
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### POINTER_OVER
-```csharp
-POINTER_OVER = 0
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### TAPCLICK
-```csharp
-TAPCLICK = 7
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-### TAPOVER
-```csharp
-TAPOVER = 2
-```
-
-#### Field Value
-**Type:** Global.AudioType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| POINTER_OVER | 0 | |
+| CLICK | 1 | |
+| TAPOVER | 2 | |
+| CANCEL | 3 | |
+| CONVERSATION | 4 | |
+| CHECK_OVER | 5 | |
+| CHECK_CONFIRM | 6 | |
+| TAPCLICK | 7 | |
 

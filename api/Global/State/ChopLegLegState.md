@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/ChopLegLegState
 public enum ChopLeg.LegState
 ```
 
-## Fields
-### ACTIVATED
-```csharp
-ACTIVATED = 0
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVATED | 0 | |
+| DEACTIVATED | 1 | |
 

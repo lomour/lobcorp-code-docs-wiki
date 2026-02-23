@@ -10,46 +10,11 @@ canonical_path: /api/Global/Level/EncounterDamageLevel
 public enum EncounterDamageLevel
 ```
 
-## Fields
-### FOUR
-```csharp
-FOUR = 4
-```
-
-#### Field Value
-**Type:** Global.EncounterDamageLevel
-
-### ONE
-```csharp
-ONE = 1
-```
-
-#### Field Value
-**Type:** Global.EncounterDamageLevel
-
-### THREE
-```csharp
-THREE = 3
-```
-
-#### Field Value
-**Type:** Global.EncounterDamageLevel
-
-### TWO
-```csharp
-TWO = 2
-```
-
-#### Field Value
-**Type:** Global.EncounterDamageLevel
-
-### ZERO
-```csharp
-ZERO = 0
-```
-
-#### Field Value
-**Type:** Global.EncounterDamageLevel
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ZERO | 0 | |
+| ONE | 1 | |
+| TWO | 2 | |
+| THREE | 3 | |
+| FOUR | 4 | |
 

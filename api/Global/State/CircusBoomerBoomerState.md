@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/CircusBoomerBoomerState
 public enum CircusBoomer.BoomerState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.BoomerState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.BoomerState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

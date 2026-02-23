@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/EdgeDirection
 public enum EdgeDirection
 ```
 
-## Fields
-### BACKWARD
-```csharp
-BACKWARD = 1
-```
-
-#### Field Value
-**Type:** Global.EdgeDirection
-
-### FORWARD
-```csharp
-FORWARD = 0
-```
-
-#### Field Value
-**Type:** Global.EdgeDirection
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FORWARD | 0 | |
+| BACKWARD | 1 | |
 

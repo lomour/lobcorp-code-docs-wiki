@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/CreatureEventCallTime
 public enum CreatureEventCallTime
 ```
 
-## Fields
-### Immediately
-```csharp
-Immediately = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureEventCallTime
-
-### onRelease
-```csharp
-onRelease = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureEventCallTime
-
-### OnRoomEnter
-```csharp
-OnRoomEnter = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureEventCallTime
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Immediately | 0 | |
+| OnRoomEnter | 1 | |
+| onRelease | 2 | |
 

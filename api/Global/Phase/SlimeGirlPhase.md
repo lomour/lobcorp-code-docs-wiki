@@ -10,54 +10,12 @@ canonical_path: /api/Global/Phase/SlimeGirlPhase
 public enum SlimeGirl.Phase
 ```
 
-## Fields
-### ATTACKING
-```csharp
-ATTACKING = 2
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-### DEAD
-```csharp
-DEAD = 5
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-### DEFAULT
-```csharp
-DEFAULT = 1
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-### HEALING
-```csharp
-HEALING = 3
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-### ISOLATE
-```csharp
-ISOLATE = 0
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-### SKILL
-```csharp
-SKILL = 4
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.Phase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ISOLATE | 0 | |
+| DEFAULT | 1 | |
+| ATTACKING | 2 | |
+| HEALING | 3 | |
+| SKILL | 4 | |
+| DEAD | 5 | |
 

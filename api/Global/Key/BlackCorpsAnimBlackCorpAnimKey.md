@@ -10,62 +10,13 @@ canonical_path: /api/Global/Key/BlackCorpsAnimBlackCorpAnimKey
 public enum BlackCorpsAnim.BlackCorpAnimKey
 ```
 
-## Fields
-### AnimationInit
-```csharp
-AnimationInit = 0
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### CastingSound
-```csharp
-CastingSound = 4
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### DefaultSound
-```csharp
-DefaultSound = 3
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### Explosion
-```csharp
-Explosion = 1
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### ExplosionEnd
-```csharp
-ExplosionEnd = 2
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### ExplosionSound
-```csharp
-ExplosionSound = 5
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-### KeyEnd
-```csharp
-KeyEnd = 6
-```
-
-#### Field Value
-**Type:** Global.BlackCorpsAnim.BlackCorpAnimKey
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| AnimationInit | 0 | |
+| Explosion | 1 | |
+| ExplosionEnd | 2 | |
+| DefaultSound | 3 | |
+| CastingSound | 4 | |
+| ExplosionSound | 5 | |
+| KeyEnd | 6 | |
 

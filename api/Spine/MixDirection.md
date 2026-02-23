@@ -10,22 +10,8 @@ canonical_path: /api/Spine/MixDirection
 public enum MixDirection
 ```
 
-## Fields
-### In
-```csharp
-In = 0
-```
-
-#### Field Value
-**Type:** Spine.MixDirection
-
-### Out
-```csharp
-Out = 1
-```
-
-#### Field Value
-**Type:** Spine.MixDirection
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| In | 0 | |
+| Out | 1 | |
 

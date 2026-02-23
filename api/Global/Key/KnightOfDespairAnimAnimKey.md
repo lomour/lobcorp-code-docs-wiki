@@ -10,54 +10,12 @@ canonical_path: /api/Global/Key/KnightOfDespairAnimAnimKey
 public enum KnightOfDespairAnim.AnimKey
 ```
 
-## Fields
-### ATTACK
-```csharp
-ATTACK = 5
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-### BLESS
-```csharp
-BLESS = 0
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-### DEAD
-```csharp
-DEAD = 4
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-### RESET
-```csharp
-RESET = 2
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-### TELEPORT
-```csharp
-TELEPORT = 3
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-### TRANSFORM
-```csharp
-TRANSFORM = 1
-```
-
-#### Field Value
-**Type:** Global.KnightOfDespairAnim.AnimKey
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| BLESS | 0 | |
+| TRANSFORM | 1 | |
+| RESET | 2 | |
+| TELEPORT | 3 | |
+| DEAD | 4 | |
+| ATTACK | 5 | |
 

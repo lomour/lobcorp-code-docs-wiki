@@ -10,54 +10,12 @@ canonical_path: /api/Global/Type/IsolateFilterType
 public enum IsolateFilterType
 ```
 
-## Fields
-### DAMAGE
-```csharp
-DAMAGE = 2
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-### DUMMY
-```csharp
-DUMMY = 5
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-### ESCAPE
-```csharp
-ESCAPE = 3
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-### FEVER
-```csharp
-FEVER = 0
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-### SKILL
-```csharp
-SKILL = 4
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-### STATE
-```csharp
-STATE = 1
-```
-
-#### Field Value
-**Type:** Global.IsolateFilterType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FEVER | 0 | |
+| STATE | 1 | |
+| DAMAGE | 2 | |
+| ESCAPE | 3 | |
+| SKILL | 4 | |
+| DUMMY | 5 | |
 

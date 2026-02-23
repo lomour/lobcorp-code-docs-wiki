@@ -10,30 +10,9 @@ canonical_path: /api/Global/Effect/BinahBossBaseBlizzardEffect
 public enum BinahBossBase.BlizzardEffect
 ```
 
-## Fields
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.BinahBossBase.BlizzardEffect
-
-### GAGING
-```csharp
-GAGING = 1
-```
-
-#### Field Value
-**Type:** Global.BinahBossBase.BlizzardEffect
-
-### GROGGY
-```csharp
-GROGGY = 2
-```
-
-#### Field Value
-**Type:** Global.BinahBossBase.BlizzardEffect
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| GAGING | 1 | |
+| GROGGY | 2 | |
 

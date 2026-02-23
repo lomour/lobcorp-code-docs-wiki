@@ -10,54 +10,12 @@ canonical_path: /api/Global/Type/PassageType
 public enum PassageType
 ```
 
-## Fields
-### DEPARTMENT
-```csharp
-DEPARTMENT = 1
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-### HORIZONTAL
-```csharp
-HORIZONTAL = 3
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-### ISOLATEROOM
-```csharp
-ISOLATEROOM = 4
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-### NONE
-```csharp
-NONE = 5
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-### SEFIRA
-```csharp
-SEFIRA = 0
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-### VERTICAL
-```csharp
-VERTICAL = 2
-```
-
-#### Field Value
-**Type:** Global.PassageType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SEFIRA | 0 | |
+| DEPARTMENT | 1 | |
+| VERTICAL | 2 | |
+| HORIZONTAL | 3 | |
+| ISOLATEROOM | 4 | |
+| NONE | 5 | |
 

@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/BloodBathBloodHandState
 public enum BloodBath.BloodHandState
 ```
 
-## Fields
-### ONE
-```csharp
-ONE = 1
-```
-
-#### Field Value
-**Type:** Global.BloodBath.BloodHandState
-
-### THREE
-```csharp
-THREE = 3
-```
-
-#### Field Value
-**Type:** Global.BloodBath.BloodHandState
-
-### TWO
-```csharp
-TWO = 2
-```
-
-#### Field Value
-**Type:** Global.BloodBath.BloodHandState
-
-### ZERO
-```csharp
-ZERO = 0
-```
-
-#### Field Value
-**Type:** Global.BloodBath.BloodHandState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ZERO | 0 | |
+| ONE | 1 | |
+| TWO | 2 | |
+| THREE | 3 | |
 

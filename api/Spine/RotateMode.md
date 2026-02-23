@@ -10,30 +10,9 @@ canonical_path: /api/Spine/RotateMode
 public enum RotateMode
 ```
 
-## Fields
-### Chain
-```csharp
-Chain = 1
-```
-
-#### Field Value
-**Type:** Spine.RotateMode
-
-### ChainScale
-```csharp
-ChainScale = 2
-```
-
-#### Field Value
-**Type:** Spine.RotateMode
-
-### Tangent
-```csharp
-Tangent = 0
-```
-
-#### Field Value
-**Type:** Spine.RotateMode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Tangent | 0 | |
+| Chain | 1 | |
+| ChainScale | 2 | |
 

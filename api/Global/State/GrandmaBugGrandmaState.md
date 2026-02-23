@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/GrandmaBugGrandmaState
 public enum GrandmaBug.GrandmaState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.GrandmaBug.GrandmaState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.GrandmaBug.GrandmaState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

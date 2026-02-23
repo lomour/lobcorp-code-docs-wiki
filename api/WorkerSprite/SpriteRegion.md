@@ -10,46 +10,11 @@ canonical_path: /api/WorkerSprite/SpriteRegion
 public enum SpriteRegion
 ```
 
-## Fields
-### ATTACHMENT
-```csharp
-ATTACHMENT = 4
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegion
-
-### BODY
-```csharp
-BODY = 2
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegion
-
-### FACE
-```csharp
-FACE = 0
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegion
-
-### HAIR
-```csharp
-HAIR = 1
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegion
-
-### WEAPON
-```csharp
-WEAPON = 3
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegion
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FACE | 0 | |
+| HAIR | 1 | |
+| BODY | 2 | |
+| WEAPON | 3 | |
+| ATTACHMENT | 4 | |
 

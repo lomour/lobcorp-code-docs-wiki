@@ -10,30 +10,9 @@ canonical_path: /api/Global/Phase/BigBirdAttractBufPhase
 public enum BigBirdAttractBuf.Phase
 ```
 
-## Fields
-### FIRST
-```csharp
-FIRST = 0
-```
-
-#### Field Value
-**Type:** Global.BigBirdAttractBuf.Phase
-
-### SECOND
-```csharp
-SECOND = 1
-```
-
-#### Field Value
-**Type:** Global.BigBirdAttractBuf.Phase
-
-### THIRD
-```csharp
-THIRD = 2
-```
-
-#### Field Value
-**Type:** Global.BigBirdAttractBuf.Phase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIRST | 0 | |
+| SECOND | 1 | |
+| THIRD | 2 | |
 

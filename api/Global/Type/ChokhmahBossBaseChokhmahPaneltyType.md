@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/ChokhmahBossBaseChokhmahPaneltyType
 public enum ChokhmahBossBase.ChokhmahPaneltyType
 ```
 
-## Fields
-### DIE
-```csharp
-DIE = 0
-```
-
-#### Field Value
-**Type:** Global.ChokhmahBossBase.ChokhmahPaneltyType
-
-### PANIC
-```csharp
-PANIC = 1
-```
-
-#### Field Value
-**Type:** Global.ChokhmahBossBase.ChokhmahPaneltyType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DIE | 0 | |
+| PANIC | 1 | |
 

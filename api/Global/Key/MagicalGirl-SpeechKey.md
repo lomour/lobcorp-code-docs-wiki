@@ -10,182 +10,28 @@ canonical_path: /api/Global/Key/MagicalGirlSpeechKey
 public enum MagicalGirl.SpeechKey
 ```
 
-## Fields
-### BE_HYSTERIC
-```csharp
-BE_HYSTERIC = 13
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### DEAD
-```csharp
-DEAD = 9
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### DEFAULT_HERO
-```csharp
-DEFAULT_HERO = 0
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### DEFAULT_HYSTERIC
-```csharp
-DEFAULT_HYSTERIC = 1
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_APPEAR
-```csharp
-HERO_APPEAR = 2
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_ATTACK
-```csharp
-HERO_ATTACK = 14
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_1
-```csharp
-HERO_SKILL_1 = 15
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_0
-```csharp
-HERO_SKILL_2_0 = 16
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_1
-```csharp
-HERO_SKILL_2_1 = 17
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_2
-```csharp
-HERO_SKILL_2_2 = 18
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_3
-```csharp
-HERO_SKILL_2_3 = 19
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_4
-```csharp
-HERO_SKILL_2_4 = 20
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### HERO_SKILL_2_5
-```csharp
-HERO_SKILL_2_5 = 21
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_ALEPH
-```csharp
-MEETING_ALEPH = 6
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_DESPAIR
-```csharp
-MEETING_DESPAIR = 8
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_GREED
-```csharp
-MEETING_GREED = 7
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_HE
-```csharp
-MEETING_HE = 4
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_TETH
-```csharp
-MEETING_TETH = 3
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### MEETING_WAW
-```csharp
-MEETING_WAW = 5
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### SUPPRESS
-```csharp
-SUPPRESS = 10
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### SUPPRESS_DESPAIR
-```csharp
-SUPPRESS_DESPAIR = 12
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-### SUPPRESS_GREED
-```csharp
-SUPPRESS_GREED = 11
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.SpeechKey
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT_HERO | 0 | |
+| DEFAULT_HYSTERIC | 1 | |
+| HERO_APPEAR | 2 | |
+| MEETING_TETH | 3 | |
+| MEETING_HE | 4 | |
+| MEETING_WAW | 5 | |
+| MEETING_ALEPH | 6 | |
+| MEETING_GREED | 7 | |
+| MEETING_DESPAIR | 8 | |
+| DEAD | 9 | |
+| SUPPRESS | 10 | |
+| SUPPRESS_GREED | 11 | |
+| SUPPRESS_DESPAIR | 12 | |
+| BE_HYSTERIC | 13 | |
+| HERO_ATTACK | 14 | |
+| HERO_SKILL_1 | 15 | |
+| HERO_SKILL_2_0 | 16 | |
+| HERO_SKILL_2_1 | 17 | |
+| HERO_SKILL_2_2 | 18 | |
+| HERO_SKILL_2_3 | 19 | |
+| HERO_SKILL_2_4 | 20 | |
+| HERO_SKILL_2_5 | 21 | |
 

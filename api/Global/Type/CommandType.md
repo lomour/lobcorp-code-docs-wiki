@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/CommandType
 public enum CommandType
 ```
 
-## Fields
-### KitCreature
-```csharp
-KitCreature = 2
-```
-
-#### Field Value
-**Type:** Global.CommandType
-
-### Management
-```csharp
-Management = 1
-```
-
-#### Field Value
-**Type:** Global.CommandType
-
-### Suppress
-```csharp
-Suppress = 0
-```
-
-#### Field Value
-**Type:** Global.CommandType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Suppress | 0 | |
+| Management | 1 | |
+| KitCreature | 2 | |
 

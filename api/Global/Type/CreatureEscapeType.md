@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/CreatureEscapeType
 public enum CreatureEscapeType
 ```
 
-## Fields
-### ATTACKWORKER
-```csharp
-ATTACKWORKER = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureEscapeType
-
-### FACETOSEFIRA
-```csharp
-FACETOSEFIRA = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureEscapeType
-
-### NOMOVE
-```csharp
-NOMOVE = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureEscapeType
-
-### WANDER
-```csharp
-WANDER = 3
-```
-
-#### Field Value
-**Type:** Global.CreatureEscapeType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ATTACKWORKER | 0 | |
+| FACETOSEFIRA | 1 | |
+| NOMOVE | 2 | |
+| WANDER | 3 | |
 

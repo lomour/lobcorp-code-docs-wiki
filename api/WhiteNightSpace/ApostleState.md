@@ -10,38 +10,10 @@ canonical_path: /api/WhiteNightSpace/ApostleState
 public enum ApostleState
 ```
 
-## Fields
-### ATTACK
-```csharp
-ATTACK = 1
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleState
-
-### DEAD
-```csharp
-DEAD = 3
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleState
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleState
-
-### SUPPRESSED
-```csharp
-SUPPRESSED = 2
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| ATTACK | 1 | |
+| SUPPRESSED | 2 | |
+| DEAD | 3 | |
 

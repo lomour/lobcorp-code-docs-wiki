@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/TOOLNODEPOS
 public enum TOOL_NODE_POS
 ```
 
-## Fields
-### CENTER
-```csharp
-CENTER = 1
-```
-
-#### Field Value
-**Type:** Global.TOOL_NODE_POS
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.TOOL_NODE_POS
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| CENTER | 1 | |
 

@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/PinkCorpsCorpsState
 public enum PinkCorps.CorpsState
 ```
 
-## Fields
-### Escape
-```csharp
-Escape = 2
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.CorpsState
-
-### Follow
-```csharp
-Follow = 0
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.CorpsState
-
-### None
-```csharp
-None = 3
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.CorpsState
-
-### Patrol
-```csharp
-Patrol = 1
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.CorpsState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Follow | 0 | |
+| Patrol | 1 | |
+| Escape | 2 | |
+| None | 3 | |
 

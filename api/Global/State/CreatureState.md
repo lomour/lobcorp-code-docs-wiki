@@ -10,78 +10,15 @@ canonical_path: /api/Global/State/CreatureState
 public enum CreatureState
 ```
 
-## Fields
-### ESCAPE
-```csharp
-ESCAPE = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### OBSERVE
-```csharp
-OBSERVE = 8
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### SUPPRESSED
-```csharp
-SUPPRESSED = 6
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### SUPPRESSED_RETURN
-```csharp
-SUPPRESSED_RETURN = 7
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### WAIT
-```csharp
-WAIT = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### WAIT_COOLDOWN
-```csharp
-WAIT_COOLDOWN = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### WORKING
-```csharp
-WORKING = 3
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### WORKING_AUTO
-```csharp
-WORKING_AUTO = 5
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-### WORKING_SCENE
-```csharp
-WORKING_SCENE = 4
-```
-
-#### Field Value
-**Type:** Global.CreatureState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| WAIT | 0 | |
+| WAIT_COOLDOWN | 1 | |
+| ESCAPE | 2 | |
+| WORKING | 3 | |
+| WORKING_SCENE | 4 | |
+| WORKING_AUTO | 5 | |
+| SUPPRESSED | 6 | |
+| SUPPRESSED_RETURN | 7 | |
+| OBSERVE | 8 | |
 

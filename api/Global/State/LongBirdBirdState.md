@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/LongBirdBirdState
 public enum LongBird.BirdState
 ```
 
-## Fields
-### CONVERGENCE
-```csharp
-CONVERGENCE = 2
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdState
-
-### MOVE_TO_OBJECT
-```csharp
-MOVE_TO_OBJECT = 1
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdState
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| MOVE_TO_OBJECT | 1 | |
+| CONVERGENCE | 2 | |
 

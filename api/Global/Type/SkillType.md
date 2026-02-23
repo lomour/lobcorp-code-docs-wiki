@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/SkillType
 public enum SkillType
 ```
 
-## Fields
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.SkillType
-
-### SPECIAL
-```csharp
-SPECIAL = 1
-```
-
-#### Field Value
-**Type:** Global.SkillType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| SPECIAL | 1 | |
 

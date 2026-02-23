@@ -10,46 +10,11 @@ canonical_path: /api/Global/Level/RiskLevel
 public enum RiskLevel
 ```
 
-## Fields
-### ALEPH
-```csharp
-ALEPH = 4
-```
-
-#### Field Value
-**Type:** Global.RiskLevel
-
-### HE
-```csharp
-HE = 2
-```
-
-#### Field Value
-**Type:** Global.RiskLevel
-
-### TETH
-```csharp
-TETH = 1
-```
-
-#### Field Value
-**Type:** Global.RiskLevel
-
-### WAW
-```csharp
-WAW = 3
-```
-
-#### Field Value
-**Type:** Global.RiskLevel
-
-### ZAYIN
-```csharp
-ZAYIN = 0
-```
-
-#### Field Value
-**Type:** Global.RiskLevel
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ZAYIN | 0 | |
+| TETH | 1 | |
+| HE | 2 | |
+| WAW | 3 | |
+| ALEPH | 4 | |
 

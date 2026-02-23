@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/IsolateColor
 internal enum IsolateColor
 ```
 
-## Fields
-### GOLD
-```csharp
-GOLD = 2
-```
-
-#### Field Value
-**Type:** Global.IsolateColor
-
-### GRAY
-```csharp
-GRAY = 1
-```
-
-#### Field Value
-**Type:** Global.IsolateColor
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.IsolateColor
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| GRAY | 1 | |
+| GOLD | 2 | |
 

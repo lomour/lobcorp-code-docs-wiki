@@ -10,22 +10,8 @@ canonical_path: /api/WhiteNightSpace/ApostleStatType
 public enum ApostleStatType
 ```
 
-## Fields
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleStatType
-
-### GUARDIAN
-```csharp
-GUARDIAN = 1
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleStatType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| GUARDIAN | 1 | |
 

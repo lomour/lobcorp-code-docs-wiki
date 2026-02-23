@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/BufDuplicateType
 public enum BufDuplicateType
 ```
 
-## Fields
-### ONLY_ONE
-```csharp
-ONLY_ONE = 1
-```
-
-#### Field Value
-**Type:** Global.BufDuplicateType
-
-### UNLIMIT
-```csharp
-UNLIMIT = 0
-```
-
-#### Field Value
-**Type:** Global.BufDuplicateType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| UNLIMIT | 0 | |
+| ONLY_ONE | 1 | |
 

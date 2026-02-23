@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/TextAppearEffectType
 public enum TextAppearEffectType
 ```
 
-## Fields
-### MOVE_UP
-```csharp
-MOVE_UP = 1
-```
-
-#### Field Value
-**Type:** Global.TextAppearEffectType
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.TextAppearEffectType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| MOVE_UP | 1 | |
 

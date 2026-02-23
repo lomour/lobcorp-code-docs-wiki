@@ -10,70 +10,14 @@ canonical_path: /api/Global/Type/EffectSoundType
 public enum EffectSoundType
 ```
 
-## Fields
-### ALARM
-```csharp
-ALARM = 7
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### CANNOT
-```csharp
-CANNOT = 3
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### CANNOT_HAMMER
-```csharp
-CANNOT_HAMMER = 6
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### CLICK
-```csharp
-CLICK = 0
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### CONFIRM
-```csharp
-CONFIRM = 4
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### POINTER_ENTER
-```csharp
-POINTER_ENTER = 1
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### POINTER_EXIT
-```csharp
-POINTER_EXIT = 2
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-### START
-```csharp
-START = 5
-```
-
-#### Field Value
-**Type:** Global.EffectSoundType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| CLICK | 0 | |
+| POINTER_ENTER | 1 | |
+| POINTER_EXIT | 2 | |
+| CANNOT | 3 | |
+| CONFIRM | 4 | |
+| START | 5 | |
+| CANNOT_HAMMER | 6 | |
+| ALARM | 7 | |
 

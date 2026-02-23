@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/CreatureObserveBonusDataBonusType
 public enum CreatureObserveBonusData.BonusType
 ```
 
-## Fields
-### PROB
-```csharp
-PROB = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureObserveBonusData.BonusType
-
-### SPEED
-```csharp
-SPEED = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureObserveBonusData.BonusType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SPEED | 0 | |
+| PROB | 1 | |
 

@@ -10,30 +10,9 @@ canonical_path: /api/Global/Level/TextureDropdownTexutureLevel
 public enum TextureDropdown.TexutureLevel
 ```
 
-## Fields
-### HIGH
-```csharp
-HIGH = 0
-```
-
-#### Field Value
-**Type:** Global.TextureDropdown.TexutureLevel
-
-### LOW
-```csharp
-LOW = 2
-```
-
-#### Field Value
-**Type:** Global.TextureDropdown.TexutureLevel
-
-### MIDDLE
-```csharp
-MIDDLE = 1
-```
-
-#### Field Value
-**Type:** Global.TextureDropdown.TexutureLevel
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HIGH | 0 | |
+| MIDDLE | 1 | |
+| LOW | 2 | |
 

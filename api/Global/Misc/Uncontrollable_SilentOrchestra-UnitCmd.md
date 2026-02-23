@@ -10,46 +10,11 @@ canonical_path: /api/Global/Misc/UncontrollableSilentOrchestraUnitCmd
 private enum Uncontrollable_SilentOrchestra.UnitCmd
 ```
 
-## Fields
-### DEATH
-```csharp
-DEATH = 4
-```
-
-#### Field Value
-**Type:** Global.Uncontrollable_SilentOrchestra.UnitCmd
-
-### LISTEN
-```csharp
-LISTEN = 1
-```
-
-#### Field Value
-**Type:** Global.Uncontrollable_SilentOrchestra.UnitCmd
-
-### MOVING
-```csharp
-MOVING = 2
-```
-
-#### Field Value
-**Type:** Global.Uncontrollable_SilentOrchestra.UnitCmd
-
-### START
-```csharp
-START = 0
-```
-
-#### Field Value
-**Type:** Global.Uncontrollable_SilentOrchestra.UnitCmd
-
-### VIOLENCE
-```csharp
-VIOLENCE = 3
-```
-
-#### Field Value
-**Type:** Global.Uncontrollable_SilentOrchestra.UnitCmd
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| START | 0 | |
+| LISTEN | 1 | |
+| MOVING | 2 | |
+| VIOLENCE | 3 | |
+| DEATH | 4 | |
 

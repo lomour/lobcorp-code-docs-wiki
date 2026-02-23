@@ -10,38 +10,10 @@ canonical_path: /api/Global/Level/DangoCreatureLevel
 public enum DangoCreature.Level
 ```
 
-## Fields
-### FIRST
-```csharp
-FIRST = 1
-```
-
-#### Field Value
-**Type:** Global.DangoCreature.Level
-
-### SECOND
-```csharp
-SECOND = 2
-```
-
-#### Field Value
-**Type:** Global.DangoCreature.Level
-
-### THIRD
-```csharp
-THIRD = 3
-```
-
-#### Field Value
-**Type:** Global.DangoCreature.Level
-
-### ZERO
-```csharp
-ZERO = 0
-```
-
-#### Field Value
-**Type:** Global.DangoCreature.Level
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ZERO | 0 | |
+| FIRST | 1 | |
+| SECOND | 2 | |
+| THIRD | 3 | |
 

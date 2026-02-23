@@ -10,46 +10,11 @@ canonical_path: /api/Global/Misc/UnitMouseEventEffectEffectPosition
 public enum UnitMouseEventEffect.EffectPosition
 ```
 
-## Fields
-### CENTER_UP
-```csharp
-CENTER_UP = 4
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectPosition
-
-### LEFT_DOWN
-```csharp
-LEFT_DOWN = 1
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectPosition
-
-### LEFT_UP
-```csharp
-LEFT_UP = 0
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectPosition
-
-### RIGHT_DOWN
-```csharp
-RIGHT_DOWN = 3
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectPosition
-
-### RIGHT_UP
-```csharp
-RIGHT_UP = 2
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectPosition
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFT_UP | 0 | |
+| LEFT_DOWN | 1 | |
+| RIGHT_UP | 2 | |
+| RIGHT_DOWN | 3 | |
+| CENTER_UP | 4 | |
 

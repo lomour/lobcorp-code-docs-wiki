@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/AutoTimerUpdateMode
 public enum AutoTimer.UpdateMode
 ```
 
-## Fields
-### FIXEDUPDATE
-```csharp
-FIXEDUPDATE = 0
-```
-
-#### Field Value
-**Type:** Global.AutoTimer.UpdateMode
-
-### UPDATE
-```csharp
-UPDATE = 1
-```
-
-#### Field Value
-**Type:** Global.AutoTimer.UpdateMode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIXEDUPDATE | 0 | |
+| UPDATE | 1 | |
 

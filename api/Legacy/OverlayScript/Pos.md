@@ -10,38 +10,10 @@ canonical_path: /api/Legacy/OverlayScript/Pos
 private enum OverlayScript.Pos
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 3
-```
-
-#### Field Value
-**Type:** Legacy.OverlayScript.Pos
-
-### LEFT
-```csharp
-LEFT = 0
-```
-
-#### Field Value
-**Type:** Legacy.OverlayScript.Pos
-
-### RIGHT
-```csharp
-RIGHT = 1
-```
-
-#### Field Value
-**Type:** Legacy.OverlayScript.Pos
-
-### UP
-```csharp
-UP = 2
-```
-
-#### Field Value
-**Type:** Legacy.OverlayScript.Pos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFT | 0 | |
+| RIGHT | 1 | |
+| UP | 2 | |
+| DOWN | 3 | |
 

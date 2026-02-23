@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/BossEggBaseEggType
 public enum BossEggBase.EggType
 ```
 
-## Fields
-### BIG
-```csharp
-BIG = 1
-```
-
-#### Field Value
-**Type:** Global.BossEggBase.EggType
-
-### LONG
-```csharp
-LONG = 2
-```
-
-#### Field Value
-**Type:** Global.BossEggBase.EggType
-
-### SMALL
-```csharp
-SMALL = 0
-```
-
-#### Field Value
-**Type:** Global.BossEggBase.EggType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SMALL | 0 | |
+| BIG | 1 | |
+| LONG | 2 | |
 

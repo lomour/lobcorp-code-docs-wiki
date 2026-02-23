@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/MotherBugMotherState
 public enum MotherBug.MotherState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.MotherBug.MotherState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.MotherBug.MotherState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

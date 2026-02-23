@@ -10,22 +10,8 @@ canonical_path: /api/Credit/CreditConversationController/FadeTarget
 public enum CreditConversationController.FadeTarget
 ```
 
-## Fields
-### ROOT
-```csharp
-ROOT = 10
-```
-
-#### Field Value
-**Type:** Credit.CreditConversationController.FadeTarget
-
-### TEXT
-```csharp
-TEXT = 20
-```
-
-#### Field Value
-**Type:** Credit.CreditConversationController.FadeTarget
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ROOT | 10 | |
+| TEXT | 20 | |
 

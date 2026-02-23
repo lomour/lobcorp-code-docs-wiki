@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/MoveDirection
 public enum MoveDirection
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 2
-```
-
-#### Field Value
-**Type:** Global.MoveDirection
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.MoveDirection
-
-### UP
-```csharp
-UP = 1
-```
-
-#### Field Value
-**Type:** Global.MoveDirection
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| UP | 1 | |
+| DOWN | 2 | |
 

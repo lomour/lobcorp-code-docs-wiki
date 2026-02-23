@@ -10,22 +10,8 @@ canonical_path: /api/KetherBoss/KetherMiddleBossBase/KetherMiddlePhase
 public enum KetherMiddleBossBase.KetherMiddlePhase
 ```
 
-## Fields
-### FIRST
-```csharp
-FIRST = 0
-```
-
-#### Field Value
-**Type:** KetherBoss.KetherMiddleBossBase.KetherMiddlePhase
-
-### SECOND
-```csharp
-SECOND = 1
-```
-
-#### Field Value
-**Type:** KetherBoss.KetherMiddleBossBase.KetherMiddlePhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIRST | 0 | |
+| SECOND | 1 | |
 

@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/SilentOrchestraAnimUITypoState
 public enum SilentOrchestraAnim.UI.TypoState
 ```
 
-## Fields
-### DISPLAYING
-```csharp
-DISPLAYING = 2
-```
-
-#### Field Value
-**Type:** Global.SilentOrchestraAnim.UI.TypoState
-
-### FADEIN
-```csharp
-FADEIN = 1
-```
-
-#### Field Value
-**Type:** Global.SilentOrchestraAnim.UI.TypoState
-
-### FADEOUT
-```csharp
-FADEOUT = 3
-```
-
-#### Field Value
-**Type:** Global.SilentOrchestraAnim.UI.TypoState
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.SilentOrchestraAnim.UI.TypoState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| FADEIN | 1 | |
+| DISPLAYING | 2 | |
+| FADEOUT | 3 | |
 

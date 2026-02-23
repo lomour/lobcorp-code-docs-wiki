@@ -10,30 +10,9 @@ canonical_path: /api/nightowl/DistortionShaderPack/Explosion/State
 private enum Explosion.State
 ```
 
-## Fields
-### Explode
-```csharp
-Explode = 2
-```
-
-#### Field Value
-**Type:** nightowl.DistortionShaderPack.Explosion.State
-
-### Implode
-```csharp
-Implode = 1
-```
-
-#### Field Value
-**Type:** nightowl.DistortionShaderPack.Explosion.State
-
-### Pause
-```csharp
-Pause = 0
-```
-
-#### Field Value
-**Type:** nightowl.DistortionShaderPack.Explosion.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Pause | 0 | |
+| Implode | 1 | |
+| Explode | 2 | |
 

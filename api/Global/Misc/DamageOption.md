@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/DamageOption
 public enum DamageOption
 ```
 
-## Fields
-### DONT_KILL
-```csharp
-DONT_KILL = 1
-```
-
-#### Field Value
-**Type:** Global.DamageOption
-
-### IGNORE_SHIELD
-```csharp
-IGNORE_SHIELD = 2
-```
-
-#### Field Value
-**Type:** Global.DamageOption
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.DamageOption
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| DONT_KILL | 1 | |
+| IGNORE_SHIELD | 2 | |
 

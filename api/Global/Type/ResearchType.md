@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/ResearchType
 public enum ResearchType
 ```
 
-## Fields
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.ResearchType
-
-### PASSIVE
-```csharp
-PASSIVE = 1
-```
-
-#### Field Value
-**Type:** Global.ResearchType
-
-### WEAPON
-```csharp
-WEAPON = 2
-```
-
-#### Field Value
-**Type:** Global.ResearchType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| PASSIVE | 1 | |
+| WEAPON | 2 | |
 

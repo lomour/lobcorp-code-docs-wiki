@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/IsolatePos
 public enum IsolatePos
 ```
 
-## Fields
-### ATTACH
-```csharp
-ATTACH = 2
-```
-
-#### Field Value
-**Type:** Global.IsolatePos
-
-### DOWN
-```csharp
-DOWN = 0
-```
-
-#### Field Value
-**Type:** Global.IsolatePos
-
-### UP
-```csharp
-UP = 1
-```
-
-#### Field Value
-**Type:** Global.IsolatePos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DOWN | 0 | |
+| UP | 1 | |
+| ATTACH | 2 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/FloodTentacleTentacleState
 public enum FloodTentacle.TentacleState
 ```
 
-## Fields
-### ACTIVED
-```csharp
-ACTIVED = 0
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentacleState
-
-### DEACTIVATED
-```csharp
-DEACTIVATED = 1
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentacleState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVED | 0 | |
+| DEACTIVATED | 1 | |
 

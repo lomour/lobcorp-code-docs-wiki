@@ -10,22 +10,8 @@ canonical_path: /api/WorkerSpine/DefaultOneHandedType
 public enum DefaultOneHandedType
 ```
 
-## Fields
-### AXE
-```csharp
-AXE = 1
-```
-
-#### Field Value
-**Type:** WorkerSpine.DefaultOneHandedType
-
-### MACE
-```csharp
-MACE = 0
-```
-
-#### Field Value
-**Type:** WorkerSpine.DefaultOneHandedType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MACE | 0 | |
+| AXE | 1 | |
 

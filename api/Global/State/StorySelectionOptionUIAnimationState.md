@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/StorySelectionOptionUIAnimationState
 private enum StorySelectionOptionUI.AnimationState
 ```
 
-## Fields
-### HIDE_TO_SHOW
-```csharp
-HIDE_TO_SHOW = 1
-```
-
-#### Field Value
-**Type:** Global.StorySelectionOptionUI.AnimationState
-
-### SHOW_TO_HIDE
-```csharp
-SHOW_TO_HIDE = 2
-```
-
-#### Field Value
-**Type:** Global.StorySelectionOptionUI.AnimationState
-
-### STOP
-```csharp
-STOP = 0
-```
-
-#### Field Value
-**Type:** Global.StorySelectionOptionUI.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| STOP | 0 | |
+| HIDE_TO_SHOW | 1 | |
+| SHOW_TO_HIDE | 2 | |
 

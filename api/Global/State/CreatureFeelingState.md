@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/CreatureFeelingState
 public enum CreatureFeelingState
 ```
 
-## Fields
-### BAD
-```csharp
-BAD = 3
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingState
-
-### GOOD
-```csharp
-GOOD = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingState
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingState
-
-### NORM
-```csharp
-NORM = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| GOOD | 1 | |
+| NORM | 2 | |
+| BAD | 3 | |
 

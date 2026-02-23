@@ -10,30 +10,9 @@ canonical_path: /api/WorkerSprite/EquipmentSpriteRegion
 public enum EquipmentSpriteRegion
 ```
 
-## Fields
-### ATTACHMENTS
-```csharp
-ATTACHMENTS = 2
-```
-
-#### Field Value
-**Type:** WorkerSprite.EquipmentSpriteRegion
-
-### CLOTHES
-```csharp
-CLOTHES = 0
-```
-
-#### Field Value
-**Type:** WorkerSprite.EquipmentSpriteRegion
-
-### WEAPON
-```csharp
-WEAPON = 1
-```
-
-#### Field Value
-**Type:** WorkerSprite.EquipmentSpriteRegion
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| CLOTHES | 0 | |
+| WEAPON | 1 | |
+| ATTACHMENTS | 2 | |
 

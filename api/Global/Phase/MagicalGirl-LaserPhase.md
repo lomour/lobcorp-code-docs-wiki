@@ -10,30 +10,9 @@ canonical_path: /api/Global/Phase/MagicalGirlLaserPhase
 private enum MagicalGirl.LaserPhase
 ```
 
-## Fields
-### FIRST
-```csharp
-FIRST = 0
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.LaserPhase
-
-### SECOND
-```csharp
-SECOND = 1
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.LaserPhase
-
-### THIRD
-```csharp
-THIRD = 2
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl.LaserPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIRST | 0 | |
+| SECOND | 1 | |
+| THIRD | 2 | |
 

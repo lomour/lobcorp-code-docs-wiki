@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/DayUnitButtonButtonState
 public enum DayUnitButton.ButtonState
 ```
 
-## Fields
-### DISABLED
-```csharp
-DISABLED = 3
-```
-
-#### Field Value
-**Type:** Global.DayUnitButton.ButtonState
-
-### HIGHLIGHTED
-```csharp
-HIGHLIGHTED = 1
-```
-
-#### Field Value
-**Type:** Global.DayUnitButton.ButtonState
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.DayUnitButton.ButtonState
-
-### PRESSED
-```csharp
-PRESSED = 2
-```
-
-#### Field Value
-**Type:** Global.DayUnitButton.ButtonState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| HIGHLIGHTED | 1 | |
+| PRESSED | 2 | |
+| DISABLED | 3 | |
 

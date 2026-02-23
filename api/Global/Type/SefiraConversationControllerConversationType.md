@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/SefiraConversationControllerConversationType
 private enum SefiraConversationController.ConversationType
 ```
 
-## Fields
-### ALLDEAD
-```csharp
-ALLDEAD = 3
-```
-
-#### Field Value
-**Type:** Global.SefiraConversationController.ConversationType
-
-### DEAD
-```csharp
-DEAD = 1
-```
-
-#### Field Value
-**Type:** Global.SefiraConversationController.ConversationType
-
-### ESCAPE
-```csharp
-ESCAPE = 2
-```
-
-#### Field Value
-**Type:** Global.SefiraConversationController.ConversationType
-
-### PANIC
-```csharp
-PANIC = 0
-```
-
-#### Field Value
-**Type:** Global.SefiraConversationController.ConversationType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| PANIC | 0 | |
+| DEAD | 1 | |
+| ESCAPE | 2 | |
+| ALLDEAD | 3 | |
 

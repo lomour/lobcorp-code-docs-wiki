@@ -10,30 +10,9 @@ canonical_path: /api/BinahBoss/BinahActionState
 public enum BinahActionState
 ```
 
-## Fields
-### ENDED
-```csharp
-ENDED = 2
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahActionState
-
-### EXECUTE
-```csharp
-EXECUTE = 1
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahActionState
-
-### START
-```csharp
-START = 0
-```
-
-#### Field Value
-**Type:** BinahBoss.BinahActionState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| START | 0 | |
+| EXECUTE | 1 | |
+| ENDED | 2 | |
 

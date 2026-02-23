@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/StandingItemScriptBaseStandingItemState
 public enum StandingItemScriptBase.StandingItemState
 ```
 
-## Fields
-### BREAKDOWN
-```csharp
-BREAKDOWN = 1
-```
-
-#### Field Value
-**Type:** Global.StandingItemScriptBase.StandingItemState
-
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.StandingItemScriptBase.StandingItemState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| BREAKDOWN | 1 | |
 

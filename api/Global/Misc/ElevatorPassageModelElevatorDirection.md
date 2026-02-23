@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/ElevatorPassageModelElevatorDirection
 private enum ElevatorPassageModel.ElevatorDirection
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 2
-```
-
-#### Field Value
-**Type:** Global.ElevatorPassageModel.ElevatorDirection
-
-### STOP
-```csharp
-STOP = 0
-```
-
-#### Field Value
-**Type:** Global.ElevatorPassageModel.ElevatorDirection
-
-### UP
-```csharp
-UP = 1
-```
-
-#### Field Value
-**Type:** Global.ElevatorPassageModel.ElevatorDirection
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| STOP | 0 | |
+| UP | 1 | |
+| DOWN | 2 | |
 

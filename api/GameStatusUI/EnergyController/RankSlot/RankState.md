@@ -10,30 +10,9 @@ canonical_path: /api/GameStatusUI/EnergyController/RankSlot/RankState
 public enum EnergyController.RankSlot.RankState
 ```
 
-## Fields
-### CURRENT
-```csharp
-CURRENT = 1
-```
-
-#### Field Value
-**Type:** GameStatusUI.EnergyController.RankSlot.RankState
-
-### DISABLED
-```csharp
-DISABLED = 0
-```
-
-#### Field Value
-**Type:** GameStatusUI.EnergyController.RankSlot.RankState
-
-### NORMAL
-```csharp
-NORMAL = 2
-```
-
-#### Field Value
-**Type:** GameStatusUI.EnergyController.RankSlot.RankState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DISABLED | 0 | |
+| CURRENT | 1 | |
+| NORMAL | 2 | |
 

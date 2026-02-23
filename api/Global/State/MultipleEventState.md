@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/MultipleEventState
 public enum MultipleEvent.State
 ```
 
-## Fields
-### DISABLED
-```csharp
-DISABLED = 3
-```
-
-#### Field Value
-**Type:** Global.MultipleEvent.State
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.MultipleEvent.State
-
-### POINTER_CLICK
-```csharp
-POINTER_CLICK = 2
-```
-
-#### Field Value
-**Type:** Global.MultipleEvent.State
-
-### POINTER_ENTER
-```csharp
-POINTER_ENTER = 1
-```
-
-#### Field Value
-**Type:** Global.MultipleEvent.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| POINTER_ENTER | 1 | |
+| POINTER_CLICK | 2 | |
+| DISABLED | 3 | |
 

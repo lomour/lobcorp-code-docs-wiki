@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/WellcheersWellcheersColor
 private enum Wellcheers.WellcheersColor
 ```
 
-## Fields
-### BLUE
-```csharp
-BLUE = 1
-```
-
-#### Field Value
-**Type:** Global.Wellcheers.WellcheersColor
-
-### PURPLE
-```csharp
-PURPLE = 2
-```
-
-#### Field Value
-**Type:** Global.Wellcheers.WellcheersColor
-
-### RED
-```csharp
-RED = 0
-```
-
-#### Field Value
-**Type:** Global.Wellcheers.WellcheersColor
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| RED | 0 | |
+| BLUE | 1 | |
+| PURPLE | 2 | |
 

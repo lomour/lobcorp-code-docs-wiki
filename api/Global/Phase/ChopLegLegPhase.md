@@ -10,46 +10,11 @@ canonical_path: /api/Global/Phase/ChopLegLegPhase
 public enum ChopLeg.LegPhase
 ```
 
-## Fields
-### APPEAR
-```csharp
-APPEAR = 1
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegPhase
-
-### ATTACK
-```csharp
-ATTACK = 2
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegPhase
-
-### DISAPPEAR
-```csharp
-DISAPPEAR = 4
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegPhase
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegPhase
-
-### RETURN
-```csharp
-RETURN = 3
-```
-
-#### Field Value
-**Type:** Global.ChopLeg.LegPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| APPEAR | 1 | |
+| ATTACK | 2 | |
+| RETURN | 3 | |
+| DISAPPEAR | 4 | |
 

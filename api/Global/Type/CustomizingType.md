@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/CustomizingType
 public enum CustomizingType
 ```
 
-## Fields
-### GENERATE
-```csharp
-GENERATE = 0
-```
-
-#### Field Value
-**Type:** Global.CustomizingType
-
-### REVISE
-```csharp
-REVISE = 1
-```
-
-#### Field Value
-**Type:** Global.CustomizingType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| GENERATE | 0 | |
+| REVISE | 1 | |
 

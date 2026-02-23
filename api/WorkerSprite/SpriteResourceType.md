@@ -10,22 +10,8 @@ canonical_path: /api/WorkerSprite/SpriteResourceType
 public enum SpriteResourceType
 ```
 
-## Fields
-### ATLAS
-```csharp
-ATLAS = 0
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteResourceType
-
-### SPRITE
-```csharp
-SPRITE = 1
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteResourceType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ATLAS | 0 | |
+| SPRITE | 1 | |
 

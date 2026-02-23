@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/RandomEventBaseTypoType
 public enum RandomEventBase.TypoType
 ```
 
-## Fields
-### CLEAR
-```csharp
-CLEAR = 1
-```
-
-#### Field Value
-**Type:** Global.RandomEventBase.TypoType
-
-### MESSAGE
-```csharp
-MESSAGE = 2
-```
-
-#### Field Value
-**Type:** Global.RandomEventBase.TypoType
-
-### START
-```csharp
-START = 0
-```
-
-#### Field Value
-**Type:** Global.RandomEventBase.TypoType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| START | 0 | |
+| CLEAR | 1 | |
+| MESSAGE | 2 | |
 

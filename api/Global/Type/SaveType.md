@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/SaveType
 public enum SaveType
 ```
 
-## Fields
-### CHECK_POINT
-```csharp
-CHECK_POINT = 0
-```
-
-#### Field Value
-**Type:** Global.SaveType
-
-### LASTDAY
-```csharp
-LASTDAY = 1
-```
-
-#### Field Value
-**Type:** Global.SaveType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| CHECK_POINT | 0 | |
+| LASTDAY | 1 | |
 

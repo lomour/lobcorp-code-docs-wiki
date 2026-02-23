@@ -10,22 +10,8 @@ canonical_path: /api/Inventory/InventoryItemType
 public enum InventoryItemType
 ```
 
-## Fields
-### ARMOR
-```csharp
-ARMOR = 1
-```
-
-#### Field Value
-**Type:** Inventory.InventoryItemType
-
-### WEAPON
-```csharp
-WEAPON = 0
-```
-
-#### Field Value
-**Type:** Inventory.InventoryItemType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| WEAPON | 0 | |
+| ARMOR | 1 | |
 

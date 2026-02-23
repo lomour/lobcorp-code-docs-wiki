@@ -10,54 +10,12 @@ canonical_path: /api/Global/Phase/LongBirdBirdPhase
 public enum LongBird.BirdPhase
 ```
 
-## Fields
-### CASTING
-```csharp
-CASTING = 3
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-### CASTINGEND
-```csharp
-CASTINGEND = 4
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-### DEADSCENE
-```csharp
-DEADSCENE = 5
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-### MOVE_DEFAULT
-```csharp
-MOVE_DEFAULT = 1
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-### MOVE_TARGET
-```csharp
-MOVE_TARGET = 2
-```
-
-#### Field Value
-**Type:** Global.LongBird.BirdPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| MOVE_DEFAULT | 1 | |
+| MOVE_TARGET | 2 | |
+| CASTING | 3 | |
+| CASTINGEND | 4 | |
+| DEADSCENE | 5 | |
 

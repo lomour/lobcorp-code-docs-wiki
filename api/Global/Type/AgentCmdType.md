@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/AgentCmdType
 public enum AgentCmdType
 ```
 
-## Fields
-### MANAGE_CREATURE
-```csharp
-MANAGE_CREATURE = 3
-```
-
-#### Field Value
-**Type:** Global.AgentCmdType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.AgentCmdType
-
-### OBSERVE_CREATURE
-```csharp
-OBSERVE_CREATURE = 2
-```
-
-#### Field Value
-**Type:** Global.AgentCmdType
-
-### UNKNOWN
-```csharp
-UNKNOWN = 1
-```
-
-#### Field Value
-**Type:** Global.AgentCmdType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| UNKNOWN | 1 | |
+| OBSERVE_CREATURE | 2 | |
+| MANAGE_CREATURE | 3 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/WorkerSpine/WeaponType
 public enum WeaponType
 ```
 
-## Fields
-### ONE_HANDED
-```csharp
-ONE_HANDED = 0
-```
-
-#### Field Value
-**Type:** WorkerSpine.WeaponType
-
-### TWO_HANDED
-```csharp
-TWO_HANDED = 1
-```
-
-#### Field Value
-**Type:** WorkerSpine.WeaponType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ONE_HANDED | 0 | |
+| TWO_HANDED | 1 | |
 

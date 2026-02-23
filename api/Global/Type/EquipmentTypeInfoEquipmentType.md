@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/EquipmentTypeInfoEquipmentType
 public enum EquipmentTypeInfo.EquipmentType
 ```
 
-## Fields
-### ARMOR
-```csharp
-ARMOR = 1
-```
-
-#### Field Value
-**Type:** Global.EquipmentTypeInfo.EquipmentType
-
-### SPECIAL
-```csharp
-SPECIAL = 2
-```
-
-#### Field Value
-**Type:** Global.EquipmentTypeInfo.EquipmentType
-
-### WEAPON
-```csharp
-WEAPON = 0
-```
-
-#### Field Value
-**Type:** Global.EquipmentTypeInfo.EquipmentType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| WEAPON | 0 | |
+| ARMOR | 1 | |
+| SPECIAL | 2 | |
 

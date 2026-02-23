@@ -10,30 +10,9 @@ canonical_path: /api/Inventory/InventoryItemController/SlotState
 private enum InventoryItemController.SlotState
 ```
 
-## Fields
-### ADDED
-```csharp
-ADDED = 0
-```
-
-#### Field Value
-**Type:** Inventory.InventoryItemController.SlotState
-
-### BROKEN
-```csharp
-BROKEN = 2
-```
-
-#### Field Value
-**Type:** Inventory.InventoryItemController.SlotState
-
-### REDUCED
-```csharp
-REDUCED = 1
-```
-
-#### Field Value
-**Type:** Inventory.InventoryItemController.SlotState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ADDED | 0 | |
+| REDUCED | 1 | |
+| BROKEN | 2 | |
 

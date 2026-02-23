@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/GameFullScreenMode
 public enum GameFullScreenMode
 ```
 
-## Fields
-### FULLSCREEN_WINDOW
-```csharp
-FULLSCREEN_WINDOW = 1
-```
-
-#### Field Value
-**Type:** Global.GameFullScreenMode
-
-### WINDOW
-```csharp
-WINDOW = 0
-```
-
-#### Field Value
-**Type:** Global.GameFullScreenMode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| WINDOW | 0 | |
+| FULLSCREEN_WINDOW | 1 | |
 

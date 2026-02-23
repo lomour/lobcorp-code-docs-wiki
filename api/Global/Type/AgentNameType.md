@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/AgentNameType
 public enum AgentNameType
 ```
 
-## Fields
-### CREDIT
-```csharp
-CREDIT = 1
-```
-
-#### Field Value
-**Type:** Global.AgentNameType
-
-### CUSTOM
-```csharp
-CUSTOM = 2
-```
-
-#### Field Value
-**Type:** Global.AgentNameType
-
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.AgentNameType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| CREDIT | 1 | |
+| CUSTOM | 2 | |
 

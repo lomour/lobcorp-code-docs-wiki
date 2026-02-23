@@ -10,30 +10,9 @@ canonical_path: /api/Spine/Unity/SkeletonAnimator/MecanimTranslator/MixMode
 public enum SkeletonAnimator.MecanimTranslator.MixMode
 ```
 
-## Fields
-### AlwaysMix
-```csharp
-AlwaysMix = 0
-```
-
-#### Field Value
-**Type:** Spine.Unity.SkeletonAnimator.MecanimTranslator.MixMode
-
-### MixNext
-```csharp
-MixNext = 1
-```
-
-#### Field Value
-**Type:** Spine.Unity.SkeletonAnimator.MecanimTranslator.MixMode
-
-### SpineStyle
-```csharp
-SpineStyle = 2
-```
-
-#### Field Value
-**Type:** Spine.Unity.SkeletonAnimator.MecanimTranslator.MixMode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| AlwaysMix | 0 | |
+| MixNext | 1 | |
+| SpineStyle | 2 | |
 

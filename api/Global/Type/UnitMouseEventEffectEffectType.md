@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/UnitMouseEventEffectEffectType
 public enum UnitMouseEventEffect.EffectType
 ```
 
-## Fields
-### CLICK
-```csharp
-CLICK = 1
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectType
-
-### OVERLAY
-```csharp
-OVERLAY = 0
-```
-
-#### Field Value
-**Type:** Global.UnitMouseEventEffect.EffectType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| OVERLAY | 0 | |
+| CLICK | 1 | |
 

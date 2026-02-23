@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/EscapeMenuArrowUIArrowType
 public enum EscapeMenuArrowUI.ArrowType
 ```
 
-## Fields
-### CHECKPOINT
-```csharp
-CHECKPOINT = 2
-```
-
-#### Field Value
-**Type:** Global.EscapeMenuArrowUI.ArrowType
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.EscapeMenuArrowUI.ArrowType
-
-### RETRY
-```csharp
-RETRY = 1
-```
-
-#### Field Value
-**Type:** Global.EscapeMenuArrowUI.ArrowType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| RETRY | 1 | |
+| CHECKPOINT | 2 | |
 

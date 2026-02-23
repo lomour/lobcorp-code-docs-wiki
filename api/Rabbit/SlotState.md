@@ -10,30 +10,9 @@ canonical_path: /api/Rabbit/SlotState
 public enum SlotState
 ```
 
-## Fields
-### ACTIVATED
-```csharp
-ACTIVATED = 0
-```
-
-#### Field Value
-**Type:** Rabbit.SlotState
-
-### NOTAVAILABLE
-```csharp
-NOTAVAILABLE = 2
-```
-
-#### Field Value
-**Type:** Rabbit.SlotState
-
-### NOTOPENED
-```csharp
-NOTOPENED = 1
-```
-
-#### Field Value
-**Type:** Rabbit.SlotState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ACTIVATED | 0 | |
+| NOTOPENED | 1 | |
+| NOTAVAILABLE | 2 | |
 

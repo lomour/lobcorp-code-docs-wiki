@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/StandingCmdType
 public enum StandingCmdType
 ```
 
-## Fields
-### MOVE
-```csharp
-MOVE = 1
-```
-
-#### Field Value
-**Type:** Global.StandingCmdType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.StandingCmdType
-
-### STANDING
-```csharp
-STANDING = 2
-```
-
-#### Field Value
-**Type:** Global.StandingCmdType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| MOVE | 1 | |
+| STANDING | 2 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/BigBadWolfFilterType
 public enum BigBadWolf.FilterType
 ```
 
-## Fields
-### EAT
-```csharp
-EAT = 0
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.FilterType
-
-### VOMIT
-```csharp
-VOMIT = 1
-```
-
-#### Field Value
-**Type:** Global.BigBadWolf.FilterType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| EAT | 0 | |
+| VOMIT | 1 | |
 

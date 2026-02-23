@@ -10,38 +10,10 @@ canonical_path: /api/WhiteNightSpace/ApostleType
 public enum ApostleType
 ```
 
-## Fields
-### BETRAYER
-```csharp
-BETRAYER = 3
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleType
-
-### SCYTHE
-```csharp
-SCYTHE = 0
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleType
-
-### SPEAR
-```csharp
-SPEAR = 1
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleType
-
-### WAND
-```csharp
-WAND = 2
-```
-
-#### Field Value
-**Type:** WhiteNightSpace.ApostleType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SCYTHE | 0 | |
+| SPEAR | 1 | |
+| WAND | 2 | |
+| BETRAYER | 3 | |
 

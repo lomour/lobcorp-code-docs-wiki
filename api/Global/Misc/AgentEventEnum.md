@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/AgentEventEnum
 public enum AgentEventEnum
 ```
 
-## Fields
-### OnEnterRoom
-```csharp
-OnEnterRoom = 0
-```
-
-#### Field Value
-**Type:** Global.AgentEventEnum
-
-### OnExitRoom
-```csharp
-OnExitRoom = 1
-```
-
-#### Field Value
-**Type:** Global.AgentEventEnum
-
-### OnFinishWork
-```csharp
-OnFinishWork = 2
-```
-
-#### Field Value
-**Type:** Global.AgentEventEnum
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| OnEnterRoom | 0 | |
+| OnExitRoom | 1 | |
+| OnFinishWork | 2 | |
 

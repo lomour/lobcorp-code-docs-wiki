@@ -10,22 +10,8 @@ canonical_path: /api/Spine/PositionMode
 public enum PositionMode
 ```
 
-## Fields
-### Fixed
-```csharp
-Fixed = 0
-```
-
-#### Field Value
-**Type:** Spine.PositionMode
-
-### Percent
-```csharp
-Percent = 1
-```
-
-#### Field Value
-**Type:** Spine.PositionMode
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Fixed | 0 | |
+| Percent | 1 | |
 

@@ -10,54 +10,12 @@ canonical_path: /api/Global/State/BugMidnightAnimationState
 public enum BugMidnight.AnimationState
 ```
 
-## Fields
-### APPEAR
-```csharp
-APPEAR = 1
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-### DEAD
-```csharp
-DEAD = 4
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-### DEFAULT_UNDER
-```csharp
-DEFAULT_UNDER = 5
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-### DISAPPEAR
-```csharp
-DISAPPEAR = 2
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-### SPAWN
-```csharp
-SPAWN = 3
-```
-
-#### Field Value
-**Type:** Global.BugMidnight.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| APPEAR | 1 | |
+| DISAPPEAR | 2 | |
+| SPAWN | 3 | |
+| DEAD | 4 | |
+| DEFAULT_UNDER | 5 | |
 

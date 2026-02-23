@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/FloodTentacleTentacleType
 public enum FloodTentacle.TentacleType
 ```
 
-## Fields
-### A
-```csharp
-A = 0
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentacleType
-
-### B
-```csharp
-B = 1
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentacleType
-
-### C
-```csharp
-C = 2
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentacleType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| A | 0 | |
+| B | 1 | |
+| C | 2 | |
 

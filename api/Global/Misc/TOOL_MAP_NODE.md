@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/TOOLMAPNODE
 public enum TOOL_MAP_NODE
 ```
 
-## Fields
-### dept
-```csharp
-dept = 2
-```
-
-#### Field Value
-**Type:** Global.TOOL_MAP_NODE
-
-### none
-```csharp
-none = 0
-```
-
-#### Field Value
-**Type:** Global.TOOL_MAP_NODE
-
-### sefira
-```csharp
-sefira = 1
-```
-
-#### Field Value
-**Type:** Global.TOOL_MAP_NODE
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| none | 0 | |
+| sefira | 1 | |
+| dept | 2 | |
 

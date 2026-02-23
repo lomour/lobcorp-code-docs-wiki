@@ -10,54 +10,12 @@ canonical_path: /api/Global/Effect/StoryCGFadeEffect
 public enum StoryCGFadeEffect
 ```
 
-## Fields
-### BLINK
-```csharp
-BLINK = 3
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-### CLOCK
-```csharp
-CLOCK = 2
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-### FADE
-```csharp
-FADE = 4
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-### HORIZON
-```csharp
-HORIZON = 5
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-### NONE
-```csharp
-NONE = 1
-```
-
-#### Field Value
-**Type:** Global.StoryCGFadeEffect
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| NONE | 1 | |
+| CLOCK | 2 | |
+| BLINK | 3 | |
+| FADE | 4 | |
+| HORIZON | 5 | |
 

@@ -10,30 +10,9 @@ canonical_path: /api/Global/Phase/FloodTentacleTentaclePhase
 public enum FloodTentacle.TentaclePhase
 ```
 
-## Fields
-### ATTACK
-```csharp
-ATTACK = 2
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentaclePhase
-
-### DEAD
-```csharp
-DEAD = 0
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentaclePhase
-
-### IDLE
-```csharp
-IDLE = 1
-```
-
-#### Field Value
-**Type:** Global.FloodTentacle.TentaclePhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEAD | 0 | |
+| IDLE | 1 | |
+| ATTACK | 2 | |
 

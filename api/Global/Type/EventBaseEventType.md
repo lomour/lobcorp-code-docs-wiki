@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/EventBaseEventType
 public enum EventBase.EventType
 ```
 
-## Fields
-### BOSS_BIRD
-```csharp
-BOSS_BIRD = 1
-```
-
-#### Field Value
-**Type:** Global.EventBase.EventType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.EventBase.EventType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| BOSS_BIRD | 1 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/AudioRegion
 public enum AudioRegion
 ```
 
-## Fields
-### GLOBAL
-```csharp
-GLOBAL = 0
-```
-
-#### Field Value
-**Type:** Global.AudioRegion
-
-### LOCAL
-```csharp
-LOCAL = 1
-```
-
-#### Field Value
-**Type:** Global.AudioRegion
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| GLOBAL | 0 | |
+| LOCAL | 1 | |
 

@@ -10,62 +10,13 @@ canonical_path: /api/Global/State/BugDuskAnimationState
 public enum BugDusk.AnimationState
 ```
 
-## Fields
-### APPEAR
-```csharp
-APPEAR = 1
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### ATTACK
-```csharp
-ATTACK = 4
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### DEAD
-```csharp
-DEAD = 5
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### DISAPPEAR
-```csharp
-DISAPPEAR = 2
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### MADE_BY_THIRD
-```csharp
-MADE_BY_THIRD = 6
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### MOVE
-```csharp
-MOVE = 0
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-### SPAWN
-```csharp
-SPAWN = 3
-```
-
-#### Field Value
-**Type:** Global.BugDusk.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MOVE | 0 | |
+| APPEAR | 1 | |
+| DISAPPEAR | 2 | |
+| SPAWN | 3 | |
+| ATTACK | 4 | |
+| DEAD | 5 | |
+| MADE_BY_THIRD | 6 | |
 

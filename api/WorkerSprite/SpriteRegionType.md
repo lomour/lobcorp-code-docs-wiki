@@ -10,22 +10,8 @@ canonical_path: /api/WorkerSprite/SpriteRegionType
 public enum SpriteRegionType
 ```
 
-## Fields
-### BASIC
-```csharp
-BASIC = 0
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegionType
-
-### EQUIPMENT
-```csharp
-EQUIPMENT = 1
-```
-
-#### Field Value
-**Type:** WorkerSprite.SpriteRegionType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| BASIC | 0 | |
+| EQUIPMENT | 1 | |
 

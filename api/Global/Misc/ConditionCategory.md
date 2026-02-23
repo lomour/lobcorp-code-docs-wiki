@@ -10,46 +10,11 @@ canonical_path: /api/Global/Misc/ConditionCategory
 public enum ConditionCategory
 ```
 
-## Fields
-### ACTION_CONDITION
-```csharp
-ACTION_CONDITION = 4
-```
-
-#### Field Value
-**Type:** Global.ConditionCategory
-
-### AGENT_CONDITION
-```csharp
-AGENT_CONDITION = 1
-```
-
-#### Field Value
-**Type:** Global.ConditionCategory
-
-### CREATURE_CONDITION
-```csharp
-CREATURE_CONDITION = 2
-```
-
-#### Field Value
-**Type:** Global.ConditionCategory
-
-### FAIL_CONDITION
-```csharp
-FAIL_CONDITION = 3
-```
-
-#### Field Value
-**Type:** Global.ConditionCategory
-
-### WORK_CONDITION
-```csharp
-WORK_CONDITION = 0
-```
-
-#### Field Value
-**Type:** Global.ConditionCategory
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| WORK_CONDITION | 0 | |
+| AGENT_CONDITION | 1 | |
+| CREATURE_CONDITION | 2 | |
+| FAIL_CONDITION | 3 | |
+| ACTION_CONDITION | 4 | |
 

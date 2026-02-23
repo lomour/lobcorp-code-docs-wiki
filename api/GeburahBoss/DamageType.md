@@ -10,30 +10,9 @@ canonical_path: /api/GeburahBoss/DamageType
 public enum DamageType
 ```
 
-## Fields
-### PASSAGE
-```csharp
-PASSAGE = 0
-```
-
-#### Field Value
-**Type:** GeburahBoss.DamageType
-
-### PROJECTILE
-```csharp
-PROJECTILE = 2
-```
-
-#### Field Value
-**Type:** GeburahBoss.DamageType
-
-### RANGED
-```csharp
-RANGED = 1
-```
-
-#### Field Value
-**Type:** GeburahBoss.DamageType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| PASSAGE | 0 | |
+| RANGED | 1 | |
+| PROJECTILE | 2 | |
 

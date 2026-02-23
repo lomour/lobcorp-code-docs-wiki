@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/BossBirdAnimNarrationUINarrationDisplayState
 public enum BossBirdAnim.NarrationUI.NarrationDisplayState
 ```
 
-## Fields
-### DISPLAY
-```csharp
-DISPLAY = 1
-```
-
-#### Field Value
-**Type:** Global.BossBirdAnim.NarrationUI.NarrationDisplayState
-
-### FADEIN
-```csharp
-FADEIN = 0
-```
-
-#### Field Value
-**Type:** Global.BossBirdAnim.NarrationUI.NarrationDisplayState
-
-### FADEOUT
-```csharp
-FADEOUT = 2
-```
-
-#### Field Value
-**Type:** Global.BossBirdAnim.NarrationUI.NarrationDisplayState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FADEIN | 0 | |
+| DISPLAY | 1 | |
+| FADEOUT | 2 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/DeployAgentListAgentSortDataMainSortType
 public enum DeployAgentList.AgentSortData.MainSortType
 ```
 
-## Fields
-### GENDER
-```csharp
-GENDER = 1
-```
-
-#### Field Value
-**Type:** Global.DeployAgentList.AgentSortData.MainSortType
-
-### VALUE
-```csharp
-VALUE = 0
-```
-
-#### Field Value
-**Type:** Global.DeployAgentList.AgentSortData.MainSortType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| VALUE | 0 | |
+| GENDER | 1 | |
 

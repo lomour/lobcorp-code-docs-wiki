@@ -10,38 +10,10 @@ canonical_path: /api/Global/State/RedHoodRedHoodState
 public enum RedHood.RedHoodState
 ```
 
-## Fields
-### ESCAPE
-```csharp
-ESCAPE = 3
-```
-
-#### Field Value
-**Type:** Global.RedHood.RedHoodState
-
-### HUNTING
-```csharp
-HUNTING = 1
-```
-
-#### Field Value
-**Type:** Global.RedHood.RedHoodState
-
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.RedHood.RedHoodState
-
-### RAMPAGE
-```csharp
-RAMPAGE = 2
-```
-
-#### Field Value
-**Type:** Global.RedHood.RedHoodState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| HUNTING | 1 | |
+| RAMPAGE | 2 | |
+| ESCAPE | 3 | |
 

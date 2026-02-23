@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/ManageWorkIconState
 public enum ManageWorkIconState
 ```
 
-## Fields
-### BLACK
-```csharp
-BLACK = 2
-```
-
-#### Field Value
-**Type:** Global.ManageWorkIconState
-
-### COLOR
-```csharp
-COLOR = 0
-```
-
-#### Field Value
-**Type:** Global.ManageWorkIconState
-
-### DEFAULT
-```csharp
-DEFAULT = 1
-```
-
-#### Field Value
-**Type:** Global.ManageWorkIconState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| COLOR | 0 | |
+| DEFAULT | 1 | |
+| BLACK | 2 | |
 

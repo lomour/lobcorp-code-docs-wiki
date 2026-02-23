@@ -10,22 +10,8 @@ canonical_path: /api/Credit/CreditConversationController/FadeType
 public enum CreditConversationController.FadeType
 ```
 
-## Fields
-### IN
-```csharp
-IN = 0
-```
-
-#### Field Value
-**Type:** Credit.CreditConversationController.FadeType
-
-### OUT
-```csharp
-OUT = 1
-```
-
-#### Field Value
-**Type:** Credit.CreditConversationController.FadeType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IN | 0 | |
+| OUT | 1 | |
 

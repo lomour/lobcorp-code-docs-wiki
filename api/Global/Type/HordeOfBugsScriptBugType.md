@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/HordeOfBugsScriptBugType
 public enum HordeOfBugsScript.BugType
 ```
 
-## Fields
-### DAUGHTER
-```csharp
-DAUGHTER = 2
-```
-
-#### Field Value
-**Type:** Global.HordeOfBugsScript.BugType
-
-### GRANDMA
-```csharp
-GRANDMA = 0
-```
-
-#### Field Value
-**Type:** Global.HordeOfBugsScript.BugType
-
-### MOTHER
-```csharp
-MOTHER = 1
-```
-
-#### Field Value
-**Type:** Global.HordeOfBugsScript.BugType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| GRANDMA | 0 | |
+| MOTHER | 1 | |
+| DAUGHTER | 2 | |
 

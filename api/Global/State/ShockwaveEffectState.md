@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/ShockwaveEffectState
 private enum ShockwaveEffect.State
 ```
 
-## Fields
-### Explode
-```csharp
-Explode = 2
-```
-
-#### Field Value
-**Type:** Global.ShockwaveEffect.State
-
-### Implode
-```csharp
-Implode = 1
-```
-
-#### Field Value
-**Type:** Global.ShockwaveEffect.State
-
-### Pause
-```csharp
-Pause = 0
-```
-
-#### Field Value
-**Type:** Global.ShockwaveEffect.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Pause | 0 | |
+| Implode | 1 | |
+| Explode | 2 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Assets/Scripts/UI/Isolate/DescPos
 public enum DescPos
 ```
 
-## Fields
-### LEFT
-```csharp
-LEFT = 0
-```
-
-#### Field Value
-**Type:** Assets.Scripts.UI.Isolate.DescPos
-
-### RIGHT
-```csharp
-RIGHT = 1
-```
-
-#### Field Value
-**Type:** Assets.Scripts.UI.Isolate.DescPos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LEFT | 0 | |
+| RIGHT | 1 | |
 

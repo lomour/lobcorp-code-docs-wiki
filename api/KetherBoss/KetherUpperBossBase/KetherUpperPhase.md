@@ -10,30 +10,9 @@ canonical_path: /api/KetherBoss/KetherUpperBossBase/KetherUpperPhase
 public enum KetherUpperBossBase.KetherUpperPhase
 ```
 
-## Fields
-### FIRST
-```csharp
-FIRST = 0
-```
-
-#### Field Value
-**Type:** KetherBoss.KetherUpperBossBase.KetherUpperPhase
-
-### SECOND
-```csharp
-SECOND = 1
-```
-
-#### Field Value
-**Type:** KetherBoss.KetherUpperBossBase.KetherUpperPhase
-
-### THIRD
-```csharp
-THIRD = 2
-```
-
-#### Field Value
-**Type:** KetherBoss.KetherUpperBossBase.KetherUpperPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FIRST | 0 | |
+| SECOND | 1 | |
+| THIRD | 2 | |
 

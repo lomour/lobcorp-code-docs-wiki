@@ -10,54 +10,12 @@ canonical_path: /api/Global/Creature/CreatureFeelingPreferScriptFeelingPrefer
 public enum CreatureFeelingPreferScript.FeelingPrefer
 ```
 
-## Fields
-### BAD
-```csharp
-BAD = 3
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-### DUMMY
-```csharp
-DUMMY = 5
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-### GOOD
-```csharp
-GOOD = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-### NORMAL
-```csharp
-NORMAL = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-### VERYBAD
-```csharp
-VERYBAD = 4
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-### VERYGOOD
-```csharp
-VERYGOOD = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureFeelingPreferScript.FeelingPrefer
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| VERYGOOD | 0 | |
+| GOOD | 1 | |
+| NORMAL | 2 | |
+| BAD | 3 | |
+| VERYBAD | 4 | |
+| DUMMY | 5 | |
 

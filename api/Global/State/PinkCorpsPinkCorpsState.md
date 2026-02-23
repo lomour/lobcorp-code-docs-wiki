@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/PinkCorpsPinkCorpsState
 public enum PinkCorps.PinkCorpsState
 ```
 
-## Fields
-### Black
-```csharp
-Black = 1
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.PinkCorpsState
-
-### Pink
-```csharp
-Pink = 0
-```
-
-#### Field Value
-**Type:** Global.PinkCorps.PinkCorpsState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Pink | 0 | |
+| Black | 1 | |
 

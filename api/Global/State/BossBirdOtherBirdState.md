@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/BossBirdOtherBirdState
 public enum BossBird.OtherBirdState
 ```
 
-## Fields
-### MOVETOGATE
-```csharp
-MOVETOGATE = 1
-```
-
-#### Field Value
-**Type:** Global.BossBird.OtherBirdState
-
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.BossBird.OtherBirdState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| MOVETOGATE | 1 | |
 

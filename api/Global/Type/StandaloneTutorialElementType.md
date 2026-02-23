@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/StandaloneTutorialElementType
 public enum StandaloneTutorialElementType
 ```
 
-## Fields
-### PROMOTION
-```csharp
-PROMOTION = 0
-```
-
-#### Field Value
-**Type:** Global.StandaloneTutorialElementType
-
-### SUPPRESS
-```csharp
-SUPPRESS = 1
-```
-
-#### Field Value
-**Type:** Global.StandaloneTutorialElementType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| PROMOTION | 0 | |
+| SUPPRESS | 1 | |
 

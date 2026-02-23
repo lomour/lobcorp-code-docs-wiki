@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/TOOLMAPEDGE
 public enum TOOL_MAP_EDGE
 ```
 
-## Fields
-### door
-```csharp
-door = 0
-```
-
-#### Field Value
-**Type:** Global.TOOL_MAP_EDGE
-
-### road
-```csharp
-road = 1
-```
-
-#### Field Value
-**Type:** Global.TOOL_MAP_EDGE
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| door | 0 | |
+| road | 1 | |
 

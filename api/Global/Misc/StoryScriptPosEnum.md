@@ -10,86 +10,16 @@ canonical_path: /api/Global/Misc/StoryScriptPosEnum
 public enum StoryScriptPosEnum
 ```
 
-## Fields
-### CENTER
-```csharp
-CENTER = 5
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### LEFT
-```csharp
-LEFT = 3
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### LEFT_FULL
-```csharp
-LEFT_FULL = 1
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### LEFT_MORE
-```csharp
-LEFT_MORE = 2
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### LEFT_NEAR
-```csharp
-LEFT_NEAR = 4
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### RIGHT
-```csharp
-RIGHT = 8
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### RIGHT_FULL
-```csharp
-RIGHT_FULL = 6
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### RIGHT_MORE
-```csharp
-RIGHT_MORE = 7
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-### RIGHT_NEAR
-```csharp
-RIGHT_NEAR = 9
-```
-
-#### Field Value
-**Type:** Global.StoryScriptPosEnum
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| LEFT_FULL | 1 | |
+| LEFT_MORE | 2 | |
+| LEFT | 3 | |
+| LEFT_NEAR | 4 | |
+| CENTER | 5 | |
+| RIGHT_FULL | 6 | |
+| RIGHT_MORE | 7 | |
+| RIGHT | 8 | |
+| RIGHT_NEAR | 9 | |
 

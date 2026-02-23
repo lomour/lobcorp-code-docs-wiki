@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/SlimeGirlState
 public enum SlimeGirl.State
 ```
 
-## Fields
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.State
-
-### ENRAGE
-```csharp
-ENRAGE = 1
-```
-
-#### Field Value
-**Type:** Global.SlimeGirl.State
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| ENRAGE | 1 | |
 

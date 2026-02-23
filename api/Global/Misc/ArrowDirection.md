@@ -10,38 +10,10 @@ canonical_path: /api/Global/Misc/ArrowDirection
 public enum ArrowDirection
 ```
 
-## Fields
-### DOWN
-```csharp
-DOWN = 3
-```
-
-#### Field Value
-**Type:** Global.ArrowDirection
-
-### LEFT
-```csharp
-LEFT = 1
-```
-
-#### Field Value
-**Type:** Global.ArrowDirection
-
-### RIGHT
-```csharp
-RIGHT = 0
-```
-
-#### Field Value
-**Type:** Global.ArrowDirection
-
-### UP
-```csharp
-UP = 2
-```
-
-#### Field Value
-**Type:** Global.ArrowDirection
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| RIGHT | 0 | |
+| LEFT | 1 | |
+| UP | 2 | |
+| DOWN | 3 | |
 

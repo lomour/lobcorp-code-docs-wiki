@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/EgoRequireType
 public enum EgoRequireType
 ```
 
-## Fields
-### B
-```csharp
-B = 3
-```
-
-#### Field Value
-**Type:** Global.EgoRequireType
-
-### level
-```csharp
-level = 0
-```
-
-#### Field Value
-**Type:** Global.EgoRequireType
-
-### P
-```csharp
-P = 4
-```
-
-#### Field Value
-**Type:** Global.EgoRequireType
-
-### R
-```csharp
-R = 1
-```
-
-#### Field Value
-**Type:** Global.EgoRequireType
-
-### W
-```csharp
-W = 2
-```
-
-#### Field Value
-**Type:** Global.EgoRequireType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| level | 0 | |
+| R | 1 | |
+| W | 2 | |
+| B | 3 | |
+| P | 4 | |
 

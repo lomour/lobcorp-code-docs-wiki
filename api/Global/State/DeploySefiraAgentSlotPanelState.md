@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/DeploySefiraAgentSlotPanelState
 public enum DeploySefiraAgentSlot.PanelState
 ```
 
-## Fields
-### EMPTY
-```csharp
-EMPTY = 1
-```
-
-#### Field Value
-**Type:** Global.DeploySefiraAgentSlot.PanelState
-
-### FILLED
-```csharp
-FILLED = 0
-```
-
-#### Field Value
-**Type:** Global.DeploySefiraAgentSlot.PanelState
-
-### LOCKED
-```csharp
-LOCKED = 2
-```
-
-#### Field Value
-**Type:** Global.DeploySefiraAgentSlot.PanelState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FILLED | 0 | |
+| EMPTY | 1 | |
+| LOCKED | 2 | |
 

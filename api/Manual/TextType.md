@@ -10,22 +10,8 @@ canonical_path: /api/Manual/TextType
 public enum TextType
 ```
 
-## Fields
-### TEXT
-```csharp
-TEXT = 0
-```
-
-#### Field Value
-**Type:** Manual.TextType
-
-### TITLE
-```csharp
-TITLE = 1
-```
-
-#### Field Value
-**Type:** Manual.TextType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| TEXT | 0 | |
+| TITLE | 1 | |
 

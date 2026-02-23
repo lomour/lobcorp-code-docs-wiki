@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/UIEffectType
 public enum UIEffectType
 ```
 
-## Fields
-### DISPLAY
-```csharp
-DISPLAY = 2
-```
-
-#### Field Value
-**Type:** Global.UIEffectType
-
-### DUMMY
-```csharp
-DUMMY = 3
-```
-
-#### Field Value
-**Type:** Global.UIEffectType
-
-### FADE
-```csharp
-FADE = 1
-```
-
-#### Field Value
-**Type:** Global.UIEffectType
-
-### FLASH
-```csharp
-FLASH = 0
-```
-
-#### Field Value
-**Type:** Global.UIEffectType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| FLASH | 0 | |
+| FADE | 1 | |
+| DISPLAY | 2 | |
+| DUMMY | 3 | |
 

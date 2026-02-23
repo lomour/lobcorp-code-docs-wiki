@@ -10,30 +10,9 @@ canonical_path: /api/Credit/CreditSectionType
 public enum CreditSectionType
 ```
 
-## Fields
-### MAIN
-```csharp
-MAIN = 0
-```
-
-#### Field Value
-**Type:** Credit.CreditSectionType
-
-### SPECIAL
-```csharp
-SPECIAL = 2
-```
-
-#### Field Value
-**Type:** Credit.CreditSectionType
-
-### SUPPORT
-```csharp
-SUPPORT = 1
-```
-
-#### Field Value
-**Type:** Credit.CreditSectionType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MAIN | 0 | |
+| SUPPORT | 1 | |
+| SPECIAL | 2 | |
 

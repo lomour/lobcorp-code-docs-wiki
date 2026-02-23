@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/CreatureKitType
 public enum CreatureKitType
 ```
 
-## Fields
-### CHANNEL
-```csharp
-CHANNEL = 2
-```
-
-#### Field Value
-**Type:** Global.CreatureKitType
-
-### EQUIP
-```csharp
-EQUIP = 1
-```
-
-#### Field Value
-**Type:** Global.CreatureKitType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.CreatureKitType
-
-### ONESHOT
-```csharp
-ONESHOT = 3
-```
-
-#### Field Value
-**Type:** Global.CreatureKitType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| EQUIP | 1 | |
+| CHANNEL | 2 | |
+| ONESHOT | 3 | |
 

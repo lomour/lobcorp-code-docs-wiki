@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/AudioSliderType
 public enum AudioSliderType
 ```
 
-## Fields
-### BGM
-```csharp
-BGM = 1
-```
-
-#### Field Value
-**Type:** Global.AudioSliderType
-
-### MASTER
-```csharp
-MASTER = 0
-```
-
-#### Field Value
-**Type:** Global.AudioSliderType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MASTER | 0 | |
+| BGM | 1 | |
 

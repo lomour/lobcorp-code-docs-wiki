@@ -10,30 +10,9 @@ canonical_path: /api/Global/Action/UIControllerOnHideAction
 public enum UIController.OnHideAction
 ```
 
-## Fields
-### Destory
-```csharp
-Destory = 2
-```
-
-#### Field Value
-**Type:** Global.UIController.OnHideAction
-
-### Disable
-```csharp
-Disable = 1
-```
-
-#### Field Value
-**Type:** Global.UIController.OnHideAction
-
-### None
-```csharp
-None = 0
-```
-
-#### Field Value
-**Type:** Global.UIController.OnHideAction
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| None | 0 | |
+| Disable | 1 | |
+| Destory | 2 | |
 

@@ -10,62 +10,13 @@ canonical_path: /api/Spine/Format
 public enum Format
 ```
 
-## Fields
-### Alpha
-```csharp
-Alpha = 0
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### Intensity
-```csharp
-Intensity = 1
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### LuminanceAlpha
-```csharp
-LuminanceAlpha = 2
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### RGB565
-```csharp
-RGB565 = 3
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### RGB888
-```csharp
-RGB888 = 5
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### RGBA4444
-```csharp
-RGBA4444 = 4
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-### RGBA8888
-```csharp
-RGBA8888 = 6
-```
-
-#### Field Value
-**Type:** Spine.Format
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Alpha | 0 | |
+| Intensity | 1 | |
+| LuminanceAlpha | 2 | |
+| RGB565 | 3 | |
+| RGBA4444 | 4 | |
+| RGB888 | 5 | |
+| RGBA8888 | 6 | |
 

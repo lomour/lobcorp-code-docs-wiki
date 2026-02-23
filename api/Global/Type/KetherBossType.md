@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/KetherBossType
 public enum KetherBossType
 ```
 
-## Fields
-### E0
-```csharp
-E0 = 0
-```
-
-#### Field Value
-**Type:** Global.KetherBossType
-
-### E1
-```csharp
-E1 = 1
-```
-
-#### Field Value
-**Type:** Global.KetherBossType
-
-### E2
-```csharp
-E2 = 2
-```
-
-#### Field Value
-**Type:** Global.KetherBossType
-
-### E3
-```csharp
-E3 = 3
-```
-
-#### Field Value
-**Type:** Global.KetherBossType
-
-### E4
-```csharp
-E4 = 4
-```
-
-#### Field Value
-**Type:** Global.KetherBossType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| E0 | 0 | |
+| E1 | 1 | |
+| E2 | 2 | |
+| E3 | 3 | |
+| E4 | 4 | |
 

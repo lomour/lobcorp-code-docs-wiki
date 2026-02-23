@@ -10,46 +10,11 @@ canonical_path: /api/Global/Misc/ActivatableObjectPos
 public enum ActivatableObjectPos
 ```
 
-## Fields
-### ISOLATE
-```csharp
-ISOLATE = 4
-```
-
-#### Field Value
-**Type:** Global.ActivatableObjectPos
-
-### LEFTLOWER
-```csharp
-LEFTLOWER = 3
-```
-
-#### Field Value
-**Type:** Global.ActivatableObjectPos
-
-### LEFTUPPER
-```csharp
-LEFTUPPER = 1
-```
-
-#### Field Value
-**Type:** Global.ActivatableObjectPos
-
-### RIGHTLOWER
-```csharp
-RIGHTLOWER = 2
-```
-
-#### Field Value
-**Type:** Global.ActivatableObjectPos
-
-### RIGHTUPPER
-```csharp
-RIGHTUPPER = 0
-```
-
-#### Field Value
-**Type:** Global.ActivatableObjectPos
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| RIGHTUPPER | 0 | |
+| LEFTUPPER | 1 | |
+| RIGHTLOWER | 2 | |
+| LEFTLOWER | 3 | |
+| ISOLATE | 4 | |
 

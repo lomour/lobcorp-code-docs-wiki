@@ -10,14 +10,7 @@ canonical_path: /api/Global/Type/SefiraBossCloseEffectType
 public enum SefiraBossCloseEffectType
 ```
 
-## Fields
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.SefiraBossCloseEffectType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
 

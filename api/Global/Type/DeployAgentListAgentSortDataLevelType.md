@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/DeployAgentListAgentSortDataLevelType
 public enum DeployAgentList.AgentSortData.LevelType
 ```
 
-## Fields
-### ASCENDING
-```csharp
-ASCENDING = 1
-```
-
-#### Field Value
-**Type:** Global.DeployAgentList.AgentSortData.LevelType
-
-### DESCENDING
-```csharp
-DESCENDING = 0
-```
-
-#### Field Value
-**Type:** Global.DeployAgentList.AgentSortData.LevelType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DESCENDING | 0 | |
+| ASCENDING | 1 | |
 

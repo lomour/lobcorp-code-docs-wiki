@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/OverloadType
 public enum OverloadType
 ```
 
-## Fields
-### BLACKFOG
-```csharp
-BLACKFOG = 2
-```
-
-#### Field Value
-**Type:** Global.OverloadType
-
-### COLUMN
-```csharp
-COLUMN = 4
-```
-
-#### Field Value
-**Type:** Global.OverloadType
-
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.OverloadType
-
-### GOLDEN
-```csharp
-GOLDEN = 1
-```
-
-#### Field Value
-**Type:** Global.OverloadType
-
-### WAVE
-```csharp
-WAVE = 3
-```
-
-#### Field Value
-**Type:** Global.OverloadType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| GOLDEN | 1 | |
+| BLACKFOG | 2 | |
+| WAVE | 3 | |
+| COLUMN | 4 | |
 

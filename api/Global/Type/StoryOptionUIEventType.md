@@ -10,30 +10,9 @@ canonical_path: /api/Global/Type/StoryOptionUIEventType
 public enum StoryOptionUI.EventType
 ```
 
-## Fields
-### LOG
-```csharp
-LOG = 0
-```
-
-#### Field Value
-**Type:** Global.StoryOptionUI.EventType
-
-### SEFIRA
-```csharp
-SEFIRA = 2
-```
-
-#### Field Value
-**Type:** Global.StoryOptionUI.EventType
-
-### SETTING
-```csharp
-SETTING = 1
-```
-
-#### Field Value
-**Type:** Global.StoryOptionUI.EventType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| LOG | 0 | |
+| SETTING | 1 | |
+| SEFIRA | 2 | |
 

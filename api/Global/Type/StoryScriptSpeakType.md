@@ -10,22 +10,8 @@ canonical_path: /api/Global/Type/StoryScriptSpeakType
 public enum StoryScriptSpeakType
 ```
 
-## Fields
-### AUTO
-```csharp
-AUTO = 1
-```
-
-#### Field Value
-**Type:** Global.StoryScriptSpeakType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Global.StoryScriptSpeakType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| AUTO | 1 | |
 

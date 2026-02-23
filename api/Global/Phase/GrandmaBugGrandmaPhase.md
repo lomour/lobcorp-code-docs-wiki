@@ -10,30 +10,9 @@ canonical_path: /api/Global/Phase/GrandmaBugGrandmaPhase
 public enum GrandmaBug.GrandmaPhase
 ```
 
-## Fields
-### Default
-```csharp
-Default = 0
-```
-
-#### Field Value
-**Type:** Global.GrandmaBug.GrandmaPhase
-
-### ReadyToTeleport
-```csharp
-ReadyToTeleport = 1
-```
-
-#### Field Value
-**Type:** Global.GrandmaBug.GrandmaPhase
-
-### Teleporting
-```csharp
-Teleporting = 2
-```
-
-#### Field Value
-**Type:** Global.GrandmaBug.GrandmaPhase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Default | 0 | |
+| ReadyToTeleport | 1 | |
+| Teleporting | 2 | |
 

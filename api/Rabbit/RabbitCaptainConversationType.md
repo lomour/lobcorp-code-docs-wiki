@@ -10,46 +10,11 @@ canonical_path: /api/Rabbit/RabbitCaptainConversationType
 public enum RabbitCaptainConversationType
 ```
 
-## Fields
-### ALLDEAD
-```csharp
-ALLDEAD = 3
-```
-
-#### Field Value
-**Type:** Rabbit.RabbitCaptainConversationType
-
-### ALMOST
-```csharp
-ALMOST = 2
-```
-
-#### Field Value
-**Type:** Rabbit.RabbitCaptainConversationType
-
-### CLEARED
-```csharp
-CLEARED = 4
-```
-
-#### Field Value
-**Type:** Rabbit.RabbitCaptainConversationType
-
-### HALF
-```csharp
-HALF = 1
-```
-
-#### Field Value
-**Type:** Rabbit.RabbitCaptainConversationType
-
-### START
-```csharp
-START = 0
-```
-
-#### Field Value
-**Type:** Rabbit.RabbitCaptainConversationType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| START | 0 | |
+| HALF | 1 | |
+| ALMOST | 2 | |
+| ALLDEAD | 3 | |
+| CLEARED | 4 | |
 

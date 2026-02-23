@@ -10,22 +10,8 @@ canonical_path: /api/Global/Phase/FixerPalePhase
 private enum FixerPale.Phase
 ```
 
-## Fields
-### DEFAULT
-```csharp
-DEFAULT = 0
-```
-
-#### Field Value
-**Type:** Global.FixerPale.Phase
-
-### TELEPORTING
-```csharp
-TELEPORTING = 1
-```
-
-#### Field Value
-**Type:** Global.FixerPale.Phase
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| DEFAULT | 0 | |
+| TELEPORTING | 1 | |
 

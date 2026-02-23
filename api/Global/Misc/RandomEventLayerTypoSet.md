@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/RandomEventLayerTypoSet
 public enum RandomEventLayer.TypoSet
 ```
 
-## Fields
-### EVENT
-```csharp
-EVENT = 1
-```
-
-#### Field Value
-**Type:** Global.RandomEventLayer.TypoSet
-
-### TIME
-```csharp
-TIME = 0
-```
-
-#### Field Value
-**Type:** Global.RandomEventLayer.TypoSet
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| TIME | 0 | |
+| EVENT | 1 | |
 

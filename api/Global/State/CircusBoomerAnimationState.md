@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/CircusBoomerAnimationState
 public enum CircusBoomer.AnimationState
 ```
 
-## Fields
-### BOMB
-```csharp
-BOMB = 2
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.AnimationState
-
-### HIT
-```csharp
-HIT = 0
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.AnimationState
-
-### MOVE
-```csharp
-MOVE = 1
-```
-
-#### Field Value
-**Type:** Global.CircusBoomer.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| HIT | 0 | |
+| MOVE | 1 | |
+| BOMB | 2 | |
 

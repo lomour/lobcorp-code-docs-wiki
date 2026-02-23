@@ -10,38 +10,10 @@ canonical_path: /api/Global/Worker/WorkerClass
 public enum WorkerClass
 ```
 
-## Fields
-### AGENT
-```csharp
-AGENT = 1
-```
-
-#### Field Value
-**Type:** Global.WorkerClass
-
-### AUTO_WORKER
-```csharp
-AUTO_WORKER = 3
-```
-
-#### Field Value
-**Type:** Global.WorkerClass
-
-### OFFICER
-```csharp
-OFFICER = 2
-```
-
-#### Field Value
-**Type:** Global.WorkerClass
-
-### UNKNOWN
-```csharp
-UNKNOWN = 0
-```
-
-#### Field Value
-**Type:** Global.WorkerClass
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| UNKNOWN | 0 | |
+| AGENT | 1 | |
+| OFFICER | 2 | |
+| AUTO_WORKER | 3 | |
 

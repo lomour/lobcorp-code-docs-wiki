@@ -10,46 +10,11 @@ canonical_path: /api/Global/State/TutorialState
 public enum TutorialState
 ```
 
-## Fields
-### ENDED
-```csharp
-ENDED = 4
-```
-
-#### Field Value
-**Type:** Global.TutorialState
-
-### PLAYING_MANAGE
-```csharp
-PLAYING_MANAGE = 3
-```
-
-#### Field Value
-**Type:** Global.TutorialState
-
-### PLAYING_UI
-```csharp
-PLAYING_UI = 2
-```
-
-#### Field Value
-**Type:** Global.TutorialState
-
-### READY
-```csharp
-READY = 1
-```
-
-#### Field Value
-**Type:** Global.TutorialState
-
-### SKIPPED
-```csharp
-SKIPPED = 0
-```
-
-#### Field Value
-**Type:** Global.TutorialState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| SKIPPED | 0 | |
+| READY | 1 | |
+| PLAYING_UI | 2 | |
+| PLAYING_MANAGE | 3 | |
+| ENDED | 4 | |
 

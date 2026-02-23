@@ -10,30 +10,9 @@ canonical_path: /api/Global/Misc/SmallBirdAttackPattern
 private enum SmallBird.AttackPattern
 ```
 
-## Fields
-### MAD
-```csharp
-MAD = 2
-```
-
-#### Field Value
-**Type:** Global.SmallBird.AttackPattern
-
-### MENTAL_HEAL
-```csharp
-MENTAL_HEAL = 0
-```
-
-#### Field Value
-**Type:** Global.SmallBird.AttackPattern
-
-### NORMAL
-```csharp
-NORMAL = 1
-```
-
-#### Field Value
-**Type:** Global.SmallBird.AttackPattern
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| MENTAL_HEAL | 0 | |
+| NORMAL | 1 | |
+| MAD | 2 | |
 

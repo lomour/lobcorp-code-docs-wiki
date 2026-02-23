@@ -10,14 +10,7 @@ canonical_path: /api/Global/Type/HitType
 public enum HitType
 ```
 
-## Fields
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.HitType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
 

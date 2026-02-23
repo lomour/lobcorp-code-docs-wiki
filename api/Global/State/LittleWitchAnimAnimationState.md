@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/LittleWitchAnimAnimationState
 public enum LittleWitchAnim.AnimationState
 ```
 
-## Fields
-### IDLE
-```csharp
-IDLE = 0
-```
-
-#### Field Value
-**Type:** Global.LittleWitchAnim.AnimationState
-
-### SKILL
-```csharp
-SKILL = 2
-```
-
-#### Field Value
-**Type:** Global.LittleWitchAnim.AnimationState
-
-### WORK
-```csharp
-WORK = 1
-```
-
-#### Field Value
-**Type:** Global.LittleWitchAnim.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| IDLE | 0 | |
+| WORK | 1 | |
+| SKILL | 2 | |
 

@@ -10,22 +10,8 @@ canonical_path: /api/Global/Misc/MagicalGirl2WeaponATTACKPATTERN
 private enum MagicalGirl_2Weapon.ATTACK_PATTERN
 ```
 
-## Fields
-### NORMAL
-```csharp
-NORMAL = 0
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl_2Weapon.ATTACK_PATTERN
-
-### SPECIAL
-```csharp
-SPECIAL = 1
-```
-
-#### Field Value
-**Type:** Global.MagicalGirl_2Weapon.ATTACK_PATTERN
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NORMAL | 0 | |
+| SPECIAL | 1 | |
 

@@ -10,46 +10,11 @@ canonical_path: /api/Global/Type/BigBadWolfSenseUnitType
 public enum BigBadWolfSense.UnitType
 ```
 
-## Fields
-### AGENT
-```csharp
-AGENT = 0
-```
-
-#### Field Value
-**Type:** Global.BigBadWolfSense.UnitType
-
-### CHILDCREATURE
-```csharp
-CHILDCREATURE = 3
-```
-
-#### Field Value
-**Type:** Global.BigBadWolfSense.UnitType
-
-### CREATURE
-```csharp
-CREATURE = 2
-```
-
-#### Field Value
-**Type:** Global.BigBadWolfSense.UnitType
-
-### NONE
-```csharp
-NONE = 4
-```
-
-#### Field Value
-**Type:** Global.BigBadWolfSense.UnitType
-
-### OFFICER
-```csharp
-OFFICER = 1
-```
-
-#### Field Value
-**Type:** Global.BigBadWolfSense.UnitType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| AGENT | 0 | |
+| OFFICER | 1 | |
+| CREATURE | 2 | |
+| CHILDCREATURE | 3 | |
+| NONE | 4 | |
 

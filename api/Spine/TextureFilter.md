@@ -10,62 +10,13 @@ canonical_path: /api/Spine/TextureFilter
 public enum TextureFilter
 ```
 
-## Fields
-### Linear
-```csharp
-Linear = 1
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### MipMap
-```csharp
-MipMap = 2
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### MipMapLinearLinear
-```csharp
-MipMapLinearLinear = 6
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### MipMapLinearNearest
-```csharp
-MipMapLinearNearest = 4
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### MipMapNearestLinear
-```csharp
-MipMapNearestLinear = 5
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### MipMapNearestNearest
-```csharp
-MipMapNearestNearest = 3
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-### Nearest
-```csharp
-Nearest = 0
-```
-
-#### Field Value
-**Type:** Spine.TextureFilter
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Nearest | 0 | |
+| Linear | 1 | |
+| MipMap | 2 | |
+| MipMapNearestNearest | 3 | |
+| MipMapLinearNearest | 4 | |
+| MipMapNearestLinear | 5 | |
+| MipMapLinearLinear | 6 | |
 

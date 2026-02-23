@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/ChopLegAnimAnimationState
 public enum ChopLegAnim.AnimationState
 ```
 
-## Fields
-### Attack
-```csharp
-Attack = 2
-```
-
-#### Field Value
-**Type:** Global.ChopLegAnim.AnimationState
-
-### Default
-```csharp
-Default = 0
-```
-
-#### Field Value
-**Type:** Global.ChopLegAnim.AnimationState
-
-### Down
-```csharp
-Down = 1
-```
-
-#### Field Value
-**Type:** Global.ChopLegAnim.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| Default | 0 | |
+| Down | 1 | |
+| Attack | 2 | |
 

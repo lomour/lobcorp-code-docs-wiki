@@ -10,30 +10,9 @@ canonical_path: /api/Manual/LabelData/PrefixType
 public enum LabelData.PrefixType
 ```
 
-## Fields
-### ARROW
-```csharp
-ARROW = 1
-```
-
-#### Field Value
-**Type:** Manual.LabelData.PrefixType
-
-### NONE
-```csharp
-NONE = 0
-```
-
-#### Field Value
-**Type:** Manual.LabelData.PrefixType
-
-### NUMERIC
-```csharp
-NUMERIC = 2
-```
-
-#### Field Value
-**Type:** Manual.LabelData.PrefixType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| NONE | 0 | |
+| ARROW | 1 | |
+| NUMERIC | 2 | |
 

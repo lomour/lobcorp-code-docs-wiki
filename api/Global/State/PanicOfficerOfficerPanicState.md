@@ -10,22 +10,8 @@ canonical_path: /api/Global/State/PanicOfficerOfficerPanicState
 public enum PanicOfficer.OfficerPanicState
 ```
 
-## Fields
-### ATTACK
-```csharp
-ATTACK = 0
-```
-
-#### Field Value
-**Type:** Global.PanicOfficer.OfficerPanicState
-
-### WANDER
-```csharp
-WANDER = 1
-```
-
-#### Field Value
-**Type:** Global.PanicOfficer.OfficerPanicState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| ATTACK | 0 | |
+| WANDER | 1 | |
 

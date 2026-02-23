@@ -10,62 +10,13 @@ canonical_path: /api/Global/Misc/PlaySpeedSettingBlockFunction
 public enum PlaySpeedSettingBlockFunction
 ```
 
-## Fields
-### ALL
-```csharp
-ALL = 4
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### ESCAPE
-```csharp
-ESCAPE = 6
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### MANUAL
-```csharp
-MANUAL = 5
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### SPEEDMULTIPLIER
-```csharp
-SPEEDMULTIPLIER = 3
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### TIMESTOP
-```csharp
-TIMESTOP = 2
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### TIMESTOP_PAUSE
-```csharp
-TIMESTOP_PAUSE = 0
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-### TIMESTOP_RESUME
-```csharp
-TIMESTOP_RESUME = 1
-```
-
-#### Field Value
-**Type:** Global.PlaySpeedSettingBlockFunction
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| TIMESTOP_PAUSE | 0 | |
+| TIMESTOP_RESUME | 1 | |
+| TIMESTOP | 2 | |
+| SPEEDMULTIPLIER | 3 | |
+| ALL | 4 | |
+| MANUAL | 5 | |
+| ESCAPE | 6 | |
 

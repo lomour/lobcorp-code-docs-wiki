@@ -10,38 +10,10 @@ canonical_path: /api/Global/Type/PersonalityType
 public enum PersonalityType
 ```
 
-## Fields
-### C
-```csharp
-C = 3
-```
-
-#### Field Value
-**Type:** Global.PersonalityType
-
-### D
-```csharp
-D = 0
-```
-
-#### Field Value
-**Type:** Global.PersonalityType
-
-### I
-```csharp
-I = 1
-```
-
-#### Field Value
-**Type:** Global.PersonalityType
-
-### S
-```csharp
-S = 2
-```
-
-#### Field Value
-**Type:** Global.PersonalityType
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| D | 0 | |
+| I | 1 | |
+| S | 2 | |
+| C | 3 | |
 

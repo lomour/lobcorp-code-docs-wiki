@@ -10,30 +10,9 @@ canonical_path: /api/Global/State/CircusTentAnimationState
 public enum CircusTent.AnimationState
 ```
 
-## Fields
-### APPEAR
-```csharp
-APPEAR = 0
-```
-
-#### Field Value
-**Type:** Global.CircusTent.AnimationState
-
-### DISAPPEAR
-```csharp
-DISAPPEAR = 2
-```
-
-#### Field Value
-**Type:** Global.CircusTent.AnimationState
-
-### SPAWN
-```csharp
-SPAWN = 1
-```
-
-#### Field Value
-**Type:** Global.CircusTent.AnimationState
-
-
+| Name | Value | Description |
+| --- | --- | --- |
+| APPEAR | 0 | |
+| SPAWN | 1 | |
+| DISAPPEAR | 2 | |
 
