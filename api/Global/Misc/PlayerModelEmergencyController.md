@@ -1,7 +1,13 @@
 ---
-uid: Global.PlayerModel.EmergencyController
-canonical_path: /api/Global/Misc/PlayerModelEmergencyController
+title: PlayerModelEmergencyController
+description: 
+published: true
+date: 2026-02-25T03:38:09.613Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T04:23:07.933Z
 ---
+
 # Class PlayerModel.EmergencyController
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,7 +15,9 @@ canonical_path: /api/Global/Misc/PlayerModelEmergencyController
 ```csharp
 public class PlayerModel.EmergencyController
 ```
+Controls the trumpet level in the facility. A nested class of [PlayerModel](/api/Global/Model/PlayerModel), which has otherwise unrelated functions.
 
+Oddly, [BgmManager](/api/Global/IOBserver/BgmManager) seems to handle the score reducing over time.
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → PlayerModel.EmergencyController
 
@@ -114,7 +122,7 @@ private float currentScore { get; set; }
 ```csharp
 public void AddScore(CreatureModel model)
 ```
-
+Adds the appropriate score for the provided breaching abnormality.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -124,7 +132,7 @@ public void AddScore(CreatureModel model)
 ```csharp
 public void AddScore(float val)
 ```
-
+Adds the value to the emergency score, then sets the appropriate emergency level. Also instructs the [BgmManager](/api/Global/IOBserver/BgmManager) to start a timer which prevents reducing the score.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -134,7 +142,7 @@ public void AddScore(float val)
 ```csharp
 public void AddScore(RiskLevel level)
 ```
-
+Adds the appropriate score for the provided risk level.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -144,7 +152,7 @@ public void AddScore(RiskLevel level)
 ```csharp
 public void Apply(long id)
 ```
-
+Unused.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -154,7 +162,7 @@ public void Apply(long id)
 ```csharp
 public void Exit(long id)
 ```
-
+Unused.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -172,6 +180,15 @@ public float GetCurrentScore()
 ```csharp
 public float GetLevelScore(RiskLevel level)
 ```
+Returns the amount the emergency score should go up for a breaching abnormality of the given risk level.
+
+| **Risk Level** | **Score** |
+| -------------- | --------- |
+| ZAYIN          | 5         |
+| TETH           | 20        |
+| HE             | 40        |
+| WAW            | 60        |
+| ALEPH          | 75        |
 
 #### Parameters
 | Name | Type | Description |
@@ -185,7 +202,7 @@ public float GetLevelScore(RiskLevel level)
 ```csharp
 public float GetScore(CreatureModel model)
 ```
-
+Gets the score for the provided abnormality's risk level.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -198,7 +215,7 @@ public float GetScore(CreatureModel model)
 ```csharp
 public float GetScore(RiskLevel level)
 ```
-
+Gets the score for the provided risk level.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -211,27 +228,27 @@ public float GetScore(RiskLevel level)
 ```csharp
 public void Init()
 ```
-
+Initializes the emergency score to `0`.
 ### OnStageEnd()
 ```csharp
 public void OnStageEnd()
 ```
-
+Sets the emergency level to `NORMAL`.
 ### OnStageRelease()
 ```csharp
 public void OnStageRelease()
 ```
-
+Resets the score to `0`, clears all trumpets, and sets the emergency level to `NORMAL`.
 ### Print()
 ```csharp
 public void Print()
 ```
-
+Prints the current score to Unity's debug log.
 ### ReduceSore(float)
 ```csharp
 public void ReduceSore(float val)
 ```
-
+Lowers the emergency score by the value, then prints this the new value to the debug log.
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
@@ -251,7 +268,15 @@ public void SetCurrentScore(float val)
 ```csharp
 private void SetLevel()
 ```
+Sets the level as follows:
+| Value | Level |
+| --- | --- |
+|$\leq$ 10 | Normal |
+|$\leq$ 50 | First Trumpet |
+| $\leq$ 80 | Second Trumpet |
+| $>$ 80 | Third Trumpet |
 
+If the emergency level changes, it also notifies listeners of OnEmergencyLevelChanged (and logs a debug string).
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
 
