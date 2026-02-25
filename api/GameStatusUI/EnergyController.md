@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.EnergyController
-canonical_path: /api/GameStatusUI/EnergyController
+title: EnergyController
+description: 
+published: true
+date: 2026-02-25T02:08:40.992Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:00.276Z
 ---
+
 # Class EnergyController
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll
@@ -12,8 +18,6 @@ public class EnergyController : MonoBehaviour
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-
-extends 
 UI for displaying the current energy, as well as potential ordeals (or otherwise the number of upcoming meltdowns).
 
 See [GameStatusUI](/api/GameStatusUI)
