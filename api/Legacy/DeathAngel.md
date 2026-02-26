@@ -1,7 +1,13 @@
 ---
-uid: Legacy.DeathAngel
-canonical_path: /api/Legacy/DeathAngel
+title: DeathAngel
+description: 
+published: true
+date: 2026-02-26T23:58:16.612Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:27:46.685Z
 ---
+
 # Class DeathAngel
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
@@ -12,9 +18,7 @@ public class DeathAngel : CreatureBase
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-
-WhiteNight <3
-
+Legacy WhiteNight...
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureBase](/api/Global/Creature/CreatureBase) → DeathAngel
