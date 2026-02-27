@@ -1,7 +1,13 @@
 ---
-uid: Global.CreatureGenerateInfo
-canonical_path: /api/Global/Info/CreatureGenerateInfo
+title: CreatureGenerateInfo
+description: 
+published: true
+date: 2026-02-27T00:01:14.890Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:49:26.091Z
 ---
+
 # Class CreatureGenerateInfo
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll
@@ -9,30 +15,7 @@ canonical_path: /api/Global/Info/CreatureGenerateInfo
 ```csharp
 public class CreatureGenerateInfo : MonoBehaviour
 ```
-> This section may have incomplete or incorrect information.
-{.is-warning}
-
-
-Has some hard-coded IDs for abnormalities. Frustratingly, some of these arrays are actually used:
-
-- all - List of all abnormalities
-- all_for_codex - List of all abnormalities required to complete the codex
-- all_except_creditCreatures - List of all non-backer abnormalities
-- creditCreatures - List of all backer abnormalities
-- kitCreature - List of tool abnormalities
-- r1 - Mostly unused, but r1\[0]\[0] is One Sin, and is called for day 1 and when the day is invalid
-- r2-6 - Unused; for debugging
-
-static long[] GetAll(bool removeTool) - Returns a list of all abnormalities except WhiteNight, and non-tool abnormalities if removeTool is true.
-
-static bool IsCreditCreature(long id) - Return true if this is a backer abnormality's id.
-
-
-
-
-
-This annoys me because these are all hard-coded and for what???
-
+Contains some lists of abnormality IDs and methods for getting them.
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → CreatureGenerateInfo
@@ -42,13 +25,13 @@ This annoys me because these are all hard-coded and for what???
 ```csharp
 public CreatureGenerateInfo()
 ```
-
+Sets all of the fields to their default hard-coded values.
 ## Fields
 ### all
 ```csharp
 public static readonly long[] all
 ```
-
+List of all abnormalities, except [Apocalypse Bird](/api/Global/Misc/BossBird).
 
 #### Field Value
 **Type:** System.Int64[]
@@ -57,7 +40,7 @@ public static readonly long[] all
 ```csharp
 public static readonly long[] all_for_codex
 ```
-
+List of all abnormalities required to complete the codex.
 
 #### Field Value
 **Type:** System.Int64[]
@@ -66,7 +49,7 @@ public static readonly long[] all_for_codex
 ```csharp
 public static readonly long[] creditCreatures
 ```
-
+List of all backer abnormalities.
 
 #### Field Value
 **Type:** System.Int64[]
@@ -84,7 +67,7 @@ public static readonly long[] kitCreature
 ```csharp
 public static readonly long[][] r1
 ```
-
+The first entry of the first list, `r1[0][0]`, is the ID for [One Sin and Hundreds of Good Deeds](/api/Global/Misc/OneBadManyGood) to be used on Day 0. The rest of the values are unused.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -93,7 +76,7 @@ public static readonly long[][] r1
 ```csharp
 public static readonly long[][] r2
 ```
-
+Unused. Originally for debugging.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -102,7 +85,7 @@ public static readonly long[][] r2
 ```csharp
 public static readonly long[][] r3
 ```
-
+Unused. Originally for debugging.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -111,7 +94,7 @@ public static readonly long[][] r3
 ```csharp
 public static readonly long[][] r4
 ```
-
+Unused. Originally for debugging.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -120,7 +103,7 @@ public static readonly long[][] r4
 ```csharp
 public static readonly long[][] r5
 ```
-
+Unused. Originally for debugging.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -129,7 +112,7 @@ public static readonly long[][] r5
 ```csharp
 public static readonly long[][] r6
 ```
-
+Unused. Originally for debugging.
 
 #### Field Value
 **Type:** System.Int64[][]
@@ -139,6 +122,7 @@ public static readonly long[][] r6
 ```csharp
 public static long[] all_except_creditCreatures { get; }
 ```
+List of all non-backer abnormalities.
 
 #### Property Value
 **Type:** System.Int64[]
@@ -148,12 +132,12 @@ public static long[] all_except_creditCreatures { get; }
 ```csharp
 public static long[] GetAll(bool removeTool = false)
 ```
-
+Returns a list of all abnormalities except [WhiteNight](/api/WhiteNightSpace/DeathAngel) and [Apocalypse Bird](/api/Global/Misc/BossBird), and without tool abnormalities if removeTool is true.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `removeTool` | `System.Boolean` |  |
+| `removeTool` | `System.Boolean` | True if tool abnormalities should be excluded. |
 
 #### Returns
 **Type:** System.Int64[]
@@ -162,12 +146,12 @@ public static long[] GetAll(bool removeTool = false)
 ```csharp
 public static bool IsCreditCreature(long id)
 ```
-
+Return true if the ID belongs to a backer abnormality.
 
 #### Parameters
 | Name | Type | Description |
 | --- | --- | --- |
-| `id` | `System.Int64` |  |
+| `id` | `System.Int64` |  The ID to check. |
 
 #### Returns
 **Type:** System.Boolean
