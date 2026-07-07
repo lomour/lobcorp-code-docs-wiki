@@ -1,7 +1,13 @@
 ---
-uid: CommandWindow.WorkerSuppressRegion
-canonical_path: /api/CommandWindow/WorkerSuppressRegion
+title: WorkerSuppressRegion
+description: 
+published: true
+date: 2026-07-07T17:19:27.886Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:50:38.955Z
 ---
+
 # Class WorkerSuppressRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

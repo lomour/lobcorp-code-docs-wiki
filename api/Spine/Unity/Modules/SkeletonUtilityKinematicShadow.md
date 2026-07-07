@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.Modules.SkeletonUtilityKinematicShadow
-canonical_path: /api/Spine/Unity/Modules/SkeletonUtilityKinematicShadow
+title: SkeletonUtilityKinematicShadow
+description: 
+published: true
+date: 2026-02-20T22:49:36.820Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:03:42.588Z
 ---
+
 # Class SkeletonUtilityKinematicShadow
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

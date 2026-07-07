@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.WandApostle
-canonical_path: /api/WhiteNightSpace/WandApostle
+title: WandApostle
+description: 
+published: true
+date: 2026-02-20T22:52:06.122Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:16:17.916Z
 ---
+
 # Class WandApostle
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: nightowl.DistortionShaderPack.ConfigurationDemo8
-canonical_path: /api/nightowl/DistortionShaderPack/ConfigurationDemo8
+title: ConfigurationDemo8
+description: 
+published: true
+date: 2026-02-20T22:54:19.805Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:27:56.363Z
 ---
+
 # Class ConfigurationDemo8
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

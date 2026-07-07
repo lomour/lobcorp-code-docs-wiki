@@ -1,7 +1,13 @@
 ---
-uid: Spine.SkeletonBinary.Vertices
-canonical_path: /api/Spine/SkeletonBinary/Vertices
+title: Vertices
+description: 
+published: true
+date: 2026-02-20T22:47:43.932Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:15.116Z
 ---
+
 # Class SkeletonBinary.Vertices
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

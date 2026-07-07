@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.Point2DList.PolygonError
-canonical_path: /api/Poly2Tri/Point2DList/PolygonError
+title: PolygonError
+description: 
+published: true
+date: 2026-02-23T23:20:53.538Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:42:19.717Z
 ---
+
 # Enum Point2DList.PolygonError
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

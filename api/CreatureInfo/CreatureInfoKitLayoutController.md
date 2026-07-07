@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.CreatureInfoKitLayoutController
-canonical_path: /api/CreatureInfo/CreatureInfoKitLayoutController
+title: CreatureInfoKitLayoutController
+description: 
+published: true
+date: 2026-07-07T17:20:13.711Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:53:14.210Z
 ---
+
 # Class CreatureInfoKitLayoutController
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

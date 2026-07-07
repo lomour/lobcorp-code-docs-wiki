@@ -1,7 +1,13 @@
 ---
-uid: Inventory.InventoryItemController
-canonical_path: /api/Inventory/InventoryItemController
+title: InventoryItemController
+description: 
+published: true
+date: 2026-02-20T22:40:49.415Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:22:25.900Z
 ---
+
 # Class InventoryItemController
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

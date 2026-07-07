@@ -1,7 +1,13 @@
 ---
-uid: Spine.AnimationStateData
-canonical_path: /api/Spine/AnimationStateData
+title: AnimationStateData
+description: 
+published: true
+date: 2026-02-20T22:46:00.941Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:07.369Z
 ---
+
 # Class AnimationStateData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

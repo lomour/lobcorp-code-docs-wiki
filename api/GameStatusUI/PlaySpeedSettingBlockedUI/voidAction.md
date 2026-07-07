@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.PlaySpeedSettingBlockedUI.voidAction
-canonical_path: /api/GameStatusUI/PlaySpeedSettingBlockedUI/voidAction
+title: voidAction
+description: 
+published: true
+date: 2026-07-07T17:22:07.277Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:18.185Z
 ---
+
 # Delegate PlaySpeedSettingBlockedUI.voidAction
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

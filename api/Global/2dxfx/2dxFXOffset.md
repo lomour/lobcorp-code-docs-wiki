@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Offset
-canonical_path: /api/Global/2dxfx/2dxFXOffset
+title: 2dxFXOffset
+description: 
+published: true
+date: 2026-07-07T17:29:20.525Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:10:40.183Z
 ---
+
 # Class _2dxFX_Offset
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

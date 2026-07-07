@@ -1,0 +1,76 @@
+---
+title: ResearchItemDesc
+description: 
+published: true
+date: 2026-02-20T22:11:35.955Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T04:26:01.516Z
+---
+
+# Class ResearchItemDesc
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class ResearchItemDesc
+```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Holds the description for a research.
+
+Used by [ResearchPanel](/api/Global/Misc/ResearchPanel).
+
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → ResearchItemDesc
+
+## Constructors
+### ResearchItemDesc()
+```csharp
+public ResearchItemDesc()
+```
+
+## Fields
+### desc
+```csharp
+public string desc
+```
+
+
+#### Field Value
+**Type:** System.String
+
+### name
+```csharp
+public string name
+```
+
+
+#### Field Value
+**Type:** System.String
+
+### next
+```csharp
+public string next
+```
+
+
+#### Field Value
+**Type:** System.String
+
+### shortDesc
+```csharp
+public string shortDesc
+```
+
+
+#### Field Value
+**Type:** System.String
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

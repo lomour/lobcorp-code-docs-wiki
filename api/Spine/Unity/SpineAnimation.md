@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SpineAnimation
-canonical_path: /api/Spine/Unity/SpineAnimation
+title: SpineAnimation
+description: 
+published: true
+date: 2026-02-20T22:50:22.225Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:05.179Z
 ---
+
 # Class SpineAnimation
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

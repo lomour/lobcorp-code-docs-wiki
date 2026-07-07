@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.ApostleData
-canonical_path: /api/WhiteNightSpace/ApostleData
+title: ApostleData
+description: 
+published: true
+date: 2026-02-20T22:51:14.108Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:14:46.422Z
 ---
+
 # Class ApostleData
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

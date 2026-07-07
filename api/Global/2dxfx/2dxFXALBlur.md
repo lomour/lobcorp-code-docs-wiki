@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Blur
-canonical_path: /api/Global/2dxfx/2dxFXALBlur
+title: 2dxFXALBlur
+description: 
+published: true
+date: 2026-07-07T17:23:28.081Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:04:42.400Z
 ---
+
 # Class _2dxFX_AL_Blur
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

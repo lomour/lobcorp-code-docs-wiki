@@ -1,7 +1,13 @@
 ---
-uid: Spine.TwoColorTimeline
-canonical_path: /api/Spine/TwoColorTimeline
+title: TwoColorTimeline
+description: 
+published: true
+date: 2026-02-20T22:48:28.881Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:37.851Z
 ---
+
 # Class TwoColorTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

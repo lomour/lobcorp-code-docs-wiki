@@ -1,7 +1,13 @@
 ---
-uid: Spine.ExposedList`1
-canonical_path: /api/Spine/ExposedList-T
+title: ExposedList-T
+description: 
+published: true
+date: 2026-02-20T22:46:48.512Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:32.263Z
 ---
+
 # Class ExposedList<T>
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

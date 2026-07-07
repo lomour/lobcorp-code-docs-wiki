@@ -1,7 +1,13 @@
 ---
-uid: Legacy.AnchorPivotPos
-canonical_path: /api/Legacy/AnchorPivotPos
+title: AnchorPivotPos
+description: 
+published: true
+date: 2026-02-23T23:20:40.523Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:27:39.607Z
 ---
+
 # Enum AnchorPivotPos
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

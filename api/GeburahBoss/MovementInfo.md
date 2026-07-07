@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.MovementInfo
-canonical_path: /api/GeburahBoss/MovementInfo
+title: MovementInfo
+description: 
+published: true
+date: 2026-07-07T17:23:06.321Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:04:04.029Z
 ---
+
 # Class MovementInfo
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

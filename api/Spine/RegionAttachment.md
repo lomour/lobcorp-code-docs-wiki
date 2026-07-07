@@ -1,7 +1,13 @@
 ---
-uid: Spine.RegionAttachment
-canonical_path: /api/Spine/RegionAttachment
+title: RegionAttachment
+description: 
+published: true
+date: 2026-02-20T22:47:31.618Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:50.758Z
 ---
+
 # Class RegionAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

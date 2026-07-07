@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.Uncontorllable_PlagueDoctor
-canonical_path: /api/WhiteNightSpace/Uncontorllable_PlagueDoctor
+title: Uncontorllable_PlagueDoctor
+description: 
+published: true
+date: 2026-02-20T22:52:04.174Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:16:14.467Z
 ---
+
 # Class Uncontorllable_PlagueDoctor
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonGraphic
-canonical_path: /api/Spine/Unity/SkeletonGraphic
+title: SkeletonGraphic
+description: 
+published: true
+date: 2026-02-20T22:50:03.180Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:31.119Z
 ---
+
 # Class SkeletonGraphic
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

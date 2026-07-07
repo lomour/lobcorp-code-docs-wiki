@@ -1,7 +1,13 @@
 ---
-uid: Inventory.InventoryAgentController
-canonical_path: /api/Inventory/InventoryAgentController
+title: InventoryAgentController
+description: 
+published: true
+date: 2026-02-20T22:40:38.150Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:22:04.443Z
 ---
+
 # Class InventoryAgentController
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

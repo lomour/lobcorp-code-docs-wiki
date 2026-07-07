@@ -1,7 +1,13 @@
 ---
-uid: Rabbit.RabbitConversationType
-canonical_path: /api/Rabbit/RabbitConversationType
+title: RabbitConversationType
+description: 
+published: true
+date: 2026-02-23T23:21:04.948Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:45:20.402Z
 ---
+
 # Enum RabbitConversationType
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

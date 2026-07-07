@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.MovementBuf
-canonical_path: /api/GeburahBoss/MovementBuf
+title: MovementBuf
+description: 
+published: true
+date: 2026-07-07T17:23:03.482Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:04:01.139Z
 ---
+
 # Class MovementBuf
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

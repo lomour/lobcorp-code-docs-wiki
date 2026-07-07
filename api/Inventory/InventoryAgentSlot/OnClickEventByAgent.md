@@ -1,7 +1,13 @@
 ---
-uid: Inventory.InventoryAgentSlot.OnClickEventByAgent
-canonical_path: /api/Inventory/InventoryAgentSlot/OnClickEventByAgent
+title: OnClickEventByAgent
+description: 
+published: true
+date: 2026-02-20T22:40:45.199Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:22:18.927Z
 ---
+
 # Delegate InventoryAgentSlot.OnClickEventByAgent
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

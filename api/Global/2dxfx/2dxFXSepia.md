@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Sepia
-canonical_path: /api/Global/2dxfx/2dxFXSepia
+title: 2dxFXSepia
+description: 
+published: true
+date: 2026-07-07T17:30:08.450Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:11:22.860Z
 ---
+
 # Class _2dxFX_Sepia
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

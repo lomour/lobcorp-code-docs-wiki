@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.DeathAngelPlaySpeedBlockUI
-canonical_path: /api/WhiteNightSpace/DeathAngelPlaySpeedBlockUI
+title: DeathAngelPlaySpeedBlockUI
+description: 
+published: true
+date: 2026-02-20T22:51:39.292Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:15:30.616Z
 ---
+
 # Class DeathAngelPlaySpeedBlockUI
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.EnergyController.RankSlot
-canonical_path: /api/GameStatusUI/EnergyController/RankSlot
+title: EnergyController-RankSlot
+description: 
+published: true
+date: 2026-07-07T17:21:58.856Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:06.398Z
 ---
+
 # Class EnergyController.RankSlot
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

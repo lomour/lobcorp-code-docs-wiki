@@ -1,7 +1,13 @@
 ---
-uid: Spine.ClippingAttachment
-canonical_path: /api/Spine/ClippingAttachment
+title: ClippingAttachment
+description: 
+published: true
+date: 2026-02-20T22:46:27.849Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:56.657Z
 ---
+
 # Class ClippingAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

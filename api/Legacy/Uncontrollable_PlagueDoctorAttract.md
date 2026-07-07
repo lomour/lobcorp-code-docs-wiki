@@ -1,7 +1,13 @@
 ---
-uid: Legacy.Uncontrollable_PlagueDoctorAttract
-canonical_path: /api/Legacy/Uncontrollable_PlagueDoctorAttract
+title: Uncontrollable_PlagueDoctorAttract
+description: 
+published: true
+date: 2026-02-20T22:43:08.686Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:56.128Z
 ---
+
 # Class Uncontrollable_PlagueDoctorAttract
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

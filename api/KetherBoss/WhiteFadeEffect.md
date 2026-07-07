@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.WhiteFadeEffect
-canonical_path: /api/KetherBoss/WhiteFadeEffect
+title: WhiteFadeEffect
+description: 
+published: true
+date: 2026-02-20T22:41:51.899Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:25:43.173Z
 ---
+
 # Class WhiteFadeEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

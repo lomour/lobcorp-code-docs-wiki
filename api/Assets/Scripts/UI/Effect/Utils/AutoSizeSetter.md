@@ -1,7 +1,13 @@
 ---
-uid: Assets.Scripts.UI.Effect.Utils.AutoSizeSetter
-canonical_path: /api/Assets/Scripts/UI/Effect/Utils/AutoSizeSetter
+title: AutoSizeSetter
+description: 
+published: true
+date: 2026-07-07T17:17:38.194Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:35:04.800Z
 ---
+
 # Class AutoSizeSetter
 **Namespace:** Assets . Scripts . UI . Effect . [Utils](/api/Assets/Scripts/UI/Effect/Utils)
 **Assembly:** Assembly-CSharp.dll

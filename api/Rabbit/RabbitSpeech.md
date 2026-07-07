@@ -1,7 +1,13 @@
 ---
-uid: Rabbit.RabbitSpeech
-canonical_path: /api/Rabbit/RabbitSpeech
+title: RabbitSpeech
+description: 
+published: true
+date: 2026-02-20T22:45:37.396Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:45:34.262Z
 ---
+
 # Class RabbitSpeech
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

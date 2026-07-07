@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerSpriteSaveData.Pair
-canonical_path: /api/WorkerSprite/WorkerSpriteSaveData/Pair
+title: WorkerSpriteSaveData-Pair
+description: 
+published: true
+date: 2026-07-07T02:15:00.565Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:21:11.017Z
 ---
+
 # Class WorkerSpriteSaveData.Pair
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

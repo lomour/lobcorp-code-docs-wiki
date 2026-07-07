@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_EnergyBar
-canonical_path: /api/Global/2dxfx/2dxFXEnergyBar
+title: 2dxFXEnergyBar
+description: 
+published: true
+date: 2026-07-07T17:27:48.633Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:08:59.676Z
 ---
+
 # Class _2dxFX_EnergyBar
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

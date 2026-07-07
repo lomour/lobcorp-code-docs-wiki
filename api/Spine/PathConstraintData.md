@@ -1,7 +1,13 @@
 ---
-uid: Spine.PathConstraintData
-canonical_path: /api/Spine/PathConstraintData
+title: PathConstraintData
+description: 
+published: true
+date: 2026-02-20T22:47:15.676Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:21.107Z
 ---
+
 # Class PathConstraintData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

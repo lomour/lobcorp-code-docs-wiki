@@ -1,7 +1,13 @@
 ---
-uid: Spine.AtlasAttachmentLoader
-canonical_path: /api/Spine/AtlasAttachmentLoader
+title: AtlasAttachmentLoader
+description: 
+published: true
+date: 2026-02-20T22:46:08.190Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:20.326Z
 ---
+
 # Class AtlasAttachmentLoader
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

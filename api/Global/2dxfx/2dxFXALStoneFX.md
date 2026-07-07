@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_StoneFX
-canonical_path: /api/Global/2dxfx/2dxFXALStoneFX
+title: 2dxFXALStoneFX
+description: 
+published: true
+date: 2026-07-07T17:26:35.770Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:07:46.593Z
 ---
+
 # Class _2dxFX_AL_StoneFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

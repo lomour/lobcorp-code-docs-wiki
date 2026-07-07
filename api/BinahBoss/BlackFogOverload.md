@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BlackFogOverload
-canonical_path: /api/BinahBoss/BlackFogOverload
+title: BlackFogOverload
+description: 
+published: true
+date: 2026-07-07T17:18:45.350Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:39:07.997Z
 ---
+
 # Class BlackFogOverload
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

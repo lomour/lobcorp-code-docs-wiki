@@ -1,7 +1,13 @@
 ---
-uid: Spine.AttachmentTimeline
-canonical_path: /api/Spine/AttachmentTimeline
+title: AttachmentTimeline
+description: 
+published: true
+date: 2026-02-20T22:46:17.225Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:36.446Z
 ---
+
 # Class AttachmentTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

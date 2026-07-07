@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.WorkerWeaponChanger
-canonical_path: /api/WorkerSpine/WorkerWeaponChanger
+title: WorkerWeaponChanger
+description: 
+published: true
+date: 2026-02-20T22:52:35.992Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:18:08.269Z
 ---
+
 # Class WorkerWeaponChanger
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

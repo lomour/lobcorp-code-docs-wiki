@@ -1,7 +1,13 @@
 ---
-uid: Spine.TextureFilter
-canonical_path: /api/Spine/TextureFilter
+title: TextureFilter
+description: 
+published: true
+date: 2026-02-23T23:21:24.050Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:58.459Z
 ---
+
 # Enum TextureFilter
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

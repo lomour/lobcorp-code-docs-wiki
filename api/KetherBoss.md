@@ -1,3 +1,13 @@
+---
+title: KetherBoss
+description: 
+published: true
+date: 2026-07-07T17:12:22.401Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T04:13:32.224Z
+---
+
 # Namespace KetherBoss
 ## Classes
 ### [BackGroundMoveEffect](/api/KetherBoss/BackGroundMoveEffect)

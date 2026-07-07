@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.DefaultTwoHandedType
-canonical_path: /api/WorkerSpine/DefaultTwoHandedType
+title: DefaultTwoHandedType
+description: 
+published: true
+date: 2026-02-23T23:21:43.488Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:17:36.166Z
 ---
+
 # Enum DefaultTwoHandedType
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

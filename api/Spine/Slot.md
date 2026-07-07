@@ -1,7 +1,13 @@
 ---
-uid: Spine.Slot
-canonical_path: /api/Spine/Slot
+title: Slot
+description: 
+published: true
+date: 2026-02-20T22:48:02.562Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:48.552Z
 ---
+
 # Class Slot
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

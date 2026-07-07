@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerSpriteSaveData.ColorData
-canonical_path: /api/WorkerSprite/WorkerSpriteSaveData/ColorData
+title: WorkerSpriteSaveData-ColorData
+description: 
+published: true
+date: 2026-03-03T08:31:39.589Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:21:07.792Z
 ---
+
 # Class WorkerSpriteSaveData.ColorData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

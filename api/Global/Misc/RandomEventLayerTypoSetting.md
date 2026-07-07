@@ -1,0 +1,141 @@
+---
+title: RandomEventLayerTypoSetting
+description: 
+published: true
+date: 2026-02-20T22:11:13.594Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T04:25:22.888Z
+---
+
+# Class RandomEventLayer.TypoSetting
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class RandomEventLayer.TypoSetting
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → RandomEventLayer.TypoSetting
+
+## Constructors
+### TypoSetting()
+```csharp
+public TypoSetting()
+```
+
+## Fields
+### alter
+```csharp
+public Text alter
+```
+
+#### Field Value
+**Type:** UnityEngine.UI.Text
+
+### backGround
+```csharp
+public Image backGround
+```
+
+#### Field Value
+**Type:** UnityEngine.UI.Image
+
+### currentSession
+```csharp
+public RandomEventLayer.TypoSession currentSession
+```
+
+#### Field Value
+**Type:** Global.RandomEventLayer.TypoSession
+
+### endEvent
+```csharp
+private RandomEventLayer.TypoEvent endEvent
+```
+
+#### Field Value
+**Type:** Global.RandomEventLayer.TypoEvent
+
+### group
+```csharp
+public CanvasGroup group
+```
+
+#### Field Value
+**Type:** UnityEngine.CanvasGroup
+
+### root
+```csharp
+public GameObject root
+```
+
+#### Field Value
+**Type:** UnityEngine.GameObject
+
+### state
+```csharp
+public RandomEventLayer.TypoState state
+```
+
+#### Field Value
+**Type:** Global.RandomEventLayer.TypoState
+
+### text
+```csharp
+public Text text
+```
+
+#### Field Value
+**Type:** UnityEngine.UI.Text
+
+### timer
+```csharp
+private UnscaledTimer timer
+```
+
+#### Field Value
+**Type:** Global.UnscaledTimer
+
+## Methods
+### AddTypo(TypoSession)
+```csharp
+public void AddTypo(RandomEventLayer.TypoSession session)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `session` | `Global.RandomEventLayer.TypoSession` |  |
+
+### EndTypo()
+```csharp
+private void EndTypo()
+```
+
+### SetEndEvenet(TypoEvent)
+```csharp
+public void SetEndEvenet(RandomEventLayer.TypoEvent e)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `e` | `Global.RandomEventLayer.TypoEvent` |  |
+
+### StartTypo()
+```csharp
+private void StartTypo()
+```
+
+### Update()
+```csharp
+public void Update()
+```
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

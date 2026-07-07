@@ -1,7 +1,13 @@
 ---
-uid: InGameUI.AgentGiftWindow
-canonical_path: /api/InGameUI/AgentGiftWindow
+title: AgentGiftWindow
+description: 
+published: true
+date: 2026-02-20T22:40:31.127Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:21:23.592Z
 ---
+
 # Class AgentGiftWindow
 **Namespace:** [InGameUI](/api/InGameUI)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_WaterAndBackgroundDeluxe
-canonical_path: /api/Global/2dxfx/2dxFXWaterAndBackgroundDeluxe
+title: 2dxFXWaterAndBackgroundDeluxe
+description: 
+published: true
+date: 2026-07-07T17:30:40.853Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:11:57.357Z
 ---
+
 # Class _2dxFX_WaterAndBackgroundDeluxe
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

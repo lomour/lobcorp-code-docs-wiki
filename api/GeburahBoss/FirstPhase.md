@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.FirstPhase
-canonical_path: /api/GeburahBoss/FirstPhase
+title: FirstPhase
+description: 
+published: true
+date: 2026-07-07T17:22:28.294Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:19.894Z
 ---
+
 # Class FirstPhase
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.BoneFollowerGraphic
-canonical_path: /api/Spine/Unity/BoneFollowerGraphic
+title: BoneFollowerGraphic
+description: 
+published: true
+date: 2026-02-20T22:48:36.152Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:51.037Z
 ---
+
 # Class BoneFollowerGraphic
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

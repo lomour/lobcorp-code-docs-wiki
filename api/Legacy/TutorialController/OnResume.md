@@ -1,7 +1,13 @@
 ---
-uid: Legacy.TutorialController.OnResume
-canonical_path: /api/Legacy/TutorialController/OnResume
+title: OnResume
+description: 
+published: true
+date: 2026-02-20T22:42:55.379Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:31.469Z
 ---
+
 # Delegate TutorialController.OnResume
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

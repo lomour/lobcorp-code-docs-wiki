@@ -1,3 +1,13 @@
+---
+title: Manual
+description: 
+published: true
+date: 2026-07-07T17:12:50.919Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T04:22:20.141Z
+---
+
 # Namespace Manual
 ## Classes
 ### [Category](/api/Manual/Category)

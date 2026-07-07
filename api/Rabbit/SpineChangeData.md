@@ -1,7 +1,13 @@
 ---
-uid: Rabbit.SpineChangeData
-canonical_path: /api/Rabbit/SpineChangeData
+title: SpineChangeData
+description: 
+published: true
+date: 2026-02-20T22:45:42.879Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:45:44.462Z
 ---
+
 # Class SpineChangeData
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

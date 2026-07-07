@@ -1,7 +1,13 @@
 ---
-uid: Credit.CreditItem
-canonical_path: /api/Credit/CreditItem
+title: CreditItem
+description: 
+published: true
+date: 2026-07-07T17:20:52.989Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:55:10.490Z
 ---
+
 # Class CreditItem
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Ghost
-canonical_path: /api/Global/2dxfx/2dxFXALGhost
+title: 2dxFXALGhost
+description: 
+published: true
+date: 2026-07-07T17:24:17.019Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:05:34.624Z
 ---
+
 # Class _2dxFX_AL_Ghost
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: LetterboxCamera.ForceCameraRatio
-canonical_path: /api/LetterboxCamera/ForceCameraRatio
+title: ForceCameraRatio
+description: 
+published: true
+date: 2026-02-20T22:43:16.027Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:30:15.543Z
 ---
+
 # Class ForceCameraRatio
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll

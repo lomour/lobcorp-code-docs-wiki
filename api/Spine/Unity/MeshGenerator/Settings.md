@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.MeshGenerator.Settings
-canonical_path: /api/Spine/Unity/MeshGenerator/Settings
+title: Settings
+description: 
+published: true
+date: 2026-02-20T22:48:50.174Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:02:17.664Z
 ---
+
 # Struct MeshGenerator.Settings
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

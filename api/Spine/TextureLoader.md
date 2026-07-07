@@ -1,7 +1,13 @@
 ---
-uid: Spine.TextureLoader
-canonical_path: /api/Spine/TextureLoader
+title: TextureLoader
+description: 
+published: true
+date: 2026-02-20T22:48:09.363Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:01.552Z
 ---
+
 # Interface TextureLoader
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

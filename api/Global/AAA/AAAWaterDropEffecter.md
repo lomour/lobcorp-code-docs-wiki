@@ -1,7 +1,13 @@
 ---
-uid: Global.AAAWaterDropEffecter
-canonical_path: /api/Global/Effecter/AAAWaterDropEffecter
+title: AAAWaterDropEffecter
+description: 
+published: true
+date: 2026-07-07T03:58:01.624Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:41:42.255Z
 ---
+
 # Class AAAWaterDropEffecter
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

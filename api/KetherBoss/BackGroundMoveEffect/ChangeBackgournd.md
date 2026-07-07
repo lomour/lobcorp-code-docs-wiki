@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.BackGroundMoveEffect.ChangeBackgournd
-canonical_path: /api/KetherBoss/BackGroundMoveEffect/ChangeBackgournd
+title: ChangeBackgournd
+description: 
+published: true
+date: 2026-02-20T22:41:12.893Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:24:29.434Z
 ---
+
 # Delegate BackGroundMoveEffect.ChangeBackgournd
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

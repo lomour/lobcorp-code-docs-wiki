@@ -1,7 +1,13 @@
 ---
-uid: Spine.Triangulator
-canonical_path: /api/Spine/Triangulator
+title: Triangulator
+description: 
+published: true
+date: 2026-02-20T22:48:26.960Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:34.535Z
 ---
+
 # Class Triangulator
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

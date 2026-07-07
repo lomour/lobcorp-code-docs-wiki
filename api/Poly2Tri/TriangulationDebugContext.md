@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.TriangulationDebugContext
-canonical_path: /api/Poly2Tri/TriangulationDebugContext
+title: TriangulationDebugContext
+description: 
+published: true
+date: 2026-02-20T22:45:12.116Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:43:20.684Z
 ---
+
 # Class TriangulationDebugContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

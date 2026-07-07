@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.CreatureInfoWorkSuccessRateRoot
-canonical_path: /api/CreatureInfo/CreatureInfoWorkSuccessRateRoot
+title: CreatureInfoWorkSuccessRateRoot
+description: 
+published: true
+date: 2026-07-07T17:20:34.508Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:53:47.212Z
 ---
+
 # Class CreatureInfoWorkSuccessRateRoot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

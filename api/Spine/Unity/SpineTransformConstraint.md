@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SpineTransformConstraint
-canonical_path: /api/Spine/Unity/SpineTransformConstraint
+title: SpineTransformConstraint
+description: 
+published: true
+date: 2026-02-20T22:50:44.145Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:46.822Z
 ---
+
 # Class SpineTransformConstraint
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

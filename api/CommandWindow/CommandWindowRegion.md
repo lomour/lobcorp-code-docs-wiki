@@ -1,7 +1,13 @@
 ---
-uid: CommandWindow.CommandWindowRegion
-canonical_path: /api/CommandWindow/CommandWindowRegion
+title: CommandWindowRegion
+description: 
+published: true
+date: 2026-07-07T17:19:12.921Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:50:16.227Z
 ---
+
 # Class CommandWindowRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

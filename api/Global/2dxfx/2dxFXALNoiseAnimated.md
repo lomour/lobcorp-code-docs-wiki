@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_NoiseAnimated
-canonical_path: /api/Global/2dxfx/2dxFXALNoiseAnimated
+title: 2dxFXALNoiseAnimated
+description: 
+published: true
+date: 2026-07-07T17:25:30.855Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:45.135Z
 ---
+
 # Class _2dxFX_AL_NoiseAnimated
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

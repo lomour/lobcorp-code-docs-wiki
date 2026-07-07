@@ -1,7 +1,13 @@
 ---
-uid: Spine.TrackEntry
-canonical_path: /api/Spine/TrackEntry
+title: TrackEntry
+description: 
+published: true
+date: 2026-02-20T22:48:16.201Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:14.532Z
 ---
+
 # Class TrackEntry
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

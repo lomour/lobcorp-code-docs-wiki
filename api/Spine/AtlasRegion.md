@@ -1,7 +1,13 @@
 ---
-uid: Spine.AtlasRegion
-canonical_path: /api/Spine/AtlasRegion
+title: AtlasRegion
+description: 
+published: true
+date: 2026-02-20T22:46:11.802Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:26.807Z
 ---
+
 # Class AtlasRegion
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_ColorChange
-canonical_path: /api/Global/2dxfx/2dxFXALColorChange
+title: 2dxFXALColorChange
+description: 
+published: true
+date: 2026-07-07T17:23:45.182Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:05:00.287Z
 ---
+
 # Class _2dxFX_AL_ColorChange
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

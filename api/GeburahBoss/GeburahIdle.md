@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.GeburahIdle
-canonical_path: /api/GeburahBoss/GeburahIdle
+title: GeburahIdle
+description: 
+published: true
+date: 2026-07-07T17:22:40.813Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:37.512Z
 ---
+
 # Class GeburahIdle
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

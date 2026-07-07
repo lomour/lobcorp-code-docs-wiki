@@ -1,7 +1,13 @@
 ---
-uid: GlobalBullet.GlobalBulletManager.BulletFunc
-canonical_path: /api/GlobalBullet/GlobalBulletManager/BulletFunc
+title: BulletFunc
+description: 
+published: true
+date: 2026-02-20T22:40:20.213Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:19:23.901Z
 ---
+
 # Delegate GlobalBulletManager.BulletFunc
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll

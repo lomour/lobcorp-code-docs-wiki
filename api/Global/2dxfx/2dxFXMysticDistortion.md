@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Mystic_Distortion
-canonical_path: /api/Global/2dxfx/2dxFXMysticDistortion
+title: 2dxFXMysticDistortion
+description: 
+published: true
+date: 2026-07-07T17:28:59.980Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:10:19.100Z
 ---
+
 # Class _2dxFX_Mystic_Distortion
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

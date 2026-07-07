@@ -2,7 +2,7 @@
 title: DeathAngel
 description: 
 published: true
-date: 2026-02-26T23:58:16.612Z
+date: 2026-02-26T23:58:18.794Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-15T05:27:46.685Z

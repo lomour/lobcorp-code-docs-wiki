@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.MeshGeneratorBuffers
-canonical_path: /api/Spine/Unity/MeshGeneratorBuffers
+title: MeshGeneratorBuffers
+description: 
+published: true
+date: 2026-02-20T22:48:51.795Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:02:21.032Z
 ---
+
 # Struct MeshGeneratorBuffers
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

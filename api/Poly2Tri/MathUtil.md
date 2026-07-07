@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.MathUtil
-canonical_path: /api/Poly2Tri/MathUtil
+title: MathUtil
+description: 
+published: true
+date: 2026-02-20T22:44:27.203Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:41:58.282Z
 ---
+
 # Class MathUtil
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

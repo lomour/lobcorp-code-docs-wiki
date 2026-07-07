@@ -1,7 +1,13 @@
 ---
-uid: CreatureCameraUtil.CreatureCameraUtil
-canonical_path: /api/CreatureCameraUtil/CreatureCameraUtil
+title: CreatureCameraUtil
+description: 
+published: true
+date: 2026-07-07T17:19:29.615Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:51:07.023Z
 ---
+
 # Class CreatureCameraUtil
 **Namespace:** [CreatureCameraUtil](/api/CreatureCameraUtil)
 **Assembly:** Assembly-CSharp.dll

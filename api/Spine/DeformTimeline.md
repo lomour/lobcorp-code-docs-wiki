@@ -1,7 +1,13 @@
 ---
-uid: Spine.DeformTimeline
-canonical_path: /api/Spine/DeformTimeline
+title: DeformTimeline
+description: 
+published: true
+date: 2026-02-20T22:46:33.233Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:06.273Z
 ---
+
 # Class DeformTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

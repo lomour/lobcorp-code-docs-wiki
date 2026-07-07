@@ -1,7 +1,13 @@
 ---
-uid: Spine.ExposedList`1.Enumerator
-canonical_path: /api/Spine/ExposedList-T/Enumerator
+title: Enumerator
+description: 
+published: true
+date: 2026-02-20T22:46:50.372Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:36.138Z
 ---
+
 # Struct ExposedList<T>.Enumerator
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

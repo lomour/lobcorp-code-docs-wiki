@@ -1,7 +1,13 @@
 ---
-uid: Manual.ManualTextSlot
-canonical_path: /api/Manual/ManualTextSlot
+title: ManualTextSlot
+description: 
+published: true
+date: 2026-02-20T22:43:36.218Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:33:43.399Z
 ---
+
 # Class ManualTextSlot
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

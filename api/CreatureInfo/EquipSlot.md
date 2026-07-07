@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.EquipSlot
-canonical_path: /api/CreatureInfo/EquipSlot
+title: EquipSlot
+description: 
+published: true
+date: 2026-07-07T17:20:36.363Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:53:50.467Z
 ---
+
 # Class EquipSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

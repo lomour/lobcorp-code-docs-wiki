@@ -1,7 +1,13 @@
 ---
-uid: DeadEffect.WorkerExecutionEffect
-canonical_path: /api/DeadEffect/WorkerExecutionEffect
+title: WorkerExecutionEffect
+description: 
+published: true
+date: 2026-07-07T17:21:44.096Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:57:42.707Z
 ---
+
 # Class WorkerExecutionEffect
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

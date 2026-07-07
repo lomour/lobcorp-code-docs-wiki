@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.CreatureInfoKitDataSlot
-canonical_path: /api/CreatureInfo/CreatureInfoKitDataSlot
+title: CreatureInfoKitDataSlot
+description: 
+published: true
+date: 2026-07-07T17:20:11.925Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:53:11.225Z
 ---
+
 # Class CreatureInfoKitDataSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

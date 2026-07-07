@@ -1,7 +1,13 @@
 ---
-uid: Legacy.TutorialNode
-canonical_path: /api/Legacy/TutorialNode
+title: TutorialNode
+description: 
+published: true
+date: 2026-02-20T22:42:58.821Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:38.377Z
 ---
+
 # Class TutorialNode
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

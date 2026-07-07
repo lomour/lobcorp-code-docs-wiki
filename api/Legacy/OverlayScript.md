@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayScript
-canonical_path: /api/Legacy/OverlayScript
+title: OverlayScript
+description: 
+published: true
+date: 2026-02-20T22:42:41.920Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:07.119Z
 ---
+
 # Class OverlayScript
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

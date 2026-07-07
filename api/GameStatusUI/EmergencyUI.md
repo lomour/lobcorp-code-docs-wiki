@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.EmergencyUI
-canonical_path: /api/GameStatusUI/EmergencyUI
+title: EmergencyUI
+description: 
+published: true
+date: 2026-07-07T17:21:53.371Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:01:57.373Z
 ---
+
 # Class EmergencyUI
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

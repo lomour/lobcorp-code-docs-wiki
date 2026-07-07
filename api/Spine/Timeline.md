@@ -1,7 +1,13 @@
 ---
-uid: Spine.Timeline
-canonical_path: /api/Spine/Timeline
+title: Timeline
+description: 
+published: true
+date: 2026-02-20T22:48:12.487Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:07.775Z
 ---
+
 # Interface Timeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

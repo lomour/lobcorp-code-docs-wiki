@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahBlackFogBuf
-canonical_path: /api/BinahBoss/BinahBlackFogBuf
+title: BinahBlackFogBuf
+description: 
+published: true
+date: 2026-07-07T17:18:03.372Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:37:55.946Z
 ---
+
 # Class BinahBlackFogBuf
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

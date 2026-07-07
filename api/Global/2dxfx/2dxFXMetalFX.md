@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_MetalFX
-canonical_path: /api/Global/2dxfx/2dxFXMetalFX
+title: 2dxFXMetalFX
+description: 
+published: true
+date: 2026-07-07T17:28:57.135Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:10:15.979Z
 ---
+
 # Class _2dxFX_MetalFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

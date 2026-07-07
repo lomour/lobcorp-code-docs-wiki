@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_IcedFX
-canonical_path: /api/Global/2dxfx/2dxFXALIcedFX
+title: 2dxFXALIcedFX
+description: 
+published: true
+date: 2026-07-07T17:24:51.977Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:10.911Z
 ---
+
 # Class _2dxFX_AL_IcedFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

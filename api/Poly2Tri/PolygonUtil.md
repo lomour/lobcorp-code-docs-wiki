@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.PolygonUtil
-canonical_path: /api/Poly2Tri/PolygonUtil
+title: PolygonUtil
+description: 
+published: true
+date: 2026-02-20T22:44:57.683Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:42:53.135Z
 ---
+
 # Class PolygonUtil
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

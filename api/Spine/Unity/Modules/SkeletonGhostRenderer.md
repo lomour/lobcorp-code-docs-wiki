@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.Modules.SkeletonGhostRenderer
-canonical_path: /api/Spine/Unity/Modules/SkeletonGhostRenderer
+title: SkeletonGhostRenderer
+description: 
+published: true
+date: 2026-02-20T22:49:15.967Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:03:05.092Z
 ---
+
 # Class SkeletonGhostRenderer
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

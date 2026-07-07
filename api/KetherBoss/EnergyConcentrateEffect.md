@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.EnergyConcentrateEffect
-canonical_path: /api/KetherBoss/EnergyConcentrateEffect
+title: EnergyConcentrateEffect
+description: 
+published: true
+date: 2026-02-20T22:41:16.651Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:24:36.180Z
 ---
+
 # Class EnergyConcentrateEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

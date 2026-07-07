@@ -1,7 +1,13 @@
 ---
-uid: nightowl.DistortionShaderPack.RenderTextureCamera
-canonical_path: /api/nightowl/DistortionShaderPack/RenderTextureCamera
+title: RenderTextureCamera
+description: 
+published: true
+date: 2026-02-20T22:54:30.570Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:28:16.220Z
 ---
+
 # Class RenderTextureCamera
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

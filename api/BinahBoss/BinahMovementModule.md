@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahMovementModule
-canonical_path: /api/BinahBoss/BinahMovementModule
+title: BinahMovementModule
+description: 
+published: true
+date: 2026-07-07T17:18:17.808Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:38:21.208Z
 ---
+
 # Class BinahMovementModule
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

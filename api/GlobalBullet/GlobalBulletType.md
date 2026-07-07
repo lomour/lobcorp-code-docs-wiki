@@ -1,7 +1,13 @@
 ---
-uid: GlobalBullet.GlobalBulletType
-canonical_path: /api/GlobalBullet/GlobalBulletType
+title: GlobalBulletType
+description: 
+published: true
+date: 2026-02-23T23:20:25.714Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:19:27.400Z
 ---
+
 # Enum GlobalBulletType
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll

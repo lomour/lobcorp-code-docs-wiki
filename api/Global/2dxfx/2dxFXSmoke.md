@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Smoke
-canonical_path: /api/Global/2dxfx/2dxFXSmoke
+title: 2dxFXSmoke
+description: 
+published: true
+date: 2026-07-07T17:30:23.146Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:11:39.102Z
 ---
+
 # Class _2dxFX_Smoke
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

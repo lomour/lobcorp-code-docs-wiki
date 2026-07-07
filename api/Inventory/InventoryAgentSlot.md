@@ -1,7 +1,13 @@
 ---
-uid: Inventory.InventoryAgentSlot
-canonical_path: /api/Inventory/InventoryAgentSlot
+title: InventoryAgentSlot
+description: 
+published: true
+date: 2026-02-20T22:40:40.186Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:22:08.184Z
 ---
+
 # Class InventoryAgentSlot
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

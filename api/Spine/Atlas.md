@@ -1,7 +1,13 @@
 ---
-uid: Spine.Atlas
-canonical_path: /api/Spine/Atlas
+title: Atlas
+description: 
+published: true
+date: 2026-02-20T22:46:06.389Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:17.017Z
 ---
+
 # Class Atlas
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

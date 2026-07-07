@@ -1,0 +1,145 @@
+---
+title: BarrierBuf
+description: 
+published: true
+date: 2026-02-20T22:35:13.033Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:09:22.658Z
+---
+
+# Class BarrierBuf
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class BarrierBuf : UnitBuf
+```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Shield buff given by shield bullets and certain E.G.O. effects. When the unit with this buff takes damage, it will reduce the barrierValue of the BarrierBuff with the matching RWBPType by the damage. If the barrierValue is greater than 0 after this reduction, the unit doesn't take the damage. Otherwise, the shield breaks without reducing the damage. The shield breaks on its own when the time expires.
+
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [UnitBuf](/api/Global/Misc/UnitBuf) → BarrierBuf
+
+## Constructors
+### BarrierBuf(RwbpType, float, float)
+```csharp
+public BarrierBuf(RwbpType type, float barrierValue, float time)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `type` | `Global.RwbpType` |  |
+| `barrierValue` | `System.Single` |  |
+| `time` | `System.Single` |  |
+
+## Fields
+### _barrierValue
+```csharp
+private float _barrierValue
+```
+
+
+#### Field Value
+**Type:** System.Single
+
+### _barrierValueMax
+```csharp
+private float _barrierValueMax
+```
+
+
+#### Field Value
+**Type:** System.Single
+
+### _rwbpType
+```csharp
+private RwbpType _rwbpType
+```
+
+
+#### Field Value
+**Type:** Global.RwbpType
+
+### barrierEffect
+```csharp
+private BarrierEffect barrierEffect
+```
+
+
+#### Field Value
+**Type:** Global.BarrierEffect
+
+### maxTime
+```csharp
+private float maxTime
+```
+
+
+#### Field Value
+**Type:** System.Single
+
+## Properties
+### Rate
+```csharp
+private float Rate { get; }
+```
+
+#### Property Value
+**Type:** System.Single
+
+## Methods
+### FixedUpdate()
+```csharp
+public override void FixedUpdate()
+```
+
+
+### Init(UnitModel)
+```csharp
+public override void Init(UnitModel model)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `model` | `Global.UnitModel` |  |
+
+### OnCrackBarrier()
+```csharp
+public void OnCrackBarrier()
+```
+
+
+### OnDestroy()
+```csharp
+public override void OnDestroy()
+```
+
+
+### UseBarrier(RwbpType, float)
+```csharp
+public float UseBarrier(RwbpType dmgRwbpType, float damage)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `dmgRwbpType` | `Global.RwbpType` |  |
+| `damage` | `System.Single` |  |
+
+#### Returns
+**Type:** System.Single
+
+## Inherited Members
+[type](/api/Global/Misc/UnitBuf#type), [remainTime](/api/Global/Misc/UnitBuf#remaintime), [model](/api/Global/Misc/UnitBuf#model), [effectSrc](/api/Global/Misc/UnitBuf#effectsrc), [duplicateType](/api/Global/Misc/UnitBuf#duplicatetype), [Destroy()](/api/Global/Misc/UnitBuf#destroy), [MovementScale()](/api/Global/Misc/UnitBuf#movementscale), [OnUnitDie()](/api/Global/Misc/UnitBuf#onunitdie), [OnUnitPanic()](/api/Global/Misc/UnitBuf#onunitpanic), [OnStageRelease()](/api/Global/Misc/UnitBuf#onstagerelease), [OnTakeDamage(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ontakedamage-unitmodel-damageinfo), [GetDamageFactor()](/api/Global/Misc/UnitBuf#getdamagefactor), [GetDamageFactor(UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#getdamagefactor-unitmodel-damageinfo), [OnGiveDamage(UnitModel, UnitModel, ref DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamage-unitmodel-unitmodel-ref-damageinfo), [GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)](/api/Global/Misc/UnitBuf#getworkprobspecialbonus-unitmodel-skilltypeinfo), [OnGiveDamageAfter(UnitModel, UnitModel, DamageInfo)](/api/Global/Misc/UnitBuf#ongivedamageafter-unitmodel-unitmodel-damageinfo), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

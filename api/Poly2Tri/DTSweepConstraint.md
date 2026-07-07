@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.DTSweepConstraint
-canonical_path: /api/Poly2Tri/DTSweepConstraint
+title: DTSweepConstraint
+description: 
+published: true
+date: 2026-02-20T22:44:07.836Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:41:20.436Z
 ---
+
 # Class DTSweepConstraint
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

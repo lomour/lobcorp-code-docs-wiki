@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.GreedyTelepeort
-canonical_path: /api/GeburahBoss/GreedyTelepeort
+title: GreedyTelepeort
+description: 
+published: true
+date: 2026-07-07T17:22:54.830Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:52.548Z
 ---
+
 # Class GreedyTelepeort
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

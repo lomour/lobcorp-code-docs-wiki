@@ -1,7 +1,13 @@
 ---
-uid: CreatureInfo.CreatureInfoCodex.SortData
-canonical_path: /api/CreatureInfo/CreatureInfoCodex/SortData
+title: CreatureInfoCodex-SortData
+description: 
+published: true
+date: 2026-07-07T17:20:02.639Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:52:56.217Z
 ---
+
 # Class CreatureInfoCodex.SortData
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Outline
-canonical_path: /api/Global/2dxfx/2dxFXALOutline
+title: 2dxFXALOutline
+description: 
+published: true
+date: 2026-07-07T17:25:45.943Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:54.242Z
 ---
+
 # Class _2dxFX_AL_Outline
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BladeWaveThrow
-canonical_path: /api/BinahBoss/BladeWaveThrow
+title: BladeWaveThrow
+description: 
+published: true
+date: 2026-07-07T17:18:48.958Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:39:13.911Z
 ---
+
 # Class BladeWaveThrow
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

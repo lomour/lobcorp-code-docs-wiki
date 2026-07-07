@@ -1,7 +1,13 @@
 ---
-uid: Assets.Scripts.UI.Isolate.IsolateDescController
-canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescController
+title: IsolateDescController
+description: 
+published: true
+date: 2026-07-07T17:17:45.527Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:35:17.195Z
 ---
+
 # Class IsolateDescController
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll

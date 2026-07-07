@@ -1,7 +1,13 @@
 ---
-uid: Spine.Animation
-canonical_path: /api/Spine/Animation
+title: Animation
+description: 
+published: true
+date: 2026-02-20T22:45:53.305Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:56:54.223Z
 ---
+
 # Class Animation
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

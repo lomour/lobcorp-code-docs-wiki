@@ -1,7 +1,13 @@
 ---
-uid: Customizing.StatUI.StatController
-canonical_path: /api/Customizing/StatUI/StatController
+title: StatUI-StatController
+description: 
+published: true
+date: 2026-07-07T17:21:31.408Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:56:39.255Z
 ---
+
 # Class StatUI.StatController
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

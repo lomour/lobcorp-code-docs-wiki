@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.KetherBackgroundMover
-canonical_path: /api/KetherBoss/KetherBackgroundMover
+title: KetherBackgroundMover
+description: 
+published: true
+date: 2026-02-20T22:41:23.533Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:24:50.712Z
 ---
+
 # Class KetherBackgroundMover
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

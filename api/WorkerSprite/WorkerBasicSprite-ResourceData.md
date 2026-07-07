@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerBasicSprite.ResourceData
-canonical_path: /api/WorkerSprite/WorkerBasicSprite/ResourceData
+title: WorkerBasicSprite-ResourceData
+description: 
+published: true
+date: 2026-07-07T02:14:12.446Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:28.598Z
 ---
+
 # Class WorkerBasicSprite.ResourceData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

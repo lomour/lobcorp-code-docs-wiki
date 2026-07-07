@@ -1,7 +1,13 @@
 ---
-uid: Spine.BoneData
-canonical_path: /api/Spine/BoneData
+title: BoneData
+description: 
+published: true
+date: 2026-02-20T22:46:24.340Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:50.277Z
 ---
+
 # Class BoneData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

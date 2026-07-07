@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonAnimator.MecanimTranslator.IntEqualityComparer
-canonical_path: /api/Spine/Unity/SkeletonAnimator/MecanimTranslator/IntEqualityComparer
+title: IntEqualityComparer
+description: 
+published: true
+date: 2026-02-20T22:49:55.169Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:17.115Z
 ---
+
 # Class SkeletonAnimator.MecanimTranslator.IntEqualityComparer
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

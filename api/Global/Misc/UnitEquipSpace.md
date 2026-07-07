@@ -1,0 +1,120 @@
+---
+title: UnitEquipSpace
+description: 
+published: true
+date: 2026-07-07T17:17:10.745Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T05:15:13.906Z
+---
+
+# Class UnitEquipSpace
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class UnitEquipSpace
+```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Holds and manages the equipment of a [unit](/api/Global/Model/UnitModel).
+
+
+
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → UnitEquipSpace
+
+## Constructors
+### UnitEquipSpace()
+```csharp
+public UnitEquipSpace()
+```
+
+## Fields
+### armor
+```csharp
+public ArmorModel armor
+```
+
+
+#### Field Value
+**Type:** Global.ArmorModel
+
+### gifts
+```csharp
+public UnitEGOgiftSpace gifts
+```
+
+
+#### Field Value
+**Type:** Global.UnitEGOgiftSpace
+
+### kitCreature
+```csharp
+public CreatureModel kitCreature
+```
+
+
+#### Field Value
+**Type:** Global.CreatureModel
+
+### weapon
+```csharp
+public WeaponModel weapon
+```
+
+
+#### Field Value
+**Type:** Global.WeaponModel
+
+## Methods
+### GetBonus(UnitModel)
+```csharp
+public EGObonusInfo GetBonus(UnitModel actor)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+
+#### Returns
+**Type:** Global.EGObonusInfo
+
+### GetWorkProbSpecialBonus(UnitModel, SkillTypeInfo)
+```csharp
+public float GetWorkProbSpecialBonus(UnitModel actor, SkillTypeInfo skill)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `actor` | `Global.UnitModel` |  |
+| `skill` | `Global.SkillTypeInfo` |  |
+
+#### Returns
+**Type:** System.Single
+
+### HasEquipment(int)
+```csharp
+public bool HasEquipment(int id)
+```
+
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `id` | `System.Int32` |  |
+
+#### Returns
+**Type:** System.Boolean
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

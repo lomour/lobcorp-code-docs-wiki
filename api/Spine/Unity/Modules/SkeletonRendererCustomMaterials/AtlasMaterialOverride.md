@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.Modules.SkeletonRendererCustomMaterials.AtlasMaterialOverride
-canonical_path: /api/Spine/Unity/Modules/SkeletonRendererCustomMaterials/AtlasMaterialOverride
+title: AtlasMaterialOverride
+description: 
+published: true
+date: 2026-02-20T22:49:29.268Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:03:29.798Z
 ---
+
 # Struct SkeletonRendererCustomMaterials.AtlasMaterialOverride
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

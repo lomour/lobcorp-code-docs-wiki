@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Negative
-canonical_path: /api/Global/2dxfx/2dxFXALNegative
+title: 2dxFXALNegative
+description: 
+published: true
+date: 2026-07-07T17:25:25.165Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:39.071Z
 ---
+
 # Class _2dxFX_AL_Negative
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

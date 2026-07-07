@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SpineAttachment
-canonical_path: /api/Spine/Unity/SpineAttachment
+title: SpineAttachment
+description: 
+published: true
+date: 2026-02-20T22:50:25.927Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:11.967Z
 ---
+
 # Class SpineAttachment
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

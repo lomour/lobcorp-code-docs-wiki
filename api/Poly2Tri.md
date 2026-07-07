@@ -2,11 +2,12 @@
 title: Poly2Tri
 description: 
 published: true
-date: 2026-02-20T19:56:29.753Z
+date: 2026-07-07T17:14:09.569Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T04:35:40.662Z
 ---
+
 # Namespace Poly2Tri
 > This third-party library is no longer supported.
 {.is-info}

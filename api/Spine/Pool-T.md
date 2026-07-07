@@ -1,7 +1,13 @@
 ---
-uid: Spine.Pool`1
-canonical_path: /api/Spine/Pool-T
+title: Pool-T
+description: 
+published: true
+date: 2026-02-20T22:47:26.322Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:41.192Z
 ---
+
 # Class Pool<T>
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

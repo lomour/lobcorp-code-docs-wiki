@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.GameStatusUI
-canonical_path: /api/GameStatusUI/GameStatusUI
+title: GameStatusUI
+description: 
+published: true
+date: 2026-07-07T17:22:02.479Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:12.225Z
 ---
+
 # Class GameStatusUI
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

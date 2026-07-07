@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerSprite.ReplacedAttachment
-canonical_path: /api/WorkerSprite/WorkerSprite/ReplacedAttachment
+title: WorkerSprite-ReplacedAttachment
+description: 
+published: true
+date: 2026-03-03T08:31:18.883Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:57.882Z
 ---
+
 # Class WorkerSprite.ReplacedAttachment
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

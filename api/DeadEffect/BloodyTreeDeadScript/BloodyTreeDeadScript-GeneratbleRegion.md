@@ -1,7 +1,13 @@
 ---
-uid: DeadEffect.BloodyTreeDeadScript.GeneratbleRegion
-canonical_path: /api/DeadEffect/BloodyTreeDeadScript/GeneratbleRegion
+title: BloodyTreeDeadScript-GeneratbleRegion
+description: 
+published: true
+date: 2026-07-07T17:21:36.739Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:57:31.236Z
 ---
+
 # Enum BloodyTreeDeadScript.GeneratbleRegion
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

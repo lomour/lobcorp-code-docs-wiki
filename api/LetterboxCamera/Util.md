@@ -1,7 +1,13 @@
 ---
-uid: LetterboxCamera.Util
-canonical_path: /api/LetterboxCamera/Util
+title: Util
+description: 
+published: true
+date: 2026-02-20T22:43:18.350Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:30:19.289Z
 ---
+
 # Class Util
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll

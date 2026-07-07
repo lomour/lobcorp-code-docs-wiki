@@ -1,7 +1,13 @@
 ---
-uid: Spine.EventTimeline
-canonical_path: /api/Spine/EventTimeline
+title: EventTimeline
+description: 
+published: true
+date: 2026-02-20T22:46:46.023Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:29.187Z
 ---
+
 # Class EventTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

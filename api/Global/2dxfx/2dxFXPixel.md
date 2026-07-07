@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Pixel
-canonical_path: /api/Global/2dxfx/2dxFXPixel
+title: 2dxFXPixel
+description: 
+published: true
+date: 2026-07-07T17:29:32.156Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:10:51.961Z
 ---
+
 # Class _2dxFX_Pixel
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.UniqueWeaponSpriteUnit
-canonical_path: /api/WorkerSprite/UniqueWeaponSpriteUnit
+title: UniqueWeaponSpriteUnit
+description: 
+published: true
+date: 2026-02-20T22:53:05.329Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:02.794Z
 ---
+
 # Class UniqueWeaponSpriteUnit
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

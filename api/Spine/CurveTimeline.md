@@ -1,7 +1,13 @@
 ---
-uid: Spine.CurveTimeline
-canonical_path: /api/Spine/CurveTimeline
+title: CurveTimeline
+description: 
+published: true
+date: 2026-02-20T22:46:31.486Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:03.102Z
 ---
+
 # Class CurveTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

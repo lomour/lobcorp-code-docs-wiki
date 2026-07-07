@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.PlaySpeedSettingBlockedUI
-canonical_path: /api/GameStatusUI/PlaySpeedSettingBlockedUI
+title: PlaySpeedSettingBlockedUI
+description: 
+published: true
+date: 2026-07-07T17:22:04.497Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:15.270Z
 ---
+
 # Class PlaySpeedSettingBlockedUI
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

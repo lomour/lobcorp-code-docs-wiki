@@ -1,7 +1,13 @@
 ---
-uid: Spine.Format
-canonical_path: /api/Spine/Format
+title: Format
+description: 
+published: true
+date: 2026-02-23T23:21:14.689Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:39.323Z
 ---
+
 # Enum Format
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,3 +1,13 @@
+---
+title: CreatureInfo
+description: 
+published: true
+date: 2026-07-07T17:08:01.464Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T03:47:54.465Z
+---
+
 # Namespace CreatureInfo
 ## Classes
 ### [ArmorSlot](/api/CreatureInfo/ArmorSlot)

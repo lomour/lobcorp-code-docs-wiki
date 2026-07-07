@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.DefaultAttack.AttackProb
-canonical_path: /api/GeburahBoss/DefaultAttack/AttackProb
+title: DefaultAttack-AttackProb
+description: 
+published: true
+date: 2026-07-07T17:22:26.347Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:17.086Z
 ---
+
 # Class DefaultAttack.AttackProb
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

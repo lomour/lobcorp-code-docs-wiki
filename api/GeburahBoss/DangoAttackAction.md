@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.DangoAttackAction
-canonical_path: /api/GeburahBoss/DangoAttackAction
+title: DangoAttackAction
+description: 
+published: true
+date: 2026-07-07T17:22:22.670Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:11.183Z
 ---
+
 # Class DangoAttackAction
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

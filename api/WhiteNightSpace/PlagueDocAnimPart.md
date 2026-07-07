@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.PlagueDocAnimPart
-canonical_path: /api/WhiteNightSpace/PlagueDocAnimPart
+title: PlagueDocAnimPart
+description: 
+published: true
+date: 2026-02-23T23:21:38.622Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:15:37.202Z
 ---
+
 # Enum PlagueDocAnimPart
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

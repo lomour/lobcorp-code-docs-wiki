@@ -1,7 +1,13 @@
 ---
-uid: Legacy.ApostleLaserScirpt
-canonical_path: /api/Legacy/ApostleLaserScirpt
+title: ApostleLaserScirpt
+description: 
+published: true
+date: 2026-02-20T22:41:57.042Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:27:42.991Z
 ---
+
 # Class ApostleLaserScirpt
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

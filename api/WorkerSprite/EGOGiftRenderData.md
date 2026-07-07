@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.EGOGiftRenderData
-canonical_path: /api/WorkerSprite/EGOGiftRenderData
+title: EGOGiftRenderData
+description: 
+published: true
+date: 2026-02-20T22:52:44.906Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:19:23.295Z
 ---
+
 # Class EGOGiftRenderData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

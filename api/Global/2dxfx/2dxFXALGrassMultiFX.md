@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_GrassMultiFX
-canonical_path: /api/Global/2dxfx/2dxFXALGrassMultiFX
+title: 2dxFXALGrassMultiFX
+description: 
+published: true
+date: 2026-07-07T17:24:28.724Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:05:46.947Z
 ---
+
 # Class _2dxFX_AL_GrassMultiFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

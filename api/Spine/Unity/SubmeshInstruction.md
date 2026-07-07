@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SubmeshInstruction
-canonical_path: /api/Spine/Unity/SubmeshInstruction
+title: SubmeshInstruction
+description: 
+published: true
+date: 2026-02-20T22:50:46.056Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:50.040Z
 ---
+
 # Struct SubmeshInstruction
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Legacy.DeathAngelApostleAnim
-canonical_path: /api/Legacy/DeathAngelApostleAnim
+title: DeathAngelApostleAnim
+description: 
+published: true
+date: 2026-02-20T22:42:10.431Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:08.688Z
 ---
+
 # Class DeathAngelApostleAnim
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

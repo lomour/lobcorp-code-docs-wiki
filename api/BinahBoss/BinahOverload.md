@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahOverload
-canonical_path: /api/BinahBoss/BinahOverload
+title: BinahOverload
+description: 
+published: true
+date: 2026-07-07T17:18:21.509Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:38:27.722Z
 ---
+
 # Class BinahOverload
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

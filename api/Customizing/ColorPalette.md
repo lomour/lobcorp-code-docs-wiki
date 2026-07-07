@@ -1,7 +1,13 @@
 ---
-uid: Customizing.ColorPalette
-canonical_path: /api/Customizing/ColorPalette
+title: ColorPalette
+description: 
+published: true
+date: 2026-07-07T17:21:16.408Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:56:15.126Z
 ---
+
 # Class ColorPalette
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

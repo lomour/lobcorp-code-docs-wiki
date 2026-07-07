@@ -1,7 +1,13 @@
 ---
-uid: Legacy.DeathAngelClockUI
-canonical_path: /api/Legacy/DeathAngelClockUI
+title: DeathAngelClockUI
+description: 
+published: true
+date: 2026-02-20T22:42:12.658Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:12.752Z
 ---
+
 # Class DeathAngelClockUI
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

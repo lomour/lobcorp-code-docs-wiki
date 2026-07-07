@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_LightningBolt
-canonical_path: /api/Global/2dxfx/2dxFXALLightningBolt
+title: 2dxFXALLightningBolt
+description: 
+published: true
+date: 2026-07-07T17:25:03.759Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:23.495Z
 ---
+
 # Class _2dxFX_AL_LightningBolt
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

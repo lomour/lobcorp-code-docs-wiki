@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayManager
-canonical_path: /api/Legacy/OverlayManager
+title: OverlayManager
+description: 
+published: true
+date: 2026-02-20T22:42:18.155Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:23.106Z
 ---
+
 # Class OverlayManager
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

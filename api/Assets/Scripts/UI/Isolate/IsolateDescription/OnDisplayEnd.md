@@ -1,7 +1,13 @@
 ---
-uid: Assets.Scripts.UI.Isolate.IsolateDescription.OnDisplayEnd
-canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescription/OnDisplayEnd
+title: OnDisplayEnd
+description: 
+published: true
+date: 2026-07-07T17:17:49.324Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:35:23.492Z
 ---
+
 # Delegate IsolateDescription.OnDisplayEnd
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll

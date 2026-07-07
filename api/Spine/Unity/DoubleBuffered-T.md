@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.DoubleBuffered`1
-canonical_path: /api/Spine/Unity/DoubleBuffered-T
+title: DoubleBuffered-T
+description: 
+published: true
+date: 2026-02-20T22:48:39.683Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:58.172Z
 ---
+
 # Class DoubleBuffered<T>
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

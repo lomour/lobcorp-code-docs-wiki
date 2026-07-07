@@ -1,7 +1,13 @@
 ---
-uid: Manual.NodeCategory
-canonical_path: /api/Manual/NodeCategory
+title: NodeCategory
+description: 
+published: true
+date: 2026-02-20T22:43:37.980Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:33:46.836Z
 ---
+
 # Class NodeCategory
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

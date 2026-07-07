@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.MaterialsTextureLoader2
-canonical_path: /api/WorkerSpine/MaterialsTextureLoader2
+title: MaterialsTextureLoader2
+description: 
+published: true
+date: 2026-02-20T22:52:18.937Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:17:39.374Z
 ---
+
 # Class MaterialsTextureLoader2
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

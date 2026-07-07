@@ -1,7 +1,13 @@
 ---
-uid: Customizing.AppearanceUI
-canonical_path: /api/Customizing/AppearanceUI
+title: AppearanceUI
+description: 
+published: true
+date: 2026-07-07T17:21:11.277Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:56:06.211Z
 ---
+
 # Class AppearanceUI
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

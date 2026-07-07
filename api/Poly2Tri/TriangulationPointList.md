@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.TriangulationPointList
-canonical_path: /api/Poly2Tri/TriangulationPointList
+title: TriangulationPointList
+description: 
+published: true
+date: 2026-02-20T22:45:19.148Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:43:34.531Z
 ---
+
 # Class TriangulationPointList
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

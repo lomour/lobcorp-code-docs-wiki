@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayObject
-canonical_path: /api/Legacy/OverlayObject
+title: OverlayObject
+description: 
+published: true
+date: 2026-02-20T22:42:39.829Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:03.704Z
 ---
+
 # Class OverlayObject
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

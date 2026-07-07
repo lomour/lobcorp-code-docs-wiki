@@ -1,7 +1,13 @@
 ---
-uid: UIControllerExamples.Popup.UIControllerExample8
-canonical_path: /api/UIControllerExamples/Popup/UIControllerExample8
+title: UIControllerExample8
+description: 
+published: true
+date: 2026-02-20T22:51:04.809Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:11:59.836Z
 ---
+
 # Class UIControllerExample8
 **Namespace:** UIControllerExamples . [Popup](/api/UIControllerExamples/Popup)
 **Assembly:** Assembly-CSharp.dll

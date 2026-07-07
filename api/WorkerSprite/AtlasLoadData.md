@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.AtlasLoadData
-canonical_path: /api/WorkerSprite/AtlasLoadData
+title: AtlasLoadData
+description: 
+published: true
+date: 2026-02-20T22:52:39.710Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:19:13.511Z
 ---
+
 # Class AtlasLoadData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.SkeletonBounds
-canonical_path: /api/Spine/SkeletonBounds
+title: SkeletonBounds
+description: 
+published: true
+date: 2026-02-20T22:47:45.905Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:18.507Z
 ---
+
 # Class SkeletonBounds
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

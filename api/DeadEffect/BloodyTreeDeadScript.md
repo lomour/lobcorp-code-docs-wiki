@@ -1,7 +1,13 @@
 ---
-uid: DeadEffect.BloodyTreeDeadScript
-canonical_path: /api/DeadEffect/BloodyTreeDeadScript
+title: BloodyTreeDeadScript
+description: 
+published: true
+date: 2026-07-07T17:21:35.088Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:57:27.908Z
 ---
+
 # Class BloodyTreeDeadScript
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

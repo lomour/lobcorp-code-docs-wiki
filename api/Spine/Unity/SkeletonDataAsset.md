@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonDataAsset
-canonical_path: /api/Spine/Unity/SkeletonDataAsset
+title: SkeletonDataAsset
+description: 
+published: true
+date: 2026-02-20T22:49:58.966Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:23.697Z
 ---
+
 # Class SkeletonDataAsset
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

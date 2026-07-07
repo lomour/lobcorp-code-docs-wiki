@@ -1,7 +1,13 @@
 ---
-uid: Optimization.AutoMeshHider
-canonical_path: /api/Optimization/AutoMeshHider
+title: AutoMeshHider
+description: 
+published: true
+date: 2026-02-20T22:43:50.757Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:36:58.784Z
 ---
+
 # Class AutoMeshHider
 **Namespace:** [Optimization](/api/Optimization)
 **Assembly:** Assembly-CSharp.dll

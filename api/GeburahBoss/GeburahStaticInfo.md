@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.GeburahStaticInfo
-canonical_path: /api/GeburahBoss/GeburahStaticInfo
+title: GeburahStaticInfo
+description: 
+published: true
+date: 2026-07-07T17:22:51.914Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:49.574Z
 ---
+
 # Class GeburahStaticInfo
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

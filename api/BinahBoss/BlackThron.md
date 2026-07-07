@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BlackThron
-canonical_path: /api/BinahBoss/BlackThron
+title: BlackThron
+description: 
+published: true
+date: 2026-07-07T17:18:47.185Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:39:10.741Z
 ---
+
 # Class BlackThron
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

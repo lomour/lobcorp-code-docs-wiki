@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.MaterialsTextureLoader
-canonical_path: /api/Spine/Unity/MaterialsTextureLoader
+title: MaterialsTextureLoader
+description: 
+published: true
+date: 2026-02-20T22:48:46.612Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:02:10.935Z
 ---
+
 # Class MaterialsTextureLoader
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.EventQueue
-canonical_path: /api/Spine/EventQueue
+title: EventQueue
+description: 
+published: true
+date: 2026-02-20T22:46:40.537Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:19.259Z
 ---
+
 # Class EventQueue
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

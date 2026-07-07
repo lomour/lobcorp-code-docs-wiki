@@ -1,7 +1,13 @@
 ---
-uid: DeadEffect.WorkerPartRenderer
-canonical_path: /api/DeadEffect/WorkerPartRenderer
+title: WorkerPartRenderer
+description: 
+published: true
+date: 2026-07-07T17:21:45.973Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:57:45.642Z
 ---
+
 # Class WorkerPartRenderer
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

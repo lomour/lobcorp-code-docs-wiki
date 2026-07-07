@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.KetherLastBossBase
-canonical_path: /api/KetherBoss/KetherLastBossBase
+title: KetherLastBossBase
+description: 
+published: true
+date: 2026-02-20T22:41:31.379Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:25:04.834Z
 ---
+
 # Class KetherLastBossBase
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

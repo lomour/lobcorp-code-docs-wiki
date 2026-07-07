@@ -1,7 +1,13 @@
 ---
-uid: nightowl.DistortionShaderPack.Rotate
-canonical_path: /api/nightowl/DistortionShaderPack/Rotate
+title: Rotate
+description: 
+published: true
+date: 2026-02-20T22:54:32.341Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:28:19.666Z
 ---
+
 # Class Rotate
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

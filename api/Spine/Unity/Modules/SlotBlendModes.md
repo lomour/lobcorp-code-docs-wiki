@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.Modules.SlotBlendModes
-canonical_path: /api/Spine/Unity/Modules/SlotBlendModes
+title: SlotBlendModes
+description: 
+published: true
+date: 2026-02-20T22:49:40.292Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:03:49.320Z
 ---
+
 # Class SlotBlendModes
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

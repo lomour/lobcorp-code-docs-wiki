@@ -1,7 +1,13 @@
 ---
-uid: CommandWindow.AgentEquipmentSlot
-canonical_path: /api/CommandWindow/AgentEquipmentSlot
+title: AgentEquipmentSlot
+description: 
+published: true
+date: 2026-07-07T17:19:05.006Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:50:04.164Z
 ---
+
 # Class AgentEquipmentSlot
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

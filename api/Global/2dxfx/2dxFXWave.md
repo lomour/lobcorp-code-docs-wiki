@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Wave
-canonical_path: /api/Global/2dxfx/2dxFXWave
+title: 2dxFXWave
+description: 
+published: true
+date: 2026-07-07T17:30:46.787Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:12:03.472Z
 ---
+
 # Class _2dxFX_Wave
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

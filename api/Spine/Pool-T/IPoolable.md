@@ -1,7 +1,13 @@
 ---
-uid: Spine.Pool`1.IPoolable
-canonical_path: /api/Spine/Pool-T/IPoolable
+title: IPoolable
+description: 
+published: true
+date: 2026-02-20T22:47:27.880Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:44.382Z
 ---
+
 # Interface Pool<T>.IPoolable
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

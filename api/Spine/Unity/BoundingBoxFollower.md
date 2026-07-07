@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.BoundingBoxFollower
-canonical_path: /api/Spine/Unity/BoundingBoxFollower
+title: BoundingBoxFollower
+description: 
+published: true
+date: 2026-02-20T22:48:37.961Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:54.662Z
 ---
+
 # Class BoundingBoxFollower
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

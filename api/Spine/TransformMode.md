@@ -1,7 +1,13 @@
 ---
-uid: Spine.TransformMode
-canonical_path: /api/Spine/TransformMode
+title: TransformMode
+description: 
+published: true
+date: 2026-02-23T23:21:28.946Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:28.017Z
 ---
+
 # Enum TransformMode
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

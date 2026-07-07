@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Posterize
-canonical_path: /api/Global/2dxfx/2dxFXALPosterize
+title: 2dxFXALPosterize
+description: 
+published: true
+date: 2026-07-07T17:26:12.748Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:07:21.859Z
 ---
+
 # Class _2dxFX_AL_Posterize
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

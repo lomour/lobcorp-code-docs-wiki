@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.DeathAngel
-canonical_path: /api/WhiteNightSpace/DeathAngel
+title: DeathAngel
+description: 
+published: true
+date: 2026-02-20T22:51:29.167Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:15:12.000Z
 ---
+
 # Class DeathAngel
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

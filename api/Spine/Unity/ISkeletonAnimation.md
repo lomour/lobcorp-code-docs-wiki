@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.ISkeletonAnimation
-canonical_path: /api/Spine/Unity/ISkeletonAnimation
+title: ISkeletonAnimation
+description: 
+published: true
+date: 2026-02-20T22:48:43.082Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:02:04.620Z
 ---
+
 # Interface ISkeletonAnimation
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

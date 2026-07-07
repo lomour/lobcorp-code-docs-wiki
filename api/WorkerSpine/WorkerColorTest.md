@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.WorkerColorTest
-canonical_path: /api/WorkerSpine/WorkerColorTest
+title: WorkerColorTest
+description: 
+published: true
+date: 2026-02-20T22:52:30.175Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:17:58.464Z
 ---
+
 # Class WorkerColorTest
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

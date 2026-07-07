@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.Modules.SkeletonRagdoll.LayerFieldAttribute
-canonical_path: /api/Spine/Unity/Modules/SkeletonRagdoll/LayerFieldAttribute
+title: LayerFieldAttribute
+description: 
+published: true
+date: 2026-02-20T22:49:21.657Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:03:15.734Z
 ---
+
 # Class SkeletonRagdoll.LayerFieldAttribute
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

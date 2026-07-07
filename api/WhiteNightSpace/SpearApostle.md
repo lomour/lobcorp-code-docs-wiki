@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.SpearApostle
-canonical_path: /api/WhiteNightSpace/SpearApostle
+title: SpearApostle
+description: 
+published: true
+date: 2026-02-20T22:52:02.366Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:16:10.875Z
 ---
+
 # Class SpearApostle
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

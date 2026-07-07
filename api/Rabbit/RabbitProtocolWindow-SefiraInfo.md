@@ -1,7 +1,13 @@
 ---
-uid: Rabbit.RabbitProtocolWindow.SefiraInfo
-canonical_path: /api/Rabbit/RabbitProtocolWindow/SefiraInfo
+title: RabbitProtocolWindow-SefiraInfo
+description: 
+published: true
+date: 2026-03-03T08:23:03.478Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:45:31.060Z
 ---
+
 # Class RabbitProtocolWindow.SefiraInfo
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

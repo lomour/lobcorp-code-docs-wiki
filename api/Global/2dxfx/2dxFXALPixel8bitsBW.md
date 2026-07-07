@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Pixel8bitsBW
-canonical_path: /api/Global/2dxfx/2dxFXALPixel8bitsBW
+title: 2dxFXALPixel8bitsBW
+description: 
+published: true
+date: 2026-07-07T17:25:55.222Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:07:03.409Z
 ---
+
 # Class _2dxFX_AL_Pixel8bitsBW
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.DamageRange
-canonical_path: /api/GeburahBoss/DamageRange
+title: DamageRange
+description: 
+published: true
+date: 2026-07-07T17:22:19.148Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:05.196Z
 ---
+
 # Class DamageRange
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

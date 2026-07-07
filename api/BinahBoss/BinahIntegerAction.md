@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahIntegerAction
-canonical_path: /api/BinahBoss/BinahIntegerAction
+title: BinahIntegerAction
+description: 
+published: true
+date: 2026-07-07T17:18:10.575Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:38:08.723Z
 ---
+
 # Delegate BinahIntegerAction
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

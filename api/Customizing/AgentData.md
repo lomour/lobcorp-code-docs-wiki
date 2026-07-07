@@ -1,7 +1,13 @@
 ---
-uid: Customizing.AgentData
-canonical_path: /api/Customizing/AgentData
+title: AgentData
+description: 
+published: true
+date: 2026-07-07T17:21:05.700Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:55:57.522Z
 ---
+
 # Class AgentData
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

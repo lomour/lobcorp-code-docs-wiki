@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerAttachmentSprite.AttachDatabase
-canonical_path: /api/WorkerSprite/WorkerAttachmentSprite/AttachDatabase
+title: WorkerAttachmentSprite-AttachDatabase
+description: 
+published: true
+date: 2026-03-03T08:30:55.198Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:19.206Z
 ---
+
 # Class WorkerAttachmentSprite.AttachDatabase
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

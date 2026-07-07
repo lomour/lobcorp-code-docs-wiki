@@ -1,7 +1,13 @@
 ---
-uid: Legacy.TutorialManager
-canonical_path: /api/Legacy/TutorialManager
+title: TutorialManager
+description: 
+published: true
+date: 2026-02-20T22:42:57.108Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:34.847Z
 ---
+
 # Class TutorialManager
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Clipping
-canonical_path: /api/Global/2dxfx/2dxFXClipping
+title: 2dxFXClipping
+description: 
+published: true
+date: 2026-07-07T17:27:19.627Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:08:29.737Z
 ---
+
 # Class _2dxFX_Clipping
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

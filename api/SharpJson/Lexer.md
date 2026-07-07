@@ -1,7 +1,13 @@
 ---
-uid: SharpJson.Lexer
-canonical_path: /api/SharpJson/Lexer
+title: Lexer
+description: 
+published: true
+date: 2026-02-20T22:45:47.945Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:50:28.601Z
 ---
+
 # Class Lexer
 **Namespace:** [SharpJson](/api/SharpJson)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerAmrorSet
-canonical_path: /api/WorkerSprite/WorkerAmrorSet
+title: WorkerAmrorSet
+description: 
+published: true
+date: 2026-02-20T22:53:11.093Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:12.617Z
 ---
+
 # Class WorkerAmrorSet
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

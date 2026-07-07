@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Additive
-canonical_path: /api/Global/2dxfx/2dxFXAdditive
+title: 2dxFXAdditive
+description: 
+published: true
+date: 2026-07-07T17:26:47.200Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:07:59.219Z
 ---
+
 # Class _2dxFX_Additive
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

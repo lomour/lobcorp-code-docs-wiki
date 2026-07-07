@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_PlasmaRainbow
-canonical_path: /api/Global/2dxfx/2dxFXPlasmaRainbow
+title: 2dxFXPlasmaRainbow
+description: 
+published: true
+date: 2026-07-07T17:29:50.076Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:11:07.041Z
 ---
+
 # Class _2dxFX_PlasmaRainbow
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

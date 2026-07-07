@@ -1,0 +1,114 @@
+---
+title: SpineOptimizerModule
+description: 
+published: true
+date: 2026-02-20T22:15:10.215Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T04:32:19.592Z
+---
+
+# Class SpineOptimizerModule
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class SpineOptimizerModule
+```
+> This section may have incomplete or incorrect information.
+{.is-warning}
+
+Keeps track of whether this animated thing is in the camera, and sets the optimization level of the renderer depending on how big this is in the screen.
+
+
+
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → SpineOptimizerModule
+
+## Constructors
+### SpineOptimizerModule(SkeletonRenderer, UnitModel, float)
+```csharp
+public SpineOptimizerModule(SkeletonRenderer spineRenderer, UnitModel target, float loosenessLevel = 1)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `spineRenderer` | `Spine.Unity.SkeletonRenderer` |  |
+| `target` | `Global.UnitModel` |  |
+| `loosenessLevel` | `System.Single` |  |
+
+## Fields
+### _inCamera
+```csharp
+private bool _inCamera
+```
+
+
+#### Field Value
+**Type:** System.Boolean
+
+### _loosenessLevel
+```csharp
+private float _loosenessLevel
+```
+
+
+#### Field Value
+**Type:** System.Single
+
+### _spineRenderer
+```csharp
+private SkeletonRenderer _spineRenderer
+```
+
+
+#### Field Value
+**Type:** Spine.Unity.SkeletonRenderer
+
+### _targetModel
+```csharp
+private UnitModel _targetModel
+```
+
+
+#### Field Value
+**Type:** Global.UnitModel
+
+## Methods
+### Init(SkeletonRenderer, UnitModel, float)
+```csharp
+public void Init(SkeletonRenderer spineRenderer, UnitModel target, float scale = 1)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `spineRenderer` | `Spine.Unity.SkeletonRenderer` |  |
+| `target` | `Global.UnitModel` |  |
+| `scale` | `System.Single` |  |
+
+### Update()
+```csharp
+public void Update()
+```
+
+
+### UpdateAnimationQuality()
+```csharp
+public void UpdateAnimationQuality()
+```
+
+
+### UpdateCheckInCamera()
+```csharp
+public void UpdateCheckInCamera()
+```
+
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

@@ -1,7 +1,13 @@
 ---
-uid: Spine.IkConstraint
-canonical_path: /api/Spine/IkConstraint
+title: IkConstraint
+description: 
+published: true
+date: 2026-02-20T22:46:57.799Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:48.459Z
 ---
+
 # Class IkConstraint
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayScript.OverlayPos
-canonical_path: /api/Legacy/OverlayScript/OverlayPos
+title: OverlayPos
+description: 
+published: true
+date: 2026-02-23T23:20:43.971Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:10.611Z
 ---
+
 # Enum OverlayScript.OverlayPos
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

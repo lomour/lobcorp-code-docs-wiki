@@ -1,7 +1,13 @@
 ---
-uid: nightowl.DistortionShaderPack.Explosion
-canonical_path: /api/nightowl/DistortionShaderPack/Explosion
+title: Explosion
+description: 
+published: true
+date: 2026-02-20T22:54:21.774Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:27:59.660Z
 ---
+
 # Class Explosion
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

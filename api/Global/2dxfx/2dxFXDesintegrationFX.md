@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_DesintegrationFX
-canonical_path: /api/Global/2dxfx/2dxFXDesintegrationFX
+title: 2dxFXDesintegrationFX
+description: 
+published: true
+date: 2026-07-07T17:27:34.129Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:08:44.756Z
 ---
+
 # Class _2dxFX_DesintegrationFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

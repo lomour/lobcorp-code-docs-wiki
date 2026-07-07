@@ -1,7 +1,13 @@
 ---
-uid: Spine.SkeletonJson.LinkedMesh
-canonical_path: /api/Spine/SkeletonJson/LinkedMesh
+title: LinkedMesh
+description: 
+published: true
+date: 2026-02-20T22:47:55.491Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:35.810Z
 ---
+
 # Class SkeletonJson.LinkedMesh
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

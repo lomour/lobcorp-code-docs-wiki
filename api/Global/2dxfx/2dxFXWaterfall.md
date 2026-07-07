@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Waterfall
-canonical_path: /api/Global/2dxfx/2dxFXWaterfall
+title: 2dxFXWaterfall
+description: 
+published: true
+date: 2026-07-07T17:30:43.798Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:12:00.438Z
 ---
+
 # Class _2dxFX_Waterfall
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

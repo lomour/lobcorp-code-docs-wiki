@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_CompressionFX
-canonical_path: /api/Global/2dxfx/2dxFXCompressionFX
+title: 2dxFXCompressionFX
+description: 
+published: true
+date: 2026-07-07T17:27:31.191Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:08:41.840Z
 ---
+
 # Class _2dxFX_CompressionFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

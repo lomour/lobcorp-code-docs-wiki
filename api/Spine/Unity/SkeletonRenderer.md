@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonRenderer
-canonical_path: /api/Spine/Unity/SkeletonRenderer
+title: SkeletonRenderer
+description: 
+published: true
+date: 2026-02-20T22:50:05.405Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:34.522Z
 ---
+
 # Class SkeletonRenderer
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

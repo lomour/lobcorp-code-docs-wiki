@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.GeburahEventCalled
-canonical_path: /api/GeburahBoss/GeburahEventCalled
+title: GeburahEventCalled
+description: 
+published: true
+date: 2026-07-07T17:22:37.957Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:34.622Z
 ---
+
 # Delegate GeburahEventCalled
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerSprite
-canonical_path: /api/WorkerSprite/WorkerSprite
+title: WorkerSprite
+description: 
+published: true
+date: 2026-02-20T22:53:34.011Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:54.532Z
 ---
+
 # Class WorkerSprite
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

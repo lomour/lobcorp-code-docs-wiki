@@ -1,7 +1,13 @@
 ---
-uid: WorkerSpine.WorkerSpineAnimatorManager
-canonical_path: /api/WorkerSpine/WorkerSpineAnimatorManager
+title: WorkerSpineAnimatorManager
+description: 
+published: true
+date: 2026-02-20T22:52:34.039Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:18:04.868Z
 ---
+
 # Class WorkerSpineAnimatorManager
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

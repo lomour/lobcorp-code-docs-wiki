@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.ActivateStateModel
-canonical_path: /api/CreatureGenerate/ActivateStateModel
+title: ActivateStateModel
+description: 
+published: true
+date: 2026-07-07T17:19:34.883Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:51:39.906Z
 ---
+
 # Class ActivateStateModel
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

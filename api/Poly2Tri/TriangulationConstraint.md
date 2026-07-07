@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.TriangulationConstraint
-canonical_path: /api/Poly2Tri/TriangulationConstraint
+title: TriangulationConstraint
+description: 
+published: true
+date: 2026-02-20T22:45:08.502Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:43:13.781Z
 ---
+
 # Class TriangulationConstraint
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

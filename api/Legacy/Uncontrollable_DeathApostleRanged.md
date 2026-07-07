@@ -1,7 +1,13 @@
 ---
-uid: Legacy.Uncontrollable_DeathApostleRanged
-canonical_path: /api/Legacy/Uncontrollable_DeathApostleRanged
+title: Uncontrollable_DeathApostleRanged
+description: 
+published: true
+date: 2026-02-20T22:43:06.897Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:52.420Z
 ---
+
 # Class Uncontrollable_DeathApostleRanged
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Manual.NodeTextInfo
-canonical_path: /api/Manual/NodeTextInfo
+title: NodeTextInfo
+description: 
+published: true
+date: 2026-02-20T22:43:41.644Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:33:53.865Z
 ---
+
 # Class NodeTextInfo
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

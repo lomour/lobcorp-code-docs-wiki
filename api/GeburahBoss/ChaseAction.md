@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.ChaseAction
-canonical_path: /api/GeburahBoss/ChaseAction
+title: ChaseAction
+description: 
+published: true
+date: 2026-07-07T17:22:11.997Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:56.426Z
 ---
+
 # Class ChaseAction
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

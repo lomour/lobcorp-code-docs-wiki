@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.CreatureGenerateData.Action
-canonical_path: /api/CreatureGenerate/CreatureGenerateData/Action
+title: Action
+description: 
+published: true
+date: 2026-07-07T17:19:38.338Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:51:45.693Z
 ---
+
 # Delegate CreatureGenerateData.Action
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

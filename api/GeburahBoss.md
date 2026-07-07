@@ -1,3 +1,13 @@
+---
+title: GeburahBoss
+description: 
+published: true
+date: 2026-07-07T17:10:36.792Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T04:05:30.183Z
+---
+
 # Namespace GeburahBoss
 ## Classes
 ### [BloodyTreeThrow](/api/GeburahBoss/BloodyTreeThrow)

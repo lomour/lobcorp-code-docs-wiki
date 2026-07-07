@@ -1,7 +1,13 @@
 ---
-uid: Spine.EventData
-canonical_path: /api/Spine/EventData
+title: EventData
+description: 
+published: true
+date: 2026-02-20T22:46:38.557Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:16.150Z
 ---
+
 # Class EventData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

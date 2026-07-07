@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WeaponSpriteType
-canonical_path: /api/WorkerSprite/WeaponSpriteType
+title: WeaponSpriteType
+description: 
+published: true
+date: 2026-02-23T23:21:57.873Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:09.305Z
 ---
+
 # Enum WeaponSpriteType
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Legacy.TutorialController.OnPause
-canonical_path: /api/Legacy/TutorialController/OnPause
+title: OnPause
+description: 
+published: true
+date: 2026-02-20T22:42:53.537Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:28.103Z
 ---
+
 # Delegate TutorialController.OnPause
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

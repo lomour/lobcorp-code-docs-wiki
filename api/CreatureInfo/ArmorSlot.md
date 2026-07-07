@@ -2,7 +2,7 @@
 title: ArmorSlot
 description: 
 published: true
-date: 2026-02-23T23:22:51.141Z
+date: 2026-07-07T17:19:54.700Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-15T02:52:43.854Z

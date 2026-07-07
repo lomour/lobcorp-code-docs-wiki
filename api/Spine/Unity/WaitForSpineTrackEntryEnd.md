@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.WaitForSpineTrackEntryEnd
-canonical_path: /api/Spine/Unity/WaitForSpineTrackEntryEnd
+title: WaitForSpineTrackEntryEnd
+description: 
+published: true
+date: 2026-02-20T22:50:53.610Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:06:04.075Z
 ---
+
 # Class WaitForSpineTrackEntryEnd
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

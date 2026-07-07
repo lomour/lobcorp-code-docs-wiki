@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerBodyRegionKey
-canonical_path: /api/WorkerSprite/WorkerBodyRegionKey
+title: WorkerBodyRegionKey
+description: 
+published: true
+date: 2026-02-20T22:53:23.641Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:20:35.318Z
 ---
+
 # Class WorkerBodyRegionKey
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

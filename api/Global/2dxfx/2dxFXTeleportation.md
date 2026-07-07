@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Teleportation
-canonical_path: /api/Global/2dxfx/2dxFXTeleportation
+title: 2dxFXTeleportation
+description: 
+published: true
+date: 2026-07-07T17:30:29.131Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:11:45.132Z
 ---
+
 # Class _2dxFX_Teleportation
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

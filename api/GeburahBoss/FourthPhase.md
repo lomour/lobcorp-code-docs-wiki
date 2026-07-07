@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.FourthPhase
-canonical_path: /api/GeburahBoss/FourthPhase
+title: FourthPhase
+description: 
+published: true
+date: 2026-07-07T17:22:30.058Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:22.719Z
 ---
+
 # Class FourthPhase
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

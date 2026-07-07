@@ -1,7 +1,13 @@
 ---
-uid: CommandWindow.WorkAllocateRegion
-canonical_path: /api/CommandWindow/WorkAllocateRegion
+title: WorkAllocateRegion
+description: 
+published: true
+date: 2026-07-07T17:19:24.251Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:50:33.300Z
 ---
+
 # Class WorkAllocateRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

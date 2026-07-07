@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.UpdateBonesDelegate
-canonical_path: /api/Spine/Unity/UpdateBonesDelegate
+title: UpdateBonesDelegate
+description: 
+published: true
+date: 2026-02-20T22:50:47.757Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:53.396Z
 ---
+
 # Delegate UpdateBonesDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

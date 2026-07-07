@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.PlagueDoctor
-canonical_path: /api/WhiteNightSpace/PlagueDoctor
+title: PlagueDoctor
+description: 
+published: true
+date: 2026-02-20T22:51:46.909Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:15:43.689Z
 ---
+
 # Class PlagueDoctor
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

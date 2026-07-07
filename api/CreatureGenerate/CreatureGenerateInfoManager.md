@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.CreatureGenerateInfoManager
-canonical_path: /api/CreatureGenerate/CreatureGenerateInfoManager
+title: CreatureGenerateInfoManager
+description: 
+published: true
+date: 2026-07-07T17:19:43.995Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:51:54.398Z
 ---
+
 # Class CreatureGenerateInfoManager
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

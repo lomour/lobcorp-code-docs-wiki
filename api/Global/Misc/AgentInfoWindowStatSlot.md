@@ -1,0 +1,95 @@
+---
+title: AgentInfoWindowStatSlot
+description: 
+published: true
+date: 2026-02-20T21:54:33.628Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:56:21.696Z
+---
+
+# Class AgentInfoWindow.StatSlot
+**Namespace:** [Global](/api/Global)
+**Assembly:** Assembly-CSharp.dll
+
+```csharp
+public class AgentInfoWindow.StatSlot
+```
+
+## Inheritance
+[object](https://learn.microsoft.com/dotnet/api/system.object) → AgentInfoWindow.StatSlot
+
+## Constructors
+### StatSlot()
+```csharp
+public StatSlot()
+```
+
+## Fields
+### Addition
+```csharp
+public Text Addition
+```
+
+#### Field Value
+**Type:** UnityEngine.UI.Text
+
+### ContainsAddition
+```csharp
+public GameObject ContainsAddition
+```
+
+#### Field Value
+**Type:** UnityEngine.GameObject
+
+### NoAddition
+```csharp
+public GameObject NoAddition
+```
+
+#### Field Value
+**Type:** UnityEngine.GameObject
+
+### StatName
+```csharp
+public Text StatName
+```
+
+#### Field Value
+**Type:** UnityEngine.UI.Text
+
+### Vanila
+```csharp
+public List<Text> Vanila
+```
+
+#### Field Value
+**Type:** System.Collections.Generic.List{UnityEngine.UI.Text}
+
+## Methods
+### SetText(string)
+```csharp
+public void SetText(string vanlia)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `vanlia` | `System.String` |  |
+
+### SetText(string, string)
+```csharp
+public void SetText(string vanila, string addition)
+```
+
+#### Parameters
+| Name | Type | Description |
+| --- | --- | --- |
+| `vanila` | `System.String` |  |
+| `addition` | `System.String` |  |
+
+## Inherited Members
+[Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+

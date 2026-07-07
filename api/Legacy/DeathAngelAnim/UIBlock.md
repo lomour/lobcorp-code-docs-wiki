@@ -1,7 +1,13 @@
 ---
-uid: Legacy.DeathAngelAnim.UIBlock
-canonical_path: /api/Legacy/DeathAngelAnim/UIBlock
+title: UIBlock
+description: 
+published: true
+date: 2026-02-20T22:42:06.534Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:01.968Z
 ---
+
 # Class DeathAngelAnim.UIBlock
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

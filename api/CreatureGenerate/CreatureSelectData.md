@@ -1,7 +1,13 @@
 ---
-uid: CreatureGenerate.CreatureSelectData
-canonical_path: /api/CreatureGenerate/CreatureSelectData
+title: CreatureSelectData
+description: 
+published: true
+date: 2026-07-07T17:19:51.208Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:52:06.683Z
 ---
+
 # Class CreatureSelectData
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.DTSweepDebugContext
-canonical_path: /api/Poly2Tri/DTSweepDebugContext
+title: DTSweepDebugContext
+description: 
+published: true
+date: 2026-02-20T22:44:11.353Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:41:27.176Z
 ---
+
 # Class DTSweepDebugContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.Polygon
-canonical_path: /api/Spine/Polygon
+title: Polygon
+description: 
+published: true
+date: 2026-02-20T22:47:24.592Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:37.982Z
 ---
+
 # Class Polygon
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

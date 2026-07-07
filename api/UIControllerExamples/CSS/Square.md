@@ -1,7 +1,13 @@
 ---
-uid: UIControllerExamples.CSS.Square
-canonical_path: /api/UIControllerExamples/CSS/Square
+title: Square
+description: 
+published: true
+date: 2026-02-20T22:50:59.296Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:11:49.769Z
 ---
+
 # Class Square
 **Namespace:** UIControllerExamples . [CSS](/api/UIControllerExamples/CSS)
 **Assembly:** Assembly-CSharp.dll

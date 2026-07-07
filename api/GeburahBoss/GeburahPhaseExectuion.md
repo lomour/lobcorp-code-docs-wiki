@@ -1,7 +1,13 @@
 ---
-uid: GeburahBoss.GeburahPhaseExectuion
-canonical_path: /api/GeburahBoss/GeburahPhaseExectuion
+title: GeburahPhaseExectuion
+description: 
+published: true
+date: 2026-07-07T17:22:46.263Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:03:43.297Z
 ---
+
 # Class GeburahPhaseExectuion
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

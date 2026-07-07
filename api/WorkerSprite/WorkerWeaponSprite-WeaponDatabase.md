@@ -1,7 +1,13 @@
 ---
-uid: WorkerSprite.WorkerWeaponSprite.WeaponDatabase
-canonical_path: /api/WorkerSprite/WorkerWeaponSprite/WeaponDatabase
+title: WorkerWeaponSprite-WeaponDatabase
+description: 
+published: true
+date: 2026-03-03T08:31:53.349Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:21:25.050Z
 ---
+
 # Class WorkerWeaponSprite.WeaponDatabase
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.MoveCameraEffect
-canonical_path: /api/KetherBoss/MoveCameraEffect
+title: MoveCameraEffect
+description: 
+published: true
+date: 2026-02-20T22:41:49.993Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:25:39.444Z
 ---
+
 # Class MoveCameraEffect
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

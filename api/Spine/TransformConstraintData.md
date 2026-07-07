@@ -1,7 +1,13 @@
 ---
-uid: Spine.TransformConstraintData
-canonical_path: /api/Spine/TransformConstraintData
+title: TransformConstraintData
+description: 
+published: true
+date: 2026-02-20T22:48:19.926Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:01:21.250Z
 ---
+
 # Class TransformConstraintData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

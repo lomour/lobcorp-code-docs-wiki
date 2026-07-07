@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.ThirdPhase
-canonical_path: /api/BinahBoss/ThirdPhase
+title: ThirdPhase
+description: 
+published: true
+date: 2026-07-07T17:19:01.506Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:39:35.824Z
 ---
+
 # Class ThirdPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

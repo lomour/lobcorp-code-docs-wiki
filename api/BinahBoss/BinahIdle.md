@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahIdle
-canonical_path: /api/BinahBoss/BinahIdle
+title: BinahIdle
+description: 
+published: true
+date: 2026-07-07T17:18:08.798Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:38:05.456Z
 ---
+
 # Class BinahIdle
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Liquid
-canonical_path: /api/Global/2dxfx/2dxFXLiquid
+title: 2dxFXLiquid
+description: 
+published: true
+date: 2026-07-07T17:28:51.328Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:10:10.323Z
 ---
+
 # Class _2dxFX_Liquid
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

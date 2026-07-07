@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SpineBone
-canonical_path: /api/Spine/Unity/SpineBone
+title: SpineBone
+description: 
+published: true
+date: 2026-02-20T22:50:31.409Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:22.965Z
 ---
+
 # Class SpineBone
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

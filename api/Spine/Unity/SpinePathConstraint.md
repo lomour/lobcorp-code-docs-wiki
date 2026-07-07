@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SpinePathConstraint
-canonical_path: /api/Spine/Unity/SpinePathConstraint
+title: SpinePathConstraint
+description: 
+published: true
+date: 2026-02-20T22:50:38.644Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:05:36.478Z
 ---
+
 # Class SpinePathConstraint
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

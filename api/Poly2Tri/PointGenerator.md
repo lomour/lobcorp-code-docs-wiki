@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.PointGenerator
-canonical_path: /api/Poly2Tri/PointGenerator
+title: PointGenerator
+description: 
+published: true
+date: 2026-02-20T22:44:41.946Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:42:26.264Z
 ---
+
 # Class PointGenerator
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

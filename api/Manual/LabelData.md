@@ -1,7 +1,13 @@
 ---
-uid: Manual.LabelData
-canonical_path: /api/Manual/LabelData
+title: LabelData
+description: 
+published: true
+date: 2026-02-20T22:43:27.449Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:33:26.463Z
 ---
+
 # Class LabelData
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

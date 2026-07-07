@@ -1,7 +1,13 @@
 ---
-uid: GameStatusUI.EnergyController.OrdealSlot
-canonical_path: /api/GameStatusUI/EnergyController/OrdealSlot
+title: EnergyController-OrdealSlot
+description: 
+published: true
+date: 2026-07-07T17:21:57.173Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:02:03.607Z
 ---
+
 # Class EnergyController.OrdealSlot
 **Namespace:** [GameStatusUI](/api/GameStatusUI)
 **Assembly:** Assembly-CSharp.dll

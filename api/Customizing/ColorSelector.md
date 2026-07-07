@@ -1,7 +1,13 @@
 ---
-uid: Customizing.ColorSelector
-canonical_path: /api/Customizing/ColorSelector
+title: ColorSelector
+description: 
+published: true
+date: 2026-07-07T17:21:18.401Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:56:18.078Z
 ---
+
 # Class ColorSelector
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

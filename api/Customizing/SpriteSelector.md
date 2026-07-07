@@ -1,7 +1,13 @@
 ---
-uid: Customizing.SpriteSelector
-canonical_path: /api/Customizing/SpriteSelector
+title: SpriteSelector
+description: 
+published: true
+date: 2026-07-07T17:21:24.232Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:56:27.117Z
 ---
+
 # Class SpriteSelector
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

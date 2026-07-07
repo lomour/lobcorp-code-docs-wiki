@@ -1,7 +1,13 @@
 ---
-uid: Legacy.PlagueDoctorAnim
-canonical_path: /api/Legacy/PlagueDoctorAnim
+title: PlagueDoctorAnim
+description: 
+published: true
+date: 2026-02-20T22:42:49.646Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:29:20.997Z
 ---
+
 # Class PlagueDoctorAnim
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

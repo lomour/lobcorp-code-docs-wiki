@@ -1,7 +1,13 @@
 ---
-uid: Spine.EventQueue.EventType
-canonical_path: /api/Spine/EventQueue/EventType
+title: EventType
+description: 
+published: true
+date: 2026-02-23T23:21:12.914Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:58:25.662Z
 ---
+
 # Enum EventQueue.EventType
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

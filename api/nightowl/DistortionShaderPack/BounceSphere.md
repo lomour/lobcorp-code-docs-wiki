@@ -1,7 +1,13 @@
 ---
-uid: nightowl.DistortionShaderPack.BounceSphere
-canonical_path: /api/nightowl/DistortionShaderPack/BounceSphere
+title: BounceSphere
+description: 
+published: true
+date: 2026-02-20T22:53:55.810Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:27:13.411Z
 ---
+
 # Class BounceSphere
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

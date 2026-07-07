@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.AdvancingFrontNode
-canonical_path: /api/Poly2Tri/AdvancingFrontNode
+title: AdvancingFrontNode
+description: 
+published: true
+date: 2026-02-20T22:43:57.890Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:41:02.762Z
 ---
+
 # Class AdvancingFrontNode
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

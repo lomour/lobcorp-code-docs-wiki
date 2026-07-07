@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_Cartoon
-canonical_path: /api/Global/2dxfx/2dxFXCartoon
+title: 2dxFXCartoon
+description: 
+published: true
+date: 2026-07-07T17:27:13.781Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:08:23.790Z
 ---
+
 # Class _2dxFX_Cartoon
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

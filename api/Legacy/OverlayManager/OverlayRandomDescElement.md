@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayManager.OverlayRandomDescElement
-canonical_path: /api/Legacy/OverlayManager/OverlayRandomDescElement
+title: OverlayRandomDescElement
+description: 
+published: true
+date: 2026-02-20T22:42:34.210Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:53.677Z
 ---
+
 # Class OverlayManager.OverlayRandomDescElement
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

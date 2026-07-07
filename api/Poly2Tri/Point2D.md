@@ -1,7 +1,13 @@
 ---
-uid: Poly2Tri.Point2D
-canonical_path: /api/Poly2Tri/Point2D
+title: Point2D
+description: 
+published: true
+date: 2026-02-20T22:44:33.090Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:42:08.727Z
 ---
+
 # Class Point2D
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

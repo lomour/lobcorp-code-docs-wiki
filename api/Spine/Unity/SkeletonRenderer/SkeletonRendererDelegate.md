@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonRenderer.SkeletonRendererDelegate
-canonical_path: /api/Spine/Unity/SkeletonRenderer/SkeletonRendererDelegate
+title: SkeletonRendererDelegate
+description: 
+published: true
+date: 2026-02-20T22:50:08.957Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:41.294Z
 ---
+
 # Delegate SkeletonRenderer.SkeletonRendererDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

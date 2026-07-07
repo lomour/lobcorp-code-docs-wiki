@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Liquify
-canonical_path: /api/Global/2dxfx/2dxFXALLiquify
+title: 2dxFXALLiquify
+description: 
+published: true
+date: 2026-07-07T17:25:16.173Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:06:29.555Z
 ---
+
 # Class _2dxFX_AL_Liquify
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

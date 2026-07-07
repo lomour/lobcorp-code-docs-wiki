@@ -1,7 +1,13 @@
 ---
-uid: Global._2dxFX_AL_Flame
-canonical_path: /api/Global/2dxfx/2dxFXALFlame
+title: 2dxFXALFlame
+description: 
+published: true
+date: 2026-07-07T17:24:11.291Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T03:05:28.586Z
 ---
+
 # Class _2dxFX_AL_Flame
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

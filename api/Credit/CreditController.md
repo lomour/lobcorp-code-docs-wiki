@@ -1,7 +1,13 @@
 ---
-uid: Credit.CreditController
-canonical_path: /api/Credit/CreditController
+title: CreditController
+description: 
+published: true
+date: 2026-07-07T17:20:44.305Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:54:56.052Z
 ---
+
 # Class CreditController
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

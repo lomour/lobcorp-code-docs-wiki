@@ -1,7 +1,13 @@
 ---
-uid: WhiteNightSpace.ApostleLaser.LaserSprite
-canonical_path: /api/WhiteNightSpace/ApostleLaser/LaserSprite
+title: ApostleLaser-LaserSprite
+description: 
+published: true
+date: 2026-03-03T08:26:06.768Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:14:56.213Z
 ---
+
 # Class ApostleLaser.LaserSprite
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

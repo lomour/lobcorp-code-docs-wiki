@@ -1,3 +1,13 @@
+---
+title: WorkerSpine
+description: 
+published: true
+date: 2026-07-07T17:17:31.166Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-06T05:20:57.969Z
+---
+
 # Namespace WorkerSpine
 ## Classes
 ### [AgentSpriteChanger](/api/WorkerSpine/AgentSpriteChanger)

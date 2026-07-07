@@ -1,7 +1,13 @@
 ---
-uid: Optimization.AutoUIHider
-canonical_path: /api/Optimization/AutoUIHider
+title: AutoUIHider
+description: 
+published: true
+date: 2026-02-20T22:43:52.576Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:37:02.537Z
 ---
+
 # Class AutoUIHider
 **Namespace:** [Optimization](/api/Optimization)
 **Assembly:** Assembly-CSharp.dll

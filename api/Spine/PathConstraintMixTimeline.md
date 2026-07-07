@@ -1,7 +1,13 @@
 ---
-uid: Spine.PathConstraintMixTimeline
-canonical_path: /api/Spine/PathConstraintMixTimeline
+title: PathConstraintMixTimeline
+description: 
+published: true
+date: 2026-02-20T22:47:17.470Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:59:24.467Z
 ---
+
 # Class PathConstraintMixTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

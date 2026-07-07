@@ -1,7 +1,13 @@
 ---
-uid: BinahBoss.BinahVoidAction
-canonical_path: /api/BinahBoss/BinahVoidAction
+title: BinahVoidAction
+description: 
+published: true
+date: 2026-07-07T17:18:41.770Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T02:39:01.849Z
 ---
+
 # Delegate BinahVoidAction
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.SkeletonAnimator
-canonical_path: /api/Spine/Unity/SkeletonAnimator
+title: SkeletonAnimator
+description: 
+published: true
+date: 2026-02-20T22:49:49.544Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:04:06.395Z
 ---
+
 # Class SkeletonAnimator
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

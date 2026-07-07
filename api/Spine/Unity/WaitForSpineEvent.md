@@ -1,7 +1,13 @@
 ---
-uid: Spine.Unity.WaitForSpineEvent
-canonical_path: /api/Spine/Unity/WaitForSpineEvent
+title: WaitForSpineEvent
+description: 
+published: true
+date: 2026-02-20T22:50:51.648Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:06:00.198Z
 ---
+
 # Class WaitForSpineEvent
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

@@ -1,7 +1,13 @@
 ---
-uid: Legacy.OverlayManager.OverlayNormalDescElement
-canonical_path: /api/Legacy/OverlayManager/OverlayNormalDescElement
+title: OverlayNormalDescElement
+description: 
+published: true
+date: 2026-02-20T22:42:28.651Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:28:43.566Z
 ---
+
 # Class OverlayManager.OverlayNormalDescElement
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

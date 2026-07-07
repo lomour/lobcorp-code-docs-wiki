@@ -1,7 +1,13 @@
 ---
-uid: KetherBoss.KetherBossDust
-canonical_path: /api/KetherBoss/KetherBossDust
+title: KetherBossDust
+description: 
+published: true
+date: 2026-02-20T22:41:29.334Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:25:00.862Z
 ---
+
 # Class KetherBossDust
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

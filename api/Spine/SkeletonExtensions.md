@@ -1,7 +1,13 @@
 ---
-uid: Spine.SkeletonExtensions
-canonical_path: /api/Spine/SkeletonExtensions
+title: SkeletonExtensions
+description: 
+published: true
+date: 2026-02-20T22:47:51.624Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T06:00:29.144Z
 ---
+
 # Class SkeletonExtensions
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

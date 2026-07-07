@@ -1,7 +1,13 @@
 ---
-uid: Spine.BoundingBoxAttachment
-canonical_path: /api/Spine/BoundingBoxAttachment
+title: BoundingBoxAttachment
+description: 
+published: true
+date: 2026-02-20T22:46:26.109Z
+tags: 
+editor: markdown
+dateCreated: 2026-01-15T05:57:53.515Z
 ---
+
 # Class BoundingBoxAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll
