@@ -1,13 +1,7 @@
 ---
-title: GlobalBulletEffect
-description: 
-published: true
-date: 2026-02-20T22:40:16.677Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:19:16.262Z
+uid: GlobalBullet.GlobalBulletEffect
+canonical_path: /api/GlobalBullet/GlobalBulletEffect
 ---
-
 # Class GlobalBulletEffect
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll

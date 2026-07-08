@@ -1,13 +1,7 @@
 ---
-title: SlotChangeData
-description: 
-published: true
-date: 2026-02-20T22:51:58.284Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:16:04.322Z
+uid: WhiteNightSpace.SlotChangeData
+canonical_path: /api/WhiteNightSpace/SlotChangeData
 ---
-
 # Class SlotChangeData
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

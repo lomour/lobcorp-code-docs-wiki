@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALThreshold
-description: 
-published: true
-date: 2026-07-07T17:26:38.755Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:07:49.900Z
+uid: Global._2dxFX_AL_Threshold
+canonical_path: /api/Global/2dxfx/2dxFXALThreshold
 ---
-
 # Class _2dxFX_AL_Threshold
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

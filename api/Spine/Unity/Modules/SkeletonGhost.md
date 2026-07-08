@@ -1,13 +1,7 @@
 ---
-title: SkeletonGhost
-description: 
-published: true
-date: 2026-02-20T22:49:14.000Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:01.838Z
+uid: Spine.Unity.Modules.SkeletonGhost
+canonical_path: /api/Spine/Unity/Modules/SkeletonGhost
 ---
-
 # Class SkeletonGhost
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

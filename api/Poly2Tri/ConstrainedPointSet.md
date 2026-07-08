@@ -1,13 +1,7 @@
 ---
-title: ConstrainedPointSet
-description: 
-published: true
-date: 2026-02-20T22:43:59.935Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:06.046Z
+uid: Poly2Tri.ConstrainedPointSet
+canonical_path: /api/Poly2Tri/ConstrainedPointSet
 ---
-
 # Class ConstrainedPointSet
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

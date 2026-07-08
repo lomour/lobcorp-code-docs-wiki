@@ -2,7 +2,7 @@
 title: Global
 description: 
 published: true
-date: 2026-07-07T17:10:42.544Z
+date: 2026-02-23T23:26:54.869Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-06T04:05:58.186Z

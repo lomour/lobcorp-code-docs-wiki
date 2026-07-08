@@ -1,13 +1,7 @@
 ---
-title: SpineMesh
-description: 
-published: true
-date: 2026-02-20T22:50:36.788Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:05:33.036Z
+uid: Spine.Unity.SpineMesh
+canonical_path: /api/Spine/Unity/SpineMesh
 ---
-
 # Class SpineMesh
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: DeathAngelAttackCollider
-description: 
-published: true
-date: 2026-02-20T22:51:37.345Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:27.234Z
+uid: WhiteNightSpace.DeathAngelAttackCollider
+canonical_path: /api/WhiteNightSpace/DeathAngelAttackCollider
 ---
-
 # Class DeathAngelAttackCollider
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

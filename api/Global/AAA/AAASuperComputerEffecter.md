@@ -1,13 +1,7 @@
 ---
-title: AAASuperComputerEffecter
-description: 
-published: true
-date: 2026-07-07T03:57:55.634Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:41:36.359Z
+uid: Global.AAASuperComputerEffecter
+canonical_path: /api/Global/Effecter/AAASuperComputerEffecter
 ---
-
 # Class AAASuperComputerEffecter
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

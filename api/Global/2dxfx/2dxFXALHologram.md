@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALHologram
-description: 
-published: true
-date: 2026-07-07T17:24:40.123Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:05:58.887Z
+uid: Global._2dxFX_AL_Hologram
+canonical_path: /api/Global/2dxfx/2dxFXALHologram
 ---
-
 # Class _2dxFX_AL_Hologram
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

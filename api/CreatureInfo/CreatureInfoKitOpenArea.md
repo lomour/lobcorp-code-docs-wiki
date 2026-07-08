@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoKitOpenArea
-description: 
-published: true
-date: 2026-07-07T17:20:17.377Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:20.202Z
+uid: CreatureInfo.CreatureInfoKitOpenArea
+canonical_path: /api/CreatureInfo/CreatureInfoKitOpenArea
 ---
-
 # Class CreatureInfoKitOpenArea
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

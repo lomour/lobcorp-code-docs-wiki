@@ -1,13 +1,7 @@
 ---
-title: RabbitCaptainConversationType
-description: 
-published: true
-date: 2026-02-23T23:21:03.299Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:45:09.860Z
+uid: Rabbit.RabbitCaptainConversationType
+canonical_path: /api/Rabbit/RabbitCaptainConversationType
 ---
-
 # Enum RabbitCaptainConversationType
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

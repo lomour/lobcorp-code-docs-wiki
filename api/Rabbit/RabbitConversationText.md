@@ -1,13 +1,7 @@
 ---
-title: RabbitConversationText
-description: 
-published: true
-date: 2026-02-20T22:45:28.033Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:45:16.911Z
+uid: Rabbit.RabbitConversationText
+canonical_path: /api/Rabbit/RabbitConversationText
 ---
-
 # Class RabbitConversationText
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

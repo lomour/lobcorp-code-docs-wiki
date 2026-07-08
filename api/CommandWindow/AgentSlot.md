@@ -1,13 +1,7 @@
 ---
-title: AgentSlot
-description: 
-published: true
-date: 2026-07-07T17:19:06.999Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:07.076Z
+uid: CommandWindow.AgentSlot
+canonical_path: /api/CommandWindow/AgentSlot
 ---
-
 # Class AgentSlot
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

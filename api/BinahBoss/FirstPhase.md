@@ -1,13 +1,7 @@
 ---
-title: FirstPhase
-description: 
-published: true
-date: 2026-07-07T17:18:56.252Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:26.033Z
+uid: BinahBoss.FirstPhase
+canonical_path: /api/BinahBoss/FirstPhase
 ---
-
 # Class FirstPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

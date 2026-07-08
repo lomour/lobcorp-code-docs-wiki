@@ -1,13 +1,7 @@
 ---
-title: ISkeletonComponent
-description: 
-published: true
-date: 2026-02-20T22:48:44.771Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:07.754Z
+uid: Spine.Unity.ISkeletonComponent
+canonical_path: /api/Spine/Unity/ISkeletonComponent
 ---
-
 # Interface ISkeletonComponent
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

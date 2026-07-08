@@ -1,13 +1,7 @@
 ---
-title: InventoryRankButton
-description: 
-published: true
-date: 2026-02-20T22:40:56.534Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:39.560Z
+uid: Inventory.InventoryRankButton
+canonical_path: /api/Inventory/InventoryRankButton
 ---
-
 # Class InventoryRankButton
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALCartoon
-description: 
-published: true
-date: 2026-07-07T17:23:33.876Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:04:48.183Z
+uid: Global._2dxFX_AL_Cartoon
+canonical_path: /api/Global/2dxfx/2dxFXALCartoon
 ---
-
 # Class _2dxFX_AL_Cartoon
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

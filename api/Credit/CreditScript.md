@@ -1,13 +1,7 @@
 ---
-title: CreditScript
-description: 
-published: true
-date: 2026-07-07T17:20:58.525Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:19.040Z
+uid: Credit.CreditScript
+canonical_path: /api/Credit/CreditScript
 ---
-
 # Class CreditScript
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

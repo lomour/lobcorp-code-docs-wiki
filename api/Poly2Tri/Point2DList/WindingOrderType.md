@@ -1,13 +1,7 @@
 ---
-title: WindingOrderType
-description: 
-published: true
-date: 2026-02-23T23:20:55.161Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:22.990Z
+uid: Poly2Tri.Point2DList.WindingOrderType
+canonical_path: /api/Poly2Tri/Point2DList/WindingOrderType
 ---
-
 # Enum Point2DList.WindingOrderType
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

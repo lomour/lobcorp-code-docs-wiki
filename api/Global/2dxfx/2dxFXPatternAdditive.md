@@ -1,13 +1,7 @@
 ---
-title: 2dxFXPatternAdditive
-description: 
-published: true
-date: 2026-07-07T17:29:29.125Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:10:48.958Z
+uid: Global._2dxFX_PatternAdditive
+canonical_path: /api/Global/2dxfx/2dxFXPatternAdditive
 ---
-
 # Class _2dxFX_PatternAdditive
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

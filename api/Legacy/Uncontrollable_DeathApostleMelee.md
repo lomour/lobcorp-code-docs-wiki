@@ -1,13 +1,7 @@
 ---
-title: Uncontrollable_DeathApostleMelee
-description: 
-published: true
-date: 2026-02-20T22:43:04.980Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:48.982Z
+uid: Legacy.Uncontrollable_DeathApostleMelee
+canonical_path: /api/Legacy/Uncontrollable_DeathApostleMelee
 ---
-
 # Class Uncontrollable_DeathApostleMelee
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

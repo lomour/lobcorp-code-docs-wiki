@@ -1,13 +1,7 @@
 ---
-title: 2dxFXGoldenFX
-description: 
-published: true
-date: 2026-07-07T17:28:12.107Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:24.557Z
+uid: Global._2dxFX_GoldenFX
+canonical_path: /api/Global/2dxfx/2dxFXGoldenFX
 ---
-
 # Class _2dxFX_GoldenFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

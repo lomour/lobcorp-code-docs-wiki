@@ -1,13 +1,7 @@
 ---
-title: LabelData-LabelUnit
-description: 
-published: true
-date: 2026-07-07T02:13:40.526Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:33:29.766Z
+uid: Manual.LabelData.LabelUnit
+canonical_path: /api/Manual/LabelData/LabelUnit
 ---
-
 # Class LabelData.LabelUnit
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

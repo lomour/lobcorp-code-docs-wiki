@@ -1,13 +1,7 @@
 ---
-title: TutorialController
-description: 
-published: true
-date: 2026-02-20T22:42:51.604Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:24.492Z
+uid: Legacy.TutorialController
+canonical_path: /api/Legacy/TutorialController
 ---
-
 # Class TutorialController
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

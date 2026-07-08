@@ -1,13 +1,7 @@
 ---
-title: PointAttachment
-description: 
-published: true
-date: 2026-02-20T22:47:22.856Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:34.368Z
+uid: Spine.PointAttachment
+canonical_path: /api/Spine/PointAttachment
 ---
-
 # Class PointAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

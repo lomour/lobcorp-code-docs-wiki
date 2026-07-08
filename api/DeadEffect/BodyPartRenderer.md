@@ -1,13 +1,7 @@
 ---
-title: BodyPartRenderer
-description: 
-published: true
-date: 2026-07-07T17:21:38.610Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:57:33.936Z
+uid: DeadEffect.BodyPartRenderer
+canonical_path: /api/DeadEffect/BodyPartRenderer
 ---
-
 # Class BodyPartRenderer
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

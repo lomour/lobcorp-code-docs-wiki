@@ -1,13 +1,7 @@
 ---
-title: TransformConstraint
-description: 
-published: true
-date: 2026-02-20T22:48:18.071Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:01:18.023Z
+uid: Spine.TransformConstraint
+canonical_path: /api/Spine/TransformConstraint
 ---
-
 # Class TransformConstraint
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

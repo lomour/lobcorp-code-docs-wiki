@@ -1,13 +1,7 @@
 ---
-title: PolygonPoint
-description: 
-published: true
-date: 2026-02-20T22:44:53.861Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:46.590Z
+uid: Poly2Tri.PolygonPoint
+canonical_path: /api/Poly2Tri/PolygonPoint
 ---
-
 # Class PolygonPoint
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

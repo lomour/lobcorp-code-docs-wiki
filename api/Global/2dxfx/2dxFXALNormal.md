@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALNormal
-description: 
-published: true
-date: 2026-07-07T17:25:33.701Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:06:48.247Z
+uid: Global._2dxFX_AL_Normal
+canonical_path: /api/Global/2dxfx/2dxFXALNormal
 ---
-
 # Class _2dxFX_AL_Normal
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

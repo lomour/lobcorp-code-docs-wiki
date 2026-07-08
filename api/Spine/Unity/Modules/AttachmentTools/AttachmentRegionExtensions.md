@@ -1,13 +1,7 @@
 ---
-title: AttachmentRegionExtensions
-description: 
-published: true
-date: 2026-02-20T22:49:10.223Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:54.494Z
+uid: Spine.Unity.Modules.AttachmentTools.AttachmentRegionExtensions
+canonical_path: /api/Spine/Unity/Modules/AttachmentTools/AttachmentRegionExtensions
 ---
-
 # Class AttachmentRegionExtensions
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules) . [AttachmentTools](/api/Spine/Unity/Modules/AttachmentTools)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: DTSweepPointComparator
-description: 
-published: true
-date: 2026-02-20T22:44:14.940Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:33.829Z
+uid: Poly2Tri.DTSweepPointComparator
+canonical_path: /api/Poly2Tri/DTSweepPointComparator
 ---
-
 # Class DTSweepPointComparator
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

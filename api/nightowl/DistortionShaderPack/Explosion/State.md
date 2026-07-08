@@ -1,13 +1,7 @@
 ---
-title: State
-description: 
-published: true
-date: 2026-02-23T23:22:01.035Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:28:03.368Z
+uid: nightowl.DistortionShaderPack.Explosion.State
+canonical_path: /api/nightowl/DistortionShaderPack/Explosion/State
 ---
-
 # Enum Explosion.State
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

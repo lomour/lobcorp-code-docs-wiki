@@ -1,13 +1,7 @@
 ---
-title: BinahPhase
-description: 
-published: true
-date: 2026-07-07T17:18:28.866Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:40.171Z
+uid: BinahBoss.BinahPhase
+canonical_path: /api/BinahBoss/BinahPhase
 ---
-
 # Enum BinahPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

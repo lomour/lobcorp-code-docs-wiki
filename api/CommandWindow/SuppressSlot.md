@@ -1,13 +1,7 @@
 ---
-title: SuppressSlot
-description: 
-published: true
-date: 2026-07-07T17:19:22.552Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:30.440Z
+uid: CommandWindow.SuppressSlot
+canonical_path: /api/CommandWindow/SuppressSlot
 ---
-
 # Class SuppressSlot
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

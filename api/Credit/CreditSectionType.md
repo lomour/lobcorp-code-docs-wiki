@@ -1,13 +1,7 @@
 ---
-title: CreditSectionType
-description: 
-published: true
-date: 2026-07-07T17:21:02.046Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:25.129Z
+uid: Credit.CreditSectionType
+canonical_path: /api/Credit/CreditSectionType
 ---
-
 # Enum CreditSectionType
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

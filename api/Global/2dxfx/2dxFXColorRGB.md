@@ -1,13 +1,7 @@
 ---
-title: 2dxFXColorRGB
-description: 
-published: true
-date: 2026-07-07T17:27:28.420Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:08:38.708Z
+uid: Global._2dxFX_ColorRGB
+canonical_path: /api/Global/2dxfx/2dxFXColorRGB
 ---
-
 # Class _2dxFX_ColorRGB
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: SpineIkConstraint
-description: 
-published: true
-date: 2026-02-20T22:50:34.965Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:05:29.583Z
+uid: Spine.Unity.SpineIkConstraint
+canonical_path: /api/Spine/Unity/SpineIkConstraint
 ---
-
 # Class SpineIkConstraint
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

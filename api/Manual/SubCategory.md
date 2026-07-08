@@ -1,13 +1,7 @@
 ---
-title: SubCategory
-description: 
-published: true
-date: 2026-02-20T22:43:43.530Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:33:57.015Z
+uid: Manual.SubCategory
+canonical_path: /api/Manual/SubCategory
 ---
-
 # Class SubCategory
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

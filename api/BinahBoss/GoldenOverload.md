@@ -1,13 +1,7 @@
 ---
-title: GoldenOverload
-description: 
-published: true
-date: 2026-07-07T17:18:57.936Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:29.026Z
+uid: BinahBoss.GoldenOverload
+canonical_path: /api/BinahBoss/GoldenOverload
 ---
-
 # Class GoldenOverload
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

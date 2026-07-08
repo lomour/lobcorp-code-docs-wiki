@@ -1,13 +1,7 @@
 ---
-title: CreatureCameraUtil_Inspector
-description: 
-published: true
-date: 2026-07-07T17:19:31.405Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:51:09.915Z
+uid: CreatureCameraUtil.CreatureCameraUtil_Inspector
+canonical_path: /api/CreatureCameraUtil/CreatureCameraUtil_Inspector
 ---
-
 # Class CreatureCameraUtil_Inspector
 **Namespace:** [CreatureCameraUtil](/api/CreatureCameraUtil)
 **Assembly:** Assembly-CSharp.dll

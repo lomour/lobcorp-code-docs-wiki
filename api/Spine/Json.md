@@ -1,13 +1,7 @@
 ---
-title: Json
-description: 
-published: true
-date: 2026-02-20T22:47:03.006Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:58:58.349Z
+uid: Spine.Json
+canonical_path: /api/Spine/Json
 ---
-
 # Class Json
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

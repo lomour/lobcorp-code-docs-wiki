@@ -1,13 +1,7 @@
 ---
-title: KetherZeroBossBase
-description: 
-published: true
-date: 2026-02-20T22:41:48.078Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:25:36.009Z
+uid: KetherBoss.KetherZeroBossBase
+canonical_path: /api/KetherBoss/KetherZeroBossBase
 ---
-
 # Class KetherZeroBossBase
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

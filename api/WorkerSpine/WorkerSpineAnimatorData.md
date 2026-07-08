@@ -1,13 +1,7 @@
 ---
-title: WorkerSpineAnimatorData
-description: 
-published: true
-date: 2026-02-20T22:52:31.996Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:18:01.577Z
+uid: WorkerSpine.WorkerSpineAnimatorData
+canonical_path: /api/WorkerSpine/WorkerSpineAnimatorData
 ---
-
 # Class WorkerSpineAnimatorData
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

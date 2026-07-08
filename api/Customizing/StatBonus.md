@@ -1,13 +1,7 @@
 ---
-title: StatBonus
-description: 
-published: true
-date: 2026-07-07T17:21:27.734Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:56:33.267Z
+uid: Customizing.StatBonus
+canonical_path: /api/Customizing/StatBonus
 ---
-
 # Class StatBonus
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

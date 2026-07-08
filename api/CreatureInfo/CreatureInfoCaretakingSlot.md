@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoCaretakingSlot
-description: 
-published: true
-date: 2026-07-07T17:19:58.736Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:52:49.952Z
+uid: CreatureInfo.CreatureInfoCaretakingSlot
+canonical_path: /api/CreatureInfo/CreatureInfoCaretakingSlot
 ---
-
 # Class CreatureInfoCaretakingSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

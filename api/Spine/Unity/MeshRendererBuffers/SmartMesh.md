@@ -1,13 +1,7 @@
 ---
-title: SmartMesh
-description: 
-published: true
-date: 2026-02-20T22:48:57.254Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:30.747Z
+uid: Spine.Unity.MeshRendererBuffers.SmartMesh
+canonical_path: /api/Spine/Unity/MeshRendererBuffers/SmartMesh
 ---
-
 # Class MeshRendererBuffers.SmartMesh
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoStatFeelingStateSlot
-description: 
-published: true
-date: 2026-07-07T17:20:25.113Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:32.345Z
+uid: CreatureInfo.CreatureInfoStatFeelingStateSlot
+canonical_path: /api/CreatureInfo/CreatureInfoStatFeelingStateSlot
 ---
-
 # Class CreatureInfoStatFeelingStateSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

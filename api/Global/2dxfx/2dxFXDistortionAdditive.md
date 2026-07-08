@@ -1,13 +1,7 @@
 ---
-title: 2dxFXDistortionAdditive
-description: 
-published: true
-date: 2026-07-07T17:27:42.943Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:08:53.636Z
+uid: Global._2dxFX_Distortion_Additive
+canonical_path: /api/Global/2dxfx/2dxFXDistortionAdditive
 ---
-
 # Class _2dxFX_Distortion_Additive
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

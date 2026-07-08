@@ -1,13 +1,7 @@
 ---
-title: GlobalBulletWindow
-description: 
-published: true
-date: 2026-02-20T22:40:25.847Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:19:34.742Z
+uid: GlobalBullet.GlobalBulletWindow
+canonical_path: /api/GlobalBullet/GlobalBulletWindow
 ---
-
 # Class GlobalBulletWindow
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll

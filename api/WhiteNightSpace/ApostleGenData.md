@@ -1,13 +1,7 @@
 ---
-title: ApostleGenData
-description: 
-published: true
-date: 2026-02-20T22:51:15.963Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:14:49.503Z
+uid: WhiteNightSpace.ApostleGenData
+canonical_path: /api/WhiteNightSpace/ApostleGenData
 ---
-
 # Class ApostleGenData
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

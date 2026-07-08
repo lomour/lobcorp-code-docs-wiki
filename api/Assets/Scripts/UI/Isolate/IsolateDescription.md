@@ -1,13 +1,7 @@
 ---
-title: IsolateDescription
-description: 
-published: true
-date: 2026-07-07T17:17:47.503Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:35:20.309Z
+uid: Assets.Scripts.UI.Isolate.IsolateDescription
+canonical_path: /api/Assets/Scripts/UI/Isolate/IsolateDescription
 ---
-
 # Class IsolateDescription
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll

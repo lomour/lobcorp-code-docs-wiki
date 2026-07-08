@@ -1,13 +1,7 @@
 ---
-title: KetherLastEffectBase
-description: 
-published: true
-date: 2026-02-20T22:41:34.925Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:25:12.176Z
+uid: KetherBoss.KetherLastEffectBase
+canonical_path: /api/KetherBoss/KetherLastEffectBase
 ---
-
 # Class KetherLastEffectBase
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

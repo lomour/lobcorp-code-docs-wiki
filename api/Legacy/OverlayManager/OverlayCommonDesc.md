@@ -1,13 +1,7 @@
 ---
-title: OverlayCommonDesc
-description: 
-published: true
-date: 2026-02-20T22:42:19.879Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:28:26.626Z
+uid: Legacy.OverlayManager.OverlayCommonDesc
+canonical_path: /api/Legacy/OverlayManager/OverlayCommonDesc
 ---
-
 # Class OverlayManager.OverlayCommonDesc
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

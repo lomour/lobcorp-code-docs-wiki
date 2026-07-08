@@ -1,13 +1,7 @@
 ---
-title: 2dxFXBlurHQ
-description: 
-published: true
-date: 2026-07-07T17:27:02.139Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:08:11.650Z
+uid: Global._2dxFX_BlurHQ
+canonical_path: /api/Global/2dxfx/2dxFXBlurHQ
 ---
-
 # Class _2dxFX_BlurHQ
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

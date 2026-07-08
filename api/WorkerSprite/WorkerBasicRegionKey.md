@@ -1,13 +1,7 @@
 ---
-title: WorkerBasicRegionKey
-description: 
-published: true
-date: 2026-02-20T22:53:16.623Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:20:22.418Z
+uid: WorkerSprite.WorkerBasicRegionKey
+canonical_path: /api/WorkerSprite/WorkerBasicRegionKey
 ---
-
 # Class WorkerBasicRegionKey
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

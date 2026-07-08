@@ -1,13 +1,7 @@
 ---
-title: WorkerColorPreset
-description: 
-published: true
-date: 2026-02-20T22:52:28.363Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:17:55.430Z
+uid: WorkerSpine.WorkerColorPreset
+canonical_path: /api/WorkerSpine/WorkerColorPreset
 ---
-
 # Class WorkerColorPreset
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

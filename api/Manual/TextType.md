@@ -1,13 +1,7 @@
 ---
-title: TextType
-description: 
-published: true
-date: 2026-02-23T23:20:50.384Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:34:03.604Z
+uid: Manual.TextType
+canonical_path: /api/Manual/TextType
 ---
-
 # Enum TextType
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

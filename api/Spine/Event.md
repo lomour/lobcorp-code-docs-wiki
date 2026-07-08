@@ -1,13 +1,7 @@
 ---
-title: Event
-description: 
-published: true
-date: 2026-02-20T22:46:36.712Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:58:12.869Z
+uid: Spine.Event
+canonical_path: /api/Spine/Event
 ---
-
 # Class Event
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

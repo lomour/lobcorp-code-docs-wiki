@@ -1,13 +1,7 @@
 ---
-title: 2dxFXPixel8bitsGB
-description: 
-published: true
-date: 2026-07-07T17:29:42.814Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:11:01.188Z
+uid: Global._2dxFX_Pixel8bitsGB
+canonical_path: /api/Global/2dxfx/2dxFXPixel8bitsGB
 ---
-
 # Class _2dxFX_Pixel8bitsGB
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

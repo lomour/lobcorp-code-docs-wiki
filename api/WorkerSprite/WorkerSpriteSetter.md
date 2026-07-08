@@ -1,13 +1,7 @@
 ---
-title: WorkerSpriteSetter
-description: 
-published: true
-date: 2026-02-20T22:53:45.198Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:21:14.286Z
+uid: WorkerSprite.WorkerSpriteSetter
+canonical_path: /api/WorkerSprite/WorkerSpriteSetter
 ---
-
 # Class WorkerSpriteSetter
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

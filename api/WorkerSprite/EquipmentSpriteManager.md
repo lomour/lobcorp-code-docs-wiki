@@ -1,13 +1,7 @@
 ---
-title: EquipmentSpriteManager
-description: 
-published: true
-date: 2026-02-20T22:52:46.507Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:19:26.396Z
+uid: WorkerSprite.EquipmentSpriteManager
+canonical_path: /api/WorkerSprite/EquipmentSpriteManager
 ---
-
 # Class EquipmentSpriteManager
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

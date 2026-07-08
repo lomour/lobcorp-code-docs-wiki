@@ -1,13 +1,7 @@
 ---
-title: SkeletonUtilityBone
-description: 
-published: true
-date: 2026-02-20T22:50:16.552Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:04:54.896Z
+uid: Spine.Unity.SkeletonUtilityBone
+canonical_path: /api/Spine/Unity/SkeletonUtilityBone
 ---
-
 # Class SkeletonUtilityBone
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

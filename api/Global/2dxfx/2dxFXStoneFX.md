@@ -1,13 +1,7 @@
 ---
-title: 2dxFXStoneFX
-description: 
-published: true
-date: 2026-07-07T17:30:26.196Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:11:42.253Z
+uid: Global._2dxFX_StoneFX
+canonical_path: /api/Global/2dxfx/2dxFXStoneFX
 ---
-
 # Class _2dxFX_StoneFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

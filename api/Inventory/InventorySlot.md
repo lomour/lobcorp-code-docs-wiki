@@ -1,13 +1,7 @@
 ---
-title: InventorySlot
-description: 
-published: true
-date: 2026-02-20T22:41:03.784Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:53.725Z
+uid: Inventory.InventorySlot
+canonical_path: /api/Inventory/InventorySlot
 ---
-
 # Class InventorySlot
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

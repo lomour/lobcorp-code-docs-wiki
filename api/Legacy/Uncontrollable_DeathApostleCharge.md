@@ -1,13 +1,7 @@
 ---
-title: Uncontrollable_DeathApostleCharge
-description: 
-published: true
-date: 2026-02-20T22:43:03.101Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:45.299Z
+uid: Legacy.Uncontrollable_DeathApostleCharge
+canonical_path: /api/Legacy/Uncontrollable_DeathApostleCharge
 ---
-
 # Class Uncontrollable_DeathApostleCharge
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

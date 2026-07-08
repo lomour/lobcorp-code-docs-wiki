@@ -1,13 +1,7 @@
 ---
-title: ActivateStateList
-description: 
-published: true
-date: 2026-07-07T17:19:33.152Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:51:36.967Z
+uid: CreatureGenerate.ActivateStateList
+canonical_path: /api/CreatureGenerate/ActivateStateList
 ---
-
 # Class ActivateStateList
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

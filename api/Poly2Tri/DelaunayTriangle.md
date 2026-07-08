@@ -1,13 +1,7 @@
 ---
-title: DelaunayTriangle
-description: 
-published: true
-date: 2026-02-20T22:44:16.970Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:37.250Z
+uid: Poly2Tri.DelaunayTriangle
+canonical_path: /api/Poly2Tri/DelaunayTriangle
 ---
-
 # Class DelaunayTriangle
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

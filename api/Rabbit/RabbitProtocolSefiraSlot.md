@@ -1,13 +1,7 @@
 ---
-title: RabbitProtocolSefiraSlot
-description: 
-published: true
-date: 2026-02-20T22:45:31.694Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:45:23.894Z
+uid: Rabbit.RabbitProtocolSefiraSlot
+canonical_path: /api/Rabbit/RabbitProtocolSefiraSlot
 ---
-
 # Class RabbitProtocolSefiraSlot
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

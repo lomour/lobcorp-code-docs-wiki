@@ -1,13 +1,7 @@
 ---
-title: CreditManager
-description: 
-published: true
-date: 2026-07-07T17:20:54.748Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:13.279Z
+uid: Credit.CreditManager
+canonical_path: /api/Credit/CreditManager
 ---
-
 # Class CreditManager
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

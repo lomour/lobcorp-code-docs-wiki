@@ -1,13 +1,7 @@
 ---
-title: DeathAngelVoidAction
-description: 
-published: true
-date: 2026-02-20T22:51:40.930Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:34.065Z
+uid: WhiteNightSpace.DeathAngelVoidAction
+canonical_path: /api/WhiteNightSpace/DeathAngelVoidAction
 ---
-
 # Delegate DeathAngelVoidAction
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

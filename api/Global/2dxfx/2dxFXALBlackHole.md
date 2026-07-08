@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALBlackHole
-description: 
-published: true
-date: 2026-07-07T17:23:23.309Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:04:36.396Z
+uid: Global._2dxFX_AL_BlackHole
+canonical_path: /api/Global/2dxfx/2dxFXALBlackHole
 ---
-
 # Class _2dxFX_AL_BlackHole
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

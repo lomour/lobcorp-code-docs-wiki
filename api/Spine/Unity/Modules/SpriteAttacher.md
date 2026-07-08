@@ -1,13 +1,7 @@
 ---
-title: SpriteAttacher
-description: 
-published: true
-date: 2026-02-20T22:49:43.810Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:56.021Z
+uid: Spine.Unity.Modules.SpriteAttacher
+canonical_path: /api/Spine/Unity/Modules/SpriteAttacher
 ---
-
 # Class SpriteAttacher
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

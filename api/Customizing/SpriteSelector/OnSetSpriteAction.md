@@ -1,13 +1,7 @@
 ---
-title: OnSetSpriteAction
-description: 
-published: true
-date: 2026-07-07T17:21:25.988Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:56:30.168Z
+uid: Customizing.SpriteSelector.OnSetSpriteAction
+canonical_path: /api/Customizing/SpriteSelector/OnSetSpriteAction
 ---
-
 # Delegate SpriteSelector.OnSetSpriteAction
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: GeburahActionMethod
-description: 
-published: true
-date: 2026-07-07T17:22:33.425Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:03:29.087Z
+uid: GeburahBoss.GeburahActionMethod
+canonical_path: /api/GeburahBoss/GeburahActionMethod
 ---
-
 # Delegate GeburahActionMethod
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

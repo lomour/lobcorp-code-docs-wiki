@@ -1,13 +1,7 @@
 ---
-title: 2DxFX
-description: 
-published: true
-date: 2026-07-07T03:53:28.080Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:55:31.754Z
+uid: Global._2DxFX
+canonical_path: /api/Global/Misc/2DxFX
 ---
-
 # Class _2DxFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

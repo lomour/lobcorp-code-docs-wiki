@@ -1,13 +1,7 @@
 ---
-title: AdvancingFront
-description: 
-published: true
-date: 2026-02-20T22:43:56.237Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:40:59.295Z
+uid: Poly2Tri.AdvancingFront
+canonical_path: /api/Poly2Tri/AdvancingFront
 ---
-
 # Class AdvancingFront
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

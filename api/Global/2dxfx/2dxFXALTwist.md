@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALTwist
-description: 
-published: true
-date: 2026-07-07T17:26:41.602Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:07:53.048Z
+uid: Global._2dxFX_AL_Twist
+canonical_path: /api/Global/2dxfx/2dxFXALTwist
 ---
-
 # Class _2dxFX_AL_Twist
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

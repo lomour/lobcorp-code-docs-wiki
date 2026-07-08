@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoEscapePatternSlot
-description: 
-published: true
-date: 2026-07-07T17:20:08.229Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:05.320Z
+uid: CreatureInfo.CreatureInfoEscapePatternSlot
+canonical_path: /api/CreatureInfo/CreatureInfoEscapePatternSlot
 ---
-
 # Class CreatureInfoEscapePatternSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

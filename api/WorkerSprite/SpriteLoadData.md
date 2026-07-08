@@ -1,13 +1,7 @@
 ---
-title: SpriteLoadData
-description: 
-published: true
-date: 2026-02-20T22:52:51.661Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:19:36.062Z
+uid: WorkerSprite.SpriteLoadData
+canonical_path: /api/WorkerSprite/SpriteLoadData
 ---
-
 # Class SpriteLoadData
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

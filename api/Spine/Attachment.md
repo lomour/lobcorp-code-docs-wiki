@@ -1,13 +1,7 @@
 ---
-title: Attachment
-description: 
-published: true
-date: 2026-02-20T22:46:13.578Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:30.081Z
+uid: Spine.Attachment
+canonical_path: /api/Spine/Attachment
 ---
-
 # Class Attachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

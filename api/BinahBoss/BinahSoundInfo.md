@@ -1,13 +1,7 @@
 ---
-title: BinahSoundInfo
-description: 
-published: true
-date: 2026-07-07T17:18:38.082Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:55.649Z
+uid: BinahBoss.BinahSoundInfo
+canonical_path: /api/BinahBoss/BinahSoundInfo
 ---
-
 # Class BinahSoundInfo
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

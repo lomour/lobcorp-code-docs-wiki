@@ -1,13 +1,7 @@
 ---
-title: ManagementSlot
-description: 
-published: true
-date: 2026-07-07T17:19:18.921Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:24.488Z
+uid: CommandWindow.ManagementSlot
+canonical_path: /api/CommandWindow/ManagementSlot
 ---
-
 # Class ManagementSlot
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

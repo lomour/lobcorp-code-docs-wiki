@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALBurningFX
-description: 
-published: true
-date: 2026-07-07T17:23:30.962Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:04:45.164Z
+uid: Global._2dxFX_AL_BurningFX
+canonical_path: /api/Global/2dxfx/2dxFXALBurningFX
 ---
-
 # Class _2dxFX_AL_BurningFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

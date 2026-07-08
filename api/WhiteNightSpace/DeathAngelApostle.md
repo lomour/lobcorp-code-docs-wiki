@@ -1,13 +1,7 @@
 ---
-title: DeathAngelApostle
-description: 
-published: true
-date: 2026-02-20T22:51:33.234Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:19.625Z
+uid: WhiteNightSpace.DeathAngelApostle
+canonical_path: /api/WhiteNightSpace/DeathAngelApostle
 ---
-
 # Class DeathAngelApostle
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

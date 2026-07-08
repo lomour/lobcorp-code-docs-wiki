@@ -1,13 +1,7 @@
 ---
-title: Polygon
-description: 
-published: true
-date: 2026-02-20T22:44:48.361Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:36.083Z
+uid: Poly2Tri.Polygon
+canonical_path: /api/Poly2Tri/Polygon
 ---
-
 # Class Polygon
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

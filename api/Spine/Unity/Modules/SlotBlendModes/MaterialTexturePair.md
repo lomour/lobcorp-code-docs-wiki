@@ -1,13 +1,7 @@
 ---
-title: MaterialTexturePair
-description: 
-published: true
-date: 2026-02-20T22:49:41.986Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:52.866Z
+uid: Spine.Unity.Modules.SlotBlendModes.MaterialTexturePair
+canonical_path: /api/Spine/Unity/Modules/SlotBlendModes/MaterialTexturePair
 ---
-
 # Struct SlotBlendModes.MaterialTexturePair
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

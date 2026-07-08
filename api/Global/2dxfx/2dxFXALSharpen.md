@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALSharpen
-description: 
-published: true
-date: 2026-07-07T17:26:21.484Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:07:31.012Z
+uid: Global._2dxFX_AL_Sharpen
+canonical_path: /api/Global/2dxfx/2dxFXALSharpen
 ---
-
 # Class _2dxFX_AL_Sharpen
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

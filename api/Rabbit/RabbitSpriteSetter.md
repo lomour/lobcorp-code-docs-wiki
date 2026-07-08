@@ -1,13 +1,7 @@
 ---
-title: RabbitSpriteSetter
-description: 
-published: true
-date: 2026-02-20T22:45:39.337Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:45:37.716Z
+uid: Rabbit.RabbitSpriteSetter
+canonical_path: /api/Rabbit/RabbitSpriteSetter
 ---
-
 # Class RabbitSpriteSetter
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: BinahStaticData
-description: 
-published: true
-date: 2026-07-07T17:18:39.989Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:58.740Z
+uid: BinahBoss.BinahStaticData
+canonical_path: /api/BinahBoss/BinahStaticData
 ---
-
 # Class BinahStaticData
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

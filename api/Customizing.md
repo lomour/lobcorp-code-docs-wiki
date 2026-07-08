@@ -1,13 +1,3 @@
----
-title: Customizing
-description: 
-published: true
-date: 2026-07-07T17:08:47.702Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T03:51:31.912Z
----
-
 # Namespace Customizing
 ## Classes
 ### [AgentData](/api/Customizing/AgentData)

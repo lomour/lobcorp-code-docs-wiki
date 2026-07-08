@@ -1,13 +1,7 @@
 ---
-title: InventoryItemController-SlotState
-description: 
-published: true
-date: 2026-03-03T07:48:53.165Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:29.558Z
+uid: Inventory.InventoryItemController.SlotState
+canonical_path: /api/Inventory/InventoryItemController/SlotState
 ---
-
 # Enum InventoryItemController.SlotState
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

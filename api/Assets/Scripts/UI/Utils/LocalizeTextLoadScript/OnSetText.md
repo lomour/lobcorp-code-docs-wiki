@@ -1,13 +1,7 @@
 ---
-title: OnSetText
-description: 
-published: true
-date: 2026-07-07T17:17:56.468Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:35:36.644Z
+uid: Assets.Scripts.UI.Utils.LocalizeTextLoadScript.OnSetText
+canonical_path: /api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript/OnSetText
 ---
-
 # Delegate LocalizeTextLoadScript.OnSetText
 **Namespace:** Assets . Scripts . UI . [Utils](/api/Assets/Scripts/UI/Utils)
 **Assembly:** Assembly-CSharp.dll

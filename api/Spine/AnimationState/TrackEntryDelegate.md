@@ -1,13 +1,7 @@
 ---
-title: TrackEntryDelegate
-description: 
-published: true
-date: 2026-02-20T22:45:57.425Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:01.107Z
+uid: Spine.AnimationState.TrackEntryDelegate
+canonical_path: /api/Spine/AnimationState/TrackEntryDelegate
 ---
-
 # Delegate AnimationState.TrackEntryDelegate
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

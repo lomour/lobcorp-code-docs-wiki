@@ -1,13 +1,7 @@
 ---
-title: BinahJusticeDebuf
-description: 
-published: true
-date: 2026-07-07T17:18:12.416Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:11.770Z
+uid: BinahBoss.BinahJusticeDebuf
+canonical_path: /api/BinahBoss/BinahJusticeDebuf
 ---
-
 # Class BinahJusticeDebuf
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: SkeletonUtilityEyeConstraint
-description: 
-published: true
-date: 2026-02-20T22:49:32.993Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:36.022Z
+uid: Spine.Unity.Modules.SkeletonUtilityEyeConstraint
+canonical_path: /api/Spine/Unity/Modules/SkeletonUtilityEyeConstraint
 ---
-
 # Class SkeletonUtilityEyeConstraint
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

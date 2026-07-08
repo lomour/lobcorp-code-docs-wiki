@@ -1,13 +1,7 @@
 ---
-title: LegPartRenderer
-description: 
-published: true
-date: 2026-07-07T17:21:42.365Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:57:39.660Z
+uid: DeadEffect.LegPartRenderer
+canonical_path: /api/DeadEffect/LegPartRenderer
 ---
-
 # Class LegPartRenderer
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

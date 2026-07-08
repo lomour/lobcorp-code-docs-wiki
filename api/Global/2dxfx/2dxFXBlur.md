@@ -1,13 +1,7 @@
 ---
-title: 2dxFXBlur
-description: 
-published: true
-date: 2026-07-07T17:26:59.366Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:08:08.357Z
+uid: Global._2dxFX_Blur
+canonical_path: /api/Global/2dxfx/2dxFXBlur
 ---
-
 # Class _2dxFX_Blur
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

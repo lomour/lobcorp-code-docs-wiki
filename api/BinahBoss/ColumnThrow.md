@@ -1,13 +1,7 @@
 ---
-title: ColumnThrow
-description: 
-published: true
-date: 2026-07-07T17:18:52.549Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:19.921Z
+uid: BinahBoss.ColumnThrow
+canonical_path: /api/BinahBoss/ColumnThrow
 ---
-
 # Class ColumnThrow
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

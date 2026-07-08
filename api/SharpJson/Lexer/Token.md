@@ -1,13 +1,7 @@
 ---
-title: Token
-description: 
-published: true
-date: 2026-02-23T23:21:08.191Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:50:32.101Z
+uid: SharpJson.Lexer.Token
+canonical_path: /api/SharpJson/Lexer/Token
 ---
-
 # Enum Lexer.Token
 **Namespace:** [SharpJson](/api/SharpJson)
 **Assembly:** Assembly-CSharp.dll

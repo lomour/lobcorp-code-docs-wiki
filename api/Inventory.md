@@ -1,13 +1,3 @@
----
-title: Inventory
-description: 
-published: true
-date: 2026-07-07T17:12:08.670Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T04:11:04.654Z
----
-
 # Namespace Inventory
 ## Classes
 ### [InventoryAgentController](/api/Inventory/InventoryAgentController)

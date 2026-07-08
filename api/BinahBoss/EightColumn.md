@@ -1,13 +1,7 @@
 ---
-title: EightColumn
-description: 
-published: true
-date: 2026-07-07T17:18:54.372Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:23.024Z
+uid: BinahBoss.EightColumn
+canonical_path: /api/BinahBoss/EightColumn
 ---
-
 # Class EightColumn
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

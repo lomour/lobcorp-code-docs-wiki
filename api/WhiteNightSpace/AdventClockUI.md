@@ -1,13 +1,7 @@
 ---
-title: AdventClockUI
-description: 
-published: true
-date: 2026-02-20T22:51:10.543Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:14:39.250Z
+uid: WhiteNightSpace.AdventClockUI
+canonical_path: /api/WhiteNightSpace/AdventClockUI
 ---
-
 # Class AdventClockUI
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

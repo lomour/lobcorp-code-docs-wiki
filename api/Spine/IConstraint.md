@@ -1,13 +1,7 @@
 ---
-title: IConstraint
-description: 
-published: true
-date: 2026-02-20T22:46:54.034Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:58:42.415Z
+uid: Spine.IConstraint
+canonical_path: /api/Spine/IConstraint
 ---
-
 # Interface IConstraint
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

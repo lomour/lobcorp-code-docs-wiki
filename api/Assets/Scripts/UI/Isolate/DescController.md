@@ -1,13 +1,7 @@
 ---
-title: DescController
-description: 
-published: true
-date: 2026-07-07T17:17:42.026Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:35:11.089Z
+uid: Assets.Scripts.UI.Isolate.DescController
+canonical_path: /api/Assets/Scripts/UI/Isolate/DescController
 ---
-
 # Class DescController
 **Namespace:** Assets . Scripts . UI . [Isolate](/api/Assets/Scripts/UI/Isolate)
 **Assembly:** Assembly-CSharp.dll

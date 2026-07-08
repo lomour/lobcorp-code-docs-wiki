@@ -1,13 +1,7 @@
 ---
-title: CreatureSuppressRegion
-description: 
-published: true
-date: 2026-07-07T17:19:15.055Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:18.937Z
+uid: CommandWindow.CreatureSuppressRegion
+canonical_path: /api/CommandWindow/CreatureSuppressRegion
 ---
-
 # Class CreatureSuppressRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

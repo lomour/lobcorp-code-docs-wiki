@@ -1,13 +1,7 @@
 ---
-title: 2dxFXIce
-description: 
-published: true
-date: 2026-07-07T17:28:34.703Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:52.126Z
+uid: Global._2dxFX_Ice
+canonical_path: /api/Global/2dxfx/2dxFXIce
 ---
-
 # Class _2dxFX_Ice
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

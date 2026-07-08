@@ -1,13 +1,7 @@
 ---
-title: InventoryItemDescGetter
-description: 
-published: true
-date: 2026-02-20T22:40:53.014Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:32.932Z
+uid: Inventory.InventoryItemDescGetter
+canonical_path: /api/Inventory/InventoryItemDescGetter
 ---
-
 # Class InventoryItemDescGetter
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

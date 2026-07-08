@@ -1,13 +1,7 @@
 ---
-title: CategoryTypeInfo
-description: 
-published: true
-date: 2026-02-20T22:43:25.701Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:33:23.290Z
+uid: Manual.CategoryTypeInfo
+canonical_path: /api/Manual/CategoryTypeInfo
 ---
-
 # Class CategoryTypeInfo
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

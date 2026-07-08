@@ -1,13 +1,7 @@
 ---
-title: SpriteChangeData
-description: 
-published: true
-date: 2026-02-20T22:52:20.667Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:17:42.575Z
+uid: WorkerSpine.SpriteChangeData
+canonical_path: /api/WorkerSpine/SpriteChangeData
 ---
-
 # Class SpriteChangeData
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

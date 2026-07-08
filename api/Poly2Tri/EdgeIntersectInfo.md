@@ -1,13 +1,7 @@
 ---
-title: EdgeIntersectInfo
-description: 
-published: true
-date: 2026-02-20T22:44:20.350Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:44.376Z
+uid: Poly2Tri.EdgeIntersectInfo
+canonical_path: /api/Poly2Tri/EdgeIntersectInfo
 ---
-
 # Class EdgeIntersectInfo
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

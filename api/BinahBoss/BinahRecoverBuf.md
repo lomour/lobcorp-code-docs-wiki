@@ -1,13 +1,7 @@
 ---
-title: BinahRecoverBuf
-description: 
-published: true
-date: 2026-07-07T17:18:36.227Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:52.594Z
+uid: BinahBoss.BinahRecoverBuf
+canonical_path: /api/BinahBoss/BinahRecoverBuf
 ---
-
 # Class BinahRecoverBuf
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

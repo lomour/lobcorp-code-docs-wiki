@@ -1,13 +1,7 @@
 ---
-title: 2dxFXHeat
-description: 
-published: true
-date: 2026-07-07T17:28:25.918Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:39.958Z
+uid: Global._2dxFX_Heat
+canonical_path: /api/Global/2dxfx/2dxFXHeat
 ---
-
 # Class _2dxFX_Heat
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

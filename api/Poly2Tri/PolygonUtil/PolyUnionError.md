@@ -1,13 +1,7 @@
 ---
-title: PolyUnionError
-description: 
-published: true
-date: 2026-02-23T23:20:58.348Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:43:00.103Z
+uid: Poly2Tri.PolygonUtil.PolyUnionError
+canonical_path: /api/Poly2Tri/PolygonUtil/PolyUnionError
 ---
-
 # Enum PolygonUtil.PolyUnionError
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

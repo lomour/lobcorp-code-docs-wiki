@@ -1,13 +1,7 @@
 ---
-title: 2dxFXPosterize
-description: 
-published: true
-date: 2026-07-07T17:30:02.909Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:11:16.298Z
+uid: Global._2dxFX_Posterize
+canonical_path: /api/Global/2dxfx/2dxFXPosterize
 ---
-
 # Class _2dxFX_Posterize
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

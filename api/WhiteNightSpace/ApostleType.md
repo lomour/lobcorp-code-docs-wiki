@@ -1,13 +1,7 @@
 ---
-title: ApostleType
-description: 
-published: true
-date: 2026-02-23T23:21:36.962Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:08.854Z
+uid: WhiteNightSpace.ApostleType
+canonical_path: /api/WhiteNightSpace/ApostleType
 ---
-
 # Enum ApostleType
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

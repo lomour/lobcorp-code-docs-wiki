@@ -1,13 +1,7 @@
 ---
-title: RotateMode
-description: 
-published: true
-date: 2026-02-23T23:21:20.928Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:54.095Z
+uid: Spine.RotateMode
+canonical_path: /api/Spine/RotateMode
 ---
-
 # Enum RotateMode
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

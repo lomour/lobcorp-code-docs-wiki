@@ -1,13 +1,7 @@
 ---
-title: PolyOperation
-description: 
-published: true
-date: 2026-02-23T23:20:56.700Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:56.722Z
+uid: Poly2Tri.PolygonUtil.PolyOperation
+canonical_path: /api/Poly2Tri/PolygonUtil/PolyOperation
 ---
-
 # Enum PolygonUtil.PolyOperation
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

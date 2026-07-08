@@ -1,13 +1,7 @@
 ---
-title: RabbitProtocolWindow
-description: 
-published: true
-date: 2026-02-20T22:45:33.692Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:45:27.530Z
+uid: Rabbit.RabbitProtocolWindow
+canonical_path: /api/Rabbit/RabbitProtocolWindow
 ---
-
 # Class RabbitProtocolWindow
 **Namespace:** [Rabbit](/api/Rabbit)
 **Assembly:** Assembly-CSharp.dll

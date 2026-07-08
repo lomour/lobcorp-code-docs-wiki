@@ -1,13 +1,3 @@
----
-title: GameStatusUI
-description: 
-published: true
-date: 2026-07-07T17:10:31.351Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T04:04:08.697Z
----
-
 # Namespace GameStatusUI
 ## Classes
 ### [BinahPlaySpeedBlockUI](/api/GameStatusUI/BinahPlaySpeedBlockUI)

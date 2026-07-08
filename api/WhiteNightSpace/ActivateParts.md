@@ -1,13 +1,7 @@
 ---
-title: ActivateParts
-description: 
-published: true
-date: 2026-02-20T22:51:08.388Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:14:35.778Z
+uid: WhiteNightSpace.ActivateParts
+canonical_path: /api/WhiteNightSpace/ActivateParts
 ---
-
 # Class ActivateParts
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

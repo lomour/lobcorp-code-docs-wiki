@@ -1,13 +1,7 @@
 ---
-title: DTSweep
-description: 
-published: true
-date: 2026-02-20T22:44:04.407Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:13.525Z
+uid: Poly2Tri.DTSweep
+canonical_path: /api/Poly2Tri/DTSweep
 ---
-
 # Class DTSweep
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

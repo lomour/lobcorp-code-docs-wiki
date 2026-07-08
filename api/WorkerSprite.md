@@ -1,13 +1,3 @@
----
-title: WorkerSprite
-description: 
-published: true
-date: 2026-07-07T17:17:32.981Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T05:23:04.292Z
----
-
 # Namespace WorkerSprite
 ## Classes
 ### [AtlasLoadData](/api/WorkerSprite/AtlasLoadData)

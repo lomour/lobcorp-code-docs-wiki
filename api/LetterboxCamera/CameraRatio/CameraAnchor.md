@@ -1,13 +1,7 @@
 ---
-title: CameraAnchor
-description: 
-published: true
-date: 2026-02-23T23:20:47.154Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:30:12.018Z
+uid: LetterboxCamera.CameraRatio.CameraAnchor
+canonical_path: /api/LetterboxCamera/CameraRatio/CameraAnchor
 ---
-
 # Enum CameraRatio.CameraAnchor
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll

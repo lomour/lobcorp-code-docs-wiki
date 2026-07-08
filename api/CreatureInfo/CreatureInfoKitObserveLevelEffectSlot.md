@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoKitObserveLevelEffectSlot
-description: 
-published: true
-date: 2026-07-07T17:20:15.460Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:17.299Z
+uid: CreatureInfo.CreatureInfoKitObserveLevelEffectSlot
+canonical_path: /api/CreatureInfo/CreatureInfoKitObserveLevelEffectSlot
 ---
-
 # Class CreatureInfoKitObserveLevelEffectSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

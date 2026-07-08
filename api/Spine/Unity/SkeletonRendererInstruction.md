@@ -1,13 +1,7 @@
 ---
-title: SkeletonRendererInstruction
-description: 
-published: true
-date: 2026-02-20T22:50:10.662Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:04:44.645Z
+uid: Spine.Unity.SkeletonRendererInstruction
+canonical_path: /api/Spine/Unity/SkeletonRendererInstruction
 ---
-
 # Class SkeletonRendererInstruction
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

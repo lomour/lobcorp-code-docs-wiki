@@ -1,13 +1,7 @@
 ---
-title: ManualLabel
-description: 
-published: true
-date: 2026-02-20T22:43:34.129Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:33:39.840Z
+uid: Manual.ManualLabel
+canonical_path: /api/Manual/ManualLabel
 ---
-
 # Class ManualLabel
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

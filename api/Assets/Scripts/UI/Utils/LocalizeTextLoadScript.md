@@ -1,13 +1,7 @@
 ---
-title: LocalizeTextLoadScript
-description: 
-published: true
-date: 2026-07-07T17:17:54.637Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:35:33.401Z
+uid: Assets.Scripts.UI.Utils.LocalizeTextLoadScript
+canonical_path: /api/Assets/Scripts/UI/Utils/LocalizeTextLoadScript
 ---
-
 # Class LocalizeTextLoadScript
 **Namespace:** Assets . Scripts . UI . [Utils](/api/Assets/Scripts/UI/Utils)
 **Assembly:** Assembly-CSharp.dll

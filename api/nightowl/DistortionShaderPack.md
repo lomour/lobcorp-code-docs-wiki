@@ -2,12 +2,11 @@
 title: DistortionShaderPack
 description: 
 published: true
-date: 2026-02-20T22:53:52.236Z
+date: 2026-02-20T19:57:13.418Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-15T06:27:06.908Z
 ---
-
 # Namespace nightowl.DistortionShaderPack
 > This third-party Unity package is no longer supported.
 {.is-info}

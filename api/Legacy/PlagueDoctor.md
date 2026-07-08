@@ -1,13 +1,7 @@
 ---
-title: PlagueDoctor
-description: 
-published: true
-date: 2026-02-20T22:42:47.699Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:17.149Z
+uid: Legacy.PlagueDoctor
+canonical_path: /api/Legacy/PlagueDoctor
 ---
-
 # Class PlagueDoctor
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

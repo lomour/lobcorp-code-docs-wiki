@@ -1,13 +1,7 @@
 ---
-title: CreditElement
-description: 
-published: true
-date: 2026-07-07T17:20:51.162Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:07.700Z
+uid: Credit.CreditElement
+canonical_path: /api/Credit/CreditElement
 ---
-
 # Class CreditElement
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

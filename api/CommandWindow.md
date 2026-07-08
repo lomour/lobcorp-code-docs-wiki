@@ -1,13 +1,3 @@
----
-title: CommandWindow
-description: 
-published: true
-date: 2026-07-07T17:07:18.985Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T03:44:16.707Z
----
-
 # Namespace CommandWindow
 ## Classes
 ### [AgentEquipmentSlot](/api/CommandWindow/AgentEquipmentSlot)

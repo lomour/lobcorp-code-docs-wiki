@@ -1,13 +1,7 @@
 ---
-title: PolygonGenerator
-description: 
-published: true
-date: 2026-02-20T22:44:50.201Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:39.939Z
+uid: Poly2Tri.PolygonGenerator
+canonical_path: /api/Poly2Tri/PolygonGenerator
 ---
-
 # Class PolygonGenerator
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

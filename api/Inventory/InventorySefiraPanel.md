@@ -1,13 +1,7 @@
 ---
-title: InventorySefiraPanel
-description: 
-published: true
-date: 2026-02-20T22:41:01.920Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:50.432Z
+uid: Inventory.InventorySefiraPanel
+canonical_path: /api/Inventory/InventorySefiraPanel
 ---
-
 # Class InventorySefiraPanel
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

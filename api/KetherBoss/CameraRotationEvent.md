@@ -1,13 +1,7 @@
 ---
-title: CameraRotationEvent
-description: 
-published: true
-date: 2026-02-20T22:41:14.809Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:24:32.819Z
+uid: KetherBoss.CameraRotationEvent
+canonical_path: /api/KetherBoss/CameraRotationEvent
 ---
-
 # Class CameraRotationEvent
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

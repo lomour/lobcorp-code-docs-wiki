@@ -1,13 +1,7 @@
 ---
-title: EnumTextConverter
-description: 
-published: true
-date: 2026-07-07T17:17:52.771Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:35:29.957Z
+uid: Assets.Scripts.UI.Utils.EnumTextConverter
+canonical_path: /api/Assets/Scripts/UI/Utils/EnumTextConverter
 ---
-
 # Class EnumTextConverter
 **Namespace:** Assets . Scripts . UI . [Utils](/api/Assets/Scripts/UI/Utils)
 **Assembly:** Assembly-CSharp.dll

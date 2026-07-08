@@ -1,13 +1,7 @@
 ---
-title: SkeletonJson
-description: 
-published: true
-date: 2026-02-20T22:47:53.668Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:32.419Z
+uid: Spine.SkeletonJson
+canonical_path: /api/Spine/SkeletonJson
 ---
-
 # Class SkeletonJson
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

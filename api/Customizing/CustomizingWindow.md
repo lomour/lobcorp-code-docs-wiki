@@ -1,13 +1,7 @@
 ---
-title: CustomizingWindow
-description: 
-published: true
-date: 2026-07-07T17:21:20.551Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:56:20.977Z
+uid: Customizing.CustomizingWindow
+canonical_path: /api/Customizing/CustomizingWindow
 ---
-
 # Class CustomizingWindow
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

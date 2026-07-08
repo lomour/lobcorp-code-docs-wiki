@@ -1,13 +1,7 @@
 ---
-title: KitCreatureRegion
-description: 
-published: true
-date: 2026-07-07T17:19:16.851Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:21.720Z
+uid: CommandWindow.KitCreatureRegion
+canonical_path: /api/CommandWindow/KitCreatureRegion
 ---
-
 # Class KitCreatureRegion
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

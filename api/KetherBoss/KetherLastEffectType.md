@@ -1,13 +1,7 @@
 ---
-title: KetherLastEffectType
-description: 
-published: true
-date: 2026-02-23T23:20:35.516Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:25:15.571Z
+uid: KetherBoss.KetherLastEffectType
+canonical_path: /api/KetherBoss/KetherLastEffectType
 ---
-
 # Enum KetherLastEffectType
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

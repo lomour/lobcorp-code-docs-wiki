@@ -1,13 +1,7 @@
 ---
-title: InventoryUI
-description: 
-published: true
-date: 2026-02-20T22:41:05.825Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:58.025Z
+uid: Inventory.InventoryUI
+canonical_path: /api/Inventory/InventoryUI
 ---
-
 # Class InventoryUI
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

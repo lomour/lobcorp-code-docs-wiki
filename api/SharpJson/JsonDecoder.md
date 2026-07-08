@@ -1,13 +1,7 @@
 ---
-title: JsonDecoder
-description: 
-published: true
-date: 2026-02-20T22:45:46.295Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:50:25.315Z
+uid: SharpJson.JsonDecoder
+canonical_path: /api/SharpJson/JsonDecoder
 ---
-
 # Class JsonDecoder
 **Namespace:** [SharpJson](/api/SharpJson)
 **Assembly:** Assembly-CSharp.dll

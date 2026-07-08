@@ -1,13 +1,7 @@
 ---
-title: OverlayStatus
-description: 
-published: true
-date: 2026-02-20T22:42:37.919Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:00.374Z
+uid: Legacy.OverlayModel.OverlayStatus
+canonical_path: /api/Legacy/OverlayModel/OverlayStatus
 ---
-
 # Class OverlayModel.OverlayStatus
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: AttachmentKeyTupleComparer
-description: 
-published: true
-date: 2026-02-20T22:48:00.739Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:45.338Z
+uid: Spine.Skin.AttachmentKeyTupleComparer
+canonical_path: /api/Spine/Skin/AttachmentKeyTupleComparer
 ---
-
 # Class Skin.AttachmentKeyTupleComparer
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

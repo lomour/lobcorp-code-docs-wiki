@@ -1,13 +1,7 @@
 ---
-title: Pos
-description: 
-published: true
-date: 2026-02-23T23:20:45.555Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:29:13.884Z
+uid: Legacy.OverlayScript.Pos
+canonical_path: /api/Legacy/OverlayScript/Pos
 ---
-
 # Enum OverlayScript.Pos
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

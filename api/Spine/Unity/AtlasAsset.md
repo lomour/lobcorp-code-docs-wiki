@@ -1,13 +1,7 @@
 ---
-title: AtlasAsset
-description: 
-published: true
-date: 2026-02-20T22:48:32.538Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:01:44.414Z
+uid: Spine.Unity.AtlasAsset
+canonical_path: /api/Spine/Unity/AtlasAsset
 ---
-
 # Class AtlasAsset
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

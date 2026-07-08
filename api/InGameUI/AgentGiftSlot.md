@@ -1,13 +1,7 @@
 ---
-title: AgentGiftSlot
-description: 
-published: true
-date: 2026-02-20T22:40:29.353Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:21:20.017Z
+uid: InGameUI.AgentGiftSlot
+canonical_path: /api/InGameUI/AgentGiftSlot
 ---
-
 # Class AgentGiftSlot
 **Namespace:** [InGameUI](/api/InGameUI)
 **Assembly:** Assembly-CSharp.dll

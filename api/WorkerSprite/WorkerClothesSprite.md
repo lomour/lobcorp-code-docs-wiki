@@ -1,13 +1,7 @@
 ---
-title: WorkerClothesSprite
-description: 
-published: true
-date: 2026-02-20T22:53:25.336Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:20:38.568Z
+uid: WorkerSprite.WorkerClothesSprite
+canonical_path: /api/WorkerSprite/WorkerClothesSprite
 ---
-
 # Class WorkerClothesSprite
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: PathConstraintPositionTimeline
-description: 
-published: true
-date: 2026-02-20T22:47:19.344Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:27.987Z
+uid: Spine.PathConstraintPositionTimeline
+canonical_path: /api/Spine/PathConstraintPositionTimeline
 ---
-
 # Class PathConstraintPositionTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

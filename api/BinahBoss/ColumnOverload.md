@@ -1,13 +1,7 @@
 ---
-title: ColumnOverload
-description: 
-published: true
-date: 2026-07-07T17:18:50.759Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:16.885Z
+uid: BinahBoss.ColumnOverload
+canonical_path: /api/BinahBoss/ColumnOverload
 ---
-
 # Class ColumnOverload
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

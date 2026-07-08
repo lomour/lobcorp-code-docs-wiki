@@ -1,13 +1,7 @@
 ---
-title: SpineAttributeBase
-description: 
-published: true
-date: 2026-02-20T22:50:29.685Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:05:19.120Z
+uid: Spine.Unity.SpineAttributeBase
+canonical_path: /api/Spine/Unity/SpineAttributeBase
 ---
-
 # Class SpineAttributeBase
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

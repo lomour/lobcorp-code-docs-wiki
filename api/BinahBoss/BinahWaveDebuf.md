@@ -1,13 +1,7 @@
 ---
-title: BinahWaveDebuf
-description: 
-published: true
-date: 2026-07-07T17:18:43.534Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:04.978Z
+uid: BinahBoss.BinahWaveDebuf
+canonical_path: /api/BinahBoss/BinahWaveDebuf
 ---
-
 # Class BinahWaveDebuf
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

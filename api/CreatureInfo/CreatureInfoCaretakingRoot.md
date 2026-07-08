@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoCaretakingRoot
-description: 
-published: true
-date: 2026-07-07T17:19:56.662Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:52:46.953Z
+uid: CreatureInfo.CreatureInfoCaretakingRoot
+canonical_path: /api/CreatureInfo/CreatureInfoCaretakingRoot
 ---
-
 # Class CreatureInfoCaretakingRoot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

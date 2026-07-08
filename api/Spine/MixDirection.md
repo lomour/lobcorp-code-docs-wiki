@@ -1,13 +1,7 @@
 ---
-title: MixDirection
-description: 
-published: true
-date: 2026-02-23T23:21:16.295Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:08.367Z
+uid: Spine.MixDirection
+canonical_path: /api/Spine/MixDirection
 ---
-
 # Enum MixDirection
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

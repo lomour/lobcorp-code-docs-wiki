@@ -1,13 +1,7 @@
 ---
-title: Skin
-description: 
-published: true
-date: 2026-02-20T22:47:57.333Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:38.969Z
+uid: Spine.Skin
+canonical_path: /api/Spine/Skin
 ---
-
 # Class Skin
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

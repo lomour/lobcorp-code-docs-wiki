@@ -1,13 +1,7 @@
 ---
-title: TextData
-description: 
-published: true
-date: 2026-02-20T22:43:45.319Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:34:00.230Z
+uid: Manual.TextData
+canonical_path: /api/Manual/TextData
 ---
-
 # Class TextData
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

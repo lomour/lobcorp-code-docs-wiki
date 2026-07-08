@@ -1,13 +1,7 @@
 ---
-title: SkeletonData
-description: 
-published: true
-date: 2026-02-20T22:47:49.609Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:25.411Z
+uid: Spine.SkeletonData
+canonical_path: /api/Spine/SkeletonData
 ---
-
 # Class SkeletonData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: CreditTextUnit
-description: 
-published: true
-date: 2026-07-07T17:21:03.877Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:27.913Z
+uid: Credit.CreditTextUnit
+canonical_path: /api/Credit/CreditTextUnit
 ---
-
 # Class CreditTextUnit
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

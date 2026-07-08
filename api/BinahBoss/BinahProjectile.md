@@ -1,13 +1,7 @@
 ---
-title: BinahProjectile
-description: 
-published: true
-date: 2026-07-07T17:18:32.714Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:46.536Z
+uid: BinahBoss.BinahProjectile
+canonical_path: /api/BinahBoss/BinahProjectile
 ---
-
 # Class BinahProjectile
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

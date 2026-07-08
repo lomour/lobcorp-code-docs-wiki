@@ -1,13 +1,7 @@
 ---
-title: AnimatedNormalMap
-description: 
-published: true
-date: 2026-02-20T22:53:53.969Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:27:10.075Z
+uid: nightowl.DistortionShaderPack.AnimatedNormalMap
+canonical_path: /api/nightowl/DistortionShaderPack/AnimatedNormalMap
 ---
-
 # Class AnimatedNormalMap
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

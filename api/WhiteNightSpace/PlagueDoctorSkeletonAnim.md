@@ -1,13 +1,7 @@
 ---
-title: PlagueDoctorSkeletonAnim
-description: 
-published: true
-date: 2026-02-20T22:51:52.699Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:53.900Z
+uid: WhiteNightSpace.PlagueDoctorSkeletonAnim
+canonical_path: /api/WhiteNightSpace/PlagueDoctorSkeletonAnim
 ---
-
 # Class PlagueDoctorSkeletonAnim
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

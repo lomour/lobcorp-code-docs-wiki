@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALJellyAutoMove
-description: 
-published: true
-date: 2026-07-07T17:24:57.849Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:06:16.992Z
+uid: Global._2dxFX_AL_JellyAutoMove
+canonical_path: /api/Global/2dxfx/2dxFXALJellyAutoMove
 ---
-
 # Class _2dxFX_AL_JellyAutoMove
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

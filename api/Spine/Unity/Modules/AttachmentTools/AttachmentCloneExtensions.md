@@ -1,13 +1,7 @@
 ---
-title: AttachmentCloneExtensions
-description: 
-published: true
-date: 2026-02-20T22:49:08.190Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:50.935Z
+uid: Spine.Unity.Modules.AttachmentTools.AttachmentCloneExtensions
+canonical_path: /api/Spine/Unity/Modules/AttachmentTools/AttachmentCloneExtensions
 ---
-
 # Class AttachmentCloneExtensions
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules) . [AttachmentTools](/api/Spine/Unity/Modules/AttachmentTools)
 **Assembly:** Assembly-CSharp.dll

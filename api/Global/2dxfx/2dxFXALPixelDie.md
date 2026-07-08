@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALPixelDie
-description: 
-published: true
-date: 2026-07-07T17:26:03.918Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:07:12.485Z
+uid: Global._2dxFX_AL_PixelDie
+canonical_path: /api/Global/2dxfx/2dxFXALPixelDie
 ---
-
 # Class _2dxFX_AL_PixelDie
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

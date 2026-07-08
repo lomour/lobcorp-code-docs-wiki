@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALPattern
-description: 
-published: true
-date: 2026-07-07T17:25:48.908Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:06:57.263Z
+uid: Global._2dxFX_AL_Pattern
+canonical_path: /api/Global/2dxfx/2dxFXALPattern
 ---
-
 # Class _2dxFX_AL_Pattern
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

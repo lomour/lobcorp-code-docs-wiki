@@ -1,13 +1,7 @@
 ---
-title: TriangulationPointEnumerator
-description: 
-published: true
-date: 2026-02-20T22:45:17.447Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:43:31.107Z
+uid: Poly2Tri.TriangulationPointEnumerator
+canonical_path: /api/Poly2Tri/TriangulationPointEnumerator
 ---
-
 # Class TriangulationPointEnumerator
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: OverlayElement
-description: 
-published: true
-date: 2026-02-20T22:42:25.147Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:28:36.867Z
+uid: Legacy.OverlayManager.OverlayElement
+canonical_path: /api/Legacy/OverlayManager/OverlayElement
 ---
-
 # Class OverlayManager.OverlayElement
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

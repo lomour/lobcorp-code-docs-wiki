@@ -1,13 +1,7 @@
 ---
-title: Edge
-description: 
-published: true
-date: 2026-02-20T22:44:18.702Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:41.194Z
+uid: Poly2Tri.Edge
+canonical_path: /api/Poly2Tri/Edge
 ---
-
 # Class Edge
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

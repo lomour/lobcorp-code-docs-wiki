@@ -1,13 +1,7 @@
 ---
-title: P2T
-description: 
-published: true
-date: 2026-02-20T22:44:30.660Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:05.226Z
+uid: Poly2Tri.P2T
+canonical_path: /api/Poly2Tri/P2T
 ---
-
 # Class P2T
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

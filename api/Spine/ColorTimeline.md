@@ -1,13 +1,7 @@
 ---
-title: ColorTimeline
-description: 
-published: true
-date: 2026-02-20T22:46:29.619Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:59.783Z
+uid: Spine.ColorTimeline
+canonical_path: /api/Spine/ColorTimeline
 ---
-
 # Class ColorTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

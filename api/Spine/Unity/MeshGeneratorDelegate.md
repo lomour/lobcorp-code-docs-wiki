@@ -1,13 +1,7 @@
 ---
-title: MeshGeneratorDelegate
-description: 
-published: true
-date: 2026-02-20T22:48:53.589Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:24.179Z
+uid: Spine.Unity.MeshGeneratorDelegate
+canonical_path: /api/Spine/Unity/MeshGeneratorDelegate
 ---
-
 # Delegate MeshGeneratorDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

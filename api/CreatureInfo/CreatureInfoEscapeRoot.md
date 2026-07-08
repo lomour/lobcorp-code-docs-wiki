@@ -1,13 +1,7 @@
 ---
-title: CreatureInfoEscapeRoot
-description: 
-published: true
-date: 2026-07-07T17:20:10.116Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:08.275Z
+uid: CreatureInfo.CreatureInfoEscapeRoot
+canonical_path: /api/CreatureInfo/CreatureInfoEscapeRoot
 ---
-
 # Class CreatureInfoEscapeRoot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

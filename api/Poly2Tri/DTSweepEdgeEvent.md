@@ -1,13 +1,7 @@
 ---
-title: DTSweepEdgeEvent
-description: 
-published: true
-date: 2026-02-20T22:44:13.240Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:30.365Z
+uid: Poly2Tri.DTSweepEdgeEvent
+canonical_path: /api/Poly2Tri/DTSweepEdgeEvent
 ---
-
 # Class DTSweepEdgeEvent
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

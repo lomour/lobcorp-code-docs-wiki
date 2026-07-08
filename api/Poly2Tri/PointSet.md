@@ -1,13 +1,7 @@
 ---
-title: PointSet
-description: 
-published: true
-date: 2026-02-20T22:44:46.122Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:32.664Z
+uid: Poly2Tri.PointSet
+canonical_path: /api/Poly2Tri/PointSet
 ---
-
 # Class PointSet
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

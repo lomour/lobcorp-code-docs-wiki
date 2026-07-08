@@ -1,13 +1,7 @@
 ---
-title: OnClickEvent
-description: 
-published: true
-date: 2026-02-20T22:40:43.536Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:15.552Z
+uid: Inventory.InventoryAgentSlot.OnClickEvent
+canonical_path: /api/Inventory/InventoryAgentSlot/OnClickEvent
 ---
-
 # Delegate InventoryAgentSlot.OnClickEvent
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

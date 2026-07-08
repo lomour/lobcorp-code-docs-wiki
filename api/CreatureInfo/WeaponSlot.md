@@ -1,13 +1,7 @@
 ---
-title: WeaponSlot
-description: 
-published: true
-date: 2026-07-07T17:20:40.047Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:53:56.454Z
+uid: CreatureInfo.WeaponSlot
+canonical_path: /api/CreatureInfo/WeaponSlot
 ---
-
 # Class WeaponSlot
 **Namespace:** [CreatureInfo](/api/CreatureInfo)
 **Assembly:** Assembly-CSharp.dll

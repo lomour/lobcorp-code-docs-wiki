@@ -1,13 +1,7 @@
 ---
-title: FixedBitArray3
-description: 
-published: true
-date: 2026-02-20T22:44:23.750Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:51.185Z
+uid: Poly2Tri.FixedBitArray3
+canonical_path: /api/Poly2Tri/FixedBitArray3
 ---
-
 # Struct FixedBitArray3
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

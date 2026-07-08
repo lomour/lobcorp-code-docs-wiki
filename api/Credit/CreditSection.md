@@ -1,13 +1,7 @@
 ---
-title: CreditSection
-description: 
-published: true
-date: 2026-07-07T17:21:00.351Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:55:22.042Z
+uid: Credit.CreditSection
+canonical_path: /api/Credit/CreditSection
 ---
-
 # Class CreditSection
 **Namespace:** [Credit](/api/Credit)
 **Assembly:** Assembly-CSharp.dll

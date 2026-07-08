@@ -1,13 +1,7 @@
 ---
-title: ScreenShotTool
-description: 
-published: true
-date: 2026-02-20T22:54:35.716Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:28:26.307Z
+uid: nightowl.DistortionShaderPack.ScreenShotTool
+canonical_path: /api/nightowl/DistortionShaderPack/ScreenShotTool
 ---
-
 # Class ScreenShotTool
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

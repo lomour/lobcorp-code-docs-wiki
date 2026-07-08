@@ -1,13 +1,7 @@
 ---
-title: MeshGenerator
-description: 
-published: true
-date: 2026-02-20T22:48:48.544Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:14.216Z
+uid: Spine.Unity.MeshGenerator
+canonical_path: /api/Spine/Unity/MeshGenerator
 ---
-
 # Class MeshGenerator
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

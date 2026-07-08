@@ -1,13 +1,7 @@
 ---
-title: InventorySefiraController
-description: 
-published: true
-date: 2026-02-20T22:41:00.155Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:46.826Z
+uid: Inventory.InventorySefiraController
+canonical_path: /api/Inventory/InventorySefiraController
 ---
-
 # Class InventorySefiraController
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

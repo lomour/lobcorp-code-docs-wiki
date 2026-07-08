@@ -1,13 +1,7 @@
 ---
-title: KetherBlackFrame
-description: 
-published: true
-date: 2026-02-20T22:41:25.474Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:24:54.274Z
+uid: KetherBoss.KetherBlackFrame
+canonical_path: /api/KetherBoss/KetherBlackFrame
 ---
-
 # Class KetherBlackFrame
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

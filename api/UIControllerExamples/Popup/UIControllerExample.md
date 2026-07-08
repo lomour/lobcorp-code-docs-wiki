@@ -1,13 +1,7 @@
 ---
-title: UIControllerExample
-description: 
-published: true
-date: 2026-02-20T22:51:02.880Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:11:56.480Z
+uid: UIControllerExamples.Popup.UIControllerExample
+canonical_path: /api/UIControllerExamples/Popup/UIControllerExample
 ---
-
 # Class UIControllerExample
 **Namespace:** UIControllerExamples . [Popup](/api/UIControllerExamples/Popup)
 **Assembly:** Assembly-CSharp.dll

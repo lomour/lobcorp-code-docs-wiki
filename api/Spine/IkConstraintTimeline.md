@@ -1,13 +1,7 @@
 ---
-title: IkConstraintTimeline
-description: 
-published: true
-date: 2026-02-20T22:47:01.410Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:58:55.107Z
+uid: Spine.IkConstraintTimeline
+canonical_path: /api/Spine/IkConstraintTimeline
 ---
-
 # Class IkConstraintTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

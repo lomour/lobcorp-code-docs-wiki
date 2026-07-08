@@ -1,13 +1,7 @@
 ---
-title: SkeletonUtilityDelegate
-description: 
-published: true
-date: 2026-02-20T22:50:14.494Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:04:51.480Z
+uid: Spine.Unity.SkeletonUtility.SkeletonUtilityDelegate
+canonical_path: /api/Spine/Unity/SkeletonUtility/SkeletonUtilityDelegate
 ---
-
 # Delegate SkeletonUtility.SkeletonUtilityDelegate
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

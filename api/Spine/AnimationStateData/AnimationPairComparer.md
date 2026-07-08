@@ -1,13 +1,7 @@
 ---
-title: AnimationPairComparer
-description: 
-published: true
-date: 2026-02-20T22:46:04.547Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:13.867Z
+uid: Spine.AnimationStateData.AnimationPairComparer
+canonical_path: /api/Spine/AnimationStateData/AnimationPairComparer
 ---
-
 # Class AnimationStateData.AnimationPairComparer
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

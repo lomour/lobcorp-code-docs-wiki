@@ -1,13 +1,7 @@
 ---
-title: RotateTimeline
-description: 
-published: true
-date: 2026-02-20T22:47:34.947Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:57.412Z
+uid: Spine.RotateTimeline
+canonical_path: /api/Spine/RotateTimeline
 ---
-
 # Class RotateTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

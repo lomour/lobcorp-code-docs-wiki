@@ -1,13 +1,7 @@
 ---
-title: 2dxFXHSV
-description: 
-published: true
-date: 2026-07-07T17:28:23.201Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:36.848Z
+uid: Global._2dxFX_HSV
+canonical_path: /api/Global/2dxfx/2dxFXHSV
 ---
-
 # Class _2dxFX_HSV
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

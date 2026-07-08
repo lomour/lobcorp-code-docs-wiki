@@ -1,13 +1,7 @@
 ---
-title: ApostleType
-description: 
-published: true
-date: 2026-02-23T23:20:42.220Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:27:54.698Z
+uid: Legacy.DeathAngel.ApostleType
+canonical_path: /api/Legacy/DeathAngel/ApostleType
 ---
-
 # Enum DeathAngel.ApostleType
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

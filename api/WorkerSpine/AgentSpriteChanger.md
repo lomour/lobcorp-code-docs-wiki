@@ -1,13 +1,7 @@
 ---
-title: AgentSpriteChanger
-description: 
-published: true
-date: 2026-02-20T22:52:11.916Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:17:25.643Z
+uid: WorkerSpine.AgentSpriteChanger
+canonical_path: /api/WorkerSpine/AgentSpriteChanger
 ---
-
 # Class AgentSpriteChanger
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

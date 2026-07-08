@@ -1,13 +1,7 @@
 ---
-title: HeadPartRenderer
-description: 
-published: true
-date: 2026-07-07T17:21:40.501Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:57:36.719Z
+uid: DeadEffect.HeadPartRenderer
+canonical_path: /api/DeadEffect/HeadPartRenderer
 ---
-
 # Class HeadPartRenderer
 **Namespace:** [DeadEffect](/api/DeadEffect)
 **Assembly:** Assembly-CSharp.dll

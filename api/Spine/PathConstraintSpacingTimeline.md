@@ -1,13 +1,7 @@
 ---
-title: PathConstraintSpacingTimeline
-description: 
-published: true
-date: 2026-02-20T22:47:21.098Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:31.215Z
+uid: Spine.PathConstraintSpacingTimeline
+canonical_path: /api/Spine/PathConstraintSpacingTimeline
 ---
-
 # Class PathConstraintSpacingTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

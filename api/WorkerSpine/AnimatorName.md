@@ -1,13 +1,7 @@
 ---
-title: AnimatorName
-description: 
-published: true
-date: 2026-02-20T22:52:13.741Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:17:29.285Z
+uid: WorkerSpine.AnimatorName
+canonical_path: /api/WorkerSpine/AnimatorName
 ---
-
 # Class AnimatorName
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

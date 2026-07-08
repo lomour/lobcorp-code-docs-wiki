@@ -1,13 +1,7 @@
 ---
-title: SkeletonRenderSeparator
-description: 
-published: true
-date: 2026-02-20T22:49:25.628Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:23.030Z
+uid: Spine.Unity.Modules.SkeletonRenderSeparator
+canonical_path: /api/Spine/Unity/Modules/SkeletonRenderSeparator
 ---
-
 # Class SkeletonRenderSeparator
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

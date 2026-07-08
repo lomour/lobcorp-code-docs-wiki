@@ -1,13 +1,7 @@
 ---
-title: TransformConstraintTimeline
-description: 
-published: true
-date: 2026-02-20T22:48:21.760Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:01:24.687Z
+uid: Spine.TransformConstraintTimeline
+canonical_path: /api/Spine/TransformConstraintTimeline
 ---
-
 # Class TransformConstraintTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

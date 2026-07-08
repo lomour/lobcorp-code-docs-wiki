@@ -1,13 +1,7 @@
 ---
-title: OverlayRandomDesc
-description: 
-published: true
-date: 2026-02-20T22:42:32.467Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:28:50.406Z
+uid: Legacy.OverlayManager.OverlayRandomDesc
+canonical_path: /api/Legacy/OverlayManager/OverlayRandomDesc
 ---
-
 # Class OverlayManager.OverlayRandomDesc
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll

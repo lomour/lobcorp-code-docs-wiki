@@ -1,13 +1,3 @@
----
-title: BinahBoss
-description: 
-published: true
-date: 2026-07-07T17:07:08.275Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T03:21:38.846Z
----
-
 # Namespace BinahBoss
 ## Classes
 ### [BinahAction](/api/BinahBoss/BinahAction)

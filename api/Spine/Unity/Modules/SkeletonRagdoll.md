@@ -1,13 +1,7 @@
 ---
-title: SkeletonRagdoll
-description: 
-published: true
-date: 2026-02-20T22:49:19.938Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:11.841Z
+uid: Spine.Unity.Modules.SkeletonRagdoll
+canonical_path: /api/Spine/Unity/Modules/SkeletonRagdoll
 ---
-
 # Class SkeletonRagdoll
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: InventoryRequireLayout
-description: 
-published: true
-date: 2026-02-20T22:40:58.297Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:43.395Z
+uid: Inventory.InventoryRequireLayout
+canonical_path: /api/Inventory/InventoryRequireLayout
 ---
-
 # Class InventoryRequireLayout
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

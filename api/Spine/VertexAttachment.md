@@ -1,13 +1,7 @@
 ---
-title: VertexAttachment
-description: 
-published: true
-date: 2026-02-20T22:50:55.737Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:06:07.475Z
+uid: Spine.VertexAttachment
+canonical_path: /api/Spine/VertexAttachment
 ---
-
 # Class VertexAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

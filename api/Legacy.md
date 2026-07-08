@@ -1,13 +1,3 @@
----
-title: Legacy
-description: 
-published: true
-date: 2026-07-07T17:12:30.433Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-06T04:16:47.567Z
----
-
 # Namespace Legacy
 ## Classes
 ### [ApostleLaserScirpt](/api/Legacy/ApostleLaserScirpt)

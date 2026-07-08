@@ -1,13 +1,7 @@
 ---
-title: CreatureGenerateData-ActionData
-description: 
-published: true
-date: 2026-07-07T17:19:40.102Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:51:48.640Z
+uid: CreatureGenerate.CreatureGenerateData.ActionData
+canonical_path: /api/CreatureGenerate/CreatureGenerateData/ActionData
 ---
-
 # Class CreatureGenerateData.ActionData
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

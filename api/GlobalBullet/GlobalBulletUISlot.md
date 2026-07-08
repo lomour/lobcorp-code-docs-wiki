@@ -1,13 +1,7 @@
 ---
-title: GlobalBulletUISlot
-description: 
-published: true
-date: 2026-02-20T22:40:23.922Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:19:30.951Z
+uid: GlobalBullet.GlobalBulletUISlot
+canonical_path: /api/GlobalBullet/GlobalBulletUISlot
 ---
-
 # Class GlobalBulletUISlot
 **Namespace:** [GlobalBullet](/api/GlobalBullet)
 **Assembly:** Assembly-CSharp.dll

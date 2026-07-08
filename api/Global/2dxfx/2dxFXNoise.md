@@ -1,13 +1,7 @@
 ---
-title: 2dxFXNoise
-description: 
-published: true
-date: 2026-07-07T17:29:14.776Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:10:33.785Z
+uid: Global._2dxFX_Noise
+canonical_path: /api/Global/2dxfx/2dxFXNoise
 ---
-
 # Class _2dxFX_Noise
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

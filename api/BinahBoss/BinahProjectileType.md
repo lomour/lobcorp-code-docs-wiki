@@ -1,13 +1,7 @@
 ---
-title: BinahProjectileType
-description: 
-published: true
-date: 2026-07-07T17:18:34.436Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:49.895Z
+uid: BinahBoss.BinahProjectileType
+canonical_path: /api/BinahBoss/BinahProjectileType
 ---
-
 # Enum BinahProjectileType
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

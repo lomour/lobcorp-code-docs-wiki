@@ -1,13 +1,7 @@
 ---
-title: DacapoThrow
-description: 
-published: true
-date: 2026-07-07T17:22:17.434Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:03:02.247Z
+uid: GeburahBoss.DacapoThrow
+canonical_path: /api/GeburahBoss/DacapoThrow
 ---
-
 # Class DacapoThrow
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

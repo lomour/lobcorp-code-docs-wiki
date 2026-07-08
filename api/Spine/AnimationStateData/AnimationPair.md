@@ -1,13 +1,7 @@
 ---
-title: AnimationPair
-description: 
-published: true
-date: 2026-02-20T22:46:02.688Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:10.646Z
+uid: Spine.AnimationStateData.AnimationPair
+canonical_path: /api/Spine/AnimationStateData/AnimationPair
 ---
-
 # Struct AnimationStateData.AnimationPair
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

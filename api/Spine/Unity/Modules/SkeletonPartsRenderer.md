@@ -1,13 +1,7 @@
 ---
-title: SkeletonPartsRenderer
-description: 
-published: true
-date: 2026-02-20T22:49:17.932Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:08.351Z
+uid: Spine.Unity.Modules.SkeletonPartsRenderer
+canonical_path: /api/Spine/Unity/Modules/SkeletonPartsRenderer
 ---
-
 # Class SkeletonPartsRenderer
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

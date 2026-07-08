@@ -1,13 +1,7 @@
 ---
-title: SplitComplexPolygonNode
-description: 
-published: true
-date: 2026-02-20T22:45:05.011Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:43:06.932Z
+uid: Poly2Tri.SplitComplexPolygonNode
+canonical_path: /api/Poly2Tri/SplitComplexPolygonNode
 ---
-
 # Class SplitComplexPolygonNode
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: SkeletonUtilityConstraint
-description: 
-published: true
-date: 2026-02-20T22:50:20.377Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:05:01.654Z
+uid: Spine.Unity.SkeletonUtilityConstraint
+canonical_path: /api/Spine/Unity/SkeletonUtilityConstraint
 ---
-
 # Class SkeletonUtilityConstraint
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

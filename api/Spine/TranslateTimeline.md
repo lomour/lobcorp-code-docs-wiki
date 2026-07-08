@@ -1,13 +1,7 @@
 ---
-title: TranslateTimeline
-description: 
-published: true
-date: 2026-02-20T22:48:25.141Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:01:31.252Z
+uid: Spine.TranslateTimeline
+canonical_path: /api/Spine/TranslateTimeline
 ---
-
 # Class TranslateTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

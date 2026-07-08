@@ -1,13 +1,7 @@
 ---
-title: PlagueDocAnimRegion
-description: 
-published: true
-date: 2026-02-23T23:21:40.228Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:40.609Z
+uid: WhiteNightSpace.PlagueDocAnimRegion
+canonical_path: /api/WhiteNightSpace/PlagueDocAnimRegion
 ---
-
 # Enum PlagueDocAnimRegion
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

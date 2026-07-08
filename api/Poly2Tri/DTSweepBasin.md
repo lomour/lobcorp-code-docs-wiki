@@ -1,13 +1,7 @@
 ---
-title: DTSweepBasin
-description: 
-published: true
-date: 2026-02-20T22:44:06.094Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:17.330Z
+uid: Poly2Tri.DTSweepBasin
+canonical_path: /api/Poly2Tri/DTSweepBasin
 ---
-
 # Class DTSweepBasin
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

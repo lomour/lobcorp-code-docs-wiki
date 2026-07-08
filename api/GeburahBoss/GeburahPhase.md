@@ -1,13 +1,7 @@
 ---
-title: GeburahPhase
-description: 
-published: true
-date: 2026-07-07T17:22:43.587Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:03:40.471Z
+uid: GeburahBoss.GeburahPhase
+canonical_path: /api/GeburahBoss/GeburahPhase
 ---
-
 # Enum GeburahPhase
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

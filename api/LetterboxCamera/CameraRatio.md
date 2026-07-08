@@ -1,13 +1,7 @@
 ---
-title: CameraRatio
-description: 
-published: true
-date: 2026-02-20T22:43:12.253Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:30:08.371Z
+uid: LetterboxCamera.CameraRatio
+canonical_path: /api/LetterboxCamera/CameraRatio
 ---
-
 # Class CameraRatio
 **Namespace:** [LetterboxCamera](/api/LetterboxCamera)
 **Assembly:** Assembly-CSharp.dll

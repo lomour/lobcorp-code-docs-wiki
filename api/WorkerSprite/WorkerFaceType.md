@@ -1,13 +1,7 @@
 ---
-title: WorkerFaceType
-description: 
-published: true
-date: 2026-02-23T23:21:59.436Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:20:51.174Z
+uid: WorkerSprite.WorkerFaceType
+canonical_path: /api/WorkerSprite/WorkerFaceType
 ---
-
 # Enum WorkerFaceType
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

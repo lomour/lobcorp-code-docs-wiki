@@ -1,13 +1,7 @@
 ---
-title: PolygonOperationContext
-description: 
-published: true
-date: 2026-02-20T22:44:51.967Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:43.238Z
+uid: Poly2Tri.PolygonOperationContext
+canonical_path: /api/Poly2Tri/PolygonOperationContext
 ---
-
 # Class PolygonOperationContext
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

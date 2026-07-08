@@ -1,13 +1,7 @@
 ---
-title: BloodyTreeThrow
-description: 
-published: true
-date: 2026-07-07T17:22:09.143Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:02:53.459Z
+uid: GeburahBoss.BloodyTreeThrow
+canonical_path: /api/GeburahBoss/BloodyTreeThrow
 ---
-
 # Class BloodyTreeThrow
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

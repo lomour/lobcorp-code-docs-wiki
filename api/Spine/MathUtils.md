@@ -1,13 +1,7 @@
 ---
-title: MathUtils
-description: 
-published: true
-date: 2026-02-20T22:47:04.763Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:01.455Z
+uid: Spine.MathUtils
+canonical_path: /api/Spine/MathUtils
 ---
-
 # Class MathUtils
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

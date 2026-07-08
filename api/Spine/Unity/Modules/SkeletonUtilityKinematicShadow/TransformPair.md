@@ -1,13 +1,7 @@
 ---
-title: TransformPair
-description: 
-published: true
-date: 2026-02-20T22:49:38.487Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:03:45.835Z
+uid: Spine.Unity.Modules.SkeletonUtilityKinematicShadow.TransformPair
+canonical_path: /api/Spine/Unity/Modules/SkeletonUtilityKinematicShadow/TransformPair
 ---
-
 # Struct SkeletonUtilityKinematicShadow.TransformPair
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

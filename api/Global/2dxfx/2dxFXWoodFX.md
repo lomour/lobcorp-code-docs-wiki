@@ -1,13 +1,7 @@
 ---
-title: 2dxFXWoodFX
-description: 
-published: true
-date: 2026-07-07T17:30:49.755Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:12:06.634Z
+uid: Global._2dxFX_WoodFX
+canonical_path: /api/Global/2dxfx/2dxFXWoodFX
 ---
-
 # Class _2dxFX_WoodFX
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

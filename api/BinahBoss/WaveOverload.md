@@ -1,13 +1,7 @@
 ---
-title: WaveOverload
-description: 
-published: true
-date: 2026-07-07T17:19:03.229Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:39.122Z
+uid: BinahBoss.WaveOverload
+canonical_path: /api/BinahBoss/WaveOverload
 ---
-
 # Class WaveOverload
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

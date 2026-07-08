@@ -1,13 +1,7 @@
 ---
-title: BodySpriteRegion
-description: 
-published: true
-date: 2026-02-23T23:21:48.572Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:19:20.006Z
+uid: WorkerSprite.BodySpriteRegion
+canonical_path: /api/WorkerSprite/BodySpriteRegion
 ---
-
 # Enum BodySpriteRegion
 **Namespace:** [WorkerSprite](/api/WorkerSprite)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: BinahOverloadUI
-description: 
-published: true
-date: 2026-07-07T17:18:27.182Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:37.063Z
+uid: BinahBoss.BinahOverloadUI
+canonical_path: /api/BinahBoss/BinahOverloadUI
 ---
-
 # Class BinahOverloadUI
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

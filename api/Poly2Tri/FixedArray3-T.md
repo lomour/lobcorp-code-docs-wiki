@@ -1,13 +1,7 @@
 ---
-title: FixedArray3-T
-description: 
-published: true
-date: 2026-02-20T22:44:21.984Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:41:47.842Z
+uid: Poly2Tri.FixedArray3`1
+canonical_path: /api/Poly2Tri/FixedArray3-T
 ---
-
 # Struct FixedArray3<T>
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

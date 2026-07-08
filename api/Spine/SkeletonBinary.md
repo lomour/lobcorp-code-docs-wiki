@@ -1,13 +1,7 @@
 ---
-title: SkeletonBinary
-description: 
-published: true
-date: 2026-02-20T22:47:42.297Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:11.599Z
+uid: Spine.SkeletonBinary
+canonical_path: /api/Spine/SkeletonBinary
 ---
-
 # Class SkeletonBinary
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

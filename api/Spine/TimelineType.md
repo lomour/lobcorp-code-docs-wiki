@@ -1,13 +1,7 @@
 ---
-title: TimelineType
-description: 
-published: true
-date: 2026-02-23T23:21:27.230Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:01:11.219Z
+uid: Spine.TimelineType
+canonical_path: /api/Spine/TimelineType
 ---
-
 # Enum TimelineType
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

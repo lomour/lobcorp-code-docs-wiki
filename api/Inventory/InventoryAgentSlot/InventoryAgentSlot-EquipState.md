@@ -1,13 +1,7 @@
 ---
-title: InventoryAgentSlot-EquipState
-description: 
-published: true
-date: 2026-03-03T07:48:25.547Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:22:12.123Z
+uid: Inventory.InventoryAgentSlot.EquipState
+canonical_path: /api/Inventory/InventoryAgentSlot/EquipState
 ---
-
 # Enum InventoryAgentSlot.EquipState
 **Namespace:** [Inventory](/api/Inventory)
 **Assembly:** Assembly-CSharp.dll

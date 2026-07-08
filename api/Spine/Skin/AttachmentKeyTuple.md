@@ -1,13 +1,7 @@
 ---
-title: AttachmentKeyTuple
-description: 
-published: true
-date: 2026-02-20T22:47:59.034Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:42.228Z
+uid: Spine.Skin.AttachmentKeyTuple
+canonical_path: /api/Spine/Skin/AttachmentKeyTuple
 ---
-
 # Struct Skin.AttachmentKeyTuple
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

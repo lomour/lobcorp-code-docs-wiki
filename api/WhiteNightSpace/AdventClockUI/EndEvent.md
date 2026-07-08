@@ -1,13 +1,7 @@
 ---
-title: EndEvent
-description: 
-published: true
-date: 2026-02-20T22:51:12.346Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:14:43.185Z
+uid: WhiteNightSpace.AdventClockUI.EndEvent
+canonical_path: /api/WhiteNightSpace/AdventClockUI/EndEvent
 ---
-
 # Delegate AdventClockUI.EndEvent
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

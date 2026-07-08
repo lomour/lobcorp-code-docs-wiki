@@ -1,13 +1,7 @@
 ---
-title: ScaleTimeline
-description: 
-published: true
-date: 2026-02-20T22:47:36.643Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:01.065Z
+uid: Spine.ScaleTimeline
+canonical_path: /api/Spine/ScaleTimeline
 ---
-
 # Class ScaleTimeline
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

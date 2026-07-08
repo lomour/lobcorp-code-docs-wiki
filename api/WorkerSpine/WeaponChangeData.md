@@ -1,13 +1,7 @@
 ---
-title: WeaponChangeData
-description: 
-published: true
-date: 2026-02-20T22:52:22.571Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:17:45.677Z
+uid: WorkerSpine.WeaponChangeData
+canonical_path: /api/WorkerSpine/WeaponChangeData
 ---
-
 # Class WeaponChangeData
 **Namespace:** [WorkerSpine](/api/WorkerSpine)
 **Assembly:** Assembly-CSharp.dll

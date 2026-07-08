@@ -1,13 +1,7 @@
 ---
-title: MoveBetween
-description: 
-published: true
-date: 2026-02-20T22:54:27.074Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:28:09.849Z
+uid: nightowl.DistortionShaderPack.MoveBetween
+canonical_path: /api/nightowl/DistortionShaderPack/MoveBetween
 ---
-
 # Class MoveBetween
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

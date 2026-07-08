@@ -1,13 +1,7 @@
 ---
-title: AtlasRegionAttacher
-description: 
-published: true
-date: 2026-02-20T22:49:00.765Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:02:37.475Z
+uid: Spine.Unity.Modules.AtlasRegionAttacher
+canonical_path: /api/Spine/Unity/Modules/AtlasRegionAttacher
 ---
-
 # Class AtlasRegionAttacher
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity) . [Modules](/api/Spine/Unity/Modules)
 **Assembly:** Assembly-CSharp.dll

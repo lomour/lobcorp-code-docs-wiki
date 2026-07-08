@@ -1,13 +1,7 @@
 ---
-title: StatUI
-description: 
-published: true
-date: 2026-07-07T17:21:29.596Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:56:36.231Z
+uid: Customizing.StatUI
+canonical_path: /api/Customizing/StatUI
 ---
-
 # Class StatUI
 **Namespace:** [Customizing](/api/Customizing)
 **Assembly:** Assembly-CSharp.dll

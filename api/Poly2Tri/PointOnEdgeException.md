@@ -1,13 +1,7 @@
 ---
-title: PointOnEdgeException
-description: 
-published: true
-date: 2026-02-20T22:44:43.834Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:42:29.510Z
+uid: Poly2Tri.PointOnEdgeException
+canonical_path: /api/Poly2Tri/PointOnEdgeException
 ---
-
 # Class PointOnEdgeException
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

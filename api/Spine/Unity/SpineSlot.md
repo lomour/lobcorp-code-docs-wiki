@@ -1,13 +1,7 @@
 ---
-title: SpineSlot
-description: 
-published: true
-date: 2026-02-20T22:50:42.292Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:05:43.459Z
+uid: Spine.Unity.SpineSlot
+canonical_path: /api/Spine/Unity/SpineSlot
 ---
-
 # Class SpineSlot
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

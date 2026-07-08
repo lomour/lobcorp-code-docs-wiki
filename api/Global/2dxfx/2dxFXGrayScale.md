@@ -1,13 +1,7 @@
 ---
-title: 2dxFXGrayScale
-description: 
-published: true
-date: 2026-07-07T17:28:20.459Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:33.710Z
+uid: Global._2dxFX_GrayScale
+canonical_path: /api/Global/2dxfx/2dxFXGrayScale
 ---
-
 # Class _2dxFX_GrayScale
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

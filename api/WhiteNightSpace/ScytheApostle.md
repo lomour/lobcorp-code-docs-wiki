@@ -1,13 +1,7 @@
 ---
-title: ScytheApostle
-description: 
-published: true
-date: 2026-02-20T22:51:54.695Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:15:57.346Z
+uid: WhiteNightSpace.ScytheApostle
+canonical_path: /api/WhiteNightSpace/ScytheApostle
 ---
-
 # Class ScytheApostle
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

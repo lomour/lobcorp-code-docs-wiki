@@ -1,13 +1,7 @@
 ---
-title: BinahPhaseExecution
-description: 
-published: true
-date: 2026-07-07T17:18:30.665Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:43.441Z
+uid: BinahBoss.BinahPhaseExecution
+canonical_path: /api/BinahBoss/BinahPhaseExecution
 ---
-
 # Class BinahPhaseExecution
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: MeshAttachment
-description: 
-published: true
-date: 2026-02-20T22:47:06.699Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:59:05.024Z
+uid: Spine.MeshAttachment
+canonical_path: /api/Spine/MeshAttachment
 ---
-
 # Class MeshAttachment
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: AnimationClipEqualityComparer
-description: 
-published: true
-date: 2026-02-20T22:49:53.402Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:04:13.598Z
+uid: Spine.Unity.SkeletonAnimator.MecanimTranslator.AnimationClipEqualityComparer
+canonical_path: /api/Spine/Unity/SkeletonAnimator/MecanimTranslator/AnimationClipEqualityComparer
 ---
-
 # Class SkeletonAnimator.MecanimTranslator.AnimationClipEqualityComparer
 **Namespace:** [Spine](/api/Spine) . [Unity](/api/Spine/Unity)
 **Assembly:** Assembly-CSharp.dll

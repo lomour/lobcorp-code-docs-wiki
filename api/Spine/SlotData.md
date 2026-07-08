@@ -1,13 +1,7 @@
 ---
-title: SlotData
-description: 
-published: true
-date: 2026-02-20T22:48:04.256Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:00:51.978Z
+uid: Spine.SlotData
+canonical_path: /api/Spine/SlotData
 ---
-
 # Class SlotData
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

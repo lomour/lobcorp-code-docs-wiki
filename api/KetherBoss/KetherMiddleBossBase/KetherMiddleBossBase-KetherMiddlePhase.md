@@ -1,13 +1,7 @@
 ---
-title: KetherMiddleBossBase-KetherMiddlePhase
-description: 
-published: true
-date: 2026-03-03T07:28:22.661Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:25:25.991Z
+uid: KetherBoss.KetherMiddleBossBase.KetherMiddlePhase
+canonical_path: /api/KetherBoss/KetherMiddleBossBase/KetherMiddlePhase
 ---
-
 # Enum KetherMiddleBossBase.KetherMiddlePhase
 **Namespace:** [KetherBoss](/api/KetherBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: GeburahAction
-description: 
-published: true
-date: 2026-07-07T17:22:31.739Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:03:25.938Z
+uid: GeburahBoss.GeburahAction
+canonical_path: /api/GeburahBoss/GeburahAction
 ---
-
 # Class GeburahAction
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

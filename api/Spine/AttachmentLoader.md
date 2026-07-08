@@ -1,13 +1,7 @@
 ---
-title: AttachmentLoader
-description: 
-published: true
-date: 2026-02-20T22:46:15.385Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:57:33.163Z
+uid: Spine.AttachmentLoader
+canonical_path: /api/Spine/AttachmentLoader
 ---
-
 # Interface AttachmentLoader
 **Namespace:** [Spine](/api/Spine)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: AgentUI
-description: 
-published: true
-date: 2026-02-20T22:40:33.207Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:21:27.200Z
+uid: InGameUI.AgentUI
+canonical_path: /api/InGameUI/AgentUI
 ---
-
 # Class AgentUI
 **Namespace:** [InGameUI](/api/InGameUI)
 **Assembly:** Assembly-CSharp.dll

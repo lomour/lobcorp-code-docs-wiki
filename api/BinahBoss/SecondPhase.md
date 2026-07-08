@@ -1,13 +1,7 @@
 ---
-title: SecondPhase
-description: 
-published: true
-date: 2026-07-07T17:18:59.623Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:39:32.591Z
+uid: BinahBoss.SecondPhase
+canonical_path: /api/BinahBoss/SecondPhase
 ---
-
 # Class SecondPhase
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

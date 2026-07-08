@@ -1,13 +1,7 @@
 ---
-title: CodeDemo2
-description: 
-published: true
-date: 2026-02-20T22:54:05.195Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:27:29.967Z
+uid: nightowl.DistortionShaderPack.CodeDemo2
+canonical_path: /api/nightowl/DistortionShaderPack/CodeDemo2
 ---
-
 # Class CodeDemo2
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

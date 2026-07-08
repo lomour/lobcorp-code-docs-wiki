@@ -1,13 +1,7 @@
 ---
-title: 2dxFXALPlasmaRainbow
-description: 
-published: true
-date: 2026-07-07T17:26:06.862Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:07:15.539Z
+uid: Global._2dxFX_AL_PlasmaRainbow
+canonical_path: /api/Global/2dxfx/2dxFXALPlasmaRainbow
 ---
-
 # Class _2dxFX_AL_PlasmaRainbow
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

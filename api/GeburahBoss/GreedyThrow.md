@@ -1,13 +1,7 @@
 ---
-title: GreedyThrow
-description: 
-published: true
-date: 2026-07-07T17:22:57.834Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:03:55.381Z
+uid: GeburahBoss.GreedyThrow
+canonical_path: /api/GeburahBoss/GreedyThrow
 ---
-
 # Class GreedyThrow
 **Namespace:** [GeburahBoss](/api/GeburahBoss)
 **Assembly:** Assembly-CSharp.dll

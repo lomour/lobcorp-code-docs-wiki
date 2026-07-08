@@ -1,13 +1,7 @@
 ---
-title: NodeCategorySlot
-description: 
-published: true
-date: 2026-02-20T22:43:39.868Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:33:50.220Z
+uid: Manual.NodeCategorySlot
+canonical_path: /api/Manual/NodeCategorySlot
 ---
-
 # Class NodeCategorySlot
 **Namespace:** [Manual](/api/Manual)
 **Assembly:** Assembly-CSharp.dll

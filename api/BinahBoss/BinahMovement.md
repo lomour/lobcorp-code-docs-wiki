@@ -1,13 +1,7 @@
 ---
-title: BinahMovement
-description: 
-published: true
-date: 2026-07-07T17:18:15.962Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:18.019Z
+uid: BinahBoss.BinahMovement
+canonical_path: /api/BinahBoss/BinahMovement
 ---
-
 # Class BinahMovement
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

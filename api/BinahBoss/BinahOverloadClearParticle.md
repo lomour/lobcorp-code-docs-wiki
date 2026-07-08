@@ -1,13 +1,7 @@
 ---
-title: BinahOverloadClearParticle
-description: 
-published: true
-date: 2026-07-07T17:18:25.226Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:38:33.845Z
+uid: BinahBoss.BinahOverloadClearParticle
+canonical_path: /api/BinahBoss/BinahOverloadClearParticle
 ---
-
 # Class BinahOverloadClearParticle
 **Namespace:** [BinahBoss](/api/BinahBoss)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: WorkData
-description: 
-published: true
-date: 2026-07-07T17:19:26.142Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:50:36.176Z
+uid: CommandWindow.WorkData
+canonical_path: /api/CommandWindow/WorkData
 ---
-
 # Class WorkData
 **Namespace:** [CommandWindow](/api/CommandWindow)
 **Assembly:** Assembly-CSharp.dll

@@ -1,13 +1,7 @@
 ---
-title: TriangulationUtil
-description: 
-published: true
-date: 2026-02-20T22:45:21.019Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:43:37.875Z
+uid: Poly2Tri.TriangulationUtil
+canonical_path: /api/Poly2Tri/TriangulationUtil
 ---
-
 # Class TriangulationUtil
 **Namespace:** [Poly2Tri](/api/Poly2Tri)
 **Assembly:** Assembly-CSharp.dll

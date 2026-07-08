@@ -1,13 +1,7 @@
 ---
-title: 2dxFXOutline
-description: 
-published: true
-date: 2026-07-07T17:29:23.287Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:10:43.126Z
+uid: Global._2dxFX_Outline
+canonical_path: /api/Global/2dxfx/2dxFXOutline
 ---
-
 # Class _2dxFX_Outline
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

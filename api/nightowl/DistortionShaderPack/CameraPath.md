@@ -1,13 +1,7 @@
 ---
-title: CameraPath
-description: 
-published: true
-date: 2026-02-20T22:53:57.695Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:27:16.914Z
+uid: nightowl.DistortionShaderPack.CameraPath
+canonical_path: /api/nightowl/DistortionShaderPack/CameraPath
 ---
-
 # Class CameraPath
 **Namespace:** nightowl . [DistortionShaderPack](/api/nightowl/DistortionShaderPack)
 **Assembly:** Assembly-CSharp.dll

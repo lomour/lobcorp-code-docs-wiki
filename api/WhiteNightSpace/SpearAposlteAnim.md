@@ -1,13 +1,7 @@
 ---
-title: SpearAposlteAnim
-description: 
-published: true
-date: 2026-02-20T22:52:00.279Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T06:16:07.536Z
+uid: WhiteNightSpace.SpearAposlteAnim
+canonical_path: /api/WhiteNightSpace/SpearAposlteAnim
 ---
-
 # Class SpearAposlteAnim
 **Namespace:** [WhiteNightSpace](/api/WhiteNightSpace)
 **Assembly:** Assembly-CSharp.dll

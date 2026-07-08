@@ -1,13 +1,7 @@
 ---
-title: 2dxFXJelly
-description: 
-published: true
-date: 2026-07-07T17:28:39.556Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T03:09:58.148Z
+uid: Global._2dxFX_Jelly
+canonical_path: /api/Global/2dxfx/2dxFXJelly
 ---
-
 # Class _2dxFX_Jelly
 **Namespace:** [Global](/api/Global)
 **Assembly:** Assembly-CSharp.dll

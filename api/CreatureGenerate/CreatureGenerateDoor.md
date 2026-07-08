@@ -1,13 +1,7 @@
 ---
-title: CreatureGenerateDoor
-description: 
-published: true
-date: 2026-07-07T17:19:42.003Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T02:51:51.495Z
+uid: CreatureGenerate.CreatureGenerateDoor
+canonical_path: /api/CreatureGenerate/CreatureGenerateDoor
 ---
-
 # Class CreatureGenerateDoor
 **Namespace:** [CreatureGenerate](/api/CreatureGenerate)
 **Assembly:** Assembly-CSharp.dll

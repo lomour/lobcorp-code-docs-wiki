@@ -1,13 +1,7 @@
 ---
-title: EndCalled
-description: 
-published: true
-date: 2026-02-20T22:42:14.448Z
-tags: 
-editor: markdown
-dateCreated: 2026-01-15T05:28:16.334Z
+uid: Legacy.DeathAngelClockUI.EndCalled
+canonical_path: /api/Legacy/DeathAngelClockUI/EndCalled
 ---
-
 # Delegate DeathAngelClockUI.EndCalled
 **Namespace:** [Legacy](/api/Legacy)
 **Assembly:** Assembly-CSharp.dll
