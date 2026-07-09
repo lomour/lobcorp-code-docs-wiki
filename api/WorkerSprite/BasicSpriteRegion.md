@@ -26,3 +26,7 @@ public enum BasicSpriteRegion
 | EYEBROW_PANIC | 11 | |
 | HAIR_ATTACH | 12 | |
 
+
+
+
+

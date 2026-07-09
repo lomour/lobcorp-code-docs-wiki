@@ -16,3 +16,6 @@ private enum MagicalGirl_2Weapon.ATTACK_PATTERN
 | SPECIAL | 1 | |
 
 
+
+
+

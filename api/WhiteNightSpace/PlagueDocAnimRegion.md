@@ -16,3 +16,7 @@ public enum PlagueDocAnimRegion
 | HAT_COAT | 1 | |
 | HEAD_BEAK | 2 | |
 
+
+
+
+

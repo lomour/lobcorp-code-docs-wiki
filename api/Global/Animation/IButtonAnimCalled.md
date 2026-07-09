@@ -17,7 +17,7 @@ public interface IButtonAnimCalled
 
 An interface representing a button, presumably for animation.
 
-Used by [ButtonAnimationEvent](/api/Global/Event/ButtonAnimationEvent), which seems unused...
+Used by [ButtonAnimationEvent](/api/Global/Animation/ButtonAnimationEvent), which seems unused...
 
 
 
@@ -45,6 +45,11 @@ void OnEnter()
 ```csharp
 void OnExit()
 ```
+
+
+
+
+
 
 
 

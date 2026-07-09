@@ -16,3 +16,7 @@ public enum MentalDamageOption
 | IGNORE_DEFENSE | 1 | |
 
 
+
+
+
+

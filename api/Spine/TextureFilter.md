@@ -20,3 +20,7 @@ public enum TextureFilter
 | MipMapNearestLinear | 5 | |
 | MipMapLinearLinear | 6 | |
 
+
+
+
+

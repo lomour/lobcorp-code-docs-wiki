@@ -60,3 +60,9 @@ public void SetState(EnergyController.RankSlot.RankState state)
 
 
 
+
+
+
+
+
+

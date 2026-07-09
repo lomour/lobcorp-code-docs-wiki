@@ -12,18 +12,18 @@ public class AgentManager : IObserver, ISerializablePlayData
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Maintains the lists of abstract [agents](/api/Global/Worker/AgentModel), including saving, loading, adding, removing, buying, and deleting.
+Maintains the lists of abstract [agents](/api/Global/Agents-and-Clerks/Agents/AgentModel), including saving, loading, adding, removing, buying, and deleting.
 
 Also, has a helper function to calculate survival rate. Also also, has a helper function to remove backer equipment.
 
-See also [AgentLayer](/api/Global/IOBserver/AgentLayer), which manages [AgentUnits](/api/Global/Worker/AgentUnit) in-game
+See also [AgentLayer](/api/Global/Agents-and-Clerks/Agents/AgentUnit) in-game
 
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentManager
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver), [ISerializablePlayData](/api/Global/Misc/ISerializablePlayData)
+[IObserver](/api/Global/Save-Data/ISerializablePlayData)
 
 ## Constructors
 ### AgentManager()
@@ -519,6 +519,9 @@ private static bool TryGetValue<T>(Dictionary<string, object> dic, string name, 
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

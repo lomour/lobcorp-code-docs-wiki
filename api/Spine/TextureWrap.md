@@ -16,3 +16,7 @@ public enum TextureWrap
 | ClampToEdge | 1 | |
 | Repeat | 2 | |
 
+
+
+
+

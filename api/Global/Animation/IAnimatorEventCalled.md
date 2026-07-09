@@ -14,7 +14,7 @@ public interface IAnimatorEventCalled
 
 Interface representing something which should be animated when certain events are called.
 
-Used *mainly* by abnormality animation handlers, but also by [agents](/api/Global/Misc/AgentAnim) and (frustratingly) some UI elements.
+Used *mainly* by abnormality animation handlers, but also by [agents](/api/Global/Agents-and-Clerks/Agents/Agent-Animation/AgentAnim) and (frustratingly) some UI elements.
 
 #### Methods
 	OnCalled
@@ -105,6 +105,11 @@ void SoundMake(string src)
 | Name | Type | Description |
 | --- | --- | --- |
 | `src` | `System.String` |  |
+
+
+
+
+
 
 
 

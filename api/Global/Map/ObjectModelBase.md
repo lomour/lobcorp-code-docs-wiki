@@ -12,14 +12,14 @@ public class ObjectModelBase
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Parent class for [rooms](/api/Global/Model/PassageObjectModel), [doors](/api/Global/Model/DoorObjectModel), and the [map](/api/Global/Model/MapObjectModel).
+Parent class for [rooms](/api/Global/Map/Unused/Map-Objects-(unused-maybe)/MapObjectModel).
 
 
 ## Inheritance
 [object](https://learn.microsoft.com/dotnet/api/system.object) → ObjectModelBase
 
 ## Derived
-[DoorObjectModel](/api/Global/Model/DoorObjectModel), [MapObjectModel](/api/Global/Model/MapObjectModel), [PassageObjectModel](/api/Global/Model/PassageObjectModel)
+[DoorObjectModel](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel)
 
 ## Constructors
 ### ObjectModelBase()
@@ -39,6 +39,10 @@ public Vector3 position
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

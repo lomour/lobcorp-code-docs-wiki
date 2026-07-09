@@ -15,3 +15,7 @@ public enum CreditConversationController.FadeType
 | IN | 0 | |
 | OUT | 1 | |
 
+
+
+
+

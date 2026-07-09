@@ -17,3 +17,9 @@ public enum BinahDefenseType
 | RESIST | 2 | |
 | FATAL | 3 | |
 
+
+
+
+
+
+

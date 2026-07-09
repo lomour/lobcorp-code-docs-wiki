@@ -19,8 +19,8 @@ Responsible for:
 - Day information (including changing days, saving and loading the current day, keeping track of Day 47-49 game overs, and memory repository days #inc)
 
 Provides access to:
-- The list of opened departments (see [SefiraManager](/api/Global/IOBserver/SefiraManager))
-- Opening all departments for unlimited mode (called by [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager))
+- The list of opened departments (see [SefiraManager](/api/Global/Departments/SefiraManager))
+- Opening all departments for unlimited mode (called by [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager))
 
 Also, has the EmergencyController in it, which controls the current trumpet.
 
@@ -39,10 +39,10 @@ Unflags the Day 47-49 game over flag (and the unused memoryInit flag), then read
 Clears the queue of waiting abnormalities. Used by title Day 1 resets and total resets. 
 #### public void AddWaitingCreature(long id)
 Queues the abnormality with the given id.
-Used by the [abnormality extraction UI](/api/Global/IANimatorEventCalled/CreatureSelectUI), [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) (to load save data), and [ConsoleCommand](/api/Global/Misc/ConsoleCommand) for the fifo command.
+Used by the [abnormality extraction UI](/api/Global/Console-Commands/ConsoleCommand) for the fifo command.
 #### public bool GetWaitingCreature(out long id)
 If the queue is empty, returns false and sets id to -1.
-Otherwise, removes the first abnormality from the queue and sets id to its id, then saves the new queue to file with [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) (if the save file exists).
+Otherwise, removes the first abnormality from the queue and sets id to its id, then saves the new queue to file with [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager) (if the save file exists).
 #### public List\<long> CopyWaitingCreatures()
 Returns a list of the waiting abnormalities.
 #### public bool IsWaitingCreaturesExist()
@@ -55,14 +55,14 @@ Returns true if the given id belongs to an abnormality in the current queue.
 #### public void SetDay(int day)
 Sets the day to the given value and notifies all listeners of UpdateDay.
 #### public void Nextday()
-Increments the day, sets a flag in [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager) to indicate the day is no longer a loaded day (see [DeployUI](/api/Global/UI/DeployUI) for its only usage), and notifies all listeners of UpdateDay.
+Increments the day, sets a flag in [GlobalGameManager](/api/Global/UI/Deployment-Screen/DeployUI) for its only usage), and notifies all listeners of UpdateDay.
 #### public int GetDay()
 Returns the current day.
 ### Misc
 #### public Sefira[] GetOpenedAreaList()
-Returns an array of all opened departments, via [SefiraManager](/api/Global/IOBserver/SefiraManager).
+Returns an array of all opened departments, via [SefiraManager](/api/Global/Departments/SefiraManager).
 #### public int GetOpenedAreaCount()
-Returns the number of opened departments via [SefiraManager](/api/Global/IOBserver/SefiraManager).
+Returns the number of opened departments via [SefiraManager](/api/Global/Departments/SefiraManager).
 #### public void SetKetherGameOver()
 Sets the Day 47-49 game over flag.
 #### public void UnlimitMode(string saveVer)
@@ -391,6 +391,10 @@ public void UnlimitMode(string saveVer)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

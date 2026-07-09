@@ -168,3 +168,6 @@ public static List<OrdealBase> GenerateOrdeals(int day)
 
 
 
+
+
+

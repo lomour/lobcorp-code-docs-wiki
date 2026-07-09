@@ -59,9 +59,9 @@ passage (rooms)
 		- dept -- room
 		- isolateroom -- containment unit
 - Children:
-	- connected -- if this connects to another department? 	- ground -- see [PassageGroundInfo](/api/Global/Info/PassageGroundInfo)
+	- connected -- if this connects to another department? 	- ground -- see [PassageGroundInfo](/api/Global/Map/Rooms-and-Hallways/PassageGroundInfo)
 		- height -- how high the ground is
-	- wall -- see [PassageWallInfo](/api/Global/Info/PassageWallInfo)
+	- wall -- see [PassageWallInfo](/api/Global/Map/Rooms-and-Hallways/PassageWallInfo)
 		- height -- how high the wall is
 	- height -- how tall this room is (except 0 becomes 2.5)
 	- node (below)
@@ -72,14 +72,14 @@ node (place in a room)
 	- x, y -- position
 	- rabbitUnpassable -- unused
 	- type -- 
-	- elevator -- prefab path for this elevator (see [ElevatorPassageModel](/api/Global/Model/ElevatorPassageModel))
+	- elevator -- prefab path for this elevator (see [ElevatorPassageModel](/api/Global/Map/Elevators/ElevatorPassageModel))
 		- NOTE: makes 5 more nodes in weird places! 
 	- pos:
 		- center -- marks a node as the center of its room
-			- (this is otherwise automatically calculated by [PassageObjectModel](/api/Global/Model/PassageObjectModel))
+			- (this is otherwise automatically calculated by [PassageObjectModel](/api/Global/Map/Rooms-and-Hallways/PassageObjectModel))
 - Children:
 	- option -- unused
-	- door -- a [door](/api/Global/Model/DoorObjectModel)
+	- door -- a [door](/api/Global/Map/Rooms-and-Hallways/DoorObjectModel)
 
 
 
@@ -101,7 +101,7 @@ edge
 [object](https://learn.microsoft.com/dotnet/api/system.object) → MapGraph
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### MapGraph()
@@ -627,6 +627,10 @@ private void StageEnd()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

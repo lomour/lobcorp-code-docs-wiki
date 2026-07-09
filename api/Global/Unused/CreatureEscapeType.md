@@ -18,3 +18,7 @@ public enum CreatureEscapeType
 | WANDER | 3 | |
 
 
+
+
+
+

@@ -17,3 +17,6 @@ public enum MagicalGirl.Camp
 | VILLAIN | 2 | |
 
 
+
+
+

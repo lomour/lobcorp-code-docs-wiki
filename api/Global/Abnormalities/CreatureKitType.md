@@ -18,3 +18,8 @@ public enum CreatureKitType
 | ONESHOT | 3 | |
 
 
+
+
+
+
+

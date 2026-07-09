@@ -13,12 +13,12 @@ public class PanicViolence : PanicAction
 {.is-warning}
 
 
-Panic behaviour for an [agent](/api/Global/Worker/AgentModel) to indiscriminately attack employees around them.
+Panic behaviour for an [agent](/api/Global/Agents-and-Clerks/Agents/AgentModel) to indiscriminately attack employees around them.
 
 
 
 ## Inheritance
-[object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Action/PanicAction) → PanicViolence
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [PanicAction](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction) → PanicViolence
 
 ## Constructors
 ### PanicViolence(AgentModel)
@@ -101,7 +101,9 @@ public override void Init()
 
 
 ## Inherited Members
-[OnDie()](/api/Global/Action/PanicAction#ondie), [PanicEnd()](/api/Global/Action/PanicAction#panicend), [GetMovementMultiplier()](/api/Global/Action/PanicAction#getmovementmultiplier), [GetDefenseMultiplier()](/api/Global/Action/PanicAction#getdefensemultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+[OnDie()](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction#ondie), [PanicEnd()](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction#panicend), [GetMovementMultiplier()](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction#getmovementmultiplier), [GetDefenseMultiplier()](/api/Global/Agents-and-Clerks/Panicking/Panic-Behaviours/PanicAction#getdefensemultiplier), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

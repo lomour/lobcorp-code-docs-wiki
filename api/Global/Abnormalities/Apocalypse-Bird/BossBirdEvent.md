@@ -13,13 +13,13 @@ public class BossBirdEvent : EventBase
 {.is-warning}
 
 
-Event for [Apocalypse Bird](/api/Global/Misc/BossBird)'s fight. Makes gates and eggs.
+Event for [Apocalypse Bird](/api/Global/Abnormalities/Apocalypse-Bird/BossBird)'s fight. Makes gates and eggs.
 
 
 
 
 ## Inheritance
-[object](https://learn.microsoft.com/dotnet/api/system.object) → [EventBase](/api/Global/Event/EventBase) → BossBirdEvent
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [EventBase](/api/Global/Events/EventBase) → BossBirdEvent
 
 ## Constructors
 ### BossBirdEvent()
@@ -154,7 +154,11 @@ public EventCreatureModel MakeSmallEgg(MapNode node)
 **Type:** Global.EventCreatureModel
 
 ## Inherited Members
-[isStarted](/api/Global/Event/EventBase#isstarted), [_type](/api/Global/Event/EventBase#type), [IsStartable()](/api/Global/Event/EventBase#isstartable), [OnGameInit()](/api/Global/Event/EventBase#ongameinit), [OnDestroy()](/api/Global/Event/EventBase#ondestroy), [OnEventStart()](/api/Global/Event/EventBase#oneventstart), [EventEnd()](/api/Global/Event/EventBase#eventend), [FixedUpdate()](/api/Global/Event/EventBase#fixedupdate), [type](/api/Global/Event/EventBase#type), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+[isStarted](/api/Global/Events/EventBase#isstarted), [_type](/api/Global/Events/EventBase#type), [IsStartable()](/api/Global/Events/EventBase#isstartable), [OnGameInit()](/api/Global/Events/EventBase#ongameinit), [OnDestroy()](/api/Global/Events/EventBase#ondestroy), [OnEventStart()](/api/Global/Events/EventBase#oneventstart), [EventEnd()](/api/Global/Events/EventBase#eventend), [FixedUpdate()](/api/Global/Events/EventBase#fixedupdate), [type](/api/Global/Events/EventBase#type), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

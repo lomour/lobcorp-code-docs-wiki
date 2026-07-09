@@ -17,3 +17,7 @@ public enum ApostleType
 | WAND | 2 | |
 | BETRAYER | 3 | |
 
+
+
+
+

@@ -12,7 +12,7 @@ public class BinahOverload : IObserver
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Parent class for [Binah](/api/Global/Misc/BinahBossBase)'s special meltdowns
+Parent class for [Binah](/api/Global/Core-Suppressions/Binah-Suppression/BinahBossBase)'s special meltdowns
 
 
 ## Inheritance
@@ -22,7 +22,7 @@ Parent class for [Binah](/api/Global/Misc/BinahBossBase)'s special meltdowns
 [BlackFogOverload](/api/BinahBoss/BlackFogOverload), [ColumnOverload](/api/BinahBoss/ColumnOverload), [GoldenOverload](/api/BinahBoss/GoldenOverload), [WaveOverload](/api/BinahBoss/WaveOverload)
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### BinahOverload(BinahCoreScript, OverloadType)
@@ -279,6 +279,14 @@ public virtual void OnSuccess()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
+
+
+
 
 
 

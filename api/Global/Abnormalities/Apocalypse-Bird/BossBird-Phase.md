@@ -19,3 +19,7 @@ public enum BossBird.Phase
 | SPECIAL_PATTERN | 4 | |
 
 
+
+
+
+

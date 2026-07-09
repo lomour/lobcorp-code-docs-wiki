@@ -213,3 +213,9 @@ public virtual void SetModel(EquipmentTypeInfo info)
 
 
 
+
+
+
+
+
+

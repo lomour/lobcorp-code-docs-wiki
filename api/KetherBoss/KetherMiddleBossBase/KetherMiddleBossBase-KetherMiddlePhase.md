@@ -15,3 +15,6 @@ public enum KetherMiddleBossBase.KetherMiddlePhase
 | FIRST | 0 | |
 | SECOND | 1 | |
 
+
+
+

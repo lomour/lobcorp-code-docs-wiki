@@ -17,3 +17,6 @@ public enum PolygonUtil.PolyUnionError
 | Poly1InsidePoly2 | 2 | |
 | InfiniteLoop | 3 | |
 
+
+
+

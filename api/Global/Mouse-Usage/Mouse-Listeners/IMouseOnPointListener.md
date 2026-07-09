@@ -14,9 +14,9 @@ public interface IMouseOnPointListener
 
 Interface for things which react to being hovered over by the cursor.
 
-Implemented by [AgentUnit](/api/Global/Worker/AgentUnit) and [PassageObject](/api/Global/Object/PassageObject).
+Implemented by [AgentUnit](/api/Global/Map/Rooms-and-Hallways/PassageObject).
 
-Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
+Used by [UnitMouseEventManager](/api/Global/Mouse-Usage/Mouse-Events/UnitMouseEventManager).
 
 
 #### Methods
@@ -45,6 +45,9 @@ void OnPointEnter()
 ```csharp
 void OnPointExit()
 ```
+
+
+
 
 
 

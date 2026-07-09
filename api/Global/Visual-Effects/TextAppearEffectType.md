@@ -16,3 +16,7 @@ public enum TextAppearEffectType
 | MOVE_UP | 1 | |
 
 
+
+
+
+

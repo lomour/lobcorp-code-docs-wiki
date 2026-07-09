@@ -15,3 +15,6 @@ public enum InventoryAgentSlot.EquipState
 | EMPTY | 0 | |
 | CANNOT | 1 | |
 
+
+
+

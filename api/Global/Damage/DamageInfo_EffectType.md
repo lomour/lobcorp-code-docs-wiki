@@ -16,3 +16,7 @@ public enum DamageInfo_EffectType
 | DAMAGE_INVOKED | 1 | |
 
 
+
+
+
+

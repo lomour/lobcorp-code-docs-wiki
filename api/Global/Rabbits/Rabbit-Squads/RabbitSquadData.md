@@ -12,9 +12,9 @@ public class RabbitSquadData
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Holds the information for creating a [RabbitSquad](/api/Global/Misc/RabbitSquad).
+Holds the information for creating a [RabbitSquad](/api/Global/Rabbits/Rabbit-Squads/RabbitSquad).
 
-Holds the squad ID, the department ID, [RabbitTeamData](/api/Global/Misc/RabbitTeamData) for the teams, the list of nodes to deactivate, and [RabbitTeleportData](/api/Global/Misc/RabbitTeleportData) for the teleports. ^\[verify\]^
+Holds the squad ID, the department ID, [RabbitTeamData](/api/Global/Rabbits/Portals/RabbitTeleportData) for the teleports. ^\[verify\]^
 
 
 ## Inheritance
@@ -74,6 +74,9 @@ public List<RabbitTeleportData> teleports
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

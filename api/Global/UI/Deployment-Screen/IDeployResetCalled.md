@@ -14,7 +14,7 @@ public interface IDeployResetCalled
 
 Interface for listeners of deployment events.
 
-See [DeployUI](/api/Global/UI/DeployUI)
+See [DeployUI](/api/Global/UI/Deployment-Screen/DeployUI)
 
 
 
@@ -41,6 +41,8 @@ void DeployResetCalled()
 ```csharp
 void Registration()
 ```
+
+
 
 
 

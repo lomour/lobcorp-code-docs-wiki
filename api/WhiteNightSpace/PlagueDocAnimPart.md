@@ -24,3 +24,7 @@ public enum PlagueDocAnimPart
 | RING | 9 | |
 | ANGEL | 10 | |
 
+
+
+
+

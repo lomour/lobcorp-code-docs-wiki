@@ -27,3 +27,7 @@ public enum BodySpriteRegion
 | COAT_LEFT | 12 | |
 | COAT_RIGHT | 13 | |
 
+
+
+
+

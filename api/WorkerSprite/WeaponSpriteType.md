@@ -22,3 +22,7 @@ public enum WeaponSpriteType
 | BOWGUN | 7 | |
 | UNIQUE | 8 | |
 
+
+
+
+

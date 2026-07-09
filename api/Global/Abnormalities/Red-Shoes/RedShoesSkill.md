@@ -13,15 +13,15 @@ public class RedShoesSkill : CreatureSpecialSkill, IObserver
 {.is-warning}
 
 
-[Red Shoes](/api/Global/Misc/RedShoes)'s worker attracting skill ^\[verify\]^.
+[Red Shoes](/api/Global/Abnormalities/Red-Shoes/RedShoes)'s worker attracting skill ^\[verify\]^.
 
 
 
 ## Inheritance
-[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureSpecialSkill](/api/Global/IOBserver/CreatureSpecialSkill) → RedShoesSkill
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureSpecialSkill](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill) → RedShoesSkill
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### RedShoesSkill(CreatureModel)
@@ -225,7 +225,10 @@ public void TryAttract()
 
 
 ## Inherited Members
-[model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate(WorkerModel)](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate-workermodel), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [DeActivate()](/api/Global/IOBserver/CreatureSpecialSkill#deactivate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [OnObserveLevelChanged()](/api/Global/IOBserver/CreatureSpecialSkill#onobservelevelchanged), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+[model](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#model), [sefira](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#sefira), [Activated](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#activated), [SkillActivate(WorkerModel)](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#skillactivate-workermodel), [Activate()](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#activate), [DeActivate()](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#deactivate), [OnNotice(string, params object[])](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#onnotice-string-params-object), [OnObserveLevelChanged()](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#onobservelevelchanged), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

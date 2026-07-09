@@ -16,3 +16,6 @@ private enum InventoryItemController.SlotState
 | REDUCED | 1 | |
 | BROKEN | 2 | |
 
+
+
+

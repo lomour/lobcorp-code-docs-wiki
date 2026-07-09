@@ -112,3 +112,7 @@ public void SetVal(int hp, int mental, int workSpeed, int movement)
 
 
 
+
+
+
+

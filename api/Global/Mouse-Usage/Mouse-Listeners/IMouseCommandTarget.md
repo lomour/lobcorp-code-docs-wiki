@@ -12,16 +12,16 @@ public interface IMouseCommandTarget
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Interface with one method, which gets the [IMouseCommandTargetModel](/api/Global/Model/IMouseCommandTargetModel) user.
+Interface with one method, which gets the [IMouseCommandTargetModel](/api/Global/Mouse-Usage/Mouse-Listeners/IMouseCommandTargetModel) user.
 
 For getting certain things which can be targeted with the mouse:
-- [Agents](/api/Global/Worker/AgentUnit)
-- [Clerks](/api/Global/Worker/OfficerUnit)
-- [Abnormalities](/api/Global/Unit/CreatureUnit)
-- [Rabbit units](/api/Global/Unit/RabbitUnit)
-- [Passageways](/api/Global/Object/PassageObject)
+- [Agents](/api/Global/Agents-and-Clerks/Agents/AgentUnit)
+- [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerUnit)
+- [Abnormalities](/api/Global/Abnormalities/CreatureUnit)
+- [Rabbit units](/api/Global/Rabbits/Rabbit-Units/RabbitUnit)
+- [Passageways](/api/Global/Map/Rooms-and-Hallways/PassageObject)
 
-Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager) (for selection and ordering agents to move) and for [bullet research](/api/GlobalBullet/GlobalBulletWindow).
+Used by [UnitMouseEventManager](/api/Global/Mouse-Usage/Mouse-Events/UnitMouseEventManager) (for selection and ordering agents to move) and for [bullet research](/api/GlobalBullet/GlobalBulletWindow).
 
 
 #### Method
@@ -37,6 +37,9 @@ IMouseCommandTargetModel GetCommandTargetModel()
 
 #### Returns
 **Type:** Global.IMouseCommandTargetModel
+
+
+
 
 
 

@@ -14,7 +14,7 @@ public class CreatureDataLoader
 
 Loads abnormality information from various XML files.
 
-Requires that equipment is loaded first. (See [EquipmentDataLoader](/api/Global/Loader/EquipmentDataLoader))
+Requires that equipment is loaded first. (See [EquipmentDataLoader](/api/Global/EGO/EquipmentDataLoader))
 
 Loads stats, the animation handler, risk level, observation data, creature scripts, portraits, child creature data, sounds, and probably other things, too.
 
@@ -281,6 +281,11 @@ public SkillTrigger.ClearEvent SkillTriggerClearEvent(XmlNode node)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
 
 
 

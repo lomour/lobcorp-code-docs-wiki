@@ -53,3 +53,7 @@ public EquipmentSpriteRegion subRegion
 
 
 
+
+
+
+

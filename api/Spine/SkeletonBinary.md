@@ -417,3 +417,7 @@ private SkeletonBinary.Vertices ReadVertices(Stream input, int vertexCount)
 
 
 
+
+
+
+

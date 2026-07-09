@@ -24,7 +24,7 @@ Holds:
 - Flag for enabling backer abnormalities
 - Various global game state
 - Active tutorial status
-- [Game mode](/api/Global/Misc/GameMode)
+- [Game mode](/api/Global/Global-Data/GameMode)
 - The Unity Canvas
 - The current language font
 
@@ -33,13 +33,13 @@ Holds:
 Runs on game start.
 - Loads saved global data with LoadStateData
 - Sets the  volume
-- [Sets resolution](/api/Global/Model/GameSettingModel)
+- [Sets resolution](/api/Global/UI/Options/GameSettingModel)
 - Marks itself not to be deleted on loading scenes
 - Sets save file names
-- [Loads static data](/api/Global/Loader/GameStaticDataLoader)
-- Loads the [map](/api/Global/IOBserver/MapGraph)
+- [Loads static data](/api/Global/Static-Data/GameStaticDataLoader)
+- Loads the [map](/api/Global/Map/MapGraph)
 - Registers itself to be notified of auto-saves
-- Initializes the [AgentManager](/api/Global/IOBserver/AgentManager)
+- Initializes the [AgentManager](/api/Global/Agents-and-Clerks/Agents/AgentManager)
 - Sets font
 - Loads save data with LoadGlobalData
 
@@ -56,7 +56,7 @@ Saves global state data.
 
 #### LoadGlobalData
 Loads global save file data.
-Loads [observation data](/api/Global/IOBserver/CreatureManager), things stored in [GlobalEtcDataModel](/api/Global/Model/GlobalEtcDataModel), [researches obtained](/api/Global/Model/ResearchDataModel), [EGO owned](/api/Global/Model/InventoryModel), [missions completed](/api/Global/IOBserver/MissionManager), and [meltdowns completed](/api/Global/Misc/SefiraCharacterManager) #verify.
+Loads [observation data](/api/Global/Departments/SefiraCharacterManager) #verify.
 #### SaveGlobalData
 Saves global save file data.
 #### RemoveGlobalData
@@ -69,53 +69,53 @@ Writes the current log to file.
 
 #### InitStoryMode
 Starts a new story mode run.
-- Initializes [MoneyModel](/api/Global/Model/MoneyModel)
+- Initializes [MoneyModel](/api/Global/LOB/MoneyModel)
 - Clears:
-	- [Departments](/api/Global/IOBserver/SefiraManager)
-	- [Clerks?](/api/Global/Misc/OfficerManager)
-	- [Agents](/api/Global/IOBserver/AgentManager)
-	- [Abnormalities](/api/Global/IOBserver/CreatureManager)
-- Initializes the [PlayerModel](/api/Global/Model/PlayerModel)
-- Loads a day 1 agents from [StageRewardTypeList](/api/Global/List/StageRewardTypeList)
+	- [Departments](/api/Global/Departments/SefiraManager)
+	- [Clerks?](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+	- [Agents](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+	- [Abnormalities](/api/Global/Abnormalities/CreatureManager)
+- Initializes the [PlayerModel](/api/Global/Global-Data/PlayerModel)
+- Loads a day 1 agents from [StageRewardTypeList](/api/Global/UI/Results-and-History/StageRewardTypeList)
 - Adds starting LOB
 
 #### InitTutorial(int step)
 Starts the tutorial.
 Clears:
-- [Observation data](/api/Global/IOBserver/CreatureManager)
-- [Global data](/api/Global/Model/GlobalEtcDataModel)
-- [Departments](/api/Global/IOBserver/SefiraManager)
-- [Clerks](/api/Global/Misc/OfficerManager)
-- [Agents](/api/Global/IOBserver/AgentManager)
-- [Abnormalities](/api/Global/IOBserver/CreatureManager)
+- [Observation data](/api/Global/Abnormalities/CreatureManager)
+- [Global data](/api/Global/Save-Data/GlobalEtcDataModel)
+- [Departments](/api/Global/Departments/SefiraManager)
+- [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+- [Agents](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+- [Abnormalities](/api/Global/Abnormalities/CreatureManager)
 Initializes:
-- [Research progress](/api/Global/Model/ResearchDataModel)
-- [EGO owned](/api/Global/Model/InventoryModel)
-- [Missions](/api/Global/IOBserver/MissionManager)
-- [SefiraCharacterManager](/api/Global/Misc/SefiraCharacterManager) 
-- [LOB points](/api/Global/Model/MoneyModel)
-- [Player](/api/Global/Model/PlayerModel)
-Then sets the day to 0, [game mode](/api/Global/Misc/GameMode) to TUTORIAL, and starts playing.
+- [Research progress](/api/Global/Research/ResearchDataModel)
+- [EGO owned](/api/Global/EGO/InventoryModel)
+- [Missions](/api/Global/Missions/MissionManager)
+- [SefiraCharacterManager](/api/Global/Departments/SefiraCharacterManager) 
+- [LOB points](/api/Global/LOB/MoneyModel)
+- [Player](/api/Global/Global-Data/PlayerModel)
+Then sets the day to 0, [game mode](/api/Global/Global-Data/GameMode) to TUTORIAL, and starts playing.
 
 #### InitHidden
-Starts the game in the [game mode](/api/Global/Misc/GameMode) HIDDEN. 
+Starts the game in the [game mode](/api/Global/Global-Data/GameMode) HIDDEN. 
 
 
 #### ReleaseGame
 Exits from gameplay.
 - Calls:
-	- [InventoryModel](/api/Global/Model/InventoryModel) (OnReleaseGame)
-	- [MissionManager](/api/Global/IOBserver/MissionManager) (ReleaseGame)
-- Initializes [LOB points](/api/Global/Model/MoneyModel)
-- Clears unit data in [SefiraManager](/api/Global/IOBserver/SefiraManager) 
-- Clears [clerks](/api/Global/Misc/OfficerManager)
-- Clears [agents](/api/Global/IOBserver/AgentManager)
-- Clears [abnormalities](/api/Global/IOBserver/CreatureManager)
-- Initializes [PlayerModel](/api/Global/Model/PlayerModel)
-- Clears [departments](/api/Global/IOBserver/SefiraManager)
-- Reset [map](/api/Global/IOBserver/MapGraph)
-- Calls [AgentNameList](/api/Global/List/AgentNameList) (OnInit)
-- Creates a new [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) and loads containment unit info 
+	- [InventoryModel](/api/Global/EGO/InventoryModel) (OnReleaseGame)
+	- [MissionManager](/api/Global/Missions/MissionManager) (ReleaseGame)
+- Initializes [LOB points](/api/Global/LOB/MoneyModel)
+- Clears unit data in [SefiraManager](/api/Global/Departments/SefiraManager) 
+- Clears [clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+- Clears [agents](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+- Clears [abnormalities](/api/Global/Abnormalities/CreatureManager)
+- Initializes [PlayerModel](/api/Global/Global-Data/PlayerModel)
+- Clears [departments](/api/Global/Departments/SefiraManager)
+- Reset [map](/api/Global/Map/MapGraph)
+- Calls [AgentNameList](/api/Global/Agents-and-Clerks/Agents/Names/AgentNameList) (OnInit)
+- Creates a new [GameStaticDataLoader](/api/Global/Static-Data/GameStaticDataLoader) and loads containment unit info 
 - Sets some flags
 
 
@@ -142,7 +142,7 @@ Saves logs and global state data.
 [object](https://learn.microsoft.com/dotnet/api/system.object) → [Object](#) → [Component](#) → [Behaviour](#) → [MonoBehaviour](#) → GlobalGameManager
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### GlobalGameManager()
@@ -998,6 +998,10 @@ private void Update()
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

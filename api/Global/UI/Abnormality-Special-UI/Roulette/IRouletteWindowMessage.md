@@ -12,7 +12,7 @@ public interface IRouletteWindowMessage
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Interface for things which call the [roulette UI](/api/Global/IANimatorEventCalled/RouletteWindow).
+Interface for things which call the [roulette UI](/api/Global/UI/Abnormality-Special-UI/Roulette/RouletteWindow).
 
 
 ## Methods
@@ -26,6 +26,8 @@ void RouletteCancel()
 ```csharp
 void RouletteOpen()
 ```
+
+
 
 
 

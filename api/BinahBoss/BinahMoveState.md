@@ -16,3 +16,9 @@ public enum BinahMoveState
 | MOVING | 1 | |
 | ATTACKING | 2 | |
 
+
+
+
+
+
+

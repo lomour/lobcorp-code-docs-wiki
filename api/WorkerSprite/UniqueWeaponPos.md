@@ -18,3 +18,7 @@ public enum UniqueWeaponPos
 | RIGHTHAND | 3 | |
 | FIST | 4 | |
 
+
+
+
+

@@ -55,7 +55,7 @@ Gets the probability of `type` work at the level `level`.
 ```csharp
 public void SetWorkProb(RwbpType type, int level, float prob)
 ```
-Sets the probability of `type` work at the level `level` to `prob`. Used by [CreatureDataLoader](/api/Global/Loader/CreatureDataLoader).
+Sets the probability of `type` work at the level `level` to `prob`. Used by [CreatureDataLoader](/api/Global/Abnormalities/CreatureDataLoader).
 
 
 #### Parameters
@@ -67,6 +67,11 @@ Sets the probability of `type` work at the level `level` to `prob`. Used by [Cre
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
 
 
 

@@ -19,3 +19,5 @@ public enum ActivatableObjectPos
 | ISOLATE | 4 | |
 
 
+
+

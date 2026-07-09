@@ -15,12 +15,12 @@ public interface IMouseOnSelectListener
 Interface for listeners of being selected by the mouse (presumably, by clicking).
 
 Implemented by:
-- [Agents](/api/Global/Worker/AgentUnit)
-- [Abnormalities](/api/Global/Unit/CreatureUnit)
-- [Clerks](/api/Global/Worker/OfficerUnit)
-- [Rabbit units](/api/Global/Unit/RabbitUnit)
+- [Agents](/api/Global/Agents-and-Clerks/Agents/AgentUnit)
+- [Abnormalities](/api/Global/Abnormalities/CreatureUnit)
+- [Clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerUnit)
+- [Rabbit units](/api/Global/Rabbits/Rabbit-Units/RabbitUnit)
 
-Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
+Used by [UnitMouseEventManager](/api/Global/Mouse-Usage/Mouse-Events/UnitMouseEventManager).
 
 
 #### Methods
@@ -49,6 +49,9 @@ void OnSelect()
 ```csharp
 void OnUnselect()
 ```
+
+
+
 
 
 

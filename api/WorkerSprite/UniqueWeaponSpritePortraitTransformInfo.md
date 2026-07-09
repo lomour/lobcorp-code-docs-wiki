@@ -77,3 +77,7 @@ public UniqueWeaponSpritePortraitTransformInfo GetCopy()
 
 
 
+
+
+
+

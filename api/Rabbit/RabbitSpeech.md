@@ -12,7 +12,7 @@ public class RabbitSpeech
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-For [rabbit](/api/Global/Model/RabbitModel) speech during the Rabbit Protocol.
+For [rabbit](/api/Global/Rabbits/Rabbit-Units/RabbitModel) speech during the Rabbit Protocol.
 
 See also [RabbitConversationType](/api/Rabbit/RabbitConversationType).
 
@@ -132,6 +132,11 @@ public void Speech(string text, float speechTime = 3)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
 
 
 

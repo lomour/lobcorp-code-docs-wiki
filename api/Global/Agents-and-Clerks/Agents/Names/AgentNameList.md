@@ -13,7 +13,7 @@ public class AgentNameList : ISerializablePlayData
 {.is-warning}
 
 
-Loads and holds the lists of (default) [names](/api/Global/Misc/AgentName) for [agents](/api/Global/Worker/AgentModel). May do more...
+Loads and holds the lists of (default) [names](/api/Global/Agents-and-Clerks/Agents/AgentModel). May do more...
 
 Seems that names are 'used up' when given to an agent, and are then removed from the pool?
 
@@ -23,7 +23,7 @@ Seems that names are 'used up' when given to an agent, and are then removed from
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentNameList
 
 ## Implements
-[ISerializablePlayData](/api/Global/Misc/ISerializablePlayData)
+[ISerializablePlayData](/api/Global/Save-Data/ISerializablePlayData)
 
 ## Constructors
 ### AgentNameList()
@@ -590,6 +590,8 @@ public void SetFakeAsRealUsed(AgentName name)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

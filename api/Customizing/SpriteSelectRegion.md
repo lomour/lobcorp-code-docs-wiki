@@ -23,3 +23,9 @@ public enum SpriteSelectRegion
 | MOUTH_DEF | 8 | |
 | MOUTH_BATTLE | 9 | |
 
+
+
+
+
+
+

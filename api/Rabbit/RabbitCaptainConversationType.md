@@ -18,3 +18,7 @@ public enum RabbitCaptainConversationType
 | ALLDEAD | 3 | |
 | CLEARED | 4 | |
 
+
+
+
+

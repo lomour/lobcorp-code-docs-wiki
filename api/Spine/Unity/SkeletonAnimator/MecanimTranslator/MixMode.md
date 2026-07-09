@@ -16,3 +16,4 @@ public enum SkeletonAnimator.MecanimTranslator.MixMode
 | MixNext | 1 | |
 | SpineStyle | 2 | |
 
+

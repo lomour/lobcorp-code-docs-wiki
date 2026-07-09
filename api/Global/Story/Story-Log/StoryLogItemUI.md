@@ -101,3 +101,6 @@ public void Init(StoryUI.CharacterVar charVar, string text)
 
 
 
+
+
+

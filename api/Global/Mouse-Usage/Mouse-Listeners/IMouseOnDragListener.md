@@ -14,9 +14,9 @@ public interface IMouseOnDragListener
 
 Interface for listeners to drag area selections.
 
-Only implemented by [AgentUnit](/api/Global/Worker/AgentUnit).
+Only implemented by [AgentUnit](/api/Global/Agents-and-Clerks/Agents/AgentUnit).
 
-Used by [UnitMouseEventManager](/api/Global/Unit/UnitMouseEventManager).
+Used by [UnitMouseEventManager](/api/Global/Mouse-Usage/Mouse-Events/UnitMouseEventManager).
 
 
 #### Methods
@@ -45,6 +45,9 @@ void OnEnterDragArea()
 ```csharp
 void OnExitDragArea()
 ```
+
+
+
 
 
 

@@ -13,22 +13,22 @@ public class DefaultAttack : GeburahAction
 {.is-warning}
 
 
-Action for [The Red Mist](/api/Global/Script/GeburahCoreScript)'s normal attacks.
+Action for [The Red Mist](/api/Global/Core-Suppressions/Gebura-Suppression/GeburahCoreScript)'s normal attacks.
 
 Phase 1:
-- [Red Eyes](/api/Global/Weapon/SpiderMomWeapon)
-- [Penitence](/api/Global/Weapon/OneBadManyGoodWeapon)
+- [Red Eyes](/api/Global/Abnormalities/Spider-Bud/SpiderMomWeapon)
+- [Penitence](/api/Global/Abnormalities/One-Sin-and-Thousands-of-Good-Deeds/OneBadManyGoodWeapon)
 - Both
 
 Phase 2:
-- [Mimicry](/api/Global/Weapon/NothingWeapon)
-- [Da Capo](/api/Global/Misc/SilentOrchestra)
+- [Mimicry](/api/Global/Abnormalities/Nothing-There/NothingWeapon)
+- [Da Capo](/api/Global/Abnormalities/The-Silent-Orchestra/SilentOrchestra)
 
 Phase 3:
-- [Justitia](/api/Global/Weapon/LongBirdWeapon)
+- [Justitia](/api/Global/Abnormalities/Judgement-Bird/LongBirdWeapon)
 
 Phase 4:
-- [Twilight](/api/Global/Weapon/BossBirdWeapon) 
+- [Twilight](/api/Global/Abnormalities/Apocalypse-Bird/BossBirdWeapon) 
 
 
 ## Inheritance
@@ -231,6 +231,13 @@ public void SetAttackTypeMax(int max)
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahAction#geburah), [_interrupt](/api/GeburahBoss/GeburahAction#interrupt), [actionState](/api/GeburahBoss/GeburahAction#actionstate), [SetInterruptAction(GeburahAction)](/api/GeburahBoss/GeburahAction#setinterruptaction-geburahaction), [EndAction()](/api/GeburahBoss/GeburahAction#endaction), [Interrupt()](/api/GeburahBoss/GeburahAction#interrupt), [CanTakeDamage()](/api/GeburahBoss/GeburahAction#cantakedamage), [Movable](/api/GeburahBoss/GeburahAction#movable), [Model](/api/GeburahBoss/GeburahAction#model), [Animator](/api/GeburahBoss/GeburahAction#animator), [AnimScript](/api/GeburahBoss/GeburahAction#animscript), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
+
+
 
 
 

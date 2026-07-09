@@ -16,3 +16,7 @@ public enum EquipmentSpriteRegion
 | WEAPON | 1 | |
 | ATTACHMENTS | 2 | |
 
+
+
+
+

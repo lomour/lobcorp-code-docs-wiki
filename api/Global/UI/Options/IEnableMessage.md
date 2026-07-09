@@ -14,7 +14,7 @@ public interface IEnableMessage
 
 Interface with one method.
 
-Only used by [AudioSlider](/api/Global/Misc/AudioSlider).
+Only used by [AudioSlider](/api/Global/UI/Options/AudioSlider).
 
 #### Method
 Enable
@@ -25,6 +25,8 @@ Enable
 ```csharp
 void Enable()
 ```
+
+
 
 
 

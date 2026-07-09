@@ -23,3 +23,8 @@ public enum AnchorPivotPos
 | DOWN_RIGHT | 8 | |
 | CENTER | 9 | |
 
+
+
+
+
+

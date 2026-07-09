@@ -22,3 +22,8 @@ public enum KetherLastEffectType
 | FADEOUT | 7 | |
 | DUMMY | 8 | |
 
+
+
+
+
+

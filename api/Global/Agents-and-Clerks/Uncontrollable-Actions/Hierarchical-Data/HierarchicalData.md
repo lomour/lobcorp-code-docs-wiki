@@ -12,7 +12,7 @@ public class HierarchicalData
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Theoretically, a class for having a list of 'priority' things; the only use case would be for prioritizing certain [uncontrollable actions](/api/Global/Action/UncontrollableAction). This property does not appear to be used, but uncontrollable actions still derive from this class...
+Theoretically, a class for having a list of 'priority' things; the only use case would be for prioritizing certain [uncontrollable actions](/api/Global/Agents-and-Clerks/Uncontrollable-Actions/UncontrollableAction). This property does not appear to be used, but uncontrollable actions still derive from this class...
 
 
 
@@ -21,7 +21,7 @@ Theoretically, a class for having a list of 'priority' things; the only use case
 [object](https://learn.microsoft.com/dotnet/api/system.object) → HierarchicalData
 
 ## Derived
-[UncontrollableAction](/api/Global/Action/UncontrollableAction)
+[UncontrollableAction](/api/Global/Agents-and-Clerks/Uncontrollable-Actions/UncontrollableAction)
 
 ## Constructors
 ### HierarchicalData()
@@ -120,6 +120,8 @@ public virtual void SetHierarchicalIndex(int value)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

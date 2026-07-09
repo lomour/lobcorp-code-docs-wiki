@@ -40,3 +40,7 @@ public enum ConditionType
 | DESTROY_CORE | 25 | |
 
 
+
+
+
+

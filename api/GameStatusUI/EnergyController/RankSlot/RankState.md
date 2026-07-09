@@ -16,3 +16,6 @@ public enum EnergyController.RankSlot.RankState
 | CURRENT | 1 | |
 | NORMAL | 2 | |
 
+
+
+

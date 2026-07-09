@@ -34,7 +34,7 @@ Gets a list of living officers in the same room as *node*.
 #### void Clear()
 Clears clerks with ClearOfficer and Init.
 #### void ClearOfficer()
-Notifies each clerk and disables their [MovableObjectNode](/api/Global/Misc/MovableObjectNode), then refreshes the list and calls [SefiraManager](/api/Global/IOBserver/SefiraManager) to clear its clerks.
+Notifies each clerk and disables their [MovableObjectNode](/api/Global/Departments/SefiraManager) to clear its clerks.
 #### void Init()
 Resets the list of clerks.
 
@@ -234,6 +234,9 @@ public void OnStageRelease()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

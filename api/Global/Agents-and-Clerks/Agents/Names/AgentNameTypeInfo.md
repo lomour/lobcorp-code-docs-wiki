@@ -12,7 +12,7 @@ public class AgentNameTypeInfo
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Stores an ID, whether an [agent name](/api/Global/Misc/AgentName) is custom, and provides a way to obtain the name...?
+Stores an ID, whether an [agent name](/api/Global/Agents-and-Clerks/Agents/Names/AgentName) is custom, and provides a way to obtain the name...?
 
 Oddly, it seems the difference between backer names and other names is based on the value of the ID -- SetAsCreditName *just* adds 10000 to the id...
 
@@ -107,6 +107,8 @@ public void SetAsCustomName()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

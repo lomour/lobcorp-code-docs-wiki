@@ -18,3 +18,8 @@ public enum CreatureFeelingState
 | BAD | 3 | |
 
 
+
+
+
+
+

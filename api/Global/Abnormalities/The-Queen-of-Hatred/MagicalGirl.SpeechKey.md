@@ -36,3 +36,6 @@ public enum MagicalGirl.SpeechKey
 | HERO_SKILL_2_5 | 21 | |
 
 
+
+
+

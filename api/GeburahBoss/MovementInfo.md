@@ -12,7 +12,7 @@ public class MovementInfo
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Info for a leg of [The Red Mist](/api/Global/Misc/GeburahBossBase)'s [Gold Rush](/api/GeburahBoss/GreedyTelepeort) and [Phase 4 Gold Rush](/api/GeburahBoss/GreedyThrow) attacks.
+Info for a leg of [The Red Mist](/api/Global/Core-Suppressions/Gebura-Suppression/GeburahBossBase)'s [Gold Rush](/api/GeburahBoss/GreedyTelepeort) and [Phase 4 Gold Rush](/api/GeburahBoss/GreedyThrow) attacks.
 
 Contains start and end locations, the current passage #inc, animators for starting and ending, and whether this is the first or last leg #inc.
 
@@ -107,6 +107,13 @@ public MapNode start
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
+
+
 
 
 

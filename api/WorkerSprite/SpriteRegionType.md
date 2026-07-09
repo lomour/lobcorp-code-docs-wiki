@@ -15,3 +15,7 @@ public enum SpriteRegionType
 | BASIC | 0 | |
 | EQUIPMENT | 1 | |
 
+
+
+
+

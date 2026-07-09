@@ -123,3 +123,5 @@ public void Init(ReadOnlyCollection<ShieldTypeInfo> list)
 
 
 
+
+

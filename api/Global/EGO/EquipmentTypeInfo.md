@@ -12,7 +12,7 @@ public class EquipmentTypeInfo
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Holds information about whether an [EGO](/api/Global/Model/EquipmentModel) is a weapon, suit, or something special, as well as a mix of information for all types of EGO.
+Holds information about whether an [EGO](/api/Global/EGO/EquipmentModel) is a weapon, suit, or something special, as well as a mix of information for all types of EGO.
 
 Holds defense information, weapon class type, weapon damage information, gift stat bonuses, name, description, special effect description, grade, and max amount craftable.
 
@@ -359,6 +359,10 @@ public static EquipmentTypeInfo MakeWeaponInfoByDamageInfo(DamageInfo dmg)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

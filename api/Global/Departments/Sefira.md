@@ -14,7 +14,7 @@ public class Sefira
 
 Represents a department.
 
-Holds all of its [rooms](/api/Global/Model/PassageObjectModel), its [clerks](/api/Global/Worker/OfficerModel), its [agents](/api/Global/Worker/AgentModel), and its [abnormalities](/api/Global/Model/CreatureModel).
+Holds all of its [rooms](/api/Global/Abnormalities/CreatureModel).
 
 During management, it also keeps track of the escaped abnormalities in the department, the actions for clerks to take, the IDs of working and non-working agents ^\[verify\]^, as well as various information about the state of the department.
 
@@ -42,7 +42,7 @@ Updates the clerk benefit level, checks if all agents are dead, checks if recove
 
 Slows the recovery rate if there is an abnormality in a main room, or halts if Netzach's 'Regenerator Distinguisher Modification' research has not been acquired.
 
-Does not heal employees affected by [Queen Bee's debuff](/api/Global/UnitBuf/QueenBeeBuf) or during [Netzach's core suppression](/api/Global/Script/NetzachCoreScript).
+Does not heal employees affected by [Queen Bee's debuff](/api/Global/Core-Suppressions/Netzach-Suppression/NetzachCoreScript).
 #### public bool IsSefiraClosed()
 Returns if this department is 'closed', i.e. disabled and all of its agents are dead.
 #### public int GetCurrentAbilityLevel()
@@ -71,7 +71,7 @@ Calls OnStageStart for every room.
 #### private void InitDepartList()
 Adds all of the opened big rooms to the department.
 #### private void InitRecovoerPassages()
-Adds all big rooms to the list of rooms to recover health in. Then, if [Netzach's core suppression](/api/Global/Misc/NetzachBossBase) is completed, adds all hallways and elevators to the list of additional health recovery rooms (these recover at a lower rate). ^\[verify\]^
+Adds all big rooms to the list of rooms to recover health in. Then, if [Netzach's core suppression](/api/Global/Core-Suppressions/Netzach-Suppression/NetzachBossBase) is completed, adds all hallways and elevators to the list of additional health recovery rooms (these recover at a lower rate). ^\[verify\]^
 ### Agents
 #### public void AddAgent(AgentModel add)
 Adds the agent to this department, if that agent isn't already added.
@@ -85,7 +85,7 @@ When the recall button is clicked, notifies listeners of OnClickRecallButton and
 Does not call agents:
 - who are dead or panicking
 - who are actively working
-- who are assigned to work, if [Malkuth's core suppression](/api/Global/Misc/MalkutBossBase) is active (including day 47)
+- who are assigned to work, if [Malkuth's core suppression](/api/Global/Core-Suppressions/Malkuth-Suppression/MalkutBossBase) is active (including day 47)
 
 For Central 1, also tells Central 2 to do this.
 #### private void UpdateAgentDeadState()
@@ -107,7 +107,7 @@ When an agent is no longer uncontrollable, checks and reactivates this departmen
 #### public void OnAgentCannotControll(AgentModel deadAgent)
 When an agent panics or otherwise becomes uncontrollable, disables this department.
 
-If this is the last department to fall, force-enable play-speed settings and tells [Angela to yap](/api/Global/Misc/AngelaConversation). Also, sets a flag that all agents are dead and disables emergency score ticking down.
+If this is the last department to fall, force-enable play-speed settings and tells [Angela to yap](/api/Global/Conversation/Angela/AngelaConversation). Also, sets a flag that all agents are dead and disables emergency score ticking down.
 #### public bool CheckAgentControll()
 Returns true if there is a controllable agent in this department and false otherwise.
 #### public int GetAliveAgentCnt()
@@ -135,7 +135,7 @@ $\leq$ 40% : 1
 $\leq$ 80% : 2
 $>$ 80% : 3
 
-Also, tells the [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager) to update the bullet count for Chesed's clerk benefit and [CreatureInfoWindow](/api/Global/Misc/CreatureInfoWindow) to check if Binah's clerk benefit (EGO discount) has changed.
+Also, tells the [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager) to update the bullet count for Chesed's clerk benefit and [CreatureInfoWindow](/api/Global/UI/Abnormality-Info-Window/CreatureInfoWindow) to check if Binah's clerk benefit (EGO discount) has changed.
 #### public int GetOfficerAliveLevel()
 Returns the clerk benefits level of this department.
 #### public bool CheckOfficerControll()
@@ -1237,6 +1237,10 @@ private void UpdateSefiraAce()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

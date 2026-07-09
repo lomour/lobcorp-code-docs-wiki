@@ -20,3 +20,6 @@ public enum PolygonUtil.PolyOperation : uint
 | Intersect | 2 | |
 | Subtract | 4 | |
 
+
+
+

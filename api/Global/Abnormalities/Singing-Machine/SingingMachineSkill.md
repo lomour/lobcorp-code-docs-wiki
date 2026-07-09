@@ -13,16 +13,16 @@ public class SingingMachineSkill : CreatureSpecialSkill, IObserver
 {.is-warning}
 
 
-Old version of [Singing Machine](/api/Global/Machine/SingingMachine)'s uncontrollable action. ^\[verify\]^
+Old version of [Singing Machine](/api/Global/Abnormalities/Singing-Machine/SingingMachine)'s uncontrollable action. ^\[verify\]^
 
 See .
 
 
 ## Inheritance
-[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureSpecialSkill](/api/Global/IOBserver/CreatureSpecialSkill) → SingingMachineSkill
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [CreatureSpecialSkill](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill) → SingingMachineSkill
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### SingingMachineSkill(CreatureModel)
@@ -491,7 +491,10 @@ public void StopNote()
 
 
 ## Inherited Members
-[model](/api/Global/IOBserver/CreatureSpecialSkill#model), [sefira](/api/Global/IOBserver/CreatureSpecialSkill#sefira), [Activated](/api/Global/IOBserver/CreatureSpecialSkill#activated), [SkillActivate()](/api/Global/IOBserver/CreatureSpecialSkill#skillactivate), [Activate()](/api/Global/IOBserver/CreatureSpecialSkill#activate), [OnNotice(string, params object[])](/api/Global/IOBserver/CreatureSpecialSkill#onnotice-string-params-object), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+[model](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#model), [sefira](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#sefira), [Activated](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#activated), [SkillActivate()](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#skillactivate), [Activate()](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#activate), [OnNotice(string, params object[])](/api/Global/Abnormalities/CreatureSpecialSkill/CreatureSpecialSkill#onnotice-string-params-object), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

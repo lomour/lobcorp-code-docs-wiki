@@ -18,3 +18,7 @@ public enum StoryDialogueBoxType
 | HIDE | 3 | |
 
 
+
+
+
+

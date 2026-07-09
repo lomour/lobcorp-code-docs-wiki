@@ -13,7 +13,7 @@ public class AgentSlotUI : IObserver
 {.is-warning}
 
 
-UI element for displaying an agent on the [deployment](/api/Global/UI/DeployUI) screen.
+UI element for displaying an agent on the [deployment](/api/Global/UI/Deployment-Screen/DeployUI) screen.
 
 
 
@@ -21,7 +21,7 @@ UI element for displaying an agent on the [deployment](/api/Global/UI/DeployUI) 
 [object](https://learn.microsoft.com/dotnet/api/system.object) → AgentSlotUI
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### AgentSlotUI()
@@ -283,6 +283,8 @@ public void UpdateData(AgentModel agent)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

@@ -18,10 +18,10 @@ Calls a target method after a certain amount of time.
 
 
 ## Inheritance
-[object](https://learn.microsoft.com/dotnet/api/system.object) → [Timer](/api/Global/Misc/Timer) → AutoTimer
+[object](https://learn.microsoft.com/dotnet/api/system.object) → [Timer](/api/Global/Utils/Timers/Timer) → AutoTimer
 
 ## Implements
-[IObserver](/api/Global/Misc/IObserver)
+[IObserver](/api/Global/Notices/IObserver)
 
 ## Constructors
 ### AutoTimer()
@@ -168,7 +168,9 @@ public void Update()
 
 
 ## Inherited Members
-[elapsed](/api/Global/Misc/Timer#elapsed), [maxTime](/api/Global/Misc/Timer#maxtime), [started](/api/Global/Misc/Timer#started), [autoStop](/api/Global/Misc/Timer#autostop), [endCmd](/api/Global/Misc/Timer#endcmd), [StartTimer(float)](/api/Global/Misc/Timer#starttimer-float), [SetEndCmd(OnTimerRunningEnd)](/api/Global/Misc/Timer#setendcmd-ontimerrunningend), [RunTimer()](/api/Global/Misc/Timer#runtimer), [StartTimer()](/api/Global/Misc/Timer#starttimer), [StopTimer()](/api/Global/Misc/Timer#stoptimer), [ToString()](/api/Global/Misc/Timer#tostring), [GetRate()](/api/Global/Misc/Timer#getrate), [Rate](/api/Global/Misc/Timer#rate), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+[elapsed](/api/Global/Utils/Timers/Timer#elapsed), [maxTime](/api/Global/Utils/Timers/Timer#maxtime), [started](/api/Global/Utils/Timers/Timer#started), [autoStop](/api/Global/Utils/Timers/Timer#autostop), [endCmd](/api/Global/Utils/Timers/Timer#endcmd), [StartTimer(float)](/api/Global/Utils/Timers/Timer#starttimer-float), [SetEndCmd(OnTimerRunningEnd)](/api/Global/Utils/Timers/Timer#setendcmd-ontimerrunningend), [RunTimer()](/api/Global/Utils/Timers/Timer#runtimer), [StartTimer()](/api/Global/Utils/Timers/Timer#starttimer), [StopTimer()](/api/Global/Utils/Timers/Timer#stoptimer), [ToString()](/api/Global/Utils/Timers/Timer#tostring), [GetRate()](/api/Global/Utils/Timers/Timer#getrate), [Rate](/api/Global/Utils/Timers/Timer#rate), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

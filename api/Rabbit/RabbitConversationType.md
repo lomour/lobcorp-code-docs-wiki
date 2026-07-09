@@ -23,3 +23,7 @@ public enum RabbitConversationType
 | ENCOUNTER_OFFICER | 8 | |
 | NONE | 9 | |
 
+
+
+
+

@@ -23,3 +23,7 @@ public enum CreatureOutsideTextLayout
 | RIGHT_BOTTOM | 8 | |
 
 
+
+
+
+

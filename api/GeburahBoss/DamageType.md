@@ -16,3 +16,8 @@ public enum DamageType
 | RANGED | 1 | |
 | PROJECTILE | 2 | |
 
+
+
+
+
+

@@ -24,7 +24,7 @@ Replaces 'filename' in the path with 'SD/filename' to get a lower quality versio
 #### public static Sprite LoadSprite(string src)
 Returns the sprite (or a lower quality version of the sprite if the quality settings are low). Uses the Unity Resources class.
 #### public static GameObject LoadPrefab(string src)
-Returns the prefab (or a lower quality version of the prefab if the quality settings are low). Uses [Prefab](/api/Global/Misc/Prefab).
+Returns the prefab (or a lower quality version of the prefab if the quality settings are low). Uses [Prefab](/api/Global/Utils/Prefab).
 
 
 ## Inheritance
@@ -81,6 +81,10 @@ public static Sprite LoadSprite(string src)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

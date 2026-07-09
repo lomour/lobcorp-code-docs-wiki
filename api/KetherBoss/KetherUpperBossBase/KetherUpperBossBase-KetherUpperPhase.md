@@ -16,3 +16,6 @@ public enum KetherUpperBossBase.KetherUpperPhase
 | SECOND | 1 | |
 | THIRD | 2 | |
 
+
+
+

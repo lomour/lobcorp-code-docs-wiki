@@ -16,3 +16,7 @@ public enum SlotState
 | NOTOPENED | 1 | |
 | NOTAVAILABLE | 2 | |
 
+
+
+
+

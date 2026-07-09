@@ -12,7 +12,7 @@ public class AgentHistory
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Stores a list of statistics about an [agent](/api/Global/Worker/AgentModel) -- damage taken, works succeeded, deaths and panics witnessed. This is odd, because I'm pretty sure the only one of these that would ever get used are the damages...
+Stores a list of statistics about an [agent](/api/Global/Agents-and-Clerks/Agents/AgentModel) -- damage taken, works succeeded, deaths and panics witnessed. This is odd, because I'm pretty sure the only one of these that would ever get used are the damages...
 
 There seems to be an unused 'promotionVal' thing which may have served as EXP?
 
@@ -246,6 +246,9 @@ public void WorkerAttack(int damage)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
 
 
 

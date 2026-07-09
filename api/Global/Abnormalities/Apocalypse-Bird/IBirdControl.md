@@ -12,7 +12,7 @@ public interface IBirdControl
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Interface for birds which are called by [Apocalypse Bird](/api/Global/Misc/BossBird)'s [event](/api/Global/Event/BossBirdEvent).
+Interface for birds which are called by [Apocalypse Bird](/api/Global/Abnormalities/Apocalypse-Bird/BossBirdEvent).
 
 #### Methods
 	MakeMoveToGate(MapNode dest)
@@ -56,6 +56,10 @@ void OnBossSuppressed()
 ```csharp
 void OnGateSuppressed()
 ```
+
+
+
+
 
 
 

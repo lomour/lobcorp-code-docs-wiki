@@ -12,11 +12,11 @@ public class AgentTitleTypeInfo
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Stores information about an [agent](/api/Global/Worker/AgentModel)'s title.
+Stores information about an [agent](/api/Global/Agents-and-Clerks/Agents/AgentModel)'s title.
 
 Looks like it has the id of the title, the level of the agent which should have it, the best stat it gives (or all), the name of the title itself, and all of its modifiers.
 
-See also [AgentTitleTypeList](/api/Global/List/AgentTitleTypeList).
+See also [AgentTitleTypeList](/api/Global/Agents-and-Clerks/Agents/Titles/AgentTitleTypeList).
 
 
 ## Inheritance
@@ -139,6 +139,8 @@ public int workProb
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
 
 
 

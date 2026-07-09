@@ -13,7 +13,7 @@ public class ThirdPhase : GeburahPhaseExectuion
 {.is-warning}
 
 
-[An Arbiter](/api/Global/Script/BinahCoreScript)'s third phase behavior.
+[An Arbiter](/api/Global/Core-Suppressions/Binah-Suppression/BinahCoreScript)'s third phase behavior.
 
 Binah gets a [Golden](/api/BinahBoss/GoldenOverload), [Black Fog](/api/BinahBoss/BlackFogOverload), [Wave](/api/BinahBoss/WaveOverload), and [|Column](/api/BinahBoss/EightColumn) overloads, then opens with the [Black Fog](/api/BinahBoss/BlackThron) attack, Column attack, and then begins moving. If she gets her overloads back, she will open with the Black Fog attack, then decide randomly to start the column attack (if she isn't doing it already), or otherwise queue an overload.
 
@@ -131,6 +131,13 @@ public override void Update()
 
 ## Inherited Members
 [geburah](/api/GeburahBoss/GeburahPhaseExectuion#geburah), [isPrevAttack](/api/GeburahBoss/GeburahPhaseExectuion#isprevattack), [GetRandomNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandomnode), [GetRandomMoveNode()](/api/GeburahBoss/GeburahPhaseExectuion#getrandommovenode), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
+
+
+
 
 
 

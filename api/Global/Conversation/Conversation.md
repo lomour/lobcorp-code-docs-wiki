@@ -14,7 +14,7 @@ public class Conversation
 
 Holds sephirah yapping messages, for displaying in-game (e.g. upon agent death, abnormality escape...).
 
-Loaded by [GameStaticDataLoader](/api/Global/Loader/GameStaticDataLoader) from ExternalData/xml/Language/en/SefiraDesc_en.xml, or the appropriate language xml.
+Loaded by [GameStaticDataLoader](/api/Global/Static-Data/GameStaticDataLoader) from ExternalData/xml/Language/en/SefiraDesc_en.xml, or the appropriate language xml.
 
 
 ## Inheritance
@@ -119,6 +119,10 @@ public void Init(Dictionary<int, List<SefiraMessage>> dic)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

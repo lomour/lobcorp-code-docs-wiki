@@ -12,7 +12,7 @@ public class Vector2Serializer
 > This section may have incomplete or incorrect information.
 {.is-warning}
 
-Tool for loading and saving 2D vectors to disk. Only used by [CreatureModel](/api/Global/Model/CreatureModel) for their "basePosition?" 
+Tool for loading and saving 2D vectors to disk. Only used by [CreatureModel](/api/Global/Abnormalities/CreatureModel) for their "basePosition?" 
 
 
 
@@ -79,6 +79,10 @@ public void Fill(Vector2 v2)
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

@@ -64,3 +64,8 @@ Gets the greatest higher bound of all ranges present, or 0 if none are present. 
 
 
 
+
+
+
+
+

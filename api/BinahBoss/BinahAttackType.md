@@ -17,3 +17,9 @@ public enum BinahAttackType
 | THIRD_COLUMN | 2 | |
 | FOURTH_EIGHTCOLUMN | 3 | |
 
+
+
+
+
+
+

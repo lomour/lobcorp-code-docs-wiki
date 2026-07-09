@@ -22,3 +22,8 @@ public enum GlobalBulletType
 | SLOW | 7 | |
 | EXCUTE | 8 | |
 
+
+
+
+
+

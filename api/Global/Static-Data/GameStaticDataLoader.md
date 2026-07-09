@@ -14,27 +14,27 @@ public class GameStaticDataLoader
 
 Loads a bunch of external static data, such as:
 
-- [Font](/api/Global/Loader/ExternalFontDataLoader)
-- [Localized text](/api/Global/Loader/LocalizeTextDataLoader)
-- [Story data](/api/Global/Loader/StoryDataLoader)
-- [Equipment data](/api/Global/Loader/EquipmentDataLoader)
-- [Agent titles](/api/Global/Loader/AgentTitleDataLoader)
-- [Missions](/api/Global/List/MissionTypeList)
-- [Skill data](/api/Global/List/SkillTypeList) 
-- [Abnormality data](/api/Global/Loader/CreatureDataLoader)
-- [Rabbit data](/api/Global/Loader/RabbitDataLoader)
-- Lyrics (see [AgentLyrics](/api/Global/Misc/AgentLyrics), [CreatureLyrics](/api/Global/Misc/CreatureLyrics))
-- [Research data](/api/Global/List/ResearchItemTypeList)
-- [Sefira yapping](/api/Global/Misc/Conversation)
-- [Angela yapping](/api/Global/Misc/AngelaConversation)
-- [Clerk special actions](/api/Global/List/OfficerSpecialActionList) - [Agent names](/api/Global/List/AgentNameList)
-- [Stage reward info](/api/Global/List/StageRewardTypeList)
-- Containment unit locations? See [SefiraManager](/api/Global/IOBserver/SefiraManager) 
-- [Sprites](/api/Global/Misc/SpriteLoadManager)
-- [Panic Data](/api/Global/List/PanicDataList) - [Hierarchical data](/api/Global/Misc/HierarchicalDataManager) 
-- [Faction](/api/Global/List/FactionTypeList) membership
-- [Item objects](/api/Global/Misc/ItemObjectManager) (unused)
-- [Random events](/api/Global/IOBserver/RandomEventManager) (unused)
+- [Font](/api/Global/UI/Text/Font/ExternalFontDataLoader)
+- [Localized text](/api/Global/Language/LocalizeTextDataLoader)
+- [Story data](/api/Global/Story/StoryDataLoader)
+- [Equipment data](/api/Global/EGO/EquipmentDataLoader)
+- [Agent titles](/api/Global/Agents-and-Clerks/Agents/Titles/AgentTitleDataLoader)
+- [Missions](/api/Global/Missions/MissionTypeList)
+- [Skill data](/api/Global/Agents-and-Clerks/Agents/Abnormality-Work/SkillTypeList) 
+- [Abnormality data](/api/Global/Abnormalities/CreatureDataLoader)
+- [Rabbit data](/api/Global/Rabbits/RabbitDataLoader)
+- Lyrics (see [AgentLyrics](/api/Global/Abnormalities/Lyrics/CreatureLyrics))
+- [Research data](/api/Global/Research/ResearchItemTypeList)
+- [Sefira yapping](/api/Global/Conversation/Conversation)
+- [Angela yapping](/api/Global/Conversation/Angela/AngelaConversation)
+- [Clerk special actions](/api/Global/Agents-and-Clerks/Agents/Names/AgentNameList)
+- [Stage reward info](/api/Global/UI/Results-and-History/StageRewardTypeList)
+- Containment unit locations? See [SefiraManager](/api/Global/Departments/SefiraManager) 
+- [Sprites](/api/Global/Sprites/SpriteLoadManager)
+- [Panic Data](/api/Global/Agents-and-Clerks/Uncontrollable-Actions/Hierarchical-Data/HierarchicalDataManager) 
+- [Faction](/api/Global/Factions/FactionTypeList) membership
+- [Item objects](/api/Global/Unused/ItemObjectManager) (unused)
+- [Random events](/api/Global/Unused/Random-Events/RandomEventManager) (unused)
 - [Worker Spine data](/api/WorkerSpine/WorkerSpineAnimatorManager)
 
 (double check that these don't need to be linked to more loaders)
@@ -354,6 +354,10 @@ public static void ReloadData()
 
 ## Inherited Members
 [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

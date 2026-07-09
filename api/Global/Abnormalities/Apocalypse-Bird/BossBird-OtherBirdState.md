@@ -16,3 +16,7 @@ public enum BossBird.OtherBirdState
 | MOVETOGATE | 1 | |
 
 
+
+
+
+

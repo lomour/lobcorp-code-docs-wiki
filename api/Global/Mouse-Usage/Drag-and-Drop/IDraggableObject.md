@@ -14,7 +14,7 @@ public interface IDraggableObject
 
 Interface for draggable objects.
 
-Used by [DeployAgentSlot](/api/Global/Misc/DeployAgentSlot), [DeploySefiraAgentSlot](/api/Global/Misc/DeploySefiraAgentSlot), and [ResearchPanel](/api/Global/Misc/ResearchPanel).
+Used by [DeployAgentSlot](/api/Global/Research/Research-UI/ResearchPanel).
 
 #### Methods
 GameObject GenDraggedObject(string name)
@@ -77,6 +77,9 @@ void OnDropEnd(Drop drop, bool state)
 ```csharp
 void OnEndDrag()
 ```
+
+
+
 
 
 

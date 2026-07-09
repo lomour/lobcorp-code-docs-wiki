@@ -17,71 +17,71 @@ Broadly, the main script for the gameplay parts of the game #inc.
 
 #### Start / InitGame -- Continue / New Game #inc
 Starts the game. Plays story mode if needed, then initializes other managers:
-- [CreatureManager](/api/Global/IOBserver/CreatureManager)
-- [OrdealManager](/api/Global/Misc/OrdealManager)
-- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
-- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+- [CreatureManager](/api/Global/Abnormalities/CreatureManager)
+- [OrdealManager](/api/Global/Abnormalities/Ordeals/OrdealManager)
+- [SpecialEventManager](/api/Global/Events/SpecialEventManager)
+- [RandomEventManager](/api/Global/Unused/Random-Events/RandomEventManager)
 - [OverlayManager](/api/Legacy/OverlayManager)
 Also resets the map if starting from day 1.
 
 #### StartStage -- Gameplay Start #inc
 When the game starts (i.e. after continuing or finishing the new game story scene #inc), calls:
-- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
-- [DeployUI](/api/Global/UI/DeployUI)
-- [BgmManager](/api/Global/IOBserver/BgmManager)
-- [EnergyModel](/api/Global/IOBserver/EnergyModel)
-- [UIEffectManager](/api/Global/Misc/UIEffectManager)
+- [SefiraBossManager](/api/Global/Core-Suppressions/SefiraBossManager)
+- [DeployUI](/api/Global/UI/Deployment-Screen/DeployUI)
+- [BgmManager](/api/Global/Audio/BgmManager)
+- [EnergyModel](/api/Global/Energy/EnergyModel)
+- [UIEffectManager](/api/Global/Visual-Effects/UIEffect/UIEffectManager)
 - [GameStatusUI](/api/GameStatusUI)
-- [MissionManager](/api/Global/IOBserver/MissionManager)
+- [MissionManager](/api/Global/Missions/MissionManager)
 
 #### StartGame -- Management Start
 Starts management phase.
 Loads Keter effects if needed, then:
 - Calls (OnStageStart):
-	- [CameraMover](/api/Global/Camera/Mover/CameraMover)
-	- [SefiraManager](/api/Global/IOBserver/SefiraManager) (OnStageStart_first)
-	- [AgentManager](/api/Global/IOBserver/AgentManager)
-	- [RabbitManager](/api/Global/Misc/RabbitManager)
-	- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
-	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
-	- [OrdealManager](/api/Global/Misc/OrdealManager)
-	- [GlobalHistory](/api/Global/IOBserver/GlobalHistory)
-	- [MissionUI](/api/Global/IOBserver/MissionUI)
+	- [CameraMover](/api/Global/Camera/CameraMover)
+	- [SefiraManager](/api/Global/Departments/SefiraManager) (OnStageStart_first)
+	- [AgentManager](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+	- [RabbitManager](/api/Global/Rabbits/RabbitManager)
+	- [RandomEventManager](/api/Global/Unused/Random-Events/RandomEventManager)
+	- [CreatureManager](/api/Global/Abnormalities/CreatureManager)
+	- [OrdealManager](/api/Global/Abnormalities/Ordeals/OrdealManager)
+	- [GlobalHistory](/api/Global/UI/Results-and-History/History/GlobalHistory)
+	- [MissionUI](/api/Global/Missions/UI/MissionUI)
 - Resets play speed in [GameStatusUI](/api/GameStatusUI)
-- Starts each [Sefira](/api/Global/Misc/Sefira) opened (OnStageStart)
-- Moves all [clerks](/api/Global/Misc/OfficerManager) to their department and starts their default actions
+- Starts each [Sefira](/api/Global/Departments/Sefira) opened (OnStageStart)
+- Moves all [clerks](/api/Global/Agents-and-Clerks/Clerks/OfficerManager) to their department and starts their default actions
 - Calls (OnStageStart):
-	- [AgentLayer](/api/Global/IOBserver/AgentLayer)
-	- [OfficerLayer](/api/Global/IOBserver/OfficerLayer)
-	- [BgmManager](/api/Global/IOBserver/BgmManager) (OnManagementStart)
-	- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
-	- [CreatureOverloadManager](/api/Global/Creature/CreatureOverloadManager)
+	- [AgentLayer](/api/Global/Game-Layers/AgentLayer)
+	- [OfficerLayer](/api/Global/Game-Layers/OfficerLayer)
+	- [BgmManager](/api/Global/Audio/BgmManager) (OnManagementStart)
+	- [SefiraBossManager](/api/Global/Core-Suppressions/SefiraBossManager)
+	- [CreatureOverloadManager](/api/Global/Qliphoth-Meltdowns/CreatureOverloadManager)
 	- [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)
 - Notifies all observers which listen for stage start
 
 #### EndGame -- Management End
 Ends the management phase.
 - Calls (OnStageEnd):
-	- [RabbitManager](/api/Global/Misc/RabbitManager)
-	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
-	- [OfficerManager](/api/Global/Misc/OfficerManager)
-	- [AgentManager](/api/Global/IOBserver/AgentManager)
-	- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
-	- [SefiraBossManager](/api/Global/IOBserver/SefiraBossManager)
-	- [CursorManager](/api/Global/Misc/CursorManager)
+	- [RabbitManager](/api/Global/Rabbits/RabbitManager)
+	- [CreatureManager](/api/Global/Abnormalities/CreatureManager)
+	- [OfficerManager](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+	- [AgentManager](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+	- [RandomEventManager](/api/Global/Unused/Random-Events/RandomEventManager)
+	- [SefiraBossManager](/api/Global/Core-Suppressions/SefiraBossManager)
+	- [CursorManager](/api/Global/Mouse-Usage/Cursor/CursorManager)
 - Removes some timers 
 #### Release -- Gameplay End
 Releases the game (e.g. exiting to title / quitting #inc)
 - Resets the camera to default
 - Calls (OnStageRelease)
-	- [RabbitManager](/api/Global/Misc/RabbitManager)
-	- [CreatureManager](/api/Global/IOBserver/CreatureManager)
-	- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
-	- [OrdealManager](/api/Global/Misc/OrdealManager)
-	- [OfficerManager](/api/Global/Misc/OfficerManager)
-	- [AgentManager](/api/Global/IOBserver/AgentManager)
-	- [PlayerModel](/api/Global/Model/PlayerModel)'s emergency controller
-	- [BgmManager](/api/Global/IOBserver/BgmManager)
+	- [RabbitManager](/api/Global/Rabbits/RabbitManager)
+	- [CreatureManager](/api/Global/Abnormalities/CreatureManager)
+	- [SpecialEventManager](/api/Global/Events/SpecialEventManager)
+	- [OrdealManager](/api/Global/Abnormalities/Ordeals/OrdealManager)
+	- [OfficerManager](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+	- [AgentManager](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+	- [PlayerModel](/api/Global/Global-Data/PlayerModel)'s emergency controller
+	- [BgmManager](/api/Global/Audio/BgmManager)
 - Saves the overlay state [OverlayManager](/api/Legacy/OverlayManager) (SaveState)
 - Calls [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)'s OnStageRelease
 - Notifies observers of OnReleaseGameManager
@@ -92,20 +92,20 @@ Returns to the intro before the title screen. Maybe.
 - Resets time
 - Ends management (EndGame)
 - Releases game, I guess (Release)
-- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s ReleaseGame 
+- Calls [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager)'s ReleaseGame 
 - Loads the intro
 
 
 #### ReturnToTitle
 Returns to the title screen.
 - Resets time
-- Sets appropriate volume for [BgmManager](/api/Global/IOBserver/BgmManager)
+- Sets appropriate volume for [BgmManager](/api/Global/Audio/BgmManager)
 - Ends management (EndGame)
 - Release game, I guess (Release)
-- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s ReleaseGame 
-- Calls [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)'s LoadGlobalData 
+- Calls [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager)'s ReleaseGame 
+- Calls [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager)'s LoadGlobalData 
 - Sets the loading screen to default
-- Loads the title screen via [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)
+- Loads the title screen via [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager)
 
 #### ReturnToCheckPoint
 Rewinds to a memory repository day
@@ -118,7 +118,7 @@ Rewinds to a memory repository day
 	- Loads from checkpoint (LoadData)
 - Initializes [CreatureGenerateInfoManager](/api/CreatureGenerate/CreatureGenerateInfoManager)
 - Sets loading screen
-- Loads main game via [GlobalGameManager](/api/Global/IOBserver/GlobalGameManager)
+- Loads main game via [GlobalGameManager](/api/Global/Global-Data/GlobalGameManager)
 
 
 #### MoveToCredit
@@ -160,13 +160,13 @@ resumes
 #### FixedUpdate
 Calls FixedUpdateProccess
 If the game is not paused, call fixed updates for:
-- [RabbitManager](/api/Global/Misc/RabbitManager)
-- [CreatureManager](/api/Global/IOBserver/CreatureManager)
-- [SpecialEventManager](/api/Global/Misc/SpecialEventManager)
-- [OrdealManager](/api/Global/Misc/OrdealManager)
-- [OfficerManager](/api/Global/Misc/OfficerManager)
-- [AgentManager](/api/Global/IOBserver/AgentManager)
-- [RandomEventManager](/api/Global/IOBserver/RandomEventManager)
+- [RabbitManager](/api/Global/Rabbits/RabbitManager)
+- [CreatureManager](/api/Global/Abnormalities/CreatureManager)
+- [SpecialEventManager](/api/Global/Events/SpecialEventManager)
+- [OrdealManager](/api/Global/Abnormalities/Ordeals/OrdealManager)
+- [OfficerManager](/api/Global/Agents-and-Clerks/Clerks/OfficerManager)
+- [AgentManager](/api/Global/Agents-and-Clerks/Agents/AgentManager)
+- [RandomEventManager](/api/Global/Unused/Random-Events/RandomEventManager)
 - [GlobalBulletManager](/api/GlobalBullet/GlobalBulletManager)
 - Every observer of FixedUpdate
 
@@ -188,13 +188,13 @@ If the energy exceeds the quota, end stage with ClearAction
 - Ends management
 - Calls the emergency controller (OnStageEnd)
 - Notifies observers of OnStageEnd
-- Displays the [results screen](/api/Global/IANimatorEventCalled/ResultScreen)
+- Displays the [results screen](/api/Global/UI/Results-and-History/ResultScreen)
 
 #### ExitStage
 - Resets time
-- Calls next day in [PlayerModel](/api/Global/Model/PlayerModel)
+- Calls next day in [PlayerModel](/api/Global/Global-Data/PlayerModel)
 - Releases with Release
-- Updates [GlobalEtcDataModel](/api/Global/Model/GlobalEtcDataModel)'s day1clearCount 
+- Updates [GlobalEtcDataModel](/api/Global/Save-Data/GlobalEtcDataModel)'s day1clearCount 
 - In unlimited mode:
 	- Sets loading screen to DayEndScene
 	- if past day 99 exits to intro
@@ -219,7 +219,7 @@ Gets whatever paused the game
 Gets the LOB amount for the day, accounting for penalties and Malkuth's bonus
 
 #### int GetPenaltyValueByCreature
-Penalty for breaching abnormalities; equal to the sum of risk levels, except breaching Alephs, who add 1000. [Army in Black](/api/Global/Misc/BlackCorps) is an Aleph when breaching.
+Penalty for breaching abnormalities; equal to the sum of risk levels, except breaching Alephs, who add 1000. [Army in Black](/api/Global/Abnormalities/Army-in-Black/BlackCorps) is an Aleph when breaching.
 
 #### float GetPenaltyValueByDead
 LOB multiplier for survival rate.
@@ -725,6 +725,10 @@ private void UpdateGameSpeed()
 
 ## Inherited Members
 [Internal_CancelInvokeAll()](#), [Internal_IsInvokingAll()](#), [Invoke(string, float)](https://learn.microsoft.com/dotnet/api/system.string), [InvokeRepeating(string, float, float)](https://learn.microsoft.com/dotnet/api/system.string), [CancelInvoke()](#), [CancelInvoke(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking(string)](https://learn.microsoft.com/dotnet/api/system.string), [IsInvoking()](#), [StartCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine_Auto_Internal(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StartCoroutine(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [StartCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(string)](https://learn.microsoft.com/dotnet/api/system.string), [StopCoroutine(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine(Coroutine)](#), [StopCoroutineViaEnumerator_Auto(IEnumerator)](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator), [StopCoroutine_Auto(Coroutine)](#), [StopAllCoroutines()](#), [print(object)](https://learn.microsoft.com/dotnet/api/system.object), [GetScriptClassName()](#), [useGUILayout](#), [enabled](#), [isActiveAndEnabled](#), [GetComponent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentFastPath(Type, IntPtr)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponent<T>()](#), [GetComponent(string)](https://learn.microsoft.com/dotnet/api/system.string), [GetComponentInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInChildren<T>()](#), [GetComponentInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInChildren<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInChildren<T>()](#), [GetComponentsInChildren<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponentInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentInParent<T>()](#), [GetComponentsInParent(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent(Type, bool)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsInParent<T>(bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>(bool, List<T>)](https://learn.microsoft.com/dotnet/api/system.boolean), [GetComponentsInParent<T>()](#), [GetComponents(Type)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponentsForListInternal(Type, object)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents(Type, List<Component>)](https://learn.microsoft.com/dotnet/api/system.type), [GetComponents<T>(List<T>)](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1), [GetComponents<T>()](#), [CompareTag(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessageUpwards(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [SendMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, object)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string)](https://learn.microsoft.com/dotnet/api/system.string), [BroadcastMessage(string, SendMessageOptions)](https://learn.microsoft.com/dotnet/api/system.string), [transform](#), [gameObject](#), [tag](#), [m_CachedPtr](#), [OffsetOfInstanceIDInCPlusPlusObject](#), [Internal_CloneSingle(Object)](#), [Internal_CloneSingleWithParent(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Internal_InstantiateSingle(Object, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingle(Object, ref Vector3, ref Quaternion)](#), [Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)](#), [INTERNAL_CALL_Internal_InstantiateSingleWithParent(Object, Transform, ref Vector3, ref Quaternion)](#), [GetOffsetOfInstanceIDInCPlusPlusObject()](#), [EnsureRunningOnMainThread()](#), [Destroy(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [Destroy(Object)](#), [DestroyImmediate(Object, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [DestroyImmediate(Object)](#), [FindObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [DontDestroyOnLoad(Object)](#), [DestroyObject(Object, float)](https://learn.microsoft.com/dotnet/api/system.single), [DestroyObject(Object)](#), [FindSceneObjectsOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeIncludingAssets(Type)](https://learn.microsoft.com/dotnet/api/system.type), [FindObjectsOfTypeAll(Type)](https://learn.microsoft.com/dotnet/api/system.type), [ToString()](#), [DoesObjectWithInstanceIDExist(int)](https://learn.microsoft.com/dotnet/api/system.int32), [GetInstanceID()](#), [GetHashCode()](#), [Equals(object)](https://learn.microsoft.com/dotnet/api/system.object), [CompareBaseObjects(Object, Object)](#), [IsNativeObjectAlive(Object)](#), [GetCachedPtr()](#), [Instantiate(Object, Vector3, Quaternion)](#), [Instantiate(Object, Vector3, Quaternion, Transform)](#), [Instantiate(Object)](#), [Instantiate(Object, Transform)](#), [Instantiate(Object, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [Instantiate<T>(T)](#), [Instantiate<T>(T, Vector3, Quaternion)](#), [Instantiate<T>(T, Vector3, Quaternion, Transform)](#), [Instantiate<T>(T, Transform)](#), [Instantiate<T>(T, Transform, bool)](https://learn.microsoft.com/dotnet/api/system.boolean), [FindObjectsOfType<T>()](#), [FindObjectOfType<T>()](#), [CheckNullArgument(object, string)](https://learn.microsoft.com/dotnet/api/system.object), [FindObjectOfType(Type)](https://learn.microsoft.com/dotnet/api/system.type), [name](#), [hideFlags](#), [Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)), [GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype), [MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone), [ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals), [InternalGetHashCode(object)](https://learn.microsoft.com/dotnet/api/system.object.internalgethashcode), [obj_address()](https://learn.microsoft.com/dotnet/api/system.object.obj_address), [FieldGetter(string, string, ref object)](https://learn.microsoft.com/dotnet/api/system.object.fieldgetter), [FieldSetter(string, string, object)](https://learn.microsoft.com/dotnet/api/system.object.fieldsetter)
+
+
+
+
 
 
 

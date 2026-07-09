@@ -15,3 +15,7 @@ public enum SefiraBossCloseEffectType
 | DEFAULT | 0 | |
 
 
+
+
+
+

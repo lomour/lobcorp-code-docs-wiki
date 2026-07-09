@@ -18,3 +18,7 @@ public enum SpriteRegion
 | WEAPON | 3 | |
 | ATTACHMENT | 4 | |
 
+
+
+
+

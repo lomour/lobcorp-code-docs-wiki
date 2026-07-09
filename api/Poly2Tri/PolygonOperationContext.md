@@ -202,3 +202,7 @@ private bool VerticesIntersect(Point2DList polygon1, Point2DList polygon2, out L
 
 
 
+
+
+
+

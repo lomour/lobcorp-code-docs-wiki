@@ -15,3 +15,8 @@ public enum InventoryItemType
 | WEAPON | 0 | |
 | ARMOR | 1 | |
 
+
+
+
+
+
